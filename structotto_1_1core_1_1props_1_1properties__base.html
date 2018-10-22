@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::props::properties_base Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -68,6 +74,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>Non-virtual base class for <a class="el" href="structotto_1_1core_1_1props_1_1_properties.html">Properties</a>.  
+ <a href="structotto_1_1core_1_1props_1_1properties__base.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="base_8hpp_source.html">base.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for otto::core::props::properties_base:</div>
@@ -75,7 +84,7 @@ Inheritance diagram for otto::core::props::properties_base:</div>
  <div class="center">
   <img src="structotto_1_1core_1_1props_1_1properties__base.png" usemap="#otto::core::props::properties_5Fbase_map" alt=""/>
   <map id="otto::core::props::properties_5Fbase_map" name="otto::core::props::properties_5Fbase_map">
-<area href="structotto_1_1core_1_1props_1_1branch__base.html" alt="otto::core::props::branch_base" shape="rect" coords="0,56,239,80"/>
+<area href="structotto_1_1core_1_1props_1_1branch__base.html" title="Base class of all property branches. " alt="otto::core::props::branch_base" shape="rect" coords="0,56,239,80"/>
 <area href="structotto_1_1core_1_1props_1_1property__base.html" title="Base class of all properties, leaves and branches both. " alt="otto::core::props::property_base" shape="rect" coords="0,0,239,24"/>
 <area href="structotto_1_1core_1_1props_1_1_properties_impl.html" alt="otto::core::props::PropertiesImpl&lt; Tags &gt;" shape="rect" coords="0,168,239,192"/>
 </map>
@@ -132,7 +141,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a6c18068834be47f90b10cc8c1544bb9a inherit pub_types_structotto_1_1core_1_1props_1_1branch__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Non-virtual base class for <a class="el" href="structotto_1_1core_1_1props_1_1_properties.html">Properties</a></p>
+<div class="textblock"><p>Non-virtual base class for <a class="el" href="structotto_1_1core_1_1props_1_1_properties.html">Properties</a>. </p>
 <p>Useful to get the adress of a common base class for branches, before the branch has been constructed. This is used in engines, where the base class AnyEngine is passed the adress of the engines <code>props</code> member, as a pointer to this type. At that point in construction <code>props</code> has not yet been constructed, so its v-table isn't set up, and it therefore cannot be converted to a virtual base class. </p>
 
 <p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00132">132</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
@@ -142,24 +151,15 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">otto::core::props::branch_base::branch_base</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00097">97</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;: <a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#add4a5e250add03e9acb340a9cd3df44c">property_base</a>(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;&quot;</span>) {}</div><div class="ttc" id="structotto_1_1core_1_1props_1_1property__base_html_add4a5e250add03e9acb340a9cd3df44c"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1property__base.html#add4a5e250add03e9acb340a9cd3df44c">otto::core::props::property_base::property_base</a></div><div class="ttdeci">property_base(branch_base *parent=nullptr, std::string const &amp;name=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="base_8cpp_source.html#l00005">base.cpp:5</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

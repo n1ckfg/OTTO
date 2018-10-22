@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::ui::widgets::Waveform&lt; Container &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -81,8 +87,8 @@ Inheritance diagram for otto::core::ui::widgets::Waveform&lt; Container &gt;:</d
  <div class="center">
   <img src="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.png" usemap="#otto::core::ui::widgets::Waveform_3C_20Container_20_3E_map" alt=""/>
   <map id="otto::core::ui::widgets::Waveform_3C_20Container_20_3E_map" name="otto::core::ui::widgets::Waveform_3C_20Container_20_3E_map">
-<area href="structotto_1_1core_1_1ui_1_1_widget.html" alt="otto::core::ui::Widget" shape="rect" coords="0,56,270,80"/>
-<area href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html" alt="otto::core::ui::vg::Drawable" shape="rect" coords="0,0,270,24"/>
+<area href="structotto_1_1core_1_1ui_1_1_widget.html" title="A [Drawable]() with a defined size. " alt="otto::core::ui::Widget" shape="rect" coords="0,56,270,80"/>
+<area href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html" title="Anything that can be drawn on screen. " alt="otto::core::ui::vg::Drawable" shape="rect" coords="0,0,270,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -100,15 +106,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae3924fa8cb285ec9dba0aaa7d8d9c435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d840904543436c81bb90a6c586ba496"><td class="memTemplParams" colspan="2">template&lt;typename Plotter &gt; </td></tr>
 <tr class="memitem:a6d840904543436c81bb90a6c586ba496"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a6d840904543436c81bb90a6c586ba496">draw</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">vg::Canvas</a> &amp;, Plotter &amp;&amp;)</td></tr>
+<tr class="memdesc:a6d840904543436c81bb90a6c586ba496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the entire waveform using <code>Plotter</code>  <a href="#a6d840904543436c81bb90a6c586ba496">More...</a><br /></td></tr>
 <tr class="separator:a6d840904543436c81bb90a6c586ba496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67e761916e7c619c3de7740fac844c67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a67e761916e7c619c3de7740fac844c67">draw_range</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">vg::Canvas</a> &amp;, <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a5ca681c9508eb57ba4b9c415d210f6d1">Range</a> subrange)</td></tr>
+<tr class="memdesc:a67e761916e7c619c3de7740fac844c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a subset of the waveform using the default plotter (<code>plotRounded</code>).  <a href="#a67e761916e7c619c3de7740fac844c67">More...</a><br /></td></tr>
 <tr class="separator:a67e761916e7c619c3de7740fac844c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6ff52231f37d0a1f1b0c1c5b8f0bdaa"><td class="memTemplParams" colspan="2">template&lt;typename Plotter &gt; </td></tr>
 <tr class="memitem:ab6ff52231f37d0a1f1b0c1c5b8f0bdaa"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#ab6ff52231f37d0a1f1b0c1c5b8f0bdaa">draw_range</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">vg::Canvas</a> &amp;, <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a5ca681c9508eb57ba4b9c415d210f6d1">Range</a> subrange, Plotter &amp;&amp;)</td></tr>
+<tr class="memdesc:ab6ff52231f37d0a1f1b0c1c5b8f0bdaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw a subset of the waveform using <code>Plotter</code>.  <a href="#ab6ff52231f37d0a1f1b0c1c5b8f0bdaa">More...</a><br /></td></tr>
 <tr class="separator:ab6ff52231f37d0a1f1b0c1c5b8f0bdaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca39ad3979d5898b4e1a504ab9479535"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a5ca681c9508eb57ba4b9c415d210f6d1">Range</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#aca39ad3979d5898b4e1a504ab9479535">range</a> () const</td></tr>
+<tr class="memdesc:aca39ad3979d5898b4e1a504ab9479535"><td class="mdescLeft">&#160;</td><td class="mdescRight">The viewed range.  <a href="#aca39ad3979d5898b4e1a504ab9479535">More...</a><br /></td></tr>
 <tr class="separator:aca39ad3979d5898b4e1a504ab9479535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfe5ad61cf2ff1d94c744ff9ac36faa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#abfe5ad61cf2ff1d94c744ff9ac36faa0">range</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a5ca681c9508eb57ba4b9c415d210f6d1">Range</a> r)</td></tr>
+<tr class="memdesc:abfe5ad61cf2ff1d94c744ff9ac36faa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the viewed range.  <a href="#abfe5ad61cf2ff1d94c744ff9ac36faa0">More...</a><br /></td></tr>
 <tr class="separator:abfe5ad61cf2ff1d94c744ff9ac36faa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7198247e377e7007a51c44513c772609"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a7198247e377e7007a51c44513c772609">top_val</a> () const</td></tr>
 <tr class="separator:a7198247e377e7007a51c44513c772609"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,9 +185,6 @@ template&lt;typename Container &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::<a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">Waveform</a> </td>
@@ -202,18 +210,10 @@ template&lt;typename Container &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00018">18</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      : <a class="code" href="structotto_1_1core_1_1ui_1_1_widget.html#a09638aa7b6ee08239901110b953a2559">Widget</a> {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a03c7c0ace395d80182db07ae2c30f034">s</a>},</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        _top_val {<a class="code" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a7198247e377e7007a51c44513c772609">top_val</a>},</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        container {cont}</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {}</div><div class="ttc" id="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform_html_a7198247e377e7007a51c44513c772609"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a7198247e377e7007a51c44513c772609">otto::core::ui::widgets::Waveform::top_val</a></div><div class="ttdeci">float top_val() const</div><div class="ttdef"><b>Definition:</b> <a href="waveform__widget_8hpp_source.html#l00076">waveform_widget.hpp:76</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1_widget_html_a09638aa7b6ee08239901110b953a2559"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1_widget.html#a09638aa7b6ee08239901110b953a2559">otto::core::ui::Widget::Widget</a></div><div class="ttdeci">Widget()</div><div class="ttdef"><b>Definition:</b> <a href="screen_8hpp_source.html#l00045">screen.hpp:45</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a03c7c0ace395d80182db07ae2c30f034"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a03c7c0ace395d80182db07ae2c30f034">otto::board::ui::Key::s</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -238,7 +238,7 @@ template&lt;typename C &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -250,8 +250,7 @@ template&lt;typename C &gt; </div>
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00159">159</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00493">otto::core::ui::vg::Canvas::plotRounded()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  {</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#ae3924fa8cb285ec9dba0aaa7d8d9c435">draw</a>(ctx, [&amp;] (vg::Canvas&amp; ctx, <span class="keyword">auto</span> first, <span class="keyword">auto</span> last) {</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        ctx.plotRounded(first, last, point_cache.radius);</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      });</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  }</div><div class="ttc" id="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform_html_ae3924fa8cb285ec9dba0aaa7d8d9c435"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#ae3924fa8cb285ec9dba0aaa7d8d9c435">otto::core::ui::widgets::Waveform::draw</a></div><div class="ttdeci">void draw(vg::Canvas &amp;)</div><div class="ttdoc">Draw the entire waveform using the default plotter (plotRounded). </div><div class="ttdef"><b>Definition:</b> <a href="waveform__widget_8hpp_source.html#l00159">waveform_widget.hpp:159</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a6d840904543436c81bb90a6c586ba496"></a>
@@ -263,9 +262,6 @@ template&lt;typename C &gt; </div>
 template&lt;typename C &gt; </div>
 <div class="memtemplate">
 template&lt;typename Plotter &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; C &gt;::draw </td>
@@ -285,17 +281,15 @@ template&lt;typename Plotter &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Draw the entire waveform using <code>Plotter</code></p>
+
+<p>Draw the entire waveform using <code>Plotter</code> </p>
 <p><code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00168">168</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  {</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">if</span> (point_cache-&gt;points.size() == 0) <span class="keywordflow">return</span>;</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    std::invoke(std::forward&lt;Plotter&gt;(p),</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      ctx,</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      std::begin(point_cache-&gt;points),</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      std::end(point_cache-&gt;points));</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  }</div></div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01171">otto::filesystem::begin()</a>, and <a class="el" href="filesystem_8cpp_source.html#l01176">otto::filesystem::end()</a>.</p>
+
 </div>
 </div>
 <a id="a67e761916e7c619c3de7740fac844c67"></a>
@@ -305,9 +299,6 @@ template&lt;typename Plotter &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename C &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; C &gt;::draw_range </td>
@@ -327,13 +318,9 @@ template&lt;typename C &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Draw a subset of the waveform using the default plotter (<code>plotRounded</code>).</p>
+
+<p>Draw a subset of the waveform using the default plotter (<code>plotRounded</code>). </p>
 <p>Useful for colouring different parts differently.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -346,8 +333,7 @@ template&lt;typename C &gt; </div>
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00178">178</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00493">otto::core::ui::vg::Canvas::plotRounded()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  {</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <a class="code" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a67e761916e7c619c3de7740fac844c67">draw_range</a>(ctx, subrange, [&amp;](vg::Canvas&amp; ctx, <span class="keyword">auto</span> first, <span class="keyword">auto</span> last) {</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;      ctx.plotRounded(first, last, point_cache.radius);</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    });</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  }</div><div class="ttc" id="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform_html_a67e761916e7c619c3de7740fac844c67"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a67e761916e7c619c3de7740fac844c67">otto::core::ui::widgets::Waveform::draw_range</a></div><div class="ttdeci">void draw_range(vg::Canvas &amp;, Range subrange)</div><div class="ttdef"><b>Definition:</b> <a href="waveform__widget_8hpp_source.html#l00178">waveform_widget.hpp:178</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ab6ff52231f37d0a1f1b0c1c5b8f0bdaa"></a>
@@ -359,9 +345,6 @@ template&lt;typename C &gt; </div>
 template&lt;typename C &gt; </div>
 <div class="memtemplate">
 template&lt;typename Plotter &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; C &gt;::draw_range </td>
@@ -387,13 +370,9 @@ template&lt;typename Plotter &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Draw a subset of the waveform using <code>Plotter</code>.</p>
+
+<p>Draw a subset of the waveform using <code>Plotter</code>. </p>
 <p>Useful for colouring different parts differently.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -406,116 +385,8 @@ template&lt;typename Plotter &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00187">187</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00082">otto::util::audio::Section&lt; T &gt;::out</a>.</p>
-<div class="fragment"><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  {</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">if</span> (point_cache-&gt;points.size() == 0) <span class="keywordflow">return</span>;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    std::invoke(</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      std::forward&lt;Plotter&gt;(p), ctx,</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      std::begin(point_cache-&gt;points) +</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        std::max(0.f,</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                 std::floor((subrange.in - _range.<a class="code" href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">in</a>) / point_cache-&gt;sp2r)),</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      std::begin(point_cache-&gt;points) +</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        std::max(0.f,</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                 std::ceil((subrange.out - _range.<a class="code" href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">in</a>) / point_cache-&gt;sp2r)));</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_section_html_afbb0832cad5d2e3bc87a62dcff079ef5"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">otto::util::audio::Section::in</a></div><div class="ttdeci">T in</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00081">audio.hpp:81</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a65e4721195fb92fee0b2fc5803b2deb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65e4721195fb92fee0b2fc5803b2deb6">&#9670;&nbsp;</a></span>point()</h2>
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01171">otto::filesystem::begin()</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00082">otto::util::audio::Section&lt; T &gt;::out</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html">vg::Point</a> <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::point </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the graphical point for a sample index. </p>
-
-<p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00089">89</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
-<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keywordflow">if</span> (point_cache-&gt;points.size() == 0) <span class="keywordflow">return</span> {0, <a class="code" href="structotto_1_1core_1_1ui_1_1_widget.html#aedf83404e4430a25d718319d35eb734c">size</a>.<a class="code" href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a9d948d375b81d2fcea9ec8b36bc23cdf">h</a>};</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      <span class="keywordflow">return</span> point_cache-&gt;points[</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        std::clamp(</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          <span class="keywordtype">int</span>(std::round((index - _range.<a class="code" href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">in</a>) / point_cache-&gt;sp2r)),</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;          0, <span class="keywordtype">int</span>(point_cache-&gt;points.size() - 1))];</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_section_html_afbb0832cad5d2e3bc87a62dcff079ef5"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">otto::util::audio::Section::in</a></div><div class="ttdeci">T in</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00081">audio.hpp:81</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1vg_1_1_size_html_a9d948d375b81d2fcea9ec8b36bc23cdf"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a9d948d375b81d2fcea9ec8b36bc23cdf">otto::core::ui::vg::Size::h</a></div><div class="ttdeci">float h</div><div class="ttdef"><b>Definition:</b> <a href="canvas_8hpp_source.html#l00081">canvas.hpp:81</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1_widget_html_aedf83404e4430a25d718319d35eb734c"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1_widget.html#aedf83404e4430a25d718319d35eb734c">otto::core::ui::Widget::size</a></div><div class="ttdeci">vg::Size size</div><div class="ttdef"><b>Definition:</b> <a href="screen_8hpp_source.html#l00043">screen.hpp:43</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a005cf55e4757bbdcc75f1e1d86c10da8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a005cf55e4757bbdcc75f1e1d86c10da8">&#9670;&nbsp;</a></span>point_ceil()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html">vg::Point</a> <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::point_ceil </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00107">107</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
-<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="keywordflow">if</span> (point_cache-&gt;points.size() == 0) <span class="keywordflow">return</span> {0, <a class="code" href="structotto_1_1core_1_1ui_1_1_widget.html#aedf83404e4430a25d718319d35eb734c">size</a>.<a class="code" href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a9d948d375b81d2fcea9ec8b36bc23cdf">h</a>};</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <span class="keywordflow">return</span> point_cache-&gt;points[</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        std::clamp(</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;          <span class="keywordtype">int</span>(std::ceil((index - _range.<a class="code" href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">in</a>) / point_cache-&gt;sp2r)),</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;          0, <span class="keywordtype">int</span>(point_cache-&gt;points.size() - 1))];</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_section_html_afbb0832cad5d2e3bc87a62dcff079ef5"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">otto::util::audio::Section::in</a></div><div class="ttdeci">T in</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00081">audio.hpp:81</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1vg_1_1_size_html_a9d948d375b81d2fcea9ec8b36bc23cdf"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a9d948d375b81d2fcea9ec8b36bc23cdf">otto::core::ui::vg::Size::h</a></div><div class="ttdeci">float h</div><div class="ttdef"><b>Definition:</b> <a href="canvas_8hpp_source.html#l00081">canvas.hpp:81</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1_widget_html_aedf83404e4430a25d718319d35eb734c"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1_widget.html#aedf83404e4430a25d718319d35eb734c">otto::core::ui::Widget::size</a></div><div class="ttdeci">vg::Size size</div><div class="ttdef"><b>Definition:</b> <a href="screen_8hpp_source.html#l00043">screen.hpp:43</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a271ec75d2bff1edac2ca0ef2f27d18d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a271ec75d2bff1edac2ca0ef2f27d18d1">&#9670;&nbsp;</a></span>point_floor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html">vg::Point</a> <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::point_floor </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00098">98</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
-<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="keywordflow">if</span> (point_cache-&gt;points.size() == 0) <span class="keywordflow">return</span> {0, <a class="code" href="structotto_1_1core_1_1ui_1_1_widget.html#aedf83404e4430a25d718319d35eb734c">size</a>.<a class="code" href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a9d948d375b81d2fcea9ec8b36bc23cdf">h</a>};</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordflow">return</span> point_cache-&gt;points[</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        std::clamp(</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          <span class="keywordtype">int</span>(std::floor((index - _range.<a class="code" href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">in</a>) / point_cache-&gt;sp2r)),</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;          0, <span class="keywordtype">int</span>(point_cache-&gt;points.size() - 1))];</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_section_html_afbb0832cad5d2e3bc87a62dcff079ef5"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_section.html#afbb0832cad5d2e3bc87a62dcff079ef5">otto::util::audio::Section::in</a></div><div class="ttdeci">T in</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00081">audio.hpp:81</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1vg_1_1_size_html_a9d948d375b81d2fcea9ec8b36bc23cdf"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a9d948d375b81d2fcea9ec8b36bc23cdf">otto::core::ui::vg::Size::h</a></div><div class="ttdeci">float h</div><div class="ttdef"><b>Definition:</b> <a href="canvas_8hpp_source.html#l00081">canvas.hpp:81</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1_widget_html_aedf83404e4430a25d718319d35eb734c"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1_widget.html#aedf83404e4430a25d718319d35eb734c">otto::core::ui::Widget::size</a></div><div class="ttdeci">vg::Size size</div><div class="ttdef"><b>Definition:</b> <a href="screen_8hpp_source.html#l00043">screen.hpp:43</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="aca39ad3979d5898b4e1a504ab9479535"></a>
@@ -525,9 +396,6 @@ template&lt;typename Container &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a5ca681c9508eb57ba4b9c415d210f6d1">Range</a> <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::range </td>
@@ -536,16 +404,13 @@ template&lt;typename Container &gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>The viewed range. Start and end indexes into the container coresponding to left/right edges of the widget </p>
+
+<p>The viewed range. </p>
+<p>Start and end indexes into the container coresponding to left/right edges of the widget </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00061">61</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                        {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <span class="keywordflow">return</span> _range;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="abfe5ad61cf2ff1d94c744ff9ac36faa0"></a>
@@ -555,9 +420,6 @@ template&lt;typename Container &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::range </td>
@@ -567,18 +429,13 @@ template&lt;typename Container &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Set the viewed range</p>
+
+<p>Set the viewed range. </p>
 <p>Invalidates the cache if the new value is different from the old </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00068">68</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      <span class="keywordflow">if</span> (r != _range) {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        _range = {std::max(0, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.in), <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.out};</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        point_cache.invalidate();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      }</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a7198247e377e7007a51c44513c772609"></a>
@@ -588,9 +445,6 @@ template&lt;typename Container &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">float <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::top_val </td>
@@ -599,15 +453,10 @@ template&lt;typename Container &gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00076">76</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                          {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keywordflow">return</span> _top_val;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a5577decc877f9a91e431240724a7ae73"></a>
@@ -617,9 +466,6 @@ template&lt;typename Container &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::top_val </td>
@@ -629,16 +475,84 @@ template&lt;typename Container &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00080">80</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      <span class="keywordflow">if</span> (v != _top_val) {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        _top_val = <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a9e3669d19b675bd57058fd4664205d2a">v</a>;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        point_cache.invalidate();</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      }</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a9e3669d19b675bd57058fd4664205d2a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a9e3669d19b675bd57058fd4664205d2a">otto::board::ui::Key::v</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a65e4721195fb92fee0b2fc5803b2deb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e4721195fb92fee0b2fc5803b2deb6">&#9670;&nbsp;</a></span>point()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Container &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html">vg::Point</a> <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::point </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the graphical point for a sample index. </p>
+
+<p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00089">89</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, <a class="el" href="math_8hpp_source.html#l00015">otto::util::math::round()</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
+
+</div>
+</div>
+<a id="a271ec75d2bff1edac2ca0ef2f27d18d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a271ec75d2bff1edac2ca0ef2f27d18d1">&#9670;&nbsp;</a></span>point_floor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Container &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html">vg::Point</a> <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::point_floor </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00098">98</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
+
+</div>
+</div>
+<a id="a005cf55e4757bbdcc75f1e1d86c10da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a005cf55e4757bbdcc75f1e1d86c10da8">&#9670;&nbsp;</a></span>point_ceil()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Container &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html">vg::Point</a> <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html">otto::core::ui::widgets::Waveform</a>&lt; Container &gt;::point_ceil </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00107">107</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

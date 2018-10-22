@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -74,9 +80,6 @@
 , <a class="el" href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html#ae82aadff64b7031cd2ed9b07c6d9ec8b">otto::core::engines::internal::wrapper&lt; T &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html#ac66ff01e45cb9f8c370a511678888ce7">otto::core::midi::ControlChangeEvent</a>
 , <a class="el" href="structotto_1_1core_1_1props_1_1compare__tags.html#a09a363856f69554a0b2b30f6143164c7">otto::core::props::compare_tags&lt; Tag1, Tag2 &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1props_1_1detail_1_1is__disabler.html#addef5d59a8f8f8bd73b63102db4df1c8">otto::core::props::detail::is_disabler&lt; Tag &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1props_1_1detail_1_1is__disabler_3_01no_3_01_tag_01_4_01_4.html#a70efa91631ce0742b0a696744b025e6b">otto::core::props::detail::is_disabler&lt; no&lt; Tag &gt; &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1props_1_1is__initializer_3_01_initializer_00_01std_1_1void__t_3_01decltype816d41b5dc88ddab65fafe5c18e65165.html#a4a9cc36d1ca10120f0337faa5aea9a52">otto::core::props::is_initializer&lt; Initializer, std::void_t&lt; decltype(Initializer::_this_is_a_mixin_initializer_type_), typename Initializer::tag_type &gt; &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html#a9d7ca276b7c499febf7bf2514e89e25f">otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</a>
 , <a class="el" href="structotto_1_1meta_1_1compare_3_01c_3_01_i1_01_4_00_01c_3_01_i2_01_4_01_4.html#a4e4f690e0c83ddda3f8988a47e800d80">otto::meta::compare&lt; c&lt; I1 &gt;, c&lt; I2 &gt; &gt;</a>
 , <a class="el" href="structotto_1_1meta_1_1contains_3_01list_3_01_types_8_8_8_01_4_00_01_t_01_4.html#a440dfe2e59e7ec68ad4b1ccfaa13265a">otto::meta::contains&lt; list&lt; Types... &gt;, T &gt;</a>
@@ -105,7 +108,6 @@
 , <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#a50d720febad6c0253d9c4b9b796d708f">otto::filesystem::path::iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path.html#a7ffc721c470cb13e6d7ccb4486d84ab0">otto::filesystem::path</a>
 , <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#ac79454d1b1503b312d23ee320e0bfc40">otto::filesystem::recursive_directory_iterator</a>
-, <a class="el" href="structotto_1_1util_1_1detail_1_1_adjacent_iter_impl.html#a4eb6dca12383f7c2ed262893d895777b">otto::util::detail::AdjacentIterImpl&lt; Iter &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1_filter_iter_impl.html#a570d487e8eac53300493efd12ef61f4a">otto::util::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#afa9270037085a6348e271582eee6ccac">otto::util::float_step_iterator&lt; I, V &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1_generating_iter_impl.html#acad416c3d2e77381591d7391ee9a25c0">otto::util::GeneratingIterImpl&lt; Generator &gt;</a>
@@ -122,7 +124,7 @@
 <li>vec()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html#a68018bf83a16ad1b8eeb94bd0d035a16">otto::core::ui::vg::Point</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a9fd0e3f4f94051ced755e65a85a73b03">otto::core::ui::vg::Size</a>
-, <a class="el" href="structotto_1_1util_1_1math_1_1vec.html#ab0d2fe468a01a5f6867f932358097120">otto::util::math::vec</a>
+, <a class="el" href="structotto_1_1util_1_1math_1_1vec.html#ad89d8ef064d5c1a35229b4ebedd8e6a0">otto::util::math::vec</a>
 </li>
 <li>velocity
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_voice_props_1_1_midi.html#a2ca5b39e153648890a5cf5984eee1d09">otto::core::audio::VoiceProps::Midi</a>

@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -67,15 +73,15 @@
 
 <p>This is the complete list of members for <a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ab81063d0d5e0b4f9007f13a118559b21">atomic_swap</a>(const T &amp;inner, const T &amp;outer) noexcept(std::is_nothrow_copy_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ab7bb4307fe61011fd2abfeabbacc1dc1">atomic_swap</a>(T &amp;&amp;inner, const T &amp;outer) noexcept(std::is_nothrow_copy_constructible_v&lt; T &gt; &amp;&amp;std::is_nothrow_move_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#a16d04b2e91de0d62303bd5785b553198">atomic_swap</a>(const T &amp;inner, T &amp;&amp;outer=T{}) noexcept(std::is_nothrow_copy_constructible_v&lt; T &gt; &amp;&amp;std::is_nothrow_move_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#acd948c7ccd3697672543e345f9a19896">atomic_swap</a>(T &amp;&amp;inner=T{}, T &amp;&amp;outer=T{}) noexcept(std::is_nothrow_move_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#afe32087568ecd6b2b5a3b5283e7134cb">inner</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ad49a1c3f5c81ce79cdebc794cdcdebec">inner</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#adfe10d4563ce7a05984f19c2aa483828">outer</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ac3062c8cce0d33a7198d4ebb5fd82452">outer</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#aca95110170370db146100c4115ec5c90">swap</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ab81063d0d5e0b4f9007f13a118559b21">atomic_swap</a>(const T &amp;inner, const T &amp;outer) noexcept(std::is_nothrow_copy_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ab7bb4307fe61011fd2abfeabbacc1dc1">atomic_swap</a>(T &amp;&amp;inner, const T &amp;outer) noexcept(std::is_nothrow_copy_constructible_v&lt; T &gt; &amp;&amp;std::is_nothrow_move_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#a16d04b2e91de0d62303bd5785b553198">atomic_swap</a>(const T &amp;inner, T &amp;&amp;outer=T{}) noexcept(std::is_nothrow_copy_constructible_v&lt; T &gt; &amp;&amp;std::is_nothrow_move_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#acd948c7ccd3697672543e345f9a19896">atomic_swap</a>(T &amp;&amp;inner=T{}, T &amp;&amp;outer=T{}) noexcept(std::is_nothrow_move_constructible_v&lt; T &gt;)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#afe32087568ecd6b2b5a3b5283e7134cb">inner</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ad49a1c3f5c81ce79cdebc794cdcdebec">inner</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#adfe10d4563ce7a05984f19c2aa483828">outer</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#ac3062c8cce0d33a7198d4ebb5fd82452">outer</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#aca95110170370db146100c4115ec5c90">swap</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">otto::util::atomic_swap&lt; T &gt;</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

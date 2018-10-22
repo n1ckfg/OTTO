@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::TAPEChunk Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -127,9 +133,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">otto::util::TAPEChunk::TAPEChunk </td>
@@ -139,16 +142,10 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00034">34</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;: <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">Chunk</a>(c) {}</div><div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_chunk_html_ac951dbb7daee6b6738cfe9cd56ef856a"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">otto::util::ByteFile::Chunk::Chunk</a></div><div class="ttdeci">Chunk(bytes&lt; 4 &gt; id={0, 0, 0, 0})</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00145">bytefile.hpp:145</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a4f7ec4d1e02a886df7036c403c4fa4ef"></a>
@@ -156,9 +153,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">otto::util::TAPEChunk::TAPEChunk </td>
@@ -167,54 +161,13 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00035">35</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;: <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">Chunk</a>(<span class="stringliteral">&quot;TAPE&quot;</span>) {}</div><div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_chunk_html_ac951dbb7daee6b6738cfe9cd56ef856a"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">otto::util::ByteFile::Chunk::Chunk</a></div><div class="ttdeci">Chunk(bytes&lt; 4 &gt; id={0, 0, 0, 0})</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00145">bytefile.hpp:145</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8bbf0b075e3fcc296baf028ed02528f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bbf0b075e3fcc296baf028ed02528f8">&#9670;&nbsp;</a></span>read_fields()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::util::TAPEChunk::read_fields </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1_byte_file.html">ByteFile</a> &amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#aa7f7400ff0136aa88aba253ebec616cd">otto::util::ByteFile::Chunk</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00047">47</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="tapefile_8cpp_source.html#l00038">tracks</a>, and <a class="el" href="tapefile_8cpp_source.html#l00036">version</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                           {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.read_bytes(<a class="code" href="structotto_1_1util_1_1_t_a_p_e_chunk.html#ad5fc638e273ecc66e5a56ec0f473012f">version</a>).unwrap_ok();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; trck : <a class="code" href="structotto_1_1util_1_1_t_a_p_e_chunk.html#aaf08ca29adca25da392db3581232eea5">tracks</a>) {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        trck.read(f);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">otto::board::ui::Key::f</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_t_a_p_e_chunk_html_ad5fc638e273ecc66e5a56ec0f473012f"><div class="ttname"><a href="structotto_1_1util_1_1_t_a_p_e_chunk.html#ad5fc638e273ecc66e5a56ec0f473012f">otto::util::TAPEChunk::version</a></div><div class="ttdeci">bytes&lt; 4 &gt; version</div><div class="ttdef"><b>Definition:</b> <a href="tapefile_8cpp_source.html#l00036">tapefile.cpp:36</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_t_a_p_e_chunk_html_aaf08ca29adca25da392db3581232eea5"><div class="ttname"><a href="structotto_1_1util_1_1_t_a_p_e_chunk.html#aaf08ca29adca25da392db3581232eea5">otto::util::TAPEChunk::tracks</a></div><div class="ttdeci">TRCKChunk tracks[4]</div><div class="ttdef"><b>Definition:</b> <a href="tapefile_8cpp_source.html#l00038">tapefile.cpp:38</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="afa7b5d2c8e7faf3804f211dbc3e5c28f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa7b5d2c8e7faf3804f211dbc3e5c28f">&#9670;&nbsp;</a></span>write_fields()</h2>
 
@@ -234,7 +187,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -244,31 +197,42 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00040">40</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="tapefile_8cpp_source.html#l00038">tracks</a>, and <a class="el" href="tapefile_8cpp_source.html#l00036">version</a>.</p>
-<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                            {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.write_bytes(<a class="code" href="structotto_1_1util_1_1_t_a_p_e_chunk.html#ad5fc638e273ecc66e5a56ec0f473012f">version</a>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; trck : <a class="code" href="structotto_1_1util_1_1_t_a_p_e_chunk.html#aaf08ca29adca25da392db3581232eea5">tracks</a>) {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        trck.write(f);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">otto::board::ui::Key::f</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_t_a_p_e_chunk_html_ad5fc638e273ecc66e5a56ec0f473012f"><div class="ttname"><a href="structotto_1_1util_1_1_t_a_p_e_chunk.html#ad5fc638e273ecc66e5a56ec0f473012f">otto::util::TAPEChunk::version</a></div><div class="ttdeci">bytes&lt; 4 &gt; version</div><div class="ttdef"><b>Definition:</b> <a href="tapefile_8cpp_source.html#l00036">tapefile.cpp:36</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_t_a_p_e_chunk_html_aaf08ca29adca25da392db3581232eea5"><div class="ttname"><a href="structotto_1_1util_1_1_t_a_p_e_chunk.html#aaf08ca29adca25da392db3581232eea5">otto::util::TAPEChunk::tracks</a></div><div class="ttdeci">TRCKChunk tracks[4]</div><div class="ttdef"><b>Definition:</b> <a href="tapefile_8cpp_source.html#l00038">tapefile.cpp:38</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aaf08ca29adca25da392db3581232eea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf08ca29adca25da392db3581232eea5">&#9670;&nbsp;</a></span>tracks</h2>
+<a id="a8bbf0b075e3fcc296baf028ed02528f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbf0b075e3fcc296baf028ed02528f8">&#9670;&nbsp;</a></span>read_fields()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1_t_r_c_k_chunk.html">TRCKChunk</a> otto::util::TAPEChunk::tracks[4] = {{0}, {1}, {2}, {3}}</td>
+          <td class="memname">void otto::util::TAPEChunk::read_fields </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1_byte_file.html">ByteFile</a> &amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00038">38</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
+<p>Reimplemented from <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#aa7f7400ff0136aa88aba253ebec616cd">otto::util::ByteFile::Chunk</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="tapefile_8cpp_source.html#l00047">read_fields()</a>, and <a class="el" href="tapefile_8cpp_source.html#l00040">write_fields()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00047">47</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="tapefile_8cpp_source.html#l00038">tracks</a>, and <a class="el" href="tapefile_8cpp_source.html#l00036">version</a>.</p>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="ad5fc638e273ecc66e5a56ec0f473012f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5fc638e273ecc66e5a56ec0f473012f">&#9670;&nbsp;</a></span>version</h2>
 
@@ -282,6 +246,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00036">36</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="tapefile_8cpp_source.html#l00047">read_fields()</a>, and <a class="el" href="tapefile_8cpp_source.html#l00040">write_fields()</a>.</p>
+
+</div>
+</div>
+<a id="aaf08ca29adca25da392db3581232eea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf08ca29adca25da392db3581232eea5">&#9670;&nbsp;</a></span>tracks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1_t_r_c_k_chunk.html">TRCKChunk</a> otto::util::TAPEChunk::tracks[4] = {{0}, {1}, {2}, {3}}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="tapefile_8cpp_source.html#l00038">38</a> of file <a class="el" href="tapefile_8cpp_source.html">tapefile.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="tapefile_8cpp_source.html#l00047">read_fields()</a>, and <a class="el" href="tapefile_8cpp_source.html#l00040">write_fields()</a>.</p>
 

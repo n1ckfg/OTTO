@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: MidiInApi::MidiQueue Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -102,9 +108,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MidiInApi::MidiQueue::MidiQueue </td>
@@ -113,22 +116,33 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00538">538</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;  :<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#aca2a7ac0b08f75379b86839b294fefa0">front</a>(0), <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a55c2276d55b8474584841e4b77b59a6b">back</a>(0), <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a>(0), <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">ring</a>(0) {}</div><div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a55c2276d55b8474584841e4b77b59a6b"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a55c2276d55b8474584841e4b77b59a6b">MidiInApi::MidiQueue::back</a></div><div class="ttdeci">unsigned int back</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00533">RtMidi.h:533</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a10d7814131bfd2744de4e82e6f8ee17e"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">MidiInApi::MidiQueue::ring</a></div><div class="ttdeci">MidiMessage * ring</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00535">RtMidi.h:535</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a4169b29319028962914d6cb702ce6a72"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">MidiInApi::MidiQueue::ringSize</a></div><div class="ttdeci">unsigned int ringSize</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00534">RtMidi.h:534</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_aca2a7ac0b08f75379b86839b294fefa0"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#aca2a7ac0b08f75379b86839b294fefa0">MidiInApi::MidiQueue::front</a></div><div class="ttdeci">unsigned int front</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00532">RtMidi.h:532</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="adb3656571b4240ae2fad2e60ea28e1ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3656571b4240ae2fad2e60ea28e1ca">&#9670;&nbsp;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MidiInApi::MidiQueue::push </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_midi_in_api_1_1_midi_message.html">MidiMessage</a> &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00603">603</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+
+</div>
+</div>
 <a id="adcebca339fa6d50bcc162f431ac628e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adcebca339fa6d50bcc162f431ac628e2">&#9670;&nbsp;</a></span>pop()</h2>
 
@@ -158,37 +172,7 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00621">621</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00567">MidiInApi::getMessage()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;{</div><div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;  <span class="comment">// Local stack copies of front/back</span></div><div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _back, _front, _size;</div><div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div><div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;  <span class="comment">// Get back/front indexes exactly once and calculate current size</span></div><div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;  _size = <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a2585b8ba7f0cdd593f96787bb4938351">size</a>(&amp;_back, &amp;_front);</div><div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;</div><div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;  <span class="keywordflow">if</span> (_size == 0)</div><div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div><div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;  <span class="comment">// Copy queued message to the vector pointer argument and then &quot;pop&quot; it.</span></div><div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;  msg-&gt;assign( <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">ring</a>[_front].bytes.begin(), <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">ring</a>[_front].<a class="code" href="struct_midi_in_api_1_1_midi_message.html#a3072334eafb7be16be4ca237c942707a">bytes</a>.end() );</div><div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;  *timeStamp = <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">ring</a>[_front].<a class="code" href="struct_midi_in_api_1_1_midi_message.html#a32dad612037ace7037af0d1779894c6e">timeStamp</a>;</div><div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;</div><div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;  <span class="comment">// Update front</span></div><div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;  <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#aca2a7ac0b08f75379b86839b294fefa0">front</a> = (<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#aca2a7ac0b08f75379b86839b294fefa0">front</a>+1)%<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a>;</div><div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a2585b8ba7f0cdd593f96787bb4938351"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a2585b8ba7f0cdd593f96787bb4938351">MidiInApi::MidiQueue::size</a></div><div class="ttdeci">unsigned int size(unsigned int *back=0, unsigned int *front=0)</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00584">RtMidi.cpp:584</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_message_html_a3072334eafb7be16be4ca237c942707a"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_message.html#a3072334eafb7be16be4ca237c942707a">MidiInApi::MidiMessage::bytes</a></div><div class="ttdeci">std::vector&lt; unsigned char &gt; bytes</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00521">RtMidi.h:521</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a10d7814131bfd2744de4e82e6f8ee17e"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">MidiInApi::MidiQueue::ring</a></div><div class="ttdeci">MidiMessage * ring</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00535">RtMidi.h:535</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_message_html_a32dad612037ace7037af0d1779894c6e"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_message.html#a32dad612037ace7037af0d1779894c6e">MidiInApi::MidiMessage::timeStamp</a></div><div class="ttdeci">double timeStamp</div><div class="ttdoc">Time in seconds elapsed since the previous message. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00524">RtMidi.h:524</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a4169b29319028962914d6cb702ce6a72"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">MidiInApi::MidiQueue::ringSize</a></div><div class="ttdeci">unsigned int ringSize</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00534">RtMidi.h:534</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_aca2a7ac0b08f75379b86839b294fefa0"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#aca2a7ac0b08f75379b86839b294fefa0">MidiInApi::MidiQueue::front</a></div><div class="ttdeci">unsigned int front</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00532">RtMidi.h:532</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adb3656571b4240ae2fad2e60ea28e1ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3656571b4240ae2fad2e60ea28e1ca">&#9670;&nbsp;</a></span>push()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MidiInApi::MidiQueue::push </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_midi_in_api_1_1_midi_message.html">MidiMessage</a> &amp;&#160;</td>
-          <td class="paramname"><em>msg</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00603">603</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;{</div><div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;  <span class="comment">// Local stack copies of front/back</span></div><div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _back, _front, _size;</div><div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;</div><div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;  <span class="comment">// Get back/front indexes exactly once and calculate current size</span></div><div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;  _size = <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a2585b8ba7f0cdd593f96787bb4938351">size</a>(&amp;_back, &amp;_front);</div><div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;</div><div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;  <span class="keywordflow">if</span> ( _size &lt; <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a>-1 )</div><div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;  {</div><div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">ring</a>[_back] = msg;</div><div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a55c2276d55b8474584841e4b77b59a6b">back</a> = (<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a55c2276d55b8474584841e4b77b59a6b">back</a>+1)%<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a>;</div><div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;  }</div><div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;</div><div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a55c2276d55b8474584841e4b77b59a6b"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a55c2276d55b8474584841e4b77b59a6b">MidiInApi::MidiQueue::back</a></div><div class="ttdeci">unsigned int back</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00533">RtMidi.h:533</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a2585b8ba7f0cdd593f96787bb4938351"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a2585b8ba7f0cdd593f96787bb4938351">MidiInApi::MidiQueue::size</a></div><div class="ttdeci">unsigned int size(unsigned int *back=0, unsigned int *front=0)</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00584">RtMidi.cpp:584</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a10d7814131bfd2744de4e82e6f8ee17e"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">MidiInApi::MidiQueue::ring</a></div><div class="ttdeci">MidiMessage * ring</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00535">RtMidi.h:535</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a4169b29319028962914d6cb702ce6a72"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">MidiInApi::MidiQueue::ringSize</a></div><div class="ttdeci">unsigned int ringSize</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00534">RtMidi.h:534</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="a2585b8ba7f0cdd593f96787bb4938351"></a>
@@ -220,31 +204,10 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00584">584</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00533">back</a>, <a class="el" href="_rt_midi_8h_source.html#l00532">front</a>, and <a class="el" href="_rt_midi_8h_source.html#l00534">ringSize</a>.</p>
-<div class="fragment"><div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;{</div><div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;  <span class="comment">// Access back/front members exactly once and make stack copies for</span></div><div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;  <span class="comment">// size calculation</span></div><div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> _back = <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a55c2276d55b8474584841e4b77b59a6b">back</a>, _front = <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#aca2a7ac0b08f75379b86839b294fefa0">front</a>, _size;</div><div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;  <span class="keywordflow">if</span> (_back &gt;= _front)</div><div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    _size = _back - _front;</div><div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;  <span class="keywordflow">else</span></div><div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    _size = <a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a> - _front + _back;</div><div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;</div><div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;  <span class="comment">// Return copies of back/front so no new and unsynchronized accesses</span></div><div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;  <span class="comment">// to member variables are needed.</span></div><div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;  <span class="keywordflow">if</span> (__back) *__back = _back;</div><div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;  <span class="keywordflow">if</span> (__front) *__front = _front;</div><div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;  <span class="keywordflow">return</span> _size;</div><div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a55c2276d55b8474584841e4b77b59a6b"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a55c2276d55b8474584841e4b77b59a6b">MidiInApi::MidiQueue::back</a></div><div class="ttdeci">unsigned int back</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00533">RtMidi.h:533</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a4169b29319028962914d6cb702ce6a72"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">MidiInApi::MidiQueue::ringSize</a></div><div class="ttdeci">unsigned int ringSize</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00534">RtMidi.h:534</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_aca2a7ac0b08f75379b86839b294fefa0"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#aca2a7ac0b08f75379b86839b294fefa0">MidiInApi::MidiQueue::front</a></div><div class="ttdeci">unsigned int front</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00532">RtMidi.h:532</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a55c2276d55b8474584841e4b77b59a6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55c2276d55b8474584841e4b77b59a6b">&#9670;&nbsp;</a></span>back</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int MidiInApi::MidiQueue::back</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00533">533</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00584">size()</a>.</p>
-
-</div>
-</div>
 <a id="aca2a7ac0b08f75379b86839b294fefa0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aca2a7ac0b08f75379b86839b294fefa0">&#9670;&nbsp;</a></span>front</h2>
 
@@ -263,21 +226,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a10d7814131bfd2744de4e82e6f8ee17e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10d7814131bfd2744de4e82e6f8ee17e">&#9670;&nbsp;</a></span>ring</h2>
+<a id="a55c2276d55b8474584841e4b77b59a6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55c2276d55b8474584841e4b77b59a6b">&#9670;&nbsp;</a></span>back</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_midi_in_api_1_1_midi_message.html">MidiMessage</a>* MidiInApi::MidiQueue::ring</td>
+          <td class="memname">unsigned int MidiInApi::MidiQueue::back</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00535">535</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00533">533</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00512">MidiInApi::MidiInApi()</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00521">MidiInApi::~MidiInApi()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00584">size()</a>.</p>
 
 </div>
 </div>
@@ -296,6 +259,24 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00534">534</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00512">MidiInApi::MidiInApi()</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00584">size()</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00521">MidiInApi::~MidiInApi()</a>.</p>
+
+</div>
+</div>
+<a id="a10d7814131bfd2744de4e82e6f8ee17e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d7814131bfd2744de4e82e6f8ee17e">&#9670;&nbsp;</a></span>ring</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_midi_in_api_1_1_midi_message.html">MidiMessage</a>* MidiInApi::MidiQueue::ring</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00535">535</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00512">MidiInApi::MidiInApi()</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00521">MidiInApi::~MidiInApi()</a>.</p>
 
 </div>
 </div>

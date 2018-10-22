@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::engines::internal::wrapper&lt; T &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -104,9 +110,6 @@ struct otto::core::engines::internal::wrapper&lt; T &gt;</h3>
 template&lt;typename T &gt; </div>
 <div class="memtemplate">
 template&lt;typename X , typename  = std::enable_if_t&lt;std::is_convertible_v&lt;T, X&gt;&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html">otto::core::engines::internal::wrapper</a>&lt; T &gt;::<a class="el" href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html">wrapper</a> </td>
@@ -116,16 +119,10 @@ template&lt;typename X , typename  = std::enable_if_t&lt;std::is_convertible_v&l
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00276">276</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                     : <a class="code" href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html#ae82aadff64b7031cd2ed9b07c6d9ec8b">value</a>(std::forward&lt;X&gt;(x))</div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      {}</div><div class="ttc" id="structotto_1_1core_1_1engines_1_1internal_1_1wrapper_html_ae82aadff64b7031cd2ed9b07c6d9ec8b"><div class="ttname"><a href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html#ae82aadff64b7031cd2ed9b07c6d9ec8b">otto::core::engines::internal::wrapper::value</a></div><div class="ttdeci">T value</div><div class="ttdef"><b>Definition:</b> <a href="engine_8hpp_source.html#l00273">engine.hpp:273</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -136,9 +133,6 @@ template&lt;typename X , typename  = std::enable_if_t&lt;std::is_convertible_v&l
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">T <a class="el" href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html">otto::core::engines::internal::wrapper</a>&lt; T &gt;::get </td>
@@ -147,18 +141,12 @@ template&lt;typename T &gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00279">279</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="engine_8hpp_source.html#l00273">otto::core::engines::internal::wrapper&lt; T &gt;::value</a>.</p>
-<div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      {</div><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="keywordflow">return</span> std::move(<a class="code" href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html#ae82aadff64b7031cd2ed9b07c6d9ec8b">value</a>);</div><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      }</div><div class="ttc" id="structotto_1_1core_1_1engines_1_1internal_1_1wrapper_html_ae82aadff64b7031cd2ed9b07c6d9ec8b"><div class="ttname"><a href="structotto_1_1core_1_1engines_1_1internal_1_1wrapper.html#ae82aadff64b7031cd2ed9b07c6d9ec8b">otto::core::engines::internal::wrapper::value</a></div><div class="ttdeci">T value</div><div class="ttdef"><b>Definition:</b> <a href="engine_8hpp_source.html#l00273">engine.hpp:273</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

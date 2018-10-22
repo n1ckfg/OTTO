@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::props::MixinImpl Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -64,7 +70,6 @@
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structotto_1_1core_1_1props_1_1_mixin_impl-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::core::props::MixinImpl Struct Reference</div>  </div>
@@ -73,15 +78,6 @@
 
 <p><code>#include &lt;<a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler.html">has_handler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Mixin has a handler for <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html" title="A hook implementation concept. ">Hook</a>.  <a href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler_3_01_mixin_00_01_h_t_00_01_h_o_00_01s73fd49bc912774c628fb120881c4787a.html">has_handler&lt; Mixin, HT, HO, std::void_t&lt; decltype(std::declval&lt; Mixin &gt;().on_hook(std::declval&lt; hook_t&lt; Mixin, HT, HO &gt; &amp; &gt;()))&gt; &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Mixin has a handler for <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html" title="A hook implementation concept. ">Hook</a>.  <a href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler_3_01_mixin_00_01_h_t_00_01_h_o_00_01s73fd49bc912774c628fb120881c4787a.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a9cb2a25cb97e48e9640b0a273c33f1d1"><td class="memTemplParams" colspan="2">template&lt;typename Mixin , typename HT , HookOrder HO = HookOrder::Middle, CONCEPT_REQUIRES_( cpts::models&lt; HookTag, HT, typename Mixin::value_type &gt;()) &gt; </td></tr>
@@ -94,13 +90,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a1d70614591812be6a3aa0edf4985b2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a2a1d70614591812be6a3aa0edf4985b2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl.html#a2a1d70614591812be6a3aa0edf4985b2">requires_</a> (T &amp;&amp;t) -&gt; decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::value_type &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::tag_list &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::hooks &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::property_type &gt;()))</td></tr>
 <tr class="separator:a2a1d70614591812be6a3aa0edf4985b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a5697555a047633a89d77d8c0b8b3878e"><td class="memTemplParams" colspan="2">template&lt;typename Mixin , typename Hook , HookOrder HO&gt; </td></tr>
-<tr class="memitem:a5697555a047633a89d77d8c0b8b3878e"><td class="memTemplItemLeft" align="right" valign="top">static constexpr const bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl.html#a5697555a047633a89d77d8c0b8b3878e">has_handler_v</a> = <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler.html">has_handler</a>&lt;Mixin, <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>, HO&gt;::value</td></tr>
-<tr class="memdesc:a5697555a047633a89d77d8c0b8b3878e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Mixin has a handler for <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html" title="A hook implementation concept. ">Hook</a>.  <a href="#a5697555a047633a89d77d8c0b8b3878e">More...</a><br /></td></tr>
-<tr class="separator:a5697555a047633a89d77d8c0b8b3878e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -144,35 +133,6 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5697555a047633a89d77d8c0b8b3878e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5697555a047633a89d77d8c0b8b3878e">&#9670;&nbsp;</a></span>has_handler_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Mixin , typename Hook , HookOrder HO&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr const bool otto::core::props::MixinImpl::has_handler_v = <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler.html">has_handler</a>&lt;Mixin, <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>, HO&gt;::value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Check if Mixin has a handler for <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html" title="A hook implementation concept. ">Hook</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00199">199</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>

@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::engines::internal Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -133,8 +139,9 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00286">286</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    {</div><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;      <span class="keywordflow">return</span> wrapper&lt;T&gt;(std::forward&lt;T&gt;(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a9dd4e461268c8034f5c8564e155c67a6">x</a>));</div><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a9dd4e461268c8034f5c8564e155c67a6"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a9dd4e461268c8034f5c8564e155c67a6">otto::board::ui::Key::x</a></div></div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="engine_8hpp_source.html#l00294">otto::core::engines::register_engine()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -145,19 +152,11 @@ template&lt;class T &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;EngineType ET&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt;std::function&lt;std::unique_ptr&lt;<a class="el" href="structotto_1_1core_1_1engines_1_1_engine.html">Engine</a>&lt;ET&gt; &gt;)&gt; &gt; otto::core::engines::internal::engines {}</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00267">267</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>

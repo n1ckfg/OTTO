@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::ui::vg Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -86,10 +92,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A positioned box.  <a href="structotto_1_1core_1_1ui_1_1vg_1_1_box.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">Canvas</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A modified NanoCanvas interface.  <a href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_colour.html">Colour</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html">Drawable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Anything that can be drawn on screen.  <a href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_main_colour.html">MainColour</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,36 +145,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae2dac4bac3cdf47867dc0c3e0e3df006"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2dac4bac3cdf47867dc0c3e0e3df006">&#9670;&nbsp;</a></span>initUtils()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::core::ui::vg::initUtils </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">Canvas</a> &amp;&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00049">49</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="vector__graphics_8hpp_source.html#l00032">otto::core::ui::vg::Fonts::Bold</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00030">otto::core::ui::vg::Fonts::Light</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00036">otto::core::ui::vg::Fonts::loadFont()</a>, and <a class="el" href="vector__graphics_8hpp_source.html#l00031">otto::core::ui::vg::Fonts::Norm</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                     {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    Fonts::loadFont(ctx, Fonts::Light, <span class="stringliteral">&quot;Roboto-Light&quot;</span>);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    Fonts::loadFont(ctx, Fonts::Norm, <span class="stringliteral">&quot;Roboto-Medium&quot;</span>);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    Fonts::loadFont(ctx, Fonts::Bold, <span class="stringliteral">&quot;Roboto-Black&quot;</span>);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a3321dfc3c7160248acaf63639cf3e500"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3321dfc3c7160248acaf63639cf3e500">&#9670;&nbsp;</a></span>operator*()</h2>
 
@@ -196,14 +174,13 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="canvas_8hpp_source.html#l00062">62</a> of file <a class="el" href="canvas_8hpp_source.html">canvas.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keyword">auto</span> res = rhs;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">for</span> (Point&amp; p : res) {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a> = {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.x * lhs, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.y * lhs};</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">return</span> res;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a518bfba49e97993f308f9727054b9812"></a>
@@ -235,17 +212,58 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="canvas_8hpp_source.html#l00071">71</a> of file <a class="el" href="canvas_8hpp_source.html">canvas.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">auto</span> res = rhs;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">for</span> (Point&amp; p : res) {</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a> = {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.x / lhs, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.y / lhs};</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> res;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="ae2dac4bac3cdf47867dc0c3e0e3df006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2dac4bac3cdf47867dc0c3e0e3df006">&#9670;&nbsp;</a></span>initUtils()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::core::ui::vg::initUtils </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">Canvas</a> &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00049">49</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="vector__graphics_8hpp_source.html#l00032">otto::core::ui::vg::Fonts::Bold</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00030">otto::core::ui::vg::Fonts::Light</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00036">otto::core::ui::vg::Fonts::loadFont()</a>, and <a class="el" href="vector__graphics_8hpp_source.html#l00031">otto::core::ui::vg::Fonts::Norm</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="egl__ui_8cpp_source.html#l00028">otto::service::ui::main_ui_loop()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a8841b31be0c823738ebed44c6a971dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8841b31be0c823738ebed44c6a971dd7">&#9670;&nbsp;</a></span>width</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float otto::core::ui::vg::width = 320</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00010">10</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="egl__ui_8cpp_source.html#l00028">otto::service::ui::main_ui_loop()</a>.</p>
+
+</div>
+</div>
 <a id="aae937b72f807b85645d3e68ebc49be4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae937b72f807b85645d3e68ebc49be4c">&#9670;&nbsp;</a></span>height</h2>
 
@@ -260,23 +278,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00011">11</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="voice__manager_8cpp_source.html#l00141">otto::core::audio::SettingsScreen::draw()</a>.</p>
-
-</div>
-</div>
-<a id="a8841b31be0c823738ebed44c6a971dd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8841b31be0c823738ebed44c6a971dd7">&#9670;&nbsp;</a></span>width</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr float otto::core::ui::vg::width = 320</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00010">10</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
+<p class="reference">Referenced by <a class="el" href="voice__manager_8cpp_source.html#l00141">otto::core::audio::SettingsScreen::draw()</a>, and <a class="el" href="egl__ui_8cpp_source.html#l00028">otto::service::ui::main_ui_loop()</a>.</p>
 
 </div>
 </div>

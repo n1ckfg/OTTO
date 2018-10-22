@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::audio::events Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -77,6 +83,27 @@ Functions</h2></td></tr>
 <tr class="separator:ac569d940e5ef3e05719f5743467e8443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a20b6765f482c5513a7d20a0bff172209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20b6765f482c5513a7d20a0bff172209">&#9670;&nbsp;</a></span>pre_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1_event.html">util::Event</a> &amp; otto::service::audio::events::pre_init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00047">47</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="audio_8cpp_source.html#l00067">otto::service::audio::init()</a>.</p>
+
+</div>
+</div>
 <a id="aab6da8ef66358a4c1904ca6edfcb61e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab6da8ef66358a4c1904ca6edfcb61e8">&#9670;&nbsp;</a></span>buffersize_change()</h2>
 
@@ -95,28 +122,7 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00052">52</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00189">otto::service::audio::AlsaAudioDriver::init()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                             {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="keyword">static</span> util::Event&lt;unsigned&gt; instance;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <span class="keywordflow">return</span> instance;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a20b6765f482c5513a7d20a0bff172209"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20b6765f482c5513a7d20a0bff172209">&#9670;&nbsp;</a></span>pre_init()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1_event.html">util::Event</a> &amp; otto::service::audio::events::pre_init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00047">47</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="audio_8cpp_source.html#l00067">otto::service::audio::init()</a>, and <a class="el" href="faust_8cpp_source.html#l00008">otto::core::audio::detail::register_faust_wrapper_events()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                            {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      <span class="keyword">static</span> util::Event&lt;&gt; instance;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <span class="keywordflow">return</span> instance;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ac569d940e5ef3e05719f5743467e8443"></a>
@@ -136,8 +142,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00057">57</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00189">otto::service::audio::AlsaAudioDriver::init()</a>, and <a class="el" href="faust_8cpp_source.html#l00008">otto::core::audio::detail::register_faust_wrapper_events()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                             {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="keyword">static</span> util::Event&lt;unsigned&gt; instance;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="keywordflow">return</span> instance;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00189">otto::service::audio::AlsaAudioDriver::init()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

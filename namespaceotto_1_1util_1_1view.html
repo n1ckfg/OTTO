@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::view Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -77,43 +83,6 @@ Functions</h2></td></tr>
 <tr class="separator:a5eb0bf0fe3a95da366c274c00b2e5bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5eb0bf0fe3a95da366c274c00b2e5bc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5eb0bf0fe3a95da366c274c00b2e5bc2">&#9670;&nbsp;</a></span>filter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Range , typename Predicate &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto otto::util::view::filter </td>
-          <td>(</td>
-          <td class="paramtype">Range &amp;&amp;&#160;</td>
-          <td class="paramname"><em>r</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Predicate &amp;&amp;&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l01056">1056</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="euclid_8cpp_source.html#l00192">otto::engines::EuclidScreen::draw_recording()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;                                          {</div><div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;      <span class="keyword">using</span> std::begin, std::end;</div><div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;      <span class="keyword">using</span> filteriter = filter_iterator&lt;decltype(begin(r)), std::decay_t&lt;Predicate&gt;&gt;;</div><div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;      <span class="keyword">auto</span> first = filteriter(<a class="code" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">begin</a>(r), <a class="code" href="namespaceotto_1_1filesystem.html#a68eea064786112f96d0177a2ae89c1a6">end</a>(r), std::forward&lt;Predicate&gt;(c));</div><div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;      <span class="keyword">auto</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51">last</a> = filteriter(<a class="code" href="namespaceotto_1_1filesystem.html#a68eea064786112f96d0177a2ae89c1a6">end</a>(r), <a class="code" href="namespaceotto_1_1filesystem.html#a68eea064786112f96d0177a2ae89c1a6">end</a>(r), first);</div><div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;      <span class="keywordflow">return</span> sequence(first, last);</div><div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1filesystem_html_a36eed60f11af8e96cef30c6f1d1b4406"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin</a></div><div class="ttdeci">directory_iterator begin(directory_iterator iter) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l01171">filesystem.cpp:1171</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_html_a68eea064786112f96d0177a2ae89c1a6"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a68eea064786112f96d0177a2ae89c1a6">otto::filesystem::end</a></div><div class="ttdeci">directory_iterator end(const directory_iterator &amp;iter) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l01176">filesystem.cpp:1176</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51">otto::board::ui::Key::last</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="acb58bc70335d1a3d0f9f1e684b48c70d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb58bc70335d1a3d0f9f1e684b48c70d">&#9670;&nbsp;</a></span>transform()</h2>
 
@@ -144,11 +113,46 @@ template&lt;typename Range , typename Callable &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00980">980</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01171">otto::filesystem::begin()</a>, and <a class="el" href="filesystem_8cpp_source.html#l01176">otto::filesystem::end()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="euclid_8cpp_source.html#l00192">otto::engines::EuclidScreen::draw_recording()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;                                            {</div><div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;      <span class="keyword">using</span> std::begin, std::end;</div><div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;      <span class="keyword">using</span> transformiter = transform_iterator&lt;decltype(begin(r)), std::decay_t&lt;Callable&gt;&gt;;</div><div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;      <span class="keyword">auto</span> first = transformiter(<a class="code" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">begin</a>(r), std::forward&lt;Callable&gt;(c));</div><div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;      <span class="keyword">auto</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51">last</a> = transformiter(<a class="code" href="namespaceotto_1_1filesystem.html#a68eea064786112f96d0177a2ae89c1a6">end</a>(r), first);</div><div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;      <span class="keywordflow">return</span> sequence(first, last);</div><div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1filesystem_html_a36eed60f11af8e96cef30c6f1d1b4406"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin</a></div><div class="ttdeci">directory_iterator begin(directory_iterator iter) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l01171">filesystem.cpp:1171</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_html_a68eea064786112f96d0177a2ae89c1a6"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a68eea064786112f96d0177a2ae89c1a6">otto::filesystem::end</a></div><div class="ttdeci">directory_iterator end(const directory_iterator &amp;iter) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l01176">filesystem.cpp:1176</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51">otto::board::ui::Key::last</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a5eb0bf0fe3a95da366c274c00b2e5bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb0bf0fe3a95da366c274c00b2e5bc2">&#9670;&nbsp;</a></span>filter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Range , typename Predicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto otto::util::view::filter </td>
+          <td>(</td>
+          <td class="paramtype">Range &amp;&amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Predicate &amp;&amp;&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l01056">1056</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01171">otto::filesystem::begin()</a>, and <a class="el" href="filesystem_8cpp_source.html#l01176">otto::filesystem::end()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="euclid_8cpp_source.html#l00192">otto::engines::EuclidScreen::draw_recording()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

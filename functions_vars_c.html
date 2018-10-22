@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members - Variables</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -73,16 +79,16 @@
 : <a class="el" href="struct_rt_api_1_1_rt_api_stream.html#ab6194fc15a14da5667c493502380ec6d">RtApi::RtApiStream</a>
 </li>
 <li>capacity
-: <a class="el" href="structotto_1_1filesystem_1_1space__info.html#ad25a4c33f3cbf1cdffc93580f7ded06b">otto::filesystem::space_info</a>
+: <a class="el" href="namespaceotto_1_1filesystem.html#ad25a4c33f3cbf1cdffc93580f7ded06b">otto::filesystem::space_info</a>
 , <a class="el" href="classotto_1_1util_1_1ringbuffer.html#a07fe24b2c6c1d837f5831f58e7a5a10f">otto::util::ringbuffer&lt; T, N &gt;</a>
 </li>
 <li>center
-: <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state.html#ad8c3ecad8a4fd8d756046ca8dc218810">otto::engines::EuclidScreen::State</a>
+: <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#ad8c3ecad8a4fd8d756046ca8dc218810">otto::engines::EuclidScreen::State</a>
 </li>
 <li>channel
 : <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#aabba193b580e89fde9a8a1c1fc61ec17">otto::core::midi::MidiEvent</a>
 , <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#a9064d8452a8d81cd3fc4e28e577bef6f">otto::engines::Euclid::Props</a>
-, <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state_1_1_channel_state.html#ad3e2cd33d08c56ab3d72a20d6a6df529">otto::engines::EuclidScreen::State::ChannelState</a>
+, <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#ad3e2cd33d08c56ab3d72a20d6a6df529">otto::engines::EuclidScreen::State::ChannelState</a>
 </li>
 <li>channel_count
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html#a2aabb54c78e16358045c1589d8860fc4">otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</a>
@@ -94,9 +100,9 @@
 <li>channels
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">otto::core::audio::ProcessData&lt; N &gt;</a>
 , <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#ada7ff45a11e77111c30151265e6be3b8">otto::engines::Euclid::Props</a>
-, <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state.html#a68a8b37702d00130f8f2d3c62ca4a486">otto::engines::EuclidScreen::State</a>
+, <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#a68a8b37702d00130f8f2d3c62ca4a486">otto::engines::EuclidScreen::State</a>
 , <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#afcac979b6ddc52d7b33f174640da09f0">otto::util::SoundFile::Info</a>
-, <a class="el" href="struct_rt_api_1_1_convert_info.html#ae6fdb3e6b6a3a4974b49ded33291678b">RtApi::ConvertInfo</a>
+, <a class="el" href="class_rt_api.html#ae6fdb3e6b6a3a4974b49ded33291678b">RtApi::ConvertInfo</a>
 </li>
 <li>channels_props
 : <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#ae5130e55033ed6abb644f106e57d3ef3">otto::engines::Euclid::Props</a>
@@ -105,10 +111,7 @@
 : <a class="el" href="structotto_1_1util_1_1_header.html#aa8fd83f76417ad543fe0d128efd48043">otto::util::Header</a>
 </li>
 <li>clicks
-: <a class="el" href="structotto_1_1core_1_1ui_1_1_rotary_event.html#af74626c5a4b54336eb434a5a22cef0b8">otto::core::ui::RotaryEvent</a>
-</li>
-<li>client
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_faust_options.html#a31c49c2eacc61d2cd5d834f995494470">otto::core::audio::FaustOptions</a>
+: <a class="el" href="namespaceotto_1_1core_1_1ui.html#af74626c5a4b54336eb434a5a22cef0b8">otto::core::ui::RotaryEvent</a>
 </li>
 <li>colour
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1icons_1_1_icon.html#aaac621bf05da78c1287185f74de61d8b">otto::core::ui::vg::icons::Icon</a>
@@ -117,7 +120,7 @@
 : <a class="el" href="class_midi_api.html#a2caa246b04594b5ae84bacccb2a648aa">MidiApi</a>
 </li>
 <li>context
-: <a class="el" href="structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_e_g_l_state.html#aa0d5529a1c6e0991b025f13b7cb47679">otto::board::ui::EGLConnection::EGLState</a>
+: <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#aa0d5529a1c6e0991b025f13b7cb47679">otto::board::ui::EGLConnection::EGLState</a>
 </li>
 <li>continueSysex
 : <a class="el" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a60c8fc25d8838784d0d1904f31e80ab5">MidiInApi::RtMidiInData</a>
@@ -129,10 +132,7 @@
 : <a class="el" href="struct_rt_api_1_1_rt_api_stream.html#a28b8a898ae50d607976b8d7c56422c52">RtApi::RtApiStream</a>
 </li>
 <li>count
-: <a class="el" href="structotto_1_1util_1_1_tape_file_1_1_slice_array.html#a4f5ac56598290b333315ad6609511ed5">otto::util::TapeFile::SliceArray</a>
-</li>
-<li>cur
-: <a class="el" href="structotto_1_1util_1_1detail_1_1_adjacent_iter_impl.html#a2509741cacad7e779b01a347ca2192ef">otto::util::detail::AdjacentIterImpl&lt; Iter &gt;</a>
+: <a class="el" href="classotto_1_1util_1_1_tape_file.html#a4f5ac56598290b333315ad6609511ed5">otto::util::TapeFile::SliceArray</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::ByteFile::Error Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -138,8 +144,7 @@ Public Attributes</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00104">104</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                      {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        FileNotOpen,</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        ExceptionThrown,</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        PastEnd,</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      } <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#afd7995d11a8da5000be33c277e885bb3">type</a>;</div><div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_afd7995d11a8da5000be33c277e885bb3"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#afd7995d11a8da5000be33c277e885bb3">otto::util::ByteFile::Error::type</a></div><div class="ttdeci">enum otto::util::ByteFile::Error::Type type</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -148,9 +153,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">otto::util::ByteFile::Error::Error </td>
@@ -170,18 +172,10 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00112">112</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                                      :</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        std::exception(),</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#afd7995d11a8da5000be33c277e885bb3">type</a> (t),</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#a4757ac3d16d3402ae1273d2340d26628">message</a> (<a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#a923a9984fc5b92abac5c637dd352836a">enumString</a>(<a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#afd7995d11a8da5000be33c277e885bb3">type</a>) + <span class="charliteral">&#39;\n&#39;</span> + m) {}</div><div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_a923a9984fc5b92abac5c637dd352836a"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#a923a9984fc5b92abac5c637dd352836a">otto::util::ByteFile::Error::enumString</a></div><div class="ttdeci">static std::string enumString(Type t)</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00119">bytefile.hpp:119</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_afd7995d11a8da5000be33c277e885bb3"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#afd7995d11a8da5000be33c277e885bb3">otto::util::ByteFile::Error::type</a></div><div class="ttdeci">enum otto::util::ByteFile::Error::Type type</div></div>
-<div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_a4757ac3d16d3402ae1273d2340d26628"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#a4757ac3d16d3402ae1273d2340d26628">otto::util::ByteFile::Error::message</a></div><div class="ttdeci">std::string message</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00110">bytefile.hpp:110</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -204,7 +198,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -212,10 +206,7 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00119">119</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067faff69d3cdb5d371fdc9f204153674a71d">ExceptionThrown</a>, <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">FileNotOpen</a>, and <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa5071fe5094bc925dd1c317977069f369">PastEnd</a>.</p>
-<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                          {</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">switch</span>(t) {</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">Type::FileNotOpen</a>:</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;          <span class="keywordflow">return</span> <span class="stringliteral">&quot;File not open&quot;</span>; <span class="keywordflow">break</span>;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067faff69d3cdb5d371fdc9f204153674a71d">Type::ExceptionThrown</a>:</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;          <span class="keywordflow">return</span> <span class="stringliteral">&quot;Exception thrown&quot;</span>; <span class="keywordflow">break</span>;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa5071fe5094bc925dd1c317977069f369">Type::PastEnd</a>:</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;          <span class="keywordflow">return</span> <span class="stringliteral">&quot;Past the end of the file&quot;</span>; <span class="keywordflow">break</span>;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        }</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      }</div><div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_ad400a0d63c808cdf42e1a1a1c68f067faff69d3cdb5d371fdc9f204153674a71d"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067faff69d3cdb5d371fdc9f204153674a71d">otto::util::ByteFile::Error::Type::ExceptionThrown</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::Type::FileNotOpen</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_ad400a0d63c808cdf42e1a1a1c68f067fa5071fe5094bc925dd1c317977069f369"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa5071fe5094bc925dd1c317977069f369">otto::util::ByteFile::Error::Type::PastEnd</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a228c5e73c3cc6007ba6d05f370c2e37d"></a>
@@ -236,7 +227,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -244,11 +235,24 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00131">131</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="bytefile_8hpp_source.html#l00110">message</a>.</p>
-<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                                 {</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_error.html#a4757ac3d16d3402ae1273d2340d26628">message</a>.c_str();</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      }</div><div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_error_html_a4757ac3d16d3402ae1273d2340d26628"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_error.html#a4757ac3d16d3402ae1273d2340d26628">otto::util::ByteFile::Error::message</a></div><div class="ttdeci">std::string message</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00110">bytefile.hpp:110</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="afd7995d11a8da5000be33c277e885bb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd7995d11a8da5000be33c277e885bb3">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067f">otto::util::ByteFile::Error::Type</a>  otto::util::ByteFile::Error::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4757ac3d16d3402ae1273d2340d26628"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4757ac3d16d3402ae1273d2340d26628">&#9670;&nbsp;</a></span>message</h2>
 
@@ -264,20 +268,6 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00110">110</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00131">what()</a>.</p>
-
-</div>
-</div>
-<a id="afd7995d11a8da5000be33c277e885bb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd7995d11a8da5000be33c277e885bb3">&#9670;&nbsp;</a></span>type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067f">otto::util::ByteFile::Error::Type</a>  otto::util::ByteFile::Error::type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::filesystem::px Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -120,7 +126,87 @@ Variables</h2></td></tr>
 <p class="reference">References <a class="el" href="filesystem_8hpp_source.html#l00029">otto::filesystem::path::generic_format</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l00289">otto::filesystem::path::assign()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="keywordflow">return</span> path::generic_format;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="a3e7c4ba1d7ce8fd1e3d55c1a4b2d3d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7c4ba1d7ce8fd1e3d55c1a4b2d3d42">&#9670;&nbsp;</a></span>is_separator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otto::filesystem::px::is_separator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classotto_1_1filesystem_1_1path.html#a7ffc721c470cb13e6d7ccb4486d84ab0">path::value_type</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00114">114</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00107">separators</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l00552">otto::filesystem::path::has_filename()</a>, <a class="el" href="filesystem_8cpp_source.html#l00567">otto::filesystem::path::is_absolute()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00701">otto::filesystem::path::iterator::operator--()</a>.</p>
+
+</div>
+</div>
+<a id="a21911e63c89f23eec6ad4d78a7db0728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21911e63c89f23eec6ad4d78a7db0728">&#9670;&nbsp;</a></span>to_file_type() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a> otto::filesystem::px::to_file_type </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stat_mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00123">123</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a14511f2f5564650d129ca7cabc333278">otto::filesystem::block</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aa956161a69928cd130a889b88082fb6e">otto::filesystem::character</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a5f8f22b8cdbaeee8cf857673a9b6ba20">otto::filesystem::directory</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792acf54937a2330ac17aa523bf7130911a3">otto::filesystem::fifo</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aaf37d08ae228a87dc6b265fd1019c97d">otto::filesystem::regular</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a61f2529360aec54f5dc9804b842cf3fa">otto::filesystem::socket</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aa978acc8a7ae15f49f58f3495f0d85ba">otto::filesystem::symlink</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aad921d60486366258809553a3db49a4a">otto::filesystem::unknown</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l00223">link_status()</a>, <a class="el" href="filesystem_8cpp_source.html#l00206">status()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00135">to_file_type()</a>.</p>
+
+</div>
+</div>
+<a id="ab1d47b6e04d9fbd7efe9aba23b679432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1d47b6e04d9fbd7efe9aba23b679432">&#9670;&nbsp;</a></span>to_file_type() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a> otto::filesystem::px::to_file_type </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a>&#160;</td>
+          <td class="paramname"><em>st</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramname"><em>ec</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00135">135</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
+
 </div>
 </div>
 <a id="a5c680d60df99baaec59b2e668843e3e8"></a>
@@ -150,7 +236,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00146">146</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    {</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      <span class="keywordflow">if</span> (ec.value() == 0) {</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        ec.clear();</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;      }</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <span class="keywordflow">return</span> st.st_size;</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="ac74133168b74224651fe09feefa9c7b0"></a>
@@ -180,33 +266,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00156">156</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    {</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;      <span class="keywordflow">if</span> (ec.value() == 0) {</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        ec.clear();</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      }</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      <span class="keywordflow">return</span> st.st_nlink;</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a3e7c4ba1d7ce8fd1e3d55c1a4b2d3d42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e7c4ba1d7ce8fd1e3d55c1a4b2d3d42">&#9670;&nbsp;</a></span>is_separator()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool otto::filesystem::px::is_separator </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classotto_1_1filesystem_1_1path.html#a7ffc721c470cb13e6d7ccb4486d84ab0">path::value_type</a>&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00114">114</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00107">separators</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l00552">otto::filesystem::path::has_filename()</a>, <a class="el" href="filesystem_8cpp_source.html#l00567">otto::filesystem::path::is_absolute()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00701">otto::filesystem::path::iterator::operator--()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a03c7c0ace395d80182db07ae2c30f034">s</a> = <a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a55d13715b6f430507ef6afbda9a8a826">separators</a>;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      <span class="keywordflow">while</span> (*s != 0) {</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">if</span> (*s++ == c) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      }</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a55d13715b6f430507ef6afbda9a8a826"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a55d13715b6f430507ef6afbda9a8a826">otto::filesystem::px::separators</a></div><div class="ttdeci">const char * separators</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00107">filesystem.cpp:107</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a03c7c0ace395d80182db07ae2c30f034"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a03c7c0ace395d80182db07ae2c30f034">otto::board::ui::Key::s</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="ab267b6aa0458a34afe56e0fa8794b111"></a>
@@ -236,27 +296,20 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00166">166</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    {</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      <span class="keywordflow">if</span> (ec.value() == 0) {</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        ec.clear();</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">return</span> {};</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      }</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">#if __APPLE__</span></div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1filesystem.html#a99160e806c1da9dbd68d674fb0152f2b">file_time_type</a>() +</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;             std::chrono::duration_cast&lt;file_time_type::duration&gt;(</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;               std::chrono::nanoseconds(st.st_mtimespec.tv_nsec));</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor">#else</span></div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1filesystem.html#a99160e806c1da9dbd68d674fb0152f2b">file_time_type</a>() +</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;             std::chrono::duration_cast&lt;file_time_type::duration&gt;(</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;               std::chrono::nanoseconds(st.st_mtim.tv_nsec));</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1filesystem_html_a99160e806c1da9dbd68d674fb0152f2b"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a99160e806c1da9dbd68d674fb0152f2b">otto::filesystem::file_time_type</a></div><div class="ttdeci">std::chrono::time_point&lt; std::chrono::system_clock &gt; file_time_type</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8hpp_source.html#l00276">filesystem.hpp:276</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="ab412a857db6bcadc27f79f0ec40aae9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab412a857db6bcadc27f79f0ec40aae9b">&#9670;&nbsp;</a></span>link_status()</h2>
+<a id="a5d69b23ef30ff35c0373800c18a2ee2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d69b23ef30ff35c0373800c18a2ee2d">&#9670;&nbsp;</a></span>stat()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classotto_1_1filesystem_1_1file__status.html">file_status</a> otto::filesystem::px::link_status </td>
+          <td class="memname">struct stat otto::filesystem::px::stat </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classotto_1_1filesystem_1_1path.html">path</a>&#160;</td>
           <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> &amp;&#160;</td>
-          <td class="paramname"><em>st</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -272,15 +325,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00223">223</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00184">184</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864af2ce11ebf110993621bedd8e747d7b1b">otto::filesystem::mask</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    {</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <span class="keywordflow">if</span> (::<a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.c_str(), &amp;st) != 0) {</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> (errno == ENOENT) {</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;          ec.clear();</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;          <span class="keywordflow">return</span> file_status{file_type::not_found, perms::none};</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;          ec = {errno, std::system_category()};</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;          <span class="keywordflow">return</span> {};</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      }</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;      ec.clear();</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      <a class="code" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a> type = <a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a21911e63c89f23eec6ad4d78a7db0728">to_file_type</a>(st, ec);</div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;      <a class="code" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a> prms     = <span class="keyword">static_cast&lt;</span><a class="code" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a><span class="keyword">&gt;</span>(st.st_mode) &amp; perms::mask;</div><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      <span class="keywordflow">return</span> file_status{type, prms};</div><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1filesystem_html_a1d1232b9da3085e531a8c7a6178c4864"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">otto::filesystem::perms</a></div><div class="ttdeci">perms</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8hpp_source.html#l00251">filesystem.hpp:251</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a5d69b23ef30ff35c0373800c18a2ee2d"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">otto::filesystem::px::stat</a></div><div class="ttdeci">struct stat stat(path p, std::error_code &amp;ec)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00184">filesystem.cpp:184</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_html_a0070c2df408661b3899ffa354bdf5792"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">otto::filesystem::file_type</a></div><div class="ttdeci">file_type</div><div class="ttdoc">File type enum. </div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8hpp_source.html#l00225">filesystem.hpp:225</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a21911e63c89f23eec6ad4d78a7db0728"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a21911e63c89f23eec6ad4d78a7db0728">otto::filesystem::px::to_file_type</a></div><div class="ttdeci">file_type to_file_type(int stat_mode)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00123">filesystem.cpp:123</a></div></div>
-</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l01541">otto::filesystem::equivalent()</a>, <a class="el" href="filesystem_8cpp_source.html#l01700">otto::filesystem::file_size()</a>, <a class="el" href="filesystem_8cpp_source.html#l01716">otto::filesystem::hard_link_count()</a>, <a class="el" href="filesystem_8cpp_source.html#l01732">otto::filesystem::last_write_time()</a>, <a class="el" href="filesystem_8cpp_source.html#l00223">link_status()</a>, <a class="el" href="filesystem_8cpp_source.html#l00195">lstat()</a>, <a class="el" href="filesystem_8cpp_source.html#l00865">otto::filesystem::directory_entry::refresh()</a>, <a class="el" href="filesystem_8cpp_source.html#l00206">status()</a>, <a class="el" href="filesystem_8cpp_source.html#l01748">otto::filesystem::status()</a>, and <a class="el" href="filesystem_8cpp_source.html#l01764">otto::filesystem::symlink_status()</a>.</p>
+
 </div>
 </div>
 <a id="a210023b8328ec4386e5aea36207b29a1"></a>
@@ -312,44 +360,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00195">195</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    {</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      <span class="keyword">struct </span><a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st;</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      <span class="keywordflow">if</span> (::<a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a210023b8328ec4386e5aea36207b29a1">lstat</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.c_str(), &amp;st) != 0) {</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        ec = {errno, std::system_category()};</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        ec.clear();</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      }</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      <span class="keywordflow">return</span> st;</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a5d69b23ef30ff35c0373800c18a2ee2d"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">otto::filesystem::px::stat</a></div><div class="ttdeci">struct stat stat(path p, std::error_code &amp;ec)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00184">filesystem.cpp:184</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a210023b8328ec4386e5aea36207b29a1"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a210023b8328ec4386e5aea36207b29a1">otto::filesystem::px::lstat</a></div><div class="ttdeci">struct stat lstat(path p, std::error_code &amp;ec)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00195">filesystem.cpp:195</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5d69b23ef30ff35c0373800c18a2ee2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d69b23ef30ff35c0373800c18a2ee2d">&#9670;&nbsp;</a></span>stat()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct stat otto::filesystem::px::stat </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classotto_1_1filesystem_1_1path.html">path</a>&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
-          <td class="paramname"><em>ec</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00184">184</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l00223">link_status()</a>, <a class="el" href="filesystem_8cpp_source.html#l00195">lstat()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00206">status()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    {</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <span class="keyword">struct </span><a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st;</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <span class="keywordflow">if</span> (::<a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.c_str(), &amp;st) != 0) {</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        ec = {errno, std::system_category()};</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        ec.clear();</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      }</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="keywordflow">return</span> st;</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a5d69b23ef30ff35c0373800c18a2ee2d"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">otto::filesystem::px::stat</a></div><div class="ttdeci">struct stat stat(path p, std::error_code &amp;ec)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00184">filesystem.cpp:184</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="a37ef9f416e2a98a8266f6e2f1964b5d8"></a>
@@ -387,48 +398,25 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00206">206</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864af2ce11ebf110993621bedd8e747d7b1b">otto::filesystem::mask</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    {</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      <span class="keywordflow">if</span> (::<a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.c_str(), &amp;st) != 0) {</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">if</span> (errno == ENOENT) {</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;          ec.clear();</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;          <span class="keywordflow">return</span> file_status{file_type::not_found, perms::none};</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;          ec = {errno, std::system_category()};</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;          <span class="keywordflow">return</span> {};</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        }</div><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      }</div><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      ec.clear();</div><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <a class="code" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a> type = <a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a21911e63c89f23eec6ad4d78a7db0728">to_file_type</a>(st, ec);</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <a class="code" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a> prms     = <span class="keyword">static_cast&lt;</span><a class="code" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a><span class="keyword">&gt;</span>(st.st_mode) &amp; perms::mask;</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      <span class="keywordflow">return</span> file_status{type, prms};</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1filesystem_html_a1d1232b9da3085e531a8c7a6178c4864"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">otto::filesystem::perms</a></div><div class="ttdeci">perms</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8hpp_source.html#l00251">filesystem.hpp:251</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a5d69b23ef30ff35c0373800c18a2ee2d"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">otto::filesystem::px::stat</a></div><div class="ttdeci">struct stat stat(path p, std::error_code &amp;ec)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00184">filesystem.cpp:184</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_html_a0070c2df408661b3899ffa354bdf5792"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">otto::filesystem::file_type</a></div><div class="ttdeci">file_type</div><div class="ttdoc">File type enum. </div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8hpp_source.html#l00225">filesystem.hpp:225</a></div></div>
-<div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a21911e63c89f23eec6ad4d78a7db0728"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a21911e63c89f23eec6ad4d78a7db0728">otto::filesystem::px::to_file_type</a></div><div class="ttdeci">file_type to_file_type(int stat_mode)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00123">filesystem.cpp:123</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a21911e63c89f23eec6ad4d78a7db0728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21911e63c89f23eec6ad4d78a7db0728">&#9670;&nbsp;</a></span>to_file_type() <span class="overload">[1/2]</span></h2>
+<a id="ab412a857db6bcadc27f79f0ec40aae9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab412a857db6bcadc27f79f0ec40aae9b">&#9670;&nbsp;</a></span>link_status()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a> otto::filesystem::px::to_file_type </td>
+          <td class="memname"><a class="el" href="classotto_1_1filesystem_1_1file__status.html">file_status</a> otto::filesystem::px::link_status </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>stat_mode</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="classotto_1_1filesystem_1_1path.html">path</a>&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00123">123</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a14511f2f5564650d129ca7cabc333278">otto::filesystem::block</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aa956161a69928cd130a889b88082fb6e">otto::filesystem::character</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a5f8f22b8cdbaeee8cf857673a9b6ba20">otto::filesystem::directory</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792acf54937a2330ac17aa523bf7130911a3">otto::filesystem::fifo</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aaf37d08ae228a87dc6b265fd1019c97d">otto::filesystem::regular</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a61f2529360aec54f5dc9804b842cf3fa">otto::filesystem::socket</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aa978acc8a7ae15f49f58f3495f0d85ba">otto::filesystem::symlink</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792aad921d60486366258809553a3db49a4a">otto::filesystem::unknown</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l00223">link_status()</a>, <a class="el" href="filesystem_8cpp_source.html#l00206">status()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00135">to_file_type()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      <span class="keywordflow">if</span> (S_ISBLK(stat_mode)) <span class="keywordflow">return</span> file_type::block;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      <span class="keywordflow">if</span> (S_ISCHR(stat_mode)) <span class="keywordflow">return</span> file_type::character;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      <span class="keywordflow">if</span> (S_ISDIR(stat_mode)) <span class="keywordflow">return</span> file_type::directory;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="keywordflow">if</span> (S_ISFIFO(stat_mode)) <span class="keywordflow">return</span> file_type::fifo;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="keywordflow">if</span> (S_ISLNK(stat_mode)) <span class="keywordflow">return</span> file_type::symlink;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      <span class="keywordflow">if</span> (S_ISREG(stat_mode)) <span class="keywordflow">return</span> file_type::regular;</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      <span class="keywordflow">if</span> (S_ISSOCK(stat_mode)) <span class="keywordflow">return</span> file_type::socket;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      <span class="keywordflow">return</span> file_type::unknown;</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ab1d47b6e04d9fbd7efe9aba23b679432"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1d47b6e04d9fbd7efe9aba23b679432">&#9670;&nbsp;</a></span>to_file_type() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a> otto::filesystem::px::to_file_type </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a>&#160;</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> &amp;&#160;</td>
           <td class="paramname"><em>st</em>, </td>
         </tr>
         <tr>
@@ -445,11 +433,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00135">135</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00223">223</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="keywordflow">if</span> (ec != std::error_code()) {</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">switch</span> (ec.value()) {</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">case</span> ENOENT: <span class="keywordflow">return</span> file_type::not_found;</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">default</span>: <span class="keywordflow">return</span> file_type::none;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        }</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      }</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1filesystem_1_1px.html#a21911e63c89f23eec6ad4d78a7db0728">to_file_type</a>(st.st_mode);</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1filesystem_1_1px_html_a21911e63c89f23eec6ad4d78a7db0728"><div class="ttname"><a href="namespaceotto_1_1filesystem_1_1px.html#a21911e63c89f23eec6ad4d78a7db0728">otto::filesystem::px::to_file_type</a></div><div class="ttdeci">file_type to_file_type(int stat_mode)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00123">filesystem.cpp:123</a></div></div>
-</div><!-- fragment -->
+<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864af2ce11ebf110993621bedd8e747d7b1b">otto::filesystem::mask</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>

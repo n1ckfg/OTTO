@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::result&lt; ok_t, err_t &gt;::result_except Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -69,6 +75,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;.  
+ <a href="structotto_1_1util_1_1result_1_1result__except.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="result_8hpp_source.html">result.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for otto::util::result&lt; ok_t, err_t &gt;::result_except:</div>
@@ -95,7 +104,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename ok_t, typename err_t&gt;<br />
 struct otto::util::result&lt; ok_t, err_t &gt;::result_except</h3>
 
-<p>Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;.</p>
+<p>Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. </p>
 <p>Holds an instance of the <code>result</code> it was thrown from </p>
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00036">36</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
@@ -107,9 +116,6 @@ struct otto::util::result&lt; ok_t, err_t &gt;::result_except</h3>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ok_t, typename err_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::result_except::result_except </td>
@@ -119,16 +125,10 @@ template&lt;typename ok_t, typename err_t&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00039">39</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;: <a class="code" href="structotto_1_1util_1_1result_1_1result__except.html#a9ab4ff4442842858b85e17f191d8644f">res</a> (r) {}</div><div class="ttc" id="structotto_1_1util_1_1result_1_1result__except_html_a9ab4ff4442842858b85e17f191d8644f"><div class="ttname"><a href="structotto_1_1util_1_1result_1_1result__except.html#a9ab4ff4442842858b85e17f191d8644f">otto::util::result::result_except::res</a></div><div class="ttdeci">result res</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00037">result.hpp:37</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -152,13 +152,13 @@ template&lt;typename ok_t, typename err_t&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00041">41</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                 {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;otto::util::result::result_except&quot;</span>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      }</div></div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

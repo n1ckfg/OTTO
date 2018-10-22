@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::props::branch_base Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -69,6 +75,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>Base class of all property branches.  
+ <a href="structotto_1_1core_1_1props_1_1branch__base.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="base_8hpp_source.html">base.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for otto::core::props::branch_base:</div>
@@ -79,7 +88,7 @@ Inheritance diagram for otto::core::props::branch_base:</div>
 <area href="structotto_1_1core_1_1props_1_1property__base.html" title="Base class of all properties, leaves and branches both. " alt="otto::core::props::property_base" shape="rect" coords="249,0,488,24"/>
 <area href="structotto_1_1core_1_1props_1_1mixin_1_1branch.html" alt="otto::core::props::mixin::branch&lt; Tags &gt;" shape="rect" coords="0,112,239,136"/>
 <area href="structotto_1_1core_1_1props_1_1mixin_1_1branch.html" alt="otto::core::props::mixin::branch&lt; Tag &gt;" shape="rect" coords="249,112,488,136"/>
-<area href="structotto_1_1core_1_1props_1_1properties__base.html" alt="otto::core::props::properties_base" shape="rect" coords="498,112,737,136"/>
+<area href="structotto_1_1core_1_1props_1_1properties__base.html" title="Non-virtual base class for Properties. " alt="otto::core::props::properties_base" shape="rect" coords="498,112,737,136"/>
 <area href="structotto_1_1core_1_1props_1_1_properties_impl.html" alt="otto::core::props::PropertiesImpl&lt; Tags &gt;" shape="rect" coords="0,168,239,192"/>
 <area href="structotto_1_1core_1_1props_1_1_properties_impl.html" alt="otto::core::props::PropertiesImpl&lt; Tags &gt;" shape="rect" coords="498,168,737,192"/>
 </map>
@@ -132,7 +141,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aead5960b5ffb670fd17ff0e2b4af6112 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Base class of all property branches</p>
+<div class="textblock"><p>Base class of all property branches. </p>
 <p>All mixin branches inherit virtually from this </p>
 
 <p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00091">91</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
@@ -159,9 +168,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">otto::core::props::branch_base::branch_base </td>
@@ -170,16 +176,10 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00097">97</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;: <a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#add4a5e250add03e9acb340a9cd3df44c">property_base</a>(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;&quot;</span>) {}</div><div class="ttc" id="structotto_1_1core_1_1props_1_1property__base_html_add4a5e250add03e9acb340a9cd3df44c"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1property__base.html#add4a5e250add03e9acb340a9cd3df44c">otto::core::props::property_base::property_base</a></div><div class="ttdeci">property_base(branch_base *parent=nullptr, std::string const &amp;name=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="base_8cpp_source.html#l00005">base.cpp:5</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -188,9 +188,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html#a6c18068834be47f90b10cc8c1544bb9a">storage_type</a>&amp; otto::core::props::branch_base::children </td>
@@ -199,15 +196,10 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00099">99</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                             {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="keywordflow">return</span> storage_;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a7910f69436231fe0c7f29ad3c60a921c"></a>
@@ -215,9 +207,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html#a6c18068834be47f90b10cc8c1544bb9a">storage_type</a> const&amp; otto::core::props::branch_base::children </td>
@@ -226,15 +215,52 @@ Public Member Functions</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00103">103</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                         {</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      <span class="keywordflow">return</span> storage_;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="a619e1a0c5f259f0c017f5f29ab2bbc60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619e1a0c5f259f0c017f5f29ab2bbc60">&#9670;&nbsp;</a></span>push_back() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::core::props::branch_base::push_back </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html">property_base</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00107">107</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="base_8cpp_source.html#l00005">otto::core::props::property_base::property_base()</a>.</p>
+
+</div>
+</div>
+<a id="aaa38dd64953389c918feaf05d8c70971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa38dd64953389c918feaf05d8c70971">&#9670;&nbsp;</a></span>push_back() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::core::props::branch_base::push_back </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html">property_base</a> &amp;&#160;</td>
+          <td class="paramname"><em>ref</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00111">111</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
+
 </div>
 </div>
 <a id="add4a5e250add03e9acb340a9cd3df44c"></a>
@@ -250,68 +276,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="base_8cpp_source.html#l00005">5</a> of file <a class="el" href="base_8cpp_source.html">base.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    : parent_(<a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">parent</a>), name_(<a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">name</a>)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  {</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (parent_ != <span class="keyword">nullptr</span>) {</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;      <a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">parent</a>-&gt;<a class="code" href="structotto_1_1core_1_1props_1_1branch__base.html#a619e1a0c5f259f0c017f5f29ab2bbc60">push_back</a>(<span class="keyword">this</span>);</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  }</div><div class="ttc" id="structotto_1_1core_1_1props_1_1property__base_html_a0bb63a6e55cebe7add9a227e07b3f2ab"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">otto::core::props::property_base::parent</a></div><div class="ttdeci">branch_base const  *const parent() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="base_8hpp_source.html#l00046">base.hpp:46</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1props_1_1property__base_html_a9ca0d8189160a1ffd0dbf28e0986eb4c"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">otto::core::props::property_base::name</a></div><div class="ttdeci">const std::string &amp; name() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="base_8hpp_source.html#l00041">base.hpp:41</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1props_1_1branch__base_html_a619e1a0c5f259f0c017f5f29ab2bbc60"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1branch__base.html#a619e1a0c5f259f0c017f5f29ab2bbc60">otto::core::props::branch_base::push_back</a></div><div class="ttdeci">void push_back(property_base *ptr)</div><div class="ttdef"><b>Definition:</b> <a href="base_8hpp_source.html#l00107">base.hpp:107</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a619e1a0c5f259f0c017f5f29ab2bbc60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a619e1a0c5f259f0c017f5f29ab2bbc60">&#9670;&nbsp;</a></span>push_back() <span class="overload">[1/2]</span></h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::core::props::branch_base::push_back </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html">property_base</a> *&#160;</td>
-          <td class="paramname"><em>ptr</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00107">107</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="base_8cpp_source.html#l00005">otto::core::props::property_base::property_base()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                       {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      storage_.push_back(std::ref(*ptr));</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="aaa38dd64953389c918feaf05d8c70971"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa38dd64953389c918feaf05d8c70971">&#9670;&nbsp;</a></span>push_back() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::core::props::branch_base::push_back </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html">property_base</a> &amp;&#160;</td>
-          <td class="paramname"><em>ref</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="base_8hpp_source.html#l00111">111</a> of file <a class="el" href="base_8hpp_source.html">base.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                       {</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      storage_.push_back(std::ref(ref));</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

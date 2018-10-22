@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::dyn_array&lt; T &gt; Class Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -68,6 +74,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>Dynamic array.  
+ <a href="classotto_1_1util_1_1dyn__array.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -93,6 +102,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ac8c4ee4849f08610e4ab692d83a333"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dyn__array.html#a3ac8c4ee4849f08610e4ab692d83a333">size</a> () const</td></tr>
 <tr class="separator:a3ac8c4ee4849f08610e4ab692d83a333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c08d1fa4d849927cafe60d3bf3ae05b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dyn__array.html#a2c08d1fa4d849927cafe60d3bf3ae05b">resize</a> (std::size_t new_size)</td></tr>
+<tr class="memdesc:a2c08d1fa4d849927cafe60d3bf3ae05b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace the array with a new one of size <code>new_size</code>  <a href="#a2c08d1fa4d849927cafe60d3bf3ae05b">More...</a><br /></td></tr>
 <tr class="separator:a2c08d1fa4d849927cafe60d3bf3ae05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a722f2010b55b7c77d4299374c318fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dyn__array.html#a2a722f2010b55b7c77d4299374c318fa">clear</a> ()</td></tr>
 <tr class="memdesc:a2a722f2010b55b7c77d4299374c318fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the array with default initialized values.  <a href="#a2a722f2010b55b7c77d4299374c318fa">More...</a><br /></td></tr>
@@ -102,7 +112,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 class otto::util::dyn_array&lt; T &gt;</h3>
 
-<p>Dynamic array</p>
+<p>Dynamic array. </p>
 <p>Default initialized. Cleared on resize. </p>
 
 <p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00016">16</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
@@ -114,9 +124,6 @@ class otto::util::dyn_array&lt; T &gt;</h3>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::<a class="el" href="classotto_1_1util_1_1dyn__array.html">dyn_array</a> </td>
@@ -126,233 +133,13 @@ template&lt;typename T&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00021">21</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      : cur_size (<a class="code" href="classotto_1_1util_1_1dyn__array.html#a3ac8c4ee4849f08610e4ab692d83a333">size</a>),</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        _data (std::make_unique&lt;T[]&gt;(<a class="code" href="classotto_1_1util_1_1dyn__array.html#a3ac8c4ee4849f08610e4ab692d83a333">size</a>))</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      <a class="code" href="classotto_1_1util_1_1dyn__array.html#a2a722f2010b55b7c77d4299374c318fa">clear</a>();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a3ac8c4ee4849f08610e4ab692d83a333"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a3ac8c4ee4849f08610e4ab692d83a333">otto::util::dyn_array::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00040">dyn-array.hpp:40</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a2a722f2010b55b7c77d4299374c318fa"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a2a722f2010b55b7c77d4299374c318fa">otto::util::dyn_array::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Fill the array with default initialized values. </div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00053">dyn-array.hpp:53</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4befe5466cba35ddbfa8453af430b27d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4befe5466cba35ddbfa8453af430b27d">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::begin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00031">31</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="dyn-array_8hpp_source.html#l00053">otto::util::dyn_array&lt; double &gt;::clear()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{ <span class="keywordflow">return</span> _data.get(); }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a63ae8f8c94feee917da5473350c76c2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63ae8f8c94feee917da5473350c76c2d">&#9670;&nbsp;</a></span>begin() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::begin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00034">34</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{ <span class="keywordflow">return</span> _data.get(); }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a2a722f2010b55b7c77d4299374c318fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a722f2010b55b7c77d4299374c318fa">&#9670;&nbsp;</a></span>clear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::clear </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Fill the array with default initialized values. </p>
-
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00053">53</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="dyn-array_8hpp_source.html#l00021">otto::util::dyn_array&lt; double &gt;::dyn_array()</a>, and <a class="el" href="dyn-array_8hpp_source.html#l00045">otto::util::dyn_array&lt; double &gt;::resize()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      <span class="keywordflow">if</span> (cur_size != 0) std::fill(<a class="code" href="classotto_1_1util_1_1dyn__array.html#a4befe5466cba35ddbfa8453af430b27d">begin</a>(), <a class="code" href="classotto_1_1util_1_1dyn__array.html#a020a88755aea1c384ac3eb507fe933f4">end</a>(), T{});</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a4befe5466cba35ddbfa8453af430b27d"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a4befe5466cba35ddbfa8453af430b27d">otto::util::dyn_array::begin</a></div><div class="ttdeci">T * begin()</div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00031">dyn-array.hpp:31</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a020a88755aea1c384ac3eb507fe933f4"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a020a88755aea1c384ac3eb507fe933f4">otto::util::dyn_array::end</a></div><div class="ttdeci">T * end()</div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00032">dyn-array.hpp:32</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a839c5a8d14816eba83198672eb8a8497"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a839c5a8d14816eba83198672eb8a8497">&#9670;&nbsp;</a></span>data() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::data </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00037">37</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{ <span class="keywordflow">return</span> _data.get(); }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ad275a67b47d7051289c10532b25d5bae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad275a67b47d7051289c10532b25d5bae">&#9670;&nbsp;</a></span>data() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::data </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00038">38</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{ <span class="keywordflow">return</span> _data.get(); }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a020a88755aea1c384ac3eb507fe933f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a020a88755aea1c384ac3eb507fe933f4">&#9670;&nbsp;</a></span>end() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00032">32</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="dyn-array_8hpp_source.html#l00053">otto::util::dyn_array&lt; double &gt;::clear()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{ <span class="keywordflow">return</span> _data.get() + cur_size; }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a505974f2e3f871607036a8e94e51deb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a505974f2e3f871607036a8e94e51deb7">&#9670;&nbsp;</a></span>end() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00035">35</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{ <span class="keywordflow">return</span> _data.get() + cur_size; }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="aac083d6e8823da7ea07f191b8cd8bd5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac083d6e8823da7ea07f191b8cd8bd5a">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
@@ -360,9 +147,6 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">decltype(auto) <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::operator[] </td>
@@ -372,16 +156,10 @@ template&lt;typename T&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00028">28</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{<span class="keywordflow">return</span> _data[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>];}</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ae45f005da55ade5aabad9f71d47f7f07"></a>
@@ -391,9 +169,6 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">decltype(auto) <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::operator[] </td>
@@ -403,49 +178,140 @@ template&lt;typename T&gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00029">29</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{<span class="keywordflow">return</span> _data[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>];}</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a2c08d1fa4d849927cafe60d3bf3ae05b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c08d1fa4d849927cafe60d3bf3ae05b">&#9670;&nbsp;</a></span>resize()</h2>
+<a id="a4befe5466cba35ddbfa8453af430b27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4befe5466cba35ddbfa8453af430b27d">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::resize </td>
+          <td class="memname">T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::begin </td>
           <td>(</td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>new_size</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Replace the array with a new one of size <code>new_size</code></p>
-<p>Also default initializes the data </p>
 
-<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00045">45</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      _data = std::make_unique&lt;T[]&gt;(new_size);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      cur_size = new_size;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <a class="code" href="classotto_1_1util_1_1dyn__array.html#a2a722f2010b55b7c77d4299374c318fa">clear</a>();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a2a722f2010b55b7c77d4299374c318fa"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a2a722f2010b55b7c77d4299374c318fa">otto::util::dyn_array::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Fill the array with default initialized values. </div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00053">dyn-array.hpp:53</a></div></div>
-</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00031">31</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="dyn-array_8hpp_source.html#l00053">otto::util::dyn_array&lt; double &gt;::clear()</a>.</p>
+
+</div>
+</div>
+<a id="a020a88755aea1c384ac3eb507fe933f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a020a88755aea1c384ac3eb507fe933f4">&#9670;&nbsp;</a></span>end() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00032">32</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="dyn-array_8hpp_source.html#l00053">otto::util::dyn_array&lt; double &gt;::clear()</a>.</p>
+
+</div>
+</div>
+<a id="a63ae8f8c94feee917da5473350c76c2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63ae8f8c94feee917da5473350c76c2d">&#9670;&nbsp;</a></span>begin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00034">34</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a505974f2e3f871607036a8e94e51deb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a505974f2e3f871607036a8e94e51deb7">&#9670;&nbsp;</a></span>end() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00035">35</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a839c5a8d14816eba83198672eb8a8497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a839c5a8d14816eba83198672eb8a8497">&#9670;&nbsp;</a></span>data() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00037">37</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad275a67b47d7051289c10532b25d5bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad275a67b47d7051289c10532b25d5bae">&#9670;&nbsp;</a></span>data() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const T* <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00038">38</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
 </div>
 </div>
 <a id="a3ac8c4ee4849f08610e4ab692d83a333"></a>
@@ -455,9 +321,6 @@ template&lt;typename T&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">std::size_t <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::size </td>
@@ -466,15 +329,60 @@ template&lt;typename T&gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00040">40</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{ <span class="keywordflow">return</span> cur_size; }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="a2c08d1fa4d849927cafe60d3bf3ae05b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c08d1fa4d849927cafe60d3bf3ae05b">&#9670;&nbsp;</a></span>resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::resize </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>new_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replace the array with a new one of size <code>new_size</code> </p>
+<p>Also default initializes the data </p>
+
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00045">45</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2a722f2010b55b7c77d4299374c318fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a722f2010b55b7c77d4299374c318fa">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classotto_1_1util_1_1dyn__array.html">otto::util::dyn_array</a>&lt; T &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fill the array with default initialized values. </p>
+
+<p class="definition">Definition at line <a class="el" href="dyn-array_8hpp_source.html#l00053">53</a> of file <a class="el" href="dyn-array_8hpp_source.html">dyn-array.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="dyn-array_8hpp_source.html#l00021">otto::util::dyn_array&lt; double &gt;::dyn_array()</a>, and <a class="el" href="dyn-array_8hpp_source.html#l00045">otto::util::dyn_array&lt; double &gt;::resize()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

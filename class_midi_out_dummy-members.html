@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -64,27 +70,27 @@
 <p>This is the complete list of members for <a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a5708c9051060b961ee1b69d053314dcd">apiData_</a></td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a36371dcb82892ed39816d98c42b39072">closePort</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a36371dcb82892ed39816d98c42b39072">closePort</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a2caa246b04594b5ae84bacccb2a648aa">connected_</a></td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a>(RtMidiError::Type type, std::string errorString)</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a4f9fbf86cd9a970ff6e7211d73d6594d">errorCallback_</a></td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_api.html#a25be898d4cfd92d8221d5b2aeaffe051">errorCallbackUserData_</a></td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a></td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_api.html#a4d2ee5d79440913ab6b64d38b402c408">firstErrorOccurred_</a></td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#a02b193d3be04659c50d361d08cd6f9a2">getCurrentApi</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a507c180b582ea60db189f558d4af39dc">getPortCount</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#a9587a649810f296f7e47eb9642e11720">getPortName</a>(unsigned int)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#ad051b2c8f7589aa3250fb0a9f095d8ef">initialize</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a>() const</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#a02b193d3be04659c50d361d08cd6f9a2">getCurrentApi</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a507c180b582ea60db189f558d4af39dc">getPortCount</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#a9587a649810f296f7e47eb9642e11720">getPortName</a>(unsigned int)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#ad051b2c8f7589aa3250fb0a9f095d8ef">initialize</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a>() const</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_api.html#a968fb0e0c6cfc1f532a22bef313bf82c">MidiApi</a>()</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_out_api.html#a3865a51d0b739139737d8a5b860fe009">MidiOutApi</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_api.html">MidiOutApi</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a8cda27cbc00853e054a578307d20e580">MidiOutDummy</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#a098aa0f8158d37d674ac025b348a78d1">openPort</a>(unsigned int, const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a5f485a0e0bdc9664c521027f68651f67">openVirtualPort</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#abf77248f34448653004d2062de55d6ee">sendMessage</a>(const unsigned char *, size_t)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a8f655b95da08f29279392d44d06575bb">setClientName</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a8cda27cbc00853e054a578307d20e580">MidiOutDummy</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#a098aa0f8158d37d674ac025b348a78d1">openPort</a>(unsigned int, const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a5f485a0e0bdc9664c521027f68651f67">openVirtualPort</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_midi_out_dummy.html#abf77248f34448653004d2062de55d6ee">sendMessage</a>(const unsigned char *, size_t)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a8f655b95da08f29279392d44d06575bb">setClientName</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a>(RtMidiErrorCallback errorCallback, void *userData)</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a61b9fd8774267d639a73cad76ea6baeb">setPortName</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_midi_out_dummy.html#a61b9fd8774267d639a73cad76ea6baeb">setPortName</a>(const std::string &amp;)</td><td class="entry"><a class="el" href="class_midi_out_dummy.html">MidiOutDummy</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a6a6a1828e23ecc0a0242b96779400e74">~MidiApi</a>()</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_out_api.html#ac08128a87b2d688651f1ed3e3792e727">~MidiOutApi</a>(void)</td><td class="entry"><a class="el" href="class_midi_out_api.html">MidiOutApi</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->

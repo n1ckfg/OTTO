@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: RtMidiOut Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -114,7 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1e71b6498da083e9c0e46084d3521679"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_midi_out.html#a1e71b6498da083e9c0e46084d3521679">sendMessage</a> (const unsigned char *message, size_t size)</td></tr>
 <tr class="memdesc:a1e71b6498da083e9c0e46084d3521679"><td class="mdescLeft">&#160;</td><td class="mdescRight">Immediately send a single message out an open MIDI output port.  <a href="#a1e71b6498da083e9c0e46084d3521679">More...</a><br /></td></tr>
 <tr class="separator:a1e71b6498da083e9c0e46084d3521679"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91a4571214f7b033312cc6cb661d3253"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_midi_out.html#a91a4571214f7b033312cc6cb661d3253">setErrorCallback</a> (RtMidiErrorCallback errorCallback=NULL, void *userData=0)</td></tr>
+<tr class="memitem:a91a4571214f7b033312cc6cb661d3253"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_midi_out.html#a91a4571214f7b033312cc6cb661d3253">setErrorCallback</a> (<a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a> errorCallback=NULL, void *userData=0)</td></tr>
 <tr class="memdesc:a91a4571214f7b033312cc6cb661d3253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set an error callback function to be invoked when an error has occured.  <a href="#a91a4571214f7b033312cc6cb661d3253">More...</a><br /></td></tr>
 <tr class="separator:a91a4571214f7b033312cc6cb661d3253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_rt_midi"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_rt_midi')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_rt_midi.html">RtMidi</a></td></tr>
@@ -173,7 +179,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RTMIDI_DLL_PUBLIC RtMidiOut::RtMidiOut </td>
+          <td class="memname"><a class="el" href="_rt_midi_8h.html#a057c0c03a7417117ea498b48d49586cb">RTMIDI_DLL_PUBLIC</a> RtMidiOut::RtMidiOut </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406">RtMidi::Api</a>&#160;</td>
           <td class="paramname"><em>api</em> = <code><a class="el" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a4a4d9f7a38a082d6b0d5dd2b5de94ab9">UNSPECIFIED</a></code>, </td>
@@ -199,15 +205,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00425">425</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8cpp_source.html#l00292">RtMidi::getCompiledApi()</a>, <a class="el" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">MidiApi::getPortCount()</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00398">openMidiApi()</a>, <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>, <a class="el" href="_rt_midi_8h_source.html#l00080">RtMidiError::UNSPECIFIED</a>, and <a class="el" href="_rt_midi_8h_source.html#l00132">RtMidi::UNSPECIFIED</a>.</p>
-<div class="fragment"><div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;{</div><div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;  <span class="keywordflow">if</span> ( api != <a class="code" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a4a4d9f7a38a082d6b0d5dd2b5de94ab9">UNSPECIFIED</a> ) {</div><div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    <span class="comment">// Attempt to open the specified API.</span></div><div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    <a class="code" href="class_rt_midi_out.html#af85fa05d754bf402eaba1913981fe1a9">openMidiApi</a>( api, clientName );</div><div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> ) <span class="keywordflow">return</span>;</div><div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;</div><div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="comment">// No compiled support for specified API value.  Issue a warning</span></div><div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="comment">// and continue as if no API was specified.</span></div><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;\nRtMidiOut: no compiled support for specified API argument!\n\n&quot;</span> &lt;&lt; std::endl;</div><div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;  }</div><div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;</div><div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;  <span class="comment">// Iterate through the compiled APIs and return as soon as we find</span></div><div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;  <span class="comment">// one with at least one port or we reach the end of the list.</span></div><div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;  std::vector&lt; RtMidi::Api &gt; apis;</div><div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;  <a class="code" href="class_rt_midi.html#a39204d17dea25683456b49db648bfb8b">getCompiledApi</a>( apis );</div><div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;  <span class="keywordflow">for</span> ( <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i=0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>&lt;apis.size(); <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>++ ) {</div><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <a class="code" href="class_rt_midi_out.html#af85fa05d754bf402eaba1913981fe1a9">openMidiApi</a>( apis[i], clientName );</div><div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> &amp;&amp; <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">getPortCount</a>() ) <span class="keywordflow">break</span>;</div><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;  }</div><div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;</div><div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> ) <span class="keywordflow">return</span>;</div><div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;</div><div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;  <span class="comment">// It should not be possible to get here because the preprocessor</span></div><div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;  <span class="comment">// definition __RTMIDI_DUMMY__ is automatically defined if no</span></div><div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;  <span class="comment">// API-specific definitions are passed to the compiler. But just in</span></div><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;  <span class="comment">// case something weird happens, we&#39;ll thrown an error.</span></div><div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;  std::string errorText = <span class="stringliteral">&quot;RtMidiOut: no compiled API support found ... critical error!!&quot;</span>;</div><div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;  <span class="keywordflow">throw</span>( <a class="code" href="class_rt_midi_error.html">RtMidiError</a>( errorText, <a class="code" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eeabd80a28d9fedd9a861c72d3fae096a79">RtMidiError::UNSPECIFIED</a> ) );</div><div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;}</div><div class="ttc" id="class_midi_api_html_a98661c935d597e8ba19ed266287868f5"><div class="ttname"><a href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">MidiApi::getPortCount</a></div><div class="ttdeci">virtual unsigned int getPortCount(void)=0</div></div>
-<div class="ttc" id="class_rt_midi_out_html_af85fa05d754bf402eaba1913981fe1a9"><div class="ttname"><a href="class_rt_midi_out.html#af85fa05d754bf402eaba1913981fe1a9">RtMidiOut::openMidiApi</a></div><div class="ttdeci">void openMidiApi(RtMidi::Api api, const std::string &amp;clientName)</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00398">RtMidi.cpp:398</a></div></div>
-<div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-<div class="ttc" id="class_rt_midi_error_html_a741314057cec5fb8c743c12f284905eeabd80a28d9fedd9a861c72d3fae096a79"><div class="ttname"><a href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eeabd80a28d9fedd9a861c72d3fae096a79">RtMidiError::UNSPECIFIED</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00080">RtMidi.h:80</a></div></div>
-<div class="ttc" id="class_rt_midi_html_aac66af04a85fe5c5f07c360574a19406a4a4d9f7a38a082d6b0d5dd2b5de94ab9"><div class="ttname"><a href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a4a4d9f7a38a082d6b0d5dd2b5de94ab9">RtMidi::UNSPECIFIED</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00132">RtMidi.h:132</a></div></div>
-<div class="ttc" id="class_rt_midi_error_html"><div class="ttname"><a href="class_rt_midi_error.html">RtMidiError</a></div><div class="ttdoc">Exception handling class for RtMidi. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00073">RtMidi.h:73</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-<div class="ttc" id="class_rt_midi_html_a39204d17dea25683456b49db648bfb8b"><div class="ttname"><a href="class_rt_midi.html#a39204d17dea25683456b49db648bfb8b">RtMidi::getCompiledApi</a></div><div class="ttdeci">static void getCompiledApi(std::vector&lt; RtMidi::Api &gt; &amp;apis)</div><div class="ttdoc">A static function to determine the available compiled MIDI APIs. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00292">RtMidi.cpp:292</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="afdc37ccd60d7a31b3970da7a1d423881"></a>
@@ -235,10 +233,83 @@ Additional Inherited Members</h2></td></tr>
 <p>The destructor closes any open MIDI connections. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00456">456</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;{</div><div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;}</div></div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a532b5712e305bd8afb65a3ad14138e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a532b5712e305bd8afb65a3ad14138e0f">&#9670;&nbsp;</a></span>getCurrentApi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406">RtMidi::Api</a> RtMidiOut::getCurrentApi </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the MIDI API specifier for the current instance of <a class="el" href="class_rt_midi_out.html" title="A realtime MIDI output class. ">RtMidiOut</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00599">599</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+</div>
+</div>
+<a id="a4c29a5e7c0f5c088953ef02f3c38d4f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c29a5e7c0f5c088953ef02f3c38d4f3">&#9670;&nbsp;</a></span>openPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RtMidiOut::openPort </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>portNumber</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>portName</em> = <code>std::string(&#160;&quot;RtMidi&#160;Output&quot;&#160;)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Open a MIDI output connection. </p>
+<p>An optional port number greater than 0 can be specified. Otherwise, the default or first port found is opened. An exception is thrown if an error occurs while attempting to make the port connection. </p>
+
+<p>Implements <a class="el" href="class_rt_midi.html#a4834507ff21017d3b022422dbb8f6104">RtMidi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00600">600</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">References <a class="el" href="class_midi_api.html#a04d2614cf1512ee5095f0f2bfdc8a967">MidiApi::openPort()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
+
+</div>
+</div>
 <a id="a5a28d1ba9e002fd07a317d3a257d87e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a28d1ba9e002fd07a317d3a257d87e8">&#9670;&nbsp;</a></span>closePort()</h2>
 
@@ -258,7 +329,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -270,126 +341,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00602">602</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
 <p class="reference">References <a class="el" href="class_midi_api.html#a1410af774a6bcdf85726eb69b94bc918">MidiApi::closePort()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;{ <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a1410af774a6bcdf85726eb69b94bc918">closePort</a>(); }</div><div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-<div class="ttc" id="class_midi_api_html_a1410af774a6bcdf85726eb69b94bc918"><div class="ttname"><a href="class_midi_api.html#a1410af774a6bcdf85726eb69b94bc918">MidiApi::closePort</a></div><div class="ttdeci">virtual void closePort(void)=0</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a532b5712e305bd8afb65a3ad14138e0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a532b5712e305bd8afb65a3ad14138e0f">&#9670;&nbsp;</a></span>getCurrentApi()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406">RtMidi::Api</a> RtMidiOut::getCurrentApi </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td align="right">throw </td><td>(</td><td colspan="2"></td>
-        </tr>
-        <tr>
-          <td align="right"></td><td>)</td><td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the MIDI API specifier for the current instance of <a class="el" href="class_rt_midi_out.html" title="A realtime MIDI output class. ">RtMidiOut</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00599">599</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a9913ffc5863dbb4ac6d4e81d046c665a">getCurrentApi</a>(); }</div><div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-<div class="ttc" id="class_midi_api_html_a9913ffc5863dbb4ac6d4e81d046c665a"><div class="ttname"><a href="class_midi_api.html#a9913ffc5863dbb4ac6d4e81d046c665a">MidiApi::getCurrentApi</a></div><div class="ttdeci">virtual RtMidi::Api getCurrentApi(void)=0</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a0c4d662e1c398ddf35a2dbaf66f50976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c4d662e1c398ddf35a2dbaf66f50976">&#9670;&nbsp;</a></span>getPortCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int RtMidiOut::getPortCount </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return the number of available MIDI output ports. </p>
-
-<p>Implements <a class="el" href="class_rt_midi.html#a9a49ef73a1e6007444019a7ae095e195">RtMidi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00604">604</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">References <a class="el" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">MidiApi::getPortCount()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">getPortCount</a>(); }</div><div class="ttc" id="class_midi_api_html_a98661c935d597e8ba19ed266287868f5"><div class="ttname"><a href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">MidiApi::getPortCount</a></div><div class="ttdeci">virtual unsigned int getPortCount(void)=0</div></div>
-<div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acc4ae0ab71a49ae7629075d5a9cd837c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4ae0ab71a49ae7629075d5a9cd837c">&#9670;&nbsp;</a></span>getPortName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string RtMidiOut::getPortName </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>portNumber</em> = <code>0</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return a string identifier for the specified MIDI port type and number. </p>
-<dl class="section return"><dt>Returns</dt><dd>The name of the port with the given Id is returned. </dd></dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">An</td><td>empty string is returned if an invalid port specifier is provided. User code should assume a UTF-8 encoding. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="class_rt_midi.html#a799e2b9f4df39b298518f2b394db3391">RtMidi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00605">605</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">References <a class="el" href="class_midi_api.html#a317393a9094e7c2bf51337adbabe6a71">MidiApi::getPortName()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a317393a9094e7c2bf51337adbabe6a71">getPortName</a>( portNumber ); }</div><div class="ttc" id="class_midi_api_html_a317393a9094e7c2bf51337adbabe6a71"><div class="ttname"><a href="class_midi_api.html#a317393a9094e7c2bf51337adbabe6a71">MidiApi::getPortName</a></div><div class="ttdeci">virtual std::string getPortName(unsigned int portNumber)=0</div></div>
-<div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="a90445e886e502f06aa0d3fce5cbc7721"></a>
@@ -411,7 +363,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -424,9 +376,229 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00603">603</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00490">MidiApi::isPortOpen()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a>(); }</div><div class="ttc" id="class_midi_api_html_a79e5ef07b3066f3a3d11ae322fde6cc3"><div class="ttname"><a href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">MidiApi::isPortOpen</a></div><div class="ttdeci">bool isPortOpen() const</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00490">RtMidi.h:490</a></div></div>
-<div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a79d6d672c18463d3759d1523e675f9d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d6d672c18463d3759d1523e675f9d3">&#9670;&nbsp;</a></span>openVirtualPort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RtMidiOut::openVirtualPort </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>portName</em> = <code>std::string(&#160;&quot;RtMidi&#160;Output&quot;&#160;)</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a virtual output port, with optional name, to allow software connections (OS X, JACK and ALSA only). </p>
+<p>This function creates a virtual MIDI output port to which other software applications can connect. This type of functionality is currently only supported by the Macintosh OS-X, Linux ALSA and JACK APIs (the function does nothing with the other APIs). An exception is thrown if an error occurs while attempting to create the virtual port. </p>
+
+<p>Implements <a class="el" href="class_rt_midi.html#a2fcf7bceb243f3da51d2322a7a5ae11f">RtMidi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00601">601</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">References <a class="el" href="class_midi_api.html#a38f34c414ff8f0d0925c7e4bab25820d">MidiApi::openVirtualPort()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
+
+</div>
+</div>
+<a id="a0c4d662e1c398ddf35a2dbaf66f50976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c4d662e1c398ddf35a2dbaf66f50976">&#9670;&nbsp;</a></span>getPortCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int RtMidiOut::getPortCount </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the number of available MIDI output ports. </p>
+
+<p>Implements <a class="el" href="class_rt_midi.html#a9a49ef73a1e6007444019a7ae095e195">RtMidi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00604">604</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">References <a class="el" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">MidiApi::getPortCount()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
+
+</div>
+</div>
+<a id="acc4ae0ab71a49ae7629075d5a9cd837c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4ae0ab71a49ae7629075d5a9cd837c">&#9670;&nbsp;</a></span>getPortName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string RtMidiOut::getPortName </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>portNumber</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a string identifier for the specified MIDI port type and number. </p>
+<dl class="section return"><dt>Returns</dt><dd>The name of the port with the given Id is returned. </dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">An</td><td>empty string is returned if an invalid port specifier is provided. User code should assume a UTF-8 encoding. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="class_rt_midi.html#a799e2b9f4df39b298518f2b394db3391">RtMidi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00605">605</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">References <a class="el" href="class_midi_api.html#a317393a9094e7c2bf51337adbabe6a71">MidiApi::getPortName()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
+
+</div>
+</div>
+<a id="a19c7049a840a0181a0ddd4b14e99c651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19c7049a840a0181a0ddd4b14e99c651">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RtMidiOut::sendMessage </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; unsigned char &gt; *&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Immediately send a single message out an open MIDI output port. </p>
+<p>An exception is thrown if an error occurs during output or an output connection was not previously established. </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00606">606</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
+
+</div>
+</div>
+<a id="a1e71b6498da083e9c0e46084d3521679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e71b6498da083e9c0e46084d3521679">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RtMidiOut::sendMessage </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned char *&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Immediately send a single message out an open MIDI output port. </p>
+<p>An exception is thrown if an error occurs during output or an output connection was not previously established.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>A pointer to the MIDI message as raw bytes </td></tr>
+    <tr><td class="paramname">size</td><td>Length of the MIDI message in bytes </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00607">607</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
+
+</div>
+</div>
+<a id="a91a4571214f7b033312cc6cb661d3253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91a4571214f7b033312cc6cb661d3253">&#9670;&nbsp;</a></span>setErrorCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RtMidiOut::setErrorCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a>&#160;</td>
+          <td class="paramname"><em>errorCallback</em> = <code>NULL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>userData</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set an error callback function to be invoked when an error has occured. </p>
+<p>The callback function will be called whenever an error has occured. It is best to set the error callback function before opening a port. </p>
+
+<p>Implements <a class="el" href="class_rt_midi.html#aa6d6f2e0d06c64268c8898aa15f3a5df">RtMidi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00608">608</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00473">MidiApi::setErrorCallback()</a>.</p>
+
 </div>
 </div>
 <a id="af85fa05d754bf402eaba1913981fe1a9"></a>
@@ -468,232 +640,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00134">RtMidi::LINUX_ALSA</a>, <a class="el" href="_rt_midi_8h_source.html#l00133">RtMidi::MACOSX_CORE</a>, <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>, <a class="el" href="_rt_midi_8h_source.html#l00137">RtMidi::RTMIDI_DUMMY</a>, <a class="el" href="_rt_midi_8h_source.html#l00135">RtMidi::UNIX_JACK</a>, and <a class="el" href="_rt_midi_8h_source.html#l00136">RtMidi::WINDOWS_MM</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00425">RtMidiOut()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;{</div><div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keyword">delete</span> <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>;</div><div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> = 0;</div><div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div><div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;<span class="preprocessor">#if defined(__UNIX_JACK__)</span></div><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  <span class="keywordflow">if</span> ( api == <a class="code" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a1f59daf3120f47c0ae3891773112ddfa">UNIX_JACK</a> )</div><div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> = <span class="keyword">new</span> MidiOutJack( clientName );</div><div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;<span class="preprocessor">#if defined(__LINUX_ALSA__)</span></div><div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;  <span class="keywordflow">if</span> ( api == <a class="code" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a20c691b24844d3ab5dbf882123235df2">LINUX_ALSA</a> )</div><div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> = <span class="keyword">new</span> MidiOutAlsa( clientName );</div><div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;<span class="preprocessor">#if defined(__WINDOWS_MM__)</span></div><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;  <span class="keywordflow">if</span> ( api == <a class="code" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a647868cb4ed37f517bf185a7f41cb70f">WINDOWS_MM</a> )</div><div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> = <span class="keyword">new</span> MidiOutWinMM( clientName );</div><div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;<span class="preprocessor">#if defined(__MACOSX_CORE__)</span></div><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;  <span class="keywordflow">if</span> ( api == <a class="code" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a3f41293f89467641484fbd54c4530908">MACOSX_CORE</a> )</div><div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> = <span class="keyword">new</span> MidiOutCore( clientName );</div><div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;<span class="preprocessor">#if defined(__RTMIDI_DUMMY__)</span></div><div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;  <span class="keywordflow">if</span> ( api == <a class="code" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a54dba406ab358492005ce2b966a2d959">RTMIDI_DUMMY</a> )</div><div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a> = <span class="keyword">new</span> <a class="code" href="class_midi_out_dummy.html">MidiOutDummy</a>( clientName );</div><div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;}</div><div class="ttc" id="class_rt_midi_html_aac66af04a85fe5c5f07c360574a19406a1f59daf3120f47c0ae3891773112ddfa"><div class="ttname"><a href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a1f59daf3120f47c0ae3891773112ddfa">RtMidi::UNIX_JACK</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00135">RtMidi.h:135</a></div></div>
-<div class="ttc" id="class_rt_midi_html_aac66af04a85fe5c5f07c360574a19406a647868cb4ed37f517bf185a7f41cb70f"><div class="ttname"><a href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a647868cb4ed37f517bf185a7f41cb70f">RtMidi::WINDOWS_MM</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00136">RtMidi.h:136</a></div></div>
-<div class="ttc" id="class_rt_midi_html_aac66af04a85fe5c5f07c360574a19406a54dba406ab358492005ce2b966a2d959"><div class="ttname"><a href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a54dba406ab358492005ce2b966a2d959">RtMidi::RTMIDI_DUMMY</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00137">RtMidi.h:137</a></div></div>
-<div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-<div class="ttc" id="class_rt_midi_html_aac66af04a85fe5c5f07c360574a19406a3f41293f89467641484fbd54c4530908"><div class="ttname"><a href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a3f41293f89467641484fbd54c4530908">RtMidi::MACOSX_CORE</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00133">RtMidi.h:133</a></div></div>
-<div class="ttc" id="class_midi_out_dummy_html"><div class="ttname"><a href="class_midi_out_dummy.html">MidiOutDummy</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00252">RtMidi.cpp:252</a></div></div>
-<div class="ttc" id="class_rt_midi_html_aac66af04a85fe5c5f07c360574a19406a20c691b24844d3ab5dbf882123235df2"><div class="ttname"><a href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a20c691b24844d3ab5dbf882123235df2">RtMidi::LINUX_ALSA</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00134">RtMidi.h:134</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4c29a5e7c0f5c088953ef02f3c38d4f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c29a5e7c0f5c088953ef02f3c38d4f3">&#9670;&nbsp;</a></span>openPort()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RtMidiOut::openPort </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>portNumber</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>portName</em> = <code>std::string(&#160;&quot;RtMidi&#160;Output&quot;&#160;)</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Open a MIDI output connection. </p>
-<p>An optional port number greater than 0 can be specified. Otherwise, the default or first port found is opened. An exception is thrown if an error occurs while attempting to make the port connection. </p>
-
-<p>Implements <a class="el" href="class_rt_midi.html#a4834507ff21017d3b022422dbb8f6104">RtMidi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00600">600</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">References <a class="el" href="class_midi_api.html#a04d2614cf1512ee5095f0f2bfdc8a967">MidiApi::openPort()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;{ <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a04d2614cf1512ee5095f0f2bfdc8a967">openPort</a>( portNumber, portName ); }</div><div class="ttc" id="class_midi_api_html_a04d2614cf1512ee5095f0f2bfdc8a967"><div class="ttname"><a href="class_midi_api.html#a04d2614cf1512ee5095f0f2bfdc8a967">MidiApi::openPort</a></div><div class="ttdeci">virtual void openPort(unsigned int portNumber, const std::string &amp;portName)=0</div></div>
-<div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a79d6d672c18463d3759d1523e675f9d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79d6d672c18463d3759d1523e675f9d3">&#9670;&nbsp;</a></span>openVirtualPort()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RtMidiOut::openVirtualPort </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>portName</em> = <code>std::string(&#160;&quot;RtMidi&#160;Output&quot;&#160;)</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Create a virtual output port, with optional name, to allow software connections (OS X, JACK and ALSA only). </p>
-<p>This function creates a virtual MIDI output port to which other software applications can connect. This type of functionality is currently only supported by the Macintosh OS-X, Linux ALSA and JACK APIs (the function does nothing with the other APIs). An exception is thrown if an error occurs while attempting to create the virtual port. </p>
-
-<p>Implements <a class="el" href="class_rt_midi.html#a2fcf7bceb243f3da51d2322a7a5ae11f">RtMidi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00601">601</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">References <a class="el" href="class_midi_api.html#a38f34c414ff8f0d0925c7e4bab25820d">MidiApi::openVirtualPort()</a>, and <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;{ <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a38f34c414ff8f0d0925c7e4bab25820d">openVirtualPort</a>( portName ); }</div><div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-<div class="ttc" id="class_midi_api_html_a38f34c414ff8f0d0925c7e4bab25820d"><div class="ttname"><a href="class_midi_api.html#a38f34c414ff8f0d0925c7e4bab25820d">MidiApi::openVirtualPort</a></div><div class="ttdeci">virtual void openVirtualPort(const std::string &amp;portName)=0</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a19c7049a840a0181a0ddd4b14e99c651"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19c7049a840a0181a0ddd4b14e99c651">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RtMidiOut::sendMessage </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; unsigned char &gt; *&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Immediately send a single message out an open MIDI output port. </p>
-<p>An exception is thrown if an error occurs during output or an output connection was not previously established. </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00606">606</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;{ ((<a class="code" href="class_midi_out_api.html">MidiOutApi</a> *)<a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>)-&gt;sendMessage( &amp;message-&gt;at(0), message-&gt;size() ); }</div><div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-<div class="ttc" id="class_midi_out_api_html"><div class="ttname"><a href="class_midi_out_api.html">MidiOutApi</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00571">RtMidi.h:571</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a1e71b6498da083e9c0e46084d3521679"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e71b6498da083e9c0e46084d3521679">&#9670;&nbsp;</a></span>sendMessage() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RtMidiOut::sendMessage </td>
-          <td>(</td>
-          <td class="paramtype">const unsigned char *&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Immediately send a single message out an open MIDI output port. </p>
-<p>An exception is thrown if an error occurs during output or an output connection was not previously established.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">message</td><td>A pointer to the MIDI message as raw bytes </td></tr>
-    <tr><td class="paramname">size</td><td>Length of the MIDI message in bytes </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00607">607</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;{ ((<a class="code" href="class_midi_out_api.html">MidiOutApi</a> *)<a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>)-&gt;sendMessage( message, size ); }</div><div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-<div class="ttc" id="class_midi_out_api_html"><div class="ttname"><a href="class_midi_out_api.html">MidiOutApi</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00571">RtMidi.h:571</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a91a4571214f7b033312cc6cb661d3253"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91a4571214f7b033312cc6cb661d3253">&#9670;&nbsp;</a></span>setErrorCallback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RtMidiOut::setErrorCallback </td>
-          <td>(</td>
-          <td class="paramtype">RtMidiErrorCallback&#160;</td>
-          <td class="paramname"><em>errorCallback</em> = <code>NULL</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>userData</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set an error callback function to be invoked when an error has occured. </p>
-<p>The callback function will be called whenever an error has occured. It is best to set the error callback function before opening a port. </p>
-
-<p>Implements <a class="el" href="class_rt_midi.html#aa6d6f2e0d06c64268c8898aa15f3a5df">RtMidi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00608">608</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00188">RtMidi::rtapi_</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00473">MidiApi::setErrorCallback()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;{ <a class="code" href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">rtapi_</a>-&gt;<a class="code" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a>(errorCallback, userData); }</div><div class="ttc" id="class_midi_api_html_a1c90ccc7153045c1059230295d9de8fc"><div class="ttname"><a href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">MidiApi::setErrorCallback</a></div><div class="ttdeci">void setErrorCallback(RtMidiErrorCallback errorCallback, void *userData)</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00473">RtMidi.cpp:473</a></div></div>
-<div class="ttc" id="class_rt_midi_html_ae5dad4d720ff6912b819ca608d2c9cd6"><div class="ttname"><a href="class_rt_midi.html#ae5dad4d720ff6912b819ca608d2c9cd6">RtMidi::rtapi_</a></div><div class="ttdeci">MidiApi * rtapi_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00188">RtMidi.h:188</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

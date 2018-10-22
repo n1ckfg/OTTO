@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -63,16 +69,16 @@
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_colour.html#a7002e645784fae5dffed429b85ff6e33">otto::core::ui::vg::Colour</a>
 </li>
 <li>radius
-: <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state_1_1_channel_state.html#a694a27df12ec15c0c85fc2a566621125">otto::engines::EuclidScreen::State::ChannelState</a>
+: <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#a694a27df12ec15c0c85fc2a566621125">otto::engines::EuclidScreen::State::ChannelState</a>
 </li>
 <li>radius_range
 : <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a64987f6c330bc2f11b45bad231334f21">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
 </li>
-<li>range()
-: <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#aca39ad3979d5898b4e1a504ab9479535">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
-</li>
 <li>Range
 : <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a5ca681c9508eb57ba4b9c415d210f6d1">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
+</li>
+<li>range()
+: <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#aca39ad3979d5898b4e1a504ab9479535">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
 </li>
 <li>read()
 : <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#aa519ac3ae7a1203ae240c288f4d4886b">otto::util::ByteFile::Chunk</a>
@@ -100,7 +106,7 @@
 : <a class="el" href="structotto_1_1engines_1_1_euclid.html#ae205bf87b51ba4d1d010a6276e489b1e">otto::engines::Euclid</a>
 </li>
 <li>rect
-: <a class="el" href="structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_e_g_l_data.html#a080d20a5be2eb6ffa9352ad255a10245">otto::board::ui::EGLConnection::EGLData</a>
+: <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#a080d20a5be2eb6ffa9352ad255a10245">otto::board::ui::EGLConnection::EGLData</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html#afe8c476534d3c1614fa759172859f211">otto::core::ui::vg::Canvas</a>
 </li>
 <li>rectangular
@@ -116,7 +122,6 @@
 : <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a48599f0a3099f6fe596f07a65b61b15b">otto::filesystem::directory_iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#ab147de478a3901dcf8d2a3964aa6ce2f">otto::filesystem::path::iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#a34de6e1cbc975b0db246c3e91af90c75">otto::filesystem::recursive_directory_iterator</a>
-, <a class="el" href="structotto_1_1util_1_1detail_1_1_adjacent_iter_impl.html#a3be1a8d99ba1d161a51108253c93e8be">otto::util::detail::AdjacentIterImpl&lt; Iter &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1_filter_iter_impl.html#a58fc3ad896e04b33375169f58c26879d">otto::util::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2e1f0cedd24f4b32a2ce321b8da8d03a">otto::util::float_step_iterator&lt; I, V &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1iterator__adaptor__impl.html#a0aa0560161dc183892fe589c2ca157dd">otto::util::iterator_adaptor_impl&lt; Impl, Category &gt;</a>
@@ -132,9 +137,6 @@
 </li>
 <li>refresh_state()
 : <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#a5b4b0d6d152e174b91ef31ba05a440f0">otto::engines::EuclidScreen</a>
-</li>
-<li>registerOption()
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_faust_options.html#a37a5280c7f38db00a8bf586b906e2ec5">otto::core::audio::FaustOptions</a>
 </li>
 <li>relation
 : <a class="el" href="structotto_1_1engines_1_1_nuke_synth_1_1_props.html#a9a31173142653ac2b213e3cbf4f12c12">otto::engines::NukeSynth::Props</a>
@@ -186,7 +188,7 @@
 : <a class="el" href="classotto_1_1util_1_1dyn__array.html#a2c08d1fa4d849927cafe60d3bf3ae05b">otto::util::dyn_array&lt; T &gt;</a>
 </li>
 <li>resource
-: <a class="el" href="structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_e_g_l_data.html#a12489478de9bd11f632bd1595937d1ae">otto::board::ui::EGLConnection::EGLData</a>
+: <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#a12489478de9bd11f632bd1595937d1ae">otto::board::ui::EGLConnection::EGLData</a>
 </li>
 <li>result()
 : <a class="el" href="structotto_1_1util_1_1result.html#a1412868c12a87f7ada98dda5dfbe5af7">otto::util::result&lt; ok_t, err_t &gt;</a>
@@ -217,7 +219,7 @@
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_envelope_screen.html#a3a562bdb29c7328a7d5664b612cf0fba">otto::core::audio::EnvelopeScreen</a>
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_settings_screen.html#a6ac24673d399c78eeb0f6b0eedab81ca">otto::core::audio::SettingsScreen</a>
 , <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_selector_screen.html#a678836fd48cb2ec78f18f89467f132d1">otto::core::engines::EngineSelectorScreen</a>
-, <a class="el" href="structotto_1_1core_1_1ui_1_1_rotary_event.html#a8008def2a1f06884e0a8c097ebe43807">otto::core::ui::RotaryEvent</a>
+, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a8008def2a1f06884e0a8c097ebe43807">otto::core::ui::RotaryEvent</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#a8c56f8a233f936cf51ab1f78a387994c">otto::core::ui::Screen</a>
 , <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#aae9264cda563dca4f1da3ad604320df1">otto::engines::EuclidScreen</a>
 , <a class="el" href="structotto_1_1engines_1_1_external_screen.html#abe12fce256ec34a1f5a409dddf3d71d5">otto::engines::ExternalScreen</a>
@@ -285,7 +287,7 @@
 : <a class="el" href="class_rt_midi_out.html#a89b093298cf2cb2b3c38ae202ce97831">RtMidiOut</a>
 </li>
 <li>run_hook()
-: <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#af07ad30dc80284f04cb70874b5d3700a">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a65402a7cdfc545c9837a0baab2581252">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</a>
 </li>
 <li>running
 : <a class="el" href="structotto_1_1engines_1_1_euclid.html#ab093c0fc05dbc8a478fa7ccf2302916f">otto::engines::Euclid</a>

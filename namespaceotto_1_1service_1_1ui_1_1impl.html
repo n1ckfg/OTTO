@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::ui::impl Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -75,12 +81,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aace2bb427dbe6239f8a4409446760017"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#aace2bb427dbe6239f8a4409446760017">draw_frame</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">core::ui::vg::Canvas</a> &amp;ctx)</td></tr>
 <tr class="memdesc:aace2bb427dbe6239f8a4409446760017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the current screen and overlays.  <a href="#aace2bb427dbe6239f8a4409446760017">More...</a><br /></td></tr>
 <tr class="separator:aace2bb427dbe6239f8a4409446760017"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8096942e9f9aff0696ea22d9ce61a98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#af8096942e9f9aff0696ea22d9ce61a98">keypress</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">Key</a> key)</td></tr>
-<tr class="separator:af8096942e9f9aff0696ea22d9ce61a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb449a58e90e66b65801310f4ab3b5db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#aeb449a58e90e66b65801310f4ab3b5db">rotary</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1_rotary_event.html">RotaryEvent</a> ev)</td></tr>
-<tr class="separator:aeb449a58e90e66b65801310f4ab3b5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab02bf08528e1eb627be9de8b53efdd41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#ab02bf08528e1eb627be9de8b53efdd41">keyrelease</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">Key</a> key)</td></tr>
-<tr class="separator:ab02bf08528e1eb627be9de8b53efdd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec9155bf34313a641864b48ebc803ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#a7ec9155bf34313a641864b48ebc803ff">keypress</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a> key)</td></tr>
+<tr class="memdesc:a7ec9155bf34313a641864b48ebc803ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatches to the event handler for the current screen, and handles global keys.  <a href="#a7ec9155bf34313a641864b48ebc803ff">More...</a><br /></td></tr>
+<tr class="separator:a7ec9155bf34313a641864b48ebc803ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac2ef81014a420385b2725c87bab44e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#a5ac2ef81014a420385b2725c87bab44e">rotary</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#structotto_1_1core_1_1ui_1_1_rotary_event">core::ui::RotaryEvent</a> ev)</td></tr>
+<tr class="memdesc:a5ac2ef81014a420385b2725c87bab44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send rotary event.  <a href="#a5ac2ef81014a420385b2725c87bab44e">More...</a><br /></td></tr>
+<tr class="separator:a5ac2ef81014a420385b2725c87bab44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7a4b7a19d4cfc89ac0ea38f3fb3dd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#abb7a4b7a19d4cfc89ac0ea38f3fb3dd0">keyrelease</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a> key)</td></tr>
+<tr class="memdesc:abb7a4b7a19d4cfc89ac0ea38f3fb3dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispatches to the event handler for the current screen, and handles global keys.  <a href="#abb7a4b7a19d4cfc89ac0ea38f3fb3dd0">More...</a><br /></td></tr>
+<tr class="separator:abb7a4b7a19d4cfc89ac0ea38f3fb3dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce404997ff0b9c128293a3ceca4456a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui_1_1impl.html#a0ce404997ff0b9c128293a3ceca4456a">flush_events</a> ()</td></tr>
 <tr class="memdesc:a0ce404997ff0b9c128293a3ceca4456a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actually executes the key and rotary events.  <a href="#a0ce404997ff0b9c128293a3ceca4456a">More...</a><br /></td></tr>
 <tr class="separator:a0ce404997ff0b9c128293a3ceca4456a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,8 +119,81 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00412">otto::core::ui::vg::Canvas::draw()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="egl__ui_8cpp_source.html#l00028">otto::service::ui::main_ui_loop()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      ctx.lineWidth(2);</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      ctx.lineCap(vg::Canvas::LineCap::ROUND);</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      ctx.lineJoin(vg::Canvas::Canvas::LineJoin::ROUND);</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      cur_screen-&gt;draw(ctx);</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a7ec9155bf34313a641864b48ebc803ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ec9155bf34313a641864b48ebc803ff">&#9670;&nbsp;</a></span>keypress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::ui::impl::keypress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a>&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dispatches to the event handler for the current screen, and handles global keys. </p>
+<p>Can be executed from a separate thread </p>
+
+<p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00131">131</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>, and <a class="el" href="rpi__input_8cpp_source.html#l00104">otto::board::ui::read_encoders()</a>.</p>
+
+</div>
+</div>
+<a id="a5ac2ef81014a420385b2725c87bab44e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac2ef81014a420385b2725c87bab44e">&#9670;&nbsp;</a></span>rotary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::ui::impl::rotary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1ui.html#structotto_1_1core_1_1ui_1_1_rotary_event">core::ui::RotaryEvent</a>&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Send rotary event. </p>
+<p>Can be executed from a separate thread </p>
+
+<p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00136">136</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>, and <a class="el" href="rpi__input_8cpp_source.html#l00104">otto::board::ui::read_encoders()</a>.</p>
+
+</div>
+</div>
+<a id="abb7a4b7a19d4cfc89ac0ea38f3fb3dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb7a4b7a19d4cfc89ac0ea38f3fb3dd0">&#9670;&nbsp;</a></span>keyrelease()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::ui::impl::keyrelease </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a>&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dispatches to the event handler for the current screen, and handles global keys. </p>
+<p>Can be executed from a separate thread, but must be the same thread as keypress </p>
+
+<p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00141">141</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>.</p>
+
 </div>
 </div>
 <a id="a0ce404997ff0b9c128293a3ceca4456a"></a>
@@ -133,88 +215,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00146">146</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="ui_8cpp_source.html#l00146">flush_events()</a>, and <a class="el" href="utility_8hpp_source.html#l00028">otto::util::match()</a>.</p>
+<p class="reference">References <a class="el" href="utility_8hpp_source.html#l00028">otto::util::match()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ui_8cpp_source.html#l00146">flush_events()</a>, and <a class="el" href="egl__ui_8cpp_source.html#l00028">otto::service::ui::main_ui_loop()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    {</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      key_events.swap();</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; event : key_events.inner()) {</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        util::match( <span class="comment">//</span></div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;          event,</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;          [](KeyPress ev) {</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            keys[<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span><span class="keyword">&gt;</span>(ev.key)] = <span class="keyword">true</span>;</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="keywordflow">if</span> (global_keypress(ev.key)) <span class="keywordflow">return</span>;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            cur_screen-&gt;keypress(ev.key);</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;          },</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;          [](KeyRelease&amp; ev) {</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            keys[<span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span><span class="keyword">&gt;</span>(ev.key)] = <span class="keyword">false</span>;</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="keywordflow">if</span> (global_keypress(ev.key, <span class="keyword">false</span>)) <span class="keywordflow">return</span>;</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            cur_screen-&gt;keyrelease(ev.key);</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;          });</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      }</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      rotary_events.swap();</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; event : rotary_events.inner()) {</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        cur_screen-&gt;rotary(event);</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      }</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="af8096942e9f9aff0696ea22d9ce61a98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8096942e9f9aff0696ea22d9ce61a98">&#9670;&nbsp;</a></span>keypress()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::ui::impl::keypress </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a>&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Dispatches to the event handler for the current screen, and handles global keys.</p>
-<p>Can be executed from a separate thread </p>
-
-<p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00131">131</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="ui_8cpp_source.html#l00131">keypress()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>, <a class="el" href="ui_8cpp_source.html#l00131">keypress()</a>, and <a class="el" href="rpi__input_8cpp_source.html#l00104">otto::board::ui::read_encoders()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      key_events.outer().push_back(KeyPress{key});</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ab02bf08528e1eb627be9de8b53efdd41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab02bf08528e1eb627be9de8b53efdd41">&#9670;&nbsp;</a></span>keyrelease()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::ui::impl::keyrelease </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a>&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Dispatches to the event handler for the current screen, and handles global keys.</p>
-<p>Can be executed from a separate thread, but must be the same thread as keypress </p>
-
-<p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00141">141</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="ui_8cpp_source.html#l00141">keyrelease()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>, and <a class="el" href="ui_8cpp_source.html#l00141">keyrelease()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    {</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      key_events.outer().push_back(KeyRelease{key});</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="aeb449a58e90e66b65801310f4ab3b5db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb449a58e90e66b65801310f4ab3b5db">&#9670;&nbsp;</a></span>rotary()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::ui::impl::rotary </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1ui_1_1_rotary_event.html">core::ui::RotaryEvent</a>&#160;</td>
-          <td class="paramname"><em>ev</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Send rotary event</p>
-<p>Can be executed from a separate thread </p>
-
-<p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00136">136</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="ui_8cpp_source.html#l00136">rotary()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>, <a class="el" href="rpi__input_8cpp_source.html#l00104">otto::board::ui::read_encoders()</a>, and <a class="el" href="ui_8cpp_source.html#l00136">rotary()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    {</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      rotary_events.outer().push_back(ev);</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

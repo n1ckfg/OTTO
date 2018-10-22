@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::SoundFile::Info Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -116,12 +122,26 @@ Public Attributes</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="soundfile_8hpp_source.html#l00027">27</a> of file <a class="el" href="soundfile_8hpp_source.html">soundfile.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                      {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        WAVE,</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        AIFF,</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      } <a class="code" href="structotto_1_1util_1_1_sound_file_1_1_info.html#a61bdd847611c8cf6f33f52b8bc99778d">type</a> = <a class="code" href="structotto_1_1util_1_1_sound_file_1_1_info.html#add4e0a9e45d3c9b94c13dbcc88b3193fa34c83beed9e41c7f49c783097a7c760a">Type::WAVE</a>;</div><div class="ttc" id="structotto_1_1util_1_1_sound_file_1_1_info_html_add4e0a9e45d3c9b94c13dbcc88b3193fa34c83beed9e41c7f49c783097a7c760a"><div class="ttname"><a href="structotto_1_1util_1_1_sound_file_1_1_info.html#add4e0a9e45d3c9b94c13dbcc88b3193fa34c83beed9e41c7f49c783097a7c760a">otto::util::SoundFile::Info::Type::WAVE</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_sound_file_1_1_info_html_a61bdd847611c8cf6f33f52b8bc99778d"><div class="ttname"><a href="structotto_1_1util_1_1_sound_file_1_1_info.html#a61bdd847611c8cf6f33f52b8bc99778d">otto::util::SoundFile::Info::type</a></div><div class="ttdeci">enum otto::util::SoundFile::Info::Type type</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a61bdd847611c8cf6f33f52b8bc99778d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61bdd847611c8cf6f33f52b8bc99778d">&#9670;&nbsp;</a></span>type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#add4e0a9e45d3c9b94c13dbcc88b3193f">otto::util::SoundFile::Info::Type</a>  otto::util::SoundFile::Info::type = <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#add4e0a9e45d3c9b94c13dbcc88b3193fa34c83beed9e41c7f49c783097a7c760a">Type::WAVE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="soundfile_8cpp_source.html#l00106">otto::util::SoundFile::read_file()</a>, and <a class="el" href="soundfile_8cpp_source.html#l00152">otto::util::SoundFile::write_file()</a>.</p>
+
+</div>
+</div>
 <a id="afcac979b6ddc52d7b33f174640da09f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afcac979b6ddc52d7b33f174640da09f0">&#9670;&nbsp;</a></span>channels</h2>
 
@@ -153,22 +173,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="soundfile_8hpp_source.html#l00033">33</a> of file <a class="el" href="soundfile_8hpp_source.html">soundfile.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a61bdd847611c8cf6f33f52b8bc99778d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61bdd847611c8cf6f33f52b8bc99778d">&#9670;&nbsp;</a></span>type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#add4e0a9e45d3c9b94c13dbcc88b3193f">otto::util::SoundFile::Info::Type</a>  otto::util::SoundFile::Info::type = <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#add4e0a9e45d3c9b94c13dbcc88b3193fa34c83beed9e41c7f49c783097a7c760a">Type::WAVE</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="soundfile_8cpp_source.html#l00106">otto::util::SoundFile::read_file()</a>, and <a class="el" href="soundfile_8cpp_source.html#l00152">otto::util::SoundFile::write_file()</a>.</p>
 
 </div>
 </div>

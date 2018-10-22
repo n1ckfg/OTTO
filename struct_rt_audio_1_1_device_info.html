@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: RtAudio::DeviceInfo Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -99,7 +105,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:afa65f5f92f66ce7aacd3ff35e11b230f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9f35de296b33ae1f4e7baab8fd3be6e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rt_audio_1_1_device_info.html#ae9f35de296b33ae1f4e7baab8fd3be6e">preferredSampleRate</a></td></tr>
 <tr class="separator:ae9f35de296b33ae1f4e7baab8fd3be6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23251b549b89b2fe04a57fcd7cb76ea4"><td class="memItemLeft" align="right" valign="top">RtAudioFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rt_audio_1_1_device_info.html#a23251b549b89b2fe04a57fcd7cb76ea4">nativeFormats</a></td></tr>
+<tr class="memitem:a23251b549b89b2fe04a57fcd7cb76ea4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_rt_audio_8h.html#aafca92882d25915560018873221e44b8">RtAudioFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rt_audio_1_1_device_info.html#a23251b549b89b2fe04a57fcd7cb76ea4">nativeFormats</a></td></tr>
 <tr class="separator:a23251b549b89b2fe04a57fcd7cb76ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -112,9 +118,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">RtAudio::DeviceInfo::DeviceInfo </td>
@@ -123,91 +126,27 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00305">305</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      :<a class="code" href="struct_rt_audio_1_1_device_info.html#a97573717ccb1e75a834a0a108cd6982d">probed</a>(<span class="keyword">false</span>), <a class="code" href="struct_rt_audio_1_1_device_info.html#a81aaf488f8158ef55b1bb678f66feb7d">outputChannels</a>(0), <a class="code" href="struct_rt_audio_1_1_device_info.html#a56247b458a937ae84d98ca9c4b243275">inputChannels</a>(0), <a class="code" href="struct_rt_audio_1_1_device_info.html#a3e8ad34c2d14e24293a0beafc26186e7">duplexChannels</a>(0),</div><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;       <a class="code" href="struct_rt_audio_1_1_device_info.html#a5365245e73ffe29a05734de4474acd58">isDefaultOutput</a>(<span class="keyword">false</span>), <a class="code" href="struct_rt_audio_1_1_device_info.html#a7c8aca084bd908799b6be5954b80def2">isDefaultInput</a>(<span class="keyword">false</span>), <a class="code" href="struct_rt_audio_1_1_device_info.html#ae9f35de296b33ae1f4e7baab8fd3be6e">preferredSampleRate</a>(0), <a class="code" href="struct_rt_audio_1_1_device_info.html#a23251b549b89b2fe04a57fcd7cb76ea4">nativeFormats</a>(0) {}</div><div class="ttc" id="struct_rt_audio_1_1_device_info_html_a56247b458a937ae84d98ca9c4b243275"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#a56247b458a937ae84d98ca9c4b243275">RtAudio::DeviceInfo::inputChannels</a></div><div class="ttdeci">unsigned int inputChannels</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00296">RtAudio.h:296</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_device_info_html_a3e8ad34c2d14e24293a0beafc26186e7"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#a3e8ad34c2d14e24293a0beafc26186e7">RtAudio::DeviceInfo::duplexChannels</a></div><div class="ttdeci">unsigned int duplexChannels</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00297">RtAudio.h:297</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_device_info_html_a5365245e73ffe29a05734de4474acd58"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#a5365245e73ffe29a05734de4474acd58">RtAudio::DeviceInfo::isDefaultOutput</a></div><div class="ttdeci">bool isDefaultOutput</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00298">RtAudio.h:298</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_device_info_html_a81aaf488f8158ef55b1bb678f66feb7d"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#a81aaf488f8158ef55b1bb678f66feb7d">RtAudio::DeviceInfo::outputChannels</a></div><div class="ttdeci">unsigned int outputChannels</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00295">RtAudio.h:295</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_device_info_html_ae9f35de296b33ae1f4e7baab8fd3be6e"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#ae9f35de296b33ae1f4e7baab8fd3be6e">RtAudio::DeviceInfo::preferredSampleRate</a></div><div class="ttdeci">unsigned int preferredSampleRate</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00301">RtAudio.h:301</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_device_info_html_a97573717ccb1e75a834a0a108cd6982d"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#a97573717ccb1e75a834a0a108cd6982d">RtAudio::DeviceInfo::probed</a></div><div class="ttdeci">bool probed</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00293">RtAudio.h:293</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_device_info_html_a23251b549b89b2fe04a57fcd7cb76ea4"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#a23251b549b89b2fe04a57fcd7cb76ea4">RtAudio::DeviceInfo::nativeFormats</a></div><div class="ttdeci">RtAudioFormat nativeFormats</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00302">RtAudio.h:302</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_device_info_html_a7c8aca084bd908799b6be5954b80def2"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html#a7c8aca084bd908799b6be5954b80def2">RtAudio::DeviceInfo::isDefaultInput</a></div><div class="ttdeci">bool isDefaultInput</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00299">RtAudio.h:299</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3e8ad34c2d14e24293a0beafc26186e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e8ad34c2d14e24293a0beafc26186e7">&#9670;&nbsp;</a></span>duplexChannels</h2>
+<a id="a97573717ccb1e75a834a0a108cd6982d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97573717ccb1e75a834a0a108cd6982d">&#9670;&nbsp;</a></span>probed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int RtAudio::DeviceInfo::duplexChannels</td>
+          <td class="memname">bool RtAudio::DeviceInfo::probed</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Maximum simultaneous input/output channels supported by device. </p>
+<p>true if the device capabilities were successfully probed. </p>
 
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00297">297</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-
-</div>
-</div>
-<a id="a56247b458a937ae84d98ca9c4b243275"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56247b458a937ae84d98ca9c4b243275">&#9670;&nbsp;</a></span>inputChannels</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int RtAudio::DeviceInfo::inputChannels</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Maximum input channels supported by device. </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00296">296</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-
-</div>
-</div>
-<a id="a7c8aca084bd908799b6be5954b80def2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c8aca084bd908799b6be5954b80def2">&#9670;&nbsp;</a></span>isDefaultInput</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool RtAudio::DeviceInfo::isDefaultInput</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>true if this is the default input device. </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00299">299</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-
-</div>
-</div>
-<a id="a5365245e73ffe29a05734de4474acd58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5365245e73ffe29a05734de4474acd58">&#9670;&nbsp;</a></span>isDefaultOutput</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool RtAudio::DeviceInfo::isDefaultOutput</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>true if this is the default output device. </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00298">298</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00293">293</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
 
 </div>
 </div>
@@ -228,23 +167,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a23251b549b89b2fe04a57fcd7cb76ea4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23251b549b89b2fe04a57fcd7cb76ea4">&#9670;&nbsp;</a></span>nativeFormats</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RtAudioFormat RtAudio::DeviceInfo::nativeFormats</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Bit mask of supported data formats. </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00302">302</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-
-</div>
-</div>
 <a id="a81aaf488f8158ef55b1bb678f66feb7d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81aaf488f8158ef55b1bb678f66feb7d">&#9670;&nbsp;</a></span>outputChannels</h2>
 
@@ -259,6 +181,91 @@ Public Attributes</h2></td></tr>
 <p>Maximum output channels supported by device. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00295">295</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
+</div>
+</div>
+<a id="a56247b458a937ae84d98ca9c4b243275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56247b458a937ae84d98ca9c4b243275">&#9670;&nbsp;</a></span>inputChannels</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int RtAudio::DeviceInfo::inputChannels</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum input channels supported by device. </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00296">296</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
+</div>
+</div>
+<a id="a3e8ad34c2d14e24293a0beafc26186e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e8ad34c2d14e24293a0beafc26186e7">&#9670;&nbsp;</a></span>duplexChannels</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int RtAudio::DeviceInfo::duplexChannels</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum simultaneous input/output channels supported by device. </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00297">297</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
+</div>
+</div>
+<a id="a5365245e73ffe29a05734de4474acd58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5365245e73ffe29a05734de4474acd58">&#9670;&nbsp;</a></span>isDefaultOutput</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RtAudio::DeviceInfo::isDefaultOutput</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true if this is the default output device. </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00298">298</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
+</div>
+</div>
+<a id="a7c8aca084bd908799b6be5954b80def2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c8aca084bd908799b6be5954b80def2">&#9670;&nbsp;</a></span>isDefaultInput</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RtAudio::DeviceInfo::isDefaultInput</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true if this is the default input device. </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00299">299</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
+</div>
+</div>
+<a id="afa65f5f92f66ce7aacd3ff35e11b230f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa65f5f92f66ce7aacd3ff35e11b230f">&#9670;&nbsp;</a></span>sampleRates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;unsigned int&gt; RtAudio::DeviceInfo::sampleRates</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Supported sample rates (queried from list of standard rates). </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00300">300</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
 
 </div>
 </div>
@@ -279,37 +286,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a97573717ccb1e75a834a0a108cd6982d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97573717ccb1e75a834a0a108cd6982d">&#9670;&nbsp;</a></span>probed</h2>
+<a id="a23251b549b89b2fe04a57fcd7cb76ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23251b549b89b2fe04a57fcd7cb76ea4">&#9670;&nbsp;</a></span>nativeFormats</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool RtAudio::DeviceInfo::probed</td>
+          <td class="memname"><a class="el" href="_rt_audio_8h.html#aafca92882d25915560018873221e44b8">RtAudioFormat</a> RtAudio::DeviceInfo::nativeFormats</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>true if the device capabilities were successfully probed. </p>
+<p>Bit mask of supported data formats. </p>
 
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00293">293</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-
-</div>
-</div>
-<a id="afa65f5f92f66ce7aacd3ff35e11b230f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa65f5f92f66ce7aacd3ff35e11b230f">&#9670;&nbsp;</a></span>sampleRates</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;unsigned int&gt; RtAudio::DeviceInfo::sampleRates</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Supported sample rates (queried from list of standard rates). </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00300">300</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00302">302</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
 
 </div>
 </div>

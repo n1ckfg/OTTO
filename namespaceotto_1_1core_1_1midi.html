@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::midi Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -61,7 +67,6 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -70,11 +75,6 @@
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceotto_1_1core_1_1midi_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1midi_1_1detail.html">detail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html">ControlChangeEvent</a></td></tr>
@@ -126,14 +126,39 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a34feba90f98d5cddb80785e8925ebc1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34feba90f98d5cddb80785e8925ebc1e">&#9670;&nbsp;</a></span>from_bytes()</h2>
+<a id="a8683cd113470b39e3e4c5ff34a4b1223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8683cd113470b39e3e4c5ff34a4b1223">&#9670;&nbsp;</a></span>note_number()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int otto::core::midi::note_number </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00035">35</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a34feba90f98d5cddb80785e8925ebc1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34feba90f98d5cddb80785e8925ebc1e">&#9670;&nbsp;</a></span>from_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a77953fb22cbc186b8dd1b60fc4c5c29d">AnyMidiEvent</a> otto::core::midi::from_bytes </td>
@@ -153,17 +178,12 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00161">161</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a8313cf6eab18c71c8129afef3cf7c3b1">otto::core::midi::MidiEvent::ControlChange</a>, <a class="el" href="midi_8hpp_source.html#l00120">otto::core::midi::NoteOnEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00133">otto::core::midi::NoteOffEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00150">otto::core::midi::ControlChangeEvent::from_bytes()</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a6138748b0dea7e54d0ab77709ab74ba1">otto::core::midi::MidiEvent::NoteOff</a>, and <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a392b06517dc40739343a9ef9533cad46">otto::core::midi::MidiEvent::NoteOn</a>.</p>
-<div class="fragment"><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  {</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keyword">auto</span> type = MidiEvent::Type(bytes[0] &gt;&gt; 4);</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">switch</span> (type) {</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordflow">case</span> MidiEvent::Type::NoteOff:</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      <span class="keywordflow">return</span> NoteOffEvent::from_bytes(bytes, time);</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">case</span> MidiEvent::Type::NoteOn: <span class="comment">//</span></div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      <span class="keywordflow">return</span> NoteOnEvent::from_bytes(bytes, time);</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">case</span> MidiEvent::Type::ControlChange:</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <span class="keywordflow">return</span> ControlChangeEvent::from_bytes(bytes, time);</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a7119a76f5e022763052e9dfcf64c00eb"></a>
@@ -171,9 +191,6 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void otto::core::midi::generateFreqTable </td>
@@ -183,52 +200,12 @@ Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00174">174</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="midi_8hpp_source.html#l00018">otto::core::midi::detail::freq_table</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="audio_8cpp_source.html#l00067">otto::service::audio::init()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  {</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> &lt; 128; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>++) {</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      detail::freq_table[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>] = tuning * std::pow(2.0, <span class="keywordtype">double</span>(i - 69) / <span class="keywordtype">double</span>(12));</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a052b644db4e4e4e93c2b96460bbc2ae6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a052b644db4e4e4e93c2b96460bbc2ae6">&#9670;&nbsp;</a></span>note_freq()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float otto::core::midi::note_freq </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00186">186</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="midi_8hpp_source.html#l00018">otto::core::midi::detail::freq_table</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="voice__manager_8hpp_source.html#l00225">otto::core::audio::VoiceManager&lt; 6 &gt;::process_before()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  {</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordflow">return</span> detail::freq_table[key];</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ac5e3a809e13d10e901ff5e0d437260b0"></a>
@@ -257,12 +234,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00181">181</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="midi_8hpp_source.html#l00020">otto::core::midi::detail::note_names</a>.</p>
-<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  {</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">return</span> detail::note_names[key];</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="euclid_8cpp_source.html#l00192">otto::engines::EuclidScreen::draw_recording()</a>.</p>
+
 </div>
 </div>
-<a id="a8683cd113470b39e3e4c5ff34a4b1223"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8683cd113470b39e3e4c5ff34a4b1223">&#9670;&nbsp;</a></span>note_number()</h2>
+<a id="a052b644db4e4e4e93c2b96460bbc2ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a052b644db4e4e4e93c2b96460bbc2ae6">&#9670;&nbsp;</a></span>note_freq()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,10 +248,10 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr int otto::core::midi::note_number </td>
+          <td class="memname">float otto::core::midi::note_freq </td>
           <td>(</td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -285,12 +262,10 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00035">35</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00186">186</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="midi_8hpp_source.html#l00020">otto::core::midi::detail::note_names</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// std::find is not constexpr, so i roll my own</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">auto</span> iter = detail::note_names.cbegin();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    constexpr <span class="keyword">auto</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51">last</a> = detail::note_names.cend();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; iter != <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51">last</a>; ++<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>, ++iter) {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <span class="keywordflow">if</span> (*iter == sv) {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      }</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a98bd1c45684cf587ac2347a92dd7bb51">otto::board::ui::Key::last</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="voice__manager_8hpp_source.html#l00225">otto::core::audio::VoiceManager&lt; 6 &gt;::process_before()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

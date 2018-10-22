@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::float_step_iterator&lt; I, V &gt; Class Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -70,6 +76,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>An iterator wrapper to iterate with a non-integer ratio.  
+ <a href="classotto_1_1util_1_1float__step__iterator.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -84,7 +93,7 @@ Public Types</h2></td></tr>
 <tr class="separator:aca62d5145dfe937a8027a7206b1054ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070e3c9b6e7472872cbe99f0bffb0974"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a070e3c9b6e7472872cbe99f0bffb0974">difference_type</a> = typename std::iterator_traits&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a070e3c9b6e7472872cbe99f0bffb0974">difference_type</a></td></tr>
 <tr class="separator:a070e3c9b6e7472872cbe99f0bffb0974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d993d62491c2ec0954e922e344e47d1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a> = std::common_type_t&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1iterator__category.html">detail::iterator_category</a>&lt; I &gt;::type, std::bidirectional_iterator_tag &gt;</td></tr>
+<tr class="memitem:a3d993d62491c2ec0954e922e344e47d1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a> = std::common_type_t&lt; typename detail::iterator_category&lt; I &gt;::type, std::bidirectional_iterator_tag &gt;</td></tr>
 <tr class="separator:a3d993d62491c2ec0954e922e344e47d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -103,53 +112,70 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab702be7be0b39e23ef6e52c8514af110"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#ab702be7be0b39e23ef6e52c8514af110">operator=</a> (<a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:ab702be7be0b39e23ef6e52c8514af110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81d3a5360be89d87c1bff6340815fb37"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a81d3a5360be89d87c1bff6340815fb37">operator*</a> ()</td></tr>
+<tr class="memdesc:a81d3a5360be89d87c1bff6340815fb37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dereference the iterator.  <a href="#a81d3a5360be89d87c1bff6340815fb37">More...</a><br /></td></tr>
 <tr class="separator:a81d3a5360be89d87c1bff6340815fb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a966de67d34780a7a00cf39dabc33140a"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a966de67d34780a7a00cf39dabc33140a">operator*</a> () const</td></tr>
 <tr class="separator:a966de67d34780a7a00cf39dabc33140a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39292344abd7b0a35317461c4c376b57"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a39292344abd7b0a35317461c4c376b57">operator==</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;r) const</td></tr>
+<tr class="memdesc:a39292344abd7b0a35317461c4c376b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare equal.  <a href="#a39292344abd7b0a35317461c4c376b57">More...</a><br /></td></tr>
 <tr class="separator:a39292344abd7b0a35317461c4c376b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a969663898184c8305ec9bbedb6b71cc6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a969663898184c8305ec9bbedb6b71cc6">operator!=</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;r) const</td></tr>
+<tr class="memdesc:a969663898184c8305ec9bbedb6b71cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare inequal.  <a href="#a969663898184c8305ec9bbedb6b71cc6">More...</a><br /></td></tr>
 <tr class="separator:a969663898184c8305ec9bbedb6b71cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa18bae87b01dcae9b88505d055f7b721"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#aa18bae87b01dcae9b88505d055f7b721">operator&lt;</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;r) const -&gt; decltype(std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;()&lt; std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;())</td></tr>
+<tr class="memdesc:aa18bae87b01dcae9b88505d055f7b721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare less than.  <a href="#aa18bae87b01dcae9b88505d055f7b721">More...</a><br /></td></tr>
 <tr class="separator:aa18bae87b01dcae9b88505d055f7b721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99de00c9773330f7ea868f639d4c6c56"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a99de00c9773330f7ea868f639d4c6c56">operator&gt;</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;r) const -&gt; decltype(std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;() &gt; std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;())</td></tr>
+<tr class="memdesc:a99de00c9773330f7ea868f639d4c6c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare greater than.  <a href="#a99de00c9773330f7ea868f639d4c6c56">More...</a><br /></td></tr>
 <tr class="separator:a99de00c9773330f7ea868f639d4c6c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a2ac8d6a94d7f2a5abbd8b9db01e245"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a4a2ac8d6a94d7f2a5abbd8b9db01e245">operator&lt;=</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;r) const -&gt; decltype(std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;()&lt; std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;())</td></tr>
+<tr class="memdesc:a4a2ac8d6a94d7f2a5abbd8b9db01e245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare less than or equal to.  <a href="#a4a2ac8d6a94d7f2a5abbd8b9db01e245">More...</a><br /></td></tr>
 <tr class="separator:a4a2ac8d6a94d7f2a5abbd8b9db01e245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf77fa8c621e6b4e2e6e3d7ff428dcba"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#acf77fa8c621e6b4e2e6e3d7ff428dcba">operator&gt;=</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;r) const -&gt; decltype(std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;() &gt; std::declval&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;())</td></tr>
+<tr class="memdesc:acf77fa8c621e6b4e2e6e3d7ff428dcba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare greater than or equal to.  <a href="#acf77fa8c621e6b4e2e6e3d7ff428dcba">More...</a><br /></td></tr>
 <tr class="separator:acf77fa8c621e6b4e2e6e3d7ff428dcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a117d2f0a6ade8b264cb52315d1fe03ae"><td class="memItemLeft" align="right" valign="top">std::ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a117d2f0a6ade8b264cb52315d1fe03ae">operator-</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;rhs) const</td></tr>
+<tr class="memdesc:a117d2f0a6ade8b264cb52315d1fe03ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of iterations to get from <code>rhs</code> to this.  <a href="#a117d2f0a6ade8b264cb52315d1fe03ae">More...</a><br /></td></tr>
 <tr class="separator:a117d2f0a6ade8b264cb52315d1fe03ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5d71fb774c4c6fe468d82361add5ee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#af5d71fb774c4c6fe468d82361add5ee2">operator+=</a> (int n)</td></tr>
+<tr class="memdesc:af5d71fb774c4c6fe468d82361add5ee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment this by <code>n</code>  <a href="#af5d71fb774c4c6fe468d82361add5ee2">More...</a><br /></td></tr>
 <tr class="separator:af5d71fb774c4c6fe468d82361add5ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d76735be1c15c8c902e49e3ea5d7878"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a9d76735be1c15c8c902e49e3ea5d7878">operator++</a> ()</td></tr>
+<tr class="memdesc:a9d76735be1c15c8c902e49e3ea5d7878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment this by one.  <a href="#a9d76735be1c15c8c902e49e3ea5d7878">More...</a><br /></td></tr>
 <tr class="separator:a9d76735be1c15c8c902e49e3ea5d7878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ad85ce840293e7cd0a6009aebf25934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2ad85ce840293e7cd0a6009aebf25934">operator++</a> (int)</td></tr>
+<tr class="memdesc:a2ad85ce840293e7cd0a6009aebf25934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment this by one.  <a href="#a2ad85ce840293e7cd0a6009aebf25934">More...</a><br /></td></tr>
 <tr class="separator:a2ad85ce840293e7cd0a6009aebf25934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a746281181d1abf111861a6871ffd3b9e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a746281181d1abf111861a6871ffd3b9e">operator-=</a> (int n) -&gt; std::enable_if_t&lt; std::is_base_of_v&lt; std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a> &gt;, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;&gt;</td></tr>
+<tr class="memdesc:a746281181d1abf111861a6871ffd3b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement this by <code>n</code>  <a href="#a746281181d1abf111861a6871ffd3b9e">More...</a><br /></td></tr>
 <tr class="separator:a746281181d1abf111861a6871ffd3b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe0bd0183f0f43f7137fce87108b6dca"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#afe0bd0183f0f43f7137fce87108b6dca">operator--</a> () -&gt; std::enable_if_t&lt; std::is_base_of_v&lt; std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a> &gt;, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;&gt;</td></tr>
+<tr class="memdesc:afe0bd0183f0f43f7137fce87108b6dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement this by one.  <a href="#afe0bd0183f0f43f7137fce87108b6dca">More...</a><br /></td></tr>
 <tr class="separator:afe0bd0183f0f43f7137fce87108b6dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6a3743ff7d3bfc9a86edabdb2b44e80"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#ad6a3743ff7d3bfc9a86edabdb2b44e80">operator--</a> (int) -&gt; std::enable_if_t&lt; std::is_base_of_v&lt; std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a> &gt;, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;&gt;</td></tr>
+<tr class="memdesc:ad6a3743ff7d3bfc9a86edabdb2b44e80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement this by one.  <a href="#ad6a3743ff7d3bfc9a86edabdb2b44e80">More...</a><br /></td></tr>
 <tr class="separator:ad6a3743ff7d3bfc9a86edabdb2b44e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9d1c5b0818f1478f67d127d94eb8697"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#ac9d1c5b0818f1478f67d127d94eb8697">data</a> () const</td></tr>
 <tr class="memdesc:ac9d1c5b0818f1478f67d127d94eb8697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a copy of the underlying pointer.  <a href="#ac9d1c5b0818f1478f67d127d94eb8697">More...</a><br /></td></tr>
 <tr class="separator:ac9d1c5b0818f1478f67d127d94eb8697"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2daed04afda320d688844646bee0ed86"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2daed04afda320d688844646bee0ed86">error</a> () const</td></tr>
+<tr class="memdesc:a2daed04afda320d688844646bee0ed86"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inaccuracy of the element this iterator points to.  <a href="#a2daed04afda320d688844646bee0ed86">More...</a><br /></td></tr>
 <tr class="separator:a2daed04afda320d688844646bee0ed86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a8b03a452dcfb9e6032eb7f7cd2c52"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#aa2a8b03a452dcfb9e6032eb7f7cd2c52">difference</a> (const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> &amp;rhs) -&gt; std::enable_if_t&lt; std::is_same_v&lt; typename std::iterator_traits&lt; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>, std::random_access_iterator_tag &gt;, float &gt;</td></tr>
+<tr class="memdesc:aa2a8b03a452dcfb9e6032eb7f7cd2c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">The real numeric difference between this and <code>rhs</code>.  <a href="#aa2a8b03a452dcfb9e6032eb7f7cd2c52">More...</a><br /></td></tr>
 <tr class="separator:aa2a8b03a452dcfb9e6032eb7f7cd2c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7fb47d51f9093385d1ed98ce63c38e4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">step</a> = 1.f</td></tr>
+<tr class="memdesc:a7fb47d51f9093385d1ed98ce63c38e4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of one step.  <a href="#a7fb47d51f9093385d1ed98ce63c38e4d">More...</a><br /></td></tr>
 <tr class="separator:a7fb47d51f9093385d1ed98ce63c38e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename I, typename V = typename detail::value_type&lt;I&gt;::type&gt;<br />
 class otto::util::float_step_iterator&lt; I, V &gt;</h3>
 
-<p>An iterator wrapper to iterate with a non-integer ratio</p>
+<p>An iterator wrapper to iterate with a non-integer ratio. </p>
 <p>This iterates through contiguous data, or simply increments an integer value, with floating point steps. It keeps track of the error, and corrects it while iterating.</p>
 <p>The most common use case is iterating over data at a non-integer rate ratio. In the OTTO it is used to read sound samples at a different rate than how they were recorded.</p>
 <p>When used to iterator through data, it is preferred to use <code>first &lt; last</code> as the loop condition, as opposed to the conventional <code>first != last</code>. The need for doing this depends on the relationship between the <code>first</code> and <code>last</code> iterators. If one was created from the other, using &lt;operator+&gt; or &lt;operator-&gt;, they are guarantied to be reachable from the other using &lt;operator++&gt; or &lt;operator--&gt; as applicable, as long as the &lt;step&gt; member variable on the mutating iterator is unchanged.</p>
@@ -164,6 +190,78 @@ class otto::util::float_step_iterator&lt; I, V &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00386">386</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a31e79fccdeadadfdd928fec42fdfa2ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e79fccdeadadfdd928fec42fdfa2ce">&#9670;&nbsp;</a></span>wrapped_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> =  I</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00392">392</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afa9270037085a6348e271582eee6ccac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa9270037085a6348e271582eee6ccac">&#9670;&nbsp;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#afa9270037085a6348e271582eee6ccac">value_type</a> =  V</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00395">395</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2e1f0cedd24f4b32a2ce321b8da8d03a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e1f0cedd24f4b32a2ce321b8da8d03a">&#9670;&nbsp;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2e1f0cedd24f4b32a2ce321b8da8d03a">reference</a> =  typename std::iterator_traits&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2e1f0cedd24f4b32a2ce321b8da8d03a">reference</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00396">396</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aca62d5145dfe937a8027a7206b1054ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca62d5145dfe937a8027a7206b1054ec">&#9670;&nbsp;</a></span>pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#aca62d5145dfe937a8027a7206b1054ec">pointer</a> =  typename std::iterator_traits&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#aca62d5145dfe937a8027a7206b1054ec">pointer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00397">397</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a070e3c9b6e7472872cbe99f0bffb0974"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a070e3c9b6e7472872cbe99f0bffb0974">&#9670;&nbsp;</a></span>difference_type</h2>
 
@@ -191,84 +289,12 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a> =  std::common_type_t&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1iterator__category.html">detail::iterator_category</a>&lt;I&gt;::type, std::bidirectional_iterator_tag&gt;</td>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a> =  std::common_type_t&lt; typename detail::iterator_category&lt;I&gt;::type, std::bidirectional_iterator_tag&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00400">400</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aca62d5145dfe937a8027a7206b1054ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca62d5145dfe937a8027a7206b1054ec">&#9670;&nbsp;</a></span>pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#aca62d5145dfe937a8027a7206b1054ec">pointer</a> =  typename std::iterator_traits&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#aca62d5145dfe937a8027a7206b1054ec">pointer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00397">397</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a2e1f0cedd24f4b32a2ce321b8da8d03a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e1f0cedd24f4b32a2ce321b8da8d03a">&#9670;&nbsp;</a></span>reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2e1f0cedd24f4b32a2ce321b8da8d03a">reference</a> =  typename std::iterator_traits&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2e1f0cedd24f4b32a2ce321b8da8d03a">reference</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00396">396</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afa9270037085a6348e271582eee6ccac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa9270037085a6348e271582eee6ccac">&#9670;&nbsp;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#afa9270037085a6348e271582eee6ccac">value_type</a> =  V</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00395">395</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a31e79fccdeadadfdd928fec42fdfa2ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31e79fccdeadadfdd928fec42fdfa2ce">&#9670;&nbsp;</a></span>wrapped_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> =  I</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00392">392</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -280,9 +306,6 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> </td>
@@ -302,11 +325,6 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Construct an iterator, pointing to <code>ptr</code> </p>
@@ -314,8 +332,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00407">407</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00628">otto::util::float_step_iterator&lt; I, V &gt;::step</a>.</p>
-<div class="fragment"><div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;      : <a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">step</a> {<a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">step</a>}, iter {iter}</div><div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    {}</div><div class="ttc" id="classotto_1_1util_1_1float__step__iterator_html_a7fb47d51f9093385d1ed98ce63c38e4d"><div class="ttname"><a href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">otto::util::float_step_iterator::step</a></div><div class="ttdeci">float step</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00628">iterator.hpp:628</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a7380232634b90c6b5e9bc9e97a37a4a1"></a>
@@ -325,9 +342,6 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> </td>
@@ -337,19 +351,12 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Copy constructor. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00412">412</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;      : <a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">step</a> {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.step},</div><div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        _error {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>._error},</div><div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        iter {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter}</div><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    {}</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1float__step__iterator_html_a7fb47d51f9093385d1ed98ce63c38e4d"><div class="ttname"><a href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">otto::util::float_step_iterator::step</a></div><div class="ttdeci">float step</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00628">iterator.hpp:628</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a9ca29941533723232d70b3c2f1c73b19"></a>
@@ -359,9 +366,6 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> </td>
@@ -371,531 +375,15 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Move constructor. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00419">419</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;      : <a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">step</a> {std::move(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.step)},</div><div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        _error {std::move(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>._error)},</div><div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        iter {std::move(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter)}</div><div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    {}</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1float__step__iterator_html_a7fb47d51f9093385d1ed98ce63c38e4d"><div class="ttname"><a href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">otto::util::float_step_iterator::step</a></div><div class="ttdeci">float step</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00628">iterator.hpp:628</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac9d1c5b0818f1478f67d127d94eb8697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9d1c5b0818f1478f67d127d94eb8697">&#9670;&nbsp;</a></span>data()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::data </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get a copy of the underlying pointer. </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00585">585</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    {</div><div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;      <span class="keywordflow">return</span> iter;</div><div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="aa2a8b03a452dcfb9e6032eb7f7cd2c52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2a8b03a452dcfb9e6032eb7f7cd2c52">&#9670;&nbsp;</a></span>difference()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::difference </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
-          <td> -&gt; std::enable_if_t&lt;std::is_same_v&lt;
-                       typename std::iterator_traits&lt;
-                         <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>,
-                       std::random_access_iterator_tag&gt;,
-      float&gt;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The real numeric difference between this and <code>rhs</code>.</p>
-<p>Only avaliable if <code>wrapped_type</code> is random access. </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00604">604</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00596">otto::util::float_step_iterator&lt; I, V &gt;::error()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    {</div><div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;      <span class="keywordflow">return</span> (iter - rhs.iter) + (<a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a2daed04afda320d688844646bee0ed86">error</a>() - rhs.error());</div><div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1float__step__iterator_html_a2daed04afda320d688844646bee0ed86"><div class="ttname"><a href="classotto_1_1util_1_1float__step__iterator.html#a2daed04afda320d688844646bee0ed86">otto::util::float_step_iterator::error</a></div><div class="ttdeci">float error() const</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00596">iterator.hpp:596</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2daed04afda320d688844646bee0ed86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2daed04afda320d688844646bee0ed86">&#9670;&nbsp;</a></span>error()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::error </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The inaccuracy of the element this iterator points to.</p>
-<p>While &lt;step&gt; is an integer, this value will be constant. Otherwise it is in the range <code>[0, 1)</code>, signifying the fractional part of the real index. I.e. <code>ptr + <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2daed04afda320d688844646bee0ed86">error()</a> == real_index</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00596">596</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="iterator_8hpp_source.html#l00604">otto::util::float_step_iterator&lt; I, V &gt;::difference()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    {</div><div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;      <span class="keywordflow">return</span> _error;</div><div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a969663898184c8305ec9bbedb6b71cc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a969663898184c8305ec9bbedb6b71cc6">&#9670;&nbsp;</a></span>operator!=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Compare inequal</p>
-<p>Implemented as if by <code>!(*this == r)</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00449">449</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    {</div><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;      <span class="keywordflow">return</span> !(*<span class="keyword">this</span> == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>);</div><div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a81d3a5360be89d87c1bff6340815fb37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d3a5360be89d87c1bff6340815fb37">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">decltype(auto) <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Dereference the iterator</p>
-<p>Propagates to the dereference operator of &lt;ptr&gt; </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00434">434</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;{<span class="keywordflow">return</span> *iter;}</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a966de67d34780a7a00cf39dabc33140a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a966de67d34780a7a00cf39dabc33140a">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">decltype(auto) <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00435">435</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;{<span class="keywordflow">return</span> *iter;}</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a9d76735be1c15c8c902e49e3ea5d7878"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d76735be1c15c8c902e49e3ea5d7878">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator++ </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Increment this by one</p>
-<p>Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00524">524</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="iterator_8hpp_source.html#l00534">otto::util::float_step_iterator&lt; I, V &gt;::operator++()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    {</div><div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;      *<span class="keyword">this</span> += 1;</div><div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;      <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div><div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a2ad85ce840293e7cd0a6009aebf25934"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ad85ce840293e7cd0a6009aebf25934">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator++ </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Increment this by one</p>
-<p>Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00534">534</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00524">otto::util::float_step_iterator&lt; I, V &gt;::operator++()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    {</div><div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;      <span class="keyword">auto</span> tmp = *<span class="keyword">this</span>;</div><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;      <a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a9d76735be1c15c8c902e49e3ea5d7878">operator++</a>();</div><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;      <span class="keywordflow">return</span> tmp;</div><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1float__step__iterator_html_a9d76735be1c15c8c902e49e3ea5d7878"><div class="ttname"><a href="classotto_1_1util_1_1float__step__iterator.html#a9d76735be1c15c8c902e49e3ea5d7878">otto::util::float_step_iterator::operator++</a></div><div class="ttdeci">float_step_iterator &amp; operator++()</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00524">iterator.hpp:524</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af5d71fb774c4c6fe468d82361add5ee2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5d71fb774c4c6fe468d82361add5ee2">&#9670;&nbsp;</a></span>operator+=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator+= </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Increment this by <code>n</code></p>
-<p>Advance the iterator by <code>floor(error + n * speed)</code>, and store the remainder in <code>error</code>.</p>
-<dl class="section return"><dt>Returns</dt><dd>A reference to this </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00508">508</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00628">otto::util::float_step_iterator&lt; I, V &gt;::step</a>.</p>
-<div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    {</div><div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;      <span class="keywordtype">float</span> intPart;</div><div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;      _error = std::modf(_error + <a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">step</a> * n, &amp;intPart);</div><div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;      <span class="keywordflow">if</span> (_error &lt; 0) {</div><div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        intPart -= 1;</div><div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        _error += 1;</div><div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;      }</div><div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;      std::advance(iter, intPart);</div><div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;      <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div><div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1float__step__iterator_html_a7fb47d51f9093385d1ed98ce63c38e4d"><div class="ttname"><a href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">otto::util::float_step_iterator::step</a></div><div class="ttdeci">float step</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00628">iterator.hpp:628</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a117d2f0a6ade8b264cb52315d1fe03ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a117d2f0a6ade8b264cb52315d1fe03ae">&#9670;&nbsp;</a></span>operator-()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ptrdiff_t <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator- </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Get the number of iterations to get from <code>rhs</code> to this</p>
-<p>Takes the error values into account. </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00497">497</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00628">otto::util::float_step_iterator&lt; I, V &gt;::step</a>.</p>
-<div class="fragment"><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    {</div><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keywordflow">return</span> (<span class="keywordtype">float</span>(iter - rhs.iter) + (_error - rhs._error)) / <a class="code" href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">step</a>;</div><div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1float__step__iterator_html_a7fb47d51f9093385d1ed98ce63c38e4d"><div class="ttname"><a href="classotto_1_1util_1_1float__step__iterator.html#a7fb47d51f9093385d1ed98ce63c38e4d">otto::util::float_step_iterator::step</a></div><div class="ttdeci">float step</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00628">iterator.hpp:628</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afe0bd0183f0f43f7137fce87108b6dca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe0bd0183f0f43f7137fce87108b6dca">&#9670;&nbsp;</a></span>operator--() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator-- </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> -&gt; std::enable_if_t&lt;
-      std::is_base_of_v&lt;std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>&gt;,
-        <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp;&gt;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Decrement this by one</p>
-<p>Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this  <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00560">560</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    {</div><div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;      <span class="keywordflow">return</span> *<span class="keyword">this</span> += -1;</div><div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ad6a3743ff7d3bfc9a86edabdb2b44e80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6a3743ff7d3bfc9a86edabdb2b44e80">&#9670;&nbsp;</a></span>operator--() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator-- </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> -&gt; std::enable_if_t&lt;
-        std::is_base_of_v&lt;std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>&gt;,
-        <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp;&gt;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Decrement this by one</p>
-<p>Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment  <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00573">573</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    {</div><div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;      <span class="keyword">auto</span> tmp = *<span class="keyword">this</span>;</div><div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;      *<span class="keyword">this</span> += -1;</div><div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;      <span class="keywordflow">return</span> tmp;</div><div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a746281181d1abf111861a6871ffd3b9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a746281181d1abf111861a6871ffd3b9e">&#9670;&nbsp;</a></span>operator-=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator-= </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td> -&gt; std::enable_if_t&lt;
-      std::is_base_of_v&lt;std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>&gt;,
-      <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp;&gt;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Decrement this by <code>n</code></p>
-<p>Same as <code>*this += -n</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this  <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00547">547</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    {</div><div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;      <span class="keywordflow">return</span> *<span class="keyword">this</span> += -<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1">n</a>;</div><div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1">otto::board::ui::Key::n</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa18bae87b01dcae9b88505d055f7b721"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa18bae87b01dcae9b88505d055f7b721">&#9670;&nbsp;</a></span>operator&lt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em></td><td>)</td>
-          <td> const -&gt; decltype(std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;() &lt; std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;())
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Compare less than</p>
-<p>Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00458">458</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    {</div><div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;      <span class="keywordflow">return</span> iter &lt; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter || (iter == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter &amp;&amp; _error &lt; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>._error);</div><div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4a2ac8d6a94d7f2a5abbd8b9db01e245"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a2ac8d6a94d7f2a5abbd8b9db01e245">&#9670;&nbsp;</a></span>operator&lt;=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator&lt;= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em></td><td>)</td>
-          <td> const -&gt; decltype(std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;() &lt; std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;())
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Compare less than or equal to</p>
-<p>Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
-
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00478">478</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    {</div><div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;      <span class="keywordflow">return</span> iter &lt; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter || (iter == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter &amp;&amp; _error &lt;= <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>._error);</div><div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="ae973b81e6fe4c6ceddca3b547f185b8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae973b81e6fe4c6ceddca3b547f185b8a">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
@@ -952,6 +440,51 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 
 </div>
 </div>
+<a id="a81d3a5360be89d87c1bff6340815fb37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d3a5360be89d87c1bff6340815fb37">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">decltype(auto) <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dereference the iterator. </p>
+<p>Propagates to the dereference operator of &lt;ptr&gt; </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00434">434</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a966de67d34780a7a00cf39dabc33140a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a966de67d34780a7a00cf39dabc33140a">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">decltype(auto) <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00435">435</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a39292344abd7b0a35317461c4c376b57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39292344abd7b0a35317461c4c376b57">&#9670;&nbsp;</a></span>operator==()</h2>
 
@@ -959,9 +492,6 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator== </td>
@@ -971,18 +501,64 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Compare equal</p>
+
+<p>Compare equal. </p>
 <p>Requires members &lt;ptr&gt; and &lt;_error&gt; to be equal. Ignores &lt;step&gt;, as it has no effect on the dereferenced value. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00441">441</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    {</div><div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;      <span class="keywordflow">return</span> iter == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter &amp;&amp; _error == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>._error;</div><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a969663898184c8305ec9bbedb6b71cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a969663898184c8305ec9bbedb6b71cc6">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compare inequal. </p>
+<p>Implemented as if by <code>!(*this == r)</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00449">449</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa18bae87b01dcae9b88505d055f7b721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa18bae87b01dcae9b88505d055f7b721">&#9670;&nbsp;</a></span>operator&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td> const -&gt; decltype(std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;() &lt; std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;())
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compare less than. </p>
+<p>Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00458">458</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
 </div>
 </div>
 <a id="a99de00c9773330f7ea868f639d4c6c56"></a>
@@ -992,9 +568,6 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator&gt; </td>
@@ -1005,18 +578,39 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
     </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Compare greater than</p>
+
+<p>Compare greater than. </p>
 <p>Only avaliable if <code>wrapped_type</code> is greater than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00468">468</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    {</div><div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;      <span class="keywordflow">return</span> iter &gt; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter || (iter == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter &amp;&amp; _error &gt; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>._error);</div><div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a4a2ac8d6a94d7f2a5abbd8b9db01e245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a2ac8d6a94d7f2a5abbd8b9db01e245">&#9670;&nbsp;</a></span>operator&lt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td> const -&gt; decltype(std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;() &lt; std::declval&lt;<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;())
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compare less than or equal to. </p>
+<p>Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00478">478</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
 </div>
 </div>
 <a id="acf77fa8c621e6b4e2e6e3d7ff428dcba"></a>
@@ -1026,9 +620,6 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator&gt;= </td>
@@ -1039,18 +630,285 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
     </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<p>Compare greater than or equal to</p>
+
+<p>Compare greater than or equal to. </p>
 <p>Only avaliable if <code>wrapped_type</code> is greater than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00488">488</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    {</div><div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      <span class="keywordflow">return</span> iter &gt; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter || (iter == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.iter &amp;&amp; _error &gt;= <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>._error);</div><div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a117d2f0a6ade8b264cb52315d1fe03ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117d2f0a6ade8b264cb52315d1fe03ae">&#9670;&nbsp;</a></span>operator-()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ptrdiff_t <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of iterations to get from <code>rhs</code> to this. </p>
+<p>Takes the error values into account. </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00497">497</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00628">otto::util::float_step_iterator&lt; I, V &gt;::step</a>.</p>
+
+</div>
+</div>
+<a id="af5d71fb774c4c6fe468d82361add5ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d71fb774c4c6fe468d82361add5ee2">&#9670;&nbsp;</a></span>operator+=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Increment this by <code>n</code> </p>
+<p>Advance the iterator by <code>floor(error + n * speed)</code>, and store the remainder in <code>error</code>.</p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00508">508</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00628">otto::util::float_step_iterator&lt; I, V &gt;::step</a>.</p>
+
+</div>
+</div>
+<a id="a9d76735be1c15c8c902e49e3ea5d7878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d76735be1c15c8c902e49e3ea5d7878">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp; <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Increment this by one. </p>
+<p>Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00524">524</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="iterator_8hpp_source.html#l00534">otto::util::float_step_iterator&lt; I, V &gt;::operator++()</a>.</p>
+
+</div>
+</div>
+<a id="a2ad85ce840293e7cd0a6009aebf25934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad85ce840293e7cd0a6009aebf25934">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a> <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Increment this by one. </p>
+<p>Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00534">534</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00524">otto::util::float_step_iterator&lt; I, V &gt;::operator++()</a>.</p>
+
+</div>
+</div>
+<a id="a746281181d1abf111861a6871ffd3b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a746281181d1abf111861a6871ffd3b9e">&#9670;&nbsp;</a></span>operator-=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;
+      std::is_base_of_v&lt;std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>&gt;,
+      <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp;&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decrement this by <code>n</code> </p>
+<p>Same as <code>*this += -n</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this  <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00547">547</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afe0bd0183f0f43f7137fce87108b6dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0bd0183f0f43f7137fce87108b6dca">&#9670;&nbsp;</a></span>operator--() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;
+      std::is_base_of_v&lt;std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>&gt;,
+        <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp;&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decrement this by one. </p>
+<p>Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this  <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00560">560</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad6a3743ff7d3bfc9a86edabdb2b44e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a3743ff7d3bfc9a86edabdb2b44e80">&#9670;&nbsp;</a></span>operator--() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;
+        std::is_base_of_v&lt;std::bidirectional_iterator_tag, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>&gt;,
+        <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&amp;&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decrement this by one. </p>
+<p>Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment  <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00573">573</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac9d1c5b0818f1478f67d127d94eb8697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9d1c5b0818f1478f67d127d94eb8697">&#9670;&nbsp;</a></span>data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a> <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::data </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a copy of the underlying pointer. </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00585">585</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2daed04afda320d688844646bee0ed86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2daed04afda320d688844646bee0ed86">&#9670;&nbsp;</a></span>error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::error </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The inaccuracy of the element this iterator points to. </p>
+<p>While &lt;step&gt; is an integer, this value will be constant. Otherwise it is in the range <code>[0, 1)</code>, signifying the fractional part of the real index. I.e. <code>ptr + <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2daed04afda320d688844646bee0ed86" title="The inaccuracy of the element this iterator points to. ">error()</a> == real_index</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00596">596</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="iterator_8hpp_source.html#l00604">otto::util::float_step_iterator&lt; I, V &gt;::difference()</a>.</p>
+
+</div>
+</div>
+<a id="aa2a8b03a452dcfb9e6032eb7f7cd2c52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a8b03a452dcfb9e6032eb7f7cd2c52">&#9670;&nbsp;</a></span>difference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::type&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">otto::util::float_step_iterator</a>&lt; I, V &gt;::difference </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classotto_1_1util_1_1float__step__iterator.html">float_step_iterator</a>&lt; I, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;std::is_same_v&lt;
+                       typename std::iterator_traits&lt;
+                         <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a31e79fccdeadadfdd928fec42fdfa2ce">wrapped_type</a>&gt;::<a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">iterator_category</a>,
+                       std::random_access_iterator_tag&gt;,
+      float&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The real numeric difference between this and <code>rhs</code>. </p>
+<p>Only avaliable if <code>wrapped_type</code> is random access. </p>
+
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00604">604</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00596">otto::util::float_step_iterator&lt; I, V &gt;::error()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -1067,7 +925,8 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The size of one step</p>
+
+<p>The size of one step. </p>
 <p>When incrementing, &lt;ptr&gt; will be effectively be incremented by this value.</p>
 <p>Changing this value does not invalidate any iterator, but be aware that an end iterator previously created using <code>*this + n</code> might no longer be reachable by incrementing this. If you need to change the iterator step while looping, prefer using <code>iter &lt; last</code> over <code>iter != last</code> </p>
 

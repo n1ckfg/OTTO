@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::logger Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -119,8 +125,32 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="logger_8cpp_source.html#l00008">8</a> of file <a class="el" href="logger_8cpp_source.html">logger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00409">otto::filesystem::path::c_str()</a>, <a class="el" href="globals_8hpp_source.html#l00020">otto::global::data_dir</a>, and <a class="el" href="namespaceotto_1_1global.html#a6efd2100648da2348944643872649994a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::global::none</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    std::string def_path = global::data_dir / <span class="stringliteral">&quot;log.txt&quot;</span>;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (logFilePath == <span class="keyword">nullptr</span>) {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;      logFilePath = def_path.c_str();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (!enable_console) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      loguru::g_stderr_verbosity = loguru::Verbosity_OFF;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    loguru::init(argc, argv);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    loguru::add_file(logFilePath, loguru::Append, loguru::Verbosity_MAX);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    loguru::set_fatal_handler([](<span class="keyword">const</span> loguru::Message&amp; message){</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">throw</span> global::exception(global::ErrorCode::none, std::string(message.prefix) + message.message);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      });</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    LOGI(<span class="stringliteral">&quot;LOGGING NOW&quot;</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00409">otto::filesystem::path::c_str()</a>, <a class="el" href="globals_8hpp_source.html#l00020">otto::global::data_dir</a>, <a class="el" href="logger_8hpp_source.html#l00022">LOGI</a>, and <a class="el" href="namespaceotto_1_1global.html#a6efd2100648da2348944643872649994a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::global::none</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00022">main()</a>.</p>
+
+</div>
+</div>
+<a id="a4f43b320859d396a8f9fd1c74dcbfdd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f43b320859d396a8f9fd1c74dcbfdd0">&#9670;&nbsp;</a></span>set_thread_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::logger::set_thread_name </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set how the current thread appears in the log. </p>
+
+<p class="definition">Definition at line <a class="el" href="logger_8cpp_source.html#l00032">32</a> of file <a class="el" href="logger_8cpp_source.html">logger.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a8c9aeab7b85f7167f3ecc5dbdf1474a5"></a>
@@ -163,28 +193,6 @@ Functions</h2></td></tr>
 
 <p>Initialize the logger. </p>
 
-</div>
-</div>
-<a id="a4f43b320859d396a8f9fd1c74dcbfdd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f43b320859d396a8f9fd1c74dcbfdd0">&#9670;&nbsp;</a></span>set_thread_name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::logger::set_thread_name </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set how the current thread appears in the log. </p>
-
-<p class="definition">Definition at line <a class="el" href="logger_8cpp_source.html#l00032">32</a> of file <a class="el" href="logger_8cpp_source.html">logger.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    loguru::set_thread_name(name.c_str());</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

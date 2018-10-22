@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -69,15 +75,15 @@
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#aea603cd8693b6cc03505780387de724b">_data</a></td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a687c78bb25f5e304ab29d25d8b108aac">_path</a></td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e">data</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a0cfc3b29605cde246dfac7f8c8cad850">data</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e">data</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a0cfc3b29605cde246dfac7f8c8cad850">data</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a129b3faca1a0ec06367f52767ea75528">ErrorCode</a> enum name</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#ad9d72548f88186e1cd59504f94475dc9">exception</a> typedef</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a705ad2470a87894ef74c4ce8063fc338">JsonFile</a>(const fs::path &amp;p)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a474c35572625d975531294b75f408da0">OpenOptions</a> enum name</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8">path</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8">path</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a70540e79d144ef21b42a3f38cd1ebfa6">read</a>(OpenOptions=OpenOptions::none)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#aa414df172d32e3a0d264565f47c6dc4f">validate</a>() const</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#aa414df172d32e3a0d264565f47c6dc4f">validate</a>() const</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#ac833b3927158b2cf7b3b09a7d5c486ed">write</a>(OpenOptions=OpenOptions::none)</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html#a694b73175fdbf40d60c9f5fcc3e5dad8">~JsonFile</a>()=default</td><td class="entry"><a class="el" href="structotto_1_1util_1_1_json_file.html">otto::util::JsonFile</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->

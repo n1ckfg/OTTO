@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::cached&lt; T &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -68,6 +74,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>A simple wrapper for invalidatable caches.  
+ <a href="structotto_1_1util_1_1cached.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="cache_8hpp_source.html">cache.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for otto::util::cached&lt; T &gt;:</div>
@@ -75,7 +84,7 @@ Inheritance diagram for otto::util::cached&lt; T &gt;:</div>
  <div class="center">
   <img src="structotto_1_1util_1_1cached.png" usemap="#otto::util::cached_3C_20T_20_3E_map" alt=""/>
   <map id="otto::util::cached_3C_20T_20_3E_map" name="otto::util::cached_3C_20T_20_3E_map">
-<area href="structotto_1_1util_1_1cache__base.html" alt="otto::util::cache_base&lt; T &gt;" shape="rect" coords="0,0,160,24"/>
+<area href="structotto_1_1util_1_1cache__base.html" title="A CRTP style cache base class. " alt="otto::util::cache_base&lt; T &gt;" shape="rect" coords="0,0,160,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -95,8 +104,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a37a5eacc127875f773ca2e021de6b965 inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the cached value.  <a href="structotto_1_1util_1_1cache__base.html#a37a5eacc127875f773ca2e021de6b965">More...</a><br /></td></tr>
 <tr class="separator:a37a5eacc127875f773ca2e021de6b965 inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af437ec107c29f3339b96aa830fa716e2 inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1cache__base.html#af437ec107c29f3339b96aa830fa716e2">operator-&gt;</a> ()</td></tr>
+<tr class="memdesc:af437ec107c29f3339b96aa830fa716e2 inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the cached value.  <a href="structotto_1_1util_1_1cache__base.html#af437ec107c29f3339b96aa830fa716e2">More...</a><br /></td></tr>
 <tr class="separator:af437ec107c29f3339b96aa830fa716e2 inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc30e6a2b6b7a86400858999835c761f inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1cache__base.html#afc30e6a2b6b7a86400858999835c761f">operator*</a> ()</td></tr>
+<tr class="memdesc:afc30e6a2b6b7a86400858999835c761f inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the cached value.  <a href="structotto_1_1util_1_1cache__base.html#afc30e6a2b6b7a86400858999835c761f">More...</a><br /></td></tr>
 <tr class="separator:afc30e6a2b6b7a86400858999835c761f inherit pub_methods_structotto_1_1util_1_1cache__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -109,8 +120,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 struct otto::util::cached&lt; T &gt;</h3>
 
-<p>A simple wrapper for invalidatable caches.</p>
-<p>If you are writing a separate struct to contain the cache data, use <code><a class="el" href="structotto_1_1util_1_1cache__base.html">cache_base</a></code> instead.</p>
+<p>A simple wrapper for invalidatable caches. </p>
+<p>If you are writing a separate struct to contain the cache data, use <code><a class="el" href="structotto_1_1util_1_1cache__base.html" title="A CRTP style cache base class. ">cache_base</a></code> instead.</p>
 <p>The cached value is imutable, and lazilly refreshed. This wrapper is not thread safe at invalidation!</p>
 <p>It is constructed with a generator function, which can take two forms:</p>
 <ol type="1">
@@ -131,9 +142,6 @@ struct otto::util::cached&lt; T &gt;</h3>
 template&lt;typename T &gt; </div>
 <div class="memtemplate">
 template&lt;typename FuncRef &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1cached.html">otto::util::cached</a>&lt; T &gt;::<a class="el" href="structotto_1_1util_1_1cached.html">cached</a> </td>
@@ -143,15 +151,10 @@ template&lt;typename FuncRef &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="cache_8hpp_source.html#l00087">87</a> of file <a class="el" href="cache_8hpp_source.html">cache.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      : generator(make_generator(std::forward&lt;FuncRef&gt;(f)))</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    {}</div></div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

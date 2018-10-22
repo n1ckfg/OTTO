@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: RtApiDummy Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -102,7 +108,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6178ebc0e78bfdd277d7fedf7b88d44f inherit pub_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbe763b59fb7a3d346eb0c95945950c7 inherit pub_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#afbe763b59fb7a3d346eb0c95945950c7">getDefaultOutputDevice</a> (void)</td></tr>
 <tr class="separator:afbe763b59fb7a3d346eb0c95945950c7 inherit pub_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5db36650d77680d2af18ab0b6ff2f3a9 inherit pub_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a5db36650d77680d2af18ab0b6ff2f3a9">openStream</a> (<a class="el" href="struct_rt_audio_1_1_stream_parameters.html">RtAudio::StreamParameters</a> *outputParameters, <a class="el" href="struct_rt_audio_1_1_stream_parameters.html">RtAudio::StreamParameters</a> *inputParameters, RtAudioFormat format, unsigned int sampleRate, unsigned int *bufferFrames, RtAudioCallback callback, void *userData, <a class="el" href="struct_rt_audio_1_1_stream_options.html">RtAudio::StreamOptions</a> *options, RtAudioErrorCallback errorCallback)</td></tr>
+<tr class="memitem:a5db36650d77680d2af18ab0b6ff2f3a9 inherit pub_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a5db36650d77680d2af18ab0b6ff2f3a9">openStream</a> (<a class="el" href="struct_rt_audio_1_1_stream_parameters.html">RtAudio::StreamParameters</a> *outputParameters, <a class="el" href="struct_rt_audio_1_1_stream_parameters.html">RtAudio::StreamParameters</a> *inputParameters, <a class="el" href="_rt_audio_8h.html#aafca92882d25915560018873221e44b8">RtAudioFormat</a> format, unsigned int sampleRate, unsigned int *bufferFrames, <a class="el" href="_rt_audio_8h.html#aa96e52a4e057d224cda0c39926e5c652">RtAudioCallback</a> callback, void *userData, <a class="el" href="struct_rt_audio_1_1_stream_options.html">RtAudio::StreamOptions</a> *options, <a class="el" href="_rt_audio_8h.html#a255b480e1e3c2818d838fb12d13f3123">RtAudioErrorCallback</a> errorCallback)</td></tr>
 <tr class="separator:a5db36650d77680d2af18ab0b6ff2f3a9 inherit pub_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa13bea09f646779d8b9cbc829d7675f inherit pub_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#afa13bea09f646779d8b9cbc829d7675f">getStreamLatency</a> (void)</td></tr>
 <tr class="separator:afa13bea09f646779d8b9cbc829d7675f inherit pub_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,12 +166,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a991f6626a0b1a79f0fec1c6a7bcebb9e inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a991f6626a0b1a79f0fec1c6a7bcebb9e">error</a> (<a class="el" href="class_rt_audio_error.html#a85bdee746d5ba80d655ac98ded21d073">RtAudioError::Type</a> type)</td></tr>
 <tr class="memdesc:a991f6626a0b1a79f0fec1c6a7bcebb9e inherit pro_methods_class_rt_api"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected common error method to allow global control over error handling.  <a href="class_rt_api.html#a991f6626a0b1a79f0fec1c6a7bcebb9e">More...</a><br /></td></tr>
 <tr class="separator:a991f6626a0b1a79f0fec1c6a7bcebb9e inherit pro_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85ed0a3827faddf0c796869e72800850 inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a85ed0a3827faddf0c796869e72800850">convertBuffer</a> (char *outBuffer, char *inBuffer, <a class="el" href="struct_rt_api_1_1_convert_info.html">ConvertInfo</a> &amp;info)</td></tr>
+<tr class="memitem:a85ed0a3827faddf0c796869e72800850 inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a85ed0a3827faddf0c796869e72800850">convertBuffer</a> (char *outBuffer, char *inBuffer, <a class="el" href="class_rt_api.html#struct_rt_api_1_1_convert_info">ConvertInfo</a> &amp;info)</td></tr>
 <tr class="separator:a85ed0a3827faddf0c796869e72800850 inherit pro_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d1b716b762e865a5b460be2117bb5ed inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a0d1b716b762e865a5b460be2117bb5ed">byteSwapBuffer</a> (char *buffer, unsigned int samples, RtAudioFormat format)</td></tr>
+<tr class="memitem:a0d1b716b762e865a5b460be2117bb5ed inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a0d1b716b762e865a5b460be2117bb5ed">byteSwapBuffer</a> (char *buffer, unsigned int samples, <a class="el" href="_rt_audio_8h.html#aafca92882d25915560018873221e44b8">RtAudioFormat</a> format)</td></tr>
 <tr class="memdesc:a0d1b716b762e865a5b460be2117bb5ed inherit pro_methods_class_rt_api"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected common method used to perform byte-swapping on buffers.  <a href="class_rt_api.html#a0d1b716b762e865a5b460be2117bb5ed">More...</a><br /></td></tr>
 <tr class="separator:a0d1b716b762e865a5b460be2117bb5ed inherit pro_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61fd2ec8b7bb72580bcf0233fd150f5f inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a61fd2ec8b7bb72580bcf0233fd150f5f">formatBytes</a> (RtAudioFormat format)</td></tr>
+<tr class="memitem:a61fd2ec8b7bb72580bcf0233fd150f5f inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a61fd2ec8b7bb72580bcf0233fd150f5f">formatBytes</a> (<a class="el" href="_rt_audio_8h.html#aafca92882d25915560018873221e44b8">RtAudioFormat</a> format)</td></tr>
 <tr class="memdesc:a61fd2ec8b7bb72580bcf0233fd150f5f inherit pro_methods_class_rt_api"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protected common method that returns the number of bytes for a given format.  <a href="class_rt_api.html#a61fd2ec8b7bb72580bcf0233fd150f5f">More...</a><br /></td></tr>
 <tr class="separator:a61fd2ec8b7bb72580bcf0233fd150f5f inherit pro_methods_class_rt_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06289f7963ccc23dcd64eab911b26cd inherit pro_methods_class_rt_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#af06289f7963ccc23dcd64eab911b26cd">setConvertInfo</a> (<a class="el" href="class_rt_api.html#a7df4fd666bdd1ec02cffd4921cbcbebd">StreamMode</a> mode, unsigned int firstChannel)</td></tr>
@@ -197,9 +203,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">RtApiDummy::RtApiDummy </td>
@@ -208,83 +211,15 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01149">1149</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_audio_8cpp_source.html#l09547">RtApi::error()</a>, <a class="el" href="_rt_audio_8h_source.html#l00785">RtApi::errorText_</a>, and <a class="el" href="_rt_audio_8h_source.html#l00218">RtAudioError::WARNING</a>.</p>
-<div class="fragment"><div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;{ <a class="code" href="class_rt_api.html#ab512557e93839a7cbb997160b08d3c18">errorText_</a> = <span class="stringliteral">&quot;RtApiDummy: This class provides no functionality.&quot;</span>; <a class="code" href="class_rt_api.html#a991f6626a0b1a79f0fec1c6a7bcebb9e">error</a>( <a class="code" href="class_rt_audio_error.html#a85bdee746d5ba80d655ac98ded21d073a2a65138d7bfc0d837e190d83be652002">RtAudioError::WARNING</a> ); }</div><div class="ttc" id="class_rt_api_html_a991f6626a0b1a79f0fec1c6a7bcebb9e"><div class="ttname"><a href="class_rt_api.html#a991f6626a0b1a79f0fec1c6a7bcebb9e">RtApi::error</a></div><div class="ttdeci">void error(RtAudioError::Type type)</div><div class="ttdoc">Protected common error method to allow global control over error handling. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8cpp_source.html#l09547">RtAudio.cpp:9547</a></div></div>
-<div class="ttc" id="class_rt_audio_error_html_a85bdee746d5ba80d655ac98ded21d073a2a65138d7bfc0d837e190d83be652002"><div class="ttname"><a href="class_rt_audio_error.html#a85bdee746d5ba80d655ac98ded21d073a2a65138d7bfc0d837e190d83be652002">RtAudioError::WARNING</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00218">RtAudio.h:218</a></div></div>
-<div class="ttc" id="class_rt_api_html_ab512557e93839a7cbb997160b08d3c18"><div class="ttname"><a href="class_rt_api.html#ab512557e93839a7cbb997160b08d3c18">RtApi::errorText_</a></div><div class="ttdeci">std::string errorText_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00785">RtAudio.h:785</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad6e5a08e9ead62580d7558e6f67f95f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6e5a08e9ead62580d7558e6f67f95f2">&#9670;&nbsp;</a></span>abortStream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RtApiDummy::abortStream </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_rt_api.html#af65fd257cc358db6da29fbcef90287c7">RtApi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01156">1156</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;{}</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a3c977f919de64b6fc232c3b7d012d226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c977f919de64b6fc232c3b7d012d226">&#9670;&nbsp;</a></span>closeStream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void RtApiDummy::closeStream </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_rt_api.html#a13e0f615a63a540446bd8bb7e44c293f">RtApi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01153">1153</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;{}</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a7ff0b3ec102299faad6e2449caf4e83d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ff0b3ec102299faad6e2449caf4e83d">&#9670;&nbsp;</a></span>getCurrentApi()</h2>
 
@@ -304,7 +239,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -314,8 +249,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01150">1150</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_audio_8h_source.html#l00288">RtAudio::RTAUDIO_DUMMY</a>.</p>
-<div class="fragment"><div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_rt_audio.html#ac9b6f625da88249d08a8409a9db0d849ab06b8fd88bf18c9a2b8271f6961ae2d1">RtAudio::RTAUDIO_DUMMY</a>; }</div><div class="ttc" id="class_rt_audio_html_ac9b6f625da88249d08a8409a9db0d849ab06b8fd88bf18c9a2b8271f6961ae2d1"><div class="ttname"><a href="class_rt_audio.html#ac9b6f625da88249d08a8409a9db0d849ab06b8fd88bf18c9a2b8271f6961ae2d1">RtAudio::RTAUDIO_DUMMY</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00288">RtAudio.h:288</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="abd6e4121dca8d5b9d162aa1c51fc7f3e"></a>
@@ -337,7 +271,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -345,7 +279,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_rt_api.html#a4efee04d90b46722e80fce09cd72dfb3">RtApi</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01151">1151</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;{ <span class="keywordflow">return</span> 0; }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a1373a7859d0baad8bdb1ba89312d1914"></a>
@@ -367,7 +301,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -375,8 +309,37 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_rt_api.html#a62787b01c30a6addb243cd7da794dfdc">RtApi</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01152">1152</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;{ <a class="code" href="struct_rt_audio_1_1_device_info.html">RtAudio::DeviceInfo</a> info; <span class="keywordflow">return</span> info; }</div><div class="ttc" id="struct_rt_audio_1_1_device_info_html"><div class="ttname"><a href="struct_rt_audio_1_1_device_info.html">RtAudio::DeviceInfo</a></div><div class="ttdoc">The public device information structure for returning queried values. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00292">RtAudio.h:292</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a3c977f919de64b6fc232c3b7d012d226"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c977f919de64b6fc232c3b7d012d226">&#9670;&nbsp;</a></span>closeStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RtApiDummy::closeStream </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_rt_api.html#a13e0f615a63a540446bd8bb7e44c293f">RtApi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01153">1153</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
 </div>
 </div>
 <a id="af5fff1f6a68cfbde8c243f23b18d62dd"></a>
@@ -398,7 +361,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -406,7 +369,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_rt_api.html#a10ee2f45dc6c1200da231365b4686ac8">RtApi</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01154">1154</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;{}</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="ae107020b6e369376050df702ee55d5ae"></a>
@@ -428,7 +391,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -436,7 +399,37 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_rt_api.html#af17a556cb2534b53da961d3a6acba11e">RtApi</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01155">1155</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;{}</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="ad6e5a08e9ead62580d7558e6f67f95f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6e5a08e9ead62580d7558e6f67f95f2">&#9670;&nbsp;</a></span>abortStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RtApiDummy::abortStream </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_rt_api.html#af65fd257cc358db6da29fbcef90287c7">RtApi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l01156">1156</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

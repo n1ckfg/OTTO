@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::engines::NukeSynth::Props Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -93,13 +99,45 @@ Public Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_structotto_1_1core_1_1props_1_1_properties"><td colspan="2" onclick="javascript:toggleInherit('pub_types_structotto_1_1core_1_1props_1_1_properties')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="structotto_1_1core_1_1props_1_1_properties.html">otto::core::props::Properties&lt;&gt;</a></td></tr>
-<tr class="memitem:a259af425bc455d49088a867d96f204b2 inherit pub_types_structotto_1_1core_1_1props_1_1_properties"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_properties.html#a259af425bc455d49088a867d96f204b2">Super</a> = <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; <a class="el" href="structotto_1_1core_1_1props_1_1detail_1_1properties__for__list.html">detail::properties_for_list</a>&lt; <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; <a class="el" href="structotto_1_1core_1_1props_1_1get__tag__list.html">get_tag_list</a>&lt; void, Tags... &gt; &gt;&gt; &gt;</td></tr>
+<tr class="memitem:a259af425bc455d49088a867d96f204b2 inherit pub_types_structotto_1_1core_1_1props_1_1_properties"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_properties.html#a259af425bc455d49088a867d96f204b2">Super</a> = <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; detail::properties_for_list&lt; <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1get__tag__list">get_tag_list</a>&lt; void, Tags... &gt; &gt;&gt; &gt;</td></tr>
 <tr class="separator:a259af425bc455d49088a867d96f204b2 inherit pub_types_structotto_1_1core_1_1props_1_1_properties"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="nuke_8hpp_source.html#l00016">16</a> of file <a class="el" href="nuke_8hpp_source.html">nuke.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7d7767529195eb574e2232aa700cb8f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7767529195eb574e2232aa700cb8f3">&#9670;&nbsp;</a></span>wave</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Property&lt;float&gt; otto::engines::NukeSynth::Props::wave = {this, &quot;Wave&quot;, 0, has_limits::init(0, 4), steppable::init(0.01)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="nuke_8hpp_source.html#l00018">18</a> of file <a class="el" href="nuke_8hpp_source.html">nuke.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9a31173142653ac2b213e3cbf4f12c12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a31173142653ac2b213e3cbf4f12c12">&#9670;&nbsp;</a></span>relation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Property&lt;float&gt; otto::engines::NukeSynth::Props::relation = {this, &quot;Relation&quot;, 2, has_limits::init(0, 3.01), steppable::init(0.01)}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="nuke_8hpp_source.html#l00019">19</a> of file <a class="el" href="nuke_8hpp_source.html">nuke.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a9bce4b8eed14bc775502f29c0b33196c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9bce4b8eed14bc775502f29c0b33196c">&#9670;&nbsp;</a></span>aux</h2>
 
@@ -129,38 +167,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="nuke_8hpp_source.html#l00021">21</a> of file <a class="el" href="nuke_8hpp_source.html">nuke.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9a31173142653ac2b213e3cbf4f12c12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a31173142653ac2b213e3cbf4f12c12">&#9670;&nbsp;</a></span>relation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Property&lt;float&gt; otto::engines::NukeSynth::Props::relation = {this, &quot;Relation&quot;, 2, has_limits::init(0, 3.01), steppable::init(0.01)}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="nuke_8hpp_source.html#l00019">19</a> of file <a class="el" href="nuke_8hpp_source.html">nuke.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7d7767529195eb574e2232aa700cb8f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d7767529195eb574e2232aa700cb8f3">&#9670;&nbsp;</a></span>wave</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Property&lt;float&gt; otto::engines::NukeSynth::Props::wave = {this, &quot;Wave&quot;, 0, has_limits::init(0, 4), steppable::init(0.01)}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="nuke_8hpp_source.html#l00018">18</a> of file <a class="el" href="nuke_8hpp_source.html">nuke.hpp</a>.</p>
 
 </div>
 </div>

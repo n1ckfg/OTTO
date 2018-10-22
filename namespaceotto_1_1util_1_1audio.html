@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::audio Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -74,6 +80,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1audio_1_1_graph.html">Graph</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1audio_1_1_section.html">Section</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Agregate of an in and an out point, providing operations to compare and mutate one dimensional sections.  <a href="structotto_1_1util_1_1audio_1_1_section.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -111,6 +118,42 @@ template&lt;int nChannels = 4, typename SampleType  = float&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a2b7779e7a05df89bfd137f30f7213302"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7779e7a05df89bfd137f30f7213302">&#9670;&nbsp;</a></span>mix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float otto::util::audio::mix </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>ratio</em> = <code>0.5</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00019">19</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
+
+</div>
+</div>
 <a id="aa8d5563a26179fd0b53a98c383425499"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa8d5563a26179fd0b53a98c383425499">&#9670;&nbsp;</a></span>add_all()</h2>
 
@@ -150,52 +193,7 @@ template&lt;typename Rng1 , typename Rng2 , typename... Rngs&gt; </div>
 <p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00031">31</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00831">otto::util::zip()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">auto</span> sum = [](<span class="keyword">auto</span> <span class="keyword">const</span>&amp;... <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256ae1671797c52e15f763380b45e841ec32">e</a>) -&gt; decltype(<span class="keyword">auto</span>) {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keywordflow">return</span> (e + ...);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; [ir1, irs] : util::zip(</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;           r1, util::zip(std::forward&lt;Rng2&gt;(r2), std::forward&lt;Rngs&gt;(rs)...))) {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      ir1 += std::apply(sum, irs);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256ae1671797c52e15f763380b45e841ec32"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256ae1671797c52e15f763380b45e841ec32">otto::board::ui::Key::e</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2b7779e7a05df89bfd137f30f7213302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b7779e7a05df89bfd137f30f7213302">&#9670;&nbsp;</a></span>mix()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float otto::util::audio::mix </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>B</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>ratio</em> = <code>0.5</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00019">19</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                                        {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> A + (B - A) * ratio;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

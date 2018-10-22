@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::Header Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -152,9 +158,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">otto::util::Header::Header </td>
@@ -164,16 +167,10 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="soundfile_8cpp_source.html#l00011">11</a> of file <a class="el" href="soundfile_8cpp_source.html">soundfile.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;: <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">Chunk</a>(o) {}</div><div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_chunk_html_ac951dbb7daee6b6738cfe9cd56ef856a"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">otto::util::ByteFile::Chunk::Chunk</a></div><div class="ttdeci">Chunk(bytes&lt; 4 &gt; id={0, 0, 0, 0})</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00145">bytefile.hpp:145</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -196,7 +193,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -206,14 +203,7 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="soundfile_8cpp_source.html#l00016">16</a> of file <a class="el" href="soundfile_8cpp_source.html">soundfile.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="bytefile_8hpp_source.html#l00070">otto::util::bytes&lt; len &gt;::as_u()</a>, <a class="el" href="bytefile_8hpp_source.html#l00145">otto::util::ByteFile::Chunk::Chunk()</a>, <a class="el" href="soundfile_8cpp_source.html#l00014">chunks</a>, <a class="el" href="bytefile_8hpp_source.html#l00342">otto::util::ByteFile::for_chunks_in_range()</a>, <a class="el" href="soundfile_8cpp_source.html#l00013">format</a>, <a class="el" href="bytefile_8hpp_source.html#l00143">otto::util::ByteFile::Chunk::offset</a>, <a class="el" href="bytefile_8hpp_source.html#l00256">otto::util::ByteFile::read_bytes()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00141">otto::util::ByteFile::Chunk::size</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                              {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;      file.read_bytes(<a class="code" href="structotto_1_1util_1_1_header.html#a5926ae378ec49c17b22015c2ac1ff8e2">format</a>).unwrap_ok();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;      file.for_chunks_in_range(<a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#a74c19e877ef96804f53ca1060179ea05">offset</a> + 12, <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#a74c19e877ef96804f53ca1060179ea05">offset</a> + 8 + <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac22e12ef53224b77d2cd3adc67877a07">size</a>.<a class="code" href="structotto_1_1util_1_1bytes.html#a4cc7be00be1f9808aa004de885d4f34d">as_u</a>(),</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        [&amp;](<a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">Chunk</a>&amp; <a class="code" href="namespaceotto_1_1meta.html#ae0236247d4d4cf2f45451f0f1239acff">c</a>) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;          <a class="code" href="structotto_1_1util_1_1_header.html#aa8fd83f76417ad543fe0d128efd48043">chunks</a>.emplace_back(<span class="keyword">new</span> <a class="code" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">Chunk</a>(c));</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        });</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1meta_html_ae0236247d4d4cf2f45451f0f1239acff"><div class="ttname"><a href="namespaceotto_1_1meta.html#ae0236247d4d4cf2f45451f0f1239acff">otto::meta::c</a></div><div class="ttdeci">std::integral_constant&lt; decltype(val), val &gt; c</div><div class="ttdoc">An integral constant value. </div><div class="ttdef"><b>Definition:</b> <a href="meta_8hpp_source.html#l00046">meta.hpp:46</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_chunk_html_ac22e12ef53224b77d2cd3adc67877a07"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac22e12ef53224b77d2cd3adc67877a07">otto::util::ByteFile::Chunk::size</a></div><div class="ttdeci">bytes&lt; 4 &gt; size</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00141">bytefile.hpp:141</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_header_html_aa8fd83f76417ad543fe0d128efd48043"><div class="ttname"><a href="structotto_1_1util_1_1_header.html#aa8fd83f76417ad543fe0d128efd48043">otto::util::Header::chunks</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; Chunk &gt; &gt; chunks</div><div class="ttdef"><b>Definition:</b> <a href="soundfile_8cpp_source.html#l00014">soundfile.cpp:14</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1bytes_html_a4cc7be00be1f9808aa004de885d4f34d"><div class="ttname"><a href="structotto_1_1util_1_1bytes.html#a4cc7be00be1f9808aa004de885d4f34d">otto::util::bytes::as_u</a></div><div class="ttdeci">Num &amp; as_u()</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00070">bytefile.hpp:70</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_chunk_html_ac951dbb7daee6b6738cfe9cd56ef856a"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#ac951dbb7daee6b6738cfe9cd56ef856a">otto::util::ByteFile::Chunk::Chunk</a></div><div class="ttdeci">Chunk(bytes&lt; 4 &gt; id={0, 0, 0, 0})</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00145">bytefile.hpp:145</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_byte_file_1_1_chunk_html_a74c19e877ef96804f53ca1060179ea05"><div class="ttname"><a href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#a74c19e877ef96804f53ca1060179ea05">otto::util::ByteFile::Chunk::offset</a></div><div class="ttdeci">Position offset</div><div class="ttdef"><b>Definition:</b> <a href="bytefile_8hpp_source.html#l00143">bytefile.hpp:143</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_header_html_a5926ae378ec49c17b22015c2ac1ff8e2"><div class="ttname"><a href="structotto_1_1util_1_1_header.html#a5926ae378ec49c17b22015c2ac1ff8e2">otto::util::Header::format</a></div><div class="ttdeci">bytes&lt; 4 &gt; format</div><div class="ttdef"><b>Definition:</b> <a href="soundfile_8cpp_source.html#l00013">soundfile.cpp:13</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="acd47b6e1c37429eb730e07089f601302"></a>
@@ -235,7 +225,7 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -245,31 +235,10 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="soundfile_8cpp_source.html#l00024">24</a> of file <a class="el" href="soundfile_8cpp_source.html">soundfile.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="soundfile_8cpp_source.html#l00014">chunks</a>, <a class="el" href="soundfile_8cpp_source.html#l00013">format</a>, and <a class="el" href="bytefile_8hpp_source.html#l00313">otto::util::ByteFile::write_bytes()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                               {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      file.write_bytes(<a class="code" href="structotto_1_1util_1_1_header.html#a5926ae378ec49c17b22015c2ac1ff8e2">format</a>);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; c : <a class="code" href="structotto_1_1util_1_1_header.html#aa8fd83f76417ad543fe0d128efd48043">chunks</a>) {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="namespaceotto_1_1meta.html#ae0236247d4d4cf2f45451f0f1239acff">c</a>-&gt;write(file);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;      }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1meta_html_ae0236247d4d4cf2f45451f0f1239acff"><div class="ttname"><a href="namespaceotto_1_1meta.html#ae0236247d4d4cf2f45451f0f1239acff">otto::meta::c</a></div><div class="ttdeci">std::integral_constant&lt; decltype(val), val &gt; c</div><div class="ttdoc">An integral constant value. </div><div class="ttdef"><b>Definition:</b> <a href="meta_8hpp_source.html#l00046">meta.hpp:46</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_header_html_aa8fd83f76417ad543fe0d128efd48043"><div class="ttname"><a href="structotto_1_1util_1_1_header.html#aa8fd83f76417ad543fe0d128efd48043">otto::util::Header::chunks</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; Chunk &gt; &gt; chunks</div><div class="ttdef"><b>Definition:</b> <a href="soundfile_8cpp_source.html#l00014">soundfile.cpp:14</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_header_html_a5926ae378ec49c17b22015c2ac1ff8e2"><div class="ttname"><a href="structotto_1_1util_1_1_header.html#a5926ae378ec49c17b22015c2ac1ff8e2">otto::util::Header::format</a></div><div class="ttdeci">bytes&lt; 4 &gt; format</div><div class="ttdef"><b>Definition:</b> <a href="soundfile_8cpp_source.html#l00013">soundfile.cpp:13</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa8fd83f76417ad543fe0d128efd48043"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8fd83f76417ad543fe0d128efd48043">&#9670;&nbsp;</a></span>chunks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="namespaceotto_1_1util.html#afda770be9de161ee183653d4d41f504e">Chunk</a>&gt; &gt; otto::util::Header::chunks</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="soundfile_8cpp_source.html#l00014">14</a> of file <a class="el" href="soundfile_8cpp_source.html">soundfile.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="soundfile_8cpp_source.html#l00016">read_fields()</a>, <a class="el" href="soundfile_8cpp_source.html#l00106">otto::util::SoundFile::read_file()</a>, <a class="el" href="soundfile_8cpp_source.html#l00024">write_fields()</a>, and <a class="el" href="soundfile_8cpp_source.html#l00152">otto::util::SoundFile::write_file()</a>.</p>
-
-</div>
-</div>
 <a id="a5926ae378ec49c17b22015c2ac1ff8e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5926ae378ec49c17b22015c2ac1ff8e2">&#9670;&nbsp;</a></span>format</h2>
 
@@ -283,6 +252,24 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="soundfile_8cpp_source.html#l00013">13</a> of file <a class="el" href="soundfile_8cpp_source.html">soundfile.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="soundfile_8cpp_source.html#l00016">read_fields()</a>, <a class="el" href="soundfile_8cpp_source.html#l00106">otto::util::SoundFile::read_file()</a>, <a class="el" href="soundfile_8cpp_source.html#l00024">write_fields()</a>, and <a class="el" href="soundfile_8cpp_source.html#l00152">otto::util::SoundFile::write_file()</a>.</p>
+
+</div>
+</div>
+<a id="aa8fd83f76417ad543fe0d128efd48043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8fd83f76417ad543fe0d128efd48043">&#9670;&nbsp;</a></span>chunks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::unique_ptr&lt;<a class="el" href="namespaceotto_1_1util.html#afda770be9de161ee183653d4d41f504e">Chunk</a>&gt; &gt; otto::util::Header::chunks</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="soundfile_8cpp_source.html#l00014">14</a> of file <a class="el" href="soundfile_8cpp_source.html">soundfile.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="soundfile_8cpp_source.html#l00016">read_fields()</a>, <a class="el" href="soundfile_8cpp_source.html#l00106">otto::util::SoundFile::read_file()</a>, <a class="el" href="soundfile_8cpp_source.html#l00024">write_fields()</a>, and <a class="el" href="soundfile_8cpp_source.html#l00152">otto::util::SoundFile::write_file()</a>.</p>
 

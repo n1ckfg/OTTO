@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members - Functions</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -73,10 +79,7 @@
 : <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ad854793257cb2f04738fcfe845090927">otto::filesystem::directory_iterator</a>
 </li>
 <li>init()
-: <a class="el" href="classfaust__master.html#ac4724985dcc3b5fb5f5d0726843674ca">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#afeca5a3e9125029d5523e5d6bc6b6605">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#a8cbcebca3c67fef89f8c3e46dbc986fe">faust_wormhole</a>
-, <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#ac57f28967bae4ea93e483b933bbc6e28">otto::board::ui::EGLConnection</a>
+: <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#ac57f28967bae4ea93e483b933bbc6e28">otto::board::ui::EGLConnection</a>
 , <a class="el" href="structotto_1_1board_1_1ui_1_1_rpi_f_b_c_p.html#aac03e89b87f4bde17ca0b18034c2557a">otto::board::ui::RpiFBCP</a>
 , <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_dispatcher.html#a8576c88a5d28953fdf0a8306a1a766fd">otto::core::engines::EngineDispatcher&lt; ET &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#adbc968191e7b515bfd56498bed63e7d0">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</a>
@@ -98,29 +101,6 @@
 <li>inner()
 : <a class="el" href="structotto_1_1util_1_1atomic__swap.html#afe32087568ecd6b2b5a3b5283e7134cb">otto::util::atomic_swap&lt; T &gt;</a>
 </li>
-<li>instanceClear()
-: <a class="el" href="classfaust__master.html#af206e457d009371196c7be7da5be7a54">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#a41c35ff1b50db19b150967dfca4e71f9">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#a9a12ed0f3cf4ff2e23167933c81195a5">faust_wormhole</a>
-</li>
-<li>instanceConstants()
-: <a class="el" href="classfaust__master.html#aed05f5dcb47392f5f2834fcb6227b239">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#ab9708ca04b655e56b10a3873d97a5de7">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#a0ab26b4ae69db617d91f089ba40642e1">faust_wormhole</a>
-</li>
-<li>instanceInit()
-: <a class="el" href="classfaust__master.html#a531d2d712e5a53ba52ac69f619d145a3">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#ae75ed07ee37dbc21c176eca41cfb33c5">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#a1ec49c27ced35819b0b8969dd80c4139">faust_wormhole</a>
-</li>
-<li>instanceInitfaust_wormholeSIG0()
-: <a class="el" href="classfaust__wormhole_s_i_g0.html#a1cdb76d814e38ec04c727fe6c659cc8e">faust_wormholeSIG0</a>
-</li>
-<li>instanceResetUserInterface()
-: <a class="el" href="classfaust__master.html#a87e8bd1180fdc9163410d05ca123379a">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#a0e900613d1362c6b453c21e5023c0c10">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#a273dd93fff71c497499f64f2f926817b">faust_wormhole</a>
-</li>
 <li>invalidate()
 : <a class="el" href="structotto_1_1util_1_1cache__base.html#aa35471f2dd5e4dbdd8259e340f565b74">otto::util::cache_base&lt; T &gt;</a>
 </li>
@@ -141,7 +121,7 @@
 : <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a032ba7fd3f1997f9ab26d4832b112625">otto::filesystem::directory_entry</a>
 </li>
 <li>is_directory()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a2abe641029f2adffdadff01ba52ca192">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a864f04f226f8397765220be293d9e175">otto::filesystem::directory_entry</a>
 </li>
 <li>is_err()
 : <a class="el" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result&lt; ok_t, err_t &gt;</a>
@@ -165,10 +145,10 @@
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ab54cad2cc3d0dac3bff526426a01afb9">otto::filesystem::path</a>
 </li>
 <li>is_socket()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a9888541cd5b5714170c999e8abf2697a">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a5c4c3629001f92cb6c716b79d896f813">otto::filesystem::directory_entry</a>
 </li>
 <li>is_symlink()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a6abdfcdc51da60438b703abd9aa237f8">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a088eedf062e0922b4bb4b4884c890144">otto::filesystem::directory_entry</a>
 </li>
 <li>isPortOpen()
 : <a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">MidiApi</a>
@@ -185,13 +165,13 @@
 , <a class="el" href="class_rt_audio.html#a471118c62add0eee90b298e8519bf80e">RtAudio</a>
 </li>
 <li>items()
-: <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#a85411347a3264166c8e621eb26e215cd">otto::core::ui::SelectorWidget</a>
+: <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#a323553efb416cb46ba800cd37b621289">otto::core::ui::SelectorWidget</a>
 </li>
 <li>iter()
 : <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a59b6920a85684a4b81534a5dd1b4a9df">otto::util::wrapping_array&lt; T, N &gt;</a>
 </li>
 <li>iterator()
-: <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#ad04603c13c71d8a4741d85e8d1a5bd0d">otto::filesystem::path::iterator</a>
+: <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#aacaf2562bbae0483cad04da598d52b60">otto::filesystem::path::iterator</a>
 </li>
 <li>iterator_adaptor_impl()
 : <a class="el" href="classotto_1_1util_1_1iterator__adaptor__impl.html#a4e41f9ca07847046645b4b3b582a2a4c">otto::util::iterator_adaptor_impl&lt; Impl, Category &gt;</a>

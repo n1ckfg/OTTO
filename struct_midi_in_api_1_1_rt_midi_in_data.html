@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: MidiInApi::RtMidiInData Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -108,9 +114,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MidiInApi::RtMidiInData::RtMidiInData </td>
@@ -119,55 +122,62 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00561">561</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;  : <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a3e520b3ced9881baeb0498f23ba4f30c">ignoreFlags</a>(7), <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5f3430b724ade89b95b733dd4d818224">doInput</a>(<span class="keyword">false</span>), <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#aa0803a7c74425635cb72cf34ce648341">firstMessage</a>(<span class="keyword">true</span>),</div><div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;      <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a2e705ef4c2a8603ddebca08dddb7de8b">apiData</a>(0), <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">usingCallback</a>(<span class="keyword">false</span>), <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ac84f3df4914220095bbeda364556325f">userCallback</a>(0), <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5ec1653c816234ffb896289eb7eb47e7">userData</a>(0),</div><div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;      <a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a60c8fc25d8838784d0d1904f31e80ab5">continueSysex</a>(<span class="keyword">false</span>) {}</div><div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a5ec1653c816234ffb896289eb7eb47e7"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5ec1653c816234ffb896289eb7eb47e7">MidiInApi::RtMidiInData::userData</a></div><div class="ttdeci">void * userData</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00557">RtMidi.h:557</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a3e520b3ced9881baeb0498f23ba4f30c"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a3e520b3ced9881baeb0498f23ba4f30c">MidiInApi::RtMidiInData::ignoreFlags</a></div><div class="ttdeci">unsigned char ignoreFlags</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00551">RtMidi.h:551</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_aa0803a7c74425635cb72cf34ce648341"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#aa0803a7c74425635cb72cf34ce648341">MidiInApi::RtMidiInData::firstMessage</a></div><div class="ttdeci">bool firstMessage</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00553">RtMidi.h:553</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a5f3430b724ade89b95b733dd4d818224"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5f3430b724ade89b95b733dd4d818224">MidiInApi::RtMidiInData::doInput</a></div><div class="ttdeci">bool doInput</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00552">RtMidi.h:552</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a60c8fc25d8838784d0d1904f31e80ab5"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a60c8fc25d8838784d0d1904f31e80ab5">MidiInApi::RtMidiInData::continueSysex</a></div><div class="ttdeci">bool continueSysex</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00558">RtMidi.h:558</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ae68e0f1f0791e85fe5f1c026a5eb7568"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">MidiInApi::RtMidiInData::usingCallback</a></div><div class="ttdeci">bool usingCallback</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00555">RtMidi.h:555</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a2e705ef4c2a8603ddebca08dddb7de8b"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a2e705ef4c2a8603ddebca08dddb7de8b">MidiInApi::RtMidiInData::apiData</a></div><div class="ttdeci">void * apiData</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00554">RtMidi.h:554</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ac84f3df4914220095bbeda364556325f"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ac84f3df4914220095bbeda364556325f">MidiInApi::RtMidiInData::userCallback</a></div><div class="ttdeci">RtMidiIn::RtMidiCallback userCallback</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00556">RtMidi.h:556</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2e705ef4c2a8603ddebca08dddb7de8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e705ef4c2a8603ddebca08dddb7de8b">&#9670;&nbsp;</a></span>apiData</h2>
+<a id="ab7aab9c04293fd05680fbc61a045edf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7aab9c04293fd05680fbc61a045edf5">&#9670;&nbsp;</a></span>queue</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* MidiInApi::RtMidiInData::apiData</td>
+          <td class="memname"><a class="el" href="struct_midi_in_api_1_1_midi_queue.html">MidiQueue</a> MidiInApi::RtMidiInData::queue</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00554">554</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00549">549</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00567">MidiInApi::getMessage()</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00512">MidiInApi::MidiInApi()</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00521">MidiInApi::~MidiInApi()</a>.</p>
 
 </div>
 </div>
-<a id="a60c8fc25d8838784d0d1904f31e80ab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c8fc25d8838784d0d1904f31e80ab5">&#9670;&nbsp;</a></span>continueSysex</h2>
+<a id="a7d9d8d783b2bca9d12571b132292d29b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9d8d783b2bca9d12571b132292d29b">&#9670;&nbsp;</a></span>message</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MidiInApi::RtMidiInData::continueSysex</td>
+          <td class="memname"><a class="el" href="struct_midi_in_api_1_1_midi_message.html">MidiMessage</a> MidiInApi::RtMidiInData::message</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00558">558</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00550">550</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+</div>
+</div>
+<a id="a3e520b3ced9881baeb0498f23ba4f30c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e520b3ced9881baeb0498f23ba4f30c">&#9670;&nbsp;</a></span>ignoreFlags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char MidiInApi::RtMidiInData::ignoreFlags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00551">551</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00559">MidiInApi::ignoreTypes()</a>.</p>
 
 </div>
 </div>
@@ -203,55 +213,37 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e520b3ced9881baeb0498f23ba4f30c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e520b3ced9881baeb0498f23ba4f30c">&#9670;&nbsp;</a></span>ignoreFlags</h2>
+<a id="a2e705ef4c2a8603ddebca08dddb7de8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e705ef4c2a8603ddebca08dddb7de8b">&#9670;&nbsp;</a></span>apiData</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned char MidiInApi::RtMidiInData::ignoreFlags</td>
+          <td class="memname">void* MidiInApi::RtMidiInData::apiData</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00551">551</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00559">MidiInApi::ignoreTypes()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00554">554</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
 </div>
 </div>
-<a id="a7d9d8d783b2bca9d12571b132292d29b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d9d8d783b2bca9d12571b132292d29b">&#9670;&nbsp;</a></span>message</h2>
+<a id="ae68e0f1f0791e85fe5f1c026a5eb7568"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68e0f1f0791e85fe5f1c026a5eb7568">&#9670;&nbsp;</a></span>usingCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_midi_in_api_1_1_midi_message.html">MidiMessage</a> MidiInApi::RtMidiInData::message</td>
+          <td class="memname">bool MidiInApi::RtMidiInData::usingCallback</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00550">550</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00555">555</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
-</div>
-</div>
-<a id="ab7aab9c04293fd05680fbc61a045edf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7aab9c04293fd05680fbc61a045edf5">&#9670;&nbsp;</a></span>queue</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_midi_in_api_1_1_midi_queue.html">MidiQueue</a> MidiInApi::RtMidiInData::queue</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00549">549</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00567">MidiInApi::getMessage()</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00512">MidiInApi::MidiInApi()</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00521">MidiInApi::~MidiInApi()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00546">MidiInApi::cancelCallback()</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00567">MidiInApi::getMessage()</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00527">MidiInApi::setCallback()</a>.</p>
 
 </div>
 </div>
@@ -291,21 +283,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae68e0f1f0791e85fe5f1c026a5eb7568"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae68e0f1f0791e85fe5f1c026a5eb7568">&#9670;&nbsp;</a></span>usingCallback</h2>
+<a id="a60c8fc25d8838784d0d1904f31e80ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c8fc25d8838784d0d1904f31e80ab5">&#9670;&nbsp;</a></span>continueSysex</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MidiInApi::RtMidiInData::usingCallback</td>
+          <td class="memname">bool MidiInApi::RtMidiInData::continueSysex</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00555">555</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_rt_midi_8cpp_source.html#l00546">MidiInApi::cancelCallback()</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00567">MidiInApi::getMessage()</a>, and <a class="el" href="_rt_midi_8cpp_source.html#l00527">MidiInApi::setCallback()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00558">558</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
 </div>
 </div>

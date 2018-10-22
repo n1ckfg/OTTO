@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -89,8 +95,8 @@
   <tr><td class="entry"><a class="el" href="class_rt_api.html#aa5a524a28ea28f031ca0a0a9e024ff39">Int16</a> typedef</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#a9dc07a6666436dc0809c38435885db81">Int24</a> typedef</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_rt_api.html#a438fed76129128575398354b306a4cc2">Int32</a> typedef</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#ae8f31ee5f44c3be1c2d6fd5d5f251bdc">isStreamOpen</a>(void) const</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_rt_api.html#abf9243dd0551fa0d990ca29db59e372f">isStreamRunning</a>(void) const</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#ae8f31ee5f44c3be1c2d6fd5d5f251bdc">isStreamOpen</a>(void) const</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_rt_api.html#abf9243dd0551fa0d990ca29db59e372f">isStreamRunning</a>(void) const</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#a59917a16adcd5eb468dd88d4c5b8c289">MAX_SAMPLE_RATES</a></td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_rt_api.html#a5db36650d77680d2af18ab0b6ff2f3a9">openStream</a>(RtAudio::StreamParameters *outputParameters, RtAudio::StreamParameters *inputParameters, RtAudioFormat format, unsigned int sampleRate, unsigned int *bufferFrames, RtAudioCallback callback, void *userData, RtAudio::StreamOptions *options, RtAudioErrorCallback errorCallback)</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#a7df4fd666bdd1ec02cffd4921cbcbebdaeb2b4bed5a164cb6fdbefaf4208785cc">OUTPUT</a> enum value</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -99,7 +105,7 @@
   <tr><td class="entry"><a class="el" href="class_rt_api.html#a84f89655b9f487005d10929ff9453ad2">SAMPLE_RATES</a></td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#af06289f7963ccc23dcd64eab911b26cd">setConvertInfo</a>(StreamMode mode, unsigned int firstChannel)</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_rt_api.html#a30c5120d03bdc68c4c096a1e279ea0fe">setStreamTime</a>(double time)</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#a3c28d90eda75287192b012eba92718ec">showWarnings</a>(bool value)</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#a3c28d90eda75287192b012eba92718ec">showWarnings</a>(bool value)</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_rt_api.html#aa9142cb3f4df970af4ee37fedb2f16b1">showWarnings_</a></td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_rt_api.html#a10ee2f45dc6c1200da231365b4686ac8">startStream</a>(void)=0</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_rt_api.html#af17a556cb2534b53da961d3a6acba11e">stopStream</a>(void)=0</td><td class="entry"><a class="el" href="class_rt_api.html">RtApi</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>

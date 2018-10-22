@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -75,7 +81,7 @@
   <tr><td class="entry"><a class="el" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">getPortCount</a>(void)=0</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a317393a9094e7c2bf51337adbabe6a71">getPortName</a>(unsigned int portNumber)=0</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_api.html#ab323e8b2789ce47ad0985d136ad6851d">initialize</a>(const std::string &amp;clientName)=0</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a>() const</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a>() const</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_api.html#a968fb0e0c6cfc1f532a22bef313bf82c">MidiApi</a>()</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_midi_api.html#a04d2614cf1512ee5095f0f2bfdc8a967">openPort</a>(unsigned int portNumber, const std::string &amp;portName)=0</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_midi_api.html#a38f34c414ff8f0d0925c7e4bab25820d">openVirtualPort</a>(const std::string &amp;portName)=0</td><td class="entry"><a class="el" href="class_midi_api.html">MidiApi</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>

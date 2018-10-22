@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::meta::impl::for_each_impl&lt; T, Types... &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -97,7 +103,7 @@ template&lt;typename Callable &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr void <a class="el" href="structotto_1_1meta_1_1impl_1_1for__each__impl.html">otto::meta::impl::for_each_impl</a>&lt; T, Types... &gt;::apply </td>
+          <td class="memname">static constexpr void <a class="el" href="namespaceotto_1_1meta_1_1impl.html#structotto_1_1meta_1_1impl_1_1for__each__impl">otto::meta::impl::for_each_impl</a>&lt; T, Types... &gt;::apply </td>
           <td>(</td>
           <td class="paramtype">Callable &amp;&amp;&#160;</td>
           <td class="paramname"><em>cb</em></td><td>)</td>
@@ -106,13 +112,13 @@ template&lt;typename Callable &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="meta_8hpp_source.html#l00453">453</a> of file <a class="el" href="meta_8hpp_source.html">meta.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                                                 {</div><div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        std::invoke(cb, one&lt;T&gt;());</div><div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        for_each_impl&lt;Types...&gt;::apply(std::forward&lt;Callable&gt;(cb));</div><div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;      }</div></div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

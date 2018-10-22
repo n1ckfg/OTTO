@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::midi::MidiEvent Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -167,10 +173,31 @@ Static Public Attributes</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00053">53</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                    {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      NoteOff = 0b1000,</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      NoteOn = 0b1001,</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      ControlChange = 0b1011,</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    };</div></div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1a4eb3e040e32b3855bf5dcb3be8c827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a4eb3e040e32b3855bf5dcb3be8c827">&#9670;&nbsp;</a></span>to_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab33989b35f8ad0a6fe7390391fbe115f">byte</a>, 1&gt; otto::core::midi::MidiEvent::to_bytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00059">59</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="midi_8hpp_source.html#l00071">channel</a>, and <a class="el" href="midi_8hpp_source.html#l00069">type</a>.</p>
+
+</div>
+</div>
 <a id="a9c6355aaedb6d122ec689660898090e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c6355aaedb6d122ec689660898090e3">&#9670;&nbsp;</a></span>from_bytes()</h2>
 
@@ -200,7 +227,7 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -210,62 +237,10 @@ Static Public Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="midi_8hpp_source.html#l00072">time</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="midi_8hpp_source.html#l00150">otto::core::midi::ControlChangeEvent::from_bytes()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <span class="keywordflow">return</span> {<a class="code" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276">Type</a>{bytes[0] &gt;&gt; 4}, bytes[0] &amp; 0b1111, <a class="code" href="structotto_1_1core_1_1midi_1_1_midi_event.html#a1052542d133fb26503ab80566fe1fd56">time</a>};</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div><div class="ttc" id="structotto_1_1core_1_1midi_1_1_midi_event_html_a1052542d133fb26503ab80566fe1fd56"><div class="ttname"><a href="structotto_1_1core_1_1midi_1_1_midi_event.html#a1052542d133fb26503ab80566fe1fd56">otto::core::midi::MidiEvent::time</a></div><div class="ttdeci">int time</div><div class="ttdef"><b>Definition:</b> <a href="midi_8hpp_source.html#l00072">midi.hpp:72</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1midi_1_1_midi_event_html_ab9f3eb7867c8ec835c720f7684406276"><div class="ttname"><a href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276">otto::core::midi::MidiEvent::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition:</b> <a href="midi_8hpp_source.html#l00053">midi.hpp:53</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a1a4eb3e040e32b3855bf5dcb3be8c827"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a4eb3e040e32b3855bf5dcb3be8c827">&#9670;&nbsp;</a></span>to_bytes()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab33989b35f8ad0a6fe7390391fbe115f">byte</a>, 1&gt; otto::core::midi::MidiEvent::to_bytes </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00059">59</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="midi_8hpp_source.html#l00071">channel</a>, and <a class="el" href="midi_8hpp_source.html#l00069">type</a>.</p>
-<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="keywordflow">return</span> {(<a class="code" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab33989b35f8ad0a6fe7390391fbe115f">byte</a>(<a class="code" href="structotto_1_1core_1_1midi_1_1_midi_event.html#a661d94e3cfb022cb5b7e99cbeb5ce7c0">type</a>) &lt;&lt; 4) | <a class="code" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab33989b35f8ad0a6fe7390391fbe115f">byte</a>(<a class="code" href="structotto_1_1core_1_1midi_1_1_midi_event.html#aabba193b580e89fde9a8a1c1fc61ec17">channel</a>)};</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div><div class="ttc" id="structotto_1_1core_1_1midi_1_1_midi_event_html_a661d94e3cfb022cb5b7e99cbeb5ce7c0"><div class="ttname"><a href="structotto_1_1core_1_1midi_1_1_midi_event.html#a661d94e3cfb022cb5b7e99cbeb5ce7c0">otto::core::midi::MidiEvent::type</a></div><div class="ttdeci">Type type</div><div class="ttdef"><b>Definition:</b> <a href="midi_8hpp_source.html#l00069">midi.hpp:69</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1midi_1_1_midi_event_html_aabba193b580e89fde9a8a1c1fc61ec17"><div class="ttname"><a href="structotto_1_1core_1_1midi_1_1_midi_event.html#aabba193b580e89fde9a8a1c1fc61ec17">otto::core::midi::MidiEvent::channel</a></div><div class="ttdeci">int channel</div><div class="ttdef"><b>Definition:</b> <a href="midi_8hpp_source.html#l00071">midi.hpp:71</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1midi_1_1_midi_event_html_ab33989b35f8ad0a6fe7390391fbe115f"><div class="ttname"><a href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab33989b35f8ad0a6fe7390391fbe115f">otto::core::midi::MidiEvent::byte</a></div><div class="ttdeci">unsigned char byte</div><div class="ttdef"><b>Definition:</b> <a href="midi_8hpp_source.html#l00051">midi.hpp:51</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aabba193b580e89fde9a8a1c1fc61ec17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabba193b580e89fde9a8a1c1fc61ec17">&#9670;&nbsp;</a></span>channel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int otto::core::midi::MidiEvent::channel</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00071">71</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="midi_8hpp_source.html#l00096">otto::core::midi::NoteEvent::NoteEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00129">otto::core::midi::NoteOffEvent::NoteOffEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00116">otto::core::midi::NoteOnEvent::NoteOnEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00059">to_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00102">otto::core::midi::NoteEvent::to_bytes()</a>, and <a class="el" href="midi_8hpp_source.html#l00145">otto::core::midi::ControlChangeEvent::to_bytes()</a>.</p>
-
-</div>
-</div>
 <a id="a3675b3de5d083b8ccf25f6917334342b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3675b3de5d083b8ccf25f6917334342b">&#9670;&nbsp;</a></span>max_data_size</h2>
 
@@ -290,24 +265,6 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1052542d133fb26503ab80566fe1fd56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1052542d133fb26503ab80566fe1fd56">&#9670;&nbsp;</a></span>time</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int otto::core::midi::MidiEvent::time</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00072">72</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="midi_8hpp_source.html#l00064">from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00107">otto::core::midi::NoteEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00120">otto::core::midi::NoteOnEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00133">otto::core::midi::NoteOffEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00150">otto::core::midi::ControlChangeEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00096">otto::core::midi::NoteEvent::NoteEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00129">otto::core::midi::NoteOffEvent::NoteOffEvent()</a>, and <a class="el" href="midi_8hpp_source.html#l00116">otto::core::midi::NoteOnEvent::NoteOnEvent()</a>.</p>
-
-</div>
-</div>
 <a id="a661d94e3cfb022cb5b7e99cbeb5ce7c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a661d94e3cfb022cb5b7e99cbeb5ce7c0">&#9670;&nbsp;</a></span>type</h2>
 
@@ -323,6 +280,42 @@ Static Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00069">69</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="midi_8hpp_source.html#l00096">otto::core::midi::NoteEvent::NoteEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00059">to_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00102">otto::core::midi::NoteEvent::to_bytes()</a>, and <a class="el" href="midi_8hpp_source.html#l00145">otto::core::midi::ControlChangeEvent::to_bytes()</a>.</p>
+
+</div>
+</div>
+<a id="aabba193b580e89fde9a8a1c1fc61ec17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabba193b580e89fde9a8a1c1fc61ec17">&#9670;&nbsp;</a></span>channel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int otto::core::midi::MidiEvent::channel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00071">71</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="midi_8hpp_source.html#l00096">otto::core::midi::NoteEvent::NoteEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00129">otto::core::midi::NoteOffEvent::NoteOffEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00116">otto::core::midi::NoteOnEvent::NoteOnEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00059">to_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00102">otto::core::midi::NoteEvent::to_bytes()</a>, and <a class="el" href="midi_8hpp_source.html#l00145">otto::core::midi::ControlChangeEvent::to_bytes()</a>.</p>
+
+</div>
+</div>
+<a id="a1052542d133fb26503ab80566fe1fd56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1052542d133fb26503ab80566fe1fd56">&#9670;&nbsp;</a></span>time</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int otto::core::midi::MidiEvent::time</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00072">72</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="midi_8hpp_source.html#l00064">from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00107">otto::core::midi::NoteEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00120">otto::core::midi::NoteOnEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00133">otto::core::midi::NoteOffEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00150">otto::core::midi::ControlChangeEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00096">otto::core::midi::NoteEvent::NoteEvent()</a>, <a class="el" href="midi_8hpp_source.html#l00129">otto::core::midi::NoteOffEvent::NoteOffEvent()</a>, and <a class="el" href="midi_8hpp_source.html#l00116">otto::core::midi::NoteOnEvent::NoteOnEvent()</a>.</p>
 
 </div>
 </div>

@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::as_exception&lt; Data &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -69,6 +75,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>A wrapper for throwing arbitrary data.  
+ <a href="structotto_1_1util_1_1as__exception.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="exception_8hpp_source.html">exception.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for otto::util::as_exception&lt; Data &gt;:</div>
@@ -100,6 +109,7 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_structotto_1_1util_1_1exception"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1util_1_1exception')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1util_1_1exception.html">otto::util::exception</a></td></tr>
 <tr class="memitem:abcc5e9042cf318ba8276f84341a8e922 inherit pub_methods_structotto_1_1util_1_1exception"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:abcc5e9042cf318ba8276f84341a8e922 inherit pub_methods_structotto_1_1util_1_1exception"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1exception.html#abcc5e9042cf318ba8276f84341a8e922">exception</a> (std::string <a class="el" href="structotto_1_1util_1_1exception.html#a756b5607be380b2e2a896116f874e0a6">message</a>, Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:abcc5e9042cf318ba8276f84341a8e922 inherit pub_methods_structotto_1_1util_1_1exception"><td class="mdescLeft">&#160;</td><td class="mdescRight">String formatting constructor.  <a href="structotto_1_1util_1_1exception.html#abcc5e9042cf318ba8276f84341a8e922">More...</a><br /></td></tr>
 <tr class="separator:abcc5e9042cf318ba8276f84341a8e922 inherit pub_methods_structotto_1_1util_1_1exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a694dd93242aed0f6afc3877804896d19 inherit pub_methods_structotto_1_1util_1_1exception"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1exception.html#a694dd93242aed0f6afc3877804896d19">what</a> () const noexcept override</td></tr>
 <tr class="separator:a694dd93242aed0f6afc3877804896d19 inherit pub_methods_structotto_1_1util_1_1exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,10 +127,10 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Data&gt;<br />
 struct otto::util::as_exception&lt; Data &gt;</h3>
 
-<p>A wrapper for throwing arbitrary data</p>
+<p>A wrapper for throwing arbitrary data. </p>
 <p>Always use this instead of throwing an error code.</p>
 <h2>Prefered usage (error codes):</h2>
-<p>Define an <code>ErrorCode</code> enum, and a type alias to <code><a class="el" href="structotto_1_1util_1_1as__exception.html">as_exception</a>&lt;ErrorCode&gt;</code> as member types in your class. You may also want to write a <code>to_string(ErrorCode)</code> function, which will be appended to the exception message.</p>
+<p>Define an <code>ErrorCode</code> enum, and a type alias to <code><a class="el" href="structotto_1_1util_1_1as__exception.html" title="A wrapper for throwing arbitrary data. ">as_exception</a>&lt;ErrorCode&gt;</code> as member types in your class. You may also want to write a <code>to_string(ErrorCode)</code> function, which will be appended to the exception message.</p>
 <div class="fragment"><div class="line"><span class="keyword">enum struct</span> <a class="code" href="namespaceotto_1_1global.html#a6efd2100648da2348944643872649994">ErrorCode</a> {</div><div class="line">  <a class="code" href="namespaceotto_1_1global.html#a6efd2100648da2348944643872649994a334c4a4c42fdb79d7ebc3e73b517e6f8">none</a> = 0,</div><div class="line">  <a class="code" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">not_found</a>,</div><div class="line">  invalid</div><div class="line">}</div><div class="line"><span class="keyword">using</span> <a class="code" href="structotto_1_1util_1_1exception.html#abcc5e9042cf318ba8276f84341a8e922">exception</a> = util::as_exception&lt;ErrorCode&gt;;</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="exception_8hpp_source.html#l00078">78</a> of file <a class="el" href="exception_8hpp_source.html">exception.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -152,9 +162,6 @@ template&lt;typename Data &gt; </div>
 template&lt;typename Data &gt; </div>
 <div class="memtemplate">
 template&lt;typename DataRef , typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1as__exception.html">otto::util::as_exception</a>&lt; Data &gt;::<a class="el" href="structotto_1_1util_1_1as__exception.html">as_exception</a> </td>
@@ -180,20 +187,10 @@ template&lt;typename DataRef , typename... Args&gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="exception_8hpp_source.html#l00083">83</a> of file <a class="el" href="exception_8hpp_source.html">exception.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="exception_8hpp_source.html#l00054">otto::util::exception::message</a>, and <a class="el" href="exception_8hpp_source.html#l00014">otto::util::detail::to_str_or_empty()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      : <a class="code" href="structotto_1_1util_1_1exception.html#abcc5e9042cf318ba8276f84341a8e922">exception</a>(m, std::forward&lt;Args&gt;(args)...),</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        _data (std::forward&lt;DataRef&gt;(dr))</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <span class="keyword">using namespace </span>std::literals;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      <span class="keyword">auto</span> str_data = <a class="code" href="namespaceotto_1_1util_1_1detail.html#a068985e1093f7063eeab86b812bc937e">detail::to_str_or_empty</a>(_data);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keywordflow">if</span> (!str_data.empty()) {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="structotto_1_1util_1_1exception.html#a756b5607be380b2e2a896116f874e0a6">message</a>.append(<span class="stringliteral">&quot;\nData: &quot;</span>);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="structotto_1_1util_1_1exception.html#a756b5607be380b2e2a896116f874e0a6">message</a>.append(str_data);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      }</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1util_1_1detail_html_a068985e1093f7063eeab86b812bc937e"><div class="ttname"><a href="namespaceotto_1_1util_1_1detail.html#a068985e1093f7063eeab86b812bc937e">otto::util::detail::to_str_or_empty</a></div><div class="ttdeci">auto to_str_or_empty(T &amp;&amp;t) -&gt; std::enable_if_t&lt; std::is_constructible_v&lt; std::string, T &gt;, std::string &gt;</div><div class="ttdef"><b>Definition:</b> <a href="exception_8hpp_source.html#l00014">exception.hpp:14</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1exception_html_a756b5607be380b2e2a896116f874e0a6"><div class="ttname"><a href="structotto_1_1util_1_1exception.html#a756b5607be380b2e2a896116f874e0a6">otto::util::exception::message</a></div><div class="ttdeci">std::string message</div><div class="ttdef"><b>Definition:</b> <a href="exception_8hpp_source.html#l00054">exception.hpp:54</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1exception_html_abcc5e9042cf318ba8276f84341a8e922"><div class="ttname"><a href="structotto_1_1util_1_1exception.html#abcc5e9042cf318ba8276f84341a8e922">otto::util::exception::exception</a></div><div class="ttdeci">exception(std::string message, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8hpp_source.html#l00037">exception.hpp:37</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="a4422b7795fb266a1b1388c220aecc372"></a>
@@ -205,9 +202,6 @@ template&lt;typename DataRef , typename... Args&gt; </div>
 template&lt;typename Data &gt; </div>
 <div class="memtemplate">
 template&lt;typename DataRef &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1as__exception.html">otto::util::as_exception</a>&lt; Data &gt;::<a class="el" href="structotto_1_1util_1_1as__exception.html">as_exception</a> </td>
@@ -217,16 +211,10 @@ template&lt;typename DataRef &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="exception_8hpp_source.html#l00096">96</a> of file <a class="el" href="exception_8hpp_source.html">exception.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      : <a class="code" href="structotto_1_1util_1_1as__exception.html#a7b2031169b5844d76c5cfa55e8ea107d">as_exception</a>(std::forward&lt;DataRef&gt;(dr), <span class="stringliteral">&quot;&quot;</span>)</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    {}</div><div class="ttc" id="structotto_1_1util_1_1as__exception_html_a7b2031169b5844d76c5cfa55e8ea107d"><div class="ttname"><a href="structotto_1_1util_1_1as__exception.html#a7b2031169b5844d76c5cfa55e8ea107d">otto::util::as_exception::as_exception</a></div><div class="ttdeci">as_exception(DataRef &amp;&amp;dr, const std::string &amp;m, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> <a href="exception_8hpp_source.html#l00083">exception.hpp:83</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -250,13 +238,13 @@ template&lt;typename Data &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="exception_8hpp_source.html#l00100">100</a> of file <a class="el" href="exception_8hpp_source.html">exception.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="keywordflow">return</span> _data;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a6a0d96ef6604b269e3b6823cca0cb241"></a>
@@ -279,13 +267,13 @@ template&lt;typename Data &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="exception_8hpp_source.html#l00105">105</a> of file <a class="el" href="exception_8hpp_source.html">exception.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="keywordflow">return</span> _data;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

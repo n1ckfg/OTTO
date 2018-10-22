@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: MidiOutDummy Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -109,7 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6a6a1828e23ecc0a0242b96779400e74 inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e5ef07b3066f3a3d11ae322fde6cc3 inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a> () const</td></tr>
 <tr class="separator:a79e5ef07b3066f3a3d11ae322fde6cc3 inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a> (RtMidiErrorCallback errorCallback, void *userData)</td></tr>
+<tr class="memitem:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a> (<a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a> errorCallback, void *userData)</td></tr>
 <tr class="separator:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90114261efbce1a0e3d2a3dcf4459a15 inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a> (<a class="el" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905ee">RtMidiError::Type</a> type, std::string errorString)</td></tr>
 <tr class="memdesc:a90114261efbce1a0e3d2a3dcf4459a15 inherit pub_methods_class_midi_api"><td class="mdescLeft">&#160;</td><td class="mdescRight">A basic error reporting function for <a class="el" href="class_rt_midi.html" title="An abstract base class for realtime MIDI input/output. ">RtMidi</a> classes.  <a href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">More...</a><br /></td></tr>
@@ -129,7 +135,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a2caa246b04594b5ae84bacccb2a648aa inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bff6ace3f6e863be6cde261a6f2f114 inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a></td></tr>
 <tr class="separator:a6bff6ace3f6e863be6cde261a6f2f114 inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">RtMidiErrorCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4f9fbf86cd9a970ff6e7211d73d6594d">errorCallback_</a></td></tr>
+<tr class="memitem:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4f9fbf86cd9a970ff6e7211d73d6594d">errorCallback_</a></td></tr>
 <tr class="separator:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2ee5d79440913ab6b64d38b402c408 inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4d2ee5d79440913ab6b64d38b402c408">firstErrorOccurred_</a></td></tr>
 <tr class="separator:a4d2ee5d79440913ab6b64d38b402c408 inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,9 +151,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MidiOutDummy::MidiOutDummy </td>
@@ -157,53 +160,15 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00255">255</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8cpp_source.html#l00479">MidiApi::error()</a>, <a class="el" href="_rt_midi_8h_source.html#l00501">MidiApi::errorString_</a>, and <a class="el" href="_rt_midi_8h_source.html#l00078">RtMidiError::WARNING</a>.</p>
-<div class="fragment"><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;{ <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> = <span class="stringliteral">&quot;MidiOutDummy: This class provides no functionality.&quot;</span>; <a class="code" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a>( <a class="code" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a>, <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> ); }</div><div class="ttc" id="class_midi_api_html_a6bff6ace3f6e863be6cde261a6f2f114"><div class="ttname"><a href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">MidiApi::errorString_</a></div><div class="ttdeci">std::string errorString_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00501">RtMidi.h:501</a></div></div>
-<div class="ttc" id="class_rt_midi_error_html_a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df"><div class="ttname"><a href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00078">RtMidi.h:78</a></div></div>
-<div class="ttc" id="class_midi_api_html_a90114261efbce1a0e3d2a3dcf4459a15"><div class="ttname"><a href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">MidiApi::error</a></div><div class="ttdeci">void error(RtMidiError::Type type, std::string errorString)</div><div class="ttdoc">A basic error reporting function for RtMidi classes. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00479">RtMidi.cpp:479</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a36371dcb82892ed39816d98c42b39072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36371dcb82892ed39816d98c42b39072">&#9670;&nbsp;</a></span>closePort()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MidiOutDummy::closePort </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_midi_api.html#a1410af774a6bcdf85726eb69b94bc918">MidiApi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00259">259</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;{}</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a02b193d3be04659c50d361d08cd6f9a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02b193d3be04659c50d361d08cd6f9a2">&#9670;&nbsp;</a></span>getCurrentApi()</h2>
 
@@ -223,7 +188,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -233,98 +198,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00256">256</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00137">RtMidi::RTMIDI_DUMMY</a>.</p>
-<div class="fragment"><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a54dba406ab358492005ce2b966a2d959">RtMidi::RTMIDI_DUMMY</a>; }</div><div class="ttc" id="class_rt_midi_html_aac66af04a85fe5c5f07c360574a19406a54dba406ab358492005ce2b966a2d959"><div class="ttname"><a href="class_rt_midi.html#aac66af04a85fe5c5f07c360574a19406a54dba406ab358492005ce2b966a2d959">RtMidi::RTMIDI_DUMMY</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00137">RtMidi.h:137</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a507c180b582ea60db189f558d4af39dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a507c180b582ea60db189f558d4af39dc">&#9670;&nbsp;</a></span>getPortCount()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int MidiOutDummy::getPortCount </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">MidiApi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00262">262</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;{ <span class="keywordflow">return</span> 0; }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a9587a649810f296f7e47eb9642e11720"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9587a649810f296f7e47eb9642e11720">&#9670;&nbsp;</a></span>getPortName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MidiOutDummy::getPortName </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_midi_api.html#a317393a9094e7c2bf51337adbabe6a71">MidiApi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00263">263</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;{ <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>; }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ad051b2c8f7589aa3250fb0a9f095d8ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad051b2c8f7589aa3250fb0a9f095d8ef">&#9670;&nbsp;</a></span>initialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MidiOutDummy::initialize </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_midi_api.html#ab323e8b2789ce47ad0985d136ad6851d">MidiApi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00267">267</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;{}</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a098aa0f8158d37d674ac025b348a78d1"></a>
@@ -356,7 +230,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -364,7 +238,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_midi_api.html#a04d2614cf1512ee5095f0f2bfdc8a967">MidiApi</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00257">257</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;{}</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a5f485a0e0bdc9664c521027f68651f67"></a>
@@ -386,7 +260,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -394,7 +268,157 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_midi_api.html#a38f34c414ff8f0d0925c7e4bab25820d">MidiApi</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00258">258</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;{}</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="a36371dcb82892ed39816d98c42b39072"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36371dcb82892ed39816d98c42b39072">&#9670;&nbsp;</a></span>closePort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MidiOutDummy::closePort </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_midi_api.html#a1410af774a6bcdf85726eb69b94bc918">MidiApi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00259">259</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a8f655b95da08f29279392d44d06575bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f655b95da08f29279392d44d06575bb">&#9670;&nbsp;</a></span>setClientName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MidiOutDummy::setClientName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_midi_api.html#a13dcf9cf0951cecf718a439170dbf29a">MidiApi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00260">260</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a61b9fd8774267d639a73cad76ea6baeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b9fd8774267d639a73cad76ea6baeb">&#9670;&nbsp;</a></span>setPortName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MidiOutDummy::setPortName </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_midi_api.html#a14fa20933eea1a38663430ae96a0cebc">MidiApi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00261">261</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a507c180b582ea60db189f558d4af39dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a507c180b582ea60db189f558d4af39dc">&#9670;&nbsp;</a></span>getPortCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int MidiOutDummy::getPortCount </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_midi_api.html#a98661c935d597e8ba19ed266287868f5">MidiApi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00262">262</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a9587a649810f296f7e47eb9642e11720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9587a649810f296f7e47eb9642e11720">&#9670;&nbsp;</a></span>getPortName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MidiOutDummy::getPortName </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="class_midi_api.html#a317393a9094e7c2bf51337adbabe6a71">MidiApi</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00263">263</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+
 </div>
 </div>
 <a id="abf77248f34448653004d2062de55d6ee"></a>
@@ -426,7 +450,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -434,11 +458,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Implements <a class="el" href="class_midi_out_api.html#a2f246831dae3ade64a8f09f902fe60ec">MidiOutApi</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00264">264</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{}</div></div><!-- fragment -->
+
 </div>
 </div>
-<a id="a8f655b95da08f29279392d44d06575bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f655b95da08f29279392d44d06575bb">&#9670;&nbsp;</a></span>setClientName()</h2>
+<a id="ad051b2c8f7589aa3250fb0a9f095d8ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad051b2c8f7589aa3250fb0a9f095d8ef">&#9670;&nbsp;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -447,7 +471,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MidiOutDummy::setClientName </td>
+          <td class="memname">void MidiOutDummy::initialize </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -456,45 +480,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="class_midi_api.html#a13dcf9cf0951cecf718a439170dbf29a">MidiApi</a>.</p>
+<p>Implements <a class="el" href="class_midi_api.html#ab323e8b2789ce47ad0985d136ad6851d">MidiApi</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00260">260</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;{};</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a61b9fd8774267d639a73cad76ea6baeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61b9fd8774267d639a73cad76ea6baeb">&#9670;&nbsp;</a></span>setPortName()</h2>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00267">267</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MidiOutDummy::setPortName </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="class_midi_api.html#a14fa20933eea1a38663430ae96a0cebc">MidiApi</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00261">261</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;{};</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

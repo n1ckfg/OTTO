@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::board::ui::Modifiers Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -142,17 +148,13 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00150">150</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                                             {}) noexcept</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      : <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>{<a class="code" href="namespaceotto_1_1util.html#a5b0ba68554ef80081c3f4fbc4211569f">util::accumulate</a>(mods, 0, [](<span class="keyword">auto</span> m1, <a class="code" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a> m2) {</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(m1) | <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(m2);</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        })}</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    {}</div><div class="ttc" id="namespaceotto_1_1util_html_a5b0ba68554ef80081c3f4fbc4211569f"><div class="ttname"><a href="namespaceotto_1_1util.html#a5b0ba68554ef80081c3f4fbc4211569f">otto::util::accumulate</a></div><div class="ttdeci">constexpr auto accumulate(Cont &amp;&amp;cont, T &amp;&amp;init)</div><div class="ttdef"><b>Definition:</b> <a href="algorithm_8hpp_source.html#l00150">algorithm.hpp:150</a></div></div>
-<div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_a65d6f3dd20d70626eea66b3c50cdb436"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">otto::board::ui::Modifier</a></div><div class="ttdeci">Modifier</div><div class="ttdoc">Modifiers. </div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00138">keys.hpp:138</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="afcda5de17b728180d92650952d4ce03d"></a>
@@ -174,15 +176,13 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00156">156</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;: <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>(<a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>)) {}</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a70dd99c8b5e1f8348a3d58a11689f4d9"></a>
@@ -204,14 +204,13 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00158">158</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;: <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>(<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>) {}</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a1790380101376be1171965982d75e9bb"></a>
@@ -233,17 +232,13 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00155">155</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                                                             {}) noexcept</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      : <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>{<a class="code" href="namespaceotto_1_1util.html#a5b0ba68554ef80081c3f4fbc4211569f">util::accumulate</a>(mods, 0, [](<span class="keyword">auto</span> m1, <a class="code" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a> m2) {</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(m1) | <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(m2);</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        })}</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {}</div><div class="ttc" id="namespaceotto_1_1util_html_a5b0ba68554ef80081c3f4fbc4211569f"><div class="ttname"><a href="namespaceotto_1_1util.html#a5b0ba68554ef80081c3f4fbc4211569f">otto::util::accumulate</a></div><div class="ttdeci">constexpr auto accumulate(Cont &amp;&amp;cont, T &amp;&amp;init)</div><div class="ttdef"><b>Definition:</b> <a href="algorithm_8hpp_source.html#l00150">algorithm.hpp:150</a></div></div>
-<div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_a65d6f3dd20d70626eea66b3c50cdb436"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">otto::board::ui::Modifier</a></div><div class="ttdeci">Modifier</div><div class="ttdoc">Modifiers. </div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00138">keys.hpp:138</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="afcda5de17b728180d92650952d4ce03d"></a>
@@ -265,15 +260,13 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00161">161</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                                                : <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>(<a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>))</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    {}</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a70dd99c8b5e1f8348a3d58a11689f4d9"></a>
@@ -295,14 +288,13 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00164">164</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;      : <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>(<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>)</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    {}</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -325,307 +317,15 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00160">160</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    {</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>) &amp; <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8eaac24bf595f5c777b964d74c448194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8eaac24bf595f5c777b964d74c448194">&#9670;&nbsp;</a></span>is() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr bool otto::board::ui::Modifiers::is </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00168">168</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    {</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>) &amp; <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a>;</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2de442ee4a30b68bdcbbb6928449f3ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2de442ee4a30b68bdcbbb6928449f3ca">&#9670;&nbsp;</a></span>operator &amp;() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator&amp; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00173">173</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;      <span class="keywordflow">return</span> {<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> &amp; <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>)};</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2de442ee4a30b68bdcbbb6928449f3ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2de442ee4a30b68bdcbbb6928449f3ca">&#9670;&nbsp;</a></span>operator &amp;() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator&amp; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00181">181</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    {</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      <span class="keywordflow">return</span> {<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> &amp; <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>)};</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4dc856e8ed6a4050a904bf7bf7f6362a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dc856e8ed6a4050a904bf7bf7f6362a">&#9670;&nbsp;</a></span>operator bool() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr otto::board::ui::Modifiers::operator bool </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00188">188</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>.</p>
-<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    {</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> != 0;</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4dc856e8ed6a4050a904bf7bf7f6362a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dc856e8ed6a4050a904bf7bf7f6362a">&#9670;&nbsp;</a></span>operator bool() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr otto::board::ui::Modifiers::operator bool </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00196">196</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>.</p>
-<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    {</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> != 0;</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a30ebe87a9399fbdc3284fed69ed1d465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30ebe87a9399fbdc3284fed69ed1d465">&#9670;&nbsp;</a></span>operator|() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00178">178</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    {</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <span class="keywordflow">return</span> {<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> | <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>)};</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a17c158078e7133b9a4472f091f5bca75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17c158078e7133b9a4472f091f5bca75">&#9670;&nbsp;</a></span>operator|() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00183">183</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
 <p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
-<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <span class="keywordflow">return</span> {<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> | <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>.data};</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a30ebe87a9399fbdc3284fed69ed1d465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30ebe87a9399fbdc3284fed69ed1d465">&#9670;&nbsp;</a></span>operator|() <span class="overload">[3/4]</span></h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00186">186</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    {</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      <span class="keywordflow">return</span> {<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> | <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>)};</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a17c158078e7133b9a4472f091f5bca75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17c158078e7133b9a4472f091f5bca75">&#9670;&nbsp;</a></span>operator|() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00191">191</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
-<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    {</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="keywordflow">return</span> {<a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> | <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>.data};</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="ab6868bc947a838110651221e7038ef59"></a>
@@ -657,18 +357,164 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00165">165</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    {</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;      <span class="keywordflow">if</span> (flag)</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> |= <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>);</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keywordflow">else</span></div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> &amp;= ~util::underlying(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>);</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a2de442ee4a30b68bdcbbb6928449f3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de442ee4a30b68bdcbbb6928449f3ca">&#9670;&nbsp;</a></span>operator &amp;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00173">173</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a30ebe87a9399fbdc3284fed69ed1d465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ebe87a9399fbdc3284fed69ed1d465">&#9670;&nbsp;</a></span>operator|() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00178">178</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a17c158078e7133b9a4472f091f5bca75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c158078e7133b9a4472f091f5bca75">&#9670;&nbsp;</a></span>operator|() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00183">183</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a4dc856e8ed6a4050a904bf7bf7f6362a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc856e8ed6a4050a904bf7bf7f6362a">&#9670;&nbsp;</a></span>operator bool() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr otto::board::ui::Modifiers::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00188">188</a> of file <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>.</p>
+
+</div>
+</div>
+<a id="a8eaac24bf595f5c777b964d74c448194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eaac24bf595f5c777b964d74c448194">&#9670;&nbsp;</a></span>is() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool otto::board::ui::Modifiers::is </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00168">168</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
 </div>
 </div>
 <a id="ab6868bc947a838110651221e7038ef59"></a>
@@ -700,18 +546,134 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00173">173</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>, and <a class="el" href="util_2type__traits_8hpp_source.html#l00215">otto::util::underlying()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;      <span class="keywordflow">if</span> (flag)</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> |= <a class="code" href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">util::underlying</a>(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>);</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keywordflow">else</span></div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <a class="code" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">data</a> &amp;= ~util::underlying(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">m</a>);</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div><div class="ttc" id="structotto_1_1board_1_1ui_1_1_modifiers_html_a57319ec279992b11b50efcf4be38483c"><div class="ttname"><a href="structotto_1_1board_1_1ui_1_1_modifiers.html#a57319ec279992b11b50efcf4be38483c">otto::board::ui::Modifiers::data</a></div><div class="ttdeci">std::underlying_type_t&lt; Modifier &gt; data</div><div class="ttdef"><b>Definition:</b> <a href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">keys.hpp:148</a></div></div>
-<div class="ttc" id="namespaceotto_1_1util_html_a0e244efa1e892e04c8b9efd41fb6500b"><div class="ttname"><a href="namespaceotto_1_1util.html#a0e244efa1e892e04c8b9efd41fb6500b">otto::util::underlying</a></div><div class="ttdeci">constexpr auto underlying(E e) noexcept -&gt; std::enable_if_t&lt;!std::is_enum_v&lt; E &gt;, E &gt;</div><div class="ttdoc">Cast scoped enums to their underlying numeric type. </div><div class="ttdef"><b>Definition:</b> <a href="util_2type__traits_8hpp_source.html#l00215">type_traits.hpp:215</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::Key::m</a></div></div>
-</div><!-- fragment -->
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a2de442ee4a30b68bdcbbb6928449f3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de442ee4a30b68bdcbbb6928449f3ca">&#9670;&nbsp;</a></span>operator &amp;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00181">181</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a30ebe87a9399fbdc3284fed69ed1d465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ebe87a9399fbdc3284fed69ed1d465">&#9670;&nbsp;</a></span>operator|() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a65d6f3dd20d70626eea66b3c50cdb436">Modifier</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00186">186</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a17c158078e7133b9a4472f091f5bca75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c158078e7133b9a4472f091f5bca75">&#9670;&nbsp;</a></span>operator|() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a> otto::board::ui::Modifiers::operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>&#160;</td>
+          <td class="paramname"><em>m</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00191">191</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>, and <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a6f8f57715090da2632453988d9a1501b">otto::board::ui::m</a>.</p>
+
+</div>
+</div>
+<a id="a4dc856e8ed6a4050a904bf7bf7f6362a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc856e8ed6a4050a904bf7bf7f6362a">&#9670;&nbsp;</a></span>operator bool() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr otto::board::ui::Modifiers::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html#l00196">196</a> of file <a class="el" href="glfw_2include_2board_2ui_2keys_8hpp_source.html">keys.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="egl_2include_2board_2ui_2keys_8hpp_source.html#l00148">data</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

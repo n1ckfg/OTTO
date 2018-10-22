@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -70,14 +76,9 @@
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#a120e3a6908e023215757f94e18487531">buffer_pool</a>()</td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#af1b08544be46969452e907c9f3cef8e2">get</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#a8357cecb7c45718af129287e51e20d46">init</a>()</td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#ab8081b1b919be0d74b12707f87b97f39">input</a></td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#a0097d5779d37263deebc7d63ccb4f309">midiIn</a></td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#a7f93033076f476ffbc361e3a4eca66ae">midiOut</a></td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#a1da6e2517e8137ade87a81038bcee3ad">outL</a></td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#ac1c851ac08e98e66c0ca223b423288d5">outR</a></td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#aa995d2526382d3105db13d5cbe9f5867">samplerate</a></td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#ad81a8f6fc6c41b3c944fa5c6d94fbbf2">send_midi_event</a>(core::midi::AnyMidiEvent) noexcept</td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#aa33dfda2c66ea1d0f9ffe4a0930643c5">shutdown</a>()</td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#aa995d2526382d3105db13d5cbe9f5867">samplerate</a></td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#ad81a8f6fc6c41b3c944fa5c6d94fbbf2">send_midi_event</a>(core::midi::AnyMidiEvent) noexcept</td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#aa33dfda2c66ea1d0f9ffe4a0930643c5">shutdown</a>()</td><td class="entry"><a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html">otto::service::audio::JackAudioDriver</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

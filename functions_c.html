@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -92,7 +98,7 @@
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html#a3a93a2d3b76e07f75a90e7df834fdf45">otto::core::ui::vg::Canvas</a>
 </li>
 <li>capacity
-: <a class="el" href="structotto_1_1filesystem_1_1space__info.html#ad25a4c33f3cbf1cdffc93580f7ded06b">otto::filesystem::space_info</a>
+: <a class="el" href="namespaceotto_1_1filesystem.html#ad25a4c33f3cbf1cdffc93580f7ded06b">otto::filesystem::space_info</a>
 , <a class="el" href="classotto_1_1util_1_1ringbuffer.html#a07fe24b2c6c1d837f5831f58e7a5a10f">otto::util::ringbuffer&lt; T, N &gt;</a>
 </li>
 <li>cast()
@@ -106,7 +112,7 @@
 </li>
 <li>center()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a00e63bb13b88274ef88625c6566d039a">otto::core::ui::vg::Size</a>
-, <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state.html#ad8c3ecad8a4fd8d756046ca8dc218810">otto::engines::EuclidScreen::State</a>
+, <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#ad8c3ecad8a4fd8d756046ca8dc218810">otto::engines::EuclidScreen::State</a>
 </li>
 <li>channel
 : <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#aabba193b580e89fde9a8a1c1fc61ec17">otto::core::midi::MidiEvent</a>
@@ -116,7 +122,7 @@
 </li>
 <li>channel
 : <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#a9064d8452a8d81cd3fc4e28e577bef6f">otto::engines::Euclid::Props</a>
-, <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state_1_1_channel_state.html#ad3e2cd33d08c56ab3d72a20d6a6df529">otto::engines::EuclidScreen::State::ChannelState</a>
+, <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#ad3e2cd33d08c56ab3d72a20d6a6df529">otto::engines::EuclidScreen::State::ChannelState</a>
 </li>
 <li>channel_count
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html#a2aabb54c78e16358045c1589d8860fc4">otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</a>
@@ -128,9 +134,9 @@
 <li>channels
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">otto::core::audio::ProcessData&lt; N &gt;</a>
 , <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#ada7ff45a11e77111c30151265e6be3b8">otto::engines::Euclid::Props</a>
-, <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state.html#a68a8b37702d00130f8f2d3c62ca4a486">otto::engines::EuclidScreen::State</a>
+, <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#a68a8b37702d00130f8f2d3c62ca4a486">otto::engines::EuclidScreen::State</a>
 , <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#afcac979b6ddc52d7b33f174640da09f0">otto::util::SoundFile::Info</a>
-, <a class="el" href="struct_rt_api_1_1_convert_info.html#ae6fdb3e6b6a3a4974b49ded33291678b">RtApi::ConvertInfo</a>
+, <a class="el" href="class_rt_api.html#ae6fdb3e6b6a3a4974b49ded33291678b">RtApi::ConvertInfo</a>
 </li>
 <li>channels_props
 : <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#ae5130e55033ed6abb644f106e57d3ef3">otto::engines::Euclid::Props</a>
@@ -154,11 +160,6 @@
 <li>clamp()
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a1588f039ebdb5baec921ca071e5ef905">otto::util::audio::Section&lt; T &gt;</a>
 </li>
-<li>classInit()
-: <a class="el" href="classfaust__master.html#ad6c48ae522b65b72bc883af975348f18">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#a8b3ebdb8a5a50e25361c87a13abb4c73">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#ab4784567d34fb25e1a1cf92965369e6b">faust_wormhole</a>
-</li>
 <li>clear()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#a3292998e52151d7deb33230d81aae3b8">otto::core::audio::AudioBufferHandle</a>
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_010_01_4.html#aabbf27462e8d5d6698a7005cf6abf330">otto::core::audio::MultiChannelAudioBufferHandle&lt; 0 &gt;</a>
@@ -176,24 +177,13 @@
 : <a class="el" href="class_rt_api.html#adb7ab7111510e3db1f0884a68926b5a4">RtApi</a>
 </li>
 <li>clicks
-: <a class="el" href="structotto_1_1core_1_1ui_1_1_rotary_event.html#af74626c5a4b54336eb434a5a22cef0b8">otto::core::ui::RotaryEvent</a>
-</li>
-<li>client
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_faust_options.html#a31c49c2eacc61d2cd5d834f995494470">otto::core::audio::FaustOptions</a>
+: <a class="el" href="namespaceotto_1_1core_1_1ui.html#af74626c5a4b54336eb434a5a22cef0b8">otto::core::ui::RotaryEvent</a>
 </li>
 <li>clip()
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_graph.html#ab0b067d4efe56939f2d0a4ec7edb50ef">otto::util::audio::Graph</a>
 </li>
-<li>clone()
-: <a class="el" href="classfaust__master.html#af352e3bffc61fe9d8e5878045393d1ec">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#aabba20cb02e7d1c889e9cef01fc764ad">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#ab988ca7415ae72064e4449e60d1aaf34">faust_wormhole</a>
-</li>
 <li>close()
 : <a class="el" href="classotto_1_1util_1_1_byte_file.html#a39a8f87da4a7d990eeebb011d63082d8">otto::util::ByteFile</a>
-</li>
-<li>closeBox()
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_faust_options.html#a8b13924df9f8ba6a5559338643217f13">otto::core::audio::FaustOptions</a>
 </li>
 <li>closePort()
 : <a class="el" href="class_midi_api.html#a1410af774a6bcdf85726eb69b94bc918">MidiApi</a>
@@ -215,20 +205,13 @@
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1icons_1_1_icon.html#aaac621bf05da78c1287185f74de61d8b">otto::core::ui::vg::icons::Icon</a>
 </li>
 <li>compare()
-: <a class="el" href="classotto_1_1filesystem_1_1path.html#a4d5859428583ac7d85e4bca282538cec">otto::filesystem::path</a>
+: <a class="el" href="classotto_1_1filesystem_1_1path.html#aac5e8036b78bc313ca83b7d629bd725a">otto::filesystem::path</a>
 </li>
 <li>compute()
-: <a class="el" href="classfaust__master.html#aacd0922595f8945474e68f2f43986b19">faust_master</a>
-, <a class="el" href="classfaust__nuke.html#a5ad304b0b5b4fcceb99142d6f742b5cb">faust_nuke</a>
-, <a class="el" href="classfaust__wormhole.html#af260c766981110c7ecb720d0cad63e4f">faust_wormhole</a>
-, <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a24a7c52e3af01dfecaf75f7ec796008e">otto::util::dsp::Window</a>
+: <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a24a7c52e3af01dfecaf75f7ec796008e">otto::util::dsp::Window</a>
 </li>
 <li>concat()
-: <a class="el" href="classotto_1_1filesystem_1_1path.html#afae8d0d0bd7cedaa726832d3ee8dc786">otto::filesystem::path</a>
-</li>
-<li>CONCEPT_ASSERT()
-: <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler.html#a1c1fdddad4fec3b3be154e7fd67d5f56">otto::core::props::MixinImpl::has_handler&lt; Mixin, HT, HO, typename &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl_1_1has__handler_3_01_mixin_00_01_h_t_00_01_h_o_00_01s73fd49bc912774c628fb120881c4787a.html#ae3f64617a48cafa1be94bf7aaa033ab0">otto::core::props::MixinImpl::has_handler&lt; Mixin, HT, HO, std::void_t&lt; decltype(std::declval&lt; Mixin &gt;().on_hook(std::declval&lt; hook_t&lt; Mixin, HT, HO &gt; &amp; &gt;()))&gt; &gt;</a>
+: <a class="el" href="classotto_1_1filesystem_1_1path.html#a914d2d82efe60a594cc319db037e9ac4">otto::filesystem::path</a>
 </li>
 <li>connected_
 : <a class="el" href="class_midi_api.html#a2caa246b04594b5ae84bacccb2a648aa">MidiApi</a>
@@ -243,14 +226,11 @@
 <li>Contained
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a14cbc3d191152dc9794adc2529cc2114a283df15a3bfb7c203bac9b328407d6a1">otto::util::audio::Section&lt; T &gt;</a>
 </li>
-<li>contains()
-: <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a8c92c90b1309870016a41227095e23cc">otto::util::audio::Section&lt; T &gt;</a>
-</li>
 <li>Contains
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a14cbc3d191152dc9794adc2529cc2114a5565944f33bf8afa0d912f303be31322">otto::util::audio::Section&lt; T &gt;</a>
 </li>
 <li>contains()
-: <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#aba14d7a6855316db87956a567ffb5eaa">otto::util::audio::Section&lt; T &gt;</a>
+: <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a8c92c90b1309870016a41227095e23cc">otto::util::audio::Section&lt; T &gt;</a>
 </li>
 <li>ContainsIn
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a14cbc3d191152dc9794adc2529cc2114a950b3172f9ecf132833ec1d861d60986">otto::util::audio::Section&lt; T &gt;</a>
@@ -259,7 +239,7 @@
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a14cbc3d191152dc9794adc2529cc2114a478a1420e2fef5dc0e49ee4133864b0c">otto::util::audio::Section&lt; T &gt;</a>
 </li>
 <li>context
-: <a class="el" href="structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_e_g_l_state.html#aa0d5529a1c6e0991b025f13b7cb47679">otto::board::ui::EGLConnection::EGLState</a>
+: <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#aa0d5529a1c6e0991b025f13b7cb47679">otto::board::ui::EGLConnection::EGLState</a>
 </li>
 <li>continueSysex
 : <a class="el" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a60c8fc25d8838784d0d1904f31e80ab5">MidiInApi::RtMidiInData</a>
@@ -280,13 +260,10 @@
 : <a class="el" href="structotto_1_1board_1_1ui_1_1_rpi_f_b_c_p.html#a915c5359af142b2d0b747288e58a812e">otto::board::ui::RpiFBCP</a>
 </li>
 <li>count
-: <a class="el" href="structotto_1_1util_1_1_tape_file_1_1_slice_array.html#a4f5ac56598290b333315ad6609511ed5">otto::util::TapeFile::SliceArray</a>
+: <a class="el" href="classotto_1_1util_1_1_tape_file.html#a4f5ac56598290b333315ad6609511ed5">otto::util::TapeFile::SliceArray</a>
 </li>
 <li>create_file()
 : <a class="el" href="classotto_1_1util_1_1_byte_file.html#a29f10458994b595454aa9be77eec794a">otto::util::ByteFile</a>
-</li>
-<li>cur
-: <a class="el" href="structotto_1_1util_1_1detail_1_1_adjacent_iter_impl.html#a2509741cacad7e779b01a347ca2192ef">otto::util::detail::AdjacentIterImpl&lt; Iter &gt;</a>
 </li>
 <li>current()
 : <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_dispatcher.html#a5ce825cec4e949ea87ea53d24cc8e25d">otto::core::engines::EngineDispatcher&lt; ET &gt;</a>

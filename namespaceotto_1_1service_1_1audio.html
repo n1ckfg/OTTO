@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::audio Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -91,24 +97,29 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a40c0d83b7a91b1272d72cb20ee7bd4ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html">AudioBufferPool</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a40c0d83b7a91b1272d72cb20ee7bd4ee">buffer_pool</a> () noexcept</td></tr>
-<tr class="separator:a40c0d83b7a91b1272d72cb20ee7bd4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaea9de879b0fa8c08f5d0a9fc10cfb3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#aaea9de879b0fa8c08f5d0a9fc10cfb3c">samplerate</a> () noexcept</td></tr>
 <tr class="memdesc:aaea9de879b0fa8c08f5d0a9fc10cfb3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current samplerate.  <a href="#aaea9de879b0fa8c08f5d0a9fc10cfb3c">More...</a><br /></td></tr>
 <tr class="separator:aaea9de879b0fa8c08f5d0a9fc10cfb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fede83e7c67fb4f90e5eb6cb963c7b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9">init</a> ()</td></tr>
+<tr class="memdesc:a8fede83e7c67fb4f90e5eb6cb963c7b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize components.  <a href="#a8fede83e7c67fb4f90e5eb6cb963c7b9">More...</a><br /></td></tr>
 <tr class="separator:a8fede83e7c67fb4f90e5eb6cb963c7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40c0d83b7a91b1272d72cb20ee7bd4ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html">AudioBufferPool</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a40c0d83b7a91b1272d72cb20ee7bd4ee">buffer_pool</a> () noexcept</td></tr>
+<tr class="separator:a40c0d83b7a91b1272d72cb20ee7bd4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bd44e487b41683398197e1d1ed21eee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a7bd44e487b41683398197e1d1ed21eee">start</a> () noexcept</td></tr>
+<tr class="memdesc:a7bd44e487b41683398197e1d1ed21eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start audio processing.  <a href="#a7bd44e487b41683398197e1d1ed21eee">More...</a><br /></td></tr>
 <tr class="separator:a7bd44e487b41683398197e1d1ed21eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a206749e36ac1327490dfe3ebffb07136"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a206749e36ac1327490dfe3ebffb07136">shutdown</a> ()</td></tr>
 <tr class="memdesc:a206749e36ac1327490dfe3ebffb07136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the audio driver.  <a href="#a206749e36ac1327490dfe3ebffb07136">More...</a><br /></td></tr>
 <tr class="separator:a206749e36ac1327490dfe3ebffb07136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae71fd85eca3033a60f261c31b534cba0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#ae71fd85eca3033a60f261c31b534cba0">running</a> () noexcept</td></tr>
+<tr class="memdesc:ae71fd85eca3033a60f261c31b534cba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if audio is being processed.  <a href="#ae71fd85eca3033a60f261c31b534cba0">More...</a><br /></td></tr>
 <tr class="separator:ae71fd85eca3033a60f261c31b534cba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a432fc63650c2d1a66c82b4fda396d84c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a432fc63650c2d1a66c82b4fda396d84c">process_audio_output</a> (<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; 2 &gt; audio_output)</td></tr>
+<tr class="memdesc:a432fc63650c2d1a66c82b4fda396d84c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the final output.  <a href="#a432fc63650c2d1a66c82b4fda396d84c">More...</a><br /></td></tr>
 <tr class="separator:a432fc63650c2d1a66c82b4fda396d84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ebd72d519b34394bb5b966db9978f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a33ebd72d519b34394bb5b966db9978f9">send_midi_event</a> (<a class="el" href="namespaceotto_1_1core_1_1midi.html#a77953fb22cbc186b8dd1b60fc4c5c29d">core::midi::AnyMidiEvent</a> evt) noexcept</td></tr>
-<tr class="separator:a33ebd72d519b34394bb5b966db9978f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1df49435fdd64c1fe7f5d62985a42692"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1audio.html#a1df49435fdd64c1fe7f5d62985a42692">send_midi_event</a> (<a class="el" href="namespaceotto_1_1core_1_1midi.html#a77953fb22cbc186b8dd1b60fc4c5c29d">core::midi::AnyMidiEvent</a>) noexcept</td></tr>
+<tr class="memdesc:a1df49435fdd64c1fe7f5d62985a42692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a midi event into the system.  <a href="#a1df49435fdd64c1fe7f5d62985a42692">More...</a><br /></td></tr>
+<tr class="separator:a1df49435fdd64c1fe7f5d62985a42692"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ad53ddd76496d5a95e448edafba2df5e1"></a>
@@ -128,117 +139,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a40c0d83b7a91b1272d72cb20ee7bd4ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40c0d83b7a91b1272d72cb20ee7bd4ee">&#9670;&nbsp;</a></span>buffer_pool()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html">AudioBufferPool</a> &amp; otto::service::audio::buffer_pool </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00075">75</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="engines_8cpp_source.html#l00126">otto::service::engines::process()</a>, and <a class="el" href="faust_8hpp_source.html#l00176">otto::core::audio::FaustWrapper&lt; 0, 1 &gt;::process()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> AudioDriver::get().buffer_pool();</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a8fede83e7c67fb4f90e5eb6cb963c7b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fede83e7c67fb4f90e5eb6cb963c7b9">&#9670;&nbsp;</a></span>init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::audio::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Initialize components</p>
-<ul>
-<li>Fire [<a class="el" href="namespaceotto_1_1service_1_1audio_1_1events.html#a20b6765f482c5513a7d20a0bff172209">events::pre_init</a>]()</li>
-<li>Generate midi frequency table</li>
-<li>Initialize the audio driver </li>
-</ul>
-
-<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00067">67</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="event_8hpp_source.html#l00021">otto::util::Event&lt; Args &gt;::fire()</a>, <a class="el" href="midi_8hpp_source.html#l00174">otto::core::midi::generateFreqTable()</a>, <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>, <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00189">otto::service::audio::AlsaAudioDriver::init()</a>, and <a class="el" href="audio_8cpp_source.html#l00047">otto::service::audio::events::pre_init()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    events::pre_init().fire();</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    core::midi::generateFreqTable(440);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    AudioDriver::get().init();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a432fc63650c2d1a66c82b4fda396d84c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a432fc63650c2d1a66c82b4fda396d84c">&#9670;&nbsp;</a></span>process_audio_output()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::audio::process_audio_output </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; 2 &gt;&#160;</td>
-          <td class="paramname"><em>audio_output</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Process the final output</p>
-<p>Currently only used for debugging </p>
-
-<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00095">95</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">#if OTTO_DEBUG_UI</span></div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <span class="keywordtype">float</span> max;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; [l, r] : audio_output) {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">float</span> sum = <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a2db95e8e1a9267b7a1188556b2013b33">l</a> + <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">if</span> (std::abs(sum - max) &gt; 0) {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;          max = sum;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      }</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keywordflow">if</span> (max == 0) {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        debugInfo.buffers_lost++;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      }</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      </div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      debugInfo.audio_graph.push(max / 2.f);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a2db95e8e1a9267b7a1188556b2013b33"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a2db95e8e1a9267b7a1188556b2013b33">otto::board::ui::Key::l</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae71fd85eca3033a60f261c31b534cba0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae71fd85eca3033a60f261c31b534cba0">&#9670;&nbsp;</a></span>running()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool otto::service::audio::running </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Check if audio is being processed</p>
-<dl class="section return"><dt>Returns</dt><dd><code>true</code> if [<a class="el" href="namespaceotto_1_1service_1_1audio.html#a7bd44e487b41683398197e1d1ed21eee">start()</a>]() has been called and [<a class="el" href="namespaceotto_1_1service_1_1audio.html#a206749e36ac1327490dfe3ebffb07136" title="Close the audio driver. ">shutdown()</a>]() hasn't </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00090">90</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">return</span> _running;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="aaea9de879b0fa8c08f5d0a9fc10cfb3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaea9de879b0fa8c08f5d0a9fc10cfb3c">&#9670;&nbsp;</a></span>samplerate()</h2>
 
@@ -268,12 +168,40 @@ Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>, and <a class="el" href="alsa_2include_2board_2audio__driver_8hpp_source.html#l00023">otto::service::audio::AlsaAudioDriver::samplerate</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="faust_8cpp_source.html#l00008">otto::core::audio::detail::register_faust_wrapper_events()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                            {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">return</span> AudioDriver::get().samplerate;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a33ebd72d519b34394bb5b966db9978f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ebd72d519b34394bb5b966db9978f9">&#9670;&nbsp;</a></span>send_midi_event()</h2>
+<a id="a8fede83e7c67fb4f90e5eb6cb963c7b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fede83e7c67fb4f90e5eb6cb963c7b9">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::audio::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize components. </p>
+<ul>
+<li>Fire [<a class="el" href="namespaceotto_1_1service_1_1audio_1_1events.html#a20b6765f482c5513a7d20a0bff172209">events::pre_init</a>]()</li>
+<li>Generate midi frequency table</li>
+<li>Initialize the audio driver </li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00067">67</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="event_8hpp_source.html#l00021">otto::util::Event&lt; Args &gt;::fire()</a>, <a class="el" href="midi_8hpp_source.html#l00174">otto::core::midi::generateFreqTable()</a>, <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>, <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00189">otto::service::audio::AlsaAudioDriver::init()</a>, and <a class="el" href="audio_8cpp_source.html#l00047">otto::service::audio::events::pre_init()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="algorithm_8hpp_source.html#l00150">otto::util::accumulate()</a>, <a class="el" href="property_8hpp_source.html#l00033">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;::init()</a>, <a class="el" href="main_8cpp_source.html#l00022">main()</a>, and <a class="el" href="faust__link_8hpp_source.html#l00061">otto::core::props::OTTO_PROPS_MIXIN_LEAF()</a>.</p>
+
+</div>
+</div>
+<a id="a40c0d83b7a91b1272d72cb20ee7bd4ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40c0d83b7a91b1272d72cb20ee7bd4ee">&#9670;&nbsp;</a></span>buffer_pool()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,9 +210,8 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void otto::service::audio::send_midi_event </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html">AudioBufferPool</a> &amp; otto::service::audio::buffer_pool </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a77953fb22cbc186b8dd1b60fc4c5c29d">core::midi::AnyMidiEvent</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -295,38 +222,13 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Send a midi event into the system.</p>
-<p>The <code><a class="el" href="namespaceotto_1_1core_1_1midi.html">core::midi</a></code> namespace has some nice utils for constructing events. </p>
 
-<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00113">113</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00075">75</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>, and <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00245">otto::service::audio::AlsaAudioDriver::send_midi_event()</a>.</p>
+<p class="reference">References <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    AudioDriver::get().send_midi_event(std::move(evt));</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a206749e36ac1327490dfe3ebffb07136"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a206749e36ac1327490dfe3ebffb07136">&#9670;&nbsp;</a></span>shutdown()</h2>
+<p class="reference">Referenced by <a class="el" href="engines_8cpp_source.html#l00126">otto::service::engines::process()</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::audio::shutdown </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Close the audio driver. </p>
-
-<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00085">85</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>, and <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00218">otto::service::audio::AlsaAudioDriver::shutdown()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  {</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    AudioDriver::get().shutdown();</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a7bd44e487b41683398197e1d1ed21eee"></a>
@@ -351,11 +253,127 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Start audio processing</p>
-<p><code><a class="el" href="namespaceotto_1_1service_1_1audio.html#ae71fd85eca3033a60f261c31b534cba0">running()</a> == true</code> </p>
+
+<p>Start audio processing. </p>
+<p><code><a class="el" href="namespaceotto_1_1service_1_1audio.html#ae71fd85eca3033a60f261c31b534cba0" title="Check if audio is being processed. ">running()</a> == true</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00080">80</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  {</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    _running = <span class="keyword">true</span>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div></div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="icons_8cpp_source.html#l00007">otto::core::ui::vg::icons::Arrow::draw()</a>, and <a class="el" href="main_8cpp_source.html#l00022">main()</a>.</p>
+
+</div>
+</div>
+<a id="a206749e36ac1327490dfe3ebffb07136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a206749e36ac1327490dfe3ebffb07136">&#9670;&nbsp;</a></span>shutdown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::audio::shutdown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Close the audio driver. </p>
+
+<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00085">85</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>, and <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00218">otto::service::audio::AlsaAudioDriver::shutdown()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00080">cleanup()</a>.</p>
+
+</div>
+</div>
+<a id="ae71fd85eca3033a60f261c31b534cba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71fd85eca3033a60f261c31b534cba0">&#9670;&nbsp;</a></span>running()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otto::service::audio::running </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if audio is being processed. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if [<a class="el" href="namespaceotto_1_1service_1_1audio.html#a7bd44e487b41683398197e1d1ed21eee" title="Start audio processing. ">start()</a>]() has been called and [<a class="el" href="namespaceotto_1_1service_1_1audio.html#a206749e36ac1327490dfe3ebffb07136" title="Close the audio driver. ">shutdown()</a>]() hasn't </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00090">90</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a432fc63650c2d1a66c82b4fda396d84c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a432fc63650c2d1a66c82b4fda396d84c">&#9670;&nbsp;</a></span>process_audio_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::audio::process_audio_output </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; 2 &gt;&#160;</td>
+          <td class="paramname"><em>audio_output</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Process the final output. </p>
+<p>Currently only used for debugging </p>
+
+<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00095">95</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1df49435fdd64c1fe7f5d62985a42692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1df49435fdd64c1fe7f5d62985a42692">&#9670;&nbsp;</a></span>send_midi_event()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::audio::send_midi_event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a77953fb22cbc186b8dd1b60fc4c5c29d">core::midi::AnyMidiEvent</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Send a midi event into the system. </p>
+<p>The <code><a class="el" href="namespaceotto_1_1core_1_1midi.html">core::midi</a></code> namespace has some nice utils for constructing events. </p>
+
+<p class="definition">Definition at line <a class="el" href="audio_8cpp_source.html#l00113">113</a> of file <a class="el" href="audio_8cpp_source.html">audio.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00183">otto::service::audio::AlsaAudioDriver::get()</a>, and <a class="el" href="alsa_2src_2audio__driver_8cpp_source.html#l00245">otto::service::audio::AlsaAudioDriver::send_midi_event()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="keys_8cpp_source.html#l00010">otto::board::ui::handle_keyevent()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

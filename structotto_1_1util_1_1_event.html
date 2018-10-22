@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::Event&lt; Args &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -143,38 +149,6 @@ template&lt;typename... Args&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a84a7ea2bd0d655d62604ef9c639cdd9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84a7ea2bd0d655d62604ef9c639cdd9b">&#9670;&nbsp;</a></span>fire()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="structotto_1_1util_1_1_event.html">otto::util::Event</a>&lt; Args &gt;::fire </td>
-          <td>(</td>
-          <td class="paramtype">Args...&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="event_8hpp_source.html#l00021">21</a> of file <a class="el" href="event_8hpp_source.html">event.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="audio_8cpp_source.html#l00067">otto::service::audio::init()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; handler : handlers) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        handler(args...);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a2da6ccd7a7488a93aa86689208f63dce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2da6ccd7a7488a93aa86689208f63dce">&#9670;&nbsp;</a></span>subscribe()</h2>
 
@@ -182,9 +156,6 @@ template&lt;typename... Args&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int <a class="el" href="structotto_1_1util_1_1_event.html">otto::util::Event</a>&lt; Args &gt;::subscribe </td>
@@ -194,17 +165,34 @@ template&lt;typename... Args&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="event_8hpp_source.html#l00015">15</a> of file <a class="el" href="event_8hpp_source.html">event.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="faust_8cpp_source.html#l00008">otto::core::audio::detail::register_faust_wrapper_events()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;      handlers.emplace_back(std::move(handler));</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;      <span class="keywordflow">return</span> handlers.size() - 1;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a84a7ea2bd0d655d62604ef9c639cdd9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a7ea2bd0d655d62604ef9c639cdd9b">&#9670;&nbsp;</a></span>fire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structotto_1_1util_1_1_event.html">otto::util::Event</a>&lt; Args &gt;::fire </td>
+          <td>(</td>
+          <td class="paramtype">Args...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="event_8hpp_source.html#l00021">21</a> of file <a class="el" href="event_8hpp_source.html">event.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="audio_8cpp_source.html#l00067">otto::service::audio::init()</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

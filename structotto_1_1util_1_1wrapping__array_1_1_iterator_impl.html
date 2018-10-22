@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -70,6 +76,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>Specification for iterator.  
+ <a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -104,31 +113,11 @@ Public Attributes</h2></td></tr>
 template&lt;typename Val&gt;<br />
 struct otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;</h3>
 
-<p>Specification for iterator</p>
+<p>Specification for iterator. </p>
 <p>Take a look at &lt;iterator_adaptor&gt; </p>
 
 <p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00026">26</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a0a52202ceb6c52bff909d2a0e47ec58c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a52202ceb6c52bff909d2a0e47ec58c">&#9670;&nbsp;</a></span>iterator_category</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, std::size_t N&gt; </div>
-<div class="memtemplate">
-template&lt;typename Val &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a0a52202ceb6c52bff909d2a0e47ec58c">iterator_category</a> =  std::random_access_iterator_tag</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00028">28</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a0aebabca08b6cd6340f882a2f123a6ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0aebabca08b6cd6340f882a2f123a6ed">&#9670;&nbsp;</a></span>value_type</h2>
 
@@ -149,6 +138,26 @@ template&lt;typename Val &gt; </div>
 
 </div>
 </div>
+<a id="a0a52202ceb6c52bff909d2a0e47ec58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a52202ceb6c52bff909d2a0e47ec58c">&#9670;&nbsp;</a></span>iterator_category</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;typename Val &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a0a52202ceb6c52bff909d2a0e47ec58c">iterator_category</a> =  std::random_access_iterator_tag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00028">28</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a79a6212aa4c5249fed0d6a6a23fb6179"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79a6212aa4c5249fed0d6a6a23fb6179">&#9670;&nbsp;</a></span>IteratorImpl()</h2>
@@ -159,9 +168,6 @@ template&lt;typename Val &gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;typename Val &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a> </td>
@@ -181,19 +187,10 @@ template&lt;typename Val &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00030">30</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        : <a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">value</a> (<a class="code" href="structotto_1_1util_1_1wrapping__array.html#afc3c9874965f829be6b4b3f649211878">begin</a> + <a class="code" href="structotto_1_1util_1_1wrapping__array.html#ad989e0df57b42542a02d04ac524c60e2">wrap</a>(<a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">index</a>)), <a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">index</a> (<a class="code" href="structotto_1_1util_1_1wrapping__array.html#ad989e0df57b42542a02d04ac524c60e2">wrap</a>(<a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">index</a>))</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      {}</div><div class="ttc" id="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl_html_a7c20c4bd3977e53e7e1a26f43a457eb8"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">otto::util::wrapping_array::IteratorImpl::value</a></div><div class="ttdeci">value_type * value</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00053">ringbuffer.hpp:53</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1wrapping__array_html_afc3c9874965f829be6b4b3f649211878"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array.html#afc3c9874965f829be6b4b3f649211878">otto::util::wrapping_array::begin</a></div><div class="ttdeci">iterator begin()</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00062">ringbuffer.hpp:62</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl_html_a108a3aedea604006be140654b44fbc85"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">otto::util::wrapping_array::IteratorImpl::index</a></div><div class="ttdeci">std::size_t index</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00054">ringbuffer.hpp:54</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1wrapping__array_html_ad989e0df57b42542a02d04ac524c60e2"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array.html#ad989e0df57b42542a02d04ac524c60e2">otto::util::wrapping_array::wrap</a></div><div class="ttdeci">static constexpr std::size_t wrap(std::size_t index)</div><div class="ttdoc">Get the buffer position corresponding to position </div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00017">ringbuffer.hpp:17</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -206,9 +203,6 @@ template&lt;typename Val &gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;typename Val &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::advance </td>
@@ -218,90 +212,12 @@ template&lt;typename Val &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00034">34</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="ringbuffer_8hpp_source.html#l00054">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::index</a>, <a class="el" href="ringbuffer_8hpp_source.html#l00053">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::value</a>, and <a class="el" href="ringbuffer_8hpp_source.html#l00017">otto::util::wrapping_array&lt; T, N &gt;::wrap()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keyword">auto</span> newIndex = <a class="code" href="structotto_1_1util_1_1wrapping__array.html#ad989e0df57b42542a02d04ac524c60e2">wrap</a>(<a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">index</a> + n);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">value</a> += (newIndex - <a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">index</a>);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">index</a> = newIndex;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      }</div><div class="ttc" id="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl_html_a7c20c4bd3977e53e7e1a26f43a457eb8"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">otto::util::wrapping_array::IteratorImpl::value</a></div><div class="ttdeci">value_type * value</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00053">ringbuffer.hpp:53</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl_html_a108a3aedea604006be140654b44fbc85"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a108a3aedea604006be140654b44fbc85">otto::util::wrapping_array::IteratorImpl::index</a></div><div class="ttdeci">std::size_t index</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00054">ringbuffer.hpp:54</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1wrapping__array_html_ad989e0df57b42542a02d04ac524c60e2"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array.html#ad989e0df57b42542a02d04ac524c60e2">otto::util::wrapping_array::wrap</a></div><div class="ttdeci">static constexpr std::size_t wrap(std::size_t index)</div><div class="ttdoc">Get the buffer position corresponding to position </div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00017">ringbuffer.hpp:17</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="abe3eab7585c048d0afc4a50c248918c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe3eab7585c048d0afc4a50c248918c5">&#9670;&nbsp;</a></span>dereference()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, std::size_t N&gt; </div>
-<div class="memtemplate">
-template&lt;typename Val &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a0aebabca08b6cd6340f882a2f123a6ed">value_type</a>&amp; <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::dereference </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00051">51</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="ringbuffer_8hpp_source.html#l00053">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::value</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{ <span class="keywordflow">return</span> *<a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">value</a>; }</div><div class="ttc" id="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl_html_a7c20c4bd3977e53e7e1a26f43a457eb8"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">otto::util::wrapping_array::IteratorImpl::value</a></div><div class="ttdeci">value_type * value</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00053">ringbuffer.hpp:53</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa72bd9e937244766d1fc65ed57cb0831"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa72bd9e937244766d1fc65ed57cb0831">&#9670;&nbsp;</a></span>difference()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, std::size_t N&gt; </div>
-<div class="memtemplate">
-template&lt;typename Val &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ptrdiff_t <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::difference </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00046">46</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="ringbuffer_8hpp_source.html#l00053">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::value</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">value</a> - <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.value;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl_html_a7c20c4bd3977e53e7e1a26f43a457eb8"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">otto::util::wrapping_array::IteratorImpl::value</a></div><div class="ttdeci">value_type * value</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00053">ringbuffer.hpp:53</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="a115484325744f6fcd600066d1fa45885"></a>
@@ -313,9 +229,6 @@ template&lt;typename Val &gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
 <div class="memtemplate">
 template&lt;typename Val &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::equal </td>
@@ -325,24 +238,16 @@ template&lt;typename Val &gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00041">41</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="ringbuffer_8hpp_source.html#l00053">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::value</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">value</a> == <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>.value;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl_html_a7c20c4bd3977e53e7e1a26f43a457eb8"><div class="ttname"><a href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a7c20c4bd3977e53e7e1a26f43a457eb8">otto::util::wrapping_array::IteratorImpl::value</a></div><div class="ttdeci">value_type * value</div><div class="ttdef"><b>Definition:</b> <a href="ringbuffer_8hpp_source.html#l00053">ringbuffer.hpp:53</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a108a3aedea604006be140654b44fbc85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a108a3aedea604006be140654b44fbc85">&#9670;&nbsp;</a></span>index</h2>
+<a id="aa72bd9e937244766d1fc65ed57cb0831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa72bd9e937244766d1fc65ed57cb0831">&#9670;&nbsp;</a></span>difference()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,17 +257,47 @@ template&lt;typename T, std::size_t N&gt; </div>
 template&lt;typename Val &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::index</td>
+          <td class="memname">std::ptrdiff_t <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::difference </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00054">54</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00046">46</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ringbuffer_8hpp_source.html#l00034">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::advance()</a>.</p>
+<p class="reference">References <a class="el" href="ringbuffer_8hpp_source.html#l00053">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::value</a>.</p>
 
 </div>
 </div>
+<a id="abe3eab7585c048d0afc4a50c248918c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3eab7585c048d0afc4a50c248918c5">&#9670;&nbsp;</a></span>dereference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;typename Val &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a0aebabca08b6cd6340f882a2f123a6ed">value_type</a>&amp; <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::dereference </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00051">51</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="ringbuffer_8hpp_source.html#l00053">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::value</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a7c20c4bd3977e53e7e1a26f43a457eb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c20c4bd3977e53e7e1a26f43a457eb8">&#9670;&nbsp;</a></span>value</h2>
 
@@ -382,6 +317,28 @@ template&lt;typename Val &gt; </div>
 <p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00053">53</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="ringbuffer_8hpp_source.html#l00034">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::advance()</a>, <a class="el" href="ringbuffer_8hpp_source.html#l00051">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::dereference()</a>, <a class="el" href="ringbuffer_8hpp_source.html#l00046">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::difference()</a>, and <a class="el" href="ringbuffer_8hpp_source.html#l00041">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::equal()</a>.</p>
+
+</div>
+</div>
+<a id="a108a3aedea604006be140654b44fbc85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a108a3aedea604006be140654b44fbc85">&#9670;&nbsp;</a></span>index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, std::size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;typename Val &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; Val &gt;::index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00054">54</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="ringbuffer_8hpp_source.html#l00034">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;::advance()</a>.</p>
 
 </div>
 </div>

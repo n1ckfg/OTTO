@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -71,12 +77,12 @@
   <tr><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a7a3bf92398b2460779fb01316f262909">AnyEngine</a>()=delete</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#ad6009981df766f4400fb5eebe0abdc3f">current_preset</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a8e4d9455d909b93fbabf8893abf399d0">current_preset</a>(int new_val) noexcept</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#ae2c032c73de88bb2eb46d43242c585e2">envelope_screen</a>() override</td><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html">otto::engines::NukeSynth</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#ae2c032c73de88bb2eb46d43242c585e2">envelope_screen</a>() override</td><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html">otto::engines::NukeSynth</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a24105dff3c39ec428470c3b0cd6028bb">from_json</a>(const nlohmann::json &amp;j)</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#aa5084f4cecfaa5263037685e756d8aab">name</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#a916cbaab5e9e79d887f6dc5c83c15723">NukeSynth</a>()</td><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html">otto::engines::NukeSynth</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a8505378b2a4ac9614779b7bf7e80c97f">on_disable</a>()</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a7132193e1924ccf877715378e457d6c4">on_enable</a>()</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a8505378b2a4ac9614779b7bf7e80c97f">on_disable</a>()</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a7132193e1924ccf877715378e457d6c4">on_enable</a>()</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#a0996dd56f9d63c16dbb19d8c46f1e468">process</a>(audio::ProcessData&lt; 1 &gt;) override</td><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html">otto::engines::NukeSynth</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#a97d929f9ab368ef442c460270f4c179b">props</a></td><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html">otto::engines::NukeSynth</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a4bf421510ccd6e145724f79fa5774c85">otto::core::engines::Engine&lt; EngineType::synth &gt;::props</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
@@ -84,7 +90,7 @@
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a4f0682e33436c684c2e61add808a970f">screen</a>() noexcept</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a1f9c1598b7c9a9cec1db34a377ddfc3a">screen</a>() const noexcept</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a94a8ebdb2fb2815ce9c8782976e67fdb">to_json</a>() const</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#a21561e002916a05da18ce20cb2a1b713">voices_screen</a>() override</td><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html">otto::engines::NukeSynth</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#a21561e002916a05da18ce20cb2a1b713">voices_screen</a>() override</td><td class="entry"><a class="el" href="structotto_1_1engines_1_1_nuke_synth.html">otto::engines::NukeSynth</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a0c91d1ff71dfc9df49d5719028fce2da">~AnyEngine</a>()=default</td><td class="entry"><a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">otto::core::engines::AnyEngine</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->

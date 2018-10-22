@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::ZippedIteratorImpl&lt; Iterators &gt; Class Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -70,15 +76,18 @@
 </div><!--header-->
 <div class="contents">
 
+<p>Zipped iterator.  
+ <a href="classotto_1_1util_1_1_zipped_iterator_impl.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1606260f9c2885effa25971fbdd3570d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a1606260f9c2885effa25971fbdd3570d">value_type</a> = std::tuple&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1value__type.html">detail::value_type</a>&lt; Iterators &gt;::type... &gt;</td></tr>
+<tr class="memitem:a1606260f9c2885effa25971fbdd3570d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a1606260f9c2885effa25971fbdd3570d">value_type</a> = std::tuple&lt; typename detail::value_type&lt; Iterators &gt;::type... &gt;</td></tr>
 <tr class="separator:a1606260f9c2885effa25971fbdd3570d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeea0676eac749e0ed8dd76ee234482a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aeea0676eac749e0ed8dd76ee234482a3">reference</a> = std::tuple&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1reference.html">detail::reference</a>&lt; Iterators &gt;::type... &gt;</td></tr>
+<tr class="memitem:aeea0676eac749e0ed8dd76ee234482a3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aeea0676eac749e0ed8dd76ee234482a3">reference</a> = std::tuple&lt; typename detail::reference&lt; Iterators &gt;::type... &gt;</td></tr>
 <tr class="separator:aeea0676eac749e0ed8dd76ee234482a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93ce4ca72f2e50e7b5b01becf615cd69"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a93ce4ca72f2e50e7b5b01becf615cd69">iterator_category</a> = std::common_type_t&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1iterator__category.html">detail::iterator_category</a>&lt; Iterators &gt;::type... &gt;</td></tr>
+<tr class="memitem:a93ce4ca72f2e50e7b5b01becf615cd69"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a93ce4ca72f2e50e7b5b01becf615cd69">iterator_category</a> = std::common_type_t&lt; typename detail::iterator_category&lt; Iterators &gt;::type... &gt;</td></tr>
 <tr class="separator:a93ce4ca72f2e50e7b5b01becf615cd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -105,12 +114,12 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename... Iterators&gt;<br />
 class otto::util::ZippedIteratorImpl&lt; Iterators &gt;</h3>
 
-<p>Zipped iterator </p>
+<p>Zipped iterator. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00710">710</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a93ce4ca72f2e50e7b5b01becf615cd69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93ce4ca72f2e50e7b5b01becf615cd69">&#9670;&nbsp;</a></span>iterator_category</h2>
+<a id="a1606260f9c2885effa25971fbdd3570d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1606260f9c2885effa25971fbdd3570d">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,12 +127,12 @@ class otto::util::ZippedIteratorImpl&lt; Iterators &gt;</h3>
 template&lt;typename... Iterators&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a93ce4ca72f2e50e7b5b01becf615cd69">iterator_category</a> =  std::common_type_t&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1iterator__category.html">detail::iterator_category</a>&lt;Iterators&gt;::type...&gt;</td>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a1606260f9c2885effa25971fbdd3570d">value_type</a> =  std::tuple&lt; typename detail::value_type&lt;Iterators&gt;::type...&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00750">750</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00746">746</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -136,7 +145,7 @@ template&lt;typename... Iterators&gt; </div>
 template&lt;typename... Iterators&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aeea0676eac749e0ed8dd76ee234482a3">reference</a> =  std::tuple&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1reference.html">detail::reference</a>&lt;Iterators&gt;::type...&gt;</td>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aeea0676eac749e0ed8dd76ee234482a3">reference</a> =  std::tuple&lt; typename detail::reference&lt;Iterators&gt;::type...&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -145,8 +154,8 @@ template&lt;typename... Iterators&gt; </div>
 
 </div>
 </div>
-<a id="a1606260f9c2885effa25971fbdd3570d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1606260f9c2885effa25971fbdd3570d">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="a93ce4ca72f2e50e7b5b01becf615cd69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ce4ca72f2e50e7b5b01becf615cd69">&#9670;&nbsp;</a></span>iterator_category</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,12 +163,12 @@ template&lt;typename... Iterators&gt; </div>
 template&lt;typename... Iterators&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a1606260f9c2885effa25971fbdd3570d">value_type</a> =  std::tuple&lt; typename <a class="el" href="structotto_1_1util_1_1detail_1_1value__type.html">detail::value_type</a>&lt;Iterators&gt;::type...&gt;</td>
+          <td class="memname">using <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a93ce4ca72f2e50e7b5b01becf615cd69">iterator_category</a> =  std::common_type_t&lt; typename detail::iterator_category&lt;Iterators&gt;::type...&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00746">746</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00750">750</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
 </div>
@@ -171,9 +180,6 @@ template&lt;typename... Iterators&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Iterators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">ZippedIteratorImpl</a> </td>
@@ -183,18 +189,12 @@ template&lt;typename... Iterators&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00752">752</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00780">otto::util::ZippedIteratorImpl&lt; Iterators &gt;::iterators</a>.</p>
-<div class="fragment"><div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;      : <a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a> {<a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a>...}</div><div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    {}</div><div class="ttc" id="classotto_1_1util_1_1_zipped_iterator_impl_html_aa48ef9f69eed87b0af42a70337e8c324"><div class="ttname"><a href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">otto::util::ZippedIteratorImpl::iterators</a></div><div class="ttdeci">std::tuple&lt; Iterators... &gt; iterators</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00780">iterator.hpp:780</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a788d827f85b5a0b1fb62531000030601"></a>
@@ -204,9 +204,6 @@ template&lt;typename... Iterators&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Iterators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::<a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">ZippedIteratorImpl</a> </td>
@@ -216,18 +213,12 @@ template&lt;typename... Iterators&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00756">756</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00780">otto::util::ZippedIteratorImpl&lt; Iterators &gt;::iterators</a>.</p>
-<div class="fragment"><div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;      : <a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a> {<a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a>}</div><div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;    {}</div><div class="ttc" id="classotto_1_1util_1_1_zipped_iterator_impl_html_aa48ef9f69eed87b0af42a70337e8c324"><div class="ttname"><a href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">otto::util::ZippedIteratorImpl::iterators</a></div><div class="ttdeci">std::tuple&lt; Iterators... &gt; iterators</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00780">iterator.hpp:780</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -238,9 +229,6 @@ template&lt;typename... Iterators&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Iterators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::advance </td>
@@ -250,19 +238,12 @@ template&lt;typename... Iterators&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00760">760</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00780">otto::util::ZippedIteratorImpl&lt; Iterators &gt;::iterators</a>.</p>
-<div class="fragment"><div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;    {</div><div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;      tuple_advnc_impl&lt;0&gt;(<a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a>, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1">n</a>);</div><div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1">otto::board::ui::Key::n</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1_zipped_iterator_impl_html_aa48ef9f69eed87b0af42a70337e8c324"><div class="ttname"><a href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">otto::util::ZippedIteratorImpl::iterators</a></div><div class="ttdeci">std::tuple&lt; Iterators... &gt; iterators</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00780">iterator.hpp:780</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="aa8aa3cdc479220581adf4ac05f778ecd"></a>
@@ -272,9 +253,6 @@ template&lt;typename... Iterators&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Iterators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aeea0676eac749e0ed8dd76ee234482a3">reference</a> <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::dereference </td>
@@ -283,18 +261,12 @@ template&lt;typename... Iterators&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00765">765</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00780">otto::util::ZippedIteratorImpl&lt; Iterators &gt;::iterators</a>.</p>
-<div class="fragment"><div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    {</div><div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;      <span class="keywordflow">return</span> tuple_deref_impl&lt;0&gt;(<a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a>);</div><div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1_zipped_iterator_impl_html_aa48ef9f69eed87b0af42a70337e8c324"><div class="ttname"><a href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">otto::util::ZippedIteratorImpl::iterators</a></div><div class="ttdeci">std::tuple&lt; Iterators... &gt; iterators</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00780">iterator.hpp:780</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ab9305b35710682a80779632c4e00024d"></a>
@@ -304,9 +276,6 @@ template&lt;typename... Iterators&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Iterators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aeea0676eac749e0ed8dd76ee234482a3">reference</a> <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::dereference </td>
@@ -315,18 +284,12 @@ template&lt;typename... Iterators&gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00770">770</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00780">otto::util::ZippedIteratorImpl&lt; Iterators &gt;::iterators</a>.</p>
-<div class="fragment"><div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;    {</div><div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;      <span class="keywordflow">return</span> tuple_deref_impl&lt;0&gt;(<a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a>);</div><div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;    }</div><div class="ttc" id="classotto_1_1util_1_1_zipped_iterator_impl_html_aa48ef9f69eed87b0af42a70337e8c324"><div class="ttname"><a href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">otto::util::ZippedIteratorImpl::iterators</a></div><div class="ttdeci">std::tuple&lt; Iterators... &gt; iterators</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00780">iterator.hpp:780</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ab52bc26af5d80e15d12ed7477b39e42b"></a>
@@ -336,9 +299,6 @@ template&lt;typename... Iterators&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Iterators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html">otto::util::ZippedIteratorImpl</a>&lt; Iterators &gt;::equal </td>
@@ -348,19 +308,12 @@ template&lt;typename... Iterators&gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00775">775</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00780">otto::util::ZippedIteratorImpl&lt; Iterators &gt;::iterators</a>.</p>
-<div class="fragment"><div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    {</div><div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;      <span class="keywordflow">return</span> tuple_equals_impl&lt;0&gt;(<a class="code" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">iterators</a>, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256ad95679752134a2d9eb61dbd7b91c4bcc">o</a>.iterators);</div><div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256ad95679752134a2d9eb61dbd7b91c4bcc"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256ad95679752134a2d9eb61dbd7b91c4bcc">otto::board::ui::Key::o</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1_zipped_iterator_impl_html_aa48ef9f69eed87b0af42a70337e8c324"><div class="ttname"><a href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">otto::util::ZippedIteratorImpl::iterators</a></div><div class="ttdeci">std::tuple&lt; Iterators... &gt; iterators</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00780">iterator.hpp:780</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

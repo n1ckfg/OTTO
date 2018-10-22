@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::props::MixinTag Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -79,7 +85,7 @@
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a9471c67efa73b0c9d6685292f623543e"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a9471c67efa73b0c9d6685292f623543e"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a9471c67efa73b0c9d6685292f623543e">required_tags_t</a> = typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1required__tags.html">mixin::required_tags</a>&lt; Tag &gt;::type</td></tr>
+<tr class="memitem:a9471c67efa73b0c9d6685292f623543e"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a9471c67efa73b0c9d6685292f623543e">required_tags_t</a> = typename <a class="el" href="namespaceotto_1_1core_1_1props_1_1mixin.html#structotto_1_1core_1_1props_1_1mixin_1_1required__tags">mixin::required_tags</a>&lt; Tag &gt;::type</td></tr>
 <tr class="memdesc:a9471c67efa73b0c9d6685292f623543e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all required tags for <code>Tag</code>  <a href="#a9471c67efa73b0c9d6685292f623543e">More...</a><br /></td></tr>
 <tr class="separator:a9471c67efa73b0c9d6685292f623543e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe2fe8d4cdcfd19be12c0aca2e68dcb1"><td class="memTemplParams" colspan="2">template&lt;typename Tag , typename T , typename TagList &gt; </td></tr>
@@ -88,6 +94,7 @@ Public Types</h2></td></tr>
 <tr class="separator:afe2fe8d4cdcfd19be12c0aca2e68dcb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a605b56bb1f5b9fdf734b67daa4d580e7"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
 <tr class="memitem:a605b56bb1f5b9fdf734b67daa4d580e7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7">interface</a> = typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1interface.html">mixin::interface</a>&lt; Tag &gt;</td></tr>
+<tr class="memdesc:a605b56bb1f5b9fdf734b67daa4d580e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type-erased interface type for <code>Tag</code>  <a href="#a605b56bb1f5b9fdf734b67daa4d580e7">More...</a><br /></td></tr>
 <tr class="separator:a605b56bb1f5b9fdf734b67daa4d580e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2414f218976b5650f5f01708bb28d5ee"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
 <tr class="memitem:a2414f218976b5650f5f01708bb28d5ee"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a2414f218976b5650f5f01708bb28d5ee">branch</a> = typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1branch.html">mixin::branch</a>&lt; Tag &gt;</td></tr>
@@ -104,15 +111,16 @@ Public Member Functions</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac0928b02f6254fb5a6e3707bbd4eebd7"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
 <tr class="memitem:ac0928b02f6254fb5a6e3707bbd4eebd7"><td class="memTemplItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#ac0928b02f6254fb5a6e3707bbd4eebd7">has_interface</a> = !std::is_void_v&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7">interface</a>&lt;Tag&gt;&gt;</td></tr>
+<tr class="memdesc:ac0928b02f6254fb5a6e3707bbd4eebd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if <code>Tag</code> has a type-erased interface.  <a href="#ac0928b02f6254fb5a6e3707bbd4eebd7">More...</a><br /></td></tr>
 <tr class="separator:ac0928b02f6254fb5a6e3707bbd4eebd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concept for a Tag used to identify a mixin. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00203">203</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00205">205</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a2414f218976b5650f5f01708bb28d5ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2414f218976b5650f5f01708bb28d5ee">&#9670;&nbsp;</a></span>branch</h2>
+<a id="a9471c67efa73b0c9d6685292f623543e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9471c67efa73b0c9d6685292f623543e">&#9670;&nbsp;</a></span>required_tags_t</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,35 +128,14 @@ Static Public Attributes</h2></td></tr>
 template&lt;typename Tag &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a2414f218976b5650f5f01708bb28d5ee">otto::core::props::MixinTag::branch</a> =  typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1branch.html">mixin::branch</a>&lt;Tag&gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a9471c67efa73b0c9d6685292f623543e">otto::core::props::MixinTag::required_tags_t</a> =  typename <a class="el" href="namespaceotto_1_1core_1_1props_1_1mixin.html#structotto_1_1core_1_1props_1_1mixin_1_1required__tags">mixin::required_tags</a>&lt;Tag&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>A branch of <code>Tag</code> </p>
+<p>Get all required tags for <code>Tag</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00263">263</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a605b56bb1f5b9fdf734b67daa4d580e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a605b56bb1f5b9fdf734b67daa4d580e7">&#9670;&nbsp;</a></span>interface</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Tag &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7">otto::core::props::MixinTag::interface</a> =  typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1interface.html">mixin::interface</a>&lt;Tag&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Get the type-erased interface type for <code>Tag</code></p>
-<p>The interface type is a non-templated type which provides functionality that can be used in a type-erased context. For example, the <code>serializable</code> mixin has a <code>JsonClient</code> with loader and saver functions to use independently from the specific property.</p>
-<p>If a mixin provides a type-erased interface, it should have a <code>interface_type&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7">interface()</a></code> member function, which returns an instance of this type. </p>
-
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00244">244</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00215">215</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -168,12 +155,12 @@ template&lt;typename Tag , typename T , typename TagList &gt; </div>
 
 <p>Get mixin type for type <code>T</code> and tag <code>Tag</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00217">217</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00219">219</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a9471c67efa73b0c9d6685292f623543e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9471c67efa73b0c9d6685292f623543e">&#9670;&nbsp;</a></span>required_tags_t</h2>
+<a id="a605b56bb1f5b9fdf734b67daa4d580e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a605b56bb1f5b9fdf734b67daa4d580e7">&#9670;&nbsp;</a></span>interface</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,14 +168,36 @@ template&lt;typename Tag , typename T , typename TagList &gt; </div>
 template&lt;typename Tag &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a9471c67efa73b0c9d6685292f623543e">otto::core::props::MixinTag::required_tags_t</a> =  typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1required__tags.html">mixin::required_tags</a>&lt;Tag&gt;::type</td>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7">otto::core::props::MixinTag::interface</a> =  typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1interface.html">mixin::interface</a>&lt;Tag&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get all required tags for <code>Tag</code> </p>
+<p>Get the type-erased interface type for <code>Tag</code> </p>
+<p>The interface type is a non-templated type which provides functionality that can be used in a type-erased context. For example, the <code>serializable</code> mixin has a <code>JsonClient</code> with loader and saver functions to use independently from the specific property.</p>
+<p>If a mixin provides a type-erased interface, it should have a <code>interface_type&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7" title="Get the type-erased interface type for Tag ">interface()</a></code> member function, which returns an instance of this type. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00213">213</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00246">246</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2414f218976b5650f5f01708bb28d5ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2414f218976b5650f5f01708bb28d5ee">&#9670;&nbsp;</a></span>branch</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tag &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a2414f218976b5650f5f01708bb28d5ee">otto::core::props::MixinTag::branch</a> =  typename <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1branch.html">mixin::branch</a>&lt;Tag&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A branch of <code>Tag</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00265">265</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -235,12 +244,13 @@ template&lt;typename Tag &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Check if <code>Tag</code> has a type-erased interface</p>
+
+<p>Check if <code>Tag</code> has a type-erased interface. </p>
 <p>The interface type is a non-templated type which provides functionality that can be used in a type-erased context. For example, the <code>serializable</code> mixin has a <code>JsonClient</code> with loader and saver functions to use independently from the specific property.</p>
-<p>If a mixin provides a type-erased interface, it should have a <code>interface_type&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7">interface()</a></code> member function, which returns an instance of this type.</p>
+<p>If a mixin provides a type-erased interface, it should have a <code>interface_type&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7" title="Get the type-erased interface type for Tag ">interface()</a></code> member function, which returns an instance of this type.</p>
 <p>If no interface type is provided, this is void. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00259">259</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00261">261</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>

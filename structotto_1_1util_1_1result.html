@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::result&lt; ok_t, err_t &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -70,11 +76,15 @@
 </div><!--header-->
 <div class="contents">
 
+<p>A sum type, holding either an Ok value, or an Err.  
+ <a href="structotto_1_1util_1_1result.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="result_8hpp_source.html">result.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html">result_except</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;.  <a href="structotto_1_1util_1_1result_1_1result__except.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -95,8 +105,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a61b9ace6de1d72b7d4bdaf4843373c65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a61b9ace6de1d72b7d4bdaf4843373c65">result</a> (<a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &amp;&amp;<a class="el" href="structotto_1_1util_1_1result.html#a7aa4bcf6db47c2fbbe1c214c8ede4220">err</a>)</td></tr>
 <tr class="separator:a61b9ace6de1d72b7d4bdaf4843373c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c7521637744bc5cf03b58ed0cd8fdb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a> () const noexcept</td></tr>
+<tr class="memdesc:a8c7521637744bc5cf03b58ed0cd8fdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if result is ok.  <a href="#a8c7521637744bc5cf03b58ed0cd8fdb3">More...</a><br /></td></tr>
 <tr class="separator:a8c7521637744bc5cf03b58ed0cd8fdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7a82db51bf09d00c5fe52357bb33f95"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a> () const noexcept</td></tr>
+<tr class="memdesc:ad7a82db51bf09d00c5fe52357bb33f95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if result is errored.  <a href="#ad7a82db51bf09d00c5fe52357bb33f95">More...</a><br /></td></tr>
 <tr class="separator:ad7a82db51bf09d00c5fe52357bb33f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8293d66e6bb1671c3bf2e66a96f41ec5"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a8293d66e6bb1671c3bf2e66a96f41ec5">ok</a> () const noexcept</td></tr>
 <tr class="memdesc:a8293d66e6bb1671c3bf2e66a96f41ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert into a <code>std::optional&lt;Ok&gt;</code>, discarding the error, if any.  <a href="#a8293d66e6bb1671c3bf2e66a96f41ec5">More...</a><br /></td></tr>
@@ -105,39 +117,49 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7aa4bcf6db47c2fbbe1c214c8ede4220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert into a <code>std::optional&lt;Err&gt;</code>, discarding the ok value, if any.  <a href="#a7aa4bcf6db47c2fbbe1c214c8ede4220">More...</a><br /></td></tr>
 <tr class="separator:a7aa4bcf6db47c2fbbe1c214c8ede4220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afabaf544643143b017b4582a2d82dc5d"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:afabaf544643143b017b4582a2d82dc5d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#afabaf544643143b017b4582a2d82dc5d">map</a> (F &amp;&amp;op) const noexcept -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="namespaceotto_1_1util.html#a59c81b3887536151fc4a6768cc282d59">util::invoke_result_t</a>&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;</td></tr>
+<tr class="memitem:afabaf544643143b017b4582a2d82dc5d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#afabaf544643143b017b4582a2d82dc5d">map</a> (F &amp;&amp;op) const noexcept -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; util::invoke_result_t&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;</td></tr>
+<tr class="memdesc:afabaf544643143b017b4582a2d82dc5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map &lt;otto::result&lt;O, E&gt;&gt; to <code>result&lt;U, E&gt;</code> by invoking <code>op</code> on a contained <code>Ok</code> value, leaving an <code>Err</code> value untouched.  <a href="#afabaf544643143b017b4582a2d82dc5d">More...</a><br /></td></tr>
 <tr class="separator:afabaf544643143b017b4582a2d82dc5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a899344c3764a87e9c346b5c4bbd81ce4"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a899344c3764a87e9c346b5c4bbd81ce4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a899344c3764a87e9c346b5c4bbd81ce4">map_err</a> (F &amp;&amp;op) const noexcept -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="namespaceotto_1_1util.html#a59c81b3887536151fc4a6768cc282d59">util::invoke_result_t</a>&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&gt;</td></tr>
+<tr class="memitem:a899344c3764a87e9c346b5c4bbd81ce4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a899344c3764a87e9c346b5c4bbd81ce4">map_err</a> (F &amp;&amp;op) const noexcept -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, util::invoke_result_t&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&gt;</td></tr>
+<tr class="memdesc:a899344c3764a87e9c346b5c4bbd81ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map <code>result&lt;O, E&gt;</code> to <code>result&lt;O, F&gt;</code> by invoking <code>op</code> on a contained <code>Err</code> value, leaving an <code>Ok</code> value untouched.  <a href="#a899344c3764a87e9c346b5c4bbd81ce4">More...</a><br /></td></tr>
 <tr class="separator:a899344c3764a87e9c346b5c4bbd81ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c631f6990fe5c7378001598bb31ddc1"><td class="memTemplParams" colspan="2">template&lt;typename Ok2 &gt; </td></tr>
 <tr class="memitem:a0c631f6990fe5c7378001598bb31ddc1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; Ok2, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a0c631f6990fe5c7378001598bb31ddc1">operator &amp;&amp;</a> (const <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; Ok2, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt; &amp;r) const noexcept</td></tr>
+<tr class="memdesc:a0c631f6990fe5c7378001598bb31ddc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>r</code> if the result is <code>Ok</code>, otherwise returns its own <code>Err</code> value.  <a href="#a0c631f6990fe5c7378001598bb31ddc1">More...</a><br /></td></tr>
 <tr class="separator:a0c631f6990fe5c7378001598bb31ddc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf973c41760f9155520b2302b6af7691"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:aaf973c41760f9155520b2302b6af7691"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#aaf973c41760f9155520b2302b6af7691">and_then</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; <a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&gt;</td></tr>
+<tr class="memitem:aaf973c41760f9155520b2302b6af7691"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#aaf973c41760f9155520b2302b6af7691">and_then</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; util::is_invocable_r_v&lt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&gt;</td></tr>
+<tr class="memdesc:aaf973c41760f9155520b2302b6af7691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes <code>f</code> with the ok value if the result is <code>Ok</code>, otherwise returns its own <code>Err</code> value.  <a href="#aaf973c41760f9155520b2302b6af7691">More...</a><br /></td></tr>
 <tr class="separator:aaf973c41760f9155520b2302b6af7691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf62fd587041eb8f6ca7faff63160568"><td class="memTemplParams" colspan="2">template&lt;typename Ok2 &gt; </td></tr>
 <tr class="memitem:adf62fd587041eb8f6ca7faff63160568"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; Ok2, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#adf62fd587041eb8f6ca7faff63160568">operator||</a> (const <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; Ok2, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt; &amp;r) const noexcept</td></tr>
+<tr class="memdesc:adf62fd587041eb8f6ca7faff63160568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>r</code> if the result is <code>Err</code>, otherwise returns its own <code>Ok</code> value.  <a href="#adf62fd587041eb8f6ca7faff63160568">More...</a><br /></td></tr>
 <tr class="separator:adf62fd587041eb8f6ca7faff63160568"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d86398459e7d44fa4afa562d9642709"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a4d86398459e7d44fa4afa562d9642709"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a4d86398459e7d44fa4afa562d9642709">or_else</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; <a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&gt;</td></tr>
+<tr class="memitem:a4d86398459e7d44fa4afa562d9642709"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a4d86398459e7d44fa4afa562d9642709">or_else</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; util::is_invocable_r_v&lt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;&gt;</td></tr>
+<tr class="memdesc:a4d86398459e7d44fa4afa562d9642709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invokes <code>f</code> with the error value if the result is <code>Err</code>, otherwise returns its own <code>Ok</code> value.  <a href="#a4d86398459e7d44fa4afa562d9642709">More...</a><br /></td></tr>
 <tr class="separator:a4d86398459e7d44fa4afa562d9642709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a7e4543ec583056cbd1c878260d5578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a5a7e4543ec583056cbd1c878260d5578">ok_or</a> (const <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &amp;def) const noexcept</td></tr>
+<tr class="memdesc:a5a7e4543ec583056cbd1c878260d5578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns its own value if the result is <code>ok</code>, otherwise returns <code>def</code>  <a href="#a5a7e4543ec583056cbd1c878260d5578">More...</a><br /></td></tr>
 <tr class="separator:a5a7e4543ec583056cbd1c878260d5578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8faa500965b513ada1034a7c529160e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a8faa500965b513ada1034a7c529160e3">err_or</a> (const <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &amp;def) const noexcept</td></tr>
+<tr class="memdesc:a8faa500965b513ada1034a7c529160e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns its own value if the result is <code>err</code>, otherwise returns <code>def</code>  <a href="#a8faa500965b513ada1034a7c529160e3">More...</a><br /></td></tr>
 <tr class="separator:a8faa500965b513ada1034a7c529160e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af703cd2e23e50a1dd690fddc1bbdde33"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:af703cd2e23e50a1dd690fddc1bbdde33"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#af703cd2e23e50a1dd690fddc1bbdde33">ok_or_else</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; <a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;</td></tr>
+<tr class="memitem:af703cd2e23e50a1dd690fddc1bbdde33"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#af703cd2e23e50a1dd690fddc1bbdde33">ok_or_else</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; util::is_invocable_r_v&lt; <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;</td></tr>
+<tr class="memdesc:af703cd2e23e50a1dd690fddc1bbdde33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns its own value if the result is <code>ok</code>, otherwise invokes <code>f</code> with the error value.  <a href="#af703cd2e23e50a1dd690fddc1bbdde33">More...</a><br /></td></tr>
 <tr class="separator:af703cd2e23e50a1dd690fddc1bbdde33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3596c8df373e1ce91b441077f1699c67"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a3596c8df373e1ce91b441077f1699c67"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a3596c8df373e1ce91b441077f1699c67">err_or_else</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; <a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt; <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;</td></tr>
+<tr class="memitem:a3596c8df373e1ce91b441077f1699c67"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a3596c8df373e1ce91b441077f1699c67">err_or_else</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; util::is_invocable_r_v&lt; <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;</td></tr>
+<tr class="memdesc:a3596c8df373e1ce91b441077f1699c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns its own value if the result is <code>err</code>, otherwise invokes <code>f</code> with the ok value.  <a href="#a3596c8df373e1ce91b441077f1699c67">More...</a><br /></td></tr>
 <tr class="separator:a3596c8df373e1ce91b441077f1699c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8617206010cb4f180877a88672dfff2c"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a8617206010cb4f180877a88672dfff2c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a8617206010cb4f180877a88672dfff2c">if_ok</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; <a class="el" href="namespaceotto_1_1util.html#a15b70cd6bade204d324e6a55860f39d5">util::is_invocable_v</a>&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, void &gt;</td></tr>
+<tr class="memitem:a8617206010cb4f180877a88672dfff2c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a8617206010cb4f180877a88672dfff2c">if_ok</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; util::is_invocable_v&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &gt;, void &gt;</td></tr>
 <tr class="memdesc:a8617206010cb4f180877a88672dfff2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If ok, call <code>f(ok)</code>  <a href="#a8617206010cb4f180877a88672dfff2c">More...</a><br /></td></tr>
 <tr class="separator:a8617206010cb4f180877a88672dfff2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a917d663ff2fbbd78b3b94aed54324a41"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a917d663ff2fbbd78b3b94aed54324a41"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a917d663ff2fbbd78b3b94aed54324a41">if_err</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; <a class="el" href="namespaceotto_1_1util.html#a15b70cd6bade204d324e6a55860f39d5">util::is_invocable_v</a>&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, void &gt;</td></tr>
+<tr class="memitem:a917d663ff2fbbd78b3b94aed54324a41"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a917d663ff2fbbd78b3b94aed54324a41">if_err</a> (F &amp;&amp;f) const noexcept -&gt; std::enable_if_t&lt; util::is_invocable_v&lt; F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &gt;, void &gt;</td></tr>
 <tr class="memdesc:a917d663ff2fbbd78b3b94aed54324a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">If err, call <code>f(err)</code>  <a href="#a917d663ff2fbbd78b3b94aed54324a41">More...</a><br /></td></tr>
 <tr class="separator:a917d663ff2fbbd78b3b94aed54324a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc78d59eb65c8be830ab81046aa9a45b"><td class="memTemplParams" colspan="2">template&lt;typename FO , typename FE , typename Ret  = std::common_type_t&lt;util::invoke_result_t&lt;FO, Ok&gt;,                                               util::invoke_result_t&lt;FE, Err&gt;&gt;&gt; </td></tr>
@@ -149,38 +171,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad70fae3954ce1bd540608f2bf379c5dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">If ok, call <code>visitor(ok)</code>, otherwise call <code>visitor(err)</code>  <a href="#ad70fae3954ce1bd540608f2bf379c5dd">More...</a><br /></td></tr>
 <tr class="separator:ad70fae3954ce1bd540608f2bf379c5dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1203f5ed390508dc8087d4153e1d038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#ad1203f5ed390508dc8087d4153e1d038">unwrap_ok</a> ()</td></tr>
+<tr class="memdesc:ad1203f5ed390508dc8087d4153e1d038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return ok, or throw a <code><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html" title="Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. ">result_except</a>&lt;Err&gt;</code> holding the result.  <a href="#ad1203f5ed390508dc8087d4153e1d038">More...</a><br /></td></tr>
 <tr class="separator:ad1203f5ed390508dc8087d4153e1d038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2401c64477a1340feb9b8d5a0c80022e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result.html#a2401c64477a1340feb9b8d5a0c80022e">unwrap_err</a> ()</td></tr>
+<tr class="memdesc:a2401c64477a1340feb9b8d5a0c80022e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return err, or throw a <code><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html" title="Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. ">result_except</a>&lt;Err&gt;</code> holding the result.  <a href="#a2401c64477a1340feb9b8d5a0c80022e">More...</a><br /></td></tr>
 <tr class="separator:a2401c64477a1340feb9b8d5a0c80022e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename ok_t, typename err_t&gt;<br />
 struct otto::util::result&lt; ok_t, err_t &gt;</h3>
 
-<p>A sum type, holding either an Ok value, or an Err</p>
+<p>A sum type, holding either an Ok value, or an Err. </p>
 <p>Modelled closely after Rust's Result enum.</p>
-<h1>Example</h1>
+<h1><a class="anchor" id="autotoc_md0"></a>
+Example</h1>
 <div class="fragment"><div class="line">result&lt;std::string, int&gt; open_file(File&amp; f) {</div><div class="line">  <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.open();</div><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.error()) {</div><div class="line">    <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.errorCode();</div><div class="line">  }</div><div class="line">  <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.path();</div><div class="line">}</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00028">28</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="aa630a031e68fc698e54181ba499e3db7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa630a031e68fc698e54181ba499e3db7">&#9670;&nbsp;</a></span>Err</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::<a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> =  <a class="el" href="namespaceotto_1_1util.html#a932699080f0c5778a1045ec61737e5b7">select_type_t</a>&lt;std::is_void_v&lt;err_t&gt;, std::monostate, err_t&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00031">31</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a4a5858752f961e33edab1cbefa3a5921"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a5858752f961e33edab1cbefa3a5921">&#9670;&nbsp;</a></span>Ok</h2>
 
@@ -199,6 +206,24 @@ template&lt;typename ok_t, typename err_t&gt; </div>
 
 </div>
 </div>
+<a id="aa630a031e68fc698e54181ba499e3db7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa630a031e68fc698e54181ba499e3db7">&#9670;&nbsp;</a></span>Err</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::<a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> =  <a class="el" href="namespaceotto_1_1util.html#a932699080f0c5778a1045ec61737e5b7">select_type_t</a>&lt;std::is_void_v&lt;err_t&gt;, std::monostate, err_t&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00031">31</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1412868c12a87f7ada98dda5dfbe5af7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1412868c12a87f7ada98dda5dfbe5af7">&#9670;&nbsp;</a></span>result() <span class="overload">[1/4]</span></h2>
@@ -207,9 +232,6 @@ template&lt;typename ok_t, typename err_t&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ok_t, typename err_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::<a class="el" href="structotto_1_1util_1_1result.html">result</a> </td>
@@ -219,16 +241,10 @@ template&lt;typename ok_t, typename err_t&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00049">49</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;: data (<a class="code" href="structotto_1_1util_1_1result.html#a8293d66e6bb1671c3bf2e66a96f41ec5">ok</a>) {}</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8293d66e6bb1671c3bf2e66a96f41ec5"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8293d66e6bb1671c3bf2e66a96f41ec5">otto::util::result::ok</a></div><div class="ttdeci">std::optional&lt; Ok &gt; ok() const noexcept</div><div class="ttdoc">Convert into a std::optional&lt;Ok&gt;, discarding the error, if any. </div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00068">result.hpp:68</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="aea7a99b6dceea7e635dfd05c77c4d758"></a>
@@ -238,9 +254,6 @@ template&lt;typename ok_t, typename err_t&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ok_t, typename err_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::<a class="el" href="structotto_1_1util_1_1result.html">result</a> </td>
@@ -250,16 +263,10 @@ template&lt;typename ok_t, typename err_t&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00050">50</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;: data (std::move(<a class="code" href="structotto_1_1util_1_1result.html#a8293d66e6bb1671c3bf2e66a96f41ec5">ok</a>)) {}</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8293d66e6bb1671c3bf2e66a96f41ec5"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8293d66e6bb1671c3bf2e66a96f41ec5">otto::util::result::ok</a></div><div class="ttdeci">std::optional&lt; Ok &gt; ok() const noexcept</div><div class="ttdoc">Convert into a std::optional&lt;Ok&gt;, discarding the error, if any. </div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00068">result.hpp:68</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a769b5d004f7919d724c53eba1394249d"></a>
@@ -269,9 +276,6 @@ template&lt;typename ok_t, typename err_t&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ok_t, typename err_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::<a class="el" href="structotto_1_1util_1_1result.html">result</a> </td>
@@ -281,16 +285,10 @@ template&lt;typename ok_t, typename err_t&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00052">52</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;: data (<a class="code" href="structotto_1_1util_1_1result.html#a7aa4bcf6db47c2fbbe1c214c8ede4220">err</a>) {}</div><div class="ttc" id="structotto_1_1util_1_1result_html_a7aa4bcf6db47c2fbbe1c214c8ede4220"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a7aa4bcf6db47c2fbbe1c214c8ede4220">otto::util::result::err</a></div><div class="ttdeci">std::optional&lt; Err &gt; err() const noexcept</div><div class="ttdoc">Convert into a std::optional&lt;Err&gt;, discarding the ok value, if any. </div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00077">result.hpp:77</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a61b9ace6de1d72b7d4bdaf4843373c65"></a>
@@ -300,9 +298,6 @@ template&lt;typename ok_t, typename err_t&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ok_t, typename err_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::<a class="el" href="structotto_1_1util_1_1result.html">result</a> </td>
@@ -312,56 +307,15 @@ template&lt;typename ok_t, typename err_t&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00053">53</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;: data (std::move(<a class="code" href="structotto_1_1util_1_1result.html#a7aa4bcf6db47c2fbbe1c214c8ede4220">err</a>)) {}</div><div class="ttc" id="structotto_1_1util_1_1result_html_a7aa4bcf6db47c2fbbe1c214c8ede4220"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a7aa4bcf6db47c2fbbe1c214c8ede4220">otto::util::result::err</a></div><div class="ttdeci">std::optional&lt; Err &gt; err() const noexcept</div><div class="ttdoc">Convert into a std::optional&lt;Err&gt;, discarding the ok value, if any. </div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00077">result.hpp:77</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aaf973c41760f9155520b2302b6af7691"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf973c41760f9155520b2302b6af7691">&#9670;&nbsp;</a></span>and_then()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<div class="memtemplate">
-template&lt;typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::and_then </td>
-          <td>(</td>
-          <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td> const -&gt; std::enable_if_t&lt;<a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;,
-                       <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;&gt; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Invokes <code>f</code> with the ok value if the result is <code>Ok</code>, otherwise returns its own <code>Err</code> value </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00126">126</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                        {</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;F&gt;(f), mpark::get&lt;Ok&gt;(data));</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Err&gt;(data);</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      }</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a7aa4bcf6db47c2fbbe1c214c8ede4220"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7aa4bcf6db47c2fbbe1c214c8ede4220">&#9670;&nbsp;</a></span>err()</h2>
+<a id="a8c7521637744bc5cf03b58ed0cd8fdb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c7521637744bc5cf03b58ed0cd8fdb3">&#9670;&nbsp;</a></span>is_ok()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +326,7 @@ template&lt;typename ok_t, typename err_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt; <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::err </td>
+          <td class="memname">bool <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::is_ok </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -380,152 +334,16 @@ template&lt;typename ok_t, typename err_t&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Convert into a <code>std::optional&lt;Err&gt;</code>, discarding the ok value, if any. </p>
+<p>Check if result is ok. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the result is <code>Ok</code> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00077">77</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                          {</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> std::optional&lt;Err&gt;(mpark::get&lt;Err&gt;(data));</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> std::optional&lt;Err&gt;();</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      }</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8faa500965b513ada1034a7c529160e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8faa500965b513ada1034a7c529160e3">&#9670;&nbsp;</a></span>err_or()</h2>
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00057">57</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::err_or </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &amp;&#160;</td>
-          <td class="paramname"><em>def</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Returns its own value if the result is <code>err</code>, otherwise returns <code>def</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00173">173</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                                              {</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Err&gt;(data);</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">return</span> def;</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      }</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3596c8df373e1ce91b441077f1699c67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3596c8df373e1ce91b441077f1699c67">&#9670;&nbsp;</a></span>err_or_else()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<div class="memtemplate">
-template&lt;typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::err_or_else </td>
-          <td>(</td>
-          <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td> const -&gt; std::enable_if_t&lt;<a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Returns its own value if the result is <code>err</code>, otherwise invokes <code>f</code> with the ok value </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00196">196</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                                                            {</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Err&gt;(data);</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;F&gt;(f), mpark::get&lt;Ok&gt;(data));</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      }</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a917d663ff2fbbd78b3b94aed54324a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a917d663ff2fbbd78b3b94aed54324a41">&#9670;&nbsp;</a></span>if_err()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<div class="memtemplate">
-template&lt;typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::if_err </td>
-          <td>(</td>
-          <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td> const -&gt; std::enable_if_t&lt;<a class="el" href="namespaceotto_1_1util.html#a15b70cd6bade204d324e6a55860f39d5">util::is_invocable_v</a>&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, void&gt; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>If err, call <code>f(err)</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00216">216</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                                                       {</div><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;F&gt;(f), mpark::get&lt;Err&gt;(data));</div><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      }</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8617206010cb4f180877a88672dfff2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8617206010cb4f180877a88672dfff2c">&#9670;&nbsp;</a></span>if_ok()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<div class="memtemplate">
-template&lt;typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::if_ok </td>
-          <td>(</td>
-          <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td> const -&gt; std::enable_if_t&lt;<a class="el" href="namespaceotto_1_1util.html#a15b70cd6bade204d324e6a55860f39d5">util::is_invocable_v</a>&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;, void&gt; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>If ok, call <code>f(ok)</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00207">207</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                                                      {</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        std::invoke(std::forward&lt;F&gt;(f), mpark::get&lt;Ok&gt;(data));</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      }</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="ad7a82db51bf09d00c5fe52357bb33f95"></a>
@@ -548,114 +366,16 @@ template&lt;typename ok_t, typename err_t&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Check if result is errored </p><dl class="section return"><dt>Returns</dt><dd><code>true</code> if the result is <code>Err</code> </dd></dl>
+
+<p>Check if result is errored. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the result is <code>Err</code> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00063">63</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                 {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">return</span> mpark::holds_alternative&lt;Err&gt;(data);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a8c7521637744bc5cf03b58ed0cd8fdb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c7521637744bc5cf03b58ed0cd8fdb3">&#9670;&nbsp;</a></span>is_ok()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::is_ok </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Check if result is ok </p><dl class="section return"><dt>Returns</dt><dd><code>true</code> if the result is <code>Ok</code> </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00057">57</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="keywordflow">return</span> mpark::holds_alternative&lt;Ok&gt;(data);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="afabaf544643143b017b4582a2d82dc5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afabaf544643143b017b4582a2d82dc5d">&#9670;&nbsp;</a></span>map()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<div class="memtemplate">
-template&lt;typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::map </td>
-          <td>(</td>
-          <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>op</em></td><td>)</td>
-          <td> const -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="namespaceotto_1_1util.html#a59c81b3887536151fc4a6768cc282d59">util::invoke_result_t</a>&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Map &lt;otto::result&lt;O, E&gt;&gt; to <code>result&lt;U, E&gt;</code> by invoking <code>op</code> on a contained <code>Ok</code> value, leaving an <code>Err</code> value untouched</p>
-<p>Can be used to compose the result of two functions </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00090">90</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                              {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">return</span> std::invoke(op, mpark::get&lt;Ok&gt;(data));</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      }</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      <span class="keywordflow">return</span> mpark::get&lt;Err&gt;(data);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a899344c3764a87e9c346b5c4bbd81ce4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a899344c3764a87e9c346b5c4bbd81ce4">&#9670;&nbsp;</a></span>map_err()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename ok_t, typename err_t&gt; </div>
-<div class="memtemplate">
-template&lt;typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::map_err </td>
-          <td>(</td>
-          <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>op</em></td><td>)</td>
-          <td> const -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="namespaceotto_1_1util.html#a59c81b3887536151fc4a6768cc282d59">util::invoke_result_t</a>&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;&gt; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Map <code>result&lt;O, E&gt;</code> to <code>result&lt;O, F&gt;</code> by invoking <code>op</code> on a contained <code>Err</code> value, leaving an <code>Ok</code> value untouched</p>
-<p>Can be used to pass through a successful result while handling the error </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00103">103</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                              {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">return</span> std::invoke(op, mpark::get&lt;Err&gt;(data));</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      }</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <span class="keywordflow">return</span> mpark::get&lt;Ok&gt;(data);</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="a8293d66e6bb1671c3bf2e66a96f41ec5"></a>
@@ -678,7 +398,7 @@ template&lt;typename ok_t, typename err_t&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -686,12 +406,11 @@ template&lt;typename ok_t, typename err_t&gt; </div>
 <p>Convert into a <code>std::optional&lt;Ok&gt;</code>, discarding the error, if any. </p>
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00068">68</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                        {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> std::optional&lt;Ok&gt;(mpark::get&lt;Ok&gt;(data));</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">return</span> std::optional&lt;Ok&gt;();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      }</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a5a7e4543ec583056cbd1c878260d5578"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a7e4543ec583056cbd1c878260d5578">&#9670;&nbsp;</a></span>ok_or()</h2>
+<a id="a7aa4bcf6db47c2fbbe1c214c8ede4220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa4bcf6db47c2fbbe1c214c8ede4220">&#9670;&nbsp;</a></span>err()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -702,28 +421,27 @@ template&lt;typename ok_t, typename err_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::ok_or </td>
+          <td class="memname">std::optional&lt;<a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt; <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::err </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &amp;&#160;</td>
-          <td class="paramname"><em>def</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns its own value if the result is <code>ok</code>, otherwise returns <code>def</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00163">163</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                           {</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Ok&gt;(data);</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">return</span> def;</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      }</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
+<p>Convert into a <code>std::optional&lt;Err&gt;</code>, discarding the ok value, if any. </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00077">77</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
 </div>
 </div>
-<a id="af703cd2e23e50a1dd690fddc1bbdde33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af703cd2e23e50a1dd690fddc1bbdde33">&#9670;&nbsp;</a></span>ok_or_else()</h2>
+<a id="afabaf544643143b017b4582a2d82dc5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afabaf544643143b017b4582a2d82dc5d">&#9670;&nbsp;</a></span>map()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -736,24 +454,60 @@ template&lt;typename F &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::ok_or_else </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::map </td>
           <td>(</td>
           <td class="paramtype">F &amp;&amp;&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td> const -&gt; std::enable_if_t&lt;<a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt; </td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;util::invoke_result_t&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt; </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns its own value if the result is <code>ok</code>, otherwise invokes <code>f</code> with the error value </p>
 
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00184">184</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                                                           {</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Ok&gt;(data);</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;F&gt;(f), mpark::get&lt;Err&gt;(data));</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      }</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
+<p>Map &lt;otto::result&lt;O, E&gt;&gt; to <code>result&lt;U, E&gt;</code> by invoking <code>op</code> on a contained <code>Ok</code> value, leaving an <code>Err</code> value untouched. </p>
+<p>Can be used to compose the result of two functions </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00090">90</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a899344c3764a87e9c346b5c4bbd81ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a899344c3764a87e9c346b5c4bbd81ce4">&#9670;&nbsp;</a></span>map_err()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::map_err </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>op</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, util::invoke_result_t&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Map <code>result&lt;O, E&gt;</code> to <code>result&lt;O, F&gt;</code> by invoking <code>op</code> on a contained <code>Err</code> value, leaving an <code>Ok</code> value untouched. </p>
+<p>Can be used to pass through a successful result while handling the error </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00103">103</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
 </div>
 </div>
 <a id="a0c631f6990fe5c7378001598bb31ddc1"></a>
@@ -779,17 +533,51 @@ template&lt;typename Ok2 &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns <code>r</code> if the result is <code>Ok</code>, otherwise returns its own <code>Err</code> value</p>
+
+<p>Returns <code>r</code> if the result is <code>Ok</code>, otherwise returns its own <code>Err</code> value. </p>
 <p>Corresponds to the <code>and</code> method in rust </p>
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00115">115</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                                                                            {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Err&gt;(data);</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      }</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="aaf973c41760f9155520b2302b6af7691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf973c41760f9155520b2302b6af7691">&#9670;&nbsp;</a></span>and_then()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::and_then </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const -&gt; std::enable_if_t&lt;util::is_invocable_r_v&lt;<a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;,
+                       <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Invokes <code>f</code> with the ok value if the result is <code>Ok</code>, otherwise returns its own <code>Err</code> value. </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00126">126</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
 </div>
 </div>
 <a id="adf62fd587041eb8f6ca7faff63160568"></a>
@@ -815,17 +603,16 @@ template&lt;typename Ok2 &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns <code>r</code> if the result is <code>Err</code>, otherwise returns its own <code>Ok</code> value</p>
+
+<p>Returns <code>r</code> if the result is <code>Err</code>, otherwise returns its own <code>Ok</code> value. </p>
 <p>Corresponds to the <code>or</code> method in rust </p>
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00140">140</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                                                            {</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">r</a>;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Ok&gt;(data);</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      }</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a4b43b0aee35624cd95b910189b3dc231">otto::board::ui::Key::r</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a4d86398459e7d44fa4afa562d9642709"></a>
@@ -846,25 +633,25 @@ template&lt;typename F &gt; </div>
           <td>(</td>
           <td class="paramtype">F &amp;&amp;&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
-          <td> const -&gt; std::enable_if_t&lt;<a class="el" href="namespaceotto_1_1util.html#a22b8ec3324c3de72f5283114dbbae492">util::is_invocable_r_v</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;,
+          <td> const -&gt; std::enable_if_t&lt;util::is_invocable_r_v&lt;<a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;,
                        <a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;&gt; </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Invokes <code>f</code> with the error value if the result is <code>Err</code>, otherwise returns its own <code>Ok</code> value </p>
+
+<p>Invokes <code>f</code> with the error value if the result is <code>Err</code>, otherwise returns its own <code>Ok</code> value. </p>
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00151">151</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                        {</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;F&gt;(f), mpark::get&lt;Err&gt;(data));</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Ok&gt;(data);</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;      }</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a2401c64477a1340feb9b8d5a0c80022e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2401c64477a1340feb9b8d5a0c80022e">&#9670;&nbsp;</a></span>unwrap_err()</h2>
+<a id="a5a7e4543ec583056cbd1c878260d5578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7e4543ec583056cbd1c878260d5578">&#9670;&nbsp;</a></span>ok_or()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -875,28 +662,28 @@ template&lt;typename ok_t, typename err_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::unwrap_err </td>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::ok_or </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> &amp;&#160;</td>
+          <td class="paramname"><em>def</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return err, or throw a <code><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html">result_except</a>&lt;Err&gt;</code> holding the result.</p>
-<p>Should only be called when &lt;is_err&gt; or &lt;is_ok&gt; has been used to check. </p>
 
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00261">261</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                     {</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">is_err</a>()) {</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Err&gt;(data);</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keywordflow">throw</span> result_except{mpark::get&lt;Ok&gt;(data)};</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;      }</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_ad7a82db51bf09d00c5fe52357bb33f95"><div class="ttname"><a href="structotto_1_1util_1_1result.html#ad7a82db51bf09d00c5fe52357bb33f95">otto::util::result::is_err</a></div><div class="ttdeci">bool is_err() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00063">result.hpp:63</a></div></div>
-</div><!-- fragment -->
+<p>Returns its own value if the result is <code>ok</code>, otherwise returns <code>def</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00163">163</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
 </div>
 </div>
-<a id="ad1203f5ed390508dc8087d4153e1d038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1203f5ed390508dc8087d4153e1d038">&#9670;&nbsp;</a></span>unwrap_ok()</h2>
+<a id="a8faa500965b513ada1034a7c529160e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8faa500965b513ada1034a7c529160e3">&#9670;&nbsp;</a></span>err_or()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -907,59 +694,160 @@ template&lt;typename ok_t, typename err_t&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::unwrap_ok </td>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::err_or </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> &amp;&#160;</td>
+          <td class="paramname"><em>def</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return ok, or throw a <code><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html">result_except</a>&lt;Err&gt;</code> holding the result.</p>
-<p>Should only be called when &lt;is_err&gt; or &lt;is_ok&gt; has been used to check. </p>
 
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00250">250</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                   {</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">return</span> mpark::get&lt;Ok&gt;(data);</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">throw</span> result_except{mpark::get&lt;Err&gt;(data)};</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      }</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
+<p>Returns its own value if the result is <code>err</code>, otherwise returns <code>def</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00173">173</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
 </div>
 </div>
-<a id="ad70fae3954ce1bd540608f2bf379c5dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad70fae3954ce1bd540608f2bf379c5dd">&#9670;&nbsp;</a></span>visit()</h2>
+<a id="af703cd2e23e50a1dd690fddc1bbdde33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af703cd2e23e50a1dd690fddc1bbdde33">&#9670;&nbsp;</a></span>ok_or_else()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename ok_t, typename err_t&gt; </div>
 <div class="memtemplate">
-template&lt;typename V , typename Ret  = std::common_type_t&lt;util::invoke_result_t&lt;V, Ok&gt;,                                               util::invoke_result_t&lt;V, Err&gt;&gt;&gt; </div>
+template&lt;typename F &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Ret <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::visit </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::ok_or_else </td>
           <td>(</td>
-          <td class="paramtype">V &amp;&amp;&#160;</td>
-          <td class="paramname"><em>visitor</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const -&gt; std::enable_if_t&lt;util::is_invocable_r_v&lt;<a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt; </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>If ok, call <code>visitor(ok)</code>, otherwise call <code>visitor(err)</code> </p>
+<p>Returns its own value if the result is <code>ok</code>, otherwise invokes <code>f</code> with the error value. </p>
 
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00239">239</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                      {</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;V&gt;(visitor), mpark::get&lt;Ok&gt;(data));</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;V&gt;(visitor), mpark::get&lt;Err&gt;(data));</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      }</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00184">184</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3596c8df373e1ce91b441077f1699c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3596c8df373e1ce91b441077f1699c67">&#9670;&nbsp;</a></span>err_or_else()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::err_or_else </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const -&gt; std::enable_if_t&lt;util::is_invocable_r_v&lt;<a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>, F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns its own value if the result is <code>err</code>, otherwise invokes <code>f</code> with the ok value. </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00196">196</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8617206010cb4f180877a88672dfff2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8617206010cb4f180877a88672dfff2c">&#9670;&nbsp;</a></span>if_ok()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::if_ok </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const -&gt; std::enable_if_t&lt;util::is_invocable_v&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a>&gt;, void&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If ok, call <code>f(ok)</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00207">207</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a917d663ff2fbbd78b3b94aed54324a41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917d663ff2fbbd78b3b94aed54324a41">&#9670;&nbsp;</a></span>if_err()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+<div class="memtemplate">
+template&lt;typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::if_err </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> const -&gt; std::enable_if_t&lt;util::is_invocable_v&lt;F, <a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a>&gt;, void&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If err, call <code>f(err)</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00216">216</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
 </div>
 </div>
 <a id="abc78d59eb65c8be830ab81046aa9a45b"></a>
@@ -995,7 +883,7 @@ template&lt;typename FO , typename FE , typename Ret  = std::common_type_t&lt;ut
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1003,8 +891,89 @@ template&lt;typename FO , typename FE , typename Ret  = std::common_type_t&lt;ut
 <p>If ok, call <code>fo(ok)</code>, otherwise call <code>fe(err)</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00227">227</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                                          {</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">is_ok</a>()) {</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;FO&gt;(fo), mpark::get&lt;Ok&gt;(data));</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">return</span> std::invoke(std::forward&lt;FE&gt;(fe), mpark::get&lt;Err&gt;(data));</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      }</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1result_html_a8c7521637744bc5cf03b58ed0cd8fdb3"><div class="ttname"><a href="structotto_1_1util_1_1result.html#a8c7521637744bc5cf03b58ed0cd8fdb3">otto::util::result::is_ok</a></div><div class="ttdeci">bool is_ok() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="result_8hpp_source.html#l00057">result.hpp:57</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="ad70fae3954ce1bd540608f2bf379c5dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad70fae3954ce1bd540608f2bf379c5dd">&#9670;&nbsp;</a></span>visit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+<div class="memtemplate">
+template&lt;typename V , typename Ret  = std::common_type_t&lt;util::invoke_result_t&lt;V, Ok&gt;,                                               util::invoke_result_t&lt;V, Err&gt;&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Ret <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::visit </td>
+          <td>(</td>
+          <td class="paramtype">V &amp;&amp;&#160;</td>
+          <td class="paramname"><em>visitor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If ok, call <code>visitor(ok)</code>, otherwise call <code>visitor(err)</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00239">239</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad1203f5ed390508dc8087d4153e1d038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1203f5ed390508dc8087d4153e1d038">&#9670;&nbsp;</a></span>unwrap_ok()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#a4a5858752f961e33edab1cbefa3a5921">Ok</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::unwrap_ok </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return ok, or throw a <code><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html" title="Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. ">result_except</a>&lt;Err&gt;</code> holding the result. </p>
+<p>Should only be called when &lt;is_err&gt; or &lt;is_ok&gt; has been used to check. </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00250">250</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2401c64477a1340feb9b8d5a0c80022e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2401c64477a1340feb9b8d5a0c80022e">&#9670;&nbsp;</a></span>unwrap_err()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ok_t, typename err_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1result.html#aa630a031e68fc698e54181ba499e3db7">Err</a> <a class="el" href="structotto_1_1util_1_1result.html">otto::util::result</a>&lt; ok_t, err_t &gt;::unwrap_err </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return err, or throw a <code><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html" title="Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. ">result_except</a>&lt;Err&gt;</code> holding the result. </p>
+<p>Should only be called when &lt;is_err&gt; or &lt;is_ok&gt; has been used to check. </p>
+
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00261">261</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>

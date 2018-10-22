@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::audio::Graph Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -103,9 +109,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void otto::util::audio::Graph::add </td>
@@ -115,11 +118,6 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Add a sample to the graph. </p>
@@ -129,10 +127,7 @@ Public Attributes</h2></td></tr>
 <p class="reference">References <a class="el" href="util_2audio_8hpp_source.html#l00048">average</a>, <a class="el" href="util_2audio_8hpp_source.html#l00047">nsamples</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00046">sum</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="external_8cpp_source.html#l00026">otto::engines::External::process()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                           {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      ++<a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">nsamples</a>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#adb69caa9ad149fb486aac0b5c75c1960">sum</a> += std::abs(sample);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">average</a> = <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">nsamples</a> == 0 ? 0 : <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#adb69caa9ad149fb486aac0b5c75c1960">sum</a>/<a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">nsamples</a>;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_a02e8c870fd19a5338173be0665b14952"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">otto::util::audio::Graph::nsamples</a></div><div class="ttdeci">int nsamples</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00047">audio.hpp:47</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_adb69caa9ad149fb486aac0b5c75c1960"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#adb69caa9ad149fb486aac0b5c75c1960">otto::util::audio::Graph::sum</a></div><div class="ttdeci">float sum</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00046">audio.hpp:46</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_a00d5d76e666415c3f310c426a27d0403"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">otto::util::audio::Graph::average</a></div><div class="ttdeci">float average</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00048">audio.hpp:48</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ad18b99c47046d2c47f1c40a6cc3a0256"></a>
@@ -140,9 +135,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void otto::util::audio::Graph::clear </td>
@@ -151,11 +143,6 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Clear the values, starting a new average. </p>
@@ -163,10 +150,7 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00058">58</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="util_2audio_8hpp_source.html#l00048">average</a>, <a class="el" href="util_2audio_8hpp_source.html#l00047">nsamples</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00046">sum</a>.</p>
-<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                 {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="keywordtype">int</span> scale = 64;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#adb69caa9ad149fb486aac0b5c75c1960">sum</a> /= scale;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">nsamples</a> /= scale;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">average</a> = <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">nsamples</a> == 0 ? 0 : <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#adb69caa9ad149fb486aac0b5c75c1960">sum</a>/<a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">nsamples</a>;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_a02e8c870fd19a5338173be0665b14952"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#a02e8c870fd19a5338173be0665b14952">otto::util::audio::Graph::nsamples</a></div><div class="ttdeci">int nsamples</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00047">audio.hpp:47</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_adb69caa9ad149fb486aac0b5c75c1960"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#adb69caa9ad149fb486aac0b5c75c1960">otto::util::audio::Graph::sum</a></div><div class="ttdeci">float sum</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00046">audio.hpp:46</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_a00d5d76e666415c3f310c426a27d0403"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">otto::util::audio::Graph::average</a></div><div class="ttdeci">float average</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00048">audio.hpp:48</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ab0b067d4efe56939f2d0a4ec7edb50ef"></a>
@@ -174,9 +158,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">float otto::util::audio::Graph::clip </td>
@@ -185,11 +166,6 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>get <code>average</code> clamped to <code>[0, 1]</code> </p>
@@ -197,8 +173,7 @@ Public Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00066">66</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="util_2audio_8hpp_source.html#l00048">average</a>.</p>
-<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                       {</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      <span class="keywordflow">return</span> std::clamp(<a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">average</a>, 0.f, 1.f);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_a00d5d76e666415c3f310c426a27d0403"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">otto::util::audio::Graph::average</a></div><div class="ttdeci">float average</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00048">audio.hpp:48</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a10719f8fae444782fb098f76a0ffa284"></a>
@@ -206,9 +181,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">otto::util::audio::Graph::operator float </td>
@@ -217,36 +189,30 @@ Public Attributes</h2></td></tr>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00070">70</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="util_2audio_8hpp_source.html#l00048">average</a>.</p>
-<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                           {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">average</a>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1audio_1_1_graph_html_a00d5d76e666415c3f310c426a27d0403"><div class="ttname"><a href="structotto_1_1util_1_1audio_1_1_graph.html#a00d5d76e666415c3f310c426a27d0403">otto::util::audio::Graph::average</a></div><div class="ttdeci">float average</div><div class="ttdef"><b>Definition:</b> <a href="util_2audio_8hpp_source.html#l00048">audio.hpp:48</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a00d5d76e666415c3f310c426a27d0403"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00d5d76e666415c3f310c426a27d0403">&#9670;&nbsp;</a></span>average</h2>
+<a id="adb69caa9ad149fb486aac0b5c75c1960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb69caa9ad149fb486aac0b5c75c1960">&#9670;&nbsp;</a></span>sum</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float otto::util::audio::Graph::average = 0</td>
+          <td class="memname">float otto::util::audio::Graph::sum = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00048">48</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00046">46</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="util_2audio_8hpp_source.html#l00051">add()</a>, <a class="el" href="util_2audio_8hpp_source.html#l00058">clear()</a>, <a class="el" href="util_2audio_8hpp_source.html#l00066">clip()</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00070">operator float()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="util_2audio_8hpp_source.html#l00051">add()</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00058">clear()</a>.</p>
 
 </div>
 </div>
@@ -268,21 +234,21 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adb69caa9ad149fb486aac0b5c75c1960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb69caa9ad149fb486aac0b5c75c1960">&#9670;&nbsp;</a></span>sum</h2>
+<a id="a00d5d76e666415c3f310c426a27d0403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00d5d76e666415c3f310c426a27d0403">&#9670;&nbsp;</a></span>average</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float otto::util::audio::Graph::sum = 0</td>
+          <td class="memname">float otto::util::audio::Graph::average = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00046">46</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2audio_8hpp_source.html#l00048">48</a> of file <a class="el" href="util_2audio_8hpp_source.html">audio.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="util_2audio_8hpp_source.html#l00051">add()</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00058">clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="util_2audio_8hpp_source.html#l00051">add()</a>, <a class="el" href="util_2audio_8hpp_source.html#l00058">clear()</a>, <a class="el" href="util_2audio_8hpp_source.html#l00066">clip()</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00070">operator float()</a>.</p>
 
 </div>
 </div>

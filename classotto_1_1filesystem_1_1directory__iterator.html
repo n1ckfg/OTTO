@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::filesystem::directory_iterator Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -125,22 +131,6 @@ Public Member Functions</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00441">441</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a4be96972d43c8270b0b919f0b970940e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4be96972d43c8270b0b919f0b970940e">&#9670;&nbsp;</a></span>difference_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a4be96972d43c8270b0b919f0b970940e">otto::filesystem::directory_iterator::difference_type</a> =  ptrdiff_t</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00445">445</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
 <a id="ace10e80eeb3372285c604cbdb0ed42b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace10e80eeb3372285c604cbdb0ed42b7">&#9670;&nbsp;</a></span>iterator_category</h2>
 
@@ -154,6 +144,38 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00443">443</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a655dd0c5fd9a3dd1944df1c95128a2c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a655dd0c5fd9a3dd1944df1c95128a2c6">&#9670;&nbsp;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a655dd0c5fd9a3dd1944df1c95128a2c6">otto::filesystem::directory_iterator::value_type</a> =  <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html">directory_entry</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00444">444</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4be96972d43c8270b0b919f0b970940e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be96972d43c8270b0b919f0b970940e">&#9670;&nbsp;</a></span>difference_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a4be96972d43c8270b0b919f0b970940e">otto::filesystem::directory_iterator::difference_type</a> =  ptrdiff_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00445">445</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -189,22 +211,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a655dd0c5fd9a3dd1944df1c95128a2c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a655dd0c5fd9a3dd1944df1c95128a2c6">&#9670;&nbsp;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a655dd0c5fd9a3dd1944df1c95128a2c6">otto::filesystem::directory_iterator::value_type</a> =  <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html">directory_entry</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00444">444</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3e3c25c38dafe860a8ac73098030df37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e3c25c38dafe860a8ac73098030df37">&#9670;&nbsp;</a></span>directory_iterator() <span class="overload">[1/7]</span></h2>
@@ -230,7 +236,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01046">1046</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;: _ptr(<span class="keyword">nullptr</span>) {}</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a9a9f945faa4679df4bfcc6e18d166f76"></a>
@@ -258,7 +264,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01048">1048</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;  {</div><div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;    std::error_code ec;</div><div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;    read_dir(p, {}, ec);</div><div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160;    <span class="keywordflow">if</span> (ec != std::error_code()) {</div><div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;      <span class="keywordflow">throw</span> filesystem_error(<span class="stringliteral">&quot;While constructing directory_iterator&quot;</span>, p, ec);</div><div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;    }</div><div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="acdeb65204ca1c12028256c5407537009"></a>
@@ -288,7 +294,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01057">1057</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;  {</div><div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;    std::error_code ec;</div><div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;    read_dir(p, options, ec);</div><div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;    <span class="keywordflow">if</span> (ec != std::error_code()) {</div><div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;      <span class="keywordflow">throw</span> filesystem_error(<span class="stringliteral">&quot;While constructing directory_iterator&quot;</span>, p, ec);</div><div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;    }</div><div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a17dcbdf4c79dee78f959c64c0ca82ab5"></a>
@@ -318,7 +324,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01066">1066</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;  {</div><div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;    read_dir(p, {}, ec);</div><div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a09190509b283d44cd79686c1fccb10c2"></a>
@@ -354,7 +360,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01071">1071</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;  {</div><div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;    read_dir(p, options, ec);</div><div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a8113fd6626de79715ea6192ea0571a51"></a>
@@ -435,132 +441,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad854793257cb2f04738fcfe845090927"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad854793257cb2f04738fcfe845090927">&#9670;&nbsp;</a></span>increment()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp; otto::filesystem::DIter::increment </td>
-          <td>(</td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
-          <td class="paramname"><em>ec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01105">1105</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;  {</div><div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    <a class="code" href="classotto_1_1filesystem_1_1directory__iterator.html#ab9e97cc162924d978538b286613c06a8">operator++</a>();</div><div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div><div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;  }</div><div class="ttc" id="classotto_1_1filesystem_1_1directory__iterator_html_ab9e97cc162924d978538b286613c06a8"><div class="ttname"><a href="classotto_1_1filesystem_1_1directory__iterator.html#ab9e97cc162924d978538b286613c06a8">otto::filesystem::directory_iterator::operator++</a></div><div class="ttdeci">directory_iterator &amp; operator++()</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l01098">filesystem.cpp:1098</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ace4e74412f6a358b57911a4084eaa6be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace4e74412f6a358b57911a4084eaa6be">&#9670;&nbsp;</a></span>operator!=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool otto::filesystem::DIter::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01116">1116</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;  {</div><div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;    <span class="keywordflow">return</span> _ptr != other._ptr;</div><div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a176ae43698786b5a0ef972d3534e969b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a176ae43698786b5a0ef972d3534e969b">&#9670;&nbsp;</a></span>operator*()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="namespaceotto_1_1filesystem.html#ae338f3d26dd08cc2260bc30d7d911659">DEntr</a> &amp; otto::filesystem::DIter::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01088">1088</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;  {</div><div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;    <span class="keywordflow">return</span> *_ptr;</div><div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ab9e97cc162924d978538b286613c06a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9e97cc162924d978538b286613c06a8">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#ace97fa0d1a637bd306df5c6abe33df56">DIter</a> &amp; otto::filesystem::DIter::operator++ </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01098">1098</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;  {</div><div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;    ++_ptr;</div><div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;    <span class="keywordflow">if</span> (_ptr == _entries-&gt;end().base()) _ptr = <span class="keyword">nullptr</span>;</div><div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div><div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a56459964dbb2ee80ae7856868a6d5671"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56459964dbb2ee80ae7856868a6d5671">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> otto::filesystem::DIter::operator++ </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01121">1121</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;  {</div><div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;    <span class="keyword">auto</span> tmp = *<span class="keyword">this</span>;</div><div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;    ++(*this);</div><div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;    <span class="keywordflow">return</span> tmp;</div><div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a2b7495639c9419b531d8b5554723e862"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b7495639c9419b531d8b5554723e862">&#9670;&nbsp;</a></span>operator-&gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="namespaceotto_1_1filesystem.html#ae338f3d26dd08cc2260bc30d7d911659">DEntr</a> * otto::filesystem::DIter::operator-&gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01093">1093</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;  {</div><div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;    <span class="keywordflow">return</span> _ptr;</div><div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a16d551901a4c62dd37d3ff76488bb422"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16d551901a4c62dd37d3ff76488bb422">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
@@ -613,6 +493,91 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a176ae43698786b5a0ef972d3534e969b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a176ae43698786b5a0ef972d3534e969b">&#9670;&nbsp;</a></span>operator*()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceotto_1_1filesystem.html#ae338f3d26dd08cc2260bc30d7d911659">DEntr</a> &amp; otto::filesystem::DIter::operator* </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01088">1088</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2b7495639c9419b531d8b5554723e862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7495639c9419b531d8b5554723e862">&#9670;&nbsp;</a></span>operator-&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="namespaceotto_1_1filesystem.html#ae338f3d26dd08cc2260bc30d7d911659">DEntr</a> * otto::filesystem::DIter::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01093">1093</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab9e97cc162924d978538b286613c06a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9e97cc162924d978538b286613c06a8">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#ace97fa0d1a637bd306df5c6abe33df56">DIter</a> &amp; otto::filesystem::DIter::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01098">1098</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad854793257cb2f04738fcfe845090927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad854793257cb2f04738fcfe845090927">&#9670;&nbsp;</a></span>increment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp; otto::filesystem::DIter::increment </td>
+          <td>(</td>
+          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramname"><em>ec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01105">1105</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+</div>
+</div>
 <a id="ab902101fecc77b90391683d6fedd0b7f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab902101fecc77b90391683d6fedd0b7f">&#9670;&nbsp;</a></span>operator==()</h2>
 
@@ -630,7 +595,47 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01111">1111</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;  {</div><div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;    <span class="keywordflow">return</span> _ptr == other._ptr;</div><div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;  }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="ace4e74412f6a358b57911a4084eaa6be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace4e74412f6a358b57911a4084eaa6be">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otto::filesystem::DIter::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01116">1116</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a56459964dbb2ee80ae7856868a6d5671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56459964dbb2ee80ae7856868a6d5671">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> otto::filesystem::DIter::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l01121">1121</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

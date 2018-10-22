@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::math Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -90,6 +96,7 @@ Functions</h2></td></tr>
 <tr class="separator:a94128954402cbb6f0e2c8d6aa5555772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9150be8c0801f4306df5b3a59aba0a4"><td class="memTemplParams" colspan="2">template&lt;int N&gt; </td></tr>
 <tr class="memitem:aa9150be8c0801f4306df5b3a59aba0a4"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::array&lt; float, N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#aa9150be8c0801f4306df5b3a59aba0a4">split_values</a> (float f, float min, float max)</td></tr>
+<tr class="memdesc:aa9150be8c0801f4306df5b3a59aba0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a number into <code>N</code> values between 0 and 1, each representing a Nth part of the range <code>[min,max]</code>  <a href="#aa9150be8c0801f4306df5b3a59aba0a4">More...</a><br /></td></tr>
 <tr class="separator:aa9150be8c0801f4306df5b3a59aba0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -100,9 +107,6 @@ Functions</h2></td></tr>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool otto::util::math::between </td>
@@ -128,15 +132,42 @@ template&lt;typename T &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00011">11</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                                                    {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> (el &lt;= max &amp;&amp; el &gt;= min);</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="a77fcf53341a71ba0d636604335ce88fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77fcf53341a71ba0d636604335ce88fb">&#9670;&nbsp;</a></span>round()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float otto::util::math::round </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>places</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00015">15</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="external_8cpp_source.html#l00043">otto::engines::ExternalScreen::draw()</a>, <a class="el" href="wormhole_8cpp_source.html#l00053">otto::engines::WormholeScreen::draw()</a>, <a class="el" href="waveform__widget_8hpp_source.html#l00089">otto::core::ui::widgets::Waveform&lt; Container &gt;::point()</a>, and <a class="el" href="euclid_8cpp_source.html#l00135">otto::engines::Euclid::Channel::update_notes()</a>.</p>
+
 </div>
 </div>
 <a id="a1c4128f38834f42c7ede1c6777b83fcc"></a>
@@ -146,9 +177,6 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">constexpr T otto::util::math::modulo </td>
@@ -168,18 +196,12 @@ template&lt;typename T &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Real modulo for negative <code>a</code> too. </p>
 
 <p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00022">22</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                      {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">const</span> T result = std::fmod(a, b);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> result &gt;= 0 ? result : result + <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a92eb5ffee6ae2fec3ad71c777531578f">b</a>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a92eb5ffee6ae2fec3ad71c777531578f"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a92eb5ffee6ae2fec3ad71c777531578f">otto::board::ui::Key::b</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a441f8b0f423ab933b18137c2b7869849"></a>
@@ -211,14 +233,13 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00074">74</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">auto</span> res = rhs;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">for</span> (vec&amp; p : res) {</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a> = {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.x * lhs, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.y * lhs};</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">return</span> res;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a94128954402cbb6f0e2c8d6aa5555772"></a>
@@ -250,53 +271,13 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00083">83</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keyword">auto</span> res = rhs;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">for</span> (vec&amp; p : res) {</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a> = {<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.x / lhs, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">p</a>.y / lhs};</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> res;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a83878c91171338902e0fe0fb97a8c47a">otto::board::ui::Key::p</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a77fcf53341a71ba0d636604335ce88fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77fcf53341a71ba0d636604335ce88fb">&#9670;&nbsp;</a></span>round()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float otto::util::math::round </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>places</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00015">15</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                          {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> = std::pow(10, places);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> std::round(f * i)/<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="aa9150be8c0801f4306df5b3a59aba0a4"></a>
@@ -332,13 +313,12 @@ template&lt;int N&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Split a number into <code>N</code> values between 0 and 1, each representing a Nth part of the range <code>[min,max]</code></p>
+
+<p>Split a number into <code>N</code> values between 0 and 1, each representing a Nth part of the range <code>[min,max]</code> </p>
 <p>This is useful for UI especially, when you want to display a range of values by fading colours between N fixed points. See <code>draw_pitch</code> in <code>drum_sampler.cpp</code> for an example </p>
 
 <p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00099">99</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  {</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    std::array&lt;float, N&gt; res {{0}};</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">// f scaled to [0, N]</span></div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256abd19836ddb62c11c55ab251ccaca5645">f1</a> = (N - 1) * (f - min) / (max - min);</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> &lt; N; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>++) {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      res[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>] = 1 - std::clamp(std::abs(i - f1), 0.f, 1.f);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">return</span> res;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256abd19836ddb62c11c55ab251ccaca5645"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256abd19836ddb62c11c55ab251ccaca5645">otto::board::ui::Key::f1</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 </div><!-- contents -->

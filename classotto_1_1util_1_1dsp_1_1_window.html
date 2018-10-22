@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::dsp::Window Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -89,7 +95,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a959e596b4a792d329d4e33f548791198"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a959e596b4a792d329d4e33f548791198">Window</a> (int size, <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a> type, bool normalize=true)</td></tr>
-<tr class="memdesc:a959e596b4a792d329d4e33f548791198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates the <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html">Window</a>, and computes the window samples.  <a href="#a959e596b4a792d329d4e33f548791198">More...</a><br /></td></tr>
+<tr class="memdesc:a959e596b4a792d329d4e33f548791198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates the <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html">Window</a>, and computes the window samples. $math_test$.  <a href="#a959e596b4a792d329d4e33f548791198">More...</a><br /></td></tr>
 <tr class="separator:a959e596b4a792d329d4e33f548791198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab032966e083321a06674ca65ff421537"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#ab032966e083321a06674ca65ff421537">reset</a> (int size, <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a> type, bool normalize=true) noexcept</td></tr>
 <tr class="memdesc:ab032966e083321a06674ca65ff421537"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recomputes the window samples, given the new size, window type, and normalization settings.  <a href="#ab032966e083321a06674ca65ff421537">More...</a><br /></td></tr>
@@ -132,13 +138,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="window_8hpp_source.html#l00012">12</a> of file <a class="el" href="window_8hpp_source.html">window.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;      {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;          <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca">rectangular</a>,</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;          <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0">triangular</a>,</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;          <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc">hann</a>,</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;          <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd">hamming</a>,</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;          <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520">blackman</a>,</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;          <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677">blackman_harris</a></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      };</div><div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677">otto::util::dsp::Window::blackman_harris</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00019">window.hpp:19</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0">otto::util::dsp::Window::triangular</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00015">window.hpp:15</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca">otto::util::dsp::Window::rectangular</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00014">window.hpp:14</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520">otto::util::dsp::Window::blackman</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00018">window.hpp:18</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd">otto::util::dsp::Window::hamming</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00017">window.hpp:17</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc">otto::util::dsp::Window::hann</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00016">window.hpp:16</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -174,138 +174,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Instantiates the <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html">Window</a>, and computes the window samples. </p>
+<p>Instantiates the <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html">Window</a>, and computes the window samples. $math_test$. </p>
 
 <p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00006">6</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="window_8cpp_source.html#l00012">reset()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                                                           : window_buffer(size)</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  {</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;      <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#ab032966e083321a06674ca65ff421537">reset</a> (size, type, normalize);</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  }</div><div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_ab032966e083321a06674ca65ff421537"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#ab032966e083321a06674ca65ff421537">otto::util::dsp::Window::reset</a></div><div class="ttdeci">void reset(int size, WindowType type, bool normalize=true) noexcept</div><div class="ttdoc">Recomputes the window samples, given the new size, window type, and normalization settings...</div><div class="ttdef"><b>Definition:</b> <a href="window_8cpp_source.html#l00012">window.cpp:12</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a56b33d580eb1eb396e9a977428f4bb3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56b33d580eb1eb396e9a977428f4bb3b">&#9670;&nbsp;</a></span>apply_to()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::util::dsp::Window::apply_to </td>
-          <td>(</td>
-          <td class="paramtype">gsl::span&lt; double &gt;&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Multiplies the buffer and the window, sample by sample. </p>
-
-<p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00103">103</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">int</span> rs = std::min&lt;int&gt;(buffer.size(), window_buffer.<a class="code" href="classotto_1_1util_1_1dyn__array.html#a3ac8c4ee4849f08610e4ab692d83a333">size</a>());</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a363b122c528f54df4a0446b6bab05515">j</a> &lt; rs; ++<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a363b122c528f54df4a0446b6bab05515">j</a>)</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        buffer[j] *= window_buffer[j];</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div><div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a3ac8c4ee4849f08610e4ab692d83a333"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a3ac8c4ee4849f08610e4ab692d83a333">otto::util::dyn_array::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00040">dyn-array.hpp:40</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a363b122c528f54df4a0446b6bab05515"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a363b122c528f54df4a0446b6bab05515">otto::board::ui::Key::j</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a24a7c52e3af01dfecaf75f7ec796008e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24a7c52e3af01dfecaf75f7ec796008e">&#9670;&nbsp;</a></span>compute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::util::dsp::Window::compute </td>
-          <td>(</td>
-          <td class="paramtype">gsl::span&lt; double &gt;&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>normalize</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the window samples and stores them in the buffer. </p>
-
-<p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00019">19</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;      <span class="keyword">auto</span> cosn = [](<span class="keywordtype">int</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1">n</a>, <span class="keywordtype">int</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>, <span class="keywordtype">int</span> size) { <span class="keywordflow">return</span> cos (static_cast&lt;double&gt; (n * M_PI * i) / static_cast&lt;double&gt; (size - 1)); };</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      <span class="keyword">auto</span> size = buffer.size();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;      <span class="keywordflow">switch</span> (type)</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca">rectangular</a>:</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;          {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;              <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; sample : buffer)</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                  sample = 1.0;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;          }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;          <span class="keywordflow">break</span>;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0">triangular</a>:</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;          {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;              <span class="keyword">auto</span> middle_position = 0.5 * <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span> (size - 1);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;              <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> &lt; size; ++<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>)</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                  buffer[i] = 1.0 - std::abs ((static_cast&lt;double&gt; (i) - middle_position) / middle_position);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;          }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;          <span class="keywordflow">break</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc">hann</a>:</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;              <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> &lt; size; ++<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>)</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;              {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                  <span class="keyword">auto</span> cos2 = cosn (2, i, size);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                  buffer[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>] = 0.5 - 0.5 * cos2;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;              }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;          }</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;          <span class="keywordflow">break</span>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd">hamming</a>:</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;          {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;              <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> &lt; size; ++<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>)</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;              {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                  <span class="keyword">auto</span> cos2 = cosn (2, i, size);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                  buffer[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>] = 0.54 - 0.46 * cos2;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;              }</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;          <span class="keywordflow">break</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520">blackman</a>:</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          {</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;              <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> &lt; size; ++<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>)</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;              {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                  <span class="keyword">auto</span> cos2 = cosn (2, i, size);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                  <span class="keyword">auto</span> cos4 = cosn (4, i, size);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                  buffer[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>] = 0.42 - 0.5 * cos2 + 0.08 * cos4;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;              }</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          }</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;          <span class="keywordflow">break</span>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677">blackman_harris</a>:</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          {</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;              <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a> &lt; size; ++<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>)</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;              {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                  <span class="keyword">auto</span> cos2 = cosn (2, i, size);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                  <span class="keyword">auto</span> cos4 = cosn (4, i, size);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                  <span class="keyword">auto</span> cos6 = cosn (6, i, size);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                  buffer[<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">i</a>] = 0.35875 - 0.48829 * cos2 + 0.14128 * cos4 - 0.01168 * cos6;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;              }</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;          }</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          <span class="keywordflow">break</span>;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;          <span class="keywordflow">default</span>:</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;              <span class="keywordflow">break</span>;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      }</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keywordflow">if</span> (normalize)</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          <span class="keywordtype">double</span> sum = 0.0;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; sample : buffer)</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;              sum += sample;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;          <span class="keyword">auto</span> factor = <span class="keyword">static_cast&lt;</span><span class="keywordtype">double</span><span class="keyword">&gt;</span> (size) / sum;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;          <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; sample : buffer)</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;              sample *= factor;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      }</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  }</div><div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677">otto::util::dsp::Window::blackman_harris</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00019">window.hpp:19</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7b8b965ad4bca0e41ab51de7b31363a1">otto::board::ui::Key::n</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0">otto::util::dsp::Window::triangular</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00015">window.hpp:15</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca">otto::util::dsp::Window::rectangular</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00014">window.hpp:14</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520">otto::util::dsp::Window::blackman</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00018">window.hpp:18</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd">otto::util::dsp::Window::hamming</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00017">window.hpp:17</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a865c0c0b4ab0e063e5caa3387c1a8741">otto::board::ui::Key::i</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc">otto::util::dsp::Window::hann</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00016">window.hpp:16</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afccdcd149753e459ad3a5a6a3fe12978"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afccdcd149753e459ad3a5a6a3fe12978">&#9670;&nbsp;</a></span>get_window_type_name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string otto::util::dsp::Window::get_window_type_name </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>&#160;</td>
-          <td class="paramname"><em>type</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html">Window</a> type to string. </p>
-
-<p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00111">111</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  {</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="keywordflow">switch</span> (type)</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca">rectangular</a>:       <span class="keywordflow">return</span> <span class="stringliteral">&quot;Rectangular&quot;</span>;</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0">triangular</a>:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Triangular&quot;</span>;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc">hann</a>:              <span class="keywordflow">return</span> <span class="stringliteral">&quot;Hann&quot;</span>;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd">hamming</a>:           <span class="keywordflow">return</span> <span class="stringliteral">&quot;Hamming&quot;</span>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520">blackman</a>:          <span class="keywordflow">return</span> <span class="stringliteral">&quot;Blackman&quot;</span>;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;          <span class="keywordflow">case</span> <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677">blackman_harris</a>:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Blackman-Harris&quot;</span>;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;          <span class="keywordflow">default</span>:                <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      }</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div><div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987caabddeddd9aa8b18562bbb52e4cec9677">otto::util::dsp::Window::blackman_harris</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00019">window.hpp:19</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca99cd7b772325efc966ae2f86795de2c0">otto::util::dsp::Window::triangular</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00015">window.hpp:15</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cae2f46709b578f9da078fae7c387b88ca">otto::util::dsp::Window::rectangular</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00014">window.hpp:14</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca2fe0a78416f1e0b2db3d960b3c545520">otto::util::dsp::Window::blackman</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00018">window.hpp:18</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987cad15407d3521e06b29674a0b420136ebd">otto::util::dsp::Window::hamming</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00017">window.hpp:17</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987ca1368d689dda9783306e85dff3c3e41fc">otto::util::dsp::Window::hann</a></div><div class="ttdef"><b>Definition:</b> <a href="window_8hpp_source.html#l00016">window.hpp:16</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="ab032966e083321a06674ca65ff421537"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab032966e083321a06674ca65ff421537">&#9670;&nbsp;</a></span>reset()</h2>
 
@@ -351,10 +228,113 @@ Static Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00012">12</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="window_8cpp_source.html#l00006">Window()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;      window_buffer.<a class="code" href="classotto_1_1util_1_1dyn__array.html#a2c08d1fa4d849927cafe60d3bf3ae05b">resize</a> (size);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;      <a class="code" href="classotto_1_1util_1_1dsp_1_1_window.html#a24a7c52e3af01dfecaf75f7ec796008e">compute</a> (gsl::span(window_buffer.<a class="code" href="classotto_1_1util_1_1dyn__array.html#a4befe5466cba35ddbfa8453af430b27d">begin</a>(), size), type, normalize);</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  }</div><div class="ttc" id="classotto_1_1util_1_1dsp_1_1_window_html_a24a7c52e3af01dfecaf75f7ec796008e"><div class="ttname"><a href="classotto_1_1util_1_1dsp_1_1_window.html#a24a7c52e3af01dfecaf75f7ec796008e">otto::util::dsp::Window::compute</a></div><div class="ttdeci">static void compute(gsl::span&lt; double &gt; buffer, WindowType, bool normalize=true) noexcept</div><div class="ttdoc">Computes the window samples and stores them in the buffer. </div><div class="ttdef"><b>Definition:</b> <a href="window_8cpp_source.html#l00019">window.cpp:19</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a4befe5466cba35ddbfa8453af430b27d"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a4befe5466cba35ddbfa8453af430b27d">otto::util::dyn_array::begin</a></div><div class="ttdeci">T * begin()</div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00031">dyn-array.hpp:31</a></div></div>
-<div class="ttc" id="classotto_1_1util_1_1dyn__array_html_a2c08d1fa4d849927cafe60d3bf3ae05b"><div class="ttname"><a href="classotto_1_1util_1_1dyn__array.html#a2c08d1fa4d849927cafe60d3bf3ae05b">otto::util::dyn_array::resize</a></div><div class="ttdeci">void resize(std::size_t new_size)</div><div class="ttdef"><b>Definition:</b> <a href="dyn-array_8hpp_source.html#l00045">dyn-array.hpp:45</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="a56b33d580eb1eb396e9a977428f4bb3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b33d580eb1eb396e9a977428f4bb3b">&#9670;&nbsp;</a></span>apply_to()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::util::dsp::Window::apply_to </td>
+          <td>(</td>
+          <td class="paramtype">gsl::span&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multiplies the buffer and the window, sample by sample. </p>
+
+<p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00103">103</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
+
+</div>
+</div>
+<a id="afccdcd149753e459ad3a5a6a3fe12978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afccdcd149753e459ad3a5a6a3fe12978">&#9670;&nbsp;</a></span>get_window_type_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string otto::util::dsp::Window::get_window_type_name </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html">Window</a> type to string. </p>
+
+<p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00111">111</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a24a7c52e3af01dfecaf75f7ec796008e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24a7c52e3af01dfecaf75f7ec796008e">&#9670;&nbsp;</a></span>compute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::util::dsp::Window::compute </td>
+          <td>(</td>
+          <td class="paramtype">gsl::span&lt; double &gt;&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>normalize</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the window samples and stores them in the buffer. </p>
+
+<p class="definition">Definition at line <a class="el" href="window_8cpp_source.html#l00019">19</a> of file <a class="el" href="window_8cpp_source.html">window.cpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

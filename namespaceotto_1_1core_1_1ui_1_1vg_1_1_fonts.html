@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::ui::vg::Fonts Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -90,9 +96,6 @@ Variables</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void otto::core::ui::vg::Fonts::loadFont </td>
@@ -118,92 +121,27 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00036">36</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="vector__graphics_8hpp_source.html#l00034">font_dir</a>, and <a class="el" href="vector__graphics_8hpp_source.html#l00030">Light</a>.</p>
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01554">otto::filesystem::exists()</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00034">font_dir</a>, and <a class="el" href="vector__graphics_8hpp_source.html#l00030">Light</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="vector__graphics_8hpp_source.html#l00049">otto::core::ui::vg::initUtils()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;      <span class="keyword">auto</span> path = Fonts::font_dir / (name + <span class="stringliteral">&quot;.ttf&quot;</span>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      font = Font(ctx, name, path);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      <span class="keywordflow">if</span> (!Fonts::Light.valid()) {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        LOG_F(ERROR, <span class="stringliteral">&quot;Invalid font: {}&quot;</span>, Fonts::Light.name);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">if</span> (!fs::exists(path)) {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;          LOG_F(ERROR, <span class="stringliteral">&quot;Font file not found: {}&quot;</span>, path);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      }</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a1fc9cf378825a06de257810fb3216b6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fc9cf378825a06de257810fb3216b6a">&#9670;&nbsp;</a></span>Bold</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Font otto::core::ui::vg::Fonts::Bold</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00032">32</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="vector__graphics_8hpp_source.html#l00049">otto::core::ui::vg::initUtils()</a>.</p>
-
-</div>
-</div>
-<a id="ab08790309634e714e4d2285c5b8a2207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab08790309634e714e4d2285c5b8a2207">&#9670;&nbsp;</a></span>font_dir</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classotto_1_1filesystem_1_1path.html">fs::path</a> otto::core::ui::vg::Fonts::font_dir {&quot;data/fonts&quot;}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00034">34</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="vector__graphics_8hpp_source.html#l00036">loadFont()</a>.</p>
-
-</div>
-</div>
 <a id="ad6722d5739afd7b752a6ede383acf900"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6722d5739afd7b752a6ede383acf900">&#9670;&nbsp;</a></span>Light</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Font otto::core::ui::vg::Fonts::Light</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00030">30</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
@@ -217,24 +155,52 @@ Variables</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Font otto::core::ui::vg::Fonts::Norm</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00031">31</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="vector__graphics_8hpp_source.html#l00049">otto::core::ui::vg::initUtils()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="wormhole_8cpp_source.html#l00053">otto::engines::WormholeScreen::draw()</a>, <a class="el" href="voice__manager_8cpp_source.html#l00141">otto::core::audio::SettingsScreen::draw()</a>, <a class="el" href="selector__widget_8cpp_source.html#l00013">otto::core::ui::SelectorWidget::draw()</a>, <a class="el" href="euclid_8cpp_source.html#l00214">otto::engines::EuclidScreen::draw_normal()</a>, <a class="el" href="euclid_8cpp_source.html#l00192">otto::engines::EuclidScreen::draw_recording()</a>, and <a class="el" href="vector__graphics_8hpp_source.html#l00049">otto::core::ui::vg::initUtils()</a>.</p>
+
+</div>
+</div>
+<a id="a1fc9cf378825a06de257810fb3216b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc9cf378825a06de257810fb3216b6a">&#9670;&nbsp;</a></span>Bold</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Font otto::core::ui::vg::Fonts::Bold</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00032">32</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="external_8cpp_source.html#l00043">otto::engines::ExternalScreen::draw()</a>, <a class="el" href="master_8cpp_source.html#l00046">otto::engines::MasterScreen::draw()</a>, and <a class="el" href="vector__graphics_8hpp_source.html#l00049">otto::core::ui::vg::initUtils()</a>.</p>
+
+</div>
+</div>
+<a id="ab08790309634e714e4d2285c5b8a2207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab08790309634e714e4d2285c5b8a2207">&#9670;&nbsp;</a></span>font_dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classotto_1_1filesystem_1_1path.html">fs::path</a> otto::core::ui::vg::Fonts::font_dir {&quot;data/fonts&quot;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="vector__graphics_8hpp_source.html#l00034">34</a> of file <a class="el" href="vector__graphics_8hpp_source.html">vector_graphics.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="vector__graphics_8hpp_source.html#l00036">loadFont()</a>.</p>
 
 </div>
 </div>

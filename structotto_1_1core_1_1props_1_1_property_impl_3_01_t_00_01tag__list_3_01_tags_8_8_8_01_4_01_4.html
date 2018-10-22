@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -128,7 +134,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2c403b5d3bbb892cd99e1559088ee57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd5905c85f57b6d049dac11cce90710d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afd5905c85f57b6d049dac11cce90710d">set</a> (const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp;v)</td></tr>
 <tr class="separator:afd5905c85f57b6d049dac11cce90710d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add4ea15874eaf0926bd4f703e75aa292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">PropertyImpl</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#add4ea15874eaf0926bd4f703e75aa292">operator=</a> (const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp;rhs)</td></tr>
+<tr class="memitem:add4ea15874eaf0926bd4f703e75aa292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#add4ea15874eaf0926bd4f703e75aa292">operator=</a> (const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp;rhs)</td></tr>
 <tr class="separator:add4ea15874eaf0926bd4f703e75aa292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace93d9cbca419154771fa4ec1aa1ddf5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#ace93d9cbca419154771fa4ec1aa1ddf5">operator const value_type &amp;</a> () const</td></tr>
 <tr class="separator:ace93d9cbca419154771fa4ec1aa1ddf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +183,62 @@ struct otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</h3
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00021">21</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a713f3e5bd83a330b552bca24d51c34bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a713f3e5bd83a330b552bca24d51c34bc">&#9670;&nbsp;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Tags&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> =  T</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00022">22</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a41c23b18e35229a83e1fb1a8b3cc29b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41c23b18e35229a83e1fb1a8b3cc29b6">&#9670;&nbsp;</a></span>tag_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Tags&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a> =  <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt;Tags...&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00023">23</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9ddbd53817a7ae14ef069cef58b2ee8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ddbd53817a7ae14ef069cef58b2ee8e">&#9670;&nbsp;</a></span>mixin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Tags&gt; </div>
+<div class="memtemplate">
+template&lt;typename Tag &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a9ddbd53817a7ae14ef069cef58b2ee8e">mixin</a> =  <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00026">26</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a45d9ef7918d0d8bb59d586bf58c0cdc5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a45d9ef7918d0d8bb59d586bf58c0cdc5">&#9670;&nbsp;</a></span>hook</h2>
 
@@ -188,7 +250,7 @@ template&lt;typename T , typename... Tags&gt; </div>
 template&lt;typename Hook &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a> =  <a class="el" href="structotto_1_1core_1_1props_1_1_hook_tag.html#ac6e967edcf0fe49fababb4dd8e8f7a95">HookTag::impl_t</a>&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a> =  <a class="el" href="structotto_1_1core_1_1props_1_1_hook_tag.html#ac6e967edcf0fe49fababb4dd8e8f7a95">HookTag::impl_t</a>&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -235,63 +297,7 @@ template&lt;typename Tag , typename T , typename TagList &gt; </div>
 
 <p>Get mixin type for type <code>T</code> and tag <code>Tag</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00217">217</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9ddbd53817a7ae14ef069cef58b2ee8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ddbd53817a7ae14ef069cef58b2ee8e">&#9670;&nbsp;</a></span>mixin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Tags&gt; </div>
-<div class="memtemplate">
-template&lt;typename Tag &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a9ddbd53817a7ae14ef069cef58b2ee8e">mixin</a> =  <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00026">26</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a41c23b18e35229a83e1fb1a8b3cc29b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41c23b18e35229a83e1fb1a8b3cc29b6">&#9670;&nbsp;</a></span>tag_list</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Tags&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a> =  <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt;Tags...&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00023">23</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a713f3e5bd83a330b552bca24d51c34bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a713f3e5bd83a330b552bca24d51c34bc">&#9670;&nbsp;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Tags&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> =  T</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00022">22</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00219">219</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -305,12 +311,9 @@ template&lt;typename T , typename... Tags&gt; </div>
 template&lt;typename T , typename... Tags&gt; </div>
 <div class="memtemplate">
 template&lt;typename TRef , typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">PropertyImpl</a> </td>
+          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html">branch_base</a> *&#160;</td>
           <td class="paramname"><em>parent</em>, </td>
@@ -339,121 +342,13 @@ template&lt;typename TRef , typename... Args&gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00051">51</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      : <a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#add4a5e250add03e9acb340a9cd3df44c">property_base</a>(<a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">parent</a>, <a class="code" href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">name</a>), <a class="code" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afe1c119bc828cd0fee13458846c123b4">value_</a>(std::forward&lt;TRef&gt;(value))</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <span class="keywordflow">if</span> constexpr ((is_initializer_v&lt;Args&gt; &amp;&amp; ...)) {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">// GCC 7.2 marks this variable as unused.</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        [[maybe_unused]] <span class="keyword">auto</span> lambda = [](<a class="code" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a641b7b6d6399af9df95b142b2afe40c3">PropertyImpl</a>* obj, <span class="keyword">auto</span>&amp;&amp; tuple) { obj-&gt;init_with_tuple(tuple); };</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="comment">// fold expression on comma operator</span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        (lambda(<span class="keyword">this</span>, std::forward&lt;Args&gt;(args)), ...);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keyword">static_cast&lt;</span>inherits_from_mixins_t&lt;T, tag_list&gt;&amp;<span class="keyword">&gt;</span>(*this) = {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          std::forward&lt;Args&gt;(args)...};</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      }</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div><div class="ttc" id="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4_html_afe1c119bc828cd0fee13458846c123b4"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afe1c119bc828cd0fee13458846c123b4">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;::value_</a></div><div class="ttdeci">value_type value_</div><div class="ttdef"><b>Definition:</b> <a href="property_8hpp_source.html#l00126">property.hpp:126</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1props_1_1property__base_html_a0bb63a6e55cebe7add9a227e07b3f2ab"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">otto::core::props::property_base::parent</a></div><div class="ttdeci">branch_base const  *const parent() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="base_8hpp_source.html#l00046">base.hpp:46</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1props_1_1property__base_html_add4a5e250add03e9acb340a9cd3df44c"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1property__base.html#add4a5e250add03e9acb340a9cd3df44c">otto::core::props::property_base::property_base</a></div><div class="ttdeci">property_base(branch_base *parent=nullptr, std::string const &amp;name=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="base_8cpp_source.html#l00005">base.cpp:5</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1props_1_1property__base_html_a9ca0d8189160a1ffd0dbf28e0986eb4c"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">otto::core::props::property_base::name</a></div><div class="ttdeci">const std::string &amp; name() const noexcept</div><div class="ttdef"><b>Definition:</b> <a href="base_8hpp_source.html#l00041">base.hpp:41</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4_html_a641b7b6d6399af9df95b142b2afe40c3"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a641b7b6d6399af9df95b142b2afe40c3">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;::PropertyImpl</a></div><div class="ttdeci">PropertyImpl(branch_base *parent, std::string const &amp;name, TRef &amp;&amp;value, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> <a href="property_8hpp_source.html#l00051">property.hpp:51</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acbc638e90504bb0ec19072505066dcf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbc638e90504bb0ec19072505066dcf8">&#9670;&nbsp;</a></span>as() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Tags&gt; </div>
-<div class="memtemplate">
-template&lt;typename Tag &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::as </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> -&gt; ::std::enable_if_t&lt;
-      PropertyImpl::is&lt;Tag&gt;,
-      <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00070">70</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        MixinTag::leaf&lt;Tag, value_type, tag_list&gt;&amp;<span class="keyword">&gt;</span>(*this);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a866f46b010155f0077accb4f62269a6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a866f46b010155f0077accb4f62269a6a">&#9670;&nbsp;</a></span>as() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Tags&gt; </div>
-<div class="memtemplate">
-template&lt;typename Tag &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::as </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const -&gt; ::std::enable_if_t&lt;
-      PropertyImpl::is&lt;Tag&gt;,
-      const <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00079">79</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>MixinTag::leaf&lt;Tag, value_type, tag_list&gt;&amp;<span class="keyword">&gt;</span>(</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        *<span class="keyword">this</span>);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a2c403b5d3bbb892cd99e1559088ee57f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c403b5d3bbb892cd99e1559088ee57f">&#9670;&nbsp;</a></span>get()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Tags&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::get </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00104">104</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afe1c119bc828cd0fee13458846c123b4">value_</a>;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div><div class="ttc" id="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4_html_afe1c119bc828cd0fee13458846c123b4"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afe1c119bc828cd0fee13458846c123b4">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;::value_</a></div><div class="ttdeci">value_type value_</div><div class="ttdef"><b>Definition:</b> <a href="property_8hpp_source.html#l00126">property.hpp:126</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="adbc968191e7b515bfd56498bed63e7d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adbc968191e7b515bfd56498bed63e7d0">&#9670;&nbsp;</a></span>init()</h2>
 
@@ -463,30 +358,23 @@ template&lt;typename T , typename... Tags&gt; </div>
 template&lt;typename T , typename... Tags&gt; </div>
 <div class="memtemplate">
 template&lt;typename Tag , typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::init </td>
+          <td class="memname">void <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::init </td>
           <td>(</td>
           <td class="paramtype">Args &amp;&amp;...&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Initialize the mixin of type <code>Tag</code> with args. </p>
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00033">33</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      static_assert(meta::contains_v&lt;tag_list, Tag&gt;,</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    <span class="stringliteral">&quot;Attempt to init a mixin which the property does not have&quot;</span>);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;      <span class="keyword">static_cast&lt;</span>mixin&lt;Tag&gt;*<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;<a class="code" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#adbc968191e7b515bfd56498bed63e7d0">init</a>(std::forward&lt;Args&gt;(args)...);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div><div class="ttc" id="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4_html_adbc968191e7b515bfd56498bed63e7d0"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#adbc968191e7b515bfd56498bed63e7d0">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;::init</a></div><div class="ttdeci">void init(Args &amp;&amp;... args)</div><div class="ttdoc">Initialize the mixin of type Tag with args. </div><div class="ttdef"><b>Definition:</b> <a href="property_8hpp_source.html#l00033">property.hpp:33</a></div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="audio_8cpp_source.html#l00067">otto::service::audio::init()</a>.</p>
+
 </div>
 </div>
 <a id="aa9591819cfc718f83ae3088553f6172c"></a>
@@ -498,88 +386,73 @@ template&lt;typename Tag , typename... Args&gt; </div>
 template&lt;typename T , typename... Tags&gt; </div>
 <div class="memtemplate">
 template&lt;typename Tag , typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::init_with_tuple </td>
+          <td class="memname">void <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::init_with_tuple </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1props_1_1_tagged_tuple.html">TaggedTuple</a>&lt; Tag, Args... &gt; &amp;&#160;</td>
           <td class="paramname"><em>tt</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00041">41</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="tag__list_8hpp_source.html#l00118">otto::core::props::TaggedTuple&lt; Tag, Args &gt;::args</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <span class="comment">// Clang is bugged, and marks the `this` capture as unused if the lambda</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      <span class="comment">// is inlined in the `apply` call.</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      <span class="comment">// GCC 7.2 marks the variable `lambda` as unused.</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      [[maybe_unused]] <span class="keyword">auto</span> lambda = [<span class="keyword">this</span>](<span class="keyword">auto</span>&amp;&amp;... init_args) {this-&gt;init&lt;Tag&gt;(init_args...);};</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      std::apply(lambda, tt.args);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
-<a id="ace93d9cbca419154771fa4ec1aa1ddf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace93d9cbca419154771fa4ec1aa1ddf5">&#9670;&nbsp;</a></span>operator const value_type &amp;()</h2>
+<a id="acbc638e90504bb0ec19072505066dcf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbc638e90504bb0ec19072505066dcf8">&#9670;&nbsp;</a></span>as() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , typename... Tags&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;typename Tag &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::operator const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp; </td>
+          <td class="memname">auto <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::as </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td> -&gt; ::std::enable_if_t&lt;
+      PropertyImpl::is&lt;Tag&gt;,
+      <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
+    </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00120">120</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">get</span>();</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00070">70</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
 </div>
 </div>
-<a id="add4ea15874eaf0926bd4f703e75aa292"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add4ea15874eaf0926bd4f703e75aa292">&#9670;&nbsp;</a></span>operator=()</h2>
+<a id="a866f46b010155f0077accb4f62269a6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a866f46b010155f0077accb4f62269a6a">&#9670;&nbsp;</a></span>as() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , typename... Tags&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;typename Tag &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">PropertyImpl</a>&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::operator= </td>
+          <td class="memname">auto <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::as </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; ::std::enable_if_t&lt;
+      PropertyImpl::is&lt;Tag&gt;,
+      const <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
+    </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00114">114</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="keyword">set</span>(rhs);</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00079">79</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
 </div>
 </div>
 <a id="af07ad30dc80284f04cb70874b5d3700a"></a>
@@ -591,27 +464,19 @@ template&lt;typename T , typename... Tags&gt; </div>
 template&lt;typename T , typename... Tags&gt; </div>
 <div class="memtemplate">
 template&lt;typename Hook &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>&gt;::arg_type <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::run_hook </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>&gt;::arg_type <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::run_hook </td>
           <td>(</td>
           <td class="paramtype">const typename <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a> &gt;::arg_type &amp;&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00091">91</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    {</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      return ::otto::core::props::detail::run_hook&lt;Hook&gt;(*<span class="keyword">this</span>, arg);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a65402a7cdfc545c9837a0baab2581252"></a>
@@ -623,27 +488,40 @@ template&lt;typename Hook &gt; </div>
 template&lt;typename T , typename... Tags&gt; </div>
 <div class="memtemplate">
 template&lt;typename Hook &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>&gt;::arg_type <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::run_hook </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>&gt;::arg_type <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::run_hook </td>
           <td>(</td>
           <td class="paramtype">const typename <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a> &gt;::arg_type &amp;&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00098">98</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    {</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      return ::otto::core::props::detail::run_hook&lt;Hook&gt;(*<span class="keyword">this</span>, arg);</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="a2c403b5d3bbb892cd99e1559088ee57f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c403b5d3bbb892cd99e1559088ee57f">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Tags&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>&amp; <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00104">104</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
 </div>
 </div>
 <a id="afd5905c85f57b6d049dac11cce90710d"></a>
@@ -653,29 +531,62 @@ template&lt;typename Hook &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , typename... Tags&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::set </td>
+          <td class="memname">void <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::set </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp;&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00109">109</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <a class="code" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afe1c119bc828cd0fee13458846c123b4">value_</a> = run_hook&lt;common::hooks::on_set&gt;(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a9e3669d19b675bd57058fd4664205d2a">v</a>);</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div><div class="ttc" id="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4_html_afe1c119bc828cd0fee13458846c123b4"><div class="ttname"><a href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afe1c119bc828cd0fee13458846c123b4">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;::value_</a></div><div class="ttdeci">value_type value_</div><div class="ttdef"><b>Definition:</b> <a href="property_8hpp_source.html#l00126">property.hpp:126</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a9e3669d19b675bd57058fd4664205d2a"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a9e3669d19b675bd57058fd4664205d2a">otto::board::ui::Key::v</a></div></div>
-</div><!-- fragment -->
+
+</div>
+</div>
+<a id="add4ea15874eaf0926bd4f703e75aa292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4ea15874eaf0926bd4f703e75aa292">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Tags&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a>&amp; <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00114">114</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ace93d9cbca419154771fa4ec1aa1ddf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace93d9cbca419154771fa4ec1aa1ddf5">&#9670;&nbsp;</a></span>operator const value_type &amp;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Tags&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::operator const <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> &amp; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00120">120</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -693,7 +604,7 @@ template&lt;typename Tag &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr bool <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::is</td>
+          <td class="memname">constexpr bool <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::is</td>
         </tr>
       </table>
   </td>
@@ -719,7 +630,7 @@ template&lt;typename T , typename... Tags&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl.html">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::value_</td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::value_</td>
         </tr>
       </table>
   </td>

@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::engines::EngineScreen&lt; Engine &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -69,6 +75,9 @@
 </div><!--header-->
 <div class="contents">
 
+<p>A [<a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html" title="Represents a view that covers the entire screen. ">ui::Screen</a>]() with a reference to the engine it belongs to.  
+ <a href="structotto_1_1core_1_1engines_1_1_engine_screen.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="engine_8hpp_source.html">engine.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for otto::core::engines::EngineScreen&lt; Engine &gt;:</div>
@@ -76,8 +85,8 @@ Inheritance diagram for otto::core::engines::EngineScreen&lt; Engine &gt;:</div>
  <div class="center">
   <img src="structotto_1_1core_1_1engines_1_1_engine_screen.png" usemap="#otto::core::engines::EngineScreen_3C_20Engine_20_3E_map" alt=""/>
   <map id="otto::core::engines::EngineScreen_3C_20Engine_20_3E_map" name="otto::core::engines::EngineScreen_3C_20Engine_20_3E_map">
-<area href="structotto_1_1core_1_1ui_1_1_screen.html" alt="otto::core::ui::Screen" shape="rect" coords="0,56,263,80"/>
-<area href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html" alt="otto::core::ui::vg::Drawable" shape="rect" coords="0,0,263,24"/>
+<area href="structotto_1_1core_1_1ui_1_1_screen.html" title="Represents a view that covers the entire screen. " alt="otto::core::ui::Screen" shape="rect" coords="0,56,263,80"/>
+<area href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html" title="Anything that can be drawn on screen. " alt="otto::core::ui::vg::Drawable" shape="rect" coords="0,0,263,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -93,10 +102,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9f1465af233673b1816a0a63b6d1f251 inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#a9f1465af233673b1816a0a63b6d1f251">~Screen</a> ()</td></tr>
 <tr class="separator:a9f1465af233673b1816a0a63b6d1f251 inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f36a9375ebdaf7ecc756c62028f0dae inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#a1f36a9375ebdaf7ecc756c62028f0dae">keypress</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">Key</a>)</td></tr>
+<tr class="memdesc:a1f36a9375ebdaf7ecc756c62028f0dae inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run by MainUI when a key is pressed.  <a href="structotto_1_1core_1_1ui_1_1_screen.html#a1f36a9375ebdaf7ecc756c62028f0dae">More...</a><br /></td></tr>
 <tr class="separator:a1f36a9375ebdaf7ecc756c62028f0dae inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b03452100b3b653fe2e7b644622789d inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#a3b03452100b3b653fe2e7b644622789d">keyrelease</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">Key</a>)</td></tr>
+<tr class="memdesc:a3b03452100b3b653fe2e7b644622789d inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run by MainUI when a key is released.  <a href="structotto_1_1core_1_1ui_1_1_screen.html#a3b03452100b3b653fe2e7b644622789d">More...</a><br /></td></tr>
 <tr class="separator:a3b03452100b3b653fe2e7b644622789d inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c56f8a233f936cf51ab1f78a387994c inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#a8c56f8a233f936cf51ab1f78a387994c">rotary</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1_rotary_event.html">RotaryEvent</a>)</td></tr>
+<tr class="memitem:a8c56f8a233f936cf51ab1f78a387994c inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#a8c56f8a233f936cf51ab1f78a387994c">rotary</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#structotto_1_1core_1_1ui_1_1_rotary_event">RotaryEvent</a>)</td></tr>
 <tr class="memdesc:a8c56f8a233f936cf51ab1f78a387994c inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="mdescLeft">&#160;</td><td class="mdescRight">This should be used for handling rotary events.  <a href="structotto_1_1core_1_1ui_1_1_screen.html#a8c56f8a233f936cf51ab1f78a387994c">More...</a><br /></td></tr>
 <tr class="separator:a8c56f8a233f936cf51ab1f78a387994c inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7566f2a3a3e9b47255f23761f7e918de inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#a7566f2a3a3e9b47255f23761f7e918de">on_show</a> ()</td></tr>
@@ -111,6 +122,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa93d69e884b15b84ab6f27fb2e39e1e0 inherit pub_methods_structotto_1_1core_1_1ui_1_1vg_1_1_drawable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html#aa93d69e884b15b84ab6f27fb2e39e1e0">~Drawable</a> ()=default</td></tr>
 <tr class="separator:aa93d69e884b15b84ab6f27fb2e39e1e0 inherit pub_methods_structotto_1_1core_1_1ui_1_1vg_1_1_drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54934412e804f95fb947b6e75f6e4dcc inherit pub_methods_structotto_1_1core_1_1ui_1_1vg_1_1_drawable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html#a54934412e804f95fb947b6e75f6e4dcc">draw</a> (<a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html">Canvas</a> &amp;ctx)=0</td></tr>
+<tr class="memdesc:a54934412e804f95fb947b6e75f6e4dcc inherit pub_methods_structotto_1_1core_1_1ui_1_1vg_1_1_drawable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw this widget to the context.  <a href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html#a54934412e804f95fb947b6e75f6e4dcc">More...</a><br /></td></tr>
 <tr class="separator:a54934412e804f95fb947b6e75f6e4dcc inherit pub_methods_structotto_1_1core_1_1ui_1_1vg_1_1_drawable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
@@ -122,7 +134,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Engine&gt;<br />
 struct otto::core::engines::EngineScreen&lt; Engine &gt;</h3>
 
-<p>A [<a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a>]() with a reference to the engine it belongs to.</p>
+<p>A [<a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html" title="Represents a view that covers the entire screen. ">ui::Screen</a>]() with a reference to the engine it belongs to. </p>
 <p>Screens for engines should inherit from this. They can then access the engine from the <code>engine</code> reference. </p>
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00236">236</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
@@ -134,9 +146,6 @@ struct otto::core::engines::EngineScreen&lt; Engine &gt;</h3>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Engine&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1core_1_1engines_1_1_engine_screen.html">otto::core::engines::EngineScreen</a>&lt; <a class="el" href="structotto_1_1core_1_1engines_1_1_engine.html">Engine</a> &gt;::<a class="el" href="structotto_1_1core_1_1engines_1_1_engine_screen.html">EngineScreen</a> </td>
@@ -146,17 +155,10 @@ template&lt;typename Engine&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00238">238</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      : <a class="code" href="structotto_1_1core_1_1ui_1_1_screen.html#adce968b280300fda0c51f7fe3b018729">Screen</a>(), <a class="code" href="structotto_1_1core_1_1engines_1_1_engine_screen.html#a49850367438ff04210dea776855d9be3">engine</a>(*<a class="code" href="structotto_1_1core_1_1engines_1_1_engine_screen.html#a49850367438ff04210dea776855d9be3">engine</a>)</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    {}</div><div class="ttc" id="structotto_1_1core_1_1engines_1_1_engine_screen_html_a49850367438ff04210dea776855d9be3"><div class="ttname"><a href="structotto_1_1core_1_1engines_1_1_engine_screen.html#a49850367438ff04210dea776855d9be3">otto::core::engines::EngineScreen::engine</a></div><div class="ttdeci">Engine &amp; engine</div><div class="ttdef"><b>Definition:</b> <a href="engine_8hpp_source.html#l00245">engine.hpp:245</a></div></div>
-<div class="ttc" id="structotto_1_1core_1_1ui_1_1_screen_html_adce968b280300fda0c51f7fe3b018729"><div class="ttname"><a href="structotto_1_1core_1_1ui_1_1_screen.html#adce968b280300fda0c51f7fe3b018729">otto::core::ui::Screen::Screen</a></div><div class="ttdeci">Screen()</div><div class="ttdef"><b>Definition:</b> <a href="screen_8hpp_source.html#l00067">screen.hpp:67</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="af26168debf84dd353ae063d6fea4e6e2"></a>
@@ -179,13 +181,13 @@ template&lt;typename Engine&gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00242">242</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;{}</div></div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

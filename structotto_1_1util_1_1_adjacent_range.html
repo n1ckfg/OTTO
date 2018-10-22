@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::AdjacentRange&lt; Range &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -128,9 +134,6 @@ template&lt;typename Range &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Range &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1_adjacent_range.html">otto::util::AdjacentRange</a>&lt; Range &gt;::<a class="el" href="structotto_1_1util_1_1_adjacent_range.html">AdjacentRange</a> </td>
@@ -140,17 +143,12 @@ template&lt;typename Range &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00885">885</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;      : <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">first</a>  {std::begin(range)},</div><div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;        <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">last</a>  {std::end(range)}</div><div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    {</div><div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">first</a> != <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">last</a>) {</div><div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <span class="comment">// No pair starting with last element</span></div><div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;        <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">last</a>--;</div><div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;      }</div><div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1_adjacent_range_html_aaca82f16c95f9eec1d217a8cb3a85b6b"><div class="ttname"><a href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">otto::util::AdjacentRange::last</a></div><div class="ttdeci">iterator last</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00915">iterator.hpp:915</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_adjacent_range_html_aea8c56dec140ae3813888bef2e69439d"><div class="ttname"><a href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">otto::util::AdjacentRange::first</a></div><div class="ttdeci">iterator first</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00914">iterator.hpp:914</a></div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01171">otto::filesystem::begin()</a>.</p>
+
 </div>
 </div>
 <a id="a2032e5c74ad5cbad1c62322a9db4c9f7"></a>
@@ -160,9 +158,6 @@ template&lt;typename Range &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Range &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1_adjacent_range.html">otto::util::AdjacentRange</a>&lt; Range &gt;::<a class="el" href="structotto_1_1util_1_1_adjacent_range.html">AdjacentRange</a> </td>
@@ -172,17 +167,12 @@ template&lt;typename Range &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00895">895</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;      : <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">first</a>  {std::begin(range)},</div><div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">last</a>  {std::end(range)}</div><div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;    {</div><div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">first</a> != <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">last</a>) {</div><div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;        <span class="comment">// No pair starting with last element</span></div><div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">last</a>--;</div><div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;      }</div><div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1_adjacent_range_html_aaca82f16c95f9eec1d217a8cb3a85b6b"><div class="ttname"><a href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">otto::util::AdjacentRange::last</a></div><div class="ttdeci">iterator last</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00915">iterator.hpp:915</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_adjacent_range_html_aea8c56dec140ae3813888bef2e69439d"><div class="ttname"><a href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">otto::util::AdjacentRange::first</a></div><div class="ttdeci">iterator first</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00914">iterator.hpp:914</a></div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01171">otto::filesystem::begin()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -193,9 +183,6 @@ template&lt;typename Range &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Range &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="structotto_1_1util_1_1_adjacent_range.html">otto::util::AdjacentRange</a>&lt; Range &gt;::begin </td>
@@ -204,18 +191,12 @@ template&lt;typename Range &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00906">906</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00914">otto::util::AdjacentRange&lt; Range &gt;::first</a>.</p>
-<div class="fragment"><div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;                 {</div><div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">first</a>;</div><div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1_adjacent_range_html_aea8c56dec140ae3813888bef2e69439d"><div class="ttname"><a href="structotto_1_1util_1_1_adjacent_range.html#aea8c56dec140ae3813888bef2e69439d">otto::util::AdjacentRange::first</a></div><div class="ttdeci">iterator first</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00914">iterator.hpp:914</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a3f2bd20debb5dbb9056c5f5420eaa186"></a>
@@ -225,9 +206,6 @@ template&lt;typename Range &gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename Range &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="structotto_1_1util_1_1_adjacent_range.html">otto::util::AdjacentRange</a>&lt; Range &gt;::end </td>
@@ -236,18 +214,12 @@ template&lt;typename Range &gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00910">910</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00915">otto::util::AdjacentRange&lt; Range &gt;::last</a>.</p>
-<div class="fragment"><div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;               {</div><div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">last</a>;</div><div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    }</div><div class="ttc" id="structotto_1_1util_1_1_adjacent_range_html_aaca82f16c95f9eec1d217a8cb3a85b6b"><div class="ttname"><a href="structotto_1_1util_1_1_adjacent_range.html#aaca82f16c95f9eec1d217a8cb3a85b6b">otto::util::AdjacentRange::last</a></div><div class="ttdeci">iterator last</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00915">iterator.hpp:915</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

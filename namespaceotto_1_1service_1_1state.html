@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::state Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -86,10 +92,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:a00efba0942530847d98d4707db59b963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoke attached savers and write <code>data/state.json</code>  <a href="#a00efba0942530847d98d4707db59b963">More...</a><br /></td></tr>
 <tr class="separator:a00efba0942530847d98d4707db59b963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5625fc6a54be8f0ea535b738e9fc4b37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1state.html#a5625fc6a54be8f0ea535b738e9fc4b37">attach</a> (std::string name, <a class="el" href="namespaceotto_1_1service_1_1state.html#a6bd1cb96adebe752c35786ae887a82f3">Loader</a> <a class="el" href="namespaceotto_1_1service_1_1state.html#adb45f3fbc133f640cc8679f085d3763d">load</a>, <a class="el" href="namespaceotto_1_1service_1_1state.html#a51b9577436d3887ec12301f8fac79e84">Saver</a> <a class="el" href="namespaceotto_1_1service_1_1state.html#a00efba0942530847d98d4707db59b963">save</a>)</td></tr>
+<tr class="memdesc:a5625fc6a54be8f0ea535b738e9fc4b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attach state handler with a name.  <a href="#a5625fc6a54be8f0ea535b738e9fc4b37">More...</a><br /></td></tr>
 <tr class="separator:a5625fc6a54be8f0ea535b738e9fc4b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3ac91964f3a1a2ec639c42fcb4a2908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1state.html#aa3ac91964f3a1a2ec639c42fcb4a2908">detach</a> (const std::string &amp;name)</td></tr>
 <tr class="separator:aa3ac91964f3a1a2ec639c42fcb4a2908"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7133e2abc98a09fb4f140e662ed56b37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1state.html#a7133e2abc98a09fb4f140e662ed56b37">detach</a> (std::string name)</td></tr>
+<tr class="memdesc:a7133e2abc98a09fb4f140e662ed56b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detach a state handler.  <a href="#a7133e2abc98a09fb4f140e662ed56b37">More...</a><br /></td></tr>
 <tr class="separator:a7133e2abc98a09fb4f140e662ed56b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -130,6 +138,52 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="adb45f3fbc133f640cc8679f085d3763d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb45f3fbc133f640cc8679f085d3763d">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::state::load </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read <code>data/state.json</code> and invoke attached loaders. </p>
+
+<p class="definition">Definition at line <a class="el" href="state_8cpp_source.html#l00096">96</a> of file <a class="el" href="state_8cpp_source.html">state.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="state_8cpp_source.html#l00106">attach()</a>, <a class="el" href="engines_8cpp_source.html#l00030">otto::service::engines::init()</a>, <a class="el" href="ui_8cpp_source.html#l00071">otto::service::ui::init()</a>, and <a class="el" href="main_8cpp_source.html#l00022">main()</a>.</p>
+
+</div>
+</div>
+<a id="a00efba0942530847d98d4707db59b963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00efba0942530847d98d4707db59b963">&#9670;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::service::state::save </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invoke attached savers and write <code>data/state.json</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="state_8cpp_source.html#l00101">101</a> of file <a class="el" href="state_8cpp_source.html">state.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="state_8cpp_source.html#l00106">attach()</a>, <a class="el" href="canvas_8hpp_source.html#l00446">otto::core::ui::vg::Canvas::callAt()</a>, <a class="el" href="main_8cpp_source.html#l00080">cleanup()</a>, <a class="el" href="canvas_8hpp_source.html#l00422">otto::core::ui::vg::Canvas::drawAt()</a>, <a class="el" href="canvas_8hpp_source.html#l00439">otto::core::ui::vg::Canvas::group()</a>, <a class="el" href="engines_8cpp_source.html#l00030">otto::service::engines::init()</a>, and <a class="el" href="ui_8cpp_source.html#l00071">otto::service::ui::init()</a>.</p>
+
+</div>
+</div>
 <a id="a5625fc6a54be8f0ea535b738e9fc4b37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5625fc6a54be8f0ea535b738e9fc4b37">&#9670;&nbsp;</a></span>attach()</h2>
 
@@ -161,7 +215,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Attach state handler with a name</p>
+
+<p>Attach state handler with a name. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">[otto::util::exception]()</td><td>If a handler has already been attached with the name <code>name</code> </td></tr>
@@ -174,36 +229,11 @@ Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="state_8cpp_source.html#l00096">load()</a>, and <a class="el" href="state_8cpp_source.html#l00101">save()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="engines_8cpp_source.html#l00030">otto::service::engines::init()</a>, and <a class="el" href="ui_8cpp_source.html#l00071">otto::service::ui::init()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    State::instance().attach(std::move(name), std::move(load), std::move(save));</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a7133e2abc98a09fb4f140e662ed56b37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7133e2abc98a09fb4f140e662ed56b37">&#9670;&nbsp;</a></span>detach() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::state::detach </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Detach a state handler</p>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">[otto::util::exception]()</td><td>If no such handler is attached </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
 <a id="aa3ac91964f3a1a2ec639c42fcb4a2908"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3ac91964f3a1a2ec639c42fcb4a2908">&#9670;&nbsp;</a></span>detach() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3ac91964f3a1a2ec639c42fcb4a2908">&#9670;&nbsp;</a></span>detach() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,53 +249,33 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="state_8cpp_source.html#l00111">111</a> of file <a class="el" href="state_8cpp_source.html">state.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  {</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    State::instance().detach(name);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
-<a id="adb45f3fbc133f640cc8679f085d3763d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb45f3fbc133f640cc8679f085d3763d">&#9670;&nbsp;</a></span>load()</h2>
+<a id="a7133e2abc98a09fb4f140e662ed56b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7133e2abc98a09fb4f140e662ed56b37">&#9670;&nbsp;</a></span>detach() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void otto::service::state::load </td>
+          <td class="memname">void otto::service::state::detach </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Read <code>data/state.json</code> and invoke attached loaders. </p>
+<p>Detach a state handler. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">[otto::util::exception]()</td><td>If no such handler is attached </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="state_8cpp_source.html#l00096">96</a> of file <a class="el" href="state_8cpp_source.html">state.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="state_8cpp_source.html#l00106">attach()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    State::instance().load();</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a00efba0942530847d98d4707db59b963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00efba0942530847d98d4707db59b963">&#9670;&nbsp;</a></span>save()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::service::state::save </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Invoke attached savers and write <code>data/state.json</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="state_8cpp_source.html#l00101">101</a> of file <a class="el" href="state_8cpp_source.html">state.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="state_8cpp_source.html#l00106">attach()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  {</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    State::instance().save();</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

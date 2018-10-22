@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::filesystem::file_status Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -117,15 +123,13 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00296">296</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;: <a class="code" href="classotto_1_1filesystem_1_1file__status.html#a21d16a1bd7dcbb046a0b854966d67776">file_status</a>(<a class="code" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a334c4a4c42fdb79d7ebc3e73b517e6f8">file_type::none</a>) {}</div><div class="ttc" id="namespaceotto_1_1filesystem_html_a0070c2df408661b3899ffa354bdf5792a334c4a4c42fdb79d7ebc3e73b517e6f8"><div class="ttname"><a href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::file_type::none</a></div></div>
-<div class="ttc" id="classotto_1_1filesystem_1_1file__status_html_a21d16a1bd7dcbb046a0b854966d67776"><div class="ttname"><a href="classotto_1_1filesystem_1_1file__status.html#a21d16a1bd7dcbb046a0b854966d67776">otto::filesystem::file_status::file_status</a></div><div class="ttdeci">file_status() noexcept</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8hpp_source.html#l00296">filesystem.hpp:296</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ab4d346345c3510eda742a8c9b1c1d364"></a>
@@ -163,7 +167,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00729">729</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    : _type(ft), _perms(prms)</div><div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  {}</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="af385f0de261cb2b2575ebae70fba9958"></a>
@@ -234,7 +238,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00733">733</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;{}</div></div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -290,61 +294,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9819e252b19f893bca1d482f0fb9bbad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9819e252b19f893bca1d482f0fb9bbad">&#9670;&nbsp;</a></span>permissions() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::filesystem::file_status::permissions </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a>&#160;</td>
-          <td class="paramname"><em>prms</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00742">742</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;  {</div><div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    _perms = prms;</div><div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="af73de9a458fc2e669cc3fba59b67584b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af73de9a458fc2e669cc3fba59b67584b">&#9670;&nbsp;</a></span>permissions() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a> otto::filesystem::file_status::permissions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00755">755</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;  {</div><div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    <span class="keywordflow">return</span> _perms;</div><div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="ac79b4b1cd4e6b30090e0c7179d2670a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac79b4b1cd4e6b30090e0c7179d2670a3">&#9670;&nbsp;</a></span>type() <span class="overload">[1/2]</span></h2>
 
@@ -372,7 +321,35 @@ Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00737">737</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l01554">otto::filesystem::exists()</a>, <a class="el" href="filesystem_8cpp_source.html#l01569">otto::filesystem::is_block_file()</a>, <a class="el" href="filesystem_8cpp_source.html#l01584">otto::filesystem::is_character_file()</a>, <a class="el" href="filesystem_8cpp_source.html#l01599">otto::filesystem::is_directory()</a>, <a class="el" href="filesystem_8cpp_source.html#l01614">otto::filesystem::is_fifo()</a>, <a class="el" href="filesystem_8cpp_source.html#l01645">otto::filesystem::is_regular_file()</a>, <a class="el" href="filesystem_8cpp_source.html#l01660">otto::filesystem::is_socket()</a>, and <a class="el" href="filesystem_8cpp_source.html#l01675">otto::filesystem::is_symlink()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;  {</div><div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    _type = ft;</div><div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;  }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="a9819e252b19f893bca1d482f0fb9bbad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9819e252b19f893bca1d482f0fb9bbad">&#9670;&nbsp;</a></span>permissions() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::filesystem::file_status::permissions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a>&#160;</td>
+          <td class="paramname"><em>prms</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00742">742</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a253617ff55fe3e3d488be9ce1e8bbe38"></a>
@@ -399,7 +376,34 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00750">750</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;  {</div><div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <span class="keywordflow">return</span> _type;</div><div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;  }</div></div><!-- fragment -->
+
+</div>
+</div>
+<a id="af73de9a458fc2e669cc3fba59b67584b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af73de9a458fc2e669cc3fba59b67584b">&#9670;&nbsp;</a></span>permissions() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864">perms</a> otto::filesystem::file_status::permissions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00755">755</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

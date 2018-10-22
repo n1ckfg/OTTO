@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: MidiInApi Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -124,7 +130,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a317393a9094e7c2bf51337adbabe6a71 inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e5ef07b3066f3a3d11ae322fde6cc3 inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a> () const</td></tr>
 <tr class="separator:a79e5ef07b3066f3a3d11ae322fde6cc3 inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a> (RtMidiErrorCallback errorCallback, void *userData)</td></tr>
+<tr class="memitem:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a> (<a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a> errorCallback, void *userData)</td></tr>
 <tr class="separator:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90114261efbce1a0e3d2a3dcf4459a15 inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a> (<a class="el" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905ee">RtMidiError::Type</a> type, std::string errorString)</td></tr>
 <tr class="memdesc:a90114261efbce1a0e3d2a3dcf4459a15 inherit pub_methods_class_midi_api"><td class="mdescLeft">&#160;</td><td class="mdescRight">A basic error reporting function for <a class="el" href="class_rt_midi.html" title="An abstract base class for realtime MIDI input/output. ">RtMidi</a> classes.  <a href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">More...</a><br /></td></tr>
@@ -141,7 +147,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a2caa246b04594b5ae84bacccb2a648aa inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bff6ace3f6e863be6cde261a6f2f114 inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a></td></tr>
 <tr class="separator:a6bff6ace3f6e863be6cde261a6f2f114 inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">RtMidiErrorCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4f9fbf86cd9a970ff6e7211d73d6594d">errorCallback_</a></td></tr>
+<tr class="memitem:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4f9fbf86cd9a970ff6e7211d73d6594d">errorCallback_</a></td></tr>
 <tr class="separator:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2ee5d79440913ab6b64d38b402c408 inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4d2ee5d79440913ab6b64d38b402c408">firstErrorOccurred_</a></td></tr>
 <tr class="separator:a4d2ee5d79440913ab6b64d38b402c408 inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,12 +183,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00512">512</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>, <a class="el" href="_rt_midi_8h_source.html#l00549">MidiInApi::RtMidiInData::queue</a>, <a class="el" href="_rt_midi_8h_source.html#l00535">MidiInApi::MidiQueue::ring</a>, and <a class="el" href="_rt_midi_8h_source.html#l00534">MidiInApi::MidiQueue::ringSize</a>.</p>
-<div class="fragment"><div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;  : <a class="code" href="class_midi_api.html#a968fb0e0c6cfc1f532a22bef313bf82c">MidiApi</a>()</div><div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;{</div><div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;  <span class="comment">// Allocate the MIDI queue.</span></div><div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">queue</a>.<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a> = queueSizeLimit;</div><div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">queue</a>.<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a> &gt; 0 )</div><div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">queue</a>.<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">ring</a> = <span class="keyword">new</span> MidiMessage[ <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">queue</a>.<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a> ];</div><div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;}</div><div class="ttc" id="class_midi_api_html_a968fb0e0c6cfc1f532a22bef313bf82c"><div class="ttname"><a href="class_midi_api.html#a968fb0e0c6cfc1f532a22bef313bf82c">MidiApi::MidiApi</a></div><div class="ttdeci">MidiApi()</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00464">RtMidi.cpp:464</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ab7aab9c04293fd05680fbc61a045edf5"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">MidiInApi::RtMidiInData::queue</a></div><div class="ttdeci">MidiQueue queue</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00549">RtMidi.h:549</a></div></div>
-<div class="ttc" id="class_midi_in_api_html_a82698013334ea0de690a91d8644def17"><div class="ttname"><a href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">MidiInApi::inputData_</a></div><div class="ttdeci">RtMidiInData inputData_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00568">RtMidi.h:568</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a10d7814131bfd2744de4e82e6f8ee17e"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">MidiInApi::MidiQueue::ring</a></div><div class="ttdeci">MidiMessage * ring</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00535">RtMidi.h:535</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a4169b29319028962914d6cb702ce6a72"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">MidiInApi::MidiQueue::ringSize</a></div><div class="ttdeci">unsigned int ringSize</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00534">RtMidi.h:534</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="aa99f4d57038444dfe024cdc100d2b20c"></a>
@@ -212,14 +213,42 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00521">521</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>, <a class="el" href="_rt_midi_8h_source.html#l00549">MidiInApi::RtMidiInData::queue</a>, <a class="el" href="_rt_midi_8h_source.html#l00535">MidiInApi::MidiQueue::ring</a>, and <a class="el" href="_rt_midi_8h_source.html#l00534">MidiInApi::MidiQueue::ringSize</a>.</p>
-<div class="fragment"><div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;{</div><div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;  <span class="comment">// Delete the MIDI queue.</span></div><div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">queue</a>.<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">ringSize</a> &gt; 0 ) <span class="keyword">delete</span> [] <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">queue</a>.<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">ring</a>;</div><div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ab7aab9c04293fd05680fbc61a045edf5"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">MidiInApi::RtMidiInData::queue</a></div><div class="ttdeci">MidiQueue queue</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00549">RtMidi.h:549</a></div></div>
-<div class="ttc" id="class_midi_in_api_html_a82698013334ea0de690a91d8644def17"><div class="ttname"><a href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">MidiInApi::inputData_</a></div><div class="ttdeci">RtMidiInData inputData_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00568">RtMidi.h:568</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a10d7814131bfd2744de4e82e6f8ee17e"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a10d7814131bfd2744de4e82e6f8ee17e">MidiInApi::MidiQueue::ring</a></div><div class="ttdeci">MidiMessage * ring</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00535">RtMidi.h:535</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_a4169b29319028962914d6cb702ce6a72"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#a4169b29319028962914d6cb702ce6a72">MidiInApi::MidiQueue::ringSize</a></div><div class="ttdeci">unsigned int ringSize</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00534">RtMidi.h:534</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1282553fc782963bab50c8e928912d3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1282553fc782963bab50c8e928912d3a">&#9670;&nbsp;</a></span>setCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MidiInApi::setCallback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_rt_midi_in.html#aac5c0da1ec6f97fe43d5189bad00caef">RtMidiIn::RtMidiCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>userData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00527">527</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="_rt_midi_8cpp_source.html#l00479">MidiApi::error()</a>, <a class="el" href="_rt_midi_8h_source.html#l00501">MidiApi::errorString_</a>, <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>, <a class="el" href="_rt_midi_8h_source.html#l00556">MidiInApi::RtMidiInData::userCallback</a>, <a class="el" href="_rt_midi_8h_source.html#l00557">MidiInApi::RtMidiInData::userData</a>, <a class="el" href="_rt_midi_8h_source.html#l00555">MidiInApi::RtMidiInData::usingCallback</a>, and <a class="el" href="_rt_midi_8h_source.html#l00078">RtMidiError::WARNING</a>.</p>
+
+</div>
+</div>
 <a id="ac6d15bd172db9d766c80f84a71c96f87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6d15bd172db9d766c80f84a71c96f87">&#9670;&nbsp;</a></span>cancelCallback()</h2>
 
@@ -239,43 +268,7 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00546">546</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8cpp_source.html#l00479">MidiApi::error()</a>, <a class="el" href="_rt_midi_8h_source.html#l00501">MidiApi::errorString_</a>, <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>, <a class="el" href="_rt_midi_8h_source.html#l00556">MidiInApi::RtMidiInData::userCallback</a>, <a class="el" href="_rt_midi_8h_source.html#l00557">MidiInApi::RtMidiInData::userData</a>, <a class="el" href="_rt_midi_8h_source.html#l00555">MidiInApi::RtMidiInData::usingCallback</a>, and <a class="el" href="_rt_midi_8h_source.html#l00078">RtMidiError::WARNING</a>.</p>
-<div class="fragment"><div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;{</div><div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;  <span class="keywordflow">if</span> ( !<a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">usingCallback</a> ) {</div><div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> = <span class="stringliteral">&quot;RtMidiIn::cancelCallback: no callback function was set!&quot;</span>;</div><div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <a class="code" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a>( <a class="code" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a>, <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> );</div><div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    <span class="keywordflow">return</span>;</div><div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;  }</div><div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;</div><div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ac84f3df4914220095bbeda364556325f">userCallback</a> = 0;</div><div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5ec1653c816234ffb896289eb7eb47e7">userData</a> = 0;</div><div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">usingCallback</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a5ec1653c816234ffb896289eb7eb47e7"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5ec1653c816234ffb896289eb7eb47e7">MidiInApi::RtMidiInData::userData</a></div><div class="ttdeci">void * userData</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00557">RtMidi.h:557</a></div></div>
-<div class="ttc" id="class_midi_api_html_a6bff6ace3f6e863be6cde261a6f2f114"><div class="ttname"><a href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">MidiApi::errorString_</a></div><div class="ttdeci">std::string errorString_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00501">RtMidi.h:501</a></div></div>
-<div class="ttc" id="class_midi_in_api_html_a82698013334ea0de690a91d8644def17"><div class="ttname"><a href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">MidiInApi::inputData_</a></div><div class="ttdeci">RtMidiInData inputData_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00568">RtMidi.h:568</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ae68e0f1f0791e85fe5f1c026a5eb7568"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">MidiInApi::RtMidiInData::usingCallback</a></div><div class="ttdeci">bool usingCallback</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00555">RtMidi.h:555</a></div></div>
-<div class="ttc" id="class_rt_midi_error_html_a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df"><div class="ttname"><a href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00078">RtMidi.h:78</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ac84f3df4914220095bbeda364556325f"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ac84f3df4914220095bbeda364556325f">MidiInApi::RtMidiInData::userCallback</a></div><div class="ttdeci">RtMidiIn::RtMidiCallback userCallback</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00556">RtMidi.h:556</a></div></div>
-<div class="ttc" id="class_midi_api_html_a90114261efbce1a0e3d2a3dcf4459a15"><div class="ttname"><a href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">MidiApi::error</a></div><div class="ttdeci">void error(RtMidiError::Type type, std::string errorString)</div><div class="ttdoc">A basic error reporting function for RtMidi classes. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00479">RtMidi.cpp:479</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a191f9da986b41b96efb432585367583a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a191f9da986b41b96efb432585367583a">&#9670;&nbsp;</a></span>getMessage()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double MidiInApi::getMessage </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; unsigned char &gt; *&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00567">567</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-
-<p class="reference">References <a class="el" href="_rt_midi_8cpp_source.html#l00479">MidiApi::error()</a>, <a class="el" href="_rt_midi_8h_source.html#l00501">MidiApi::errorString_</a>, <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00621">MidiInApi::MidiQueue::pop()</a>, <a class="el" href="_rt_midi_8h_source.html#l00549">MidiInApi::RtMidiInData::queue</a>, <a class="el" href="_rt_midi_8h_source.html#l00555">MidiInApi::RtMidiInData::usingCallback</a>, and <a class="el" href="_rt_midi_8h_source.html#l00078">RtMidiError::WARNING</a>.</p>
-<div class="fragment"><div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;{</div><div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;  message-&gt;clear();</div><div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;</div><div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">usingCallback</a> ) {</div><div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> = <span class="stringliteral">&quot;RtMidiIn::getNextMessage: a user callback is currently set for this port.&quot;</span>;</div><div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <a class="code" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a>( <a class="code" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a>, <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> );</div><div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    <span class="keywordflow">return</span> 0.0;</div><div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;  }</div><div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;</div><div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;  <span class="keywordtype">double</span> timeStamp;</div><div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">queue</a>.<a class="code" href="struct_midi_in_api_1_1_midi_queue.html#adcebca339fa6d50bcc162f431ac628e2">pop</a>(message, &amp;timeStamp))</div><div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    <span class="keywordflow">return</span> 0.0;</div><div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;</div><div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;  <span class="keywordflow">return</span> timeStamp;</div><div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_midi_queue_html_adcebca339fa6d50bcc162f431ac628e2"><div class="ttname"><a href="struct_midi_in_api_1_1_midi_queue.html#adcebca339fa6d50bcc162f431ac628e2">MidiInApi::MidiQueue::pop</a></div><div class="ttdeci">bool pop(std::vector&lt; unsigned char &gt; *, double *)</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00621">RtMidi.cpp:621</a></div></div>
-<div class="ttc" id="class_midi_api_html_a6bff6ace3f6e863be6cde261a6f2f114"><div class="ttname"><a href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">MidiApi::errorString_</a></div><div class="ttdeci">std::string errorString_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00501">RtMidi.h:501</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ab7aab9c04293fd05680fbc61a045edf5"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ab7aab9c04293fd05680fbc61a045edf5">MidiInApi::RtMidiInData::queue</a></div><div class="ttdeci">MidiQueue queue</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00549">RtMidi.h:549</a></div></div>
-<div class="ttc" id="class_midi_in_api_html_a82698013334ea0de690a91d8644def17"><div class="ttname"><a href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">MidiInApi::inputData_</a></div><div class="ttdeci">RtMidiInData inputData_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00568">RtMidi.h:568</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ae68e0f1f0791e85fe5f1c026a5eb7568"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">MidiInApi::RtMidiInData::usingCallback</a></div><div class="ttdeci">bool usingCallback</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00555">RtMidi.h:555</a></div></div>
-<div class="ttc" id="class_rt_midi_error_html_a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df"><div class="ttname"><a href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00078">RtMidi.h:78</a></div></div>
-<div class="ttc" id="class_midi_api_html_a90114261efbce1a0e3d2a3dcf4459a15"><div class="ttname"><a href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">MidiApi::error</a></div><div class="ttdeci">void error(RtMidiError::Type type, std::string errorString)</div><div class="ttdoc">A basic error reporting function for RtMidi classes. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00479">RtMidi.cpp:479</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="ae2c7698c6c62fe95aef53ddba98cab89"></a>
@@ -321,48 +314,29 @@ Additional Inherited Members</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00559">559</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="_rt_midi_8h_source.html#l00551">MidiInApi::RtMidiInData::ignoreFlags</a>, and <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>.</p>
-<div class="fragment"><div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;{</div><div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a3e520b3ced9881baeb0498f23ba4f30c">ignoreFlags</a> = 0;</div><div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;  <span class="keywordflow">if</span> ( midiSysex ) <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a3e520b3ced9881baeb0498f23ba4f30c">ignoreFlags</a> = 0x01;</div><div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;  <span class="keywordflow">if</span> ( midiTime ) <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a3e520b3ced9881baeb0498f23ba4f30c">ignoreFlags</a> |= 0x02;</div><div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;  <span class="keywordflow">if</span> ( midiSense ) <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a3e520b3ced9881baeb0498f23ba4f30c">ignoreFlags</a> |= 0x04;</div><div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a3e520b3ced9881baeb0498f23ba4f30c"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a3e520b3ced9881baeb0498f23ba4f30c">MidiInApi::RtMidiInData::ignoreFlags</a></div><div class="ttdeci">unsigned char ignoreFlags</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00551">RtMidi.h:551</a></div></div>
-<div class="ttc" id="class_midi_in_api_html_a82698013334ea0de690a91d8644def17"><div class="ttname"><a href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">MidiInApi::inputData_</a></div><div class="ttdeci">RtMidiInData inputData_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00568">RtMidi.h:568</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a1282553fc782963bab50c8e928912d3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1282553fc782963bab50c8e928912d3a">&#9670;&nbsp;</a></span>setCallback()</h2>
+<a id="a191f9da986b41b96efb432585367583a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a191f9da986b41b96efb432585367583a">&#9670;&nbsp;</a></span>getMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MidiInApi::setCallback </td>
+          <td class="memname">double MidiInApi::getMessage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_rt_midi_in.html#aac5c0da1ec6f97fe43d5189bad00caef">RtMidiIn::RtMidiCallback</a>&#160;</td>
-          <td class="paramname"><em>callback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">std::vector&lt; unsigned char &gt; *&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>userData</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00527">527</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00567">567</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_rt_midi_8cpp_source.html#l00479">MidiApi::error()</a>, <a class="el" href="_rt_midi_8h_source.html#l00501">MidiApi::errorString_</a>, <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>, <a class="el" href="_rt_midi_8h_source.html#l00556">MidiInApi::RtMidiInData::userCallback</a>, <a class="el" href="_rt_midi_8h_source.html#l00557">MidiInApi::RtMidiInData::userData</a>, <a class="el" href="_rt_midi_8h_source.html#l00555">MidiInApi::RtMidiInData::usingCallback</a>, and <a class="el" href="_rt_midi_8h_source.html#l00078">RtMidiError::WARNING</a>.</p>
-<div class="fragment"><div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;{</div><div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">usingCallback</a> ) {</div><div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> = <span class="stringliteral">&quot;MidiInApi::setCallback: a callback function is already set!&quot;</span>;</div><div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <a class="code" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a>( <a class="code" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a>, <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> );</div><div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <span class="keywordflow">return</span>;</div><div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;  }</div><div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;</div><div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;  <span class="keywordflow">if</span> ( !callback ) {</div><div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> = <span class="stringliteral">&quot;RtMidiIn::setCallback: callback function value is invalid!&quot;</span>;</div><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <a class="code" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a>( <a class="code" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a>, <a class="code" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a> );</div><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <span class="keywordflow">return</span>;</div><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;  }</div><div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div><div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ac84f3df4914220095bbeda364556325f">userCallback</a> = callback;</div><div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5ec1653c816234ffb896289eb7eb47e7">userData</a> = userData;</div><div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;  <a class="code" href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">inputData_</a>.<a class="code" href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">usingCallback</a> = <span class="keyword">true</span>;</div><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;}</div><div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_a5ec1653c816234ffb896289eb7eb47e7"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#a5ec1653c816234ffb896289eb7eb47e7">MidiInApi::RtMidiInData::userData</a></div><div class="ttdeci">void * userData</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00557">RtMidi.h:557</a></div></div>
-<div class="ttc" id="class_midi_api_html_a6bff6ace3f6e863be6cde261a6f2f114"><div class="ttname"><a href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">MidiApi::errorString_</a></div><div class="ttdeci">std::string errorString_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00501">RtMidi.h:501</a></div></div>
-<div class="ttc" id="class_midi_in_api_html_a82698013334ea0de690a91d8644def17"><div class="ttname"><a href="class_midi_in_api.html#a82698013334ea0de690a91d8644def17">MidiInApi::inputData_</a></div><div class="ttdeci">RtMidiInData inputData_</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00568">RtMidi.h:568</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ae68e0f1f0791e85fe5f1c026a5eb7568"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ae68e0f1f0791e85fe5f1c026a5eb7568">MidiInApi::RtMidiInData::usingCallback</a></div><div class="ttdeci">bool usingCallback</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00555">RtMidi.h:555</a></div></div>
-<div class="ttc" id="class_rt_midi_error_html_a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df"><div class="ttname"><a href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905eea778e66d730c9ff2aab7000aed36ca8df">RtMidiError::WARNING</a></div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00078">RtMidi.h:78</a></div></div>
-<div class="ttc" id="struct_midi_in_api_1_1_rt_midi_in_data_html_ac84f3df4914220095bbeda364556325f"><div class="ttname"><a href="struct_midi_in_api_1_1_rt_midi_in_data.html#ac84f3df4914220095bbeda364556325f">MidiInApi::RtMidiInData::userCallback</a></div><div class="ttdeci">RtMidiIn::RtMidiCallback userCallback</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8h_source.html#l00556">RtMidi.h:556</a></div></div>
-<div class="ttc" id="class_midi_api_html_a90114261efbce1a0e3d2a3dcf4459a15"><div class="ttname"><a href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">MidiApi::error</a></div><div class="ttdeci">void error(RtMidiError::Type type, std::string errorString)</div><div class="ttdoc">A basic error reporting function for RtMidi classes. </div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00479">RtMidi.cpp:479</a></div></div>
-</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_rt_midi_8cpp_source.html#l00479">MidiApi::error()</a>, <a class="el" href="_rt_midi_8h_source.html#l00501">MidiApi::errorString_</a>, <a class="el" href="_rt_midi_8h_source.html#l00568">inputData_</a>, <a class="el" href="_rt_midi_8cpp_source.html#l00621">MidiInApi::MidiQueue::pop()</a>, <a class="el" href="_rt_midi_8h_source.html#l00549">MidiInApi::RtMidiInData::queue</a>, <a class="el" href="_rt_midi_8h_source.html#l00555">MidiInApi::RtMidiInData::usingCallback</a>, and <a class="el" href="_rt_midi_8h_source.html#l00078">RtMidiError::WARNING</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

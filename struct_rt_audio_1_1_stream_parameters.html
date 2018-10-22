@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: RtAudio::StreamParameters Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -98,9 +104,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">RtAudio::StreamParameters::StreamParameters </td>
@@ -109,18 +112,10 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00317">317</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      : <a class="code" href="struct_rt_audio_1_1_stream_parameters.html#ab3c72bcf3ef12149ae9a4fb597cc5489">deviceId</a>(0), <a class="code" href="struct_rt_audio_1_1_stream_parameters.html#a88a10091b6e284e21235cc6f25332ebd">nChannels</a>(0), <a class="code" href="struct_rt_audio_1_1_stream_parameters.html#ad4b4503782653ec93c83328c46abe50c">firstChannel</a>(0) {}</div><div class="ttc" id="struct_rt_audio_1_1_stream_parameters_html_ad4b4503782653ec93c83328c46abe50c"><div class="ttname"><a href="struct_rt_audio_1_1_stream_parameters.html#ad4b4503782653ec93c83328c46abe50c">RtAudio::StreamParameters::firstChannel</a></div><div class="ttdeci">unsigned int firstChannel</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00314">RtAudio.h:314</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_stream_parameters_html_ab3c72bcf3ef12149ae9a4fb597cc5489"><div class="ttname"><a href="struct_rt_audio_1_1_stream_parameters.html#ab3c72bcf3ef12149ae9a4fb597cc5489">RtAudio::StreamParameters::deviceId</a></div><div class="ttdeci">unsigned int deviceId</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00312">RtAudio.h:312</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_stream_parameters_html_a88a10091b6e284e21235cc6f25332ebd"><div class="ttname"><a href="struct_rt_audio_1_1_stream_parameters.html#a88a10091b6e284e21235cc6f25332ebd">RtAudio::StreamParameters::nChannels</a></div><div class="ttdeci">unsigned int nChannels</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00313">RtAudio.h:313</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -143,25 +138,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad4b4503782653ec93c83328c46abe50c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4b4503782653ec93c83328c46abe50c">&#9670;&nbsp;</a></span>firstChannel</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int RtAudio::StreamParameters::firstChannel</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>First channel index on device (default = 0). </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00314">314</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="_rt_audio_8cpp_source.html#l00256">RtApi::openStream()</a>.</p>
-
-</div>
-</div>
 <a id="a88a10091b6e284e21235cc6f25332ebd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88a10091b6e284e21235cc6f25332ebd">&#9670;&nbsp;</a></span>nChannels</h2>
 
@@ -176,6 +152,25 @@ Public Attributes</h2></td></tr>
 <p>Number of channels. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00313">313</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="_rt_audio_8cpp_source.html#l00256">RtApi::openStream()</a>.</p>
+
+</div>
+</div>
+<a id="ad4b4503782653ec93c83328c46abe50c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b4503782653ec93c83328c46abe50c">&#9670;&nbsp;</a></span>firstChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int RtAudio::StreamParameters::firstChannel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>First channel index on device (default = 0). </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00314">314</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_rt_audio_8cpp_source.html#l00256">RtApi::openStream()</a>.</p>
 

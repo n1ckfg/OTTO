@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::filesystem::filesystem_error Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -124,7 +130,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00762">762</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;    : system_error(ec), _code(ec)</div><div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;  {</div><div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    _what = std::string(<span class="stringliteral">&quot;Filesystem error: &quot;</span>) + ec.message();</div><div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;    <span class="keywordflow">if</span> (!what_arg.empty()) {</div><div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;      _what += <span class="stringliteral">&quot;\nNote: &quot;</span>;</div><div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;      _what += what_arg;</div><div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;    }</div><div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="a0ffce5e82043a295d6aca755e2bfedca"></a>
@@ -160,8 +166,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00773">773</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    : <a class="code" href="classotto_1_1filesystem_1_1filesystem__error.html#a4e2fa645d8f6291848e4e50321ffe185">filesystem_error</a>(what_arg, ec)</div><div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;  {</div><div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;    _path1 = p1;</div><div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    _what += <span class="stringliteral">&quot;\nPath: &quot;</span>;</div><div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    _what += _path1;</div><div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;  }</div><div class="ttc" id="classotto_1_1filesystem_1_1filesystem__error_html_a4e2fa645d8f6291848e4e50321ffe185"><div class="ttname"><a href="classotto_1_1filesystem_1_1filesystem__error.html#a4e2fa645d8f6291848e4e50321ffe185">otto::filesystem::filesystem_error::filesystem_error</a></div><div class="ttdeci">filesystem_error(const std::string &amp;what_arg, std::error_code ec)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00762">filesystem.cpp:762</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a42012b4e7fe71adebb2f771dde17354b"></a>
@@ -203,8 +208,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00783">783</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    : <a class="code" href="classotto_1_1filesystem_1_1filesystem__error.html#a4e2fa645d8f6291848e4e50321ffe185">filesystem_error</a>(what_arg, ec)</div><div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;  {</div><div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;    _path1 = p1;</div><div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    _what += <span class="stringliteral">&quot;\nPath 1: &quot;</span>;</div><div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;    _what += _path1;</div><div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    _path2 = p2;</div><div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;    _what += <span class="stringliteral">&quot;\nPath 2: &quot;</span>;</div><div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    _what += _path2;</div><div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;  }</div><div class="ttc" id="classotto_1_1filesystem_1_1filesystem__error_html_a4e2fa645d8f6291848e4e50321ffe185"><div class="ttname"><a href="classotto_1_1filesystem_1_1filesystem__error.html#a4e2fa645d8f6291848e4e50321ffe185">otto::filesystem::filesystem_error::filesystem_error</a></div><div class="ttdeci">filesystem_error(const std::string &amp;what_arg, std::error_code ec)</div><div class="ttdef"><b>Definition:</b> <a href="filesystem_8cpp_source.html#l00762">filesystem.cpp:762</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -232,7 +236,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00797">797</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;  {</div><div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;    <span class="keywordflow">return</span> _path1;</div><div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="ae1fe2e1b89a40a511f5af5685bf8c19c"></a>
@@ -259,7 +263,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00802">802</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;  {</div><div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;    <span class="keywordflow">return</span> _path2;</div><div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <a id="aa0945d44478439725a500991c541c63e"></a>
@@ -286,7 +290,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00807">807</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;  {</div><div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;    <span class="keywordflow">return</span> _what.c_str();</div><div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;  }</div></div><!-- fragment -->
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>

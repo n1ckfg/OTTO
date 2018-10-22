@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: MidiOutApi Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -107,7 +113,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a317393a9094e7c2bf51337adbabe6a71 inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79e5ef07b3066f3a3d11ae322fde6cc3 inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a79e5ef07b3066f3a3d11ae322fde6cc3">isPortOpen</a> () const</td></tr>
 <tr class="separator:a79e5ef07b3066f3a3d11ae322fde6cc3 inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a> (RtMidiErrorCallback errorCallback, void *userData)</td></tr>
+<tr class="memitem:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a1c90ccc7153045c1059230295d9de8fc">setErrorCallback</a> (<a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a> errorCallback, void *userData)</td></tr>
 <tr class="separator:a1c90ccc7153045c1059230295d9de8fc inherit pub_methods_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90114261efbce1a0e3d2a3dcf4459a15 inherit pub_methods_class_midi_api"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">error</a> (<a class="el" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905ee">RtMidiError::Type</a> type, std::string errorString)</td></tr>
 <tr class="memdesc:a90114261efbce1a0e3d2a3dcf4459a15 inherit pub_methods_class_midi_api"><td class="mdescLeft">&#160;</td><td class="mdescRight">A basic error reporting function for <a class="el" href="class_rt_midi.html" title="An abstract base class for realtime MIDI input/output. ">RtMidi</a> classes.  <a href="class_midi_api.html#a90114261efbce1a0e3d2a3dcf4459a15">More...</a><br /></td></tr>
@@ -125,7 +131,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a2caa246b04594b5ae84bacccb2a648aa inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bff6ace3f6e863be6cde261a6f2f114 inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a6bff6ace3f6e863be6cde261a6f2f114">errorString_</a></td></tr>
 <tr class="separator:a6bff6ace3f6e863be6cde261a6f2f114 inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">RtMidiErrorCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4f9fbf86cd9a970ff6e7211d73d6594d">errorCallback_</a></td></tr>
+<tr class="memitem:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_rt_midi_8h.html#a57641d3490f722c3efb9ee1c640e36bb">RtMidiErrorCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4f9fbf86cd9a970ff6e7211d73d6594d">errorCallback_</a></td></tr>
 <tr class="separator:a4f9fbf86cd9a970ff6e7211d73d6594d inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2ee5d79440913ab6b64d38b402c408 inherit pro_attribs_class_midi_api"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_midi_api.html#a4d2ee5d79440913ab6b64d38b402c408">firstErrorOccurred_</a></td></tr>
 <tr class="separator:a4d2ee5d79440913ab6b64d38b402c408 inherit pro_attribs_class_midi_api"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,8 +159,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00645">645</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;  : <a class="code" href="class_midi_api.html#a968fb0e0c6cfc1f532a22bef313bf82c">MidiApi</a>()</div><div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;{</div><div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;}</div><div class="ttc" id="class_midi_api_html_a968fb0e0c6cfc1f532a22bef313bf82c"><div class="ttname"><a href="class_midi_api.html#a968fb0e0c6cfc1f532a22bef313bf82c">MidiApi::MidiApi</a></div><div class="ttdeci">MidiApi()</div><div class="ttdef"><b>Definition:</b> <a href="_rt_midi_8cpp_source.html#l00464">RtMidi.cpp:464</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="ac08128a87b2d688651f1ed3e3792e727"></a>
@@ -182,7 +187,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8cpp_source.html#l00650">650</a> of file <a class="el" href="_rt_midi_8cpp_source.html">RtMidi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;{</div><div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;}</div></div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>

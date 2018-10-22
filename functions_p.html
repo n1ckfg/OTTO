@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -70,14 +76,14 @@
 </li>
 <li>path()
 : <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a668dd53385f986a088c7c7c1bdf8215e">otto::filesystem::directory_entry</a>
-, <a class="el" href="classotto_1_1filesystem_1_1path.html#a24b48134575fc58313453a4867356f66">otto::filesystem::path</a>
-, <a class="el" href="classotto_1_1util_1_1_byte_file.html#a5a3895405b0e111d7e39be9c77077403">otto::util::ByteFile</a>
+, <a class="el" href="classotto_1_1filesystem_1_1path.html#ac977a7c70b985fe6ab48b2dccccae14f">otto::filesystem::path</a>
 </li>
 <li>Path
 : <a class="el" href="classotto_1_1util_1_1_byte_file.html#a3271595d51610d66d91854c7843db337">otto::util::ByteFile</a>
 </li>
-<li>path()
-: <a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8">otto::util::JsonFile</a>
+<li>path
+: <a class="el" href="classotto_1_1util_1_1_byte_file.html#a5a3895405b0e111d7e39be9c77077403">otto::util::ByteFile</a>
+, <a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8">otto::util::JsonFile</a>
 </li>
 <li>path1()
 : <a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a1b035b8f67cb6fa1a901bf30b7705c0e">otto::filesystem::filesystem_error</a>
@@ -111,7 +117,7 @@
 </li>
 <li>point()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a65e4721195fb92fee0b2fc5803b2deb6">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
-, <a class="el" href="structotto_1_1engines_1_1_euclid_screen_1_1_state_1_1_channel_state_1_1_hit.html#a956e4799779228049856b0882d684012">otto::engines::EuclidScreen::State::ChannelState::Hit</a>
+, <a class="el" href="structotto_1_1engines_1_1_euclid_screen.html#a956e4799779228049856b0882d684012">otto::engines::EuclidScreen::State::ChannelState::Hit</a>
 </li>
 <li>point_ceil()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a005cf55e4757bbdcc75f1e1d86c10da8">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
@@ -133,17 +139,17 @@
 <li>portamento
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_settings_props.html#adb0923a2fac660dbcd17f721909a1550">otto::core::audio::SettingsProps</a>
 </li>
-<li>position()
-: <a class="el" href="classotto_1_1util_1_1_byte_file.html#abae936d64259aefb7e4cde69885bfee0">otto::util::ByteFile</a>
-</li>
 <li>Position
 : <a class="el" href="classotto_1_1util_1_1_byte_file.html#a5bde25c7f29ca76452c98e61ecfa435f">otto::util::ByteFile</a>
 </li>
 <li>position()
-: <a class="el" href="classotto_1_1util_1_1_sound_file.html#ae84d3d9f24050771840610122b051a26">otto::util::SoundFile</a>
+: <a class="el" href="classotto_1_1util_1_1_byte_file.html#abae936d64259aefb7e4cde69885bfee0">otto::util::ByteFile</a>
 </li>
 <li>Position
 : <a class="el" href="classotto_1_1util_1_1_sound_file.html#ae4937b029132e009a5e31d879669e0f7">otto::util::SoundFile</a>
+</li>
+<li>position()
+: <a class="el" href="classotto_1_1util_1_1_sound_file.html#ae84d3d9f24050771840610122b051a26">otto::util::SoundFile</a>
 </li>
 <li>preferred_separator
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ab0976af74690418350a886123caad09b">otto::filesystem::path</a>
@@ -153,7 +159,6 @@
 </li>
 <li>prev()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#ad26cf86d526b3cc5bffea05d2fe9c9fe">otto::core::ui::SelectorWidget</a>
-, <a class="el" href="structotto_1_1util_1_1detail_1_1_adjacent_iter_impl.html#ae83c32aba13477e55581a40fc2af9dc0">otto::util::detail::AdjacentIterImpl&lt; Iter &gt;</a>
 </li>
 <li>printMessage()
 : <a class="el" href="class_rt_audio_error.html#ad1f25175d41a644d7ed75ef6fe902f3d">RtAudioError</a>
@@ -170,8 +175,7 @@
 : <a class="el" href="class_rt_api.html#a7cb2af485df310d803e7a35d3e4a2c1b">RtApi</a>
 </li>
 <li>process()
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_faust_wrapper.html#a36b382c01e90aa2a89ef6a0034dbc433">otto::core::audio::FaustWrapper&lt; Cin, Cout &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_3_01_engine_type_1_1effect_01_4.html#ab280d2079ebe0f5820d71a876e52321f">otto::core::engines::Engine&lt; EngineType::effect &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_3_01_engine_type_1_1effect_01_4.html#ab280d2079ebe0f5820d71a876e52321f">otto::core::engines::Engine&lt; EngineType::effect &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_3_01_engine_type_1_1sequencer_01_4.html#a90c77379334ff75ee4622220eafb428f">otto::core::engines::Engine&lt; EngineType::sequencer &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_3_01_engine_type_1_1synth_01_4.html#ae0e12fc3c6fa6273548739a7d0bb4502">otto::core::engines::Engine&lt; EngineType::synth &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1engines_1_1_engine_3_01_engine_type_1_1twist_01_4.html#a70a5edc0dd026fdcb89e7b62e9072c29">otto::core::engines::Engine&lt; EngineType::twist &gt;</a>

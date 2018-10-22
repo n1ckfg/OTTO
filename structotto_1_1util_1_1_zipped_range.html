@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::ZippedRange&lt; Ranges &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -105,9 +111,6 @@ struct otto::util::ZippedRange&lt; Ranges &gt;</h3>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Ranges&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1_zipped_range.html">otto::util::ZippedRange</a>&lt; Ranges &gt;::<a class="el" href="structotto_1_1util_1_1_zipped_range.html">ZippedRange</a> </td>
@@ -117,17 +120,12 @@ template&lt;typename... Ranges&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00809">809</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;      : <a class="code" href="structotto_1_1util_1_1_zipped_range.html#a196b406ac56d03023282bb7e70d07062">first</a>  {std::begin(ranges)...},</div><div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;        <a class="code" href="structotto_1_1util_1_1_zipped_range.html#a8402ccb3d617f5c639965d3a1c2280af">last</a>  {std::end(ranges)...}</div><div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;    {}</div><div class="ttc" id="structotto_1_1util_1_1_zipped_range_html_a8402ccb3d617f5c639965d3a1c2280af"><div class="ttname"><a href="structotto_1_1util_1_1_zipped_range.html#a8402ccb3d617f5c639965d3a1c2280af">otto::util::ZippedRange::last</a></div><div class="ttdeci">zipped_iterator&lt; std::decay_t&lt; decltype(std::end(std::declval&lt; Ranges &gt;)))&gt;... &gt; last</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00826">iterator.hpp:826</a></div></div>
-<div class="ttc" id="structotto_1_1util_1_1_zipped_range_html_a196b406ac56d03023282bb7e70d07062"><div class="ttname"><a href="structotto_1_1util_1_1_zipped_range.html#a196b406ac56d03023282bb7e70d07062">otto::util::ZippedRange::first</a></div><div class="ttdeci">zipped_iterator&lt; std::decay_t&lt; decltype(std::begin(std::declval&lt; Ranges &gt;)))&gt;... &gt; first</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00823">iterator.hpp:823</a></div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01171">otto::filesystem::begin()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -138,9 +136,6 @@ template&lt;typename... Ranges&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Ranges&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="structotto_1_1util_1_1_zipped_range.html">otto::util::ZippedRange</a>&lt; Ranges &gt;::begin </td>
@@ -149,18 +144,12 @@ template&lt;typename... Ranges&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00814">814</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00823">otto::util::ZippedRange&lt; Ranges &gt;::first</a>.</p>
-<div class="fragment"><div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1_zipped_range.html#a196b406ac56d03023282bb7e70d07062">first</a>; }</div><div class="ttc" id="structotto_1_1util_1_1_zipped_range_html_a196b406ac56d03023282bb7e70d07062"><div class="ttname"><a href="structotto_1_1util_1_1_zipped_range.html#a196b406ac56d03023282bb7e70d07062">otto::util::ZippedRange::first</a></div><div class="ttdeci">zipped_iterator&lt; std::decay_t&lt; decltype(std::begin(std::declval&lt; Ranges &gt;)))&gt;... &gt; first</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00823">iterator.hpp:823</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a9662021872ce8a356e5b37198c352a72"></a>
@@ -170,9 +159,6 @@ template&lt;typename... Ranges&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Ranges&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="structotto_1_1util_1_1_zipped_range.html">otto::util::ZippedRange</a>&lt; Ranges &gt;::begin </td>
@@ -181,18 +167,12 @@ template&lt;typename... Ranges&gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00816">816</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00823">otto::util::ZippedRange&lt; Ranges &gt;::first</a>.</p>
-<div class="fragment"><div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1_zipped_range.html#a196b406ac56d03023282bb7e70d07062">first</a>; }</div><div class="ttc" id="structotto_1_1util_1_1_zipped_range_html_a196b406ac56d03023282bb7e70d07062"><div class="ttname"><a href="structotto_1_1util_1_1_zipped_range.html#a196b406ac56d03023282bb7e70d07062">otto::util::ZippedRange::first</a></div><div class="ttdeci">zipped_iterator&lt; std::decay_t&lt; decltype(std::begin(std::declval&lt; Ranges &gt;)))&gt;... &gt; first</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00823">iterator.hpp:823</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="aad9e315194673af935cbc10dff764b7b"></a>
@@ -202,9 +182,6 @@ template&lt;typename... Ranges&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Ranges&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="structotto_1_1util_1_1_zipped_range.html">otto::util::ZippedRange</a>&lt; Ranges &gt;::end </td>
@@ -213,18 +190,12 @@ template&lt;typename... Ranges&gt; </div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00818">818</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00826">otto::util::ZippedRange&lt; Ranges &gt;::last</a>.</p>
-<div class="fragment"><div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1_zipped_range.html#a8402ccb3d617f5c639965d3a1c2280af">last</a>; }</div><div class="ttc" id="structotto_1_1util_1_1_zipped_range_html_a8402ccb3d617f5c639965d3a1c2280af"><div class="ttname"><a href="structotto_1_1util_1_1_zipped_range.html#a8402ccb3d617f5c639965d3a1c2280af">otto::util::ZippedRange::last</a></div><div class="ttdeci">zipped_iterator&lt; std::decay_t&lt; decltype(std::end(std::declval&lt; Ranges &gt;)))&gt;... &gt; last</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00826">iterator.hpp:826</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="a9bce94ef9755b686fe0f8ab8fd93d8cd"></a>
@@ -234,9 +205,6 @@ template&lt;typename... Ranges&gt; </div>
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename... Ranges&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto <a class="el" href="structotto_1_1util_1_1_zipped_range.html">otto::util::ZippedRange</a>&lt; Ranges &gt;::end </td>
@@ -245,18 +213,12 @@ template&lt;typename... Ranges&gt; </div>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00820">820</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="iterator_8hpp_source.html#l00826">otto::util::ZippedRange&lt; Ranges &gt;::last</a>.</p>
-<div class="fragment"><div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1_zipped_range.html#a8402ccb3d617f5c639965d3a1c2280af">last</a>; }</div><div class="ttc" id="structotto_1_1util_1_1_zipped_range_html_a8402ccb3d617f5c639965d3a1c2280af"><div class="ttname"><a href="structotto_1_1util_1_1_zipped_range.html#a8402ccb3d617f5c639965d3a1c2280af">otto::util::ZippedRange::last</a></div><div class="ttdeci">zipped_iterator&lt; std::decay_t&lt; decltype(std::end(std::declval&lt; Ranges &gt;)))&gt;... &gt; last</div><div class="ttdef"><b>Definition:</b> <a href="iterator_8hpp_source.html#l00826">iterator.hpp:826</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>

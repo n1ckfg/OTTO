@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: RtAudio::StreamOptions Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -81,7 +87,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0ecc98b031aa3af49d09b781643e298b"><td class="memItemLeft" align="right" valign="top">RtAudioStreamFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rt_audio_1_1_stream_options.html#a0ecc98b031aa3af49d09b781643e298b">flags</a></td></tr>
+<tr class="memitem:a0ecc98b031aa3af49d09b781643e298b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_rt_audio_8h.html#a2c0f59b200dcec4d4e760f9166b29c41">RtAudioStreamFlags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rt_audio_1_1_stream_options.html#a0ecc98b031aa3af49d09b781643e298b">flags</a></td></tr>
 <tr class="separator:a0ecc98b031aa3af49d09b781643e298b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75a14cfab903d0e1c091bc16aec80240"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_rt_audio_1_1_stream_options.html#a75a14cfab903d0e1c091bc16aec80240">numberOfBuffers</a></td></tr>
 <tr class="separator:a75a14cfab903d0e1c091bc16aec80240"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,9 +121,6 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">RtAudio::StreamOptions::StreamOptions </td>
@@ -126,18 +129,10 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00385">385</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    : <a class="code" href="struct_rt_audio_1_1_stream_options.html#a0ecc98b031aa3af49d09b781643e298b">flags</a>(0), <a class="code" href="struct_rt_audio_1_1_stream_options.html#a75a14cfab903d0e1c091bc16aec80240">numberOfBuffers</a>(0), <a class="code" href="struct_rt_audio_1_1_stream_options.html#adfd267059434edb21573c584e6367def">priority</a>(0) {}</div><div class="ttc" id="struct_rt_audio_1_1_stream_options_html_a0ecc98b031aa3af49d09b781643e298b"><div class="ttname"><a href="struct_rt_audio_1_1_stream_options.html#a0ecc98b031aa3af49d09b781643e298b">RtAudio::StreamOptions::flags</a></div><div class="ttdeci">RtAudioStreamFlags flags</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00379">RtAudio.h:379</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_stream_options_html_adfd267059434edb21573c584e6367def"><div class="ttname"><a href="struct_rt_audio_1_1_stream_options.html#adfd267059434edb21573c584e6367def">RtAudio::StreamOptions::priority</a></div><div class="ttdeci">int priority</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00382">RtAudio.h:382</a></div></div>
-<div class="ttc" id="struct_rt_audio_1_1_stream_options_html_a75a14cfab903d0e1c091bc16aec80240"><div class="ttname"><a href="struct_rt_audio_1_1_stream_options.html#a75a14cfab903d0e1c091bc16aec80240">RtAudio::StreamOptions::numberOfBuffers</a></div><div class="ttdeci">unsigned int numberOfBuffers</div><div class="ttdef"><b>Definition:</b> <a href="_rt_audio_8h_source.html#l00380">RtAudio.h:380</a></div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -148,7 +143,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RtAudioStreamFlags RtAudio::StreamOptions::flags</td>
+          <td class="memname"><a class="el" href="_rt_audio_8h.html#a2c0f59b200dcec4d4e760f9166b29c41">RtAudioStreamFlags</a> RtAudio::StreamOptions::flags</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -177,23 +172,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="adfd267059434edb21573c584e6367def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfd267059434edb21573c584e6367def">&#9670;&nbsp;</a></span>priority</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int RtAudio::StreamOptions::priority</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Scheduling priority of callback thread (only used with flag RTAUDIO_SCHEDULE_REALTIME). </p>
-
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00382">382</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-
-</div>
-</div>
 <a id="a2a4b0b8d690c624d20f4e8f4be6ca9ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a4b0b8d690c624d20f4e8f4be6ca9ba">&#9670;&nbsp;</a></span>streamName</h2>
 
@@ -208,6 +186,23 @@ Public Attributes</h2></td></tr>
 <p>A stream name (currently used only in Jack). </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00381">381</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+
+</div>
+</div>
+<a id="adfd267059434edb21573c584e6367def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd267059434edb21573c584e6367def">&#9670;&nbsp;</a></span>priority</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RtAudio::StreamOptions::priority</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Scheduling priority of callback thread (only used with flag RTAUDIO_SCHEDULE_REALTIME). </p>
+
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00382">382</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
 
 </div>
 </div>

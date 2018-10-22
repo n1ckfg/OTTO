@@ -10,7 +10,13 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::tuple Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
-    <!--script type="text/javascript" src="dynsections.js"></script-->
+    <script type="text/javascript" src="dynsections.js"></script>
+      <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
@@ -26,7 +32,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                  </button>
-            <a href="/" class="navbar-brand">OTTO </a>
+            <a href="." class="navbar-brand">OTTO </a>
             <nav class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav pull-right">
                             <li><a href="index.html">Overview</a></li>
@@ -105,11 +111,8 @@ template&lt;std::size_t I = 0, typename FuncT , typename... Tp&gt; </div>
 
 <p>Foreach for tuples. </p>
 
-<p class="definition">Definition at line <a class="el" href="util_2type__traits_8hpp_source.html#l00230">230</a> of file <a class="el" href="util_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    {</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      <span class="keywordflow">if</span> constexpr (I != <span class="keyword">sizeof</span>...(Tp)) {</div><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>(std::get&lt;I&gt;(t));</div><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <a class="code" href="namespaceotto_1_1meta.html#a353e6ad9cf615ad18447566093206f7b">for_each</a>&lt;I + 1, FuncT, Tp...&gt;(<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256ae358efa489f58062f10dd7316b65649e">t</a>, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>);</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      }</div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div><div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">otto::board::ui::Key::f</a></div></div>
-<div class="ttc" id="namespaceotto_1_1board_1_1ui_html_afe5ddb4db985e3786da601effd992256ae358efa489f58062f10dd7316b65649e"><div class="ttname"><a href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256ae358efa489f58062f10dd7316b65649e">otto::board::ui::Key::t</a></div></div>
-<div class="ttc" id="namespaceotto_1_1meta_html_a353e6ad9cf615ad18447566093206f7b"><div class="ttname"><a href="namespaceotto_1_1meta.html#a353e6ad9cf615ad18447566093206f7b">otto::meta::for_each</a></div><div class="ttdeci">constexpr void for_each(Callable &amp;&amp;cb)</div><div class="ttdef"><b>Definition:</b> <a href="meta_8hpp_source.html#l00473">meta.hpp:473</a></div></div>
-</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="util_2type__traits_8hpp_source.html#l00231">231</a> of file <a class="el" href="util_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
