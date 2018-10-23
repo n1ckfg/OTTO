@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: /home/topisani/dev/OTTO/src/core/props/internal/tag_list.hpp File Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -154,13 +156,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename TagList&gt;<br />
-struct otto::core::props::add_required&lt; TagList &gt;</h3>
 
-<p>Metafunction that adds all of the required tags for all tags in <code>TagList</code> to the list. </p>
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00010">10</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div>
 </div>
 </div>
 <a name="structotto_1_1core_1_1props_1_1add__required_3_01tag__list_3_01_tags_8_8_8_01_4_01_4" id="structotto_1_1core_1_1props_1_1add__required_3_01tag__list_3_01_tags_8_8_8_01_4_01_4"></a>
@@ -174,12 +170,7 @@ struct otto::core::props::add_required&lt; TagList &gt;</h3>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename... Tags&gt;<br />
-struct otto::core::props::add_required&lt; tag_list&lt; Tags... &gt; &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00013">13</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="a08e4310ecd03b6d65b96cd6b0d3760d4"></a></td>
@@ -202,13 +193,7 @@ type</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename TagList&gt;<br />
-struct otto::core::props::normalize_tags&lt; TagList &gt;</h3>
-
-<p>Uniquify and sort tags by their name. </p>
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00034">34</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="ae3a448e3d3bbe01e700d0486ab0c7c59"></a>typedef sort_t&lt; uniquify_t&lt; TagList &gt;, <a class="el" href="structotto_1_1core_1_1props_1_1compare__tags.html">compare_tags</a> &gt;</td>
@@ -231,15 +216,7 @@ type</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename ValueType, typename TagList&gt;<br />
-struct otto::core::props::inherit_from_all_mixins&lt; ValueType, TagList &gt;</h3>
 
-<p>Metafunction to get a type that inherits from all the mixins coresponding to TagList. </p>
-<p>Does not add required mixins.</p>
-<p><code>TagList == tag_list&lt;...&gt;</code> </p><dl class="section return"><dt>Returns</dt><dd>a <code>boost::hana::type</code> containing the result type </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00058">58</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div>
 </div>
 </div>
 <a name="structotto_1_1core_1_1props_1_1inherit__from__all__mixins_3_01_value_type_00_01tag__list_3_01_tags_8_8_8_01_4_01_4" id="structotto_1_1core_1_1props_1_1inherit__from__all__mixins_3_01_value_type_00_01tag__list_3_01_tags_8_8_8_01_4_01_4"></a>
@@ -253,12 +230,7 @@ struct otto::core::props::inherit_from_all_mixins&lt; ValueType, TagList &gt;</h
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename ValueType, typename... Tags&gt;<br />
-struct otto::core::props::inherit_from_all_mixins&lt; ValueType, tag_list&lt; Tags... &gt; &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00061">61</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="a43cf627085a8d9e33fe48e2587e632e9"></a></td>
@@ -281,12 +253,7 @@ type</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename Tag&gt;<br />
-struct otto::core::props::no&lt; Tag &gt;</h3>
 
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00074">74</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div>
 </div>
 </div>
 <a name="structotto_1_1core_1_1props_1_1default__mixins" id="structotto_1_1core_1_1props_1_1default__mixins"></a>
@@ -300,12 +267,7 @@ struct otto::core::props::no&lt; Tag &gt;</h3>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename T, typename Enable&gt;<br />
-struct otto::core::props::default_mixins&lt; T, Enable &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00091">91</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="add5b47769ad012de1792a181f69f0110"></a>typedef conditional_t&lt; is_enum_v&lt; T &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; serializable, has_limits, steppable &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; serializable &gt; &gt;</td>
@@ -328,12 +290,7 @@ type</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename TagList&gt;<br />
-struct otto::core::props::remove_disabled_tags&lt; TagList &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00096">96</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="aec5d70163875ccf97c5d83a32bfdc47e"></a>typedef filter_t&lt; TagList, is_disabler &gt;</td>
@@ -374,12 +331,7 @@ type</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename ValueType, typename... Tags&gt;<br />
-struct otto::core::props::get_tag_list&lt; ValueType, Tags &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00105">105</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="ab16a789b3697811c2f6b629d2439615a"></a></td>

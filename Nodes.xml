@@ -36,6 +36,343 @@
         <Anchor>autotoc_md7</Anchor>
        </Node>
        <Node>
+        <Name>Modules</Name>
+        <Path>modules.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>Container Standard Algorithms</Name>
+          <Path>group__container__algos.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>accumulate</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga7e66a1f7dac3a95e9596570432016c02</Anchor>
+           </Node>
+           <Node>
+            <Name>accumulate</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gad12b6e39e10012394c5c4cef25220513</Anchor>
+           </Node>
+           <Node>
+            <Name>adjacent_difference</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga073f917f42b79b632140ec99c45ff1da</Anchor>
+           </Node>
+           <Node>
+            <Name>prev_permutation</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga0714070f64afe8451624663804ada8c0</Anchor>
+           </Node>
+           <Node>
+            <Name>prev_permutation</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gac96ce17fa44d161d28afe1ae38f8c8b7</Anchor>
+           </Node>
+           <Node>
+            <Name>push_heap</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga5f85d58817aab2e50690cd54e7688705</Anchor>
+           </Node>
+           <Node>
+            <Name>push_heap</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gafad161b984d06ee40fb4fa3f3e47f95b</Anchor>
+           </Node>
+           <Node>
+            <Name>remove</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gac924289c208f71eaa44b9a70cac7d6de</Anchor>
+           </Node>
+           <Node>
+            <Name>remove_copy</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga537015965da3155e9017474ab923e00f</Anchor>
+           </Node>
+           <Node>
+            <Name>remove_copy_if</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaf94ae8176e54cd22e816cf6b155ca7e4</Anchor>
+           </Node>
+           <Node>
+            <Name>remove_if</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga68c5a51467a0a214df053eb0e180bcac</Anchor>
+           </Node>
+           <Node>
+            <Name>replace</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga141e9aacbd49aeaa4574f231bf026e0b</Anchor>
+           </Node>
+           <Node>
+            <Name>replace_copy</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gae7e2c6490e4e09833e008f7ba3f144a3</Anchor>
+           </Node>
+           <Node>
+            <Name>replace_copy_if</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga6582ec00b84fdc8d665c342ec8ef9cea</Anchor>
+           </Node>
+           <Node>
+            <Name>replace_if</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga732fbeddc4a2d159023ae944662721fe</Anchor>
+           </Node>
+           <Node>
+            <Name>reverse</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaaf5ebd9cb18403c4d55096d6507e17c9</Anchor>
+           </Node>
+           <Node>
+            <Name>reverse_copy</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gafa2e9cbe65eea851745d431bbd6877e6</Anchor>
+           </Node>
+           <Node>
+            <Name>rotate</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga524d77f7575febee7d064e58fba119a1</Anchor>
+           </Node>
+           <Node>
+            <Name>rotate_copy</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gab9a7c40459b85d8126a2bf19dba6690a</Anchor>
+           </Node>
+           <Node>
+            <Name>search</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga990ffbf582e8d0253a5ae474863bdf94</Anchor>
+           </Node>
+           <Node>
+            <Name>search</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gad1ef629693495a76e82efc347fa729cb</Anchor>
+           </Node>
+           <Node>
+            <Name>search_n</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaf4ecafb4137b56cb152c76e92b6da838</Anchor>
+           </Node>
+           <Node>
+            <Name>search_n</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga7747ecc67e8778c9ea139b80882b9a25</Anchor>
+           </Node>
+           <Node>
+            <Name>set_difference</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga1e1995d5f4063e15a93978b255a9135c</Anchor>
+           </Node>
+           <Node>
+            <Name>set_difference</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga703c6c2347d019dd0ab959e222cb8186</Anchor>
+           </Node>
+           <Node>
+            <Name>set_intersection</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga539a8369a85b3c716e0bc82c4d5c3643</Anchor>
+           </Node>
+           <Node>
+            <Name>set_intersection</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga67806761f3ef315aceb35496969e94ff</Anchor>
+           </Node>
+           <Node>
+            <Name>set_symmetric_difference</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gabf1d56e41e30a2d31247afc583640e1b</Anchor>
+           </Node>
+           <Node>
+            <Name>set_symmetric_difference</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga315f612db3dc8421eaf3b725fd919de7</Anchor>
+           </Node>
+           <Node>
+            <Name>set_union</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga1b535a4c41306413d33a3bd77e9a0d38</Anchor>
+           </Node>
+           <Node>
+            <Name>set_union</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gadfebe38d19a365d91086c355712c7708</Anchor>
+           </Node>
+           <Node>
+            <Name>shuffle</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga4e81fa976d36789c729e13ef142cb225</Anchor>
+           </Node>
+           <Node>
+            <Name>sort</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga360e87f6361a2ef70cad1650374391c4</Anchor>
+           </Node>
+           <Node>
+            <Name>sort</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga78e83fc3fdb41c82cbd4666d78ed4d5e</Anchor>
+           </Node>
+           <Node>
+            <Name>sort_heap</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga00c5848486cb6bdd04626f019e765524</Anchor>
+           </Node>
+           <Node>
+            <Name>sort_heap</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga504d2457e084b8e48ef40727335c1bbd</Anchor>
+           </Node>
+           <Node>
+            <Name>stable_partition</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga8ba10c8f751ade494f2f97acd60e2ac0</Anchor>
+           </Node>
+           <Node>
+            <Name>stable_sort</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga7cd6c10f284402aca7eabb19d1b223d0</Anchor>
+           </Node>
+           <Node>
+            <Name>stable_sort</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga424087bb73da180e1d9042eb9eb3ab6a</Anchor>
+           </Node>
+           <Node>
+            <Name>swap_ranges</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaf42ddbeaa5d530000915b43999e66c7a</Anchor>
+           </Node>
+           <Node>
+            <Name>transform</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga7dbefdc4aa2a4e3a6fddede5296654fc</Anchor>
+           </Node>
+           <Node>
+            <Name>transform</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga66a374a7c06fbf3a8496587bde58ef54</Anchor>
+           </Node>
+           <Node>
+            <Name>transform</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga3f760297ad374c4c52555a9d4f9cab0c</Anchor>
+           </Node>
+           <Node>
+            <Name>transform</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gab466d6c843265048b7bacbc40f16d9a9</Anchor>
+           </Node>
+           <Node>
+            <Name>transform</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaaf16f5e5eb939c8565879f0ea07019e0</Anchor>
+           </Node>
+           <Node>
+            <Name>transform</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga3849b598c863e3a62cf661323c8b672f</Anchor>
+           </Node>
+           <Node>
+            <Name>unique</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gab93ee0ea78826ca59ddd7ebc1733675d</Anchor>
+           </Node>
+           <Node>
+            <Name>unique</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga2b58a95aa7399dfd96d6be4d9778edb2</Anchor>
+           </Node>
+           <Node>
+            <Name>unique_copy</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gacc726873dc1a08ade02762ea42624dac</Anchor>
+           </Node>
+           <Node>
+            <Name>unique_copy</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gac9c334575fa5e167ed5fe37d4304aeef</Anchor>
+           </Node>
+           <Node>
+            <Name>upper_bound</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga7f5703c737dae4fe687dde768db101df</Anchor>
+           </Node>
+           <Node>
+            <Name>upper_bound</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga1fa3e6aceb5878417a969afa05a7e70f</Anchor>
+           </Node>
+           <Node>
+            <Name>copy</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaad9288ae8fb47c57d4fe491357e79a96</Anchor>
+           </Node>
+           <Node>
+            <Name>copy_if</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga937797401b711b14957d83312dcaa70a</Anchor>
+           </Node>
+           <Node>
+            <Name>fill</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga4a9d63fc894ab89786d6b5eb60762513</Anchor>
+           </Node>
+           <Node>
+            <Name>fill_n</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga982eb7dc1b8d3dc3c56cb25c3753d3fa</Anchor>
+           </Node>
+           <Node>
+            <Name>any_of</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga55284d4fb20ed2d5ec9cc2c3c57b1632</Anchor>
+           </Node>
+           <Node>
+            <Name>all_of</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gac791372b539e512b3071ede6215a1937</Anchor>
+           </Node>
+           <Node>
+            <Name>none_of</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga36b46d8062dc803f3cabb2db51c46382</Anchor>
+           </Node>
+           <Node>
+            <Name>max_element</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaeb22dc1d565ce5c78be43f4b7452ec9f</Anchor>
+           </Node>
+           <Node>
+            <Name>min_element</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga410ad80e7d5ea282bff422a10ed65836</Anchor>
+           </Node>
+           <Node>
+            <Name>min_element</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gaff18b3f1e7aece740118e65e2a0b7ec2</Anchor>
+           </Node>
+           <Node>
+            <Name>max_element</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga407ba2c5969dd07eaf52041e1eb549bc</Anchor>
+           </Node>
+           <Node>
+            <Name>find</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gace9f3b07f3956fa6bed7b7adabf0391e</Anchor>
+           </Node>
+           <Node>
+            <Name>find_if</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>gafd2199e8cd364fabb6a32702165efc09</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
         <Name>Namespaces</Name>
         <Path>namespaces.html</Path>
         <Subnodes>
@@ -198,12 +535,26 @@
               <Path>namespaceotto_1_1util.html</Path>
               <Subnodes>
                <Node>
+                <Name>algorithm</Name>
+                <Path>namespaceotto_1_1util_1_1algorithm.html</Path>
+               </Node>
+               <Node>
                 <Name>audio</Name>
                 <Path>namespaceotto_1_1util_1_1audio.html</Path>
                </Node>
                <Node>
                 <Name>dsp</Name>
                 <Path>namespaceotto_1_1util_1_1dsp.html</Path>
+               </Node>
+               <Node>
+                <Name>iterator</Name>
+                <Path>namespaceotto_1_1util_1_1iterator.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>view</Name>
+                  <Path>namespaceotto_1_1util_1_1iterator_1_1view.html</Path>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>math</Name>
@@ -217,13 +568,13 @@
                 <Name>tuple</Name>
                 <Path>namespaceotto_1_1util_1_1tuple.html</Path>
                </Node>
-               <Node>
-                <Name>view</Name>
-                <Path>namespaceotto_1_1util_1_1view.html</Path>
-               </Node>
               </Subnodes>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>std</Name>
+            <Path>namespacestd.html</Path>
            </Node>
           </Subnodes>
          </Node>
@@ -6066,6 +6417,743 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>iterator</Name>
+                <Path>namespaceotto_1_1util_1_1iterator.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>AdjacentRange</Name>
+                  <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>iterator</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a56e576060333d8507754853d4afc5e11</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>AdjacentRange</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>aac0b67d20afae04ff96a7e952e692b86</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>AdjacentRange</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>ab132b14e659f23cc0dc8079f9837b97a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>begin</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a0432e55e3bbcf1b2e06527fb7bdf4ceb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>end</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a61b10adaf0798cd93290a41ee3ea9982</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>first</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>ab9a0e87dacf1f7e225c48ce950dedfeb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>last</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a3ef6007ed385675c143495e3b6a5bb10</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>FilterIterImpl</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>ad8704c9d79bc2769875ed310f4ac21b7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>reference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a03852d47bfb922a47650e6b3b91b6ee3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_category</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>aa3f851fba3af63751e19ddd8eaaf66ec</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>FilterIterImpl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a81f72a95a9edbcdc96a61413489c89a1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>FilterIterImpl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a1d64d9eb9d4cc50399bcc8314252b10b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>nextvalid</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a5b62b52e6b8090a3a8b7d09a6b1e4aaa</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>advance</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>af36d76ad8bcb87d13efd4553c49a3ae2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>dereference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>ad29d7e66924a47e672d0331410db1e96</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>equal</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a64d921352491be0b4866ed4c42febd13</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>difference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a05a10bb894ef74d0008b3076cd75016d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iter</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>ab56a6438dc28fd8c9d767315f1aec86a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>last</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a9ba429bfe07545251bfb7632694b55ec</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>callable</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a6104019c2c38c125e37d8786b85ac431</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>float_step_iterator</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>wrapped_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a1e583fe217dc372ac171d2f8bfbe1245</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>af7093b861897d5ad6081a919e8ec0652</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>reference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a550d05112ee4b6a50d71250bf34fc38c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pointer</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>adc5656d8ac74eba2460496b2eb11892b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>difference_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a932ebdd0c8fc36659690192edb1339a7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_category</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a7ccde9ef0952c6c6f1c303cf8d8c5200</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>float_step_iterator</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>ac723761344f8b19d4672a5fcaf12f017</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>float_step_iterator</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a03c0e6e27dda1242d1b410f32af23c8a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>float_step_iterator</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a3276bc3088b32cb1004ff0dcb310eec7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>adf05ffc015c1755a947ca07f37286562</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>ae6dba7bdde07fcf165b4f9f303dd0aa1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator*</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a8537d100ae4f0cc0c7e6952c651143af</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator*</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a052e59b35fdeb4a927108853507a8b90</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator==</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a350396b7c194260936acd4dc1b78dfcc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator!=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a7626bbdb137848355dd0bec0b3434136</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&lt;</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a61626012130d6acdb23027ea646ad0bb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&gt;</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>afcbfce72858adc7ee58fd4a80a2c03ec</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&lt;=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>af982753fda5220d79d852523e95d2224</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&gt;=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>aebb1ea245c51d781b8a22247a1974afc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a94074892a26710cfc2633a7a59f49612</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator+=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>aaa70d04773fdc8138572e241b7172994</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator++</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a0981b183d440840b583c059a5fcc0236</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator++</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a686eb194bf6d94e7848534b8a0ff5db2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>aedd4da2cd88f18ea713af59f99411310</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator--</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>adbc9f27d305f5c18a3c5281053b987f4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator--</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a6a915b7b436c80f1252ad9848ece45d1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>data</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>acd96d0724feca74a18769b6f4c4a80d1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>error</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>abe3143ac454d2a2a241ad530ffec7f05</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>difference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>afd10f599c636144db52e23b0b42a6430</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>step</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>af0c38d3e226cb5e1884400019113a79e</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>GeneratingIterImpl</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a9a18c6b74ee0287f38cf8e07b5ce2981</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_category</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a01e61792734012b48e6e2cdc5d32cf8d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GeneratingIterImpl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a19c27178de16ff366adac4ee3534edab</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>advance</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a6a4443f44ed34081b7d824588984a474</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>dereference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a88fb9135e2e6ea96c3ece0a515426915</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>equal</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a0ccf89ac6614e542929d6cc57f064253</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>val</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>afe0b380f78369cc037298b2331c8e145</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>generator</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a79e469a8c5b3821edbceed94f3e7c6cc</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>iterator_adaptor_impl</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>difference_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a148fa087670bcf1dd0e7392aaaa71ec3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a120e0ee6dfc4e23e7d3ab8868ff5f604</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pointer</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a0f28d0e6d9914be437fb1e9538cc7cdd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>reference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a83c6c25b1fec131265cc9a2ce1c94897</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_category</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>ae0deebb4ea87eab626c917f6a7941bb4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a2d9e884b212ff99964200513602955c4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>ab916369c427d720902c22f3168a40622</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a75db7fbaa702b96ee6c8c8d64d43ee02</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>aae04880b71d0f2d35f62938b12a698cd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a2a7abbc514da469482d8c9a42224e280</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>aff78ca536eee3cd20e39be2ba6fc1470</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator++</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a39ad894412f384ac498f0f0b46dbdd0e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator++</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a154aed384a567d6bf2cbcfed76228478</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator*</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a03b0926c5ac81d9701a18c3bc335e83a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator*</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a00e2354f56b03114a1c268b5893cf4e9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-&gt;</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a4ee1ba3d1699c78c513dddb15dc554ab</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-&gt;</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>aeceea25b37875471d3f3a7452becdeef</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator==</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a896f1bd633882564017b53490a32f52a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator!=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>ae0ce7787fd4d346696dd229b50be0045</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>iterator_adaptor_impl&lt; Impl, std::bidirectional_iterator_tag &gt;</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a86e5d05c4c40346e59270c354f66da72</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a6e621b1f8174c45b12d58f51d0eb0eaf</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a067e3834bf9ef63b1e45b550daae0d33</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a292b55c1ffb93e98263c3afed0f9db1f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>ae9c56bf8c417ff8a1a3b573378e994b1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator--</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a805dbb9328b9e6a697f337cbe5d5a90e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator--</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>af3c2e42f8538fea2f882913d79fde81c</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>iterator_adaptor_impl&lt; Impl, std::random_access_iterator_tag &gt;</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a0801f2222a3d4a400f30ac1b538ba0cc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>ade429e82233ac65f78f7f5d6a0ab64b7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_adaptor_impl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>af3e9464149d1caf714983bdf4e78c856</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>ad6e1c9f96f7021031218f134f091a724</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>ac7f551ec2f8e659b0daf2a9cac3894f5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator+</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a27940cfc7316b83258c70d8f0d13c833</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>af218a9ea8d23433a4fed9a0e14d943a1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a658aca3b00258cbce05d85c0adacbe4d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&lt;</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a0ba251668a3867585ce6dcd6f1d74732</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&gt;</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>af4418c73d2d1507449c4083342bc6ea5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&lt;=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a573195d2e1de7b3c43f34e51100d1308</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator&gt;=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a59ea81e3b1e08c55fe045af81317bfa1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator+=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a37635a5b5858ad31ca57a940c6dff82a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-=</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a3bf63889ed23eede2e643989d2c36710</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator[]</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a77a4757b1d0b48aca0e42bd534ed0bcf</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>sequence</Name>
+                  <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>iterator</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>a9a592f9c9c01668b464e0495f91f7c0d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>sequence</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>a449a44bdfcb371019d7bf592568ff71e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>begin</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>a5140b11a1288c31f5f661353a0ee3431</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>end</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>ab1449c909a4c2ad837457f046a5acfd7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>first</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>aa3f399a931e4e5385546620861278207</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>last</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>ab045fe48a8829ac55b1057c9eb52a69d</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>TransformIteratorImpl</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>reference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>ac317fa23363cb0b587591ba743d4ec2a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a1c5a7b98baadfdb3609adb7650e5f189</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_category</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>ad5a93bac6f7cbf460f89f38a291eaf90</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TransformIteratorImpl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>afa447a70754509afdecd07f099d89056</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TransformIteratorImpl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a6b81098ee69926d4b275caa7f8d929bb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>advance</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a65c675971d71c3c83e9251074a509273</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>dereference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a89f7962c471d14f0a4323c2dffeb33af</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>equal</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>af2215f4204d711703f4a0dfe7bba93d2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>difference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>ac072b5a77291f57ead535ae4bef68407</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iter</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a1c62ae7a0bcc3f7a2aabe65b5f4753ba</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>callable</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a5b6052381af3bf64bd38ad7b8f2ded2f</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ZippedIteratorImpl</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a757f838c88eb97a1b499f76d7159ca4c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>reference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a92cc6275b1146b20bc88b5edd53c3a2c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator_category</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a92b4e7de6e6c2bed365dd8c9608a88e9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ZippedIteratorImpl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a612194017392d6ffdd869300c4f6be32</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ZippedIteratorImpl</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>ad72c2c4df069360b48f50cb609db4268</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>advance</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>ae455681f1082821ace1da51f925657b8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>dereference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>ad56fdcb8d6ce3834c7f98ecd0ff9b061</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>dereference</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a61914cff4e099f30f4766d51546f1222</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>equal</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a3ec63c4e20cb522775862418aa1f447b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterators</Name>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a3d9be89637fcb904a409456d9eb01009</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ZippedRange</Name>
+                  <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>ZippedRange</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>ac29f10d86afd21e4a4934634f14b65ce</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>begin</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a9843db78f7be353d5dcb3ee144cecbc9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>begin</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a721fe4867272d38d3ed4f0553296cdb7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>end</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>ae62414bb4f9ed930f428f9cd4ecf4e00</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>end</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>ab9489b9ca4a2aa1776fdf3a778654a5c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>first</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a34933693e1039f92423a45af2a78d7ec</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>last</Name>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a593df3bd3c3e657d0103c17c2e6b21b3</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>math</Name>
                 <Path>namespaceotto_1_1util_1_1math.html</Path>
                 <Subnodes>
@@ -6189,47 +7277,6 @@
                     <Anchor>ae7fae41593b8f78b9bc4be05d110cdaf</Anchor>
                    </Node>
                   </Subnodes>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>AdjacentRange</Name>
-                <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>iterator</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                  <Anchor>a71e1fd20da4c9036cdc67ed15f1eb36b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>AdjacentRange</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                  <Anchor>acca6c8115926a68ff8d4319506e2b796</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>AdjacentRange</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                  <Anchor>a2032e5c74ad5cbad1c62322a9db4c9f7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>begin</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                  <Anchor>a8c28e3dd18a84609aea5619229c29a94</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>end</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                  <Anchor>a3f2bd20debb5dbb9056c5f5420eaa186</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>first</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                  <Anchor>aea8c56dec140ae3813888bef2e69439d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>last</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                  <Anchor>aaca82f16c95f9eec1d217a8cb3a85b6b</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6880,279 +7927,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>FilterIterImpl</Name>
-                <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>value_type</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>a570d487e8eac53300493efd12ef61f4a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>reference</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>a58fc3ad896e04b33375169f58c26879d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_category</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>ac78ccb71c2a591fb7d5d57c6bf366859</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>FilterIterImpl</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>ae6094ca679b2a32da70f7a0e44ce8cb8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>FilterIterImpl</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>a3191eec1716b385779d63ab972e87a96</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>nextvalid</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>aab926d8dd4a56af57c9d8aca40b82bf9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>advance</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>aceb1458f84801f697e87e54b636e5497</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dereference</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>aa0de3b5d0fc4d3a422820953f5bcc9b9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>equal</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>a40237512587279c92e586dc3a45b469c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>difference</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>ad98e4f49451f809f722bec5fe79ebf8a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iter</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>a092dd3070f17da2b0225fa848f0e0241</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>last</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>a1de64d511a90b25d74a70a872e8d2e76</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>callable</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                  <Anchor>a342ce69031778898dcad6fd36d2923e8</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>float_step_iterator</Name>
-                <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>wrapped_type</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a31e79fccdeadadfdd928fec42fdfa2ce</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>value_type</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>afa9270037085a6348e271582eee6ccac</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>reference</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a2e1f0cedd24f4b32a2ce321b8da8d03a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>pointer</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>aca62d5145dfe937a8027a7206b1054ec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>difference_type</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a070e3c9b6e7472872cbe99f0bffb0974</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_category</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a3d993d62491c2ec0954e922e344e47d1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>float_step_iterator</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a78f4cb68e36bcf04d2521c6528293b28</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>float_step_iterator</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a7380232634b90c6b5e9bc9e97a37a4a1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>float_step_iterator</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a9ca29941533723232d70b3c2f1c73b19</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>ae973b81e6fe4c6ceddca3b547f185b8a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>ab702be7be0b39e23ef6e52c8514af110</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator*</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a81d3a5360be89d87c1bff6340815fb37</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator*</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a966de67d34780a7a00cf39dabc33140a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator==</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a39292344abd7b0a35317461c4c376b57</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator!=</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a969663898184c8305ec9bbedb6b71cc6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>aa18bae87b01dcae9b88505d055f7b721</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&gt;</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a99de00c9773330f7ea868f639d4c6c56</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;=</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a4a2ac8d6a94d7f2a5abbd8b9db01e245</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&gt;=</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>acf77fa8c621e6b4e2e6e3d7ff428dcba</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a117d2f0a6ade8b264cb52315d1fe03ae</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator+=</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>af5d71fb774c4c6fe468d82361add5ee2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator++</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a9d76735be1c15c8c902e49e3ea5d7878</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator++</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a2ad85ce840293e7cd0a6009aebf25934</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-=</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a746281181d1abf111861a6871ffd3b9e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator--</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>afe0bd0183f0f43f7137fce87108b6dca</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator--</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>ad6a3743ff7d3bfc9a86edabdb2b44e80</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>data</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>ac9d1c5b0818f1478f67d127d94eb8697</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>error</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a2daed04afda320d688844646bee0ed86</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>difference</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>aa2a8b03a452dcfb9e6032eb7f7cd2c52</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>step</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                  <Anchor>a7fb47d51f9093385d1ed98ce63c38e4d</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>GeneratingIterImpl</Name>
-                <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>value_type</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>acad416c3d2e77381591d7391ee9a25c0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_category</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>ae2600e77b19ccf9641504164111f7300</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>GeneratingIterImpl</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>a5d1db7b45de0e5390723ded9c7ad9aaf</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>advance</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>ad91b87ca650754aa8fcf4c4eadbfb922</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dereference</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>a4686ec664c2f4165d2514f3583789912</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>equal</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>a960a7388f53d2aa480035091bd6e003b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>val</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>ab9ad01077dfad5435749294c02f209c5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>generator</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                  <Anchor>a681cf88da59373508529eebafbf6e635</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>Header</Name>
                 <Path>structotto_1_1util_1_1_header.html</Path>
                 <Subnodes>
@@ -7240,229 +8014,6 @@
                 <Name>is_one_of</Name>
                 <Path>structotto_1_1util_1_1is__one__of.html</Path>
                 <Subnodes>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>iterator_adaptor_impl</Name>
-                <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>difference_type</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>ae32dace22dd8775b5c0e9868cdcb9b1a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>value_type</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>adcfd3c152c0434b781d93f407234022c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>pointer</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>aad6578e6caf9d2dc37f4980537189ae5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>reference</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a0aa0560161dc183892fe589c2ca157dd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_category</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>afbbb9af731038b33a1346c9ebe870978</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a4e41f9ca07847046645b4b3b582a2a4c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>ae19e24c79fc5b69caccc76b2d6070f77</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a79444246ba240928206474737952fa16</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>af07ef58463a447a19b87c535a535b10f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a542049af705dbd52b12ec6d92cec9c06</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a1c560e1dce36e93d2618e019c10a86f6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator++</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a5669ddce3297c5ef7eedc62058b0b995</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator++</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a47a74b0b7b7fca43f7530a03f851add4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator*</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a96f436b6cfc6b93e7214fe9e2b2c85c8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator*</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a731b0f95cf1ff519e0b875fe0b096264</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-&gt;</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a107993895bd63f06d94fdef18bae56ab</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-&gt;</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a02ab5b32da8471f1125502a5bd0ff650</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator==</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a6edda132190dac7be5efd1910f138918</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator!=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                  <Anchor>a1ef96189fd2bd543180008ba4e804eed</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>iterator_adaptor_impl&lt; Impl, std::bidirectional_iterator_tag &gt;</Name>
-                <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                  <Anchor>a0b6f4199d4d76a14805c4d6c38201750</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                  <Anchor>a40c79350a7eecc50ef458769ac84aeed</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                  <Anchor>a62a6df26875b6dc5c436063284c438b3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                  <Anchor>a2cc9ed714b452d580de3d1201fa2c51a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                  <Anchor>a80d6a8754259572cc2ca023c018df124</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator--</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                  <Anchor>a4eb40043e3f76aaba0c7b05918eb67a6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator--</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                  <Anchor>a29262c357acf69ad750d25277c28f72c</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>iterator_adaptor_impl&lt; Impl, std::random_access_iterator_tag &gt;</Name>
-                <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>aa63a778872c0ff321b21e4d322295b16</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a5800748d26a5c134c33de1a3df2be80d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a532ffc97d27379f637da151700f371ae</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a05f54d33cf820d0c498677b4e49adf64</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a67dab17876f1b7f61dbf8ab95e989d09</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator+</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a6f21860e6ec8c5d2d3eaa8b4e579c726</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>afba9a5c6b00e9295a5dd775ef5b4a8c2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a98f37da36d052cb809592918e6e63f0f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a748beae48b1c6e1183db5da54c399046</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&gt;</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a667dd392aece396e93325e14f64ae0cd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&lt;=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a0a1d64d834855db4620a465c3a21e346</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator&gt;=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>afd710cc410c884ec3802a893ff613480</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator+=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a7b14e0e09ac3865a1fb7c4fec589a03c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-=</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>a3e1477cf0c734cb4b98b071fe0d12126</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator[]</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                  <Anchor>ac9cb6cdcabe5fc79334aa471dbac565a</Anchor>
-                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -7893,42 +8444,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>sequence</Name>
-                <Path>structotto_1_1util_1_1sequence.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>iterator</Name>
-                  <Path>structotto_1_1util_1_1sequence.html</Path>
-                  <Anchor>af9d5813372a0fc5b09508b2725c6f00b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>sequence</Name>
-                  <Path>structotto_1_1util_1_1sequence.html</Path>
-                  <Anchor>ae0ae433279674c67534f3c2e5d5381e2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>begin</Name>
-                  <Path>structotto_1_1util_1_1sequence.html</Path>
-                  <Anchor>a3ef14cb09b652cdea7dfee8896a39484</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>end</Name>
-                  <Path>structotto_1_1util_1_1sequence.html</Path>
-                  <Anchor>a8513fa0a3c8969047fab97bcce92d06a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>first</Name>
-                  <Path>structotto_1_1util_1_1sequence.html</Path>
-                  <Anchor>ade69086bcf438eccdc80f7f12b50630e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>last</Name>
-                  <Path>structotto_1_1util_1_1sequence.html</Path>
-                  <Anchor>ae2f83f95e0ecf0ff30ae60b7d33dfb11</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>SoundFile</Name>
                 <Path>classotto_1_1util_1_1_sound_file.html</Path>
                 <Subnodes>
@@ -8215,67 +8730,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>TransformIteratorImpl</Name>
-                <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>reference</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>ac2ab4e5461ed93d855697b316fa0fe39</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>value_type</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a54810ab69263d172b0439cbed844140a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_category</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a61aa7504e300589f3a18238a9117a901</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TransformIteratorImpl</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a96ac2e2c2a4994e9e508bb9e312c8e76</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TransformIteratorImpl</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a84d59c1d3a1a3633fdc4214c4c6222ec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>advance</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>afbb53cd17b48b154366d2352aaa41f34</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dereference</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a4ebb3e39f2124b38ef77a2ca921457ec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>equal</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>affd837361ae18f2ac42f47da9c578a36</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>difference</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a07e0fce8da12e0f0592660b940c156ac</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iter</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a5c7437c32b7daf29f3993f4af1b1471d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>callable</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                  <Anchor>a9fc8b64f6a9e0fe74bc9cda8ff869003</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>TRCKChunk</Name>
                 <Path>structotto_1_1util_1_1_t_r_c_k_chunk.html</Path>
                 <Subnodes>
@@ -8501,103 +8955,6 @@
                   <Name>storage</Name>
                   <Path>structotto_1_1util_1_1wrapping__array.html</Path>
                   <Anchor>a32ae1eeec4989172970e11cb82c1c090</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>ZippedIteratorImpl</Name>
-                <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>value_type</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>a1606260f9c2885effa25971fbdd3570d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>reference</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>aeea0676eac749e0ed8dd76ee234482a3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterator_category</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>a93ce4ca72f2e50e7b5b01becf615cd69</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ZippedIteratorImpl</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>a1eb2a82af4382f610fc02e67ca928739</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ZippedIteratorImpl</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>a788d827f85b5a0b1fb62531000030601</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>advance</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>acacec55875ba030c641d4c052b0f8bfe</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dereference</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>aa8aa3cdc479220581adf4ac05f778ecd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dereference</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>ab9305b35710682a80779632c4e00024d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>equal</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>ab52bc26af5d80e15d12ed7477b39e42b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>iterators</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                  <Anchor>aa48ef9f69eed87b0af42a70337e8c324</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>ZippedRange</Name>
-                <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>ZippedRange</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                  <Anchor>a7f71355cc44ca575f9f4c3c2a7582fc2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>begin</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                  <Anchor>a53c2312460be6a8c85bbcfde5a972a1d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>begin</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                  <Anchor>a9662021872ce8a356e5b37198c352a72</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>end</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                  <Anchor>aad9e315194673af935cbc10dff764b7b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>end</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                  <Anchor>a9bce94ef9755b686fe0f8ab8fd93d8cd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>first</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                  <Anchor>a196b406ac56d03023282bb7e70d07062</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>last</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                  <Anchor>a8402ccb3d617f5c639965d3a1c2280af</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -10433,8 +10790,8 @@
             <Anchor>structotto_1_1core_1_1props_1_1add__required_3_01tag__list_3_01_tags_8_8_8_01_4_01_4</Anchor>
            </Node>
            <Node>
-            <Name>otto::util::AdjacentRange&lt; Range &gt;</Name>
-            <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
+            <Name>otto::util::iterator::AdjacentRange&lt; Range &gt;</Name>
+            <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
            </Node>
            <Node>
             <Name>otto::service::audio::AlsaAudioDriver</Name>
@@ -10894,10 +11251,6 @@
            <Node>
             <Name>otto::util::Event&lt; Args &gt;</Name>
             <Path>structotto_1_1util_1_1_event.html</Path>
-           </Node>
-           <Node>
-            <Name>std::exception</Name>
-            <Path></Path>
             <Subnodes>
              <Node>
               <Name>otto::util::ByteFile::Error</Name>
@@ -10920,10 +11273,6 @@
              <Node>
               <Name>RtMidiError</Name>
               <Path>class_rt_midi_error.html</Path>
-             </Node>
-             <Node>
-              <Name>std::runtime_error</Name>
-              <Path></Path>
               <Subnodes>
                <Node>
                 <Name>RtAudioError</Name>
@@ -10932,10 +11281,6 @@
               </Subnodes>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>false_type</Name>
-            <Path></Path>
             <Subnodes>
              <Node>
               <Name>otto::core::props::is_initializer&lt; Initializer, typename &gt;</Name>
@@ -10986,8 +11331,8 @@
             <Anchor>structotto_1_1meta_1_1filter_3_01list_3_01_types_8_8_8_01_4_00_01_predicate_01_4</Anchor>
            </Node>
            <Node>
-            <Name>otto::util::FilterIterImpl&lt; WrappedIter, Predicate &gt;</Name>
-            <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
+            <Name>otto::util::iterator::FilterIterImpl&lt; WrappedIter, Predicate &gt;</Name>
+            <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
            </Node>
            <Node>
             <Name>otto::meta::flatten&lt; NonListType &gt;</Name>
@@ -11000,8 +11345,8 @@
             <Anchor>structotto_1_1meta_1_1flatten_3_01list_3_01_args_8_8_8_01_4_01_4</Anchor>
            </Node>
            <Node>
-            <Name>otto::util::float_step_iterator&lt; I, V &gt;</Name>
-            <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
+            <Name>otto::util::iterator::float_step_iterator&lt; I, V &gt;</Name>
+            <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
            </Node>
            <Node>
             <Name>otto::meta::impl::for_each&lt; List &gt;</Name>
@@ -11032,8 +11377,8 @@
             <Path>structotto_1_1meta_1_1impl_1_1for__each__impl_3_4.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::GeneratingIterImpl&lt; Generator &gt;</Name>
-            <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
+            <Name>otto::util::iterator::GeneratingIterImpl&lt; Generator &gt;</Name>
+            <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
            </Node>
            <Node>
             <Name>otto::core::props::get_tag_list&lt; ValueType, Tags &gt;</Name>
@@ -11125,24 +11470,24 @@
             <Path></Path>
             <Subnodes>
              <Node>
-              <Name>otto::util::iterator_adaptor_impl&lt; Impl, void &gt;</Name>
-              <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
+              <Name>otto::util::iterator::iterator_adaptor_impl&lt; Impl, void &gt;</Name>
+              <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
               <Subnodes>
                <Node>
-                <Name>otto::util::iterator_adaptor_impl&lt; Impl, std::bidirectional_iterator_tag &gt;</Name>
-                <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                <Name>otto::util::iterator::iterator_adaptor_impl&lt; Impl, std::bidirectional_iterator_tag &gt;</Name>
+                <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>otto::util::iterator_adaptor_impl&lt; Impl, std::random_access_iterator_tag &gt;</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                  <Name>otto::util::iterator::iterator_adaptor_impl&lt; Impl, std::random_access_iterator_tag &gt;</Name>
+                  <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
                  </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
              </Node>
              <Node>
-              <Name>otto::util::iterator_adaptor_impl&lt; Impl, Category &gt;</Name>
-              <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
+              <Name>otto::util::iterator::iterator_adaptor_impl&lt; Impl, Category &gt;</Name>
+              <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -11182,18 +11527,18 @@
             <Path>structotto_1_1util_1_1is__one__of.html</Path>
            </Node>
            <Node>
+            <Name>otto::filesystem::path::iterator</Name>
+            <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
+           </Node>
+           <Node>
             <Name>iterator</Name>
             <Path></Path>
             <Subnodes>
              <Node>
-              <Name>otto::util::iterator_adaptor_impl&lt; typename std::decay_t&lt; Range &gt;::iterator &gt;</Name>
-              <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
+              <Name>otto::util::iterator::iterator_adaptor_impl&lt; typename std::decay_t&lt; Range &gt;::iterator &gt;</Name>
+              <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>otto::filesystem::path::iterator</Name>
-            <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;</Name>
@@ -11575,8 +11920,8 @@
             <Path>structotto_1_1util_1_1select__type_3_01true_00_01_t1_00_01_t2_01_4.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::sequence&lt; BIter, EIter &gt;</Name>
-            <Path>structotto_1_1util_1_1sequence.html</Path>
+            <Name>otto::util::iterator::sequence&lt; BIter, EIter &gt;</Name>
+            <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
            </Node>
            <Node>
             <Name>otto::core::midi::shared_vector&lt; T &gt;</Name>
@@ -11591,13 +11936,13 @@
             <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
            </Node>
            <Node>
+            <Name>otto::core::ui::vg::Size</Name>
+            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
+           </Node>
+           <Node>
             <Name>otto::board::ui::EGLConnection::Size</Name>
             <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
             <Anchor>structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_size</Anchor>
-           </Node>
-           <Node>
-            <Name>otto::core::ui::vg::Size</Name>
-            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
            </Node>
            <Node>
             <Name>otto::util::TapeFile::SliceArray</Name>
@@ -11635,10 +11980,6 @@
            <Node>
             <Name>RtAudio::StreamParameters</Name>
             <Path>struct_rt_audio_1_1_stream_parameters.html</Path>
-           </Node>
-           <Node>
-            <Name>std::system_error</Name>
-            <Path></Path>
             <Subnodes>
              <Node>
               <Name>otto::filesystem::filesystem_error</Name>
@@ -11689,12 +12030,8 @@
             <Path>structotto_1_1meta_1_1impl_1_1transform__to__tuple__impl_3_4.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</Name>
-            <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-           </Node>
-           <Node>
-            <Name>true_type</Name>
-            <Path></Path>
+            <Name>otto::util::iterator::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</Name>
+            <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
             <Subnodes>
              <Node>
               <Name>otto::util::is_equal_comparable&lt; T1, T1 &gt;</Name>
@@ -11731,12 +12068,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
            </Node>
            <Node>
             <Name>otto::meta::uniquify&lt; List &gt;</Name>
@@ -11794,12 +12131,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::util::ZippedIteratorImpl&lt; Iterators &gt;</Name>
-            <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
+            <Name>otto::util::iterator::ZippedIteratorImpl&lt; Iterators &gt;</Name>
+            <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::ZippedRange&lt; Ranges &gt;</Name>
-            <Path>structotto_1_1util_1_1_zipped_range.html</Path>
+            <Name>otto::util::iterator::ZippedRange&lt; Ranges &gt;</Name>
+            <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
            </Node>
            <Node>
             <Name>Ls</Name>
@@ -19074,11 +19411,6 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>to_string</Name>
-                    <Path>voice__manager_8hpp.html</Path>
-                    <Anchor>aa36a7865fe46929ee363f67bfe5f17c8</Anchor>
-                   </Node>
-                   <Node>
                     <Name>operator&lt;&lt;</Name>
                     <Path>voice__manager_8hpp.html</Path>
                     <Anchor>a7382da8ef74884a8831f0dadf045ab01</Anchor>
@@ -19092,6 +19424,11 @@
                     <Name>operator&lt;&lt;</Name>
                     <Path>voice__manager_8hpp.html</Path>
                     <Anchor>a528bc4759288458589b391c8f3a459ea</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>to_string</Name>
+                    <Path>voice__manager_8hpp.html</Path>
+                    <Anchor>a284e4b417ad6158bb3ca14e5f825bff5</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -23960,377 +24297,377 @@
                  <Node>
                   <Name>join_strings</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a5702f208d213f98a2ca715800e2bc7a3</Anchor>
+                  <Anchor>a5c04d6c2475c3066d7363a87ed2146b3</Anchor>
                  </Node>
                  <Node>
                   <Name>join_strings</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a6f924690334b039bed99fd1890b18552</Anchor>
+                  <Anchor>aee41976b53d2e37704a7079b16800671</Anchor>
                  </Node>
                  <Node>
                   <Name>generate_array</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a87b7278ff97f4979498107e54f50bdc2</Anchor>
+                  <Anchor>a7e0556bfb35458901dbc0e1cc9de2938</Anchor>
                  </Node>
                  <Node>
                   <Name>for_each_n</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a0009f15c01c54267187e9e9371439787</Anchor>
+                  <Anchor>ae4fff299eec3efa4756fe84e3174d041</Anchor>
                  </Node>
                  <Node>
                   <Name>indexed_for</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a8586e08f16f5c8d66ede293072d213da</Anchor>
+                  <Anchor>ad52a84eb6e417ab93533ddef1a6d0705</Anchor>
                  </Node>
                  <Node>
                   <Name>indexed_for</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>afd8299b37c9e7c32a2bd5ac303c33b57</Anchor>
+                  <Anchor>ac1c7f66cd508eaae726dd3f621ed4435</Anchor>
                  </Node>
                  <Node>
                   <Name>indexed_for_n</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a2f46b5937f480946ed14eb3a5f18ca80</Anchor>
+                  <Anchor>a319b6b968f7db849ded94e5d3e84642e</Anchor>
                  </Node>
                  <Node>
                   <Name>indexed_for_n</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aa6e675a67928b48b44870b042828d5d0</Anchor>
+                  <Anchor>a02f4a2a677b86f30b9d87a225ea10c9e</Anchor>
                  </Node>
                  <Node>
                   <Name>for_both</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a566d5c6f8a1b80bbded2da056922885c</Anchor>
+                  <Anchor>af530b85c1574c138bb8db8ba077f6cdc</Anchor>
                  </Node>
                  <Node>
                   <Name>for_both</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a3e3da994f11c198f6bb09a9d437bde60</Anchor>
+                  <Anchor>ac8940b456f15263490c8afc5b4458e2e</Anchor>
                  </Node>
                  <Node>
                   <Name>accumulate</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a5b0ba68554ef80081c3f4fbc4211569f</Anchor>
+                  <Anchor>ga7e66a1f7dac3a95e9596570432016c02</Anchor>
                  </Node>
                  <Node>
                   <Name>accumulate</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>abb0224b80a3bf5527f10cb862aa7943b</Anchor>
+                  <Anchor>gad12b6e39e10012394c5c4cef25220513</Anchor>
                  </Node>
                  <Node>
                   <Name>adjacent_difference</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ac0b5fa9cd0c5c44e235b70656950be26</Anchor>
+                  <Anchor>ga073f917f42b79b632140ec99c45ff1da</Anchor>
                  </Node>
                  <Node>
                   <Name>prev_permutation</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a2cf27e162990ef78ffceed4b456829dc</Anchor>
+                  <Anchor>ga0714070f64afe8451624663804ada8c0</Anchor>
                  </Node>
                  <Node>
                   <Name>prev_permutation</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a07f02d047c13ef08aca63d1f559e32ad</Anchor>
+                  <Anchor>gac96ce17fa44d161d28afe1ae38f8c8b7</Anchor>
                  </Node>
                  <Node>
                   <Name>push_heap</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aac902daf57b9f30b7738181bcd063104</Anchor>
+                  <Anchor>ga5f85d58817aab2e50690cd54e7688705</Anchor>
                  </Node>
                  <Node>
                   <Name>push_heap</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a92436614ff8ac9ede1ad804324880757</Anchor>
+                  <Anchor>gafad161b984d06ee40fb4fa3f3e47f95b</Anchor>
                  </Node>
                  <Node>
                   <Name>remove</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ae02dc5c55831eb700d6a334750079d43</Anchor>
+                  <Anchor>gac924289c208f71eaa44b9a70cac7d6de</Anchor>
                  </Node>
                  <Node>
                   <Name>remove_copy</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>af6750895c95a09d5e2a59792eb129c40</Anchor>
+                  <Anchor>ga537015965da3155e9017474ab923e00f</Anchor>
                  </Node>
                  <Node>
                   <Name>remove_copy_if</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>acb3e15dace15eae42fe2e5f89faad3d2</Anchor>
+                  <Anchor>gaf94ae8176e54cd22e816cf6b155ca7e4</Anchor>
                  </Node>
                  <Node>
                   <Name>remove_if</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>af60853d1e076a4f91a808f7bacfda80e</Anchor>
+                  <Anchor>ga68c5a51467a0a214df053eb0e180bcac</Anchor>
                  </Node>
                  <Node>
                   <Name>replace</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a4449f25bf0e36e8e2e96418deaf8fcc0</Anchor>
+                  <Anchor>ga141e9aacbd49aeaa4574f231bf026e0b</Anchor>
                  </Node>
                  <Node>
                   <Name>replace_copy</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ad1341af7e81d78acc9f13fb75de9221d</Anchor>
+                  <Anchor>gae7e2c6490e4e09833e008f7ba3f144a3</Anchor>
                  </Node>
                  <Node>
                   <Name>replace_copy_if</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a5501055da4c3b636323667ff3730200a</Anchor>
+                  <Anchor>ga6582ec00b84fdc8d665c342ec8ef9cea</Anchor>
                  </Node>
                  <Node>
                   <Name>replace_if</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aa1db5ca21e06c0f0818ee5f2b6b6e977</Anchor>
+                  <Anchor>ga732fbeddc4a2d159023ae944662721fe</Anchor>
                  </Node>
                  <Node>
                   <Name>reverse</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ace592aa4f061bb2aa1d93dd86dfcbac5</Anchor>
+                  <Anchor>gaaf5ebd9cb18403c4d55096d6507e17c9</Anchor>
                  </Node>
                  <Node>
                   <Name>reverse_copy</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a3775e1bad6f4b0184c2cd73119cfb08c</Anchor>
+                  <Anchor>gafa2e9cbe65eea851745d431bbd6877e6</Anchor>
                  </Node>
                  <Node>
                   <Name>rotate</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a85f6cb87316b9c725a8ad8465c59ec45</Anchor>
+                  <Anchor>ga524d77f7575febee7d064e58fba119a1</Anchor>
                  </Node>
                  <Node>
                   <Name>rotate_copy</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aa5714c1e77ba8f7f9a60e67b2dff25af</Anchor>
+                  <Anchor>gab9a7c40459b85d8126a2bf19dba6690a</Anchor>
                  </Node>
                  <Node>
                   <Name>search</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a9d7697172e86a7058b850d5c0af2efb4</Anchor>
+                  <Anchor>ga990ffbf582e8d0253a5ae474863bdf94</Anchor>
                  </Node>
                  <Node>
                   <Name>search</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>adb1c39fb403ac1bcf36662f1c06a755a</Anchor>
+                  <Anchor>gad1ef629693495a76e82efc347fa729cb</Anchor>
                  </Node>
                  <Node>
                   <Name>search_n</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aa8f60cd1bd3726094af5ccef07f72d00</Anchor>
+                  <Anchor>gaf4ecafb4137b56cb152c76e92b6da838</Anchor>
                  </Node>
                  <Node>
                   <Name>search_n</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a35f4c0f1e36a4e25dfec39de54f80c73</Anchor>
+                  <Anchor>ga7747ecc67e8778c9ea139b80882b9a25</Anchor>
                  </Node>
                  <Node>
                   <Name>set_difference</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a60e5f3181d2f60dd64b167d64e391f2a</Anchor>
+                  <Anchor>ga1e1995d5f4063e15a93978b255a9135c</Anchor>
                  </Node>
                  <Node>
                   <Name>set_difference</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ad9004af677c38a392416a60e93d07ecb</Anchor>
+                  <Anchor>ga703c6c2347d019dd0ab959e222cb8186</Anchor>
                  </Node>
                  <Node>
                   <Name>set_intersection</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a61ab66792ebaaf2d229771ea90a86c29</Anchor>
+                  <Anchor>ga539a8369a85b3c716e0bc82c4d5c3643</Anchor>
                  </Node>
                  <Node>
                   <Name>set_intersection</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a8104419381d3f436630c11fe7d24e37c</Anchor>
+                  <Anchor>ga67806761f3ef315aceb35496969e94ff</Anchor>
                  </Node>
                  <Node>
                   <Name>set_symmetric_difference</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a727c19cffe90af98729d4f1462136388</Anchor>
+                  <Anchor>gabf1d56e41e30a2d31247afc583640e1b</Anchor>
                  </Node>
                  <Node>
                   <Name>set_symmetric_difference</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a9a5c14d89417904cfaea5ae7d8c5e2cb</Anchor>
+                  <Anchor>ga315f612db3dc8421eaf3b725fd919de7</Anchor>
                  </Node>
                  <Node>
                   <Name>set_union</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ac51a0edaf2c00ad7633a49d0bf3af45d</Anchor>
+                  <Anchor>ga1b535a4c41306413d33a3bd77e9a0d38</Anchor>
                  </Node>
                  <Node>
                   <Name>set_union</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a83eca76fb98b2f35e9a88a3eb03a5e26</Anchor>
+                  <Anchor>gadfebe38d19a365d91086c355712c7708</Anchor>
                  </Node>
                  <Node>
                   <Name>shuffle</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a7bb35503657c5db34a0eeabf780c2442</Anchor>
+                  <Anchor>ga4e81fa976d36789c729e13ef142cb225</Anchor>
                  </Node>
                  <Node>
                   <Name>sort</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ac1da37cb85a3fa27f671e032bc61c3d2</Anchor>
+                  <Anchor>ga360e87f6361a2ef70cad1650374391c4</Anchor>
                  </Node>
                  <Node>
                   <Name>sort</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aa2a6988280a58ea1b1abf2ced2e77b3e</Anchor>
+                  <Anchor>ga78e83fc3fdb41c82cbd4666d78ed4d5e</Anchor>
                  </Node>
                  <Node>
                   <Name>sort_heap</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>adac8eaa40a34ea791351d3f96f37b6d0</Anchor>
+                  <Anchor>ga00c5848486cb6bdd04626f019e765524</Anchor>
                  </Node>
                  <Node>
                   <Name>sort_heap</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>acceb1756fd2b2daf1cd368320e282e09</Anchor>
+                  <Anchor>ga504d2457e084b8e48ef40727335c1bbd</Anchor>
                  </Node>
                  <Node>
                   <Name>stable_partition</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a833518c45c3489870d49637feb8d15bf</Anchor>
+                  <Anchor>ga8ba10c8f751ade494f2f97acd60e2ac0</Anchor>
                  </Node>
                  <Node>
                   <Name>stable_sort</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aba57ae79c1f774e8bd73db1a48a91e2b</Anchor>
+                  <Anchor>ga7cd6c10f284402aca7eabb19d1b223d0</Anchor>
                  </Node>
                  <Node>
                   <Name>stable_sort</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ae2f5985188fee3423f9400a8f75b9491</Anchor>
+                  <Anchor>ga424087bb73da180e1d9042eb9eb3ab6a</Anchor>
                  </Node>
                  <Node>
                   <Name>swap_ranges</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ae139a2ae4ba06897738a877284ef4c57</Anchor>
+                  <Anchor>gaf42ddbeaa5d530000915b43999e66c7a</Anchor>
                  </Node>
                  <Node>
                   <Name>transform</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ac6f4cb7cf5abeb861f85c40ddf7c2295</Anchor>
+                  <Anchor>ga7dbefdc4aa2a4e3a6fddede5296654fc</Anchor>
                  </Node>
                  <Node>
                   <Name>transform</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a3e06eea9a5fc9a124882ab3bcfe45ca5</Anchor>
+                  <Anchor>ga66a374a7c06fbf3a8496587bde58ef54</Anchor>
                  </Node>
                  <Node>
                   <Name>transform</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ac46861ae093eaaa06c0760c9c63efff6</Anchor>
+                  <Anchor>ga3f760297ad374c4c52555a9d4f9cab0c</Anchor>
                  </Node>
                  <Node>
                   <Name>transform</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a9af8022ecd8dad895528c278d16bb415</Anchor>
+                  <Anchor>gab466d6c843265048b7bacbc40f16d9a9</Anchor>
                  </Node>
                  <Node>
                   <Name>transform</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a732fe8403b8b8cfdf0a9e2c1f216323d</Anchor>
+                  <Anchor>gaaf16f5e5eb939c8565879f0ea07019e0</Anchor>
                  </Node>
                  <Node>
                   <Name>transform</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>aa27d00697dffbb15b04a6011d673677c</Anchor>
+                  <Anchor>ga3849b598c863e3a62cf661323c8b672f</Anchor>
                  </Node>
                  <Node>
                   <Name>unique</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a022a41610ef2f0db5561ab254518f961</Anchor>
+                  <Anchor>gab93ee0ea78826ca59ddd7ebc1733675d</Anchor>
                  </Node>
                  <Node>
                   <Name>unique</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a4d4e16006b29f564b43978d70e80bf83</Anchor>
+                  <Anchor>ga2b58a95aa7399dfd96d6be4d9778edb2</Anchor>
                  </Node>
                  <Node>
                   <Name>unique_copy</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ac044af6447e1478a72d9a560cbccb2d5</Anchor>
+                  <Anchor>gacc726873dc1a08ade02762ea42624dac</Anchor>
                  </Node>
                  <Node>
                   <Name>unique_copy</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ae10eb9c0c3d543af4abb6e5106e045cd</Anchor>
+                  <Anchor>gac9c334575fa5e167ed5fe37d4304aeef</Anchor>
                  </Node>
                  <Node>
                   <Name>upper_bound</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a6e93a5a04e56e0c411d291e70dac2b15</Anchor>
+                  <Anchor>ga7f5703c737dae4fe687dde768db101df</Anchor>
                  </Node>
                  <Node>
                   <Name>upper_bound</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ac4db1d55d124c8ac93f035ac64a7ea66</Anchor>
+                  <Anchor>ga1fa3e6aceb5878417a969afa05a7e70f</Anchor>
                  </Node>
                  <Node>
                   <Name>copy</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a6fe521cc8823aab20ce186e42c87cc83</Anchor>
+                  <Anchor>gaad9288ae8fb47c57d4fe491357e79a96</Anchor>
                  </Node>
                  <Node>
                   <Name>copy_if</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>afe38a38d046cee49da992e37a156a3df</Anchor>
+                  <Anchor>ga937797401b711b14957d83312dcaa70a</Anchor>
                  </Node>
                  <Node>
                   <Name>fill</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a0791b1300e3c651e6dc5c5a61bf965c8</Anchor>
+                  <Anchor>ga4a9d63fc894ab89786d6b5eb60762513</Anchor>
                  </Node>
                  <Node>
                   <Name>fill_n</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a8e4ea45cad088014bbb5a9418e411ee1</Anchor>
+                  <Anchor>ga982eb7dc1b8d3dc3c56cb25c3753d3fa</Anchor>
                  </Node>
                  <Node>
                   <Name>any_of</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a3f4f5f950ed04ab3cc99bb3d62869e67</Anchor>
+                  <Anchor>ga55284d4fb20ed2d5ec9cc2c3c57b1632</Anchor>
                  </Node>
                  <Node>
                   <Name>all_of</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>af305093a463821c75724225128053560</Anchor>
+                  <Anchor>gac791372b539e512b3071ede6215a1937</Anchor>
                  </Node>
                  <Node>
                   <Name>none_of</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a735ba5711ea99e206d3be45524c3202c</Anchor>
+                  <Anchor>ga36b46d8062dc803f3cabb2db51c46382</Anchor>
                  </Node>
                  <Node>
                   <Name>max_element</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>ade6b3be1000481d7ab7bdc4048245db0</Anchor>
+                  <Anchor>gaeb22dc1d565ce5c78be43f4b7452ec9f</Anchor>
                  </Node>
                  <Node>
                   <Name>min_element</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a1bfb6b7d6806505662193eeaba77b8cd</Anchor>
+                  <Anchor>ga410ad80e7d5ea282bff422a10ed65836</Anchor>
                  </Node>
                  <Node>
                   <Name>min_element</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a713c30aa302ffbd5eeeb1828e60540fa</Anchor>
+                  <Anchor>gaff18b3f1e7aece740118e65e2a0b7ec2</Anchor>
                  </Node>
                  <Node>
                   <Name>max_element</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a39389dc9ba14a34c0ccd134911232286</Anchor>
+                  <Anchor>ga407ba2c5969dd07eaf52041e1eb549bc</Anchor>
                  </Node>
                  <Node>
                   <Name>find</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>afea63ede4c4fb6f028d7f9c58cf8f8e8</Anchor>
+                  <Anchor>gace9f3b07f3956fa6bed7b7adabf0391e</Anchor>
                  </Node>
                  <Node>
                   <Name>find_if</Name>
                   <Path>algorithm_8hpp.html</Path>
-                  <Anchor>a6a1bcc75b510de7297d872eae733a65d</Anchor>
+                  <Anchor>gafd2199e8cd364fabb6a32702165efc09</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -27806,809 +28143,809 @@
                 <Subnodes>
                  <Node>
                   <Name>iterator_adaptor_impl</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>difference_type</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>ae32dace22dd8775b5c0e9868cdcb9b1a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a148fa087670bcf1dd0e7392aaaa71ec3</Anchor>
                    </Node>
                    <Node>
                     <Name>value_type</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>adcfd3c152c0434b781d93f407234022c</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a120e0ee6dfc4e23e7d3ab8868ff5f604</Anchor>
                    </Node>
                    <Node>
                     <Name>pointer</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>aad6578e6caf9d2dc37f4980537189ae5</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a0f28d0e6d9914be437fb1e9538cc7cdd</Anchor>
                    </Node>
                    <Node>
                     <Name>reference</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a0aa0560161dc183892fe589c2ca157dd</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a83c6c25b1fec131265cc9a2ce1c94897</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_category</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>afbbb9af731038b33a1346c9ebe870978</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>ae0deebb4ea87eab626c917f6a7941bb4</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a4e41f9ca07847046645b4b3b582a2a4c</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a2d9e884b212ff99964200513602955c4</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>ae19e24c79fc5b69caccc76b2d6070f77</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>ab916369c427d720902c22f3168a40622</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a79444246ba240928206474737952fa16</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a75db7fbaa702b96ee6c8c8d64d43ee02</Anchor>
                    </Node>
                    <Node>
                     <Name>~iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>af07ef58463a447a19b87c535a535b10f</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>aae04880b71d0f2d35f62938b12a698cd</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a542049af705dbd52b12ec6d92cec9c06</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a2a7abbc514da469482d8c9a42224e280</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a1c560e1dce36e93d2618e019c10a86f6</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>aff78ca536eee3cd20e39be2ba6fc1470</Anchor>
                    </Node>
                    <Node>
                     <Name>operator++</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a5669ddce3297c5ef7eedc62058b0b995</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a39ad894412f384ac498f0f0b46dbdd0e</Anchor>
                    </Node>
                    <Node>
                     <Name>operator++</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a47a74b0b7b7fca43f7530a03f851add4</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a154aed384a567d6bf2cbcfed76228478</Anchor>
                    </Node>
                    <Node>
                     <Name>operator*</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a96f436b6cfc6b93e7214fe9e2b2c85c8</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a03b0926c5ac81d9701a18c3bc335e83a</Anchor>
                    </Node>
                    <Node>
                     <Name>operator*</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a731b0f95cf1ff519e0b875fe0b096264</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a00e2354f56b03114a1c268b5893cf4e9</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a107993895bd63f06d94fdef18bae56ab</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a4ee1ba3d1699c78c513dddb15dc554ab</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a02ab5b32da8471f1125502a5bd0ff650</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>aeceea25b37875471d3f3a7452becdeef</Anchor>
                    </Node>
                    <Node>
                     <Name>operator==</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a6edda132190dac7be5efd1910f138918</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>a896f1bd633882564017b53490a32f52a</Anchor>
                    </Node>
                    <Node>
                     <Name>operator!=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl.html</Path>
-                    <Anchor>a1ef96189fd2bd543180008ba4e804eed</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html</Path>
+                    <Anchor>ae0ce7787fd4d346696dd229b50be0045</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>iterator_adaptor_impl&lt; Impl, std::bidirectional_iterator_tag &gt;</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                    <Anchor>a0b6f4199d4d76a14805c4d6c38201750</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a86e5d05c4c40346e59270c354f66da72</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                    <Anchor>a40c79350a7eecc50ef458769ac84aeed</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a6e621b1f8174c45b12d58f51d0eb0eaf</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                    <Anchor>a62a6df26875b6dc5c436063284c438b3</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a067e3834bf9ef63b1e45b550daae0d33</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                    <Anchor>a2cc9ed714b452d580de3d1201fa2c51a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a292b55c1ffb93e98263c3afed0f9db1f</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                    <Anchor>a80d6a8754259572cc2ca023c018df124</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>ae9c56bf8c417ff8a1a3b573378e994b1</Anchor>
                    </Node>
                    <Node>
                     <Name>operator--</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                    <Anchor>a4eb40043e3f76aaba0c7b05918eb67a6</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>a805dbb9328b9e6a697f337cbe5d5a90e</Anchor>
                    </Node>
                    <Node>
                     <Name>operator--</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
-                    <Anchor>a29262c357acf69ad750d25277c28f72c</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html</Path>
+                    <Anchor>af3c2e42f8538fea2f882913d79fde81c</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>iterator_adaptor_impl&lt; Impl, std::random_access_iterator_tag &gt;</Name>
-                  <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>aa63a778872c0ff321b21e4d322295b16</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a0801f2222a3d4a400f30ac1b538ba0cc</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a5800748d26a5c134c33de1a3df2be80d</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>ade429e82233ac65f78f7f5d6a0ab64b7</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_adaptor_impl</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a532ffc97d27379f637da151700f371ae</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>af3e9464149d1caf714983bdf4e78c856</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a05f54d33cf820d0c498677b4e49adf64</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>ad6e1c9f96f7021031218f134f091a724</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a67dab17876f1b7f61dbf8ab95e989d09</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>ac7f551ec2f8e659b0daf2a9cac3894f5</Anchor>
                    </Node>
                    <Node>
                     <Name>operator+</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a6f21860e6ec8c5d2d3eaa8b4e579c726</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a27940cfc7316b83258c70d8f0d13c833</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>afba9a5c6b00e9295a5dd775ef5b4a8c2</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>af218a9ea8d23433a4fed9a0e14d943a1</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a98f37da36d052cb809592918e6e63f0f</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a658aca3b00258cbce05d85c0adacbe4d</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&lt;</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a748beae48b1c6e1183db5da54c399046</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a0ba251668a3867585ce6dcd6f1d74732</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&gt;</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a667dd392aece396e93325e14f64ae0cd</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>af4418c73d2d1507449c4083342bc6ea5</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&lt;=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a0a1d64d834855db4620a465c3a21e346</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a573195d2e1de7b3c43f34e51100d1308</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&gt;=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>afd710cc410c884ec3802a893ff613480</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a59ea81e3b1e08c55fe045af81317bfa1</Anchor>
                    </Node>
                    <Node>
                     <Name>operator+=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a7b14e0e09ac3865a1fb7c4fec589a03c</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a37635a5b5858ad31ca57a940c6dff82a</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-=</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>a3e1477cf0c734cb4b98b071fe0d12126</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a3bf63889ed23eede2e643989d2c36710</Anchor>
                    </Node>
                    <Node>
                     <Name>operator[]</Name>
-                    <Path>classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
-                    <Anchor>ac9cb6cdcabe5fc79334aa471dbac565a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html</Path>
+                    <Anchor>a77a4757b1d0b48aca0e42bd534ed0bcf</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>sequence</Name>
-                  <Path>structotto_1_1util_1_1sequence.html</Path>
+                  <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>iterator</Name>
-                    <Path>structotto_1_1util_1_1sequence.html</Path>
-                    <Anchor>af9d5813372a0fc5b09508b2725c6f00b</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>a9a592f9c9c01668b464e0495f91f7c0d</Anchor>
                    </Node>
                    <Node>
                     <Name>sequence</Name>
-                    <Path>structotto_1_1util_1_1sequence.html</Path>
-                    <Anchor>ae0ae433279674c67534f3c2e5d5381e2</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>a449a44bdfcb371019d7bf592568ff71e</Anchor>
                    </Node>
                    <Node>
                     <Name>begin</Name>
-                    <Path>structotto_1_1util_1_1sequence.html</Path>
-                    <Anchor>a3ef14cb09b652cdea7dfee8896a39484</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>a5140b11a1288c31f5f661353a0ee3431</Anchor>
                    </Node>
                    <Node>
                     <Name>end</Name>
-                    <Path>structotto_1_1util_1_1sequence.html</Path>
-                    <Anchor>a8513fa0a3c8969047fab97bcce92d06a</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>ab1449c909a4c2ad837457f046a5acfd7</Anchor>
                    </Node>
                    <Node>
                     <Name>first</Name>
-                    <Path>structotto_1_1util_1_1sequence.html</Path>
-                    <Anchor>ade69086bcf438eccdc80f7f12b50630e</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>aa3f399a931e4e5385546620861278207</Anchor>
                    </Node>
                    <Node>
                     <Name>last</Name>
-                    <Path>structotto_1_1util_1_1sequence.html</Path>
-                    <Anchor>ae2f83f95e0ecf0ff30ae60b7d33dfb11</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
+                    <Anchor>ab045fe48a8829ac55b1057c9eb52a69d</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>float_step_iterator</Name>
-                  <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>wrapped_type</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a31e79fccdeadadfdd928fec42fdfa2ce</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a1e583fe217dc372ac171d2f8bfbe1245</Anchor>
                    </Node>
                    <Node>
                     <Name>value_type</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>afa9270037085a6348e271582eee6ccac</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>af7093b861897d5ad6081a919e8ec0652</Anchor>
                    </Node>
                    <Node>
                     <Name>reference</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a2e1f0cedd24f4b32a2ce321b8da8d03a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a550d05112ee4b6a50d71250bf34fc38c</Anchor>
                    </Node>
                    <Node>
                     <Name>pointer</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>aca62d5145dfe937a8027a7206b1054ec</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>adc5656d8ac74eba2460496b2eb11892b</Anchor>
                    </Node>
                    <Node>
                     <Name>difference_type</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a070e3c9b6e7472872cbe99f0bffb0974</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a932ebdd0c8fc36659690192edb1339a7</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_category</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a3d993d62491c2ec0954e922e344e47d1</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a7ccde9ef0952c6c6f1c303cf8d8c5200</Anchor>
                    </Node>
                    <Node>
                     <Name>float_step_iterator</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a78f4cb68e36bcf04d2521c6528293b28</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>ac723761344f8b19d4672a5fcaf12f017</Anchor>
                    </Node>
                    <Node>
                     <Name>float_step_iterator</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a7380232634b90c6b5e9bc9e97a37a4a1</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a03c0e6e27dda1242d1b410f32af23c8a</Anchor>
                    </Node>
                    <Node>
                     <Name>float_step_iterator</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a9ca29941533723232d70b3c2f1c73b19</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a3276bc3088b32cb1004ff0dcb310eec7</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>ae973b81e6fe4c6ceddca3b547f185b8a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>adf05ffc015c1755a947ca07f37286562</Anchor>
                    </Node>
                    <Node>
                     <Name>operator=</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>ab702be7be0b39e23ef6e52c8514af110</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>ae6dba7bdde07fcf165b4f9f303dd0aa1</Anchor>
                    </Node>
                    <Node>
                     <Name>operator*</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a81d3a5360be89d87c1bff6340815fb37</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a8537d100ae4f0cc0c7e6952c651143af</Anchor>
                    </Node>
                    <Node>
                     <Name>operator*</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a966de67d34780a7a00cf39dabc33140a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a052e59b35fdeb4a927108853507a8b90</Anchor>
                    </Node>
                    <Node>
                     <Name>operator==</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a39292344abd7b0a35317461c4c376b57</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a350396b7c194260936acd4dc1b78dfcc</Anchor>
                    </Node>
                    <Node>
                     <Name>operator!=</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a969663898184c8305ec9bbedb6b71cc6</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a7626bbdb137848355dd0bec0b3434136</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&lt;</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>aa18bae87b01dcae9b88505d055f7b721</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a61626012130d6acdb23027ea646ad0bb</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&gt;</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a99de00c9773330f7ea868f639d4c6c56</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>afcbfce72858adc7ee58fd4a80a2c03ec</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&lt;=</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a4a2ac8d6a94d7f2a5abbd8b9db01e245</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>af982753fda5220d79d852523e95d2224</Anchor>
                    </Node>
                    <Node>
                     <Name>operator&gt;=</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>acf77fa8c621e6b4e2e6e3d7ff428dcba</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>aebb1ea245c51d781b8a22247a1974afc</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a117d2f0a6ade8b264cb52315d1fe03ae</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a94074892a26710cfc2633a7a59f49612</Anchor>
                    </Node>
                    <Node>
                     <Name>operator+=</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>af5d71fb774c4c6fe468d82361add5ee2</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>aaa70d04773fdc8138572e241b7172994</Anchor>
                    </Node>
                    <Node>
                     <Name>operator++</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a9d76735be1c15c8c902e49e3ea5d7878</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a0981b183d440840b583c059a5fcc0236</Anchor>
                    </Node>
                    <Node>
                     <Name>operator++</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a2ad85ce840293e7cd0a6009aebf25934</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a686eb194bf6d94e7848534b8a0ff5db2</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-=</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a746281181d1abf111861a6871ffd3b9e</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>aedd4da2cd88f18ea713af59f99411310</Anchor>
                    </Node>
                    <Node>
                     <Name>operator--</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>afe0bd0183f0f43f7137fce87108b6dca</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>adbc9f27d305f5c18a3c5281053b987f4</Anchor>
                    </Node>
                    <Node>
                     <Name>operator--</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>ad6a3743ff7d3bfc9a86edabdb2b44e80</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>a6a915b7b436c80f1252ad9848ece45d1</Anchor>
                    </Node>
                    <Node>
                     <Name>data</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>ac9d1c5b0818f1478f67d127d94eb8697</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>acd96d0724feca74a18769b6f4c4a80d1</Anchor>
                    </Node>
                    <Node>
                     <Name>error</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a2daed04afda320d688844646bee0ed86</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>abe3143ac454d2a2a241ad530ffec7f05</Anchor>
                    </Node>
                    <Node>
                     <Name>difference</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>aa2a8b03a452dcfb9e6032eb7f7cd2c52</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>afd10f599c636144db52e23b0b42a6430</Anchor>
                    </Node>
                    <Node>
                     <Name>step</Name>
-                    <Path>classotto_1_1util_1_1float__step__iterator.html</Path>
-                    <Anchor>a7fb47d51f9093385d1ed98ce63c38e4d</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+                    <Anchor>af0c38d3e226cb5e1884400019113a79e</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>GeneratingIterImpl</Name>
-                  <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>value_type</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>acad416c3d2e77381591d7391ee9a25c0</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a9a18c6b74ee0287f38cf8e07b5ce2981</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_category</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>ae2600e77b19ccf9641504164111f7300</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a01e61792734012b48e6e2cdc5d32cf8d</Anchor>
                    </Node>
                    <Node>
                     <Name>GeneratingIterImpl</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>a5d1db7b45de0e5390723ded9c7ad9aaf</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a19c27178de16ff366adac4ee3534edab</Anchor>
                    </Node>
                    <Node>
                     <Name>advance</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>ad91b87ca650754aa8fcf4c4eadbfb922</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a6a4443f44ed34081b7d824588984a474</Anchor>
                    </Node>
                    <Node>
                     <Name>dereference</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>a4686ec664c2f4165d2514f3583789912</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a88fb9135e2e6ea96c3ece0a515426915</Anchor>
                    </Node>
                    <Node>
                     <Name>equal</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>a960a7388f53d2aa480035091bd6e003b</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a0ccf89ac6614e542929d6cc57f064253</Anchor>
                    </Node>
                    <Node>
                     <Name>val</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>ab9ad01077dfad5435749294c02f209c5</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>afe0b380f78369cc037298b2331c8e145</Anchor>
                    </Node>
                    <Node>
                     <Name>generator</Name>
-                    <Path>classotto_1_1util_1_1_generating_iter_impl.html</Path>
-                    <Anchor>a681cf88da59373508529eebafbf6e635</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html</Path>
+                    <Anchor>a79e469a8c5b3821edbceed94f3e7c6cc</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>ZippedIteratorImpl</Name>
-                  <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>value_type</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>a1606260f9c2885effa25971fbdd3570d</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a757f838c88eb97a1b499f76d7159ca4c</Anchor>
                    </Node>
                    <Node>
                     <Name>reference</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>aeea0676eac749e0ed8dd76ee234482a3</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a92cc6275b1146b20bc88b5edd53c3a2c</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_category</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>a93ce4ca72f2e50e7b5b01becf615cd69</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a92b4e7de6e6c2bed365dd8c9608a88e9</Anchor>
                    </Node>
                    <Node>
                     <Name>ZippedIteratorImpl</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>a1eb2a82af4382f610fc02e67ca928739</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a612194017392d6ffdd869300c4f6be32</Anchor>
                    </Node>
                    <Node>
                     <Name>ZippedIteratorImpl</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>a788d827f85b5a0b1fb62531000030601</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>ad72c2c4df069360b48f50cb609db4268</Anchor>
                    </Node>
                    <Node>
                     <Name>advance</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>acacec55875ba030c641d4c052b0f8bfe</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>ae455681f1082821ace1da51f925657b8</Anchor>
                    </Node>
                    <Node>
                     <Name>dereference</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>aa8aa3cdc479220581adf4ac05f778ecd</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>ad56fdcb8d6ce3834c7f98ecd0ff9b061</Anchor>
                    </Node>
                    <Node>
                     <Name>dereference</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>ab9305b35710682a80779632c4e00024d</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a61914cff4e099f30f4766d51546f1222</Anchor>
                    </Node>
                    <Node>
                     <Name>equal</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>ab52bc26af5d80e15d12ed7477b39e42b</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a3ec63c4e20cb522775862418aa1f447b</Anchor>
                    </Node>
                    <Node>
                     <Name>iterators</Name>
-                    <Path>classotto_1_1util_1_1_zipped_iterator_impl.html</Path>
-                    <Anchor>aa48ef9f69eed87b0af42a70337e8c324</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html</Path>
+                    <Anchor>a3d9be89637fcb904a409456d9eb01009</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>ZippedRange</Name>
-                  <Path>structotto_1_1util_1_1_zipped_range.html</Path>
+                  <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>ZippedRange</Name>
-                    <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                    <Anchor>a7f71355cc44ca575f9f4c3c2a7582fc2</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>ac29f10d86afd21e4a4934634f14b65ce</Anchor>
                    </Node>
                    <Node>
                     <Name>begin</Name>
-                    <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                    <Anchor>a53c2312460be6a8c85bbcfde5a972a1d</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a9843db78f7be353d5dcb3ee144cecbc9</Anchor>
                    </Node>
                    <Node>
                     <Name>begin</Name>
-                    <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                    <Anchor>a9662021872ce8a356e5b37198c352a72</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a721fe4867272d38d3ed4f0553296cdb7</Anchor>
                    </Node>
                    <Node>
                     <Name>end</Name>
-                    <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                    <Anchor>aad9e315194673af935cbc10dff764b7b</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>ae62414bb4f9ed930f428f9cd4ecf4e00</Anchor>
                    </Node>
                    <Node>
                     <Name>end</Name>
-                    <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                    <Anchor>a9bce94ef9755b686fe0f8ab8fd93d8cd</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>ab9489b9ca4a2aa1776fdf3a778654a5c</Anchor>
                    </Node>
                    <Node>
                     <Name>first</Name>
-                    <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                    <Anchor>a196b406ac56d03023282bb7e70d07062</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a34933693e1039f92423a45af2a78d7ec</Anchor>
                    </Node>
                    <Node>
                     <Name>last</Name>
-                    <Path>structotto_1_1util_1_1_zipped_range.html</Path>
-                    <Anchor>a8402ccb3d617f5c639965d3a1c2280af</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_zipped_range.html</Path>
+                    <Anchor>a593df3bd3c3e657d0103c17c2e6b21b3</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>AdjacentRange</Name>
-                  <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
+                  <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>iterator</Name>
-                    <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                    <Anchor>a71e1fd20da4c9036cdc67ed15f1eb36b</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a56e576060333d8507754853d4afc5e11</Anchor>
                    </Node>
                    <Node>
                     <Name>AdjacentRange</Name>
-                    <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                    <Anchor>acca6c8115926a68ff8d4319506e2b796</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>aac0b67d20afae04ff96a7e952e692b86</Anchor>
                    </Node>
                    <Node>
                     <Name>AdjacentRange</Name>
-                    <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                    <Anchor>a2032e5c74ad5cbad1c62322a9db4c9f7</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>ab132b14e659f23cc0dc8079f9837b97a</Anchor>
                    </Node>
                    <Node>
                     <Name>begin</Name>
-                    <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                    <Anchor>a8c28e3dd18a84609aea5619229c29a94</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a0432e55e3bbcf1b2e06527fb7bdf4ceb</Anchor>
                    </Node>
                    <Node>
                     <Name>end</Name>
-                    <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                    <Anchor>a3f2bd20debb5dbb9056c5f5420eaa186</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a61b10adaf0798cd93290a41ee3ea9982</Anchor>
                    </Node>
                    <Node>
                     <Name>first</Name>
-                    <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                    <Anchor>aea8c56dec140ae3813888bef2e69439d</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>ab9a0e87dacf1f7e225c48ce950dedfeb</Anchor>
                    </Node>
                    <Node>
                     <Name>last</Name>
-                    <Path>structotto_1_1util_1_1_adjacent_range.html</Path>
-                    <Anchor>aaca82f16c95f9eec1d217a8cb3a85b6b</Anchor>
+                    <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
+                    <Anchor>a3ef6007ed385675c143495e3b6a5bb10</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>TransformIteratorImpl</Name>
-                  <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>reference</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>ac2ab4e5461ed93d855697b316fa0fe39</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>ac317fa23363cb0b587591ba743d4ec2a</Anchor>
                    </Node>
                    <Node>
                     <Name>value_type</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a54810ab69263d172b0439cbed844140a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a1c5a7b98baadfdb3609adb7650e5f189</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_category</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a61aa7504e300589f3a18238a9117a901</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>ad5a93bac6f7cbf460f89f38a291eaf90</Anchor>
                    </Node>
                    <Node>
                     <Name>TransformIteratorImpl</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a96ac2e2c2a4994e9e508bb9e312c8e76</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>afa447a70754509afdecd07f099d89056</Anchor>
                    </Node>
                    <Node>
                     <Name>TransformIteratorImpl</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a84d59c1d3a1a3633fdc4214c4c6222ec</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a6b81098ee69926d4b275caa7f8d929bb</Anchor>
                    </Node>
                    <Node>
                     <Name>advance</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>afbb53cd17b48b154366d2352aaa41f34</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a65c675971d71c3c83e9251074a509273</Anchor>
                    </Node>
                    <Node>
                     <Name>dereference</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a4ebb3e39f2124b38ef77a2ca921457ec</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a89f7962c471d14f0a4323c2dffeb33af</Anchor>
                    </Node>
                    <Node>
                     <Name>equal</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>affd837361ae18f2ac42f47da9c578a36</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>af2215f4204d711703f4a0dfe7bba93d2</Anchor>
                    </Node>
                    <Node>
                     <Name>difference</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a07e0fce8da12e0f0592660b940c156ac</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>ac072b5a77291f57ead535ae4bef68407</Anchor>
                    </Node>
                    <Node>
                     <Name>iter</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a5c7437c32b7daf29f3993f4af1b1471d</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a1c62ae7a0bcc3f7a2aabe65b5f4753ba</Anchor>
                    </Node>
                    <Node>
                     <Name>callable</Name>
-                    <Path>classotto_1_1util_1_1_transform_iterator_impl.html</Path>
-                    <Anchor>a9fc8b64f6a9e0fe74bc9cda8ff869003</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html</Path>
+                    <Anchor>a5b6052381af3bf64bd38ad7b8f2ded2f</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>FilterIterImpl</Name>
-                  <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
+                  <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>value_type</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>a570d487e8eac53300493efd12ef61f4a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>ad8704c9d79bc2769875ed310f4ac21b7</Anchor>
                    </Node>
                    <Node>
                     <Name>reference</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>a58fc3ad896e04b33375169f58c26879d</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a03852d47bfb922a47650e6b3b91b6ee3</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator_category</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>ac78ccb71c2a591fb7d5d57c6bf366859</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>aa3f851fba3af63751e19ddd8eaaf66ec</Anchor>
                    </Node>
                    <Node>
                     <Name>FilterIterImpl</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>ae6094ca679b2a32da70f7a0e44ce8cb8</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a81f72a95a9edbcdc96a61413489c89a1</Anchor>
                    </Node>
                    <Node>
                     <Name>FilterIterImpl</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>a3191eec1716b385779d63ab972e87a96</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a1d64d9eb9d4cc50399bcc8314252b10b</Anchor>
                    </Node>
                    <Node>
                     <Name>nextvalid</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>aab926d8dd4a56af57c9d8aca40b82bf9</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a5b62b52e6b8090a3a8b7d09a6b1e4aaa</Anchor>
                    </Node>
                    <Node>
                     <Name>advance</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>aceb1458f84801f697e87e54b636e5497</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>af36d76ad8bcb87d13efd4553c49a3ae2</Anchor>
                    </Node>
                    <Node>
                     <Name>dereference</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>aa0de3b5d0fc4d3a422820953f5bcc9b9</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>ad29d7e66924a47e672d0331410db1e96</Anchor>
                    </Node>
                    <Node>
                     <Name>equal</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>a40237512587279c92e586dc3a45b469c</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a64d921352491be0b4866ed4c42febd13</Anchor>
                    </Node>
                    <Node>
                     <Name>difference</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>ad98e4f49451f809f722bec5fe79ebf8a</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a05a10bb894ef74d0008b3076cd75016d</Anchor>
                    </Node>
                    <Node>
                     <Name>iter</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>a092dd3070f17da2b0225fa848f0e0241</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>ab56a6438dc28fd8c9d767315f1aec86a</Anchor>
                    </Node>
                    <Node>
                     <Name>last</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>a1de64d511a90b25d74a70a872e8d2e76</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a9ba429bfe07545251bfb7632694b55ec</Anchor>
                    </Node>
                    <Node>
                     <Name>callable</Name>
-                    <Path>classotto_1_1util_1_1_filter_iter_impl.html</Path>
-                    <Anchor>a342ce69031778898dcad6fd36d2923e8</Anchor>
+                    <Path>classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html</Path>
+                    <Anchor>a6104019c2c38c125e37d8786b85ac431</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>iterator_adaptor</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a91f96874356c8a5f4d5ce0d27bc9a211</Anchor>
+                  <Anchor>a52b660bb45a58cdc7bd6e016954aa3a1</Anchor>
                  </Node>
                  <Node>
                   <Name>generating_iterator</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>aaf86fa3a7610b02ee4303c214f101b84</Anchor>
+                  <Anchor>a635326b6257df6dcb2fddf45faf249b3</Anchor>
                  </Node>
                  <Node>
                   <Name>zipped_iterator</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>abec07cf04abce52e7a4ff972ccf47168</Anchor>
+                  <Anchor>a80359bfd4aae94fc30772998b7d40301</Anchor>
                  </Node>
                  <Node>
                   <Name>adjacent_pair_iterator</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a762a28efaa453340268d23ab5c19ee78</Anchor>
+                  <Anchor>ae5318cce65932fc02b876e06ecd1ca1f</Anchor>
                  </Node>
                  <Node>
                   <Name>transform_iterator</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>abb17434c6c2bff430ce068b5a801eb6b</Anchor>
+                  <Anchor>a9c8caaa875b59c288b9981f57f3e3726</Anchor>
                  </Node>
                  <Node>
                   <Name>filter_iterator</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>ad4ebe36b1294b0a9fe4f530afc7446d3</Anchor>
+                  <Anchor>ad5d62b9ed7fda5fe5b46a62d4b4a6c22</Anchor>
                  </Node>
                  <Node>
                   <Name>float_step_iterator</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>adc7b6c5c916ab4b345c311dc68f41602</Anchor>
+                  <Anchor>ac5dfdbe3a9c1dac7890482fd9b886dd8</Anchor>
                  </Node>
                  <Node>
                   <Name>float_step</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a372d085c6460a9aac412b1e33e42e308</Anchor>
+                  <Anchor>a0402f1d4cf3cacc3ecaf21059759aa58</Anchor>
                  </Node>
                  <Node>
                   <Name>generator</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a6dd91882aa8d4293133f897d9483fe56</Anchor>
+                  <Anchor>a5e66a15dd7c857a6cb0ec8c2cde568dd</Anchor>
                  </Node>
                  <Node>
                   <Name>zip_iters</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>acd3db71d6e22d243a70aeb52b7af092b</Anchor>
+                  <Anchor>a9f214bed4d115d995e9d1c6140d08715</Anchor>
                  </Node>
                  <Node>
                   <Name>zip</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a8098308efe033ee31ba44560a8cb1ede</Anchor>
+                  <Anchor>a79f3b9d2823ae6ba79156ed5bb4084a8</Anchor>
                  </Node>
                  <Node>
                   <Name>adjacent_pairs</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a1945ce55fb5f449d39ff671bd77c5f21</Anchor>
+                  <Anchor>a680338a92dede259c280cc21ffaf528a</Anchor>
                  </Node>
                  <Node>
                   <Name>adjacent_pairs</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a746b948bfa4f5712bbb1ae8626f941a8</Anchor>
+                  <Anchor>a3226e46f7c01ef6bee183dfda811cfb7</Anchor>
                  </Node>
                  <Node>
                   <Name>transform</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>acb58bc70335d1a3d0f9f1e684b48c70d</Anchor>
+                  <Anchor>add5d7602c9da5fdb97908874b25e8dc2</Anchor>
                  </Node>
                  <Node>
                   <Name>filter</Name>
                   <Path>iterator_8hpp.html</Path>
-                  <Anchor>a5eb0bf0fe3a95da366c274c00b2e5bc2</Anchor>
+                  <Anchor>a637702c8ab78cbf53154703f122962e0</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -28624,7 +28961,7 @@
                  <Node>
                   <Name>to_string</Name>
                   <Path>jsonfile_8cpp.html</Path>
-                  <Anchor>a9bda068af6bb1b263c2d787faa5d4e2d</Anchor>
+                  <Anchor>abf751a576443207f6099e31041969ac6</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -28745,7 +29082,7 @@
                  <Node>
                   <Name>to_string</Name>
                   <Path>jsonfile_8hpp.html</Path>
-                  <Anchor>a9bda068af6bb1b263c2d787faa5d4e2d</Anchor>
+                  <Anchor>a1238a4c6d1f5e954703485cd83e889f1</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

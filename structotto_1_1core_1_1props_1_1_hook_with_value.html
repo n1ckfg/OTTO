@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::props::HookWithValue Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -74,14 +76,17 @@
 <div class="title">otto::core::props::HookWithValue Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Concept of a <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html" title="A hook implementation concept. ">Hook</a> with a value. </p>
 
-<p>Concept of a <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html" title="A hook implementation concept. ">Hook</a> with a value.  
- <a href="structotto_1_1core_1_1props_1_1_hook_with_value.html#details">More...</a></p>
-
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00125">125</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::core::props::HookWithValue:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::core::props::HookWithValue:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="structotto_1_1core_1_1props_1_1_hook_with_value.png" usemap="#otto::core::props::HookWithValue_map" alt=""/>
   <map id="otto::core::props::HookWithValue_map" name="otto::core::props::HookWithValue_map">
@@ -105,11 +110,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1624ba798105cb448a04545739bbc0b0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook_with_value.html#a1624ba798105cb448a04545739bbc0b0">requires_</a> (T &amp;&amp;t) -&gt; decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_value.html">MixinValue</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_hook_with_value.html#a185aa4f9c5d19a8db81c3eeb8127c76d">value_type</a>&lt; T &gt;&gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_hook_with_value.html#aa37d58fa9abe0c19de5166076c12dcd0">arg_type</a>&lt; T &gt;&gt;(), cpts::has_type&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_hook_with_value.html#aa37d58fa9abe0c19de5166076c12dcd0">arg_type</a>&lt; T &gt; &amp;&gt;(t.value()), cpts::model_of&lt; cpts::ConvertibleTo, T, <a class="el" href="structotto_1_1core_1_1props_1_1_hook_with_value.html#aa37d58fa9abe0c19de5166076c12dcd0">arg_type</a>&lt; T &gt; &amp;&gt;(), cpts::model_of&lt; cpts::Constructible, T, const <a class="el" href="structotto_1_1core_1_1props_1_1_hook_with_value.html#aa37d58fa9abe0c19de5166076c12dcd0">arg_type</a>&lt; T &gt; &amp;&gt;()))</td></tr>
 <tr class="separator:a1624ba798105cb448a04545739bbc0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Concept of a <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html" title="A hook implementation concept. ">Hook</a> with a value. </p>
-
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00125">125</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a185aa4f9c5d19a8db81c3eeb8127c76d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a185aa4f9c5d19a8db81c3eeb8127c76d">&#9670;&nbsp;</a></span>value_type</h2>
 

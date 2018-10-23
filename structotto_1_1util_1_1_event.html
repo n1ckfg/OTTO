@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::Event&lt; Args &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -74,15 +76,19 @@
 <div class="title">otto::util::Event&lt; Args &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename... Args&gt;<br />
+struct otto::util::Event&lt; Args &gt;</h3>
 
-<p>An event registry and dispatcher.  
- <a href="structotto_1_1util_1_1_event.html#details">More...</a></p>
+<p>An event registry and dispatcher. </p>
 
+<p class="definition">Definition at line <a class="el" href="event_8hpp_source.html#l00010">10</a> of file <a class="el" href="event_8hpp_source.html">event.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="event_8hpp_source.html">event.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a53160eccb665e2259e8346316614db45"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_event.html#a53160eccb665e2259e8346316614db45">handler_type</a> = std::function&lt; void(Args...)&gt;</td></tr>
+<tr class="memitem:a53160eccb665e2259e8346316614db45"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_event.html#a53160eccb665e2259e8346316614db45">handler_type</a> = <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(Args...)&gt;</td></tr>
 <tr class="separator:a53160eccb665e2259e8346316614db45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -94,14 +100,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a84a7ea2bd0d655d62604ef9c639cdd9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_event.html#a84a7ea2bd0d655d62604ef9c639cdd9b">fire</a> (Args... args)</td></tr>
 <tr class="separator:a84a7ea2bd0d655d62604ef9c639cdd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename... Args&gt;<br />
-struct otto::util::Event&lt; Args &gt;</h3>
-
-<p>An event registry and dispatcher. </p>
-
-<p class="definition">Definition at line <a class="el" href="event_8hpp_source.html#l00010">10</a> of file <a class="el" href="event_8hpp_source.html">event.hpp</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a53160eccb665e2259e8346316614db45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53160eccb665e2259e8346316614db45">&#9670;&nbsp;</a></span>handler_type</h2>
 
@@ -111,7 +110,7 @@ struct otto::util::Event&lt; Args &gt;</h3>
 template&lt;typename... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1util_1_1_event.html">otto::util::Event</a>&lt; Args &gt;::<a class="el" href="structotto_1_1util_1_1_event.html#a53160eccb665e2259e8346316614db45">handler_type</a> =  std::function&lt;void(Args...)&gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1util_1_1_event.html">otto::util::Event</a>&lt; Args &gt;::<a class="el" href="structotto_1_1util_1_1_event.html#a53160eccb665e2259e8346316614db45">handler_type</a> =  <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(Args...)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -168,6 +167,8 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="event_8hpp_source.html#l00015">15</a> of file <a class="el" href="event_8hpp_source.html">event.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>.</p>
 
 </div>
 </div>

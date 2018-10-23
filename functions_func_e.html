@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members - Functions</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -81,12 +83,12 @@
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#af1ae28f66e146104f2a7fe640ea79cb2">otto::core::audio::ProcessData&lt; N &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a5226991cd2fb9686ba8ba6976e6f8456">otto::core::midi::shared_vector&lt; T &gt;</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path.html#a69a48f8077d407935c8572198b456d55">otto::filesystem::path</a>
-, <a class="el" href="structotto_1_1util_1_1_adjacent_range.html#a3f2bd20debb5dbb9056c5f5420eaa186">otto::util::AdjacentRange&lt; Range &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1bytes.html#abeb861327c0918a95dfb87742a47fe10">otto::util::bytes&lt; len &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1dyn__array.html#a020a88755aea1c384ac3eb507fe933f4">otto::util::dyn_array&lt; T &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1iterator_1_1_adjacent_range.html#a61b10adaf0798cd93290a41ee3ea9982">otto::util::iterator::AdjacentRange&lt; Range &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1iterator_1_1sequence.html#ab1449c909a4c2ad837457f046a5acfd7">otto::util::iterator::sequence&lt; BIter, EIter &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1iterator_1_1_zipped_range.html#ae62414bb4f9ed930f428f9cd4ecf4e00">otto::util::iterator::ZippedRange&lt; Ranges &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1ringbuffer.html#af927a4673a7512c8fa250488602ee16d">otto::util::ringbuffer&lt; T, N &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1sequence.html#a8513fa0a3c8969047fab97bcce92d06a">otto::util::sequence&lt; BIter, EIter &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1_zipped_range.html#aad9e315194673af935cbc10dff764b7b">otto::util::ZippedRange&lt; Ranges &gt;</a>
 </li>
 <li>endFrame()
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#a101ea72a9fb9bd143f932fc55c5d2035">otto::board::ui::EGLConnection</a>
@@ -112,11 +114,11 @@
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_envelope_screen.html#a5650fc8be30d442f764fec3d2948faca">otto::core::audio::EnvelopeScreen</a>
 </li>
 <li>equal()
-: <a class="el" href="classotto_1_1util_1_1_filter_iter_impl.html#a40237512587279c92e586dc3a45b469c">otto::util::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1_generating_iter_impl.html#a960a7388f53d2aa480035091bd6e003b">otto::util::GeneratingIterImpl&lt; Generator &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1_transform_iterator_impl.html#affd837361ae18f2ac42f47da9c578a36">otto::util::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
+: <a class="el" href="classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html#a64d921352491be0b4866ed4c42febd13">otto::util::iterator::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html#a0ccf89ac6614e542929d6cc57f064253">otto::util::iterator::GeneratingIterImpl&lt; Generator &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html#af2215f4204d711703f4a0dfe7bba93d2">otto::util::iterator::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html#a3ec63c4e20cb522775862418aa1f447b">otto::util::iterator::ZippedIteratorImpl&lt; Iterators &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a115484325744f6fcd600066d1fa45885">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#ab52bc26af5d80e15d12ed7477b39e42b">otto::util::ZippedIteratorImpl&lt; Iterators &gt;</a>
 </li>
 <li>err()
 : <a class="el" href="structotto_1_1util_1_1result.html#a7aa4bcf6db47c2fbbe1c214c8ede4220">otto::util::result&lt; ok_t, err_t &gt;</a>
@@ -134,7 +136,7 @@
 : <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ac2c42ee4a0d0a17789d6f4fb2e9a3c13">otto::util::ByteFile::Error</a>
 </li>
 <li>error()
-: <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a2daed04afda320d688844646bee0ed86">otto::util::float_step_iterator&lt; I, V &gt;</a>
+: <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#abe3143ac454d2a2a241ad530ffec7f05">otto::util::iterator::float_step_iterator&lt; I, V &gt;</a>
 , <a class="el" href="class_rt_api.html#a991f6626a0b1a79f0fec1c6a7bcebb9e">RtApi</a>
 </li>
 <li>Euclid()
@@ -147,7 +149,7 @@
 : <a class="el" href="structotto_1_1util_1_1exception.html#abcc5e9042cf318ba8276f84341a8e922">otto::util::exception</a>
 </li>
 <li>exists()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a62eac11ebf655802fd39b03a6de8d8ff">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a8ff8afd8f4d18adc3f45fca51e13d9ef">otto::filesystem::directory_entry</a>
 </li>
 <li>exit()
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#ac1d48681fac6e190986f6bd2e09e4a91">otto::board::ui::EGLConnection</a>

@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::dsp::LogSlider Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -73,10 +75,14 @@
 <div class="title">otto::util::dsp::LogSlider Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This utility transforms a linear proportion between 0 and 1 to logarithmically scaled values in a given range. </p>
+<p>It also does them inverse transformation.</p>
+<p>x: proportion (0) |--------&mdash;|(1) y: value (min_value) |--------&mdash;|(max_value)</p>
+<p>Internally solves the following system of equations: </p><div class="fragment"><div class="line"><a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a415290769594460e2e485922904f345d">y</a> = a * <a class="codeRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/exp.html">exp</a>(b * x)</div><div class="line">(x1;y1) = (0;min_value)</div><div class="line">(x2;y2) = (1;max_value)</div></div><!-- fragment --><p>Particularly useful, e.g. for logarithmically scaled frequency cutoff knobs. </p>
 
-<p>This utility transforms a linear proportion between 0 and 1 to logarithmically scaled values in a given range.  
- <a href="structotto_1_1util_1_1dsp_1_1_log_slider.html#details">More...</a></p>
-
+<p class="definition">Definition at line <a class="el" href="log__slider_8hpp_source.html#l00021">21</a> of file <a class="el" href="log__slider_8hpp_source.html">log_slider.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="log__slider_8hpp_source.html">log_slider.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -95,14 +101,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae828053e3e446157bd7836ac7bb1cfec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the desired logarithmically scaled output range.  <a href="#ae828053e3e446157bd7836ac7bb1cfec">More...</a><br /></td></tr>
 <tr class="separator:ae828053e3e446157bd7836ac7bb1cfec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This utility transforms a linear proportion between 0 and 1 to logarithmically scaled values in a given range. </p>
-<p>It also does them inverse transformation.</p>
-<p>x: proportion (0) |--------&mdash;|(1) y: value (min_value) |--------&mdash;|(max_value)</p>
-<p>Internally solves the following system of equations: </p><div class="fragment"><div class="line"><a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a415290769594460e2e485922904f345d">y</a> = a * exp(b * x)</div><div class="line">(x1;y1) = (0;min_value)</div><div class="line">(x2;y2) = (1;max_value)</div></div><!-- fragment --><p>Particularly useful, e.g. for logarithmically scaled frequency cutoff knobs. </p>
-
-<p class="definition">Definition at line <a class="el" href="log__slider_8hpp_source.html#l00021">21</a> of file <a class="el" href="log__slider_8hpp_source.html">log_slider.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a898cc208ef5d4616bf46d20f79a1a913"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a898cc208ef5d4616bf46d20f79a1a913">&#9670;&nbsp;</a></span>LogSlider()</h2>
 
@@ -188,6 +187,8 @@ Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="log__slider_8cpp_source.html#l00024">24</a> of file <a class="el" href="log__slider_8cpp_source.html">log_slider.cpp</a>.</p>
 
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/exp.html">std::exp()</a>.</p>
+
 </div>
 </div>
 <a id="a405d0cf47f708e0d84342e3ae6127165"></a>
@@ -223,6 +224,8 @@ Public Member Functions</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="log__slider_8cpp_source.html#l00031">31</a> of file <a class="el" href="log__slider_8cpp_source.html">log_slider.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/log.html">std::log()</a>.</p>
 
 </div>
 </div>

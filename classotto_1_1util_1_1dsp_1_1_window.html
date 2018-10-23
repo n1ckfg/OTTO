@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::dsp::Window Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -75,7 +77,10 @@
 <div class="title">otto::util::dsp::Window Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="window_8hpp_source.html#l00009">9</a> of file <a class="el" href="window_8hpp_source.html">window.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="window_8hpp_source.html">window.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -106,17 +111,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afccdcd149753e459ad3a5a6a3fe12978"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#afccdcd149753e459ad3a5a6a3fe12978">get_window_type_name</a> (<a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>) noexcept</td></tr>
+<tr class="memitem:afccdcd149753e459ad3a5a6a3fe12978"><td class="memItemLeft" align="right" valign="top">static const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#afccdcd149753e459ad3a5a6a3fe12978">get_window_type_name</a> (<a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>) noexcept</td></tr>
 <tr class="memdesc:afccdcd149753e459ad3a5a6a3fe12978"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html">Window</a> type to string.  <a href="#afccdcd149753e459ad3a5a6a3fe12978">More...</a><br /></td></tr>
 <tr class="separator:afccdcd149753e459ad3a5a6a3fe12978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24a7c52e3af01dfecaf75f7ec796008e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a24a7c52e3af01dfecaf75f7ec796008e">compute</a> (gsl::span&lt; double &gt; buffer, <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>, bool normalize=true) noexcept</td></tr>
 <tr class="memdesc:a24a7c52e3af01dfecaf75f7ec796008e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the window samples and stores them in the buffer.  <a href="#a24a7c52e3af01dfecaf75f7ec796008e">More...</a><br /></td></tr>
 <tr class="separator:a24a7c52e3af01dfecaf75f7ec796008e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="window_8hpp_source.html#l00009">9</a> of file <a class="el" href="window_8hpp_source.html">window.hpp</a>.</p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a12a2141b95a6cd6d1847d1b4b2f8987c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12a2141b95a6cd6d1847d1b4b2f8987c">&#9670;&nbsp;</a></span>WindowType</h2>
 
@@ -271,7 +273,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string otto::util::dsp::Window::get_window_type_name </td>
+          <td class="memname">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::dsp::Window::get_window_type_name </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#a12a2141b95a6cd6d1847d1b4b2f8987c">WindowType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>

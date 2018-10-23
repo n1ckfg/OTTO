@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::JsonFile Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -76,7 +78,10 @@
 <div class="title">otto::util::JsonFile Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="jsonfile_8hpp_source.html#l00012">12</a> of file <a class="el" href="jsonfile_8hpp_source.html">jsonfile.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="jsonfile_8hpp_source.html">jsonfile.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -135,10 +140,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a687c78bb25f5e304ab29d25d8b108aac"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classotto_1_1filesystem_1_1path.html">fs::path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_json_file.html#a687c78bb25f5e304ab29d25d8b108aac">_path</a></td></tr>
 <tr class="separator:a687c78bb25f5e304ab29d25d8b108aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="jsonfile_8hpp_source.html#l00012">12</a> of file <a class="el" href="jsonfile_8hpp_source.html">jsonfile.hpp</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ad9d72548f88186e1cd59504f94475dc9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9d72548f88186e1cd59504f94475dc9">&#9670;&nbsp;</a></span>exception</h2>
 
@@ -304,14 +306,14 @@ Protected Attributes</h2></td></tr>
 <p>serialize <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data. ">data()</a></code>, and write it to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file. ">path()</a></code>. No filestreams are left open.</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code>std::system_error</code> on IO failure </td></tr>
+    <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html" title="STL class. ">std::system_error</a></code> on IO failure </td></tr>
   </table>
   </dd>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="jsonfile_8cpp_source.html#l00014">14</a> of file <a class="el" href="jsonfile_8cpp_source.html">jsonfile.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="jsonfile_8hpp_source.html#l00073">_data</a>, <a class="el" href="jsonfile_8hpp_source.html#l00074">_path</a>, <a class="el" href="filesystem_8cpp_source.html#l00409">otto::filesystem::path::c_str()</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a474c35572625d975531294b75f408da0a76ea0bebb3c22822b4f0dd9c9fd021c5">create</a>, <a class="el" href="filesystem_8cpp_source.html#l01426">otto::filesystem::create_directories()</a>, <a class="el" href="filesystem_8cpp_source.html#l01554">otto::filesystem::exists()</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a129b3faca1a0ec06367f52767ea75528a334c4a4c42fdb79d7ebc3e73b517e6f8">none</a>, <a class="el" href="filesystem_8cpp_source.html#l00356">otto::filesystem::path::remove_filename()</a>, and <a class="el" href="jsonfile_8hpp_source.html#l00071">validate()</a>.</p>
+<p class="reference">References <a class="el" href="jsonfile_8hpp_source.html#l00073">_data</a>, <a class="el" href="jsonfile_8hpp_source.html#l00074">_path</a>, <a class="el" href="filesystem_8cpp_source.html#l00409">otto::filesystem::path::c_str()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/basic_ofstream/close.html">std::ofstream::close()</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a474c35572625d975531294b75f408da0a76ea0bebb3c22822b4f0dd9c9fd021c5">create</a>, <a class="el" href="filesystem_8cpp_source.html#l01426">otto::filesystem::create_directories()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl()</a>, <a class="el" href="filesystem_8cpp_source.html#l01554">otto::filesystem::exists()</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a129b3faca1a0ec06367f52767ea75528a334c4a4c42fdb79d7ebc3e73b517e6f8">none</a>, <a class="el" href="filesystem_8cpp_source.html#l00356">otto::filesystem::path::remove_filename()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/manip/setw.html">std::setw()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_category.html">std::system_category()</a>, and <a class="el" href="jsonfile_8hpp_source.html#l00071">validate()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="jsonfile_8cpp_source.html#l00033">read()</a>.</p>
 
@@ -345,14 +347,14 @@ Protected Attributes</h2></td></tr>
 <p>deserialize the data in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file. ">path()</a></code> and store it in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data. ">data()</a></code>. No filestreams are left open.</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code>std::system_error</code> on IO failure </td></tr>
+    <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html" title="STL class. ">std::system_error</a></code> on IO failure </td></tr>
   </table>
   </dd>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="jsonfile_8cpp_source.html#l00033">33</a> of file <a class="el" href="jsonfile_8cpp_source.html">jsonfile.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="jsonfile_8hpp_source.html#l00073">_data</a>, <a class="el" href="jsonfile_8hpp_source.html#l00074">_path</a>, <a class="el" href="filesystem_8cpp_source.html#l00409">otto::filesystem::path::c_str()</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a474c35572625d975531294b75f408da0a76ea0bebb3c22822b4f0dd9c9fd021c5">create</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a474c35572625d975531294b75f408da0a334c4a4c42fdb79d7ebc3e73b517e6f8">none</a>, <a class="el" href="jsonfile_8hpp_source.html#l00071">validate()</a>, and <a class="el" href="jsonfile_8cpp_source.html#l00014">write()</a>.</p>
+<p class="reference">References <a class="el" href="jsonfile_8hpp_source.html#l00073">_data</a>, <a class="el" href="jsonfile_8hpp_source.html#l00074">_path</a>, <a class="el" href="filesystem_8cpp_source.html#l00409">otto::filesystem::path::c_str()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/basic_ifstream/close.html">std::ifstream::close()</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a474c35572625d975531294b75f408da0a76ea0bebb3c22822b4f0dd9c9fd021c5">create</a>, <a class="el" href="structotto_1_1util_1_1_json_file.html#a474c35572625d975531294b75f408da0a334c4a4c42fdb79d7ebc3e73b517e6f8">none</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/basic_ifstream/open.html">std::ifstream::open()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_category.html">std::system_category()</a>, <a class="el" href="jsonfile_8hpp_source.html#l00071">validate()</a>, and <a class="el" href="jsonfile_8cpp_source.html#l00014">write()</a>.</p>
 
 </div>
 </div>

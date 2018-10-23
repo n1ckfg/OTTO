@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::ui Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -83,7 +85,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a75cbb17e20aef0b1e7627c5d679941c0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a75cbb17e20aef0b1e7627c5d679941c0">KeyHandler</a> = std::function&lt; void(<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a> k)&gt;</td></tr>
+<tr class="memitem:a75cbb17e20aef0b1e7627c5d679941c0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a75cbb17e20aef0b1e7627c5d679941c0">KeyHandler</a> = <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a> k)&gt;</td></tr>
 <tr class="memdesc:a75cbb17e20aef0b1e7627c5d679941c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function type for key handlers.  <a href="#a75cbb17e20aef0b1e7627c5d679941c0">More...</a><br /></td></tr>
 <tr class="separator:a75cbb17e20aef0b1e7627c5d679941c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -92,13 +94,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ad9efba1df743c968c5aec0c014c27785"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#ad9efba1df743c968c5aec0c014c27785">is_pressed</a> (<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a> k) noexcept</td></tr>
 <tr class="memdesc:ad9efba1df743c968c5aec0c014c27785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a key is currently pressed.  <a href="#ad9efba1df743c968c5aec0c014c27785">More...</a><br /></td></tr>
 <tr class="separator:ad9efba1df743c968c5aec0c014c27785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad39db3ca96bb00c9a9fce2aada88898f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#ad39db3ca96bb00c9a9fce2aada88898f">select_engine</a> (const std::string &amp;engine_name)</td></tr>
+<tr class="memitem:ad39db3ca96bb00c9a9fce2aada88898f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#ad39db3ca96bb00c9a9fce2aada88898f">select_engine</a> (const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;engine_name)</td></tr>
 <tr class="memdesc:ad39db3ca96bb00c9a9fce2aada88898f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select an engine by name.  <a href="#ad39db3ca96bb00c9a9fce2aada88898f">More...</a><br /></td></tr>
 <tr class="separator:ad39db3ca96bb00c9a9fce2aada88898f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6edeac04522a1ca37d90a291bcf30e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a6edeac04522a1ca37d90a291bcf30e66">select_engine</a> (<a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">core::engines::AnyEngine</a> &amp;engine)</td></tr>
 <tr class="memdesc:a6edeac04522a1ca37d90a291bcf30e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select an engine.  <a href="#a6edeac04522a1ca37d90a291bcf30e66">More...</a><br /></td></tr>
 <tr class="separator:a6edeac04522a1ca37d90a291bcf30e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f90de5c25ebbead12f78da69cf30437"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a8f90de5c25ebbead12f78da69cf30437">selected_engine_name</a> ()</td></tr>
+<tr class="memitem:a8f90de5c25ebbead12f78da69cf30437"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a8f90de5c25ebbead12f78da69cf30437">selected_engine_name</a> ()</td></tr>
 <tr class="memdesc:a8f90de5c25ebbead12f78da69cf30437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the currently selected engine.  <a href="#a8f90de5c25ebbead12f78da69cf30437">More...</a><br /></td></tr>
 <tr class="separator:a8f90de5c25ebbead12f78da69cf30437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f31095a080f35fc1535c394df3036c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a88f31095a080f35fc1535c394df3036c">init</a> ()</td></tr>
@@ -123,7 +125,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceotto_1_1service_1_1ui.html#a75cbb17e20aef0b1e7627c5d679941c0">otto::service::ui::KeyHandler</a> = typedef std::function&lt;void(<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a> k)&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1service_1_1ui.html#a75cbb17e20aef0b1e7627c5d679941c0">otto::service::ui::KeyHandler</a> = typedef <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(<a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">core::ui::Key</a> k)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -178,7 +180,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void otto::service::ui::select_engine </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>engine_name</em></td><td>)</td>
           <td></td>
         </tr>
@@ -226,7 +228,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; otto::service::ui::selected_engine_name </td>
+          <td class="memname">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp; otto::service::ui::selected_engine_name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -347,7 +349,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="ui_8cpp_source.html#l00099">99</a> of file <a class="el" href="ui_8cpp_source.html">ui.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8ce4b16b22b58894aa86c421e8759df3">otto::board::ui::k</a>.</p>
+<p class="reference">References <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8ce4b16b22b58894aa86c421e8759df3">otto::board::ui::k</a>, and <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="engines_8cpp_source.html#l00030">otto::service::engines::init()</a>.</p>
 

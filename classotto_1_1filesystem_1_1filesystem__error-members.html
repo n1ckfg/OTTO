@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Member List</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -73,12 +75,15 @@
 
 <p>This is the complete list of members for <a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a4e2fa645d8f6291848e4e50321ffe185">filesystem_error</a>(const std::string &amp;what_arg, std::error_code ec)</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a0ffce5e82043a295d6aca755e2bfedca">filesystem_error</a>(const std::string &amp;what_arg, const path &amp;p1, std::error_code ec)</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a42012b4e7fe71adebb2f771dde17354b">filesystem_error</a>(const std::string &amp;what_arg, const path &amp;p1, const path &amp;p2, std::error_code ec)</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a1b035b8f67cb6fa1a901bf30b7705c0e">path1</a>() const noexcept</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#ae1fe2e1b89a40a511f5af5685bf8c19c">path2</a>() const noexcept</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error/code.html">code</a>(T... args)</td><td class="entry"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html">std::system_error</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a4e2fa645d8f6291848e4e50321ffe185">filesystem_error</a>(const std::string &amp;what_arg, std::error_code ec)</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a0ffce5e82043a295d6aca755e2bfedca">filesystem_error</a>(const std::string &amp;what_arg, const path &amp;p1, std::error_code ec)</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a42012b4e7fe71adebb2f771dde17354b">filesystem_error</a>(const std::string &amp;what_arg, const path &amp;p1, const path &amp;p2, std::error_code ec)</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#a1b035b8f67cb6fa1a901bf30b7705c0e">path1</a>() const noexcept</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#ae1fe2e1b89a40a511f5af5685bf8c19c">path2</a>() const noexcept</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error/system_error.html">system_error</a>(T... args)</td><td class="entry"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html">std::system_error</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html#aa0945d44478439725a500991c541c63e">what</a>() const noexcept override</td><td class="entry"><a class="el" href="classotto_1_1filesystem_1_1filesystem__error.html">otto::filesystem::filesystem_error</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/exception/what.html">std::system_error::what</a>(T... args)</td><td class="entry"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html">std::system_error</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

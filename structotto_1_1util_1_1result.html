@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::result&lt; ok_t, err_t &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -75,10 +77,17 @@
 <div class="title">otto::util::result&lt; ok_t, err_t &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename ok_t, typename err_t&gt;<br />
+struct otto::util::result&lt; ok_t, err_t &gt;</h3>
 
-<p>A sum type, holding either an Ok value, or an Err.  
- <a href="structotto_1_1util_1_1result.html#details">More...</a></p>
-
+<p>A sum type, holding either an Ok value, or an Err. </p>
+<p>Modelled closely after Rust's Result enum.</p>
+<h1><a class="anchor" id="autotoc_md0"></a>
+Example</h1>
+<div class="fragment"><div class="line">result&lt;std::string, int&gt; open_file(File&amp; f) {</div><div class="line">  <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.open();</div><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.error()) {</div><div class="line">    <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.errorCode();</div><div class="line">  }</div><div class="line">  <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.path();</div><div class="line">}</div></div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00028">28</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="result_8hpp_source.html">result.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -177,17 +186,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2401c64477a1340feb9b8d5a0c80022e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return err, or throw a <code><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html" title="Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. ">result_except</a>&lt;Err&gt;</code> holding the result.  <a href="#a2401c64477a1340feb9b8d5a0c80022e">More...</a><br /></td></tr>
 <tr class="separator:a2401c64477a1340feb9b8d5a0c80022e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename ok_t, typename err_t&gt;<br />
-struct otto::util::result&lt; ok_t, err_t &gt;</h3>
-
-<p>A sum type, holding either an Ok value, or an Err. </p>
-<p>Modelled closely after Rust's Result enum.</p>
-<h1><a class="anchor" id="autotoc_md0"></a>
-Example</h1>
-<div class="fragment"><div class="line">result&lt;std::string, int&gt; open_file(File&amp; f) {</div><div class="line">  <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.open();</div><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.error()) {</div><div class="line">    <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.errorCode();</div><div class="line">  }</div><div class="line">  <span class="keywordflow">return</span> <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a8fa14cdd754f91cc6554c9e71929cce7">f</a>.path();</div><div class="line">}</div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00028">28</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a4a5858752f961e33edab1cbefa3a5921"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a5858752f961e33edab1cbefa3a5921">&#9670;&nbsp;</a></span>Ok</h2>
 

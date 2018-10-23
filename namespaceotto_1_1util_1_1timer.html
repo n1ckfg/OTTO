@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::timer Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -73,15 +75,14 @@
 <div class="title">otto::util::timer Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A simple stack-based library used to time nested parts of a program.  
-<a href="#details">More...</a></p>
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A simple stack-based library used to time nested parts of a program. </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a2debc628706dfceb11bf502af710d8cd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1timer.html#a2debc628706dfceb11bf502af710d8cd">timer_id</a> = std::string</td></tr>
+<tr class="memitem:a2debc628706dfceb11bf502af710d8cd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1timer.html#a2debc628706dfceb11bf502af710d8cd">timer_id</a> = <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a></td></tr>
 <tr class="separator:a2debc628706dfceb11bf502af710d8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6364ba3b56d33dc1558f15a7a380d1a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1timer.html#ae6364ba3b56d33dc1558f15a7a380d1a">time_point</a> = std::chrono::time_point&lt; std::chrono::steady_clock, std::chrono::nanoseconds &gt;</td></tr>
+<tr class="memitem:ae6364ba3b56d33dc1558f15a7a380d1a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1timer.html#ae6364ba3b56d33dc1558f15a7a380d1a">time_point</a> = <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/chrono/time_point.html">std::chrono::time_point</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/chrono/steady_clock.html">std::chrono::steady_clock</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/chrono/duration.html">std::chrono::nanoseconds</a> &gt;</td></tr>
 <tr class="separator:ae6364ba3b56d33dc1558f15a7a380d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ef943f6720fc12ad480a9f6486c091a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1timer.html#a0ef943f6720fc12ad480a9f6486c091a">time_duration</a> = time_point::duration::rep</td></tr>
 <tr class="separator:a0ef943f6720fc12ad480a9f6486c091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,9 +94,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ab3f55ec00ee48137a544e568d91b18e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1timer.html#ab3f55ec00ee48137a544e568d91b18e8">save_data</a> ()</td></tr>
 <tr class="separator:ab3f55ec00ee48137a544e568d91b18e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A simple stack-based library used to time nested parts of a program. </p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
 <a id="a2debc628706dfceb11bf502af710d8cd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2debc628706dfceb11bf502af710d8cd">&#9670;&nbsp;</a></span>timer_id</h2>
 
@@ -103,7 +102,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceotto_1_1util_1_1timer.html#a2debc628706dfceb11bf502af710d8cd">otto::util::timer::timer_id</a> = typedef std::string</td>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1util_1_1timer.html#a2debc628706dfceb11bf502af710d8cd">otto::util::timer::timer_id</a> = typedef <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -119,7 +118,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceotto_1_1util_1_1timer.html#ae6364ba3b56d33dc1558f15a7a380d1a">otto::util::timer::time_point</a> = typedef std::chrono::time_point&lt; std::chrono::steady_clock, std::chrono::nanoseconds&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1util_1_1timer.html#ae6364ba3b56d33dc1558f15a7a380d1a">otto::util::timer::time_point</a> = typedef <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/chrono/time_point.html">std::chrono::time_point</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/chrono/steady_clock.html">std::chrono::steady_clock</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/chrono/duration.html">std::chrono::nanoseconds</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

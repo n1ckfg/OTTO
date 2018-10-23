@@ -44,7 +44,7 @@ img {
 .memproto.panel-heading {
     box-shadow: none;
     text-shadow: none;
-    background: white;
+    background: #F4F4F4;
     border-radius: 0px;
     border: none;
     border-bottom: 1px solid #ddd;
@@ -52,17 +52,39 @@ img {
     padding-left: 10px;
 }
 
+.memtitle {
+    background: #F4F4F4;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    font-size: 1.8em;
+    font-weight: 500;
+    font-family: monospace;
+}
+
 .memitem.panel.panel-default {
     box-shadow: none;
     border-radius: 0px;
 }
 
-.memname td {
+.memname td, .memtemplate {
     font-family: monospace;
+    margin-left: 0px;
+    color: black;
 }
 
 .memname table, table.memname {
     width: 0px;
+}
+
+.memdoc p.definition, .memdoc p.reference {
+    font-size: 0.8em;
+}
+
+.memdoc p.definition {
+    border-top: 1px solid #ddd;
+    margin: 0px -10px;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 .ah.btn.btn-default {
@@ -175,4 +197,8 @@ code {
     background: #F4F4F4;
     color: inherit;
     border-radius: 0px;
+}
+
+a#details + h2.groupheader {
+    display:none;
 }

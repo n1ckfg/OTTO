@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::board::ui::RpiFBCP Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -73,10 +75,13 @@
 <div class="title">otto::board::ui::RpiFBCP Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class is used to copy from the HDMI framebuffer on the pi, to the framebuffer which is used by fbtft. </p>
+<p>This is useful when using an SPI display.</p>
+<p>At some point in the future, we will probably want to skip some of these steps, possibly by including the spi driver directly and writing the main framebuffer to that on each frame. </p>
 
-<p>This class is used to copy from the HDMI framebuffer on the pi, to the framebuffer which is used by fbtft.  
- <a href="structotto_1_1board_1_1ui_1_1_rpi_f_b_c_p.html#details">More...</a></p>
-
+<p class="definition">Definition at line <a class="el" href="fbcp_8hpp_source.html#l00016">16</a> of file <a class="el" href="fbcp_8hpp_source.html">fbcp.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="fbcp_8hpp_source.html">fbcp.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -92,13 +97,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac267c123ba70abeb23a4750f2a24a913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1board_1_1ui_1_1_rpi_f_b_c_p.html#ac267c123ba70abeb23a4750f2a24a913">exit</a> () noexcept</td></tr>
 <tr class="separator:ac267c123ba70abeb23a4750f2a24a913"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class is used to copy from the HDMI framebuffer on the pi, to the framebuffer which is used by fbtft. </p>
-<p>This is useful when using an SPI display.</p>
-<p>At some point in the future, we will probably want to skip some of these steps, possibly by including the spi driver directly and writing the main framebuffer to that on each frame. </p>
-
-<p class="definition">Definition at line <a class="el" href="fbcp_8hpp_source.html#l00016">16</a> of file <a class="el" href="fbcp_8hpp_source.html">fbcp.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9bcf8fd6d193b5da2108aaaa1206cec4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9bcf8fd6d193b5da2108aaaa1206cec4">&#9670;&nbsp;</a></span>RpiFBCP()</h2>
 

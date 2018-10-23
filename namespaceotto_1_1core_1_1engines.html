@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::engines Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -143,7 +145,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a505815deefd73b076133f4139bb61990"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register an engine.  <a href="#a505815deefd73b076133f4139bb61990">More...</a><br /></td></tr>
 <tr class="separator:a505815deefd73b076133f4139bb61990"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e8ee1208473ccab001d7fb1937b98a3"><td class="memTemplParams" colspan="2">template&lt;EngineType ET&gt; </td></tr>
-<tr class="memitem:a9e8ee1208473ccab001d7fb1937b98a3"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structotto_1_1core_1_1engines_1_1_engine.html">Engine</a>&lt; ET &gt; &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engines.html#a9e8ee1208473ccab001d7fb1937b98a3">create_engines</a> ()</td></tr>
+<tr class="memitem:a9e8ee1208473ccab001d7fb1937b98a3"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1core_1_1engines_1_1_engine.html">Engine</a>&lt; ET &gt; &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engines.html#a9e8ee1208473ccab001d7fb1937b98a3">create_engines</a> ()</td></tr>
 <tr class="memdesc:a9e8ee1208473ccab001d7fb1937b98a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct all registered engines of type <code>ET</code>  <a href="#a9e8ee1208473ccab001d7fb1937b98a3">More...</a><br /></td></tr>
 <tr class="separator:a9e8ee1208473ccab001d7fb1937b98a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -279,7 +281,7 @@ template&lt;typename REngine , typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Register an engine. </p>
-<p>Store a function which constructs an <code>REngine</code> in a [std::unique_ptr]() with <code>args</code> forwarded. </p>
+<p>Store a function which constructs an <code>REngine</code> in a [<a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html" title="STL class. ">std::unique_ptr</a>]() with <code>args</code> forwarded. </p>
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00294">294</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
@@ -296,7 +298,7 @@ template&lt;typename REngine , typename... Args&gt; </div>
 template&lt;EngineType ET&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::unique_ptr&lt; <a class="el" href="structotto_1_1core_1_1engines_1_1_engine.html">Engine</a>&lt; ET &gt; &gt; &gt; otto::core::engines::create_engines </td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1core_1_1engines_1_1_engine.html">Engine</a>&lt; ET &gt; &gt; &gt; otto::core::engines::create_engines </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -309,6 +311,8 @@ template&lt;EngineType ET&gt; </div>
 <p>Call all the stored constructors for type <code>ET</code>, and move the resulting <code>unique_ptr</code>s into a vector, which is returned. </p>
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00309">309</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector/emplace_back.html">std::vector&lt; T &gt;::emplace_back()</a>, and <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector/reserve.html">std::vector&lt; T &gt;::reserve()</a>.</p>
 
 </div>
 </div>
@@ -326,8 +330,7 @@ template&lt;typename E &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">    decltype(<a class="code" href="namespaceotto_1_1core_1_1engines_1_1internal.html#a56633866be10f03b0e440cbd70d66177">internal::engine_type_impl_func</a>(std::declval&lt;E&gt;()))::value</div><div class="ttc" id="namespaceotto_1_1core_1_1engines_1_1internal_html_a56633866be10f03b0e440cbd70d66177"><div class="ttname"><a href="namespaceotto_1_1core_1_1engines_1_1internal.html#a56633866be10f03b0e440cbd70d66177">otto::core::engines::internal::engine_type_impl_func</a></div><div class="ttdeci">engine_type_impl&lt; ET &gt; engine_type_impl_func(const Engine&lt; ET &gt; &amp;)</div></div>
-</div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">    decltype(<a class="code" href="namespaceotto_1_1core_1_1engines_1_1internal.html#a56633866be10f03b0e440cbd70d66177">internal::engine_type_impl_func</a>(std::declval&lt;E&gt;()))::value</div></div><!-- fragment -->
 <p>Type trait to get engine type. </p>
 <p>SFINAE friendly, and will match any type that inherits from [<a class="el" href="structotto_1_1core_1_1engines_1_1_engine.html" title="Engine base class. ">Engine</a>]() </p>
 

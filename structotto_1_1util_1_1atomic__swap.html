@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::atomic_swap&lt; T &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -73,10 +75,21 @@
 <div class="title">otto::util::atomic_swap&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct otto::util::atomic_swap&lt; T &gt;</h3>
 
-<p>Inner and outer buffers swapped atomically.  
- <a href="structotto_1_1util_1_1atomic__swap.html#details">More...</a></p>
+<p>Inner and outer buffers swapped atomically. </p>
+<p>The inner buffer can always be accessed lock-free, the outer is locked on swap.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>needs .clear(), which is called on swap </td></tr>
+  </table>
+  </dd>
+</dl>
 
+<p class="definition">Definition at line <a class="el" href="locked_8hpp_source.html#l00073">73</a> of file <a class="el" href="locked_8hpp_source.html">locked.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="locked_8hpp_source.html">locked.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -100,21 +113,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aca95110170370db146100c4115ec5c90"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1atomic__swap.html#aca95110170370db146100c4115ec5c90">swap</a> () noexcept</td></tr>
 <tr class="separator:aca95110170370db146100c4115ec5c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-struct otto::util::atomic_swap&lt; T &gt;</h3>
-
-<p>Inner and outer buffers swapped atomically. </p>
-<p>The inner buffer can always be accessed lock-free, the outer is locked on swap.</p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>needs .clear(), which is called on swap </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="locked_8hpp_source.html#l00073">73</a> of file <a class="el" href="locked_8hpp_source.html">locked.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab81063d0d5e0b4f9007f13a118559b21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab81063d0d5e0b4f9007f13a118559b21">&#9670;&nbsp;</a></span>atomic_swap() <span class="overload">[1/4]</span></h2>
 

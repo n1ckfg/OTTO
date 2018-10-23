@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -129,8 +131,8 @@
 : <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a053999d825447daed39e8a8e7727fa89">otto::filesystem::directory_iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#a3dab378ea00336211cd7579dc0abc02d">otto::filesystem::path::iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#a0c032c3b698ec3591cff65526f55b5de">otto::filesystem::recursive_directory_iterator</a>
-, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#aca62d5145dfe937a8027a7206b1054ec">otto::util::float_step_iterator&lt; I, V &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1iterator__adaptor__impl.html#aad6578e6caf9d2dc37f4980537189ae5">otto::util::iterator_adaptor_impl&lt; Impl, Category &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#adc5656d8ac74eba2460496b2eb11892b">otto::util::iterator::float_step_iterator&lt; I, V &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html#a0f28d0e6d9914be437fb1e9538cc7cdd">otto::util::iterator::iterator_adaptor_impl&lt; Impl, Category &gt;</a>
 </li>
 <li>pop()
 : <a class="el" href="struct_midi_in_api_1_1_midi_queue.html#adcebca339fa6d50bcc162f431ac628e2">MidiInApi::MidiQueue</a>
@@ -139,17 +141,17 @@
 <li>portamento
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_settings_props.html#adb0923a2fac660dbcd17f721909a1550">otto::core::audio::SettingsProps</a>
 </li>
-<li>Position
-: <a class="el" href="classotto_1_1util_1_1_byte_file.html#a5bde25c7f29ca76452c98e61ecfa435f">otto::util::ByteFile</a>
-</li>
 <li>position()
 : <a class="el" href="classotto_1_1util_1_1_byte_file.html#abae936d64259aefb7e4cde69885bfee0">otto::util::ByteFile</a>
 </li>
 <li>Position
-: <a class="el" href="classotto_1_1util_1_1_sound_file.html#ae4937b029132e009a5e31d879669e0f7">otto::util::SoundFile</a>
+: <a class="el" href="classotto_1_1util_1_1_byte_file.html#a5bde25c7f29ca76452c98e61ecfa435f">otto::util::ByteFile</a>
 </li>
 <li>position()
 : <a class="el" href="classotto_1_1util_1_1_sound_file.html#ae84d3d9f24050771840610122b051a26">otto::util::SoundFile</a>
+</li>
+<li>Position
+: <a class="el" href="classotto_1_1util_1_1_sound_file.html#ae4937b029132e009a5e31d879669e0f7">otto::util::SoundFile</a>
 </li>
 <li>preferred_separator
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ab0976af74690418350a886123caad09b">otto::filesystem::path</a>
@@ -206,7 +208,7 @@
 <li>props
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_envelope_screen.html#a8668e28ff2586f32c07597592c3d1181">otto::core::audio::EnvelopeScreen</a>
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_settings_screen.html#a12d284a73724fa3a73689fde7ad18f6e">otto::core::audio::SettingsScreen</a>
-, <a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a5999d37bc250538fa689016abc13c4b3">otto::core::engines::AnyEngine</a>
+, <a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html#a4bf421510ccd6e145724f79fa5774c85">otto::core::engines::AnyEngine</a>
 , <a class="el" href="structotto_1_1engines_1_1_euclid.html#a29bd3058e8fee357c2408d6fc7b4f955">otto::engines::Euclid</a>
 </li>
 <li>Props()
@@ -225,7 +227,7 @@
 </li>
 <li>push_back()
 : <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a5529e5cccd25daa8450c918aa16113f9">otto::core::midi::shared_vector&lt; T &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html#aaa38dd64953389c918feaf05d8c70971">otto::core::props::branch_base</a>
+, <a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html#a619e1a0c5f259f0c017f5f29ab2bbc60">otto::core::props::branch_base</a>
 </li>
 </ul>
 </div><!-- contents -->

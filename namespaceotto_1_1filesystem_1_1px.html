@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::filesystem::px Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -82,21 +84,21 @@ Functions</h2></td></tr>
 <tr class="separator:a3e7c4ba1d7ce8fd1e3d55c1a4b2d3d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21911e63c89f23eec6ad4d78a7db0728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a21911e63c89f23eec6ad4d78a7db0728">to_file_type</a> (int stat_mode)</td></tr>
 <tr class="separator:a21911e63c89f23eec6ad4d78a7db0728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1d47b6e04d9fbd7efe9aba23b679432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ab1d47b6e04d9fbd7efe9aba23b679432">to_file_type</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:ab1d47b6e04d9fbd7efe9aba23b679432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792">file_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ab1d47b6e04d9fbd7efe9aba23b679432">to_file_type</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:ab1d47b6e04d9fbd7efe9aba23b679432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c680d60df99baaec59b2e668843e3e8"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5c680d60df99baaec59b2e668843e3e8">file_size</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:a5c680d60df99baaec59b2e668843e3e8"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5c680d60df99baaec59b2e668843e3e8">file_size</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:a5c680d60df99baaec59b2e668843e3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac74133168b74224651fe09feefa9c7b0"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ac74133168b74224651fe09feefa9c7b0">hard_link_count</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:ac74133168b74224651fe09feefa9c7b0"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ac74133168b74224651fe09feefa9c7b0">hard_link_count</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:ac74133168b74224651fe09feefa9c7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab267b6aa0458a34afe56e0fa8794b111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1filesystem.html#a99160e806c1da9dbd68d674fb0152f2b">file_time_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ab267b6aa0458a34afe56e0fa8794b111">last_write_time</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:ab267b6aa0458a34afe56e0fa8794b111"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1filesystem.html#a99160e806c1da9dbd68d674fb0152f2b">file_time_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ab267b6aa0458a34afe56e0fa8794b111">last_write_time</a> (struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> st, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:ab267b6aa0458a34afe56e0fa8794b111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d69b23ef30ff35c0373800c18a2ee2d"><td class="memItemLeft" align="right" valign="top">struct stat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:a5d69b23ef30ff35c0373800c18a2ee2d"><td class="memItemLeft" align="right" valign="top">struct stat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:a5d69b23ef30ff35c0373800c18a2ee2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a210023b8328ec4386e5aea36207b29a1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a210023b8328ec4386e5aea36207b29a1">lstat</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:a210023b8328ec4386e5aea36207b29a1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a210023b8328ec4386e5aea36207b29a1">lstat</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:a210023b8328ec4386e5aea36207b29a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ef9f416e2a98a8266f6e2f1964b5d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1file__status.html">file_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a37ef9f416e2a98a8266f6e2f1964b5d8">status</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> &amp;st, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:a37ef9f416e2a98a8266f6e2f1964b5d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1file__status.html">file_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a37ef9f416e2a98a8266f6e2f1964b5d8">status</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> &amp;st, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:a37ef9f416e2a98a8266f6e2f1964b5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab412a857db6bcadc27f79f0ec40aae9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1file__status.html">file_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ab412a857db6bcadc27f79f0ec40aae9b">link_status</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> &amp;st, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:ab412a857db6bcadc27f79f0ec40aae9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1file__status.html">file_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1filesystem_1_1px.html#ab412a857db6bcadc27f79f0ec40aae9b">link_status</a> (<a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> p, struct <a class="el" href="namespaceotto_1_1filesystem_1_1px.html#a5d69b23ef30ff35c0373800c18a2ee2d">stat</a> &amp;st, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:ab412a857db6bcadc27f79f0ec40aae9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -192,7 +194,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -205,7 +207,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00135">135</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>, and <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/value.html">std::error_code::value()</a>.</p>
 
 </div>
 </div>
@@ -224,7 +226,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -236,6 +238,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00146">146</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/clear.html">std::error_code::clear()</a>, and <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/value.html">std::error_code::value()</a>.</p>
 
 </div>
 </div>
@@ -254,7 +258,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -266,6 +270,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00156">156</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/clear.html">std::error_code::clear()</a>, and <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/value.html">std::error_code::value()</a>.</p>
 
 </div>
 </div>
@@ -284,7 +290,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -296,6 +302,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00166">166</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/clear.html">std::error_code::clear()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/chrono/duration/duration_cast.html">std::chrono::duration_cast()</a>, and <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/value.html">std::error_code::value()</a>.</p>
 
 </div>
 </div>
@@ -314,7 +322,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -326,6 +334,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00184">184</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_category.html">std::system_category()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="filesystem_8cpp_source.html#l01541">otto::filesystem::equivalent()</a>, <a class="el" href="filesystem_8cpp_source.html#l01700">otto::filesystem::file_size()</a>, <a class="el" href="filesystem_8cpp_source.html#l01716">otto::filesystem::hard_link_count()</a>, <a class="el" href="filesystem_8cpp_source.html#l01732">otto::filesystem::last_write_time()</a>, <a class="el" href="filesystem_8cpp_source.html#l00223">link_status()</a>, <a class="el" href="filesystem_8cpp_source.html#l00195">lstat()</a>, <a class="el" href="filesystem_8cpp_source.html#l00865">otto::filesystem::directory_entry::refresh()</a>, <a class="el" href="filesystem_8cpp_source.html#l00206">status()</a>, <a class="el" href="filesystem_8cpp_source.html#l01748">otto::filesystem::status()</a>, and <a class="el" href="filesystem_8cpp_source.html#l01764">otto::filesystem::symlink_status()</a>.</p>
 
@@ -346,7 +356,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -359,7 +369,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00195">195</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>.</p>
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, and <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_category.html">std::system_category()</a>.</p>
 
 </div>
 </div>
@@ -384,7 +394,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -397,7 +407,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00206">206</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864af2ce11ebf110993621bedd8e747d7b1b">otto::filesystem::mask</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/clear.html">std::error_code::clear()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864af2ce11ebf110993621bedd8e747d7b1b">otto::filesystem::mask</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_category.html">std::system_category()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
 
 </div>
 </div>
@@ -422,7 +432,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -435,7 +445,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="filesystem_8cpp_source.html#l00223">223</a> of file <a class="el" href="filesystem_8cpp_source.html">filesystem.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864af2ce11ebf110993621bedd8e747d7b1b">otto::filesystem::mask</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code/clear.html">std::error_code::clear()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864af2ce11ebf110993621bedd8e747d7b1b">otto::filesystem::mask</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a1d1232b9da3085e531a8c7a6178c4864a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::filesystem::none</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">otto::filesystem::not_found</a>, <a class="el" href="filesystem_8cpp_source.html#l00184">stat()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_category.html">std::system_category()</a>, and <a class="el" href="filesystem_8cpp_source.html#l00123">to_file_type()</a>.</p>
 
 </div>
 </div>

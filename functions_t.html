@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -114,7 +116,7 @@
 : <a class="el" href="structotto_1_1util_1_1_t_a_p_e_chunk.html#aaf08ca29adca25da392db3581232eea5">otto::util::TAPEChunk</a>
 </li>
 <li>TransformIteratorImpl()
-: <a class="el" href="classotto_1_1util_1_1_transform_iterator_impl.html#a96ac2e2c2a4994e9e508bb9e312c8e76">otto::util::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
+: <a class="el" href="classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html#afa447a70754509afdecd07f099d89056">otto::util::iterator::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
 </li>
 <li>translate()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html#a39233f6a7ae2f1ee6d9176df52838306">otto::core::ui::vg::Canvas</a>
@@ -146,13 +148,13 @@
 , <a class="el" href="namespaceotto_1_1core_1_1props.html#a6dbd434de5c3706a21d10a39c7c72973">otto::core::props::default_mixins&lt; float &gt;</a>
 , <a class="el" href="namespaceotto_1_1core_1_1props.html#a51a6f41bf947c59dec025a2c0384b357">otto::core::props::default_mixins&lt; int &gt;</a>
 , <a class="el" href="namespaceotto_1_1core_1_1props.html#a249548b941d65b31ac3e80b8a3606e35">otto::core::props::default_mixins&lt; void &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1props_1_1_faust_link.html#a1c094790a58667560daf1f19d8d608a6">otto::core::props::FaustLink</a>
 </li>
 <li>Type
 : <a class="el" href="structotto_1_1core_1_1props_1_1_faust_link.html#a6761029908ba4f715eaf73c61c391360">otto::core::props::FaustLink</a>
 </li>
 <li>type
-: <a class="el" href="namespaceotto_1_1core_1_1props.html#a69fdb4b598ca7e03c86b2908bf411bc4">otto::core::props::get_tag_list&lt; ValueType, Tags &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1props_1_1_faust_link.html#a1c094790a58667560daf1f19d8d608a6">otto::core::props::FaustLink</a>
+, <a class="el" href="namespaceotto_1_1core_1_1props.html#a69fdb4b598ca7e03c86b2908bf411bc4">otto::core::props::get_tag_list&lt; ValueType, Tags &gt;</a>
 , <a class="el" href="namespaceotto_1_1core_1_1props.html#a43cf627085a8d9e33fe48e2587e632e9">otto::core::props::inherit_from_all_mixins&lt; ValueType, tag_list&lt; Tags... &gt; &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html#a5aa9938d5375a4aa26eeea058ac8a3cd">otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</a>
 , <a class="el" href="namespaceotto_1_1core_1_1props_1_1mixin.html#aa8c79aeedbbcb636584b3f0261a38d57">otto::core::props::mixin::hook&lt; value_type &gt;</a>
@@ -177,21 +179,25 @@
 , <a class="el" href="structotto_1_1meta_1_1sort_3_01list_3_01_types_8_8_8_01_4_00_01_compare_01_4.html#a81a901b2b8c7352f822c64c2ae627549">otto::meta::sort&lt; list&lt; Types... &gt;, Compare &gt;</a>
 , <a class="el" href="namespaceotto_1_1meta.html#a76a74408da5f5d159e9df10d2ccad825">otto::meta::tail&lt; list&lt; T, Types... &gt; &gt;</a>
 , <a class="el" href="namespaceotto_1_1meta.html#a707ec45a4a967ac6afc1d3685a998b80">otto::meta::uniquify&lt; list&lt; Types... &gt; &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#afd7995d11a8da5000be33c277e885bb3">otto::util::ByteFile::Error</a>
 </li>
 <li>Type
 : <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067f">otto::util::ByteFile::Error</a>
 </li>
 <li>type
-: <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#afd7995d11a8da5000be33c277e885bb3">otto::util::ByteFile::Error</a>
-, <a class="el" href="namespaceotto_1_1util.html#a2295e9f9755bea08a31f129203e3b0a7">otto::util::enum_decay&lt; T, Enable &gt;</a>
+: <a class="el" href="namespaceotto_1_1util.html#a2295e9f9755bea08a31f129203e3b0a7">otto::util::enum_decay&lt; T, Enable &gt;</a>
 , <a class="el" href="namespaceotto_1_1util.html#a926f19b88eee820c9ddee0aad41d6a7e">otto::util::enum_decay&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1select__type_3_01false_00_01_t1_00_01_t2_01_4.html#a0f455e892c582ca12a872dc0e26c4ce5">otto::util::select_type&lt; false, T1, T2 &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1select__type_3_01true_00_01_t1_00_01_t2_01_4.html#a71cb466a809c6931fe29b6ecdbd136d9">otto::util::select_type&lt; true, T1, T2 &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#a61bdd847611c8cf6f33f52b8bc99778d">otto::util::SoundFile::Info</a>
 </li>
 <li>Type
 : <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#add4e0a9e45d3c9b94c13dbcc88b3193f">otto::util::SoundFile::Info</a>
-, <a class="el" href="class_rt_audio_error.html#a85bdee746d5ba80d655ac98ded21d073">RtAudioError</a>
+</li>
+<li>type
+: <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html#a61bdd847611c8cf6f33f52b8bc99778d">otto::util::SoundFile::Info</a>
+</li>
+<li>Type
+: <a class="el" href="class_rt_audio_error.html#a85bdee746d5ba80d655ac98ded21d073">RtAudioError</a>
 , <a class="el" href="class_rt_midi_error.html#a741314057cec5fb8c743c12f284905ee">RtMidiError</a>
 </li>
 <li>type_

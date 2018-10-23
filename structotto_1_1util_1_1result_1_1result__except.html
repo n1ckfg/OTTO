@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::result&lt; ok_t, err_t &gt;::result_except Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -74,17 +76,25 @@
 <div class="title">otto::util::result&lt; ok_t, err_t &gt;::result_except Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename ok_t, typename err_t&gt;<br />
+struct otto::util::result&lt; ok_t, err_t &gt;::result_except</h3>
 
-<p>Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;.  
- <a href="structotto_1_1util_1_1result_1_1result__except.html#details">More...</a></p>
+<p>Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. </p>
+<p>Holds an instance of the <code>result</code> it was thrown from </p>
 
+<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00036">36</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="result_8hpp_source.html">result.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::util::result&lt; ok_t, err_t &gt;::result_except:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::util::result&lt; ok_t, err_t &gt;::result_except:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="structotto_1_1util_1_1result_1_1result__except.png" usemap="#otto::util::result_3C_20ok_5Ft_2C_20err_5Ft_20_3E::result_5Fexcept_map" alt=""/>
   <map id="otto::util::result_3C_20ok_5Ft_2C_20err_5Ft_20_3E::result_5Fexcept_map" name="otto::util::result_3C_20ok_5Ft_2C_20err_5Ft_20_3E::result_5Fexcept_map">
+<area doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/exception.html" title="STL class. " alt="std::exception" shape="rect" coords="0,0,255,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -94,21 +104,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acd3c042d9b5d1db16548cf02db22b4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ea226af164e6cbc12c3b9e411599a32"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html#a2ea226af164e6cbc12c3b9e411599a32">what</a> () const noexcept override</td></tr>
 <tr class="separator:a2ea226af164e6cbc12c3b9e411599a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_exception"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_exception')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="http://en.cppreference.com/w/cpp/error/exception.html">std::exception</a></td></tr>
+<tr class="memitem: inherit pub_methods_exception"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/exception/what.html">what</a> (T... args)</td></tr>
+<tr class="separator: inherit pub_methods_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem: inherit pub_methods_exception"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/exception/~exception.html">~exception</a> (T... args)</td></tr>
+<tr class="separator: inherit pub_methods_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem: inherit pub_methods_exception"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/exception/operator=.html">operator=</a> (T... args)</td></tr>
+<tr class="separator: inherit pub_methods_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem: inherit pub_methods_exception"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/exception/exception.html">exception</a> (T... args)</td></tr>
+<tr class="separator: inherit pub_methods_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a9ab4ff4442842858b85e17f191d8644f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1result_1_1result__except.html#a9ab4ff4442842858b85e17f191d8644f">res</a></td></tr>
 <tr class="separator:a9ab4ff4442842858b85e17f191d8644f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename ok_t, typename err_t&gt;<br />
-struct otto::util::result&lt; ok_t, err_t &gt;::result_except</h3>
-
-<p>Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;. </p>
-<p>Holds an instance of the <code>result</code> it was thrown from </p>
-
-<p class="definition">Definition at line <a class="el" href="result_8hpp_source.html#l00036">36</a> of file <a class="el" href="result_8hpp_source.html">result.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acd3c042d9b5d1db16548cf02db22b4fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd3c042d9b5d1db16548cf02db22b4fb">&#9670;&nbsp;</a></span>result_except()</h2>
 

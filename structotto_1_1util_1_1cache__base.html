@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::cache_base&lt; T &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -75,14 +77,22 @@
 <div class="title">otto::util::cache_base&lt; T &gt; Struct Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct otto::util::cache_base&lt; T &gt;</h3>
 
-<p>A CRTP style cache base class.  
- <a href="structotto_1_1util_1_1cache__base.html#details">More...</a></p>
+<p>A CRTP style cache base class. </p>
+<p>The cached value is imutable, and lazilly refreshed. This wrapper is not thread safe at invalidation!</p>
+<p><code>T</code> shall be <code>DefaultConstructible</code> </p>
 
+<p class="definition">Definition at line <a class="el" href="cache_8hpp_source.html#l00016">16</a> of file <a class="el" href="cache_8hpp_source.html">cache.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="cache_8hpp_source.html">cache.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::util::cache_base&lt; T &gt;:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::util::cache_base&lt; T &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="structotto_1_1util_1_1cache__base.png" usemap="#otto::util::cache_5Fbase_3C_20T_20_3E_map" alt=""/>
   <map id="otto::util::cache_5Fbase_3C_20T_20_3E_map" name="otto::util::cache_5Fbase_3C_20T_20_3E_map">
@@ -119,16 +129,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a48bb5ac79c961ff665d5d139bc005fcc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1cache__base.html#a48bb5ac79c961ff665d5d139bc005fcc">_valid</a> = false</td></tr>
 <tr class="separator:a48bb5ac79c961ff665d5d139bc005fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-struct otto::util::cache_base&lt; T &gt;</h3>
-
-<p>A CRTP style cache base class. </p>
-<p>The cached value is imutable, and lazilly refreshed. This wrapper is not thread safe at invalidation!</p>
-<p><code>T</code> shall be <code>DefaultConstructible</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="cache_8hpp_source.html#l00016">16</a> of file <a class="el" href="cache_8hpp_source.html">cache.hpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa35471f2dd5e4dbdd8259e340f565b74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa35471f2dd5e4dbdd8259e340f565b74">&#9670;&nbsp;</a></span>invalidate()</h2>
 

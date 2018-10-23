@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::board::ui Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -762,7 +764,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a70a2f5dff576eea37a8eb2a02204a6f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a70a2f5dff576eea37a8eb2a02204a6f6">handle_keyevent</a> (<a class="el" href="namespaceotto_1_1board_1_1ui.html#a453b490f207f8c2d3e865e25266e11e3">Action</a>, <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498f">Key</a>)</td></tr>
 <tr class="memdesc:a70a2f5dff576eea37a8eb2a02204a6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind keys by implementing this function.  <a href="#a70a2f5dff576eea37a8eb2a02204a6f6">More...</a><br /></td></tr>
 <tr class="separator:a70a2f5dff576eea37a8eb2a02204a6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eb84880c6cc9b4c068261d4e67724a2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; input_event &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a6eb84880c6cc9b4c068261d4e67724a2">read_events</a> (int device)</td></tr>
+<tr class="memitem:a6eb84880c6cc9b4c068261d4e67724a2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; input_event &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a6eb84880c6cc9b4c068261d4e67724a2">read_events</a> (int device)</td></tr>
 <tr class="separator:a6eb84880c6cc9b4c068261d4e67724a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f93bfa97878af50990f90bc3a0154e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a2f93bfa97878af50990f90bc3a0154e4">read_mouse</a> ()</td></tr>
 <tr class="separator:a2f93bfa97878af50990f90bc3a0154e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1498,7 +1500,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;input_event&gt; otto::board::ui::read_events </td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;input_event&gt; otto::board::ui::read_events </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>device</em></td><td>)</td>
@@ -1547,7 +1549,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="rpi__input_8cpp_source.html#l00104">104</a> of file <a class="el" href="rpi__input_8cpp_source.html">rpi_input.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="vector__graphics_8hpp_source.html#l00020">otto::core::ui::vg::Colours::Blue</a>, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa4b992b614cd81f7054178e1ae2f5d939">otto::core::ui::blue_click</a>, <a class="el" href="screen_8hpp_source.html#l00060">otto::core::ui::RotaryEvent::clicks</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7f021a1415b86f2d013b2618fb31ae53">end</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00019">otto::core::ui::vg::Colours::Green</a>, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa9181bd4a7502403c06048e90392a6210">otto::core::ui::green_click</a>, <a class="el" href="ui_8cpp_source.html#l00131">otto::service::ui::impl::keypress()</a>, <a class="el" href="logger_8hpp_source.html#l00025">LOGW</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00018">otto::core::ui::vg::Colours::Red</a>, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa4c6d3e26b6e06df89ba044ae148abdfc">otto::core::ui::red_click</a>, <a class="el" href="screen_8hpp_source.html#l00057">otto::core::ui::RotaryEvent::rotary</a>, <a class="el" href="ui_8cpp_source.html#l00136">otto::service::ui::impl::rotary()</a>, <a class="el" href="globals_8cpp_source.html#l00017">otto::global::running()</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00016">otto::core::ui::vg::Colours::White</a>, and <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa7962469fc66b4db7ec6ab28efbbab99f">otto::core::ui::white_click</a>.</p>
+<p class="reference">References <a class="el" href="vector__graphics_8hpp_source.html#l00020">otto::core::ui::vg::Colours::Blue</a>, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa4b992b614cd81f7054178e1ae2f5d939">otto::core::ui::blue_click</a>, <a class="el" href="screen_8hpp_source.html#l00060">otto::core::ui::RotaryEvent::clicks</a>, <a class="el" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256a7f021a1415b86f2d013b2618fb31ae53">end</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00019">otto::core::ui::vg::Colours::Green</a>, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa9181bd4a7502403c06048e90392a6210">otto::core::ui::green_click</a>, <a class="el" href="ui_8cpp_source.html#l00131">otto::service::ui::impl::keypress()</a>, <a class="el" href="logger_8hpp_source.html#l00025">LOGW</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00018">otto::core::ui::vg::Colours::Red</a>, <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa4c6d3e26b6e06df89ba044ae148abdfc">otto::core::ui::red_click</a>, <a class="el" href="screen_8hpp_source.html#l00057">otto::core::ui::RotaryEvent::rotary</a>, <a class="el" href="ui_8cpp_source.html#l00136">otto::service::ui::impl::rotary()</a>, <a class="el" href="globals_8cpp_source.html#l00017">otto::global::running()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/byte/strtol.html">std::strtol()</a>, <a class="el" href="vector__graphics_8hpp_source.html#l00016">otto::core::ui::vg::Colours::White</a>, and <a class="el" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa7962469fc66b4db7ec6ab28efbbab99f">otto::core::ui::white_click</a>.</p>
 
 </div>
 </div>

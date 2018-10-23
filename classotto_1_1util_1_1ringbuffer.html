@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::ringbuffer&lt; T, N &gt; Class Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -77,11 +79,19 @@
 <div class="title">otto::util::ringbuffer&lt; T, N &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T, std::size_t N&gt;<br />
+class otto::util::ringbuffer&lt; T, N &gt;</h3>
 
+
+<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00076">76</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::util::ringbuffer&lt; T, N &gt;:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::util::ringbuffer&lt; T, N &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="classotto_1_1util_1_1ringbuffer.png" usemap="#otto::util::ringbuffer_3C_20T_2C_20N_20_3E_map" alt=""/>
   <map id="otto::util::ringbuffer_3C_20T_2C_20N_20_3E_map" name="otto::util::ringbuffer_3C_20T_2C_20N_20_3E_map">
@@ -93,9 +103,9 @@ Inheritance diagram for otto::util::ringbuffer&lt; T, N &gt;:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:a2259fe6d4e376da51bdc856716474555"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a2259fe6d4e376da51bdc856716474555">value_type</a> = T</td></tr>
 <tr class="separator:a2259fe6d4e376da51bdc856716474555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb593fd0777f8d3d642b418773aec1a0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#aeb593fd0777f8d3d642b418773aec1a0">iterator</a> = <a class="el" href="namespaceotto_1_1util.html#a91f96874356c8a5f4d5ce0d27bc9a211">util::iterator_adaptor</a>&lt; <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &gt; &gt;</td></tr>
+<tr class="memitem:aeb593fd0777f8d3d642b418773aec1a0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#aeb593fd0777f8d3d642b418773aec1a0">iterator</a> = util::iterator_adaptor&lt; <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &gt; &gt;</td></tr>
 <tr class="separator:aeb593fd0777f8d3d642b418773aec1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6aa8a07db0a89467ef493dea0767eb20"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a6aa8a07db0a89467ef493dea0767eb20">const_iterator</a> = <a class="el" href="namespaceotto_1_1util.html#a91f96874356c8a5f4d5ce0d27bc9a211">util::iterator_adaptor</a>&lt; <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; const <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &gt; &gt;</td></tr>
+<tr class="memitem:a6aa8a07db0a89467ef493dea0767eb20"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a6aa8a07db0a89467ef493dea0767eb20">const_iterator</a> = util::iterator_adaptor&lt; <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt; const <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &gt; &gt;</td></tr>
 <tr class="separator:a6aa8a07db0a89467ef493dea0767eb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -106,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1d67b0f191e30b134a769dd057d2d489"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2572ae700b9e2a874a7584f4872c4880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a2572ae700b9e2a874a7584f4872c4880">back</a> ()</td></tr>
 <tr class="separator:a2572ae700b9e2a874a7584f4872c4880"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4a88fd52aade11b6a92d92177cd7972"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#ae4a88fd52aade11b6a92d92177cd7972">size</a> () const</td></tr>
+<tr class="memitem:ae4a88fd52aade11b6a92d92177cd7972"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#ae4a88fd52aade11b6a92d92177cd7972">size</a> () const</td></tr>
 <tr class="separator:ae4a88fd52aade11b6a92d92177cd7972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2f8301405512473bf865b158e53e28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1wrapping__array.html#aeb593fd0777f8d3d642b418773aec1a0">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#aeb2f8301405512473bf865b158e53e28">begin</a> ()</td></tr>
 <tr class="separator:aeb2f8301405512473bf865b158e53e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,36 +128,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a60ec8fb4d3cf00660925e677b0d82f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64569e2c06986b6403047098c1cef3de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a64569e2c06986b6403047098c1cef3de">data</a> ()</td></tr>
 <tr class="separator:a64569e2c06986b6403047098c1cef3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef8d4f6f2c61516d18162851e9bf36bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#aef8d4f6f2c61516d18162851e9bf36bb">operator[]</a> (std::size_t idx)</td></tr>
+<tr class="memitem:aef8d4f6f2c61516d18162851e9bf36bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#aef8d4f6f2c61516d18162851e9bf36bb">operator[]</a> (<a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> idx)</td></tr>
 <tr class="separator:aef8d4f6f2c61516d18162851e9bf36bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335a124a068b9f106853a61910b61a3d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a335a124a068b9f106853a61910b61a3d">operator[]</a> (std::size_t idx) const</td></tr>
+<tr class="memitem:a335a124a068b9f106853a61910b61a3d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a335a124a068b9f106853a61910b61a3d">operator[]</a> (<a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> idx) const</td></tr>
 <tr class="separator:a335a124a068b9f106853a61910b61a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:abd30af1c099a26a03f96761caa25addd"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#abd30af1c099a26a03f96761caa25addd">wrap</a> (std::size_t index)</td></tr>
+<tr class="memitem:abd30af1c099a26a03f96761caa25addd"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#abd30af1c099a26a03f96761caa25addd">wrap</a> (<a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> index)</td></tr>
 <tr class="memdesc:abd30af1c099a26a03f96761caa25addd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the buffer position corresponding to <code>position</code>  <a href="#abd30af1c099a26a03f96761caa25addd">More...</a><br /></td></tr>
 <tr class="separator:abd30af1c099a26a03f96761caa25addd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a50ae2b063b9ed883445cfa8a26f3cd95"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a50ae2b063b9ed883445cfa8a26f3cd95">head</a> = 0</td></tr>
+<tr class="memitem:a50ae2b063b9ed883445cfa8a26f3cd95"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a50ae2b063b9ed883445cfa8a26f3cd95">head</a> = 0</td></tr>
 <tr class="separator:a50ae2b063b9ed883445cfa8a26f3cd95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11b958219aaabdd65c34a837af27e388"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a11b958219aaabdd65c34a837af27e388">tail</a> = 0</td></tr>
+<tr class="memitem:a11b958219aaabdd65c34a837af27e388"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a11b958219aaabdd65c34a837af27e388">tail</a> = 0</td></tr>
 <tr class="separator:a11b958219aaabdd65c34a837af27e388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a07fe24b2c6c1d837f5831f58e7a5a10f"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a07fe24b2c6c1d837f5831f58e7a5a10f">capacity</a> = N</td></tr>
+<tr class="memitem:a07fe24b2c6c1d837f5831f58e7a5a10f"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html#a07fe24b2c6c1d837f5831f58e7a5a10f">capacity</a> = N</td></tr>
 <tr class="separator:a07fe24b2c6c1d837f5831f58e7a5a10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T, std::size_t N&gt;<br />
-class otto::util::ringbuffer&lt; T, N &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="ringbuffer_8hpp_source.html#l00076">76</a> of file <a class="el" href="ringbuffer_8hpp_source.html">ringbuffer.hpp</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a2259fe6d4e376da51bdc856716474555"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2259fe6d4e376da51bdc856716474555">&#9670;&nbsp;</a></span>value_type</h2>
 
@@ -175,7 +179,7 @@ template&lt;typename T, std::size_t N&gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array.html#aeb593fd0777f8d3d642b418773aec1a0">iterator</a> =  <a class="el" href="namespaceotto_1_1util.html#a91f96874356c8a5f4d5ce0d27bc9a211">util::iterator_adaptor</a>&lt;<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt;<a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array.html#aeb593fd0777f8d3d642b418773aec1a0">iterator</a> =  util::iterator_adaptor&lt;<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt;<a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -193,7 +197,7 @@ template&lt;typename T, std::size_t N&gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array.html#a6aa8a07db0a89467ef493dea0767eb20">const_iterator</a> =  <a class="el" href="namespaceotto_1_1util.html#a91f96874356c8a5f4d5ce0d27bc9a211">util::iterator_adaptor</a>&lt;<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt;const <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1util_1_1wrapping__array.html">otto::util::wrapping_array</a>&lt; T, N &gt;::<a class="el" href="structotto_1_1util_1_1wrapping__array.html#a6aa8a07db0a89467ef493dea0767eb20">const_iterator</a> =  util::iterator_adaptor&lt;<a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html">IteratorImpl</a>&lt;const <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -215,9 +219,9 @@ template&lt;typename T, std::size_t N&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr std::size_t <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::wrap </td>
+          <td class="memname">static constexpr <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::wrap </td>
           <td>(</td>
-          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
@@ -312,7 +316,7 @@ template&lt;typename T, std::size_t N&gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::size </td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -442,7 +446,7 @@ template&lt;typename T, std::size_t N&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a>&amp; <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td>
           <td class="paramname"><em>idx</em></td><td>)</td>
           <td></td>
         </tr>
@@ -464,7 +468,7 @@ template&lt;typename T, std::size_t N&gt; </div>
         <tr>
           <td class="memname">const <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a24fc3c167f6666a5ef81cb368920d649">value_type</a>&amp; <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td>
           <td class="paramname"><em>idx</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -488,7 +492,7 @@ template&lt;typename T, std::size_t N&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr std::size_t <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::capacity = N</td>
+          <td class="memname">constexpr <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::capacity = N</td>
         </tr>
       </table>
   </td>
@@ -513,7 +517,7 @@ template&lt;typename T, std::size_t N&gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::head = 0</td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::head = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -533,7 +537,7 @@ template&lt;typename T, std::size_t N&gt; </div>
 template&lt;typename T, std::size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::tail = 0</td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> <a class="el" href="classotto_1_1util_1_1ringbuffer.html">otto::util::ringbuffer</a>&lt; T, N &gt;::tail = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">

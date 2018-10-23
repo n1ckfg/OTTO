@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::filesystem::directory_iterator Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -74,12 +76,15 @@
 <div class="title">otto::filesystem::directory_iterator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00441">441</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ace10e80eeb3372285c604cbdb0ed42b7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ace10e80eeb3372285c604cbdb0ed42b7">iterator_category</a> = std::input_iterator_tag</td></tr>
+<tr class="memitem:ace10e80eeb3372285c604cbdb0ed42b7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ace10e80eeb3372285c604cbdb0ed42b7">iterator_category</a> = <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/iterator/iterator_tags">std::input_iterator_tag</a></td></tr>
 <tr class="separator:ace10e80eeb3372285c604cbdb0ed42b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a655dd0c5fd9a3dd1944df1c95128a2c6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a655dd0c5fd9a3dd1944df1c95128a2c6">value_type</a> = <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html">directory_entry</a></td></tr>
 <tr class="separator:a655dd0c5fd9a3dd1944df1c95128a2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -98,9 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9a9f945faa4679df4bfcc6e18d166f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdeb65204ca1c12028256c5407537009"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#acdeb65204ca1c12028256c5407537009">directory_iterator</a> (const <a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> &amp;p, <a class="el" href="namespaceotto_1_1filesystem.html#a9e269db2cce746473337cd21abf6401a">directory_options</a> options)</td></tr>
 <tr class="separator:acdeb65204ca1c12028256c5407537009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17dcbdf4c79dee78f959c64c0ca82ab5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a17dcbdf4c79dee78f959c64c0ca82ab5">directory_iterator</a> (const <a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> &amp;p, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:a17dcbdf4c79dee78f959c64c0ca82ab5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a17dcbdf4c79dee78f959c64c0ca82ab5">directory_iterator</a> (const <a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> &amp;p, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:a17dcbdf4c79dee78f959c64c0ca82ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09190509b283d44cd79686c1fccb10c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a09190509b283d44cd79686c1fccb10c2">directory_iterator</a> (const <a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> &amp;p, <a class="el" href="namespaceotto_1_1filesystem.html#a9e269db2cce746473337cd21abf6401a">directory_options</a> options, std::error_code &amp;ec)</td></tr>
+<tr class="memitem:a09190509b283d44cd79686c1fccb10c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a09190509b283d44cd79686c1fccb10c2">directory_iterator</a> (const <a class="el" href="classotto_1_1filesystem_1_1path.html">path</a> &amp;p, <a class="el" href="namespaceotto_1_1filesystem.html#a9e269db2cce746473337cd21abf6401a">directory_options</a> options, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec)</td></tr>
 <tr class="separator:a09190509b283d44cd79686c1fccb10c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8113fd6626de79715ea6192ea0571a51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a8113fd6626de79715ea6192ea0571a51">directory_iterator</a> (const <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp;rhs)</td></tr>
 <tr class="separator:a8113fd6626de79715ea6192ea0571a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,7 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2b7495639c9419b531d8b5554723e862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9e97cc162924d978538b286613c06a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ab9e97cc162924d978538b286613c06a8">operator++</a> ()</td></tr>
 <tr class="separator:ab9e97cc162924d978538b286613c06a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad854793257cb2f04738fcfe845090927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ad854793257cb2f04738fcfe845090927">increment</a> (std::error_code &amp;ec) noexcept</td></tr>
+<tr class="memitem:ad854793257cb2f04738fcfe845090927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ad854793257cb2f04738fcfe845090927">increment</a> (<a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;ec) noexcept</td></tr>
 <tr class="separator:ad854793257cb2f04738fcfe845090927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab902101fecc77b90391683d6fedd0b7f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ab902101fecc77b90391683d6fedd0b7f">operator==</a> (const <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp;other) const</td></tr>
 <tr class="separator:ab902101fecc77b90391683d6fedd0b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,10 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a56459964dbb2ee80ae7856868a6d5671"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a56459964dbb2ee80ae7856868a6d5671">operator++</a> (int)</td></tr>
 <tr class="separator:a56459964dbb2ee80ae7856868a6d5671"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="filesystem_8hpp_source.html#l00441">441</a> of file <a class="el" href="filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ace10e80eeb3372285c604cbdb0ed42b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace10e80eeb3372285c604cbdb0ed42b7">&#9670;&nbsp;</a></span>iterator_category</h2>
 
@@ -138,7 +140,7 @@ Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ace10e80eeb3372285c604cbdb0ed42b7">otto::filesystem::directory_iterator::iterator_category</a> =  std::input_iterator_tag</td>
+          <td class="memname">using <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ace10e80eeb3372285c604cbdb0ed42b7">otto::filesystem::directory_iterator::iterator_category</a> =  <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/iterator/iterator_tags">std::input_iterator_tag</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -312,7 +314,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -348,7 +350,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em>&#160;</td>
         </tr>
         <tr>
@@ -562,7 +564,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html">directory_iterator</a> &amp; otto::filesystem::DIter::increment </td>
           <td>(</td>
-          <td class="paramtype">std::error_code &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/error_code.html">std::error_code</a> &amp;&#160;</td>
           <td class="paramname"><em>ec</em></td><td>)</td>
           <td></td>
         </tr>

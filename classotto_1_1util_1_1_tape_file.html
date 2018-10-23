@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::TapeFile Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -76,11 +78,16 @@
 <div class="title">otto::util::TapeFile Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="tapefile_8hpp_source.html#l00005">5</a> of file <a class="el" href="tapefile_8hpp_source.html">tapefile.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="tapefile_8hpp_source.html">tapefile.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::util::TapeFile:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::util::TapeFile:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="classotto_1_1util_1_1_tape_file.png" usemap="#otto::util::TapeFile_map" alt=""/>
   <map id="otto::util::TapeFile_map" name="otto::util::TapeFile_map">
@@ -170,10 +177,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a40321c6b0edd3e2d2455fe68de3d9df8 inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; void, OutIter &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a40321c6b0edd3e2d2455fe68de3d9df8">read_bytes</a> (OutIter, OutIter)</td></tr>
 <tr class="separator:a40321c6b0edd3e2d2455fe68de3d9df8 inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef93320298a15f894153e5c35b1373d7 inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplParams" colspan="2">template&lt;typename OutIter , typename  = std::enable_if&lt;is_iterator_v&lt;OutIter, std::byte,                                  std::output_iterator_tag&gt;&gt;&gt; </td></tr>
-<tr class="memitem:aef93320298a15f894153e5c35b1373d7 inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; void, std::streampos &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#aef93320298a15f894153e5c35b1373d7">read_bytes</a> (OutIter, int)</td></tr>
+<tr class="memitem:aef93320298a15f894153e5c35b1373d7 inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; void, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/fpos.html">std::streampos</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#aef93320298a15f894153e5c35b1373d7">read_bytes</a> (OutIter, int)</td></tr>
 <tr class="separator:aef93320298a15f894153e5c35b1373d7 inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b0d4a2482291c44d853bc096d440a3a inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:a5b0d4a2482291c44d853bc096d440a3a inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; void, std::streampos &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a5b0d4a2482291c44d853bc096d440a3a">read_bytes</a> (<a class="el" href="structotto_1_1util_1_1bytes.html">bytes</a>&lt; N &gt; &amp;)</td></tr>
+<tr class="memitem:a5b0d4a2482291c44d853bc096d440a3a inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1result.html">result</a>&lt; void, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/fpos.html">std::streampos</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a5b0d4a2482291c44d853bc096d440a3a">read_bytes</a> (<a class="el" href="structotto_1_1util_1_1bytes.html">bytes</a>&lt; N &gt; &amp;)</td></tr>
 <tr class="separator:a5b0d4a2482291c44d853bc096d440a3a inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e9032873bf3ae520c0c1eff32bd8add inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplParams" colspan="2">template&lt;typename InIter , typename  = std::enable_if&lt;is_iterator_v&lt;InIter, std::byte,                                  std::input_iterator_tag&gt;&gt;&gt; </td></tr>
 <tr class="memitem:a2e9032873bf3ae520c0c1eff32bd8add inherit pub_methods_classotto_1_1util_1_1_byte_file"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a2e9032873bf3ae520c0c1eff32bd8add">write_bytes</a> (InIter, InIter)</td></tr>
@@ -190,7 +197,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a140a927638a5d068d9a2c6f1cfdfc9e3"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classotto_1_1util_1_1_tape_file.html#structotto_1_1util_1_1_tape_file_1_1_slice_array">SliceArray</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html#a140a927638a5d068d9a2c6f1cfdfc9e3">slices</a></td></tr>
+<tr class="memitem:a140a927638a5d068d9a2c6f1cfdfc9e3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="classotto_1_1util_1_1_tape_file.html#structotto_1_1util_1_1_tape_file_1_1_slice_array">SliceArray</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html#a140a927638a5d068d9a2c6f1cfdfc9e3">slices</a></td></tr>
 <tr class="separator:a140a927638a5d068d9a2c6f1cfdfc9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classotto_1_1util_1_1_sound_file"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classotto_1_1util_1_1_sound_file')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classotto_1_1util_1_1_sound_file.html">otto::util::SoundFile</a></td></tr>
 <tr class="memitem:af023b2d5a4b9262cc7c69c86feada3d0 inherit pub_attribs_classotto_1_1util_1_1_sound_file"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structotto_1_1util_1_1_sound_file_1_1_info.html">otto::util::SoundFile::Info</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_sound_file.html#af023b2d5a4b9262cc7c69c86feada3d0">info</a></td></tr>
@@ -201,10 +208,10 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a1f17abf9df28a045714ffa22f01a82a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html#a1f17abf9df28a045714ffa22f01a82a4">add_custom_chunks</a> (std::vector&lt; std::unique_ptr&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt;&gt; &amp;v) override</td></tr>
+<tr class="memitem:a1f17abf9df28a045714ffa22f01a82a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html#a1f17abf9df28a045714ffa22f01a82a4">add_custom_chunks</a> (<a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt;&gt; &amp;v) override</td></tr>
 <tr class="memdesc:a1f17abf9df28a045714ffa22f01a82a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">When extending &lt;SoundFile&gt;, override this function.  <a href="#a1f17abf9df28a045714ffa22f01a82a4">More...</a><br /></td></tr>
 <tr class="separator:a1f17abf9df28a045714ffa22f01a82a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73630e6851cd033b5cc89df3cf855581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html#a73630e6851cd033b5cc89df3cf855581">replace_custom_chunk</a> (std::unique_ptr&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt; &amp;ptr) override</td></tr>
+<tr class="memitem:a73630e6851cd033b5cc89df3cf855581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html#a73630e6851cd033b5cc89df3cf855581">replace_custom_chunk</a> (<a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt; &amp;ptr) override</td></tr>
 <tr class="memdesc:a73630e6851cd033b5cc89df3cf855581"><td class="mdescLeft">&#160;</td><td class="mdescRight">When extending &lt;SoundFile&gt;, override this function.  <a href="#a73630e6851cd033b5cc89df3cf855581">More...</a><br /></td></tr>
 <tr class="separator:a73630e6851cd033b5cc89df3cf855581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classotto_1_1util_1_1_sound_file"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classotto_1_1util_1_1_sound_file')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classotto_1_1util_1_1_sound_file.html">otto::util::SoundFile</a></td></tr>
@@ -230,20 +237,17 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3271595d51610d66d91854c7843db337 inherit pub_types_classotto_1_1util_1_1_byte_file"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a3271595d51610d66d91854c7843db337">Path</a> = <a class="el" href="classotto_1_1filesystem_1_1path.html">filesystem::path</a></td></tr>
 <tr class="separator:a3271595d51610d66d91854c7843db337 inherit pub_types_classotto_1_1util_1_1_byte_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_classotto_1_1util_1_1_sound_file"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classotto_1_1util_1_1_sound_file')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classotto_1_1util_1_1_sound_file.html">otto::util::SoundFile</a></td></tr>
-<tr class="memitem:a473d4b45e7cf04cac1f7ac7c064b0984 inherit pub_static_attribs_classotto_1_1util_1_1_sound_file"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_sound_file.html#a473d4b45e7cf04cac1f7ac7c064b0984">sample_size</a> = sizeof(<a class="el" href="classotto_1_1util_1_1_sound_file.html#ad4c09672fc2884948a71d80a4a1f9d95">Sample</a>)</td></tr>
+<tr class="memitem:a473d4b45e7cf04cac1f7ac7c064b0984 inherit pub_static_attribs_classotto_1_1util_1_1_sound_file"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_sound_file.html#a473d4b45e7cf04cac1f7ac7c064b0984">sample_size</a> = sizeof(<a class="el" href="classotto_1_1util_1_1_sound_file.html#ad4c09672fc2884948a71d80a4a1f9d95">Sample</a>)</td></tr>
 <tr class="memdesc:a473d4b45e7cf04cac1f7ac7c064b0984 inherit pub_static_attribs_classotto_1_1util_1_1_sound_file"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size in bytes of one sample.  <a href="classotto_1_1util_1_1_sound_file.html#a473d4b45e7cf04cac1f7ac7c064b0984">More...</a><br /></td></tr>
 <tr class="separator:a473d4b45e7cf04cac1f7ac7c064b0984 inherit pub_static_attribs_classotto_1_1util_1_1_sound_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classotto_1_1util_1_1_sound_file"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classotto_1_1util_1_1_sound_file')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classotto_1_1util_1_1_sound_file.html">otto::util::SoundFile</a></td></tr>
 <tr class="memitem:a60f5d9117cefa4faad2ffcf4bd0c53ce inherit pro_attribs_classotto_1_1util_1_1_sound_file"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a5bde25c7f29ca76452c98e61ecfa435f">ByteFile::Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_sound_file.html#a60f5d9117cefa4faad2ffcf4bd0c53ce">audioOffset</a> {0}</td></tr>
 <tr class="separator:a60f5d9117cefa4faad2ffcf4bd0c53ce inherit pro_attribs_classotto_1_1util_1_1_sound_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classotto_1_1util_1_1_byte_file"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classotto_1_1util_1_1_byte_file')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classotto_1_1util_1_1_byte_file.html">otto::util::ByteFile</a></td></tr>
-<tr class="memitem:a8028d384fec3e0094116674e84a519a3 inherit pro_attribs_classotto_1_1util_1_1_byte_file"><td class="memItemLeft" align="right" valign="top">std::fstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a8028d384fec3e0094116674e84a519a3">fstream</a></td></tr>
+<tr class="memitem:a8028d384fec3e0094116674e84a519a3 inherit pro_attribs_classotto_1_1util_1_1_byte_file"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/basic_fstream.html">std::fstream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a8028d384fec3e0094116674e84a519a3">fstream</a></td></tr>
 <tr class="separator:a8028d384fec3e0094116674e84a519a3 inherit pro_attribs_classotto_1_1util_1_1_byte_file"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="tapefile_8hpp_source.html#l00005">5</a> of file <a class="el" href="tapefile_8hpp_source.html">tapefile.hpp</a>.</p>
-</div><hr/><h2 class="groupheader">Class Documentation</h2>
+<hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="structotto_1_1util_1_1_tape_file_1_1_slice_array" id="structotto_1_1util_1_1_tape_file_1_1_slice_array"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1util_1_1_tape_file_1_1_slice_array">&#9670;&nbsp;</a></span>otto::util::TapeFile::SliceArray</h2>
 
@@ -255,9 +259,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="tapefile_8hpp_source.html#l00014">14</a> of file <a class="el" href="tapefile_8hpp_source.html">tapefile.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="ab902504a47236bc2c74070765e5606f7"></a>array&lt; <a class="el" href="classotto_1_1util_1_1_tape_file.html#structotto_1_1util_1_1_tape_file_1_1_slice_data">SliceData</a>, 2048 &gt;</td>
@@ -286,9 +288,7 @@ count</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="tapefile_8hpp_source.html#l00009">9</a> of file <a class="el" href="tapefile_8hpp_source.html">tapefile.hpp</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="aad815815f451cb9e4ded3fe4d11234a3"></a>uint32_t</td>
@@ -366,7 +366,7 @@ out</td>
         <tr>
           <td class="memname">void otto::util::TapeFile::add_custom_chunks </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
           <td></td>
         </tr>
@@ -399,7 +399,7 @@ out</td>
         <tr>
           <td class="memname">void otto::util::TapeFile::replace_custom_chunk </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="classotto_1_1util_1_1_sound_file.html#ade6259c56f97f0c6deec086b530d83a8">Chunk</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>ptr</em></td><td>)</td>
           <td></td>
         </tr>
@@ -430,7 +430,7 @@ out</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="classotto_1_1util_1_1_tape_file.html#structotto_1_1util_1_1_tape_file_1_1_slice_array">SliceArray</a>, 4&gt; otto::util::TapeFile::slices</td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt;<a class="el" href="classotto_1_1util_1_1_tape_file.html#structotto_1_1util_1_1_tape_file_1_1_slice_array">SliceArray</a>, 4&gt; otto::util::TapeFile::slices</td>
         </tr>
       </table>
 </div><div class="memdoc">

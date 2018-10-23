@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: /home/topisani/dev/OTTO/src/services/ui.hpp File Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -74,10 +76,12 @@
 <div class="title">ui.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This file contains the UI state. </p>
+<p>If you do not need access to this, but just the library, look at <code>core/ui/widgets.hpp</code> and <code><a class="el" href="canvas_8hpp.html">core/ui/canvas.hpp</a></code> instead. </p>
 
-<p>This file contains the UI state.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="screen_8hpp_source.html">core/ui/screen.hpp</a>&quot;</code><br />
+<p class="definition">Definition in file <a class="el" href="ui_8hpp_source.html">ui.hpp</a>.</p>
+</div><div class="textblock"><code>#include &quot;<a class="el" href="screen_8hpp_source.html">core/ui/screen.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="engine_8hpp_source.html">core/engines/engine.hpp</a>&quot;</code><br />
 <code>#include &lt;json.hpp&gt;</code><br />
 </div>
@@ -93,7 +97,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a75cbb17e20aef0b1e7627c5d679941c0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a75cbb17e20aef0b1e7627c5d679941c0">otto::service::ui::KeyHandler</a> = std::function&lt; void(core::ui::Key k)&gt;</td></tr>
+<tr class="memitem:a75cbb17e20aef0b1e7627c5d679941c0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a75cbb17e20aef0b1e7627c5d679941c0">otto::service::ui::KeyHandler</a> = <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(core::ui::Key k)&gt;</td></tr>
 <tr class="memdesc:a75cbb17e20aef0b1e7627c5d679941c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function type for key handlers.  <a href="namespaceotto_1_1service_1_1ui.html#a75cbb17e20aef0b1e7627c5d679941c0">More...</a><br /></td></tr>
 <tr class="separator:a75cbb17e20aef0b1e7627c5d679941c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -114,12 +118,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a6edeac04522a1ca37d90a291bcf30e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a6edeac04522a1ca37d90a291bcf30e66">otto::service::ui::select_engine</a> (core::engines::AnyEngine &amp;engine)</td></tr>
 <tr class="memdesc:a6edeac04522a1ca37d90a291bcf30e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select an engine.  <a href="namespaceotto_1_1service_1_1ui.html#a6edeac04522a1ca37d90a291bcf30e66">More...</a><br /></td></tr>
 <tr class="separator:a6edeac04522a1ca37d90a291bcf30e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad39db3ca96bb00c9a9fce2aada88898f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#ad39db3ca96bb00c9a9fce2aada88898f">otto::service::ui::select_engine</a> (const std::string &amp;engine_name)</td></tr>
+<tr class="memitem:ad39db3ca96bb00c9a9fce2aada88898f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#ad39db3ca96bb00c9a9fce2aada88898f">otto::service::ui::select_engine</a> (const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;engine_name)</td></tr>
 <tr class="memdesc:ad39db3ca96bb00c9a9fce2aada88898f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select an engine by name.  <a href="namespaceotto_1_1service_1_1ui.html#ad39db3ca96bb00c9a9fce2aada88898f">More...</a><br /></td></tr>
 <tr class="separator:ad39db3ca96bb00c9a9fce2aada88898f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7af20c33a03ae2bb93413f8e3e77c5ab"><td class="memItemLeft" align="right" valign="top">core::ui::Screen *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a7af20c33a03ae2bb93413f8e3e77c5ab">otto::service::ui::current_screen</a> ()</td></tr>
 <tr class="separator:a7af20c33a03ae2bb93413f8e3e77c5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f90de5c25ebbead12f78da69cf30437"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a8f90de5c25ebbead12f78da69cf30437">otto::service::ui::selected_engine_name</a> ()</td></tr>
+<tr class="memitem:a8f90de5c25ebbead12f78da69cf30437"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a8f90de5c25ebbead12f78da69cf30437">otto::service::ui::selected_engine_name</a> ()</td></tr>
 <tr class="memdesc:a8f90de5c25ebbead12f78da69cf30437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the currently selected engine.  <a href="namespaceotto_1_1service_1_1ui.html#a8f90de5c25ebbead12f78da69cf30437">More...</a><br /></td></tr>
 <tr class="separator:a8f90de5c25ebbead12f78da69cf30437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88f31095a080f35fc1535c394df3036c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1ui.html#a88f31095a080f35fc1535c394df3036c">otto::service::ui::init</a> ()</td></tr>
@@ -140,12 +144,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a0ce404997ff0b9c128293a3ceca4456a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actually executes the key and rotary events.  <a href="namespaceotto_1_1service_1_1ui_1_1impl.html#a0ce404997ff0b9c128293a3ceca4456a">More...</a><br /></td></tr>
 <tr class="separator:a0ce404997ff0b9c128293a3ceca4456a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This file contains the UI state. </p>
-<p>If you do not need access to this, but just the library, look at <code>core/ui/widgets.hpp</code> and <code><a class="el" href="canvas_8hpp.html">core/ui/canvas.hpp</a></code> instead. </p>
-
-<p class="definition">Definition in file <a class="el" href="ui_8hpp_source.html">ui.hpp</a>.</p>
-</div></div><!-- contents -->
+</div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
 </div>

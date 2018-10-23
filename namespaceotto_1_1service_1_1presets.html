@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::presets Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -94,16 +96,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a3fa5f2896d804fa42bdd900ca0c41750"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#a3fa5f2896d804fa42bdd900ca0c41750">init</a> ()</td></tr>
 <tr class="memdesc:a3fa5f2896d804fa42bdd900ca0c41750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize preset manager.  <a href="#a3fa5f2896d804fa42bdd900ca0c41750">More...</a><br /></td></tr>
 <tr class="separator:a3fa5f2896d804fa42bdd900ca0c41750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acacf7fca058f4a2915d135d4b7ec9879"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#acacf7fca058f4a2915d135d4b7ec9879">preset_names</a> (const std::string &amp;engine_name)</td></tr>
+<tr class="memitem:acacf7fca058f4a2915d135d4b7ec9879"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#acacf7fca058f4a2915d135d4b7ec9879">preset_names</a> (const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;engine_name)</td></tr>
 <tr class="memdesc:acacf7fca058f4a2915d135d4b7ec9879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the names of presets for an engine.  <a href="#acacf7fca058f4a2915d135d4b7ec9879">More...</a><br /></td></tr>
 <tr class="separator:acacf7fca058f4a2915d135d4b7ec9879"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa840534ae57064396f140269c20c0cc8"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#aa840534ae57064396f140269c20c0cc8">name_of_idx</a> (const std::string &amp;engine_name, int idx)</td></tr>
+<tr class="memitem:aa840534ae57064396f140269c20c0cc8"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#aa840534ae57064396f140269c20c0cc8">name_of_idx</a> (const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;engine_name, int idx)</td></tr>
 <tr class="memdesc:aa840534ae57064396f140269c20c0cc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of preset with indx <code>idx</code>  <a href="#aa840534ae57064396f140269c20c0cc8">More...</a><br /></td></tr>
 <tr class="separator:aa840534ae57064396f140269c20c0cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f6a5084b26eb04425d6238ae2414b90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#a0f6a5084b26eb04425d6238ae2414b90">idx_of_name</a> (const std::string &amp;engine_name, const std::string &amp;name)</td></tr>
+<tr class="memitem:a0f6a5084b26eb04425d6238ae2414b90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#a0f6a5084b26eb04425d6238ae2414b90">idx_of_name</a> (const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;engine_name, const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;name)</td></tr>
 <tr class="memdesc:a0f6a5084b26eb04425d6238ae2414b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of preset with name <code>name</code>  <a href="#a0f6a5084b26eb04425d6238ae2414b90">More...</a><br /></td></tr>
 <tr class="separator:a0f6a5084b26eb04425d6238ae2414b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa14a458ff92c1584d54c477f20cfb4e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#aa14a458ff92c1584d54c477f20cfb4e8">apply_preset</a> (<a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">core::engines::AnyEngine</a> &amp;engine, const std::string &amp;name, bool no_enable_callback=false)</td></tr>
+<tr class="memitem:aa14a458ff92c1584d54c477f20cfb4e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#aa14a458ff92c1584d54c477f20cfb4e8">apply_preset</a> (<a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">core::engines::AnyEngine</a> &amp;engine, const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;name, bool no_enable_callback=false)</td></tr>
 <tr class="memdesc:aa14a458ff92c1584d54c477f20cfb4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply preset to engine.  <a href="#aa14a458ff92c1584d54c477f20cfb4e8">More...</a><br /></td></tr>
 <tr class="separator:aa14a458ff92c1584d54c477f20cfb4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a4a6b5915601ed0e6b345336817db83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1presets.html#a2a4a6b5915601ed0e6b345336817db83">apply_preset</a> (<a class="el" href="structotto_1_1core_1_1engines_1_1_any_engine.html">core::engines::AnyEngine</a> &amp;engine, int idx, bool no_enable_callback=false)</td></tr>
@@ -197,9 +199,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt; std::string &gt; &amp; otto::service::presets::preset_names </td>
+          <td class="memname">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &gt; &amp; otto::service::presets::preset_names </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>engine_name</em></td><td>)</td>
           <td></td>
         </tr>
@@ -231,9 +233,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; otto::service::presets::name_of_idx </td>
+          <td class="memname">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp; otto::service::presets::name_of_idx </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>engine_name</em>, </td>
         </tr>
         <tr>
@@ -275,13 +277,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int otto::service::presets::idx_of_name </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>engine_name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>&#160;</td>
         </tr>
         <tr>
@@ -302,7 +304,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="presets_8cpp_source.html#l00051">51</a> of file <a class="el" href="presets_8cpp_source.html">presets.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="algorithm_8hpp_source.html#l00792">otto::util::find()</a>, <a class="el" href="namespaceotto_1_1service_1_1presets.html#afc0ddaf1eb1e789b433180c2ca477648a10e70f88636edcf2c5210a44269d0668">no_such_preset</a>, and <a class="el" href="presets_8cpp_source.html#l00031">preset_names()</a>.</p>
+<p class="reference">References <a class="el" href="algorithm_8hpp_source.html#l00796">otto::util::algorithm::find()</a>, <a class="el" href="namespaceotto_1_1service_1_1presets.html#afc0ddaf1eb1e789b433180c2ca477648a10e70f88636edcf2c5210a44269d0668">no_such_preset</a>, and <a class="el" href="presets_8cpp_source.html#l00031">preset_names()</a>.</p>
 
 </div>
 </div>
@@ -321,7 +323,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -349,7 +351,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="presets_8cpp_source.html#l00063">63</a> of file <a class="el" href="presets_8cpp_source.html">presets.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="base_8hpp_source.html#l00058">otto::core::props::property_base::as()</a>, <a class="el" href="engine_8cpp_source.html#l00043">otto::core::engines::AnyEngine::current_preset()</a>, <a class="el" href="logger_8hpp_source.html#l00034">DLOGI</a>, <a class="el" href="algorithm_8hpp_source.html#l00792">otto::util::find()</a>, <a class="el" href="engine_8cpp_source.html#l00018">otto::core::engines::AnyEngine::name()</a>, <a class="el" href="namespaceotto_1_1service_1_1presets.html#afc0ddaf1eb1e789b433180c2ca477648a10e70f88636edcf2c5210a44269d0668">no_such_preset</a>, <a class="el" href="engine_8hpp_source.html#l00054">otto::core::engines::AnyEngine::on_enable()</a>, and <a class="el" href="engine_8cpp_source.html#l00033">otto::core::engines::AnyEngine::props()</a>.</p>
+<p class="reference">References <a class="el" href="base_8hpp_source.html#l00058">otto::core::props::property_base::as()</a>, <a class="el" href="engine_8cpp_source.html#l00043">otto::core::engines::AnyEngine::current_preset()</a>, <a class="el" href="logger_8hpp_source.html#l00034">DLOGI</a>, <a class="el" href="algorithm_8hpp_source.html#l00796">otto::util::algorithm::find()</a>, <a class="el" href="engine_8cpp_source.html#l00018">otto::core::engines::AnyEngine::name()</a>, <a class="el" href="namespaceotto_1_1service_1_1presets.html#afc0ddaf1eb1e789b433180c2ca477648a10e70f88636edcf2c5210a44269d0668">no_such_preset</a>, <a class="el" href="engine_8hpp_source.html#l00054">otto::core::engines::AnyEngine::on_enable()</a>, and <a class="el" href="engine_8cpp_source.html#l00033">otto::core::engines::AnyEngine::props()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="engine_8cpp_source.html#l00067">otto::core::engines::AnyEngine::from_json()</a>, and <a class="el" href="engine__dispatcher_8cpp_source.html#l00011">otto::core::engines::EngineDispatcher&lt; ET &gt;::init()</a>.</p>
 
@@ -428,7 +430,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="presets_8cpp_source.html#l00093">93</a> of file <a class="el" href="presets_8cpp_source.html">presets.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01426">otto::filesystem::create_directories()</a>, <a class="el" href="logger_8hpp_source.html#l00034">DLOGI</a>, <a class="el" href="filesystem_8cpp_source.html#l01554">otto::filesystem::exists()</a>, <a class="el" href="algorithm_8hpp_source.html#l00792">otto::util::find()</a>, <a class="el" href="logger_8hpp_source.html#l00070">LOGI_SCOPE</a>, and <a class="el" href="jsonfile_8hpp_source.html#l00063">otto::util::JsonFile::path()</a>.</p>
+<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l01426">otto::filesystem::create_directories()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string/data.html">std::string::data()</a>, <a class="el" href="logger_8hpp_source.html#l00034">DLOGI</a>, <a class="el" href="filesystem_8cpp_source.html#l01554">otto::filesystem::exists()</a>, <a class="el" href="algorithm_8hpp_source.html#l00796">otto::util::algorithm::find()</a>, <a class="el" href="logger_8hpp_source.html#l00070">LOGI_SCOPE</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>, and <a class="el" href="jsonfile_8hpp_source.html#l00063">otto::util::JsonFile::path()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="presets_8cpp_source.html#l00025">init()</a>.</p>
 

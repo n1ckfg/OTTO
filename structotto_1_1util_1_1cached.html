@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::util::cached&lt; T &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -73,14 +75,29 @@
 <div class="title">otto::util::cached&lt; T &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct otto::util::cached&lt; T &gt;</h3>
 
-<p>A simple wrapper for invalidatable caches.  
- <a href="structotto_1_1util_1_1cached.html#details">More...</a></p>
+<p>A simple wrapper for invalidatable caches. </p>
+<p>If you are writing a separate struct to contain the cache data, use <code><a class="el" href="structotto_1_1util_1_1cache__base.html" title="A CRTP style cache base class. ">cache_base</a></code> instead.</p>
+<p>The cached value is imutable, and lazilly refreshed. This wrapper is not thread safe at invalidation!</p>
+<p>It is constructed with a generator function, which can take two forms:</p>
+<ol type="1">
+<li><code>void(T&amp; cache)</code>, which is expected to update the <code>cache</code> parameter it is supplied with.</li>
+<li><code>T()</code>, which will return the new value.</li>
+</ol>
+<p>Both can be very useful in different contexts.</p>
+<p><code>T</code> shall be <code>DefaultConstructible</code> </p>
 
+<p class="definition">Definition at line <a class="el" href="cache_8hpp_source.html#l00084">84</a> of file <a class="el" href="cache_8hpp_source.html">cache.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="cache_8hpp_source.html">cache.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::util::cached&lt; T &gt;:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::util::cached&lt; T &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="structotto_1_1util_1_1cached.png" usemap="#otto::util::cached_3C_20T_20_3E_map" alt=""/>
   <map id="otto::util::cached_3C_20T_20_3E_map" name="otto::util::cached_3C_20T_20_3E_map">
@@ -116,23 +133,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a48bb5ac79c961ff665d5d139bc005fcc inherit pro_attribs_structotto_1_1util_1_1cache__base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1cache__base.html#a48bb5ac79c961ff665d5d139bc005fcc">_valid</a> = false</td></tr>
 <tr class="separator:a48bb5ac79c961ff665d5d139bc005fcc inherit pro_attribs_structotto_1_1util_1_1cache__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-struct otto::util::cached&lt; T &gt;</h3>
-
-<p>A simple wrapper for invalidatable caches. </p>
-<p>If you are writing a separate struct to contain the cache data, use <code><a class="el" href="structotto_1_1util_1_1cache__base.html" title="A CRTP style cache base class. ">cache_base</a></code> instead.</p>
-<p>The cached value is imutable, and lazilly refreshed. This wrapper is not thread safe at invalidation!</p>
-<p>It is constructed with a generator function, which can take two forms:</p>
-<ol type="1">
-<li><code>void(T&amp; cache)</code>, which is expected to update the <code>cache</code> parameter it is supplied with.</li>
-<li><code>T()</code>, which will return the new value.</li>
-</ol>
-<p>Both can be very useful in different contexts.</p>
-<p><code>T</code> shall be <code>DefaultConstructible</code> </p>
-
-<p class="definition">Definition at line <a class="el" href="cache_8hpp_source.html#l00084">84</a> of file <a class="el" href="cache_8hpp_source.html">cache.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4f218a1f6941c3d5d88fae8696bc972f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f218a1f6941c3d5d88fae8696bc972f">&#9670;&nbsp;</a></span>cached()</h2>
 

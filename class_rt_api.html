@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: RtApi Class Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -74,11 +76,16 @@
 <div class="title">RtApi Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00684">684</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for RtApi:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for RtApi:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="class_rt_api.png" usemap="#RtApi_map" alt=""/>
   <map id="RtApi_map" name="RtApi_map">
@@ -192,9 +199,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a3498df7d2f954d691d52c75f29dd8873"><td class="memItemLeft" align="right" valign="top">std::ostringstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a3498df7d2f954d691d52c75f29dd8873">errorStream_</a></td></tr>
+<tr class="memitem:a3498df7d2f954d691d52c75f29dd8873"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/basic_ostringstream.html">std::ostringstream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a3498df7d2f954d691d52c75f29dd8873">errorStream_</a></td></tr>
 <tr class="separator:a3498df7d2f954d691d52c75f29dd8873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab512557e93839a7cbb997160b08d3c18"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#ab512557e93839a7cbb997160b08d3c18">errorText_</a></td></tr>
+<tr class="memitem:ab512557e93839a7cbb997160b08d3c18"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#ab512557e93839a7cbb997160b08d3c18">errorText_</a></td></tr>
 <tr class="separator:ab512557e93839a7cbb997160b08d3c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9142cb3f4df970af4ee37fedb2f16b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#aa9142cb3f4df970af4ee37fedb2f16b1">showWarnings_</a></td></tr>
 <tr class="separator:aa9142cb3f4df970af4ee37fedb2f16b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,10 +217,7 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a84f89655b9f487005d10929ff9453ad2"><td class="memItemLeft" align="right" valign="top">static const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rt_api.html#a84f89655b9f487005d10929ff9453ad2">SAMPLE_RATES</a> []</td></tr>
 <tr class="separator:a84f89655b9f487005d10929ff9453ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00684">684</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-</div><hr/><h2 class="groupheader">Class Documentation</h2>
+<hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="struct_rt_api_1_1_convert_info" id="struct_rt_api_1_1_convert_info"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#struct_rt_api_1_1_convert_info">&#9670;&nbsp;</a></span>RtApi::ConvertInfo</h2>
 
@@ -225,9 +229,7 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_rt_audio_8h_source.html#l00736">736</a> of file <a class="el" href="_rt_audio_8h_source.html">RtAudio.h</a>.</p>
-</div><table class="fieldtable">
+<table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
 <a id="ae6fdb3e6b6a3a4974b49ded33291678b"></a>int</td>
@@ -1201,7 +1203,7 @@ outOffset</td>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8cpp_source.html#l09585">9585</a> of file <a class="el" href="_rt_audio_8cpp_source.html">RtAudio.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_rt_audio_8h_source.html#l00747">RtApi::RtApiStream::apiHandle</a>, <a class="el" href="_rt_audio_8h_source.html#l00757">RtApi::RtApiStream::bufferSize</a>, <a class="el" href="_rt_audio_8h_source.html#l00621">CallbackInfo::callback</a>, <a class="el" href="_rt_audio_8h_source.html#l00766">RtApi::RtApiStream::callbackInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00761">RtApi::RtApiStream::channelOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00737">RtApi::ConvertInfo::channels</a>, <a class="el" href="_rt_audio_8h_source.html#l00767">RtApi::RtApiStream::convertInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00746">RtApi::RtApiStream::device</a>, <a class="el" href="_rt_audio_8h_source.html#l00751">RtApi::RtApiStream::deviceBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00764">RtApi::RtApiStream::deviceFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00754">RtApi::RtApiStream::deviceInterleaved</a>, <a class="el" href="_rt_audio_8h_source.html#l00755">RtApi::RtApiStream::doByteSwap</a>, <a class="el" href="_rt_audio_8h_source.html#l00752">RtApi::RtApiStream::doConvertBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00623">CallbackInfo::errorCallback</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::inFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::inJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00740">RtApi::ConvertInfo::inOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00625">CallbackInfo::isRunning</a>, <a class="el" href="_rt_audio_8h_source.html#l00762">RtApi::RtApiStream::latency</a>, <a class="el" href="_rt_audio_8h_source.html#l00748">RtApi::RtApiStream::mode</a>, <a class="el" href="_rt_audio_8h_source.html#l00758">RtApi::RtApiStream::nBuffers</a>, <a class="el" href="_rt_audio_8h_source.html#l00760">RtApi::RtApiStream::nDeviceChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00759">RtApi::RtApiStream::nUserChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::outFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::outJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00741">RtApi::ConvertInfo::outOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00756">RtApi::RtApiStream::sampleRate</a>, <a class="el" href="_rt_audio_8h_source.html#l00749">RtApi::RtApiStream::state</a>, <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00725">STREAM_CLOSED</a>, <a class="el" href="_rt_audio_8h_source.html#l00768">RtApi::RtApiStream::streamTime</a>, <a class="el" href="_rt_audio_8h_source.html#l00732">UNINITIALIZED</a>, <a class="el" href="_rt_audio_8h_source.html#l00750">RtApi::RtApiStream::userBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00622">CallbackInfo::userData</a>, <a class="el" href="_rt_audio_8h_source.html#l00763">RtApi::RtApiStream::userFormat</a>, and <a class="el" href="_rt_audio_8h_source.html#l00753">RtApi::RtApiStream::userInterleaved</a>.</p>
+<p class="reference">References <a class="el" href="_rt_audio_8h_source.html#l00747">RtApi::RtApiStream::apiHandle</a>, <a class="el" href="_rt_audio_8h_source.html#l00757">RtApi::RtApiStream::bufferSize</a>, <a class="el" href="_rt_audio_8h_source.html#l00621">CallbackInfo::callback</a>, <a class="el" href="_rt_audio_8h_source.html#l00766">RtApi::RtApiStream::callbackInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00761">RtApi::RtApiStream::channelOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00737">RtApi::ConvertInfo::channels</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">std::vector&lt; T &gt;::clear()</a>, <a class="el" href="_rt_audio_8h_source.html#l00767">RtApi::RtApiStream::convertInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00746">RtApi::RtApiStream::device</a>, <a class="el" href="_rt_audio_8h_source.html#l00751">RtApi::RtApiStream::deviceBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00764">RtApi::RtApiStream::deviceFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00754">RtApi::RtApiStream::deviceInterleaved</a>, <a class="el" href="_rt_audio_8h_source.html#l00755">RtApi::RtApiStream::doByteSwap</a>, <a class="el" href="_rt_audio_8h_source.html#l00752">RtApi::RtApiStream::doConvertBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00623">CallbackInfo::errorCallback</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::inFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::inJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00740">RtApi::ConvertInfo::inOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00625">CallbackInfo::isRunning</a>, <a class="el" href="_rt_audio_8h_source.html#l00762">RtApi::RtApiStream::latency</a>, <a class="el" href="_rt_audio_8h_source.html#l00748">RtApi::RtApiStream::mode</a>, <a class="el" href="_rt_audio_8h_source.html#l00758">RtApi::RtApiStream::nBuffers</a>, <a class="el" href="_rt_audio_8h_source.html#l00760">RtApi::RtApiStream::nDeviceChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00759">RtApi::RtApiStream::nUserChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::outFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::outJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00741">RtApi::ConvertInfo::outOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00756">RtApi::RtApiStream::sampleRate</a>, <a class="el" href="_rt_audio_8h_source.html#l00749">RtApi::RtApiStream::state</a>, <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00725">STREAM_CLOSED</a>, <a class="el" href="_rt_audio_8h_source.html#l00768">RtApi::RtApiStream::streamTime</a>, <a class="el" href="_rt_audio_8h_source.html#l00732">UNINITIALIZED</a>, <a class="el" href="_rt_audio_8h_source.html#l00750">RtApi::RtApiStream::userBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00622">CallbackInfo::userData</a>, <a class="el" href="_rt_audio_8h_source.html#l00763">RtApi::RtApiStream::userFormat</a>, and <a class="el" href="_rt_audio_8h_source.html#l00753">RtApi::RtApiStream::userInterleaved</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_rt_audio_8cpp_source.html#l00256">openStream()</a>.</p>
 
@@ -1268,7 +1270,7 @@ outOffset</td>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8cpp_source.html#l09547">9547</a> of file <a class="el" href="_rt_audio_8cpp_source.html">RtAudio.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="class_rt_api.html#af65fd257cc358db6da29fbcef90287c7">abortStream()</a>, <a class="el" href="_rt_audio_8h_source.html#l00766">RtApi::RtApiStream::callbackInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00623">CallbackInfo::errorCallback</a>, <a class="el" href="_rt_audio_8h_source.html#l00784">errorStream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00785">errorText_</a>, <a class="el" href="_rt_audio_8h_source.html#l00788">firstErrorOccurred_</a>, <a class="el" href="_rt_audio_8h_source.html#l00625">CallbackInfo::isRunning</a>, <a class="el" href="_rt_audio_8h_source.html#l00786">showWarnings_</a>, <a class="el" href="_rt_audio_8h_source.html#l00749">RtApi::RtApiStream::state</a>, <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00722">STREAM_STOPPED</a>, and <a class="el" href="_rt_audio_8h_source.html#l00218">RtAudioError::WARNING</a>.</p>
+<p class="reference">References <a class="el" href="class_rt_api.html#af65fd257cc358db6da29fbcef90287c7">abortStream()</a>, <a class="el" href="_rt_audio_8h_source.html#l00766">RtApi::RtApiStream::callbackInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00623">CallbackInfo::errorCallback</a>, <a class="el" href="_rt_audio_8h_source.html#l00784">errorStream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00785">errorText_</a>, <a class="el" href="_rt_audio_8h_source.html#l00788">firstErrorOccurred_</a>, <a class="el" href="_rt_audio_8h_source.html#l00625">CallbackInfo::isRunning</a>, <a class="el" href="_rt_audio_8h_source.html#l00786">showWarnings_</a>, <a class="el" href="_rt_audio_8h_source.html#l00749">RtApi::RtApiStream::state</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/basic_ostringstream/str.html">std::ostringstream::str()</a>, <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00722">STREAM_STOPPED</a>, and <a class="el" href="_rt_audio_8h_source.html#l00218">RtAudioError::WARNING</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="_rt_audio_8cpp_source.html#l00256">openStream()</a>, <a class="el" href="_rt_audio_8h_source.html#l01149">RtApiDummy::RtApiDummy()</a>, and <a class="el" href="_rt_audio_8cpp_source.html#l09577">verifyStream()</a>.</p>
 
@@ -1317,7 +1319,7 @@ outOffset</td>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8cpp_source.html#l09721">9721</a> of file <a class="el" href="_rt_audio_8cpp_source.html">RtAudio.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_rt_audio_8h_source.html#l00757">RtApi::RtApiStream::bufferSize</a>, <a class="el" href="_rt_audio_8h_source.html#l00751">RtApi::RtApiStream::deviceBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00731">DUPLEX</a>, <a class="el" href="_rt_audio_8cpp_source.html#l09622">formatBytes()</a>, <a class="el" href="_rt_audio_8h_source.html#l00748">RtApi::RtApiStream::mode</a>, <a class="el" href="_rt_audio_8h_source.html#l00760">RtApi::RtApiStream::nDeviceChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::outFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::outJump</a>, and <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>.</p>
+<p class="reference">References <a class="el" href="_rt_audio_8h_source.html#l00757">RtApi::RtApiStream::bufferSize</a>, <a class="el" href="_rt_audio_8h_source.html#l00751">RtApi::RtApiStream::deviceBuffer</a>, <a class="el" href="_rt_audio_8h_source.html#l00731">DUPLEX</a>, <a class="el" href="_rt_audio_8cpp_source.html#l09622">formatBytes()</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/byte/memset.html">std::memset()</a>, <a class="el" href="_rt_audio_8h_source.html#l00748">RtApi::RtApiStream::mode</a>, <a class="el" href="_rt_audio_8h_source.html#l00760">RtApi::RtApiStream::nDeviceChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::outFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::outJump</a>, and <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>.</p>
 
 </div>
 </div>
@@ -1437,7 +1439,7 @@ outOffset</td>
 
 <p class="definition">Definition at line <a class="el" href="_rt_audio_8cpp_source.html#l09641">9641</a> of file <a class="el" href="_rt_audio_8cpp_source.html">RtAudio.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="_rt_audio_8h_source.html#l00757">RtApi::RtApiStream::bufferSize</a>, <a class="el" href="_rt_audio_8h_source.html#l00737">RtApi::ConvertInfo::channels</a>, <a class="el" href="_rt_audio_8h_source.html#l00767">RtApi::RtApiStream::convertInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00764">RtApi::RtApiStream::deviceFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00754">RtApi::RtApiStream::deviceInterleaved</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::inFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::inJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00740">RtApi::ConvertInfo::inOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00730">INPUT</a>, <a class="el" href="_rt_audio_8h_source.html#l00760">RtApi::RtApiStream::nDeviceChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00759">RtApi::RtApiStream::nUserChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::outFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::outJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00741">RtApi::ConvertInfo::outOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00729">OUTPUT</a>, <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00763">RtApi::RtApiStream::userFormat</a>, and <a class="el" href="_rt_audio_8h_source.html#l00753">RtApi::RtApiStream::userInterleaved</a>.</p>
+<p class="reference">References <a class="el" href="_rt_audio_8h_source.html#l00757">RtApi::RtApiStream::bufferSize</a>, <a class="el" href="_rt_audio_8h_source.html#l00737">RtApi::ConvertInfo::channels</a>, <a class="el" href="_rt_audio_8h_source.html#l00767">RtApi::RtApiStream::convertInfo</a>, <a class="el" href="_rt_audio_8h_source.html#l00764">RtApi::RtApiStream::deviceFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00754">RtApi::RtApiStream::deviceInterleaved</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::inFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::inJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00740">RtApi::ConvertInfo::inOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00730">INPUT</a>, <a class="el" href="_rt_audio_8h_source.html#l00760">RtApi::RtApiStream::nDeviceChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00759">RtApi::RtApiStream::nUserChannels</a>, <a class="el" href="_rt_audio_8h_source.html#l00739">RtApi::ConvertInfo::outFormat</a>, <a class="el" href="_rt_audio_8h_source.html#l00738">RtApi::ConvertInfo::outJump</a>, <a class="el" href="_rt_audio_8h_source.html#l00741">RtApi::ConvertInfo::outOffset</a>, <a class="el" href="_rt_audio_8h_source.html#l00729">OUTPUT</a>, <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">std::vector&lt; T &gt;::push_back()</a>, <a class="el" href="_rt_audio_8h_source.html#l00787">stream_</a>, <a class="el" href="_rt_audio_8h_source.html#l00763">RtApi::RtApiStream::userFormat</a>, and <a class="el" href="_rt_audio_8h_source.html#l00753">RtApi::RtApiStream::userInterleaved</a>.</p>
 
 </div>
 </div>
@@ -1500,7 +1502,7 @@ outOffset</td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostringstream RtApi::errorStream_</td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/io/basic_ostringstream.html">std::ostringstream</a> RtApi::errorStream_</td>
         </tr>
       </table>
   </td>
@@ -1526,7 +1528,7 @@ outOffset</td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string RtApi::errorText_</td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> RtApi::errorText_</td>
         </tr>
       </table>
   </td>

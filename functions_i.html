@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: Class Members</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -255,8 +257,8 @@
 : <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#af5fb5ba9b03e69a53ee08a73e5015853">otto::core::ui::SelectorWidget</a>
 </li>
 <li>iter
-: <a class="el" href="classotto_1_1util_1_1_filter_iter_impl.html#a092dd3070f17da2b0225fa848f0e0241">otto::util::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1_transform_iterator_impl.html#a5c7437c32b7daf29f3993f4af1b1471d">otto::util::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
+: <a class="el" href="classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html#ab56a6438dc28fd8c9d767315f1aec86a">otto::util::iterator::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html#a1c62ae7a0bcc3f7a2aabe65b5f4753ba">otto::util::iterator::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a59b6920a85684a4b81534a5dd1b4a9df">otto::util::wrapping_array&lt; T, N &gt;</a>
 </li>
 <li>iterator
@@ -264,32 +266,32 @@
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html#aab86880f18a6ab4d2d3398973daa1ec8">otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html#a5bca1c2b152f1086f0afb3cf33dcf453">otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#aacaf2562bbae0483cad04da598d52b60">otto::filesystem::path::iterator</a>
-, <a class="el" href="structotto_1_1util_1_1_adjacent_range.html#a71e1fd20da4c9036cdc67ed15f1eb36b">otto::util::AdjacentRange&lt; Range &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1sequence.html#af9d5813372a0fc5b09508b2725c6f00b">otto::util::sequence&lt; BIter, EIter &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1iterator_1_1_adjacent_range.html#a56e576060333d8507754853d4afc5e11">otto::util::iterator::AdjacentRange&lt; Range &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1iterator_1_1sequence.html#a9a592f9c9c01668b464e0495f91f7c0d">otto::util::iterator::sequence&lt; BIter, EIter &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1wrapping__array.html#aeb593fd0777f8d3d642b418773aec1a0">otto::util::wrapping_array&lt; T, N &gt;</a>
 </li>
 <li>iterator_adaptor_impl()
-: <a class="el" href="classotto_1_1util_1_1iterator__adaptor__impl.html#a4e41f9ca07847046645b4b3b582a2a4c">otto::util::iterator_adaptor_impl&lt; Impl, Category &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html#a40c79350a7eecc50ef458769ac84aeed">otto::util::iterator_adaptor_impl&lt; Impl, std::bidirectional_iterator_tag &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html#aa63a778872c0ff321b21e4d322295b16">otto::util::iterator_adaptor_impl&lt; Impl, std::random_access_iterator_tag &gt;</a>
+: <a class="el" href="classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html#a2d9e884b212ff99964200513602955c4">otto::util::iterator::iterator_adaptor_impl&lt; Impl, Category &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1bidirectional__iterator__tag_01_4.html#a6e621b1f8174c45b12d58f51d0eb0eaf">otto::util::iterator::iterator_adaptor_impl&lt; Impl, std::bidirectional_iterator_tag &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl_3_01_impl_00_01std_1_1random__access__iterator__tag_01_4.html#a0801f2222a3d4a400f30ac1b538ba0cc">otto::util::iterator::iterator_adaptor_impl&lt; Impl, std::random_access_iterator_tag &gt;</a>
 </li>
 <li>iterator_category
 : <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#ace10e80eeb3372285c604cbdb0ed42b7">otto::filesystem::directory_iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#a48eb3783a937c0185c129ffa8d8c24af">otto::filesystem::path::iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#a0cab0fec902b8ad193178339d30417c3">otto::filesystem::recursive_directory_iterator</a>
-, <a class="el" href="classotto_1_1util_1_1_filter_iter_impl.html#ac78ccb71c2a591fb7d5d57c6bf366859">otto::util::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1float__step__iterator.html#a3d993d62491c2ec0954e922e344e47d1">otto::util::float_step_iterator&lt; I, V &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1_generating_iter_impl.html#ae2600e77b19ccf9641504164111f7300">otto::util::GeneratingIterImpl&lt; Generator &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1iterator__adaptor__impl.html#afbbb9af731038b33a1346c9ebe870978">otto::util::iterator_adaptor_impl&lt; Impl, Category &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1_transform_iterator_impl.html#a61aa7504e300589f3a18238a9117a901">otto::util::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_filter_iter_impl.html#aa3f851fba3af63751e19ddd8eaaf66ec">otto::util::iterator::FilterIterImpl&lt; WrappedIter, Predicate &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#a7ccde9ef0952c6c6f1c303cf8d8c5200">otto::util::iterator::float_step_iterator&lt; I, V &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_generating_iter_impl.html#a01e61792734012b48e6e2cdc5d32cf8d">otto::util::iterator::GeneratingIterImpl&lt; Generator &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1iterator__adaptor__impl.html#ae0deebb4ea87eab626c917f6a7941bb4">otto::util::iterator::iterator_adaptor_impl&lt; Impl, Category &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_transform_iterator_impl.html#ad5a93bac6f7cbf460f89f38a291eaf90">otto::util::iterator::TransformIteratorImpl&lt; WrappedIter, Callable &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html#a92b4e7de6e6c2bed365dd8c9608a88e9">otto::util::iterator::ZippedIteratorImpl&lt; Iterators &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a0a52202ceb6c52bff909d2a0e47ec58c">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#a93ce4ca72f2e50e7b5b01becf615cd69">otto::util::ZippedIteratorImpl&lt; Iterators &gt;</a>
 </li>
 <li>IteratorImpl()
 : <a class="el" href="structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html#a79a6212aa4c5249fed0d6a6a23fb6179">otto::util::wrapping_array&lt; T, N &gt;::IteratorImpl&lt; Val &gt;</a>
 </li>
 <li>iterators
-: <a class="el" href="classotto_1_1util_1_1_zipped_iterator_impl.html#aa48ef9f69eed87b0af42a70337e8c324">otto::util::ZippedIteratorImpl&lt; Iterators &gt;</a>
+: <a class="el" href="classotto_1_1util_1_1iterator_1_1_zipped_iterator_impl.html#a3d9be89637fcb904a409456d9eb01009">otto::util::iterator::ZippedIteratorImpl&lt; Iterators &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

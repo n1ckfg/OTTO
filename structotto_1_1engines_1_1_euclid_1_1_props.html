@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::engines::Euclid::Props Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -74,11 +76,16 @@
 <div class="title">otto::engines::Euclid::Props Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="euclid_8hpp_source.html#l00037">37</a> of file <a class="el" href="euclid_8hpp_source.html">euclid.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="euclid_8hpp_source.html">euclid.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::engines::Euclid::Props:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::engines::Euclid::Props:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="structotto_1_1engines_1_1_euclid_1_1_props.png" usemap="#otto::engines::Euclid::Props_map" alt=""/>
   <map id="otto::engines::Euclid::Props_map" name="otto::engines::Euclid::Props_map">
@@ -95,7 +102,7 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a9064d8452a8d81cd3fc4e28e577bef6f"><td class="memItemLeft" align="right" valign="top">Property&lt; int, wrap &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#a9064d8452a8d81cd3fc4e28e577bef6f">channel</a> = {this, &quot;Channel&quot;, 0, has_limits::init(0, 3)}</td></tr>
 <tr class="separator:a9064d8452a8d81cd3fc4e28e577bef6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7ff45a11e77111c30151265e6be3b8"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#ada7ff45a11e77111c30151265e6be3b8">channels</a> = <a class="el" href="namespaceotto_1_1util.html#a87b7278ff97f4979498107e54f50bdc2">util::generate_array</a>&lt;4&gt;([](int n) { return <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>(n); })</td></tr>
+<tr class="memitem:ada7ff45a11e77111c30151265e6be3b8"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#ada7ff45a11e77111c30151265e6be3b8">channels</a> = util::generate_array&lt;4&gt;([](int n) { return <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>(n); })</td></tr>
 <tr class="separator:ada7ff45a11e77111c30151265e6be3b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5130e55033ed6abb644f106e57d3ef3"><td class="memItemLeft" align="right" valign="top">Properties&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_euclid_1_1_props.html#ae5130e55033ed6abb644f106e57d3ef3">channels_props</a> = {this, &quot;Channels&quot;}</td></tr>
 <tr class="separator:ae5130e55033ed6abb644f106e57d3ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -106,10 +113,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a259af425bc455d49088a867d96f204b2 inherit pub_types_structotto_1_1core_1_1props_1_1_properties"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_properties.html#a259af425bc455d49088a867d96f204b2">Super</a> = <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; detail::properties_for_list&lt; <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1get__tag__list">get_tag_list</a>&lt; void, Tags... &gt; &gt;&gt; &gt;</td></tr>
 <tr class="separator:a259af425bc455d49088a867d96f204b2 inherit pub_types_structotto_1_1core_1_1props_1_1_properties"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="euclid_8hpp_source.html#l00037">37</a> of file <a class="el" href="euclid_8hpp_source.html">euclid.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5f74e0d019b25637dcd2466dd9febfc8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f74e0d019b25637dcd2466dd9febfc8">&#9670;&nbsp;</a></span>Props()</h2>
 
@@ -155,7 +159,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>, 4&gt; otto::engines::Euclid::Props::channels = <a class="el" href="namespaceotto_1_1util.html#a87b7278ff97f4979498107e54f50bdc2">util::generate_array</a>&lt;4&gt;([](int n) { return <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>(n); })</td>
+          <td class="memname"><a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt;<a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>, 4&gt; otto::engines::Euclid::Props::channels = util::generate_array&lt;4&gt;([](int n) { return <a class="el" href="structotto_1_1engines_1_1_euclid_1_1_channel.html">Channel</a>(n); })</td>
         </tr>
       </table>
 </div><div class="memdoc">

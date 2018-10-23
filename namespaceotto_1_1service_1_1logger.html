@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::service::logger Namespace Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -77,7 +79,7 @@
 Functions</h2></td></tr>
 <tr class="memitem:ad55eb2bacb090f17693c2b0d0268d431"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1logger.html#ad55eb2bacb090f17693c2b0d0268d431">init</a> (int argc, char *argv[], bool enable_console, const char *logFilePath)</td></tr>
 <tr class="separator:ad55eb2bacb090f17693c2b0d0268d431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f43b320859d396a8f9fd1c74dcbfdd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1logger.html#a4f43b320859d396a8f9fd1c74dcbfdd0">set_thread_name</a> (const std::string &amp;name)</td></tr>
+<tr class="memitem:a4f43b320859d396a8f9fd1c74dcbfdd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1logger.html#a4f43b320859d396a8f9fd1c74dcbfdd0">set_thread_name</a> (const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;name)</td></tr>
 <tr class="memdesc:a4f43b320859d396a8f9fd1c74dcbfdd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set how the current thread appears in the log.  <a href="#a4f43b320859d396a8f9fd1c74dcbfdd0">More...</a><br /></td></tr>
 <tr class="separator:a4f43b320859d396a8f9fd1c74dcbfdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9aeab7b85f7167f3ecc5dbdf1474a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1logger.html#a8c9aeab7b85f7167f3ecc5dbdf1474a5">init</a> (int argc, char **argv, bool enable_console=true, const char *logFilePath=nullptr)</td></tr>
@@ -125,7 +127,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="logger_8cpp_source.html#l00008">8</a> of file <a class="el" href="logger_8cpp_source.html">logger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="filesystem_8cpp_source.html#l00409">otto::filesystem::path::c_str()</a>, <a class="el" href="globals_8hpp_source.html#l00020">otto::global::data_dir</a>, <a class="el" href="logger_8hpp_source.html#l00022">LOGI</a>, and <a class="el" href="namespaceotto_1_1global.html#a6efd2100648da2348944643872649994a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::global::none</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string/c_str.html">std::string::c_str()</a>, <a class="el" href="globals_8hpp_source.html#l00020">otto::global::data_dir</a>, <a class="el" href="logger_8hpp_source.html#l00022">LOGI</a>, and <a class="el" href="namespaceotto_1_1global.html#a6efd2100648da2348944643872649994a334c4a4c42fdb79d7ebc3e73b517e6f8">otto::global::none</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00022">main()</a>.</p>
 
@@ -140,7 +142,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void otto::service::logger::set_thread_name </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
@@ -150,6 +152,8 @@ Functions</h2></td></tr>
 <p>Set how the current thread appears in the log. </p>
 
 <p class="definition">Definition at line <a class="el" href="logger_8cpp_source.html#l00032">32</a> of file <a class="el" href="logger_8cpp_source.html">logger.cpp</a>.</p>
+
+<p class="reference">References <a class="elRef" doxygen="/home/topisani/dev/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string/c_str.html">std::string::c_str()</a>.</p>
 
 </div>
 </div>

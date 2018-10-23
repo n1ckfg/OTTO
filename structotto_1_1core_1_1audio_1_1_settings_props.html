@@ -10,17 +10,19 @@
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
     <title>OTTO: otto::core::audio::SettingsProps Struct Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
       <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/HTML-CSS"],
 });
-</script><script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="bootstrap.min.js"></script>
     <script type="text/javascript" src="doxy-boot.js"></script>
+    <link rel="stylesheet" href="jquery.powertip.css">
     <link rel="stylesheet" href="website-styles.css" />
     <link href="doxygen.css" rel="stylesheet" type="text/css" /> <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -73,11 +75,16 @@
 <div class="title">otto::core::audio::SettingsProps Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00071">71</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+</div>
 <p><code>#include &lt;<a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for otto::core::audio::SettingsProps:</div>
-<div class="dyncontent">
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for otto::core::audio::SettingsProps:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
   <img src="structotto_1_1core_1_1audio_1_1_settings_props.png" usemap="#otto::core::audio::SettingsProps_map" alt=""/>
   <map id="otto::core::audio::SettingsProps_map" name="otto::core::audio::SettingsProps_map">
@@ -102,10 +109,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a259af425bc455d49088a867d96f204b2 inherit pub_types_structotto_1_1core_1_1props_1_1_properties"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_properties.html#a259af425bc455d49088a867d96f204b2">Super</a> = <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; detail::properties_for_list&lt; <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1get__tag__list">get_tag_list</a>&lt; void, Tags... &gt; &gt;&gt; &gt;</td></tr>
 <tr class="separator:a259af425bc455d49088a867d96f204b2 inherit pub_types_structotto_1_1core_1_1props_1_1_properties"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00071">71</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0375dd0ea453de1b0e8e38a40aace41b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0375dd0ea453de1b0e8e38a40aace41b">&#9670;&nbsp;</a></span>play_mode</h2>
 
@@ -117,7 +121,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Play Mode&quot;</span>, <a class="code" href="namespaceotto_1_1core_1_1audio.html#a3d7fa0c15086dbe9df3762d9da08382fac505a69ec179afb91b357bbbd1b0e60d">PlayMode::poly</a>,</div><div class="line">                                           <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9">props::has_limits::init</a>(<a class="code" href="namespaceotto_1_1core_1_1audio.html#a3d7fa0c15086dbe9df3762d9da08382fac505a69ec179afb91b357bbbd1b0e60d">PlayMode::poly</a>, <a class="code" href="namespaceotto_1_1core_1_1audio.html#a3d7fa0c15086dbe9df3762d9da08382fa9770a912a024ff4a98ae47b1a6374383">PlayMode::unison</a>)}</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Play Mode&quot;</span>, <a class="code" href="namespaceotto_1_1core_1_1audio.html#a3d7fa0c15086dbe9df3762d9da08382fac505a69ec179afb91b357bbbd1b0e60d">PlayMode::poly</a>,</div><div class="line">                                           <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9" title="Initialize components. ">props::has_limits::init</a>(<a class="code" href="namespaceotto_1_1core_1_1audio.html#a3d7fa0c15086dbe9df3762d9da08382fac505a69ec179afb91b357bbbd1b0e60d">PlayMode::poly</a>, <a class="code" href="namespaceotto_1_1core_1_1audio.html#a3d7fa0c15086dbe9df3762d9da08382fa9770a912a024ff4a98ae47b1a6374383">PlayMode::unison</a>)}</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00073">73</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
@@ -133,7 +137,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Portamento&quot;</span>, 0,</div><div class="line">                                           <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9">props::has_limits::init</a>(0, 1),</div><div class="line">                                         <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9">props::steppable::init</a>(0.01)}</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Portamento&quot;</span>, 0,</div><div class="line">                                           <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9" title="Initialize components. ">props::has_limits::init</a>(0, 1),</div><div class="line">                                         <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9" title="Initialize components. ">props::steppable::init</a>(0.01)}</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00076">76</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
@@ -149,7 +153,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Octave&quot;</span>, 0,</div><div class="line">                                   <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9">props::has_limits::init</a>(-2, 7)}</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Octave&quot;</span>, 0,</div><div class="line">                                   <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9" title="Initialize components. ">props::has_limits::init</a>(-2, 7)}</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00080">80</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
@@ -165,7 +169,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Transpose&quot;</span>, 0,</div><div class="line">                                      <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9">props::has_limits::init</a>(-12, 12)}</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="keyword">this</span>, <span class="stringliteral">&quot;Transpose&quot;</span>, 0,</div><div class="line">                                      <a class="code" href="namespaceotto_1_1service_1_1audio.html#a8fede83e7c67fb4f90e5eb6cb963c7b9" title="Initialize components. ">props::has_limits::init</a>(-12, 12)}</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00083">83</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
