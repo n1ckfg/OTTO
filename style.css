@@ -202,3 +202,30 @@ code {
 a#details + h2.groupheader {
     display:none;
 }
+
+dl.warning, dl.attention {
+    border-left: 5px solid;
+    border-color: #ff4444;
+    background: #f5dada;
+    border-radius: 2px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.attention code {
+    background: #ffededf4;
+}
+
+dl.note {
+    border-left: 5px solid;
+    border-color: #ffa700;
+    background: #fff1d1;
+    border-radius: 2px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 0px;
+}
+dl.note code {
+    background: #fffcedf4;
+}
