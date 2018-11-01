@@ -244,7 +244,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<p class=""><code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a> == p</code> </p><dl class="section remark"><dt>Remarks</dt><dd>remember to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a5cc74bf7e4d1152e90157d71ea5c12c5" title="Read the data from file.">read()</a></code> after construction </dd></dl>
+<p class="">\postconditions <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a> == p</code> </p><dl class="section remark"><dt>Remarks</dt><dd>remember to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a5cc74bf7e4d1152e90157d71ea5c12c5" title="Read the data from file.">read()</a></code> after construction </dd></dl>
 
 </div>
 </div>
@@ -301,7 +301,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Write the data to file. </p>
-<p class="">serialize <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>, and write it to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code>. No filestreams are left open.</p>
+<p class="">\effects serialize <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>, and write it to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code>. No filestreams are left open.</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html" title="STL class.">std::system_error</a></code> on IO failure </td></tr>
@@ -336,7 +336,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Read the data from file. </p>
-<p class="">deserialize the data in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code> and store it in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>. No filestreams are left open.</p>
+<p class="">\effects deserialize the data in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code> and store it in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>. No filestreams are left open.</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html" title="STL class.">std::system_error</a></code> on IO failure </td></tr>

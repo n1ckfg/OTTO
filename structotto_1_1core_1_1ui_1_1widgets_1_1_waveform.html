@@ -285,7 +285,7 @@ template&lt;typename Plotter &gt; </div>
 </div><div class="memdoc">
 
 <p>Draw the entire waveform using <code>Plotter</code> </p>
-<p class=""><code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </p>
+<p class="">\requires <code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00168">168</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
@@ -329,7 +329,7 @@ template&lt;typename C &gt; </div>
   </table>
   </dd>
 </dl>
-<p><code>subrange</code> should be within [*Waveform<code>::range]() - <code>range.in</code> </code></p>
+<p>\requires <code>subrange</code> should be within [*Waveform<code>::range]() - <code>range.in</code> </code></p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00178">178</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
@@ -381,12 +381,12 @@ template&lt;typename Plotter &gt; </div>
   </table>
   </dd>
 </dl>
-<p><code>subrange</code> should be within [*Waveform<code>::range]() - <code>range.in</code></code></p>
-<p class=""><code><code> <code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </code></code></p>
+<p>\requires <code>subrange</code> should be within [*Waveform<code>::range]() - <code>range.in</code></code></p>
+<p class=""><code><code>\requires <code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </code></code></p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00187">187</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/ceil.html">std::ceil()</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/floor.html">std::floor()</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/algorithm/max.html">std::max()</a>, and <a class="el" href="util_2audio_8hpp_source.html#l00082">otto::util::audio::Section&lt; T &gt;::out</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/ceil.html">std::ceil()</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/floor.html">std::floor()</a>, <a class="el" href="audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/algorithm/max.html">std::max()</a>, and <a class="el" href="audio_8hpp_source.html#l00082">otto::util::audio::Section&lt; T &gt;::out</a>.</p>
 
 </div>
 </div>
@@ -506,7 +506,7 @@ template&lt;typename Container &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00089">89</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/round.html">std::round()</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
+<p class="reference">References <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/round.html">std::round()</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
 
 </div>
 </div>
@@ -530,7 +530,7 @@ template&lt;typename Container &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00098">98</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/floor.html">std::floor()</a>, <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/floor.html">std::floor()</a>, <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
 
 </div>
 </div>
@@ -554,7 +554,7 @@ template&lt;typename Container &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00107">107</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/ceil.html">std::ceil()</a>, <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="util_2audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
+<p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/numeric/math/ceil.html">std::ceil()</a>, <a class="el" href="canvas_8hpp_source.html#l00081">otto::core::ui::vg::Size::h</a>, <a class="el" href="audio_8hpp_source.html#l00081">otto::util::audio::Section&lt; T &gt;::in</a>, and <a class="el" href="screen_8hpp_source.html#l00043">otto::core::ui::Widget::size</a>.</p>
 
 </div>
 </div>

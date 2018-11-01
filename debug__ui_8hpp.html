@@ -70,26 +70,26 @@
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">debug_ui.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;imgui.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="algorithm_8hpp_source.html">util/algorithm.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="locked_8hpp_source.html">util/locked.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ringbuffer_8hpp_source.html">util/ringbuffer.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="service_8hpp_source.html">core/service.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="application_8hpp_source.html">services/application.hpp</a>&quot;</code><br />
 </div>
 <p><a href="debug__ui_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1service_1_1debug__ui_1_1_info.html">otto::service::debug_ui::Info</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_debug_u_i.html">otto::services::DebugUI</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1service_1_1debug__ui_1_1graph.html">otto::service::debug_ui::graph&lt; N &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1graph.html">otto::services::graph&lt; N &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -97,21 +97,8 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceotto"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto.html">otto</a></td></tr>
 <tr class="memdesc:namespaceotto"><td class="mdescLeft">&#160;</td><td class="mdescRight">The property system. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceotto_1_1service"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service.html">otto::service</a></td></tr>
+<tr class="memitem:namespaceotto_1_1services"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html">otto::services</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceotto_1_1service_1_1debug__ui"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1debug__ui.html">otto::service::debug_ui</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:abe31b3326bf95c252296ef09ba903ea5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1debug__ui.html#abe31b3326bf95c252296ef09ba903ea5">otto::service::debug_ui::init</a> ()</td></tr>
-<tr class="memdesc:abe31b3326bf95c252296ef09ba903ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize components.  <a href="namespaceotto_1_1service_1_1debug__ui.html#abe31b3326bf95c252296ef09ba903ea5">More...</a><br /></td></tr>
-<tr class="separator:abe31b3326bf95c252296ef09ba903ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48da14fb41e3de6507616d3d8249179e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1debug__ui.html#a48da14fb41e3de6507616d3d8249179e">otto::service::debug_ui::draw_frame</a> ()</td></tr>
-<tr class="separator:a48da14fb41e3de6507616d3d8249179e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13fc83db8ebeda35fe828710e7c81e7f"><td class="memTemplParams" colspan="2">template&lt;typename Callable &gt; </td></tr>
-<tr class="memitem:a13fc83db8ebeda35fe828710e7c81e7f"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; util::is_invocable_v&lt; Callable &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1service_1_1debug__ui.html#a13fc83db8ebeda35fe828710e7c81e7f">otto::service::debug_ui::add_info</a> (Callable &amp;&amp;callable)</td></tr>
-<tr class="separator:a13fc83db8ebeda35fe828710e7c81e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
