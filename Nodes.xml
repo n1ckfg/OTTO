@@ -8501,17 +8501,17 @@
                  <Node>
                   <Name>read_bytes</Name>
                   <Path>classotto_1_1util_1_1_byte_file.html</Path>
-                  <Anchor>a40321c6b0edd3e2d2455fe68de3d9df8</Anchor>
+                  <Anchor>ab9925c4931f0f3ed30d7ded994da5ed9</Anchor>
                  </Node>
                  <Node>
                   <Name>read_bytes</Name>
                   <Path>classotto_1_1util_1_1_byte_file.html</Path>
-                  <Anchor>aef93320298a15f894153e5c35b1373d7</Anchor>
+                  <Anchor>a6150d22b46186efbdb1ac63a9445d811</Anchor>
                  </Node>
                  <Node>
                   <Name>read_bytes</Name>
                   <Path>classotto_1_1util_1_1_byte_file.html</Path>
-                  <Anchor>a5b0d4a2482291c44d853bc096d440a3a</Anchor>
+                  <Anchor>a6e6a73111be92c7e393f707f14451127</Anchor>
                  </Node>
                  <Node>
                   <Name>write_bytes</Name>
@@ -9062,163 +9062,6 @@
                   <Name>overloaded</Name>
                   <Path>structotto_1_1util_1_1overloaded.html</Path>
                   <Anchor>a8850d011e93c9425246fc84b5d326eb0</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>result</Name>
-                <Path>structotto_1_1util_1_1result.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>result_except</Name>
-                  <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>result_except</Name>
-                    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                    <Anchor>acd3c042d9b5d1db16548cf02db22b4fb</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>what</Name>
-                    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                    <Anchor>a2ea226af164e6cbc12c3b9e411599a32</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>res</Name>
-                    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                    <Anchor>a9ab4ff4442842858b85e17f191d8644f</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>Ok</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a4a5858752f961e33edab1cbefa3a5921</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Err</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>aa630a031e68fc698e54181ba499e3db7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>result</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a1412868c12a87f7ada98dda5dfbe5af7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>result</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>aea7a99b6dceea7e635dfd05c77c4d758</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>result</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a769b5d004f7919d724c53eba1394249d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>result</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a61b9ace6de1d72b7d4bdaf4843373c65</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>is_ok</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a8c7521637744bc5cf03b58ed0cd8fdb3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>is_err</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>ad7a82db51bf09d00c5fe52357bb33f95</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ok</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a8293d66e6bb1671c3bf2e66a96f41ec5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>err</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a7aa4bcf6db47c2fbbe1c214c8ede4220</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>map</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>afabaf544643143b017b4582a2d82dc5d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>map_err</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a899344c3764a87e9c346b5c4bbd81ce4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator &amp;&amp;</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a0c631f6990fe5c7378001598bb31ddc1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>and_then</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>aaf973c41760f9155520b2302b6af7691</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator||</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>adf62fd587041eb8f6ca7faff63160568</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>or_else</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a4d86398459e7d44fa4afa562d9642709</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ok_or</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a5a7e4543ec583056cbd1c878260d5578</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>err_or</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a8faa500965b513ada1034a7c529160e3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>ok_or_else</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>af703cd2e23e50a1dd690fddc1bbdde33</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>err_or_else</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a3596c8df373e1ce91b441077f1699c67</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>if_ok</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a8617206010cb4f180877a88672dfff2c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>if_err</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a917d663ff2fbbd78b3b94aed54324a41</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>wrap</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>abc78d59eb65c8be830ab81046aa9a45b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>visit</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>ad70fae3954ce1bd540608f2bf379c5dd</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>unwrap_ok</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>ad1203f5ed390508dc8087d4153e1d038</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>unwrap_err</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Anchor>a2401c64477a1340feb9b8d5a0c80022e</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -11901,10 +11744,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>otto::util::result&lt; ok_t, err_t &gt;::result_except</Name>
-              <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-             </Node>
-             <Node>
               <Name>RtMidiError</Name>
               <Path>class_rt_midi_error.html</Path>
               <Subnodes>
@@ -12421,10 +12260,6 @@
             <Anchor>structotto_1_1core_1_1props_1_1mixin_1_1required__tags</Anchor>
            </Node>
            <Node>
-            <Name>otto::util::result&lt; ok_t, err_t &gt;</Name>
-            <Path>structotto_1_1util_1_1result.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::ui::RotaryEvent</Name>
             <Path>namespaceotto_1_1core_1_1ui.html</Path>
             <Anchor>structotto_1_1core_1_1ui_1_1_rotary_event</Anchor>
@@ -12583,13 +12418,13 @@
             <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::ui::vg::Size</Name>
-            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
-           </Node>
-           <Node>
             <Name>otto::board::ui::EGLConnection::Size</Name>
             <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
             <Anchor>structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_size</Anchor>
+           </Node>
+           <Node>
+            <Name>otto::core::ui::vg::Size</Name>
+            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
            </Node>
            <Node>
             <Name>otto::util::TapeFile::SliceArray</Name>
@@ -12706,12 +12541,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
            </Node>
            <Node>
             <Name>UIManager</Name>
@@ -26761,17 +26596,17 @@
                    <Node>
                     <Name>read_bytes</Name>
                     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-                    <Anchor>a40321c6b0edd3e2d2455fe68de3d9df8</Anchor>
+                    <Anchor>ab9925c4931f0f3ed30d7ded994da5ed9</Anchor>
                    </Node>
                    <Node>
                     <Name>read_bytes</Name>
                     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-                    <Anchor>aef93320298a15f894153e5c35b1373d7</Anchor>
+                    <Anchor>a6150d22b46186efbdb1ac63a9445d811</Anchor>
                    </Node>
                    <Node>
                     <Name>read_bytes</Name>
                     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-                    <Anchor>a5b0d4a2482291c44d853bc096d440a3a</Anchor>
+                    <Anchor>a6e6a73111be92c7e393f707f14451127</Anchor>
                    </Node>
                    <Node>
                     <Name>write_bytes</Name>
@@ -30726,190 +30561,6 @@
                   <Name>has_one_v</Name>
                   <Path>meta_8hpp.html</Path>
                   <Anchor>ae9f82ac0962a327c770d547e2378b2b4</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>result.hpp</Name>
-                <Path>result_8hpp.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>result</Name>
-                  <Path>structotto_1_1util_1_1result.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>result_except</Name>
-                    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>result_except</Name>
-                      <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                      <Anchor>acd3c042d9b5d1db16548cf02db22b4fb</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>what</Name>
-                      <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                      <Anchor>a2ea226af164e6cbc12c3b9e411599a32</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>res</Name>
-                      <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                      <Anchor>a9ab4ff4442842858b85e17f191d8644f</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>Ok</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a4a5858752f961e33edab1cbefa3a5921</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Err</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>aa630a031e68fc698e54181ba499e3db7</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>result</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a1412868c12a87f7ada98dda5dfbe5af7</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>result</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>aea7a99b6dceea7e635dfd05c77c4d758</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>result</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a769b5d004f7919d724c53eba1394249d</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>result</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a61b9ace6de1d72b7d4bdaf4843373c65</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>is_ok</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a8c7521637744bc5cf03b58ed0cd8fdb3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>is_err</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>ad7a82db51bf09d00c5fe52357bb33f95</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ok</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a8293d66e6bb1671c3bf2e66a96f41ec5</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>err</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a7aa4bcf6db47c2fbbe1c214c8ede4220</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>map</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>afabaf544643143b017b4582a2d82dc5d</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>map_err</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a899344c3764a87e9c346b5c4bbd81ce4</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator &amp;&amp;</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a0c631f6990fe5c7378001598bb31ddc1</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>and_then</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>aaf973c41760f9155520b2302b6af7691</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator||</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>adf62fd587041eb8f6ca7faff63160568</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>or_else</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a4d86398459e7d44fa4afa562d9642709</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ok_or</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a5a7e4543ec583056cbd1c878260d5578</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>err_or</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a8faa500965b513ada1034a7c529160e3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ok_or_else</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>af703cd2e23e50a1dd690fddc1bbdde33</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>err_or_else</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a3596c8df373e1ce91b441077f1699c67</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>if_ok</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a8617206010cb4f180877a88672dfff2c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>if_err</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a917d663ff2fbbd78b3b94aed54324a41</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>wrap</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>abc78d59eb65c8be830ab81046aa9a45b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>visit</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>ad70fae3954ce1bd540608f2bf379c5dd</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>unwrap_ok</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>ad1203f5ed390508dc8087d4153e1d038</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>unwrap_err</Name>
-                    <Path>structotto_1_1util_1_1result.html</Path>
-                    <Anchor>a2401c64477a1340feb9b8d5a0c80022e</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>result_except</Name>
-                  <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>result_except</Name>
-                    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                    <Anchor>acd3c042d9b5d1db16548cf02db22b4fb</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>what</Name>
-                    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                    <Anchor>a2ea226af164e6cbc12c3b9e411599a32</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>res</Name>
-                    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-                    <Anchor>a9ab4ff4442842858b85e17f191d8644f</Anchor>
-                   </Node>
-                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>

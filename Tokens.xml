@@ -37281,7 +37281,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a40321c6b0edd3e2d2455fe68de3d9df8</Anchor>
+    <Anchor>ab9925c4931f0f3ed30d7ded994da5ed9</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -37292,7 +37292,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>aef93320298a15f894153e5c35b1373d7</Anchor>
+    <Anchor>a6150d22b46186efbdb1ac63a9445d811</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -37303,7 +37303,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a5b0d4a2482291c44d853bc096d440a3a</Anchor>
+    <Anchor>a6e6a73111be92c7e393f707f14451127</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -38842,400 +38842,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::util::result</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Abstract>A sum type, holding either an Ok value, or an Err.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Ok</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a4a5858752f961e33edab1cbefa3a5921</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Err</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>aa630a031e68fc698e54181ba499e3db7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>result</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a1412868c12a87f7ada98dda5dfbe5af7</Anchor>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>result</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>aea7a99b6dceea7e635dfd05c77c4d758</Anchor>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>result</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a769b5d004f7919d724c53eba1394249d</Anchor>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>result</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a61b9ace6de1d72b7d4bdaf4843373c65</Anchor>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>is_ok</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a8c7521637744bc5cf03b58ed0cd8fdb3</Anchor>
-    <Abstract>Check if result is ok.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>is_err</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>ad7a82db51bf09d00c5fe52357bb33f95</Anchor>
-    <Abstract>Check if result is errored.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ok</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a8293d66e6bb1671c3bf2e66a96f41ec5</Anchor>
-    <Abstract>Convert into a std::optional&lt;Ok&gt;, discarding the error, if any.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>err</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a7aa4bcf6db47c2fbbe1c214c8ede4220</Anchor>
-    <Abstract>Convert into a std::optional&lt;Err&gt;, discarding the ok value, if any.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>map</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>afabaf544643143b017b4582a2d82dc5d</Anchor>
-    <Abstract>Map &lt;otto::result&lt;O, E&gt;&gt; to result&lt;U, E&gt; by invoking op on a contained Ok value, leaving an Err value...</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>map_err</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a899344c3764a87e9c346b5c4bbd81ce4</Anchor>
-    <Abstract>Map result&lt;O, E&gt; to result&lt;O, F&gt; by invoking op on a contained Err value, leaving an Ok value untouch...</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator &amp;&amp;</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a0c631f6990fe5c7378001598bb31ddc1</Anchor>
-    <Abstract>Returns r if the result is Ok, otherwise returns its own Err value.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>and_then</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>aaf973c41760f9155520b2302b6af7691</Anchor>
-    <Abstract>Invokes f with the ok value if the result is Ok, otherwise returns its own Err value.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator||</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>adf62fd587041eb8f6ca7faff63160568</Anchor>
-    <Abstract>Returns r if the result is Err, otherwise returns its own Ok value.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>or_else</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a4d86398459e7d44fa4afa562d9642709</Anchor>
-    <Abstract>Invokes f with the error value if the result is Err, otherwise returns its own Ok value.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ok_or</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a5a7e4543ec583056cbd1c878260d5578</Anchor>
-    <Abstract>Returns its own value if the result is ok, otherwise returns def</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>err_or</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a8faa500965b513ada1034a7c529160e3</Anchor>
-    <Abstract>Returns its own value if the result is err, otherwise returns def</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ok_or_else</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>af703cd2e23e50a1dd690fddc1bbdde33</Anchor>
-    <Abstract>Returns its own value if the result is ok, otherwise invokes f with the error value.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>err_or_else</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a3596c8df373e1ce91b441077f1699c67</Anchor>
-    <Abstract>Returns its own value if the result is err, otherwise invokes f with the ok value.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>if_ok</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a8617206010cb4f180877a88672dfff2c</Anchor>
-    <Abstract>If ok, call f(ok)</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>if_err</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a917d663ff2fbbd78b3b94aed54324a41</Anchor>
-    <Abstract>If err, call f(err)</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>wrap</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>abc78d59eb65c8be830ab81046aa9a45b</Anchor>
-    <Abstract>If ok, call fo(ok), otherwise call fe(err)</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>visit</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>ad70fae3954ce1bd540608f2bf379c5dd</Anchor>
-    <Abstract>If ok, call visitor(ok), otherwise call visitor(err)</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>unwrap_ok</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>ad1203f5ed390508dc8087d4153e1d038</Anchor>
-    <Abstract>Return ok, or throw a result_except&lt;Err&gt; holding the result.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>unwrap_err</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result.html</Path>
-    <Anchor>a2401c64477a1340feb9b8d5a0c80022e</Anchor>
-    <Abstract>Return err, or throw a result_except&lt;Err&gt; holding the result.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::util::result::result_except</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>otto::util::result::result_except</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-    <Abstract>Thrown from &lt;unwrap_ok&gt; and &lt;unwrap_err&gt;.</Abstract>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>result_except</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result::result_except</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-    <Anchor>acd3c042d9b5d1db16548cf02db22b4fb</Anchor>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>what</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::result::result_except</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-    <Anchor>a2ea226af164e6cbc12c3b9e411599a32</Anchor>
-    <DeclaredIn>result.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>what</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/what.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~exception</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/~exception.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator=</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/operator=.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>exception</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/exception.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>res</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::util::result::result_except</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1result_1_1result__except.html</Path>
-    <Anchor>a9ab4ff4442842858b85e17f191d8644f</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>otto::util::ringbuffer</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -39883,7 +39489,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a40321c6b0edd3e2d2455fe68de3d9df8</Anchor>
+    <Anchor>ab9925c4931f0f3ed30d7ded994da5ed9</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39894,7 +39500,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>aef93320298a15f894153e5c35b1373d7</Anchor>
+    <Anchor>a6150d22b46186efbdb1ac63a9445d811</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39905,7 +39511,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a5b0d4a2482291c44d853bc096d440a3a</Anchor>
+    <Anchor>a6e6a73111be92c7e393f707f14451127</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40514,7 +40120,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a40321c6b0edd3e2d2455fe68de3d9df8</Anchor>
+    <Anchor>ab9925c4931f0f3ed30d7ded994da5ed9</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40525,7 +40131,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>aef93320298a15f894153e5c35b1373d7</Anchor>
+    <Anchor>a6150d22b46186efbdb1ac63a9445d811</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40536,7 +40142,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a5b0d4a2482291c44d853bc096d440a3a</Anchor>
+    <Anchor>a6e6a73111be92c7e393f707f14451127</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
