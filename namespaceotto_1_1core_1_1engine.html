@@ -73,7 +73,6 @@
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">otto::core::engine Namespace Reference</div>  </div>
@@ -136,17 +135,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a46a6572deaa916a3d887179d9d69d2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Engine type.  <a href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3">More...</a><br /></td></tr>
 <tr class="separator:a46a6572deaa916a3d887179d9d69d2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9a3c4892f5b17469ef8e779cf93e0fe4"><td class="memTemplParams" colspan="2">template&lt;typename REngine , typename... Args&gt; </td></tr>
-<tr class="memitem:a9a3c4892f5b17469ef8e779cf93e0fe4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#a9a3c4892f5b17469ef8e779cf93e0fe4">register_engine</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:a9a3c4892f5b17469ef8e779cf93e0fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register an engine.  <a href="#a9a3c4892f5b17469ef8e779cf93e0fe4">More...</a><br /></td></tr>
-<tr class="separator:a9a3c4892f5b17469ef8e779cf93e0fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aced0c9410947230ec055416ea831ddda"><td class="memTemplParams" colspan="2">template&lt;EngineType ET&gt; </td></tr>
-<tr class="memitem:aced0c9410947230ec055416ea831ddda"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; ET &gt; &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#aced0c9410947230ec055416ea831ddda">create_engines</a> ()</td></tr>
-<tr class="memdesc:aced0c9410947230ec055416ea831ddda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct all registered engines of type <code>ET</code>  <a href="#aced0c9410947230ec055416ea831ddda">More...</a><br /></td></tr>
-<tr class="separator:aced0c9410947230ec055416ea831ddda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -242,76 +230,21 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p><a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html" title="Engine base class.">Engine</a> type. </p>
-<p class="">Each engine has a type, which signifies the group it belongs to. </p>
+<p>Each engine has a type, which signifies the group it belongs to. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3a3d401e8a794a88b7666f73faf9c99014"></a>synth&#160;</td><td class="fielddoc"><p class="">Synth engines. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3a3d401e8a794a88b7666f73faf9c99014"></a>synth&#160;</td><td class="fielddoc"><p>Synth engines. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3abf5b17fac5c60d745a593b5920372235"></a>effect&#160;</td><td class="fielddoc"><p class="">FX engines. </p>
+<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3abf5b17fac5c60d745a593b5920372235"></a>effect&#160;</td><td class="fielddoc"><p>FX engines. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3a4aba196e572bb81e0036cfd9b9992781"></a>sequencer&#160;</td><td class="fielddoc"><p class="">Sequencer engines. </p>
+<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3a4aba196e572bb81e0036cfd9b9992781"></a>sequencer&#160;</td><td class="fielddoc"><p>Sequencer engines. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3aeb3bac16ce0b10104556989311d71e56"></a>twist&#160;</td><td class="fielddoc"><p class="">Twist engines - Not really engines in the same sense. </p>
+<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3aeb3bac16ce0b10104556989311d71e56"></a>twist&#160;</td><td class="fielddoc"><p>Twist engines - Not really engines in the same sense. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3abc957e26ff41470c556ee5d09e96880b"></a>misc&#160;</td><td class="fielddoc"><p class="">Misc engines - used for stuff like the Master screen. </p>
+<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3abc957e26ff41470c556ee5d09e96880b"></a>misc&#160;</td><td class="fielddoc"><p>Misc engines - used for stuff like the Master screen. </p>
 </td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00021">21</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a9a3c4892f5b17469ef8e779cf93e0fe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a3c4892f5b17469ef8e779cf93e0fe4">&#9670;&nbsp;</a></span>register_engine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename REngine , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void otto::core::engine::register_engine </td>
-          <td>(</td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Register an engine. </p>
-<p class="">\effects Store a function which constructs an <code>REngine</code> in a <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html" title="STL class.">std::unique_ptr</a> with <code>args</code> forwarded. </p>
-
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00294">294</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="engine_8hpp_source.html#l00286">otto::core::otto::core::engine::internal::make_wrapper()</a>.</p>
-
-</div>
-</div>
-<a id="aced0c9410947230ec055416ea831ddda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aced0c9410947230ec055416ea831ddda">&#9670;&nbsp;</a></span>create_engines()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;EngineType ET&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt;<a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt;ET&gt; &gt; &gt; otto::core::engine::create_engines </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Construct all registered engines of type <code>ET</code> </p>
-<p class="">This is mostly useful for [EngineDispatcher&lt;ET&gt;]()</p>
-<p class="">\effects Call all the stored constructors for type <code>ET</code>, and move the resulting <code>unique_ptr</code>s into a vector, which is returned. </p>
-
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00309">309</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
-
-<p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector/emplace_back.html">std::vector&lt; T &gt;::emplace_back()</a>, and <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector/reserve.html">std::vector&lt; T &gt;::reserve()</a>.</p>
 
 </div>
 </div>
@@ -331,7 +264,7 @@ template&lt;typename E &gt; </div>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">    decltype(<a class="code" href="namespaceotto_1_1core_1_1engine_1_1internal.html#ac2cbdac55d70f2e6fd796857a12aa538">internal::engine_type_impl_func</a>(std::declval&lt;E&gt;()))::value</div></div><!-- fragment -->
 <p>Type trait to get engine type. </p>
-<p class="">SFINAE friendly, and will match any type that inherits from [<a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html" title="Engine base class.">Engine</a>]() </p>
+<p>SFINAE friendly, and will match any type that inherits from [<a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html" title="Engine base class.">Engine</a>]() </p>
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00205">205</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 

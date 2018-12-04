@@ -92,8 +92,8 @@
   <img src="structotto_1_1board_1_1otto_1_1services_1_1_u_i_manager.png" usemap="#otto::board::otto::services::UIManager_map" alt=""/>
   <map id="otto::board::otto::services::UIManager_map" name="otto::board::otto::services::UIManager_map">
 <area href="structotto_1_1core_1_1_service.html" alt="otto::core::Service" shape="rect" coords="0,0,219,24"/>
-</map>
- </div></div>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -297,9 +297,9 @@ key</td>
 </div><div class="memdoc">
 
 <p>The main ui loop. </p>
-<p class="">This sets up all the device specific graphics, and calls internal::draw_frame 60 times pr second, until global::running is false, or the graphics are exitted by the user. It is also responsible for listening to keyevents, and calling internal::keypress and internal::keyrelease as apropriate.</p>
-<p class="">On some platforms (OSX), all OpenGL calls must be made from the main thread, therefore this function is called from <code>main()</code>.</p>
-<p class="">One important note, is that this function is implemented in the graphics drivers. The drivers can be found in the "egl" (RPI native) and "glfw" (Windowing systems) folders. </p>
+<p>This sets up all the device specific graphics, and calls internal::draw_frame 60 times pr second, until global::running is false, or the graphics are exitted by the user. It is also responsible for listening to keyevents, and calling internal::keypress and internal::keyrelease as apropriate.</p>
+<p>On some platforms (OSX), all OpenGL calls must be made from the main thread, therefore this function is called from <code>main()</code>.</p>
+<p>One important note, is that this function is implemented in the graphics drivers. The drivers can be found in the "egl" (RPI native) and "glfw" (Windowing systems) folders. </p>
 
 </div>
 </div>
@@ -384,7 +384,7 @@ key</td>
 </div><div class="memdoc">
 
 <p>Display a screen. </p>
-<p class="">Calls Screen::on_hide for the old screen, and then Screen::on_show for the new screen </p>
+<p>Calls Screen::on_hide for the old screen, and then Screen::on_show for the new screen </p>
 
 </div>
 </div>
@@ -517,7 +517,7 @@ key</td>
 </div><div class="memdoc">
 
 <p>Dispatches to the event handler for the current screen, and handles global keys. </p>
-<p class="">Can be executed from a separate thread </p>
+<p>Can be executed from a separate thread </p>
 
 </div>
 </div>
@@ -546,7 +546,7 @@ key</td>
 </div><div class="memdoc">
 
 <p>Dispatches to the event handler for the current screen, and handles global keys. </p>
-<p class="">Can be executed from a separate thread, but must be the same thread as keypress </p>
+<p>Can be executed from a separate thread, but must be the same thread as keypress </p>
 
 </div>
 </div>
@@ -575,7 +575,7 @@ key</td>
 </div><div class="memdoc">
 
 <p>Send rotary event. </p>
-<p class="">Can be executed from a separate thread </p>
+<p>Can be executed from a separate thread </p>
 
 </div>
 </div>
@@ -647,7 +647,7 @@ key</td>
 </div><div class="memdoc">
 
 <p>Temporary solution. </p>
-<p class="">@TODO replace with something cleaner </p>
+<p>@TODO replace with something cleaner </p>
 
 </div>
 </div>

@@ -81,11 +81,11 @@
 <div class="textblock"><h3>template&lt;typename I, typename V = typename detail::value_type&lt;I&gt;::type&gt;<br />
 class otto::util::iterator::float_step_iterator&lt; I, V &gt;</h3>
 
-<p class="">An iterator wrapper to iterate with a non-integer ratio. </p>
-<p class="">This iterates through contiguous data, or simply increments an integer value, with floating point steps. It keeps track of the error, and corrects it while iterating.</p>
-<p class="">The most common use case is iterating over data at a non-integer rate ratio. In the OTTO it is used to read sound samples at a different rate than how they were recorded.</p>
-<p class="">When used to iterator through data, it is preferred to use <code>first &lt; last</code> as the loop condition, as opposed to the conventional <code>first != last</code>. The need for doing this depends on the relationship between the <code>first</code> and <code>last</code> iterators. If one was created from the other, using &lt;operator+&gt; or <code>operator-</code>, they are guarantied to be reachable from the other using <code>operator++</code> or <code>operator--</code> as applicable, as long as the <code>step</code> member variable on the mutating iterator is unchanged.</p>
-<p class="">It has the same iterator category as the wrapped iteratory, except for random access iterators, which will be wrapped as bidirectional iterators. This is because a lot of the random access optimizations dont really apply to this.</p>
+<p>An iterator wrapper to iterate with a non-integer ratio. </p>
+<p>This iterates through contiguous data, or simply increments an integer value, with floating point steps. It keeps track of the error, and corrects it while iterating.</p>
+<p>The most common use case is iterating over data at a non-integer rate ratio. In the OTTO it is used to read sound samples at a different rate than how they were recorded.</p>
+<p>When used to iterator through data, it is preferred to use <code>first &lt; last</code> as the loop condition, as opposed to the conventional <code>first != last</code>. The need for doing this depends on the relationship between the <code>first</code> and <code>last</code> iterators. If one was created from the other, using &lt;operator+&gt; or <code>operator-</code>, they are guarantied to be reachable from the other using <code>operator++</code> or <code>operator--</code> as applicable, as long as the <code>step</code> member variable on the mutating iterator is unchanged.</p>
+<p>It has the same iterator category as the wrapped iteratory, except for random access iterators, which will be wrapped as bidirectional iterators. This is because a lot of the random access optimizations dont really apply to this.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">I</td><td>Any iterator that will be wrapped. </td></tr>
@@ -459,7 +459,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Dereference the iterator. </p>
-<p class="">Propagates to the dereference operator of &lt;ptr&gt; </p>
+<p>Propagates to the dereference operator of &lt;ptr&gt; </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00437">437</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -505,7 +505,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Compare equal. </p>
-<p class="">Requires members &lt;ptr&gt; and &lt;_error&gt; to be equal. Ignores &lt;step&gt;, as it has no effect on the dereferenced value. </p>
+<p>Requires members &lt;ptr&gt; and &lt;_error&gt; to be equal. Ignores &lt;step&gt;, as it has no effect on the dereferenced value. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00450">450</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -530,7 +530,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Compare inequal. </p>
-<p class="">Implemented as if by <code>!(*this == r)</code> </p>
+<p>Implemented as if by <code>!(*this == r)</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00458">458</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -556,7 +556,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Compare less than. </p>
-<p class="">Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
+<p>Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00467">467</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -582,7 +582,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Compare greater than. </p>
-<p class="">Only avaliable if <code>wrapped_type</code> is greater than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
+<p>Only avaliable if <code>wrapped_type</code> is greater than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00477">477</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -608,7 +608,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Compare less than or equal to. </p>
-<p class="">Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
+<p>Only avaliable if <code>wrapped_type</code> is less than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00487">487</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -634,7 +634,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Compare greater than or equal to. </p>
-<p class="">Only avaliable if <code>wrapped_type</code> is greater than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
+<p>Only avaliable if <code>wrapped_type</code> is greater than comparable to itself. If the two wrapped instances are equal, the error values are compared. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00497">497</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -659,7 +659,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Get the number of iterations to get from <code>rhs</code> to this. </p>
-<p class="">Takes the error values into account. </p>
+<p>Takes the error values into account. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00506">506</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -686,7 +686,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Increment this by <code>n</code> </p>
-<p class="">\effects Advance the iterator by <code>floor(error + n * speed)</code>, and store the remainder in <code>error</code>.</p>
+<p>\effects Advance the iterator by <code>floor(error + n * speed)</code>, and store the remainder in <code>error</code>.</p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to this </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00517">517</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
@@ -713,7 +713,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Increment this by one. </p>
-<p class="">\effects Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this </dd></dl>
+<p>\effects Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00533">533</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -740,7 +740,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Increment this by one. </p>
-<p class="">\effects Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment </dd></dl>
+<p>\effects Same as <code>*this += 1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00543">543</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -769,7 +769,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Decrement this by <code>n</code> </p>
-<p class="">\effects Same as <code>*this += -n</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this \requires <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
+<p>\effects Same as <code>*this += -n</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this \requires <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00556">556</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -795,7 +795,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Decrement this by one. </p>
-<p class="">\effects Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this \requires <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
+<p>\effects Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A reference to this \requires <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00569">569</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -822,7 +822,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>Decrement this by one. </p>
-<p class="">\effects Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment \requires <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
+<p>\effects Same as <code>*this += -1</code> </p><dl class="section return"><dt>Returns</dt><dd>A copy of this pre increment \requires <code>wrapped_type</code> shall be at least a Bidirectional Iterator, or this function will not exist. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00582">582</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -869,7 +869,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>The inaccuracy of the element this iterator points to. </p>
-<p class="">While &lt;step&gt; is an integer, this value will be constant. Otherwise it is in the range <code>[0, 1)</code>, signifying the fractional part of the real index. I.e. <code>ptr + <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#abe3143ac454d2a2a241ad530ffec7f05" title="The inaccuracy of the element this iterator points to.">error()</a> == real_index</code>. </p>
+<p>While &lt;step&gt; is an integer, this value will be constant. Otherwise it is in the range <code>[0, 1)</code>, signifying the fractional part of the real index. I.e. <code>ptr + <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#abe3143ac454d2a2a241ad530ffec7f05" title="The inaccuracy of the element this iterator points to.">error()</a> == real_index</code>. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00605">605</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -900,7 +900,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>The real numeric difference between this and <code>rhs</code>. </p>
-<p class="">Only avaliable if <code>wrapped_type</code> is random access. </p>
+<p>Only avaliable if <code>wrapped_type</code> is random access. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00613">613</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -924,8 +924,8 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;I&gt;::typ
 </div><div class="memdoc">
 
 <p>The size of one step. </p>
-<p class="">When incrementing, &lt;ptr&gt; will be effectively be incremented by this value.</p>
-<p class="">Changing this value does not invalidate any iterator, but be aware that an end iterator previously created using <code>*this + n</code> might no longer be reachable by incrementing this. If you need to change the iterator step while looping, prefer using <code>iter &lt; last</code> over <code>iter != last</code> </p>
+<p>When incrementing, &lt;ptr&gt; will be effectively be incremented by this value.</p>
+<p>Changing this value does not invalidate any iterator, but be aware that an end iterator previously created using <code>*this + n</code> might no longer be reachable by incrementing this. If you need to change the iterator step while looping, prefer using <code>iter &lt; last</code> over <code>iter != last</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00635">635</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 

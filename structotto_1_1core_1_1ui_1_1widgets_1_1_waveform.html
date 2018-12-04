@@ -82,7 +82,7 @@
 <div class="textblock"><h3>template&lt;typename Container&gt;<br />
 struct otto::core::ui::widgets::Waveform&lt; Container &gt;</h3>
 
-<p class="">Draws a waveform from data. </p>
+<p>Draws a waveform from data. </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00013">13</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 </div>
@@ -97,8 +97,8 @@ struct otto::core::ui::widgets::Waveform&lt; Container &gt;</h3>
   <map id="otto::core::ui::widgets::Waveform_3C_20Container_20_3E_map" name="otto::core::ui::widgets::Waveform_3C_20Container_20_3E_map">
 <area href="structotto_1_1core_1_1ui_1_1_widget.html" title="A [Drawable]() with a defined size." alt="otto::core::ui::Widget" shape="rect" coords="0,56,270,80"/>
 <area href="structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html" title="Anything that can be drawn on screen." alt="otto::core::ui::vg::Drawable" shape="rect" coords="0,0,270,24"/>
-</map>
- </div></div>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -285,7 +285,7 @@ template&lt;typename Plotter &gt; </div>
 </div><div class="memdoc">
 
 <p>Draw the entire waveform using <code>Plotter</code> </p>
-<p class="">\requires <code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </p>
+<p>\requires <code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00168">168</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
@@ -322,7 +322,7 @@ template&lt;typename C &gt; </div>
 </div><div class="memdoc">
 
 <p>Draw a subset of the waveform using the default plotter (<code>plotRounded</code>). </p>
-<p class="">Useful for colouring different parts differently.</p>
+<p>Useful for colouring different parts differently.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">subrange</td><td>The range to draw, with 0 at <code>[*Waveform&lt;C&gt;::range]().in</code></td></tr>
@@ -374,7 +374,7 @@ template&lt;typename Plotter &gt; </div>
 </div><div class="memdoc">
 
 <p>Draw a subset of the waveform using <code>Plotter</code>. </p>
-<p class="">Useful for colouring different parts differently.</p>
+<p>Useful for colouring different parts differently.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">subrange</td><td>The range to draw, with 0 at [*Waveform<code>::range]()<code>().in</code></code></td></tr>
@@ -382,7 +382,7 @@ template&lt;typename Plotter &gt; </div>
   </dd>
 </dl>
 <p>\requires <code>subrange</code> should be within [*Waveform<code>::range]() - <code>range.in</code></code></p>
-<p class=""><code><code>\requires <code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </code></code></p>
+<p><code><code>\requires <code>Plotter</code> should be invocable as <code>void(ctx, first, last)</code> </code></code></p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00187">187</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
@@ -408,7 +408,7 @@ template&lt;typename Container &gt; </div>
 </div><div class="memdoc">
 
 <p>The viewed range. </p>
-<p class="">Start and end indexes into the container coresponding to left/right edges of the widget </p>
+<p>Start and end indexes into the container coresponding to left/right edges of the widget </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00061">61</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 
@@ -433,7 +433,7 @@ template&lt;typename Container &gt; </div>
 </div><div class="memdoc">
 
 <p>Set the viewed range. </p>
-<p class="">Invalidates the cache if the new value is different from the old </p>
+<p>Invalidates the cache if the new value is different from the old </p>
 
 <p class="definition">Definition at line <a class="el" href="waveform__widget_8hpp_source.html#l00068">68</a> of file <a class="el" href="waveform__widget_8hpp_source.html">waveform_widget.hpp</a>.</p>
 

@@ -73,9 +73,9 @@
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p class="">A realtime MIDI output class. </p>
-<p class="">This class provides a common, platform-independent API for MIDI output. It allows one to probe available MIDI output ports, to connect to one such port, and to send MIDI bytes immediately over the connection. Create multiple instances of this class to connect to more than one MIDI device at the same time. With the OS-X, Linux ALSA and JACK MIDI APIs, it is also possible to open a virtual port to which other MIDI software clients can connect.</p>
-<p class="">by Gary P. Scavone, 2003-2017. </p>
+<div class="textblock"><p>A realtime MIDI output class. </p>
+<p>This class provides a common, platform-independent API for MIDI output. It allows one to probe available MIDI output ports, to connect to one such port, and to send MIDI bytes immediately over the connection. Create multiple instances of this class to connect to more than one MIDI device at the same time. With the OS-X, Linux ALSA and JACK MIDI APIs, it is also possible to open a virtual port to which other MIDI software clients can connect.</p>
+<p>by Gary P. Scavone, 2003-2017. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00370">370</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 </div>
@@ -89,8 +89,8 @@
   <img src="class_rt_midi_out.png" usemap="#RtMidiOut_map" alt=""/>
   <map id="RtMidiOut_map" name="RtMidiOut_map">
 <area href="class_rt_midi.html" title="An abstract base class for realtime MIDI input/output." alt="RtMidi" shape="rect" coords="0,0,67,24"/>
-</map>
- </div></div>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -200,8 +200,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default constructor that allows an optional client name. </p>
-<p class="">An exception will be thrown if a MIDI system initialization error occurs.</p>
-<p class="">If no API argument is specified and multiple API support has been compiled, the default order of use is ALSA, JACK (Linux) and CORE, JACK (OS-X). </p>
+<p>An exception will be thrown if a MIDI system initialization error occurs.</p>
+<p>If no API argument is specified and multiple API support has been compiled, the default order of use is ALSA, JACK (Linux) and CORE, JACK (OS-X). </p>
 
 </div>
 </div>
@@ -295,7 +295,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Open a MIDI output connection. </p>
-<p class="">An optional port number greater than 0 can be specified. Otherwise, the default or first port found is opened. An exception is thrown if an error occurs while attempting to make the port connection. </p>
+<p>An optional port number greater than 0 can be specified. Otherwise, the default or first port found is opened. An exception is thrown if an error occurs while attempting to make the port connection. </p>
 
 <p>Implements <a class="el" href="class_rt_midi.html#a4834507ff21017d3b022422dbb8f6104">RtMidi</a>.</p>
 
@@ -364,7 +364,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if a port is open and false if not. </p>
-<p class="">Note that this only applies to connections made with the <a class="el" href="class_rt_midi_out.html#a4c29a5e7c0f5c088953ef02f3c38d4f3" title="Open a MIDI output connection.">openPort()</a> function, not to virtual ports. </p>
+<p>Note that this only applies to connections made with the <a class="el" href="class_rt_midi_out.html#a4c29a5e7c0f5c088953ef02f3c38d4f3" title="Open a MIDI output connection.">openPort()</a> function, not to virtual ports. </p>
 
 <p>Implements <a class="el" href="class_rt_midi.html#a74fc50ce1aec6b8ecb0c31094b3024a9">RtMidi</a>.</p>
 
@@ -399,7 +399,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a virtual output port, with optional name, to allow software connections (OS X, JACK and ALSA only). </p>
-<p class="">This function creates a virtual MIDI output port to which other software applications can connect. This type of functionality is currently only supported by the Macintosh OS-X, Linux ALSA and JACK APIs (the function does nothing with the other APIs). An exception is thrown if an error occurs while attempting to create the virtual port. </p>
+<p>This function creates a virtual MIDI output port to which other software applications can connect. This type of functionality is currently only supported by the Macintosh OS-X, Linux ALSA and JACK APIs (the function does nothing with the other APIs). An exception is thrown if an error occurs while attempting to create the virtual port. </p>
 
 <p>Implements <a class="el" href="class_rt_midi.html#a2fcf7bceb243f3da51d2322a7a5ae11f">RtMidi</a>.</p>
 
@@ -501,7 +501,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Immediately send a single message out an open MIDI output port. </p>
-<p class="">An exception is thrown if an error occurs during output or an output connection was not previously established. </p>
+<p>An exception is thrown if an error occurs during output or an output connection was not previously established. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00606">606</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
@@ -536,7 +536,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Immediately send a single message out an open MIDI output port. </p>
-<p class="">An exception is thrown if an error occurs during output or an output connection was not previously established.</p>
+<p>An exception is thrown if an error occurs during output or an output connection was not previously established.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">message</td><td>A pointer to the MIDI message as raw bytes </td></tr>
@@ -586,7 +586,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set an error callback function to be invoked when an error has occured. </p>
-<p class="">The callback function will be called whenever an error has occured. It is best to set the error callback function before opening a port. </p>
+<p>The callback function will be called whenever an error has occured. It is best to set the error callback function before opening a port. </p>
 
 <p>Implements <a class="el" href="class_rt_midi.html#aa6d6f2e0d06c64268c8898aa15f3a5df">RtMidi</a>.</p>
 

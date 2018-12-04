@@ -75,8 +75,8 @@
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p class="">Contains macros used to define mixins. </p>
-<p class="">All of these macros are undefined in the file <code><a class="el" href="undef__mixin__macros_8hpp.html" title="Undefine all macros defined in mixin_macros.hpp">undef_mixin_macros.hpp</a></code>, so include that at the bottom of mixin files </p>
+<div class="textblock"><p>Contains macros used to define mixins. </p>
+<p>All of these macros are undefined in the file <code><a class="el" href="undef__mixin__macros_8hpp.html" title="Undefine all macros defined in mixin_macros.hpp">undef_mixin_macros.hpp</a></code>, so include that at the bottom of mixin files </p>
 
 <p class="definition">Definition in file <a class="el" href="mixin__macros_8hpp_source.html">mixin_macros.hpp</a>.</p>
 </div><div class="textblock"><code>#include &quot;<a class="el" href="macros_8hpp_source.html">util/macros.hpp</a>&quot;</code><br />
@@ -170,8 +170,6 @@ Macros</h2></td></tr>
 <p>Declarations to place at the beginning of mixin decls. </p>
 
 <p class="definition">Definition at line <a class="el" href="mixin__macros_8hpp_source.html#l00014">14</a> of file <a class="el" href="mixin__macros_8hpp_source.html">mixin_macros.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="faust__link_8hpp_source.html#l00061">otto::core::props::OTTO_PROPS_MIXIN_LEAF()</a>.</p>
 
 </div>
 </div>
@@ -364,7 +362,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span>&lt;&gt;                                                                                       \</div><div class="line">  struct <a class="code" href="namespaceotto_1_1core_1_1props_1_1mixin.html#structotto_1_1core_1_1props_1_1mixin_1_1hooks">otto::core::props::mixin::hooks&lt;TAG_NAME&gt;</a> {                                               \</div><div class="line">    FOR_EACH(<a class="code" href="mixin__macros_8hpp.html#ae7db59322ef238de344f56d7e2620652" title="Call _OTTO_PROPS_MIXIN_HOOK with ARGLIST, where ARGLIST is a set of arguments wrapped in parens.">_OTTO_PROPS_MIXIN_HOOK_CALL</a>, __VA_ARGS__)                                             \</div><div class="line">  }</div></div><!-- fragment -->
 <p>Add hooks to a mixin. </p>
-<p class="">This macro is used in OTTO_PROPS_MIXIN by the name HOOKS. Arguments should be groups of parentheses of the form (HOOK_NAME, HOOK_TYPE) </p>
+<p>This macro is used in OTTO_PROPS_MIXIN by the name HOOKS. Arguments should be groups of parentheses of the form (HOOK_NAME, HOOK_TYPE) </p>
 
 <p class="definition">Definition at line <a class="el" href="mixin__macros_8hpp_source.html#l00103">103</a> of file <a class="el" href="mixin__macros_8hpp_source.html">mixin_macros.hpp</a>.</p>
 
@@ -801,8 +799,8 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="comment">/* Call OTTO_PROPS_MIXIN_1 if only 1 argument was provided, and */</span>                               \</div><div class="line">  <span class="comment">/* OTTO_PROPS_MIXIN_2 if multiple args were provided */</span>                                          \</div><div class="line">  SWITCH_FOR_VARARGS_1(<a class="code" href="mixin__macros_8hpp.html#a39d4a98f86a31d9c4d38a8725f8ab94b" title="\exclude">OTTO_PROPS_MIXIN_1</a>, <a class="code" href="mixin__macros_8hpp.html#aa0aa208996a398188f82473950d2e8d7" title="\exclude">OTTO_PROPS_MIXIN_2</a>, __VA_ARGS__)</div></div><!-- fragment -->
 <p>Start a mixin declaration. </p>
-<p class="">First argument is the mixin tag name, the rest (maximum 14) are other mixins to inherit from.</p>
-<p class="">Usage: </p><div class="fragment"><div class="line"><a class="code" href="mixin__macros_8hpp.html#a38e7fa1c87f0f6b8b4cc78d47f90aba6" title="Start a mixin declaration.">OTTO_PROPS_MIXIN</a>(has_maximum, has_value)</div><div class="line">{</div><div class="line">  <a class="code" href="mixin__macros_8hpp.html#a5fcf8a6cb57ae37b7c42e4f183ab73f7" title="Declarations to place at the beginning of mixin decls.">OTTO_PROPS_MIXIN_DECLS</a>(has_maximum);</div><div class="line">  static_assert(util::is_number_v&lt;T&gt;, <span class="stringliteral">&quot;property mixin &#39;has_maximum&#39; requires</span></div><div class="line"><span class="stringliteral">                a numeric type&quot;</span>);</div><div class="line">  T maximum() <span class="keyword">const</span>;</div><div class="line">};</div></div><!-- fragment --><p> This defines the tag type <code>has_name</code>, and the type template <code>has_name_impl&lt;T&gt;</code>, which inherits virtually from [otto::props::PropertyBase&lt;T&gt;]() and <code>has_value</code>. Applying this mixin will make the member function <code>maximum</code> avaliable to the user, along with any <code>has_value</code> members. </p>
+<p>First argument is the mixin tag name, the rest (maximum 14) are other mixins to inherit from.</p>
+<p>Usage: </p><div class="fragment"><div class="line"><a class="code" href="mixin__macros_8hpp.html#a38e7fa1c87f0f6b8b4cc78d47f90aba6" title="Start a mixin declaration.">OTTO_PROPS_MIXIN</a>(has_maximum, has_value)</div><div class="line">{</div><div class="line">  <a class="code" href="mixin__macros_8hpp.html#a5fcf8a6cb57ae37b7c42e4f183ab73f7" title="Declarations to place at the beginning of mixin decls.">OTTO_PROPS_MIXIN_DECLS</a>(has_maximum);</div><div class="line">  static_assert(util::is_number_v&lt;T&gt;, <span class="stringliteral">&quot;property mixin &#39;has_maximum&#39; requires</span></div><div class="line"><span class="stringliteral">                a numeric type&quot;</span>);</div><div class="line">  T maximum() <span class="keyword">const</span>;</div><div class="line">};</div></div><!-- fragment --><p> This defines the tag type <code>has_name</code>, and the type template <code>has_name_impl&lt;T&gt;</code>, which inherits virtually from [otto::props::PropertyBase&lt;T&gt;]() and <code>has_value</code>. Applying this mixin will make the member function <code>maximum</code> avaliable to the user, along with any <code>has_value</code> members. </p>
 
 <p class="definition">Definition at line <a class="el" href="mixin__macros_8hpp_source.html#l00177">177</a> of file <a class="el" href="mixin__macros_8hpp_source.html">mixin_macros.hpp</a>.</p>
 

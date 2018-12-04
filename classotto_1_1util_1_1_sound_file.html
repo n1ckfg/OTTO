@@ -83,7 +83,7 @@
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p class="">A file handler for sound (wav, aiff) files. </p>
+<div class="textblock"><p>A file handler for sound (wav, aiff) files. </p>
 
 <p class="definition">Definition at line <a class="el" href="soundfile_8hpp_source.html#l00012">12</a> of file <a class="el" href="soundfile_8hpp_source.html">soundfile.hpp</a>.</p>
 </div>
@@ -98,8 +98,8 @@
   <map id="otto::util::SoundFile_map" name="otto::util::SoundFile_map">
 <area href="classotto_1_1util_1_1_byte_file.html" title="TODO: Documentation." alt="otto::util::ByteFile" shape="rect" coords="0,0,117,24"/>
 <area href="classotto_1_1util_1_1_tape_file.html" alt="otto::util::TapeFile" shape="rect" coords="0,112,117,136"/>
-</map>
- </div></div>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -619,7 +619,7 @@ template&lt;typename InIter , typename &gt; </div>
 </div><div class="memdoc">
 
 <p>When extending &lt;SoundFile&gt;, override this function. </p>
-<p class="">It should push back any custom metadata chunks to <code>v</code> </p>
+<p>It should push back any custom metadata chunks to <code>v</code> </p>
 
 <p>Reimplemented in <a class="el" href="classotto_1_1util_1_1_tape_file.html#a1f17abf9df28a045714ffa22f01a82a4">otto::util::TapeFile</a>.</p>
 
@@ -652,7 +652,7 @@ template&lt;typename InIter , typename &gt; </div>
 </div><div class="memdoc">
 
 <p>When extending &lt;SoundFile&gt;, override this function. </p>
-<p class="">It should check the id of <code>ptr</code>, and if it matches, swap it with an instance of the correct class. If the chunk is unknown, leave it alone. After this, &lt;<a class="el" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#aa519ac3ae7a1203ae240c288f4d4886b">Chunk::read</a>&gt; will be invoked on <code>ptr</code>. </p>
+<p>It should check the id of <code>ptr</code>, and if it matches, swap it with an instance of the correct class. If the chunk is unknown, leave it alone. After this, &lt;<a class="el" href="structotto_1_1util_1_1_byte_file_1_1_chunk.html#aa519ac3ae7a1203ae240c288f4d4886b">Chunk::read</a>&gt; will be invoked on <code>ptr</code>. </p>
 
 <p>Reimplemented in <a class="el" href="classotto_1_1util_1_1_tape_file.html#a73630e6851cd033b5cc89df3cf855581">otto::util::TapeFile</a>.</p>
 

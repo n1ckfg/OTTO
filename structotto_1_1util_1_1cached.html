@@ -79,16 +79,16 @@
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 struct otto::util::cached&lt; T &gt;</h3>
 
-<p class="">A simple wrapper for invalidatable caches. </p>
-<p class="">If you are writing a separate struct to contain the cache data, use <code><a class="el" href="structotto_1_1util_1_1cache__base.html" title="A CRTP style cache base class.">cache_base</a></code> instead.</p>
-<p class="">The cached value is imutable, and lazilly refreshed. This wrapper is not thread safe at invalidation!</p>
-<p class="">It is constructed with a generator function, which can take two forms:</p>
+<p>A simple wrapper for invalidatable caches. </p>
+<p>If you are writing a separate struct to contain the cache data, use <code><a class="el" href="structotto_1_1util_1_1cache__base.html" title="A CRTP style cache base class.">cache_base</a></code> instead.</p>
+<p>The cached value is imutable, and lazilly refreshed. This wrapper is not thread safe at invalidation!</p>
+<p>It is constructed with a generator function, which can take two forms:</p>
 <ol type="1">
 <li><code>void(T&amp; cache)</code>, which is expected to update the <code>cache</code> parameter it is supplied with.</li>
 <li><code>T()</code>, which will return the new value.</li>
 </ol>
-<p class="">Both can be very useful in different contexts.</p>
-<p class="">\requires <code>T</code> shall be <code>DefaultConstructible</code> </p>
+<p>Both can be very useful in different contexts.</p>
+<p>\requires <code>T</code> shall be <code>DefaultConstructible</code> </p>
 
 <p class="definition">Definition at line <a class="el" href="cache_8hpp_source.html#l00084">84</a> of file <a class="el" href="cache_8hpp_source.html">cache.hpp</a>.</p>
 </div>
@@ -102,8 +102,8 @@ struct otto::util::cached&lt; T &gt;</h3>
   <img src="structotto_1_1util_1_1cached.png" usemap="#otto::util::cached_3C_20T_20_3E_map" alt=""/>
   <map id="otto::util::cached_3C_20T_20_3E_map" name="otto::util::cached_3C_20T_20_3E_map">
 <area href="structotto_1_1util_1_1cache__base.html" title="A CRTP style cache base class." alt="otto::util::cache_base&lt; T &gt;" shape="rect" coords="0,0,160,24"/>
-</map>
- </div></div>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>

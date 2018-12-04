@@ -78,7 +78,7 @@
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p class="">This namespace contains custom iterator types and general helper classes for working with containers. </p>
+<div class="textblock"><p>This namespace contains custom iterator types and general helper classes for working with containers. </p>
 <dl class="section attention"><dt>Attention</dt><dd><code><a class="el" href="namespaceotto_1_1util_1_1iterator.html" title="This namespace contains custom iterator types and general helper classes for working with containers.">otto::util::iterator</a></code> is an inline namespace, meaning all members can and should be accessed directly from the <code><a class="el" href="namespaceotto_1_1util.html">otto::util</a></code> namespace i.e. as <code>util::float_step(...)</code>, not <code>util::iterator::float_step(...)</code>. It is only a separate namespace for clarification of documentation and name resolution. </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -196,7 +196,7 @@ template&lt;typename Generator &gt; </div>
 </div><div class="memdoc">
 
 <p>Generating iterator. </p>
-<p class="">Supplied with a generator function, this iterator will generate a value each time its called. </p>
+<p>Supplied with a generator function, this iterator will generate a value each time its called. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00698">698</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
@@ -217,8 +217,8 @@ template&lt;typename... Iterators&gt; </div>
 </div><div class="memdoc">
 
 <p>Zipped iterator. </p>
-<p class="">Iterates over multiple iterators at the same time</p>
-<p class="">Its very useful with structured bindings and <code>for</code> loops. Using the helper function <a class="el" href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8">zip()</a>, you can iterate over multiple ranges like this: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; [r1, r2] : <a class="code" href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8" title="Create a ZippedRange from ranges.">util::zip</a>(range1, range2)) {</div><div class="line">  ...</div><div class="line">}</div></div><!-- fragment --> 
+<p>Iterates over multiple iterators at the same time</p>
+<p>Its very useful with structured bindings and <code>for</code> loops. Using the helper function <a class="el" href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8">zip()</a>, you can iterate over multiple ranges like this: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; [r1, r2] : <a class="code" href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8" title="Create a ZippedRange from ranges.">util::zip</a>(range1, range2)) {</div><div class="line">  ...</div><div class="line">}</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00796">796</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 </div>
@@ -413,7 +413,7 @@ template&lt;typename... Ranges&gt; </div>
 </div><div class="memdoc">
 
 <p>Create a <a class="el" href="structotto_1_1util_1_1iterator_1_1_zipped_range.html">ZippedRange</a> from ranges. </p>
-<p class="">Its very useful with structured bindings and <code>for</code> loops, letting you iterate over multiple containers at once: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; [r1, r2] : <a class="code" href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8" title="Create a ZippedRange from ranges.">util::zip</a>(range1, range2)) {</div><div class="line">  ...</div><div class="line">}</div></div><!-- fragment --> 
+<p>Its very useful with structured bindings and <code>for</code> loops, letting you iterate over multiple containers at once: </p><div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp;&amp; [r1, r2] : <a class="code" href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8" title="Create a ZippedRange from ranges.">util::zip</a>(range1, range2)) {</div><div class="line">  ...</div><div class="line">}</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00844">844</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="audio_8hpp_source.html#l00031">otto::util::audio::add_all()</a>.</p>

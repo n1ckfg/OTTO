@@ -81,8 +81,8 @@
 <div class="textblock"><h3>template&lt;class T = int&gt;<br />
 struct otto::util::audio::Section&lt; T &gt;</h3>
 
-<p class="">Agregate of an in and an out point, providing operations to compare and mutate one dimensional sections. </p>
-<p class="">Useful especially for marking sections on the tape </p>
+<p>Agregate of an in and an out point, providing operations to compare and mutate one dimensional sections. </p>
+<p>Useful especially for marking sections on the tape </p>
 
 <p class="definition">Definition at line <a class="el" href="audio_8hpp_source.html#l00080">80</a> of file <a class="el" href="audio_8hpp_source.html">audio.hpp</a>.</p>
 </div>
@@ -388,8 +388,8 @@ template&lt;class T = int&gt; </div>
 </div><div class="memdoc">
 
 <p>Add <code>o</code> to this section. </p>
-<p class="">Will, if needed, extend this section to span over both this and <code>o</code></p>
-<p class="">If <code>o</code> has <code>size &lt; 0</code>, no modifications are made </p>
+<p>Will, if needed, extend this section to span over both this and <code>o</code></p>
+<p>If <code>o</code> has <code>size &lt; 0</code>, no modifications are made </p>
 
 <p class="definition">Definition at line <a class="el" href="audio_8hpp_source.html#l00139">139</a> of file <a class="el" href="audio_8hpp_source.html">audio.hpp</a>.</p>
 
@@ -414,7 +414,7 @@ template&lt;class T = int&gt; </div>
 </div><div class="memdoc">
 
 <p>Add <code>o</code> to a copy of this section. </p>
-<p class="">see &lt;operator+=&gt; for details </p>
+<p>see &lt;operator+=&gt; for details </p>
 
 <p class="definition">Definition at line <a class="el" href="audio_8hpp_source.html#l00148">148</a> of file <a class="el" href="audio_8hpp_source.html">audio.hpp</a>.</p>
 
@@ -439,13 +439,13 @@ template&lt;class T = int&gt; </div>
 </div><div class="memdoc">
 
 <p>Subtract <code>o</code> from this section. </p>
-<p class="">If the result cannot be expressed as a single section, no modifications are made.</p>
+<p>If the result cannot be expressed as a single section, no modifications are made.</p>
 <ul>
 <li>If this contains <code>o</code>, no modifications are made.</li>
 <li>If this is contained by or equal to <code>o</code>, it will be turned into a unspecified, zero-size section.</li>
 <li>If the two sections partially overlap, the overlapping part will be removed.</li>
 </ul>
-<p class="">As such, it is guarantied that every part in this, but not in <code>o</code> will be preserved. It is however not guarrantied that all of <code>o</code> will be removed. </p>
+<p>As such, it is guarantied that every part in this, but not in <code>o</code> will be preserved. It is however not guarrantied that all of <code>o</code> will be removed. </p>
 
 <p class="definition">Definition at line <a class="el" href="audio_8hpp_source.html#l00168">168</a> of file <a class="el" href="audio_8hpp_source.html">audio.hpp</a>.</p>
 
@@ -470,7 +470,7 @@ template&lt;class T = int&gt; </div>
 </div><div class="memdoc">
 
 <p>Subtract <code>o</code> from a copy of this. </p>
-<p class="">See &lt;operator-=&gt; for details </p>
+<p>See &lt;operator-=&gt; for details </p>
 
 <p class="definition">Definition at line <a class="el" href="audio_8hpp_source.html#l00186">186</a> of file <a class="el" href="audio_8hpp_source.html">audio.hpp</a>.</p>
 

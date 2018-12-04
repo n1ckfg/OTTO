@@ -80,10 +80,10 @@
 <div class="textblock"><h3>template&lt;typename Data&gt;<br />
 struct otto::util::as_exception&lt; Data &gt;</h3>
 
-<p class="">A wrapper for throwing arbitrary data. </p>
-<p class="">Always use this instead of throwing an error code.</p>
+<p>A wrapper for throwing arbitrary data. </p>
+<p>Always use this instead of throwing an error code.</p>
 <h2>Prefered usage (error codes):</h2>
-<p class="">Define an <code>ErrorCode</code> enum, and a type alias to <code><a class="el" href="structotto_1_1util_1_1as__exception.html" title="A wrapper for throwing arbitrary data.">as_exception</a>&lt;ErrorCode&gt;</code> as member types in your class. You may also want to write a <code>to_string(ErrorCode)</code> function, which will be appended to the exception message.</p>
+<p>Define an <code>ErrorCode</code> enum, and a type alias to <code><a class="el" href="structotto_1_1util_1_1as__exception.html" title="A wrapper for throwing arbitrary data.">as_exception</a>&lt;ErrorCode&gt;</code> as member types in your class. You may also want to write a <code>to_string(ErrorCode)</code> function, which will be appended to the exception message.</p>
 <div class="fragment"><div class="line"><span class="keyword">enum struct</span> ErrorCode {</div><div class="line">  <a class="code" href="namespaceotto_1_1core_1_1ui.html#a306d8d976c3fabbc9d75769c9e3f498fa334c4a4c42fdb79d7ebc3e73b517e6f8">none</a> = 0,</div><div class="line">  <a class="code" href="namespaceotto_1_1filesystem.html#a0070c2df408661b3899ffa354bdf5792a7500611bf7030bc99d25c354e7b64714">not_found</a>,</div><div class="line">  invalid</div><div class="line">}</div><div class="line"><span class="keyword">using</span> <a class="code" href="structotto_1_1util_1_1exception.html#abcc5e9042cf318ba8276f84341a8e922" title="String formatting constructor.">exception</a> = util::as_exception&lt;ErrorCode&gt;;</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="exception_8hpp_source.html#l00061">61</a> of file <a class="el" href="exception_8hpp_source.html">exception.hpp</a>.</p>
 </div>
@@ -98,8 +98,8 @@ struct otto::util::as_exception&lt; Data &gt;</h3>
   <map id="otto::util::as_5Fexception_3C_20Data_20_3E_map" name="otto::util::as_5Fexception_3C_20Data_20_3E_map">
 <area href="structotto_1_1util_1_1exception.html" alt="otto::util::exception" shape="rect" coords="0,56,184,80"/>
 <area doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/exception.html" title="STL class." alt="std::exception" shape="rect" coords="0,0,184,24"/>
-</map>
- </div></div>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>

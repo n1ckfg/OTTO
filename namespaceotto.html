@@ -71,17 +71,17 @@
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p class="">The property system. </p>
-<p class="">OTTO Metaprogramming utilities.</p>
-<p class="">The property system is used for serialization, faust linking, encoder-stepping and more of variables, mainly on engines.</p>
+<div class="textblock"><p>The property system. </p>
+<p>OTTO Metaprogramming utilities.</p>
+<p>The property system is used for serialization, faust linking, encoder-stepping and more of variables, mainly on engines.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The implementation of this relies on a lot of template metaprogramming and generally complicated C++. You don't need to know how it works, but I'll try to explain how to use it.</dd></dl>
 <h2>Metafunctions</h2>
-<p class="">A metafunction is a struct that takes template arguments, and its "return" value is either a <code>static constexpr const</code> member variable named <code>value</code> or a memeber type named <code>type</code>. These can be accessed using the <code><a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e" title="Get return type from metafunction.">meta::_t</a>&lt;Func&gt;</code> or <code><a class="el" href="namespaceotto_1_1meta.html#abaac0f815996fa7d60333a899156a3c1" title="Get return value from metafunction.">meta::_v</a>&lt;Func&gt;</code> shorthand metavariables.</p>
+<p>A metafunction is a struct that takes template arguments, and its "return" value is either a <code>static constexpr const</code> member variable named <code>value</code> or a memeber type named <code>type</code>. These can be accessed using the <code><a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e" title="Get return type from metafunction.">meta::_t</a>&lt;Func&gt;</code> or <code><a class="el" href="namespaceotto_1_1meta.html#abaac0f815996fa7d60333a899156a3c1" title="Get return value from metafunction.">meta::_v</a>&lt;Func&gt;</code> shorthand metavariables.</p>
 <h2>Metavariables</h2>
-<p class="">Metavariables are either constexpr variables, or alias declarations, and should be prefixed by an underscore, to indicate that they do not need to be unwrapped using <code>_t</code> or <code>_v</code> like the metafunctions</p>
+<p>Metavariables are either constexpr variables, or alias declarations, and should be prefixed by an underscore, to indicate that they do not need to be unwrapped using <code>_t</code> or <code>_v</code> like the metafunctions</p>
 <h2>Metatypes</h2>
-<p class="">The center of most metafunctions here is the <code>list</code> metatype. This is simply a list of types that can be manipulated using metafunctions like <code>sort</code>, <code>uniquify</code>, <code>flatten</code> etc. There is also <code>pair</code> and <code>one</code>, which are useful mainly internally in metafunctions</p>
-<p class="">For more information, take a look at the test file </p>
+<p>The center of most metafunctions here is the <code>list</code> metatype. This is simply a list of types that can be manipulated using metafunctions like <code>sort</code>, <code>uniquify</code>, <code>flatten</code> etc. There is also <code>pair</code> and <code>one</code>, which are useful mainly internally in metafunctions</p>
+<p>For more information, take a look at the test file </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>

@@ -74,9 +74,9 @@
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p class="">A realtime MIDI input class. </p>
-<p class="">This class provides a common, platform-independent API for realtime MIDI input. It allows access to a single MIDI input port. Incoming MIDI messages are either saved to a queue for retrieval using the <a class="el" href="class_rt_midi_in.html#a1ba10ecd276b30a8579c7d60a9c890eb" title="Fill the user-provided vector with the data bytes for the next available MIDI message in the input qu...">getMessage()</a> function or immediately passed to a user-specified callback function. Create multiple instances of this class to connect to more than one MIDI device at the same time. With the OS-X, Linux ALSA, and JACK MIDI APIs, it is also possible to open a virtual input port to which other MIDI software clients can connect.</p>
-<p class="">by Gary P. Scavone, 2003-2017. </p>
+<div class="textblock"><p>A realtime MIDI input class. </p>
+<p>This class provides a common, platform-independent API for realtime MIDI input. It allows access to a single MIDI input port. Incoming MIDI messages are either saved to a queue for retrieval using the <a class="el" href="class_rt_midi_in.html#a1ba10ecd276b30a8579c7d60a9c890eb" title="Fill the user-provided vector with the data bytes for the next available MIDI message in the input qu...">getMessage()</a> function or immediately passed to a user-specified callback function. Create multiple instances of this class to connect to more than one MIDI device at the same time. With the OS-X, Linux ALSA, and JACK MIDI APIs, it is also possible to open a virtual input port to which other MIDI software clients can connect.</p>
+<p>by Gary P. Scavone, 2003-2017. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00223">223</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 </div>
@@ -90,8 +90,8 @@
   <img src="class_rt_midi_in.png" usemap="#RtMidiIn_map" alt=""/>
   <map id="RtMidiIn_map" name="RtMidiIn_map">
 <area href="class_rt_midi.html" title="An abstract base class for realtime MIDI input/output." alt="RtMidi" shape="rect" coords="0,0,57,24"/>
-</map>
- </div></div>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -238,8 +238,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Default constructor that allows an optional api, client name and queue size. </p>
-<p class="">An exception will be thrown if a MIDI system initialization error occurs. The queue size defines the maximum number of messages that can be held in the MIDI queue (when not using a callback function). If the queue size limit is reached, incoming messages will be ignored.</p>
-<p class="">If no API argument is specified and multiple API support has been compiled, the default order of use is ALSA, JACK (Linux) and CORE, JACK (OS-X).</p>
+<p>An exception will be thrown if a MIDI system initialization error occurs. The queue size defines the maximum number of messages that can be held in the MIDI queue (when not using a callback function). If the queue size limit is reached, incoming messages will be ignored.</p>
+<p>If no API argument is specified and multiple API support has been compiled, the default order of use is ALSA, JACK (Linux) and CORE, JACK (OS-X).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">api</td><td>An optional API id can be specified. </td></tr>
@@ -382,7 +382,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a virtual input port, with optional name, to allow software connections (OS X, JACK and ALSA only). </p>
-<p class="">This function creates a virtual MIDI input port to which other software applications can connect. This type of functionality is currently only supported by the Macintosh OS-X, any JACK, and Linux ALSA APIs (the function returns an error for the other APIs).</p>
+<p>This function creates a virtual MIDI input port to which other software applications can connect. This type of functionality is currently only supported by the Macintosh OS-X, any JACK, and Linux ALSA APIs (the function returns an error for the other APIs).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">portName</td><td>An optional name for the application port that is used to connect to portId can be specified. </td></tr>
@@ -425,7 +425,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set a callback function to be invoked for incoming MIDI messages. </p>
-<p class="">The callback function will be called whenever an incoming MIDI message is received. While not absolutely necessary, it is best to set the callback function before opening a MIDI port to avoid leaving some messages in the queue.</p>
+<p>The callback function will be called whenever an incoming MIDI message is received. While not absolutely necessary, it is best to set the callback function before opening a MIDI port to avoid leaving some messages in the queue.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">callback</td><td>A callback function must be given. </td></tr>
@@ -457,7 +457,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Cancel use of the current callback function (if one exists). </p>
-<p class="">Subsequent incoming MIDI messages will be written to the queue and can be retrieved with the <em>getMessage</em> function. </p>
+<p>Subsequent incoming MIDI messages will be written to the queue and can be retrieved with the <em>getMessage</em> function. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00592">592</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
@@ -524,7 +524,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if a port is open and false if not. </p>
-<p class="">Note that this only applies to connections made with the <a class="el" href="class_rt_midi_in.html#a466c94692550aa109d9e7536bf5d9add" title="Open a MIDI input connection given by enumeration number.">openPort()</a> function, not to virtual ports. </p>
+<p>Note that this only applies to connections made with the <a class="el" href="class_rt_midi_in.html#a466c94692550aa109d9e7536bf5d9add" title="Open a MIDI input connection given by enumeration number.">openPort()</a> function, not to virtual ports. </p>
 
 <p>Implements <a class="el" href="class_rt_midi.html#a74fc50ce1aec6b8ecb0c31094b3024a9">RtMidi</a>.</p>
 
@@ -643,7 +643,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Specify whether certain MIDI message types should be queued or ignored during input. </p>
-<p class="">By default, MIDI timing and active sensing messages are ignored during message input because of their relative high data rates. MIDI sysex messages are ignored by default as well. Variable values of "true" imply that the respective message type will be ignored. </p>
+<p>By default, MIDI timing and active sensing messages are ignored during message input because of their relative high data rates. MIDI sysex messages are ignored by default as well. Variable values of "true" imply that the respective message type will be ignored. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00595">595</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
@@ -668,7 +668,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Fill the user-provided vector with the data bytes for the next available MIDI message in the input queue and return the event delta-time in seconds. </p>
-<p class="">This function returns immediately whether a new message is available or not. A valid message is indicated by a non-zero vector size. An exception is thrown if an error occurs during message retrieval or an input connection was not previously established. </p>
+<p>This function returns immediately whether a new message is available or not. A valid message is indicated by a non-zero vector size. An exception is thrown if an error occurs during message retrieval or an input connection was not previously established. </p>
 
 <p class="definition">Definition at line <a class="el" href="_rt_midi_8h_source.html#l00596">596</a> of file <a class="el" href="_rt_midi_8h_source.html">RtMidi.h</a>.</p>
 
@@ -711,7 +711,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set an error callback function to be invoked when an error has occured. </p>
-<p class="">The callback function will be called whenever an error has occured. It is best to set the error callback function before opening a port. </p>
+<p>The callback function will be called whenever an error has occured. It is best to set the error callback function before opening a port. </p>
 
 <p>Implements <a class="el" href="class_rt_midi.html#aa6d6f2e0d06c64268c8898aa15f3a5df">RtMidi</a>.</p>
 

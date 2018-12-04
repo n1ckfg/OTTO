@@ -210,7 +210,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a474c35572625d975531294b75f408da0a334c4a4c42fdb79d7ebc3e73b517e6f8"></a>none&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a474c35572625d975531294b75f408da0a76ea0bebb3c22822b4f0dd9c9fd021c5"></a>create&#160;</td><td class="fielddoc"><p class="">default options </p>
+<tr><td class="fieldname"><a id="a474c35572625d975531294b75f408da0a76ea0bebb3c22822b4f0dd9c9fd021c5"></a>create&#160;</td><td class="fielddoc"><p>default options </p>
 </td></tr>
 </table>
 
@@ -244,7 +244,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
-<p class="">\postconditions <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a> == p</code> </p><dl class="section remark"><dt>Remarks</dt><dd>remember to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a5cc74bf7e4d1152e90157d71ea5c12c5" title="Read the data from file.">read()</a></code> after construction </dd></dl>
+<p>\postconditions <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a> == p</code> </p><dl class="section remark"><dt>Remarks</dt><dd>remember to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a5cc74bf7e4d1152e90157d71ea5c12c5" title="Read the data from file.">read()</a></code> after construction </dd></dl>
 
 </div>
 </div>
@@ -301,7 +301,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Write the data to file. </p>
-<p class="">\effects serialize <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>, and write it to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code>. No filestreams are left open.</p>
+<p>\effects serialize <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>, and write it to <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code>. No filestreams are left open.</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html" title="STL class.">std::system_error</a></code> on IO failure </td></tr>
@@ -336,7 +336,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Read the data from file. </p>
-<p class="">\effects deserialize the data in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code> and store it in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>. No filestreams are left open.</p>
+<p>\effects deserialize the data in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a777d09deb8978b04fdd4f3441984dbc8" title="Access the path to the file.">path()</a></code> and store it in <code><a class="el" href="structotto_1_1util_1_1_json_file.html#ad5e24d3b142f856a0dd1ba6bf3c0a58e" title="Access the stored data.">data()</a></code>. No filestreams are left open.</p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">&lt;tt&gt;exception&lt;/tt&gt;</td><td>on parse failure, <code>fs::filesystem_error</code> or <code><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/system_error.html" title="STL class.">std::system_error</a></code> on IO failure </td></tr>
@@ -463,7 +463,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Validate the json data. </p>
-<p class="">This should be implemented by classes that inherit from this one. It is called in <code>read</code> and <code>write</code>, and should be used to validate the json data. </p>
+<p>This should be implemented by classes that inherit from this one. It is called in <code>read</code> and <code>write</code>, and should be used to validate the json data. </p>
 
 <p class="definition">Definition at line <a class="el" href="jsonfile_8hpp_source.html#l00071">71</a> of file <a class="el" href="jsonfile_8hpp_source.html">jsonfile.hpp</a>.</p>
 
