@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
     <meta name="generator" content="Doxygen 1.8.15" />
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-    <title>OTTO: otto::core::midi::shared_vector&lt; T &gt; Struct Template Reference</title>
+    <title>OTTO: otto::core::midi::shared_vector&lt; T, Allocator &gt; Struct Template Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
     <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -71,112 +71,168 @@
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structotto_1_1core_1_1midi_1_1shared__vector-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">otto::core::midi::shared_vector&lt; T &gt; Struct Template Reference</div>  </div>
+<div class="title">otto::core::midi::shared_vector&lt; T, Allocator &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-struct otto::core::midi::shared_vector&lt; T &gt;</h3>
+<div class="textblock"><h3>template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt;<br />
+struct otto::core::midi::shared_vector&lt; T, Allocator &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00194">194</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00195">195</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="midi_8hpp_source.html">midi.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ab8cdb3afb7718d3708c95f037571545a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> = T</td></tr>
-<tr class="separator:ab8cdb3afb7718d3708c95f037571545a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad395a565e557239dc998da454cecd8dc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ad395a565e557239dc998da454cecd8dc">value_type</a> = T</td></tr>
+<tr class="separator:ad395a565e557239dc998da454cecd8dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0447842f3bea56b64d35fe8f8149206"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac0447842f3bea56b64d35fe8f8149206">vector_type</a> = <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T, Allocator &gt;</td></tr>
+<tr class="separator:ac0447842f3bea56b64d35fe8f8149206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b0d7294ebe7667bb5f0c14b8232540"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a57b0d7294ebe7667bb5f0c14b8232540">allocator_type</a> = Allocator</td></tr>
+<tr class="separator:a57b0d7294ebe7667bb5f0c14b8232540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ebff27b5df614cdc357b277274bbd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a53ebff27b5df614cdc357b277274bbd8">iterator</a> = typename vector_type::iterator</td></tr>
+<tr class="separator:a53ebff27b5df614cdc357b277274bbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a34be6d312f57225b51a0963590d20380"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a34be6d312f57225b51a0963590d20380">shared_vector</a> ()=default</td></tr>
-<tr class="separator:a34be6d312f57225b51a0963590d20380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80fa9100a05f3006b098e920ca2c1bb2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a80fa9100a05f3006b098e920ca2c1bb2">shared_vector</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> &gt; &amp;&amp;other)</td></tr>
-<tr class="separator:a80fa9100a05f3006b098e920ca2c1bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09f411a00b6574ca2200a29b1ea02fd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a09f411a00b6574ca2200a29b1ea02fd1">shared_vector</a> (const <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> &gt; &amp;other)</td></tr>
-<tr class="separator:a09f411a00b6574ca2200a29b1ea02fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f500b4b46cc2dc2d9287edd0e848afd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a0f500b4b46cc2dc2d9287edd0e848afd">begin</a> ()</td></tr>
-<tr class="separator:a0f500b4b46cc2dc2d9287edd0e848afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5226991cd2fb9686ba8ba6976e6f8456"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a5226991cd2fb9686ba8ba6976e6f8456">end</a> ()</td></tr>
-<tr class="separator:a5226991cd2fb9686ba8ba6976e6f8456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af97ad6a4de46aa80d2c69753bb885786"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#af97ad6a4de46aa80d2c69753bb885786">begin</a> () const</td></tr>
-<tr class="separator:af97ad6a4de46aa80d2c69753bb885786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d007b8afa3e5976a9ce90bde0dda223"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a4d007b8afa3e5976a9ce90bde0dda223">end</a> () const</td></tr>
-<tr class="separator:a4d007b8afa3e5976a9ce90bde0dda223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5057b37ab1fed3f0026b7ab52e4f6abc"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a5057b37ab1fed3f0026b7ab52e4f6abc">cbegin</a> () const</td></tr>
-<tr class="separator:a5057b37ab1fed3f0026b7ab52e4f6abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f7fee6f40abe1f39e9d7bbb6a8592cb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a6f7fee6f40abe1f39e9d7bbb6a8592cb">cend</a> () const</td></tr>
-<tr class="separator:a6f7fee6f40abe1f39e9d7bbb6a8592cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44042ff82fd8148fa6e95eeaa118c378"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a44042ff82fd8148fa6e95eeaa118c378">front</a> ()</td></tr>
-<tr class="separator:a44042ff82fd8148fa6e95eeaa118c378"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eda0c1d0b70bc5d245e09aa0910f1a0"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a2eda0c1d0b70bc5d245e09aa0910f1a0">back</a> ()</td></tr>
-<tr class="separator:a2eda0c1d0b70bc5d245e09aa0910f1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afca9f407a26fb9fc1170f0a1db071e4d"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#afca9f407a26fb9fc1170f0a1db071e4d">front</a> () const</td></tr>
-<tr class="separator:afca9f407a26fb9fc1170f0a1db071e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1f58873463872579159d140db03a517"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ae1f58873463872579159d140db03a517">back</a> () const</td></tr>
-<tr class="separator:ae1f58873463872579159d140db03a517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1d5470a68beab2590c3156cd1cf3226"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab1d5470a68beab2590c3156cd1cf3226">operator*</a> ()</td></tr>
-<tr class="separator:ab1d5470a68beab2590c3156cd1cf3226"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb57d970073de4873142e98516781ea2"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#aeb57d970073de4873142e98516781ea2">operator*</a> () const</td></tr>
-<tr class="separator:aeb57d970073de4873142e98516781ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6bb2db5fd096e932d767faea4ddcca0"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ad6bb2db5fd096e932d767faea4ddcca0">operator-&gt;</a> ()</td></tr>
-<tr class="separator:ad6bb2db5fd096e932d767faea4ddcca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64c7bc04f6597aaff099d22893ef1275"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a64c7bc04f6597aaff099d22893ef1275">operator-&gt;</a> () const</td></tr>
-<tr class="separator:a64c7bc04f6597aaff099d22893ef1275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57d17b7c2a9421cb7f0ea663969b3b88"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a57d17b7c2a9421cb7f0ea663969b3b88">operator[]</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> i)</td></tr>
-<tr class="separator:a57d17b7c2a9421cb7f0ea663969b3b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d5dd49a26414131c99eda1ca656fab0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a1d5dd49a26414131c99eda1ca656fab0">clear</a> ()</td></tr>
-<tr class="separator:a1d5dd49a26414131c99eda1ca656fab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5529e5cccd25daa8450c918aa16113f9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a5529e5cccd25daa8450c918aa16113f9">push_back</a> (const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> &amp;el)</td></tr>
-<tr class="separator:a5529e5cccd25daa8450c918aa16113f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98f77cfd28adeaa99d3c058cd715b5ac"><td class="memTemplParams" colspan="2">template&lt;typename... Ref&gt; </td></tr>
-<tr class="memitem:a98f77cfd28adeaa99d3c058cd715b5ac"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a98f77cfd28adeaa99d3c058cd715b5ac">emplace_back</a> (Ref &amp;&amp;... args)</td></tr>
-<tr class="separator:a98f77cfd28adeaa99d3c058cd715b5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ac27ada6505b2b8d9f32d8d4e2c11636a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/shared_ptr.html">std::shared_ptr</a>&lt; <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac27ada6505b2b8d9f32d8d4e2c11636a">_data</a> = <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/shared_ptr/make_shared.html">std::make_shared</a>&lt;<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a>&gt;&gt;()</td></tr>
-<tr class="separator:ac27ada6505b2b8d9f32d8d4e2c11636a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac82fd113c5dff73157bba0bb81d5cc19"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac82fd113c5dff73157bba0bb81d5cc19">_test_field</a></td></tr>
-<tr class="separator:ac82fd113c5dff73157bba0bb81d5cc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80082ebfce0dab3cedcacacfd98393e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ae80082ebfce0dab3cedcacacfd98393e">shared_vector</a> ()=default</td></tr>
+<tr class="separator:ae80082ebfce0dab3cedcacacfd98393e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ade87ba2816e4742890967789248ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#af3ade87ba2816e4742890967789248ff">shared_vector</a> (<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac0447842f3bea56b64d35fe8f8149206">vector_type</a> &amp;&amp;other)</td></tr>
+<tr class="separator:af3ade87ba2816e4742890967789248ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f25c85cdb208ab59744cb2a9d917f09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a3f25c85cdb208ab59744cb2a9d917f09">shared_vector</a> (const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac0447842f3bea56b64d35fe8f8149206">vector_type</a> &amp;other)</td></tr>
+<tr class="separator:a3f25c85cdb208ab59744cb2a9d917f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dfc6ca19553c6fe2f61cf2457bcee24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a0dfc6ca19553c6fe2f61cf2457bcee24">shared_vector</a> (const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a57b0d7294ebe7667bb5f0c14b8232540">allocator_type</a> &amp;alloc)</td></tr>
+<tr class="separator:a0dfc6ca19553c6fe2f61cf2457bcee24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b477bc57db06a8d4d1efaf128a3c2d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a26b477bc57db06a8d4d1efaf128a3c2d">begin</a> ()</td></tr>
+<tr class="separator:a26b477bc57db06a8d4d1efaf128a3c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45db548c006ae8fdb4f97c3b1bde47b0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a45db548c006ae8fdb4f97c3b1bde47b0">end</a> ()</td></tr>
+<tr class="separator:a45db548c006ae8fdb4f97c3b1bde47b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0b927c8fd74502b2bd868f538c546c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#aed0b927c8fd74502b2bd868f538c546c">begin</a> () const</td></tr>
+<tr class="separator:aed0b927c8fd74502b2bd868f538c546c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f47f349922a7862b8fa287f19d4ca4a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a1f47f349922a7862b8fa287f19d4ca4a">end</a> () const</td></tr>
+<tr class="separator:a1f47f349922a7862b8fa287f19d4ca4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f5dcfed55d0053884cb98befe35ff8b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a6f5dcfed55d0053884cb98befe35ff8b">cbegin</a> () const</td></tr>
+<tr class="separator:a6f5dcfed55d0053884cb98befe35ff8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a73194fb8fffe454ea48da877257ae4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a6a73194fb8fffe454ea48da877257ae4">cend</a> () const</td></tr>
+<tr class="separator:a6a73194fb8fffe454ea48da877257ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d8ddf8b6a6a654f9f543b518b57591f"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a7d8ddf8b6a6a654f9f543b518b57591f">front</a> ()</td></tr>
+<tr class="separator:a7d8ddf8b6a6a654f9f543b518b57591f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6386e3e0bd1e0377261c2168c88dcca7"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a6386e3e0bd1e0377261c2168c88dcca7">back</a> ()</td></tr>
+<tr class="separator:a6386e3e0bd1e0377261c2168c88dcca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c461cd235f823581c2b2bb6e3a2a06"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a72c461cd235f823581c2b2bb6e3a2a06">front</a> () const</td></tr>
+<tr class="separator:a72c461cd235f823581c2b2bb6e3a2a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afded648dc096aba21197959aa81e4739"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#afded648dc096aba21197959aa81e4739">back</a> () const</td></tr>
+<tr class="separator:afded648dc096aba21197959aa81e4739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7d68e4f561be0ff89006cb2002123e"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#aee7d68e4f561be0ff89006cb2002123e">operator*</a> ()</td></tr>
+<tr class="separator:aee7d68e4f561be0ff89006cb2002123e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf3274d327190b3579ed79ce07113722"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#acf3274d327190b3579ed79ce07113722">operator*</a> () const</td></tr>
+<tr class="separator:acf3274d327190b3579ed79ce07113722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad266a77e313e7fa1fae31d07d357bebe"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ad266a77e313e7fa1fae31d07d357bebe">operator-&gt;</a> ()</td></tr>
+<tr class="separator:ad266a77e313e7fa1fae31d07d357bebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb38ee0e1a4979afbf38b09e8d3efe8"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a9fb38ee0e1a4979afbf38b09e8d3efe8">operator-&gt;</a> () const</td></tr>
+<tr class="separator:a9fb38ee0e1a4979afbf38b09e8d3efe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf66e3ea6c7087f13f69a0e6a1926041"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#adf66e3ea6c7087f13f69a0e6a1926041">operator[]</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> i)</td></tr>
+<tr class="separator:adf66e3ea6c7087f13f69a0e6a1926041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd4f9748db0ac3166ec3ab04b1a1056"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a9dd4f9748db0ac3166ec3ab04b1a1056">clear</a> ()</td></tr>
+<tr class="separator:a9dd4f9748db0ac3166ec3ab04b1a1056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb51dbbce5559b216fcb2cb34b3ad59"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a5cb51dbbce5559b216fcb2cb34b3ad59">push_back</a> (const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ad395a565e557239dc998da454cecd8dc">value_type</a> &amp;el)</td></tr>
+<tr class="separator:a5cb51dbbce5559b216fcb2cb34b3ad59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94e70dc49c39a020bfb30a6fc748416"><td class="memTemplParams" colspan="2">template&lt;typename... Ref&gt; </td></tr>
+<tr class="memitem:ab94e70dc49c39a020bfb30a6fc748416"><td class="memTemplItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab94e70dc49c39a020bfb30a6fc748416">emplace_back</a> (Ref &amp;&amp;... args)</td></tr>
+<tr class="separator:ab94e70dc49c39a020bfb30a6fc748416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e2bb8764dce3c82075a3506333273f"><td class="memItemLeft" align="right" valign="top">auto &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a90e2bb8764dce3c82075a3506333273f">move_vector_out</a> ()</td></tr>
+<tr class="separator:a90e2bb8764dce3c82075a3506333273f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ab8cdb3afb7718d3708c95f037571545a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8cdb3afb7718d3708c95f037571545a">&#9670;&nbsp;</a></span>value_type</h2>
+<a id="ad395a565e557239dc998da454cecd8dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad395a565e557239dc998da454cecd8dc">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> =  T</td>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ad395a565e557239dc998da454cecd8dc">value_type</a> =  T</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00195">195</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00196">196</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a34be6d312f57225b51a0963590d20380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34be6d312f57225b51a0963590d20380">&#9670;&nbsp;</a></span>shared_vector() <span class="overload">[1/3]</span></h2>
+<a id="ac0447842f3bea56b64d35fe8f8149206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0447842f3bea56b64d35fe8f8149206">&#9670;&nbsp;</a></span>vector_type</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac0447842f3bea56b64d35fe8f8149206">vector_type</a> =  <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;T, Allocator&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00197">197</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a57b0d7294ebe7667bb5f0c14b8232540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b0d7294ebe7667bb5f0c14b8232540">&#9670;&nbsp;</a></span>allocator_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a57b0d7294ebe7667bb5f0c14b8232540">allocator_type</a> =  Allocator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00198">198</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a53ebff27b5df614cdc357b277274bbd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ebff27b5df614cdc357b277274bbd8">&#9670;&nbsp;</a></span>iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a53ebff27b5df614cdc357b277274bbd8">iterator</a> =  typename vector_type::iterator</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00199">199</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae80082ebfce0dab3cedcacacfd98393e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae80082ebfce0dab3cedcacacfd98393e">&#9670;&nbsp;</a></span>shared_vector() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a> </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -191,40 +247,18 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a80fa9100a05f3006b098e920ca2c1bb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80fa9100a05f3006b098e920ca2c1bb2">&#9670;&nbsp;</a></span>shared_vector() <span class="overload">[2/3]</span></h2>
+<a id="af3ade87ba2816e4742890967789248ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ade87ba2816e4742890967789248ff">&#9670;&nbsp;</a></span>shared_vector() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a> </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00199">199</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a09f411a00b6574ca2200a29b1ea02fd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09f411a00b6574ca2200a29b1ea02fd1">&#9670;&nbsp;</a></span>shared_vector() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a> </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac0447842f3bea56b64d35fe8f8149206">vector_type</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -235,19 +269,41 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0f500b4b46cc2dc2d9287edd0e848afd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f500b4b46cc2dc2d9287edd0e848afd">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/2]</span></h2>
+<a id="a3f25c85cdb208ab59744cb2a9d917f09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f25c85cdb208ab59744cb2a9d917f09">&#9670;&nbsp;</a></span>shared_vector() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::begin </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ac0447842f3bea56b64d35fe8f8149206">vector_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00205">205</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0dfc6ca19553c6fe2f61cf2457bcee24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dfc6ca19553c6fe2f61cf2457bcee24">&#9670;&nbsp;</a></span>shared_vector() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a57b0d7294ebe7667bb5f0c14b8232540">allocator_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>alloc</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -257,16 +313,17 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="a5226991cd2fb9686ba8ba6976e6f8456"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5226991cd2fb9686ba8ba6976e6f8456">&#9670;&nbsp;</a></span>end() <span class="overload">[1/2]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a26b477bc57db06a8d4d1efaf128a3c2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b477bc57db06a8d4d1efaf128a3c2d">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::end </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -274,104 +331,20 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00211">211</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00209">209</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="af97ad6a4de46aa80d2c69753bb885786"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af97ad6a4de46aa80d2c69753bb885786">&#9670;&nbsp;</a></span>begin() <span class="overload">[2/2]</span></h2>
+<a id="a45db548c006ae8fdb4f97c3b1bde47b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45db548c006ae8fdb4f97c3b1bde47b0">&#9670;&nbsp;</a></span>end() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::begin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00215">215</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a4d007b8afa3e5976a9ce90bde0dda223"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d007b8afa3e5976a9ce90bde0dda223">&#9670;&nbsp;</a></span>end() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00219">219</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5057b37ab1fed3f0026b7ab52e4f6abc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5057b37ab1fed3f0026b7ab52e4f6abc">&#9670;&nbsp;</a></span>cbegin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::cbegin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00223">223</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a6f7fee6f40abe1f39e9d7bbb6a8592cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f7fee6f40abe1f39e9d7bbb6a8592cb">&#9670;&nbsp;</a></span>cend()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::cend </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00227">227</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a44042ff82fd8148fa6e95eeaa118c378"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44042ff82fd8148fa6e95eeaa118c378">&#9670;&nbsp;</a></span>front() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::front </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -379,20 +352,104 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00232">232</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00213">213</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2eda0c1d0b70bc5d245e09aa0910f1a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eda0c1d0b70bc5d245e09aa0910f1a0">&#9670;&nbsp;</a></span>back() <span class="overload">[1/2]</span></h2>
+<a id="aed0b927c8fd74502b2bd868f538c546c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed0b927c8fd74502b2bd868f538c546c">&#9670;&nbsp;</a></span>begin() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::back </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00217">217</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1f47f349922a7862b8fa287f19d4ca4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f47f349922a7862b8fa287f19d4ca4a">&#9670;&nbsp;</a></span>end() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00221">221</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6f5dcfed55d0053884cb98befe35ff8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f5dcfed55d0053884cb98befe35ff8b">&#9670;&nbsp;</a></span>cbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::cbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00225">225</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6a73194fb8fffe454ea48da877257ae4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a73194fb8fffe454ea48da877257ae4">&#9670;&nbsp;</a></span>cend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::cend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00229">229</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7d8ddf8b6a6a654f9f543b518b57591f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d8ddf8b6a6a654f9f543b518b57591f">&#9670;&nbsp;</a></span>front() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::front </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -400,62 +457,20 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00236">236</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00234">234</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="afca9f407a26fb9fc1170f0a1db071e4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afca9f407a26fb9fc1170f0a1db071e4d">&#9670;&nbsp;</a></span>front() <span class="overload">[2/2]</span></h2>
+<a id="a6386e3e0bd1e0377261c2168c88dcca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6386e3e0bd1e0377261c2168c88dcca7">&#9670;&nbsp;</a></span>back() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::front </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00240">240</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae1f58873463872579159d140db03a517"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1f58873463872579159d140db03a517">&#9670;&nbsp;</a></span>back() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::back </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00244">244</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ab1d5470a68beab2590c3156cd1cf3226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1d5470a68beab2590c3156cd1cf3226">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::operator* </td>
+          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::back </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -463,20 +478,20 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00249">249</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00238">238</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aeb57d970073de4873142e98516781ea2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb57d970073de4873142e98516781ea2">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+<a id="a72c461cd235f823581c2b2bb6e3a2a06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c461cd235f823581c2b2bb6e3a2a06">&#9670;&nbsp;</a></span>front() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::operator* </td>
+          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::front </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -484,20 +499,41 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00253">253</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00242">242</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ad6bb2db5fd096e932d767faea4ddcca0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6bb2db5fd096e932d767faea4ddcca0">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[1/2]</span></h2>
+<a id="afded648dc096aba21197959aa81e4739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afded648dc096aba21197959aa81e4739">&#9670;&nbsp;</a></span>back() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::operator-&gt; </td>
+          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00246">246</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aee7d68e4f561be0ff89006cb2002123e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7d68e4f561be0ff89006cb2002123e">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::operator* </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -505,20 +541,20 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00258">258</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00251">251</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a64c7bc04f6597aaff099d22893ef1275"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64c7bc04f6597aaff099d22893ef1275">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[2/2]</span></h2>
+<a id="acf3274d327190b3579ed79ce07113722"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf3274d327190b3579ed79ce07113722">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::operator-&gt; </td>
+          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::operator* </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -526,20 +562,62 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00262">262</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00255">255</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a57d17b7c2a9421cb7f0ea663969b3b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57d17b7c2a9421cb7f0ea663969b3b88">&#9670;&nbsp;</a></span>operator[]()</h2>
+<a id="ad266a77e313e7fa1fae31d07d357bebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad266a77e313e7fa1fae31d07d357bebe">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::operator[] </td>
+          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00260">260</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9fb38ee0e1a4979afbf38b09e8d3efe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb38ee0e1a4979afbf38b09e8d3efe8">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00264">264</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+
+</div>
+</div>
+<a id="adf66e3ea6c7087f13f69a0e6a1926041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf66e3ea6c7087f13f69a0e6a1926041">&#9670;&nbsp;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
@@ -548,20 +626,20 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00267">267</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00269">269</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a1d5dd49a26414131c99eda1ca656fab0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d5dd49a26414131c99eda1ca656fab0">&#9670;&nbsp;</a></span>clear()</h2>
+<a id="a9dd4f9748db0ac3166ec3ab04b1a1056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dd4f9748db0ac3166ec3ab04b1a1056">&#9670;&nbsp;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::clear </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -569,44 +647,44 @@ template&lt;typename T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00272">272</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00274">274</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a5529e5cccd25daa8450c918aa16113f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5529e5cccd25daa8450c918aa16113f9">&#9670;&nbsp;</a></span>push_back()</h2>
+<a id="a5cb51dbbce5559b216fcb2cb34b3ad59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cb51dbbce5559b216fcb2cb34b3ad59">&#9670;&nbsp;</a></span>push_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::push_back </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::push_back </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ad395a565e557239dc998da454cecd8dc">value_type</a> &amp;&#160;</td>
           <td class="paramname"><em>el</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00277">277</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00279">279</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a98f77cfd28adeaa99d3c058cd715b5ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98f77cfd28adeaa99d3c058cd715b5ac">&#9670;&nbsp;</a></span>emplace_back()</h2>
+<a id="ab94e70dc49c39a020bfb30a6fc748416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab94e70dc49c39a020bfb30a6fc748416">&#9670;&nbsp;</a></span>emplace_back()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
 <div class="memtemplate">
 template&lt;typename... Ref&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::emplace_back </td>
+          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::emplace_back </td>
           <td>(</td>
           <td class="paramtype">Ref &amp;&amp;...&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
@@ -615,45 +693,27 @@ template&lt;typename... Ref&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00283">283</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00285">285</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac27ada6505b2b8d9f32d8d4e2c11636a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac27ada6505b2b8d9f32d8d4e2c11636a">&#9670;&nbsp;</a></span>_data</h2>
+<a id="a90e2bb8764dce3c82075a3506333273f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e2bb8764dce3c82075a3506333273f">&#9670;&nbsp;</a></span>move_vector_out()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T, typename Allocator = std::allocator&lt;T&gt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/shared_ptr.html">std::shared_ptr</a>&lt;<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a>&gt; &gt; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::_data = <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/shared_ptr/make_shared.html">std::make_shared</a>&lt;<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab8cdb3afb7718d3708c95f037571545a">value_type</a>&gt;&gt;()</td>
+          <td class="memname">auto&amp;&amp; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T, Allocator &gt;::move_vector_out </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00288">288</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="midi_8hpp_source.html#l00236">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::back()</a>, <a class="el" href="midi_8hpp_source.html#l00207">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::begin()</a>, <a class="el" href="midi_8hpp_source.html#l00223">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::cbegin()</a>, <a class="el" href="midi_8hpp_source.html#l00227">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::cend()</a>, <a class="el" href="midi_8hpp_source.html#l00272">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::clear()</a>, <a class="el" href="midi_8hpp_source.html#l00283">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::emplace_back()</a>, <a class="el" href="midi_8hpp_source.html#l00211">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::end()</a>, <a class="el" href="midi_8hpp_source.html#l00232">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::front()</a>, <a class="el" href="midi_8hpp_source.html#l00249">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::operator*()</a>, <a class="el" href="midi_8hpp_source.html#l00258">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::operator-&gt;()</a>, <a class="el" href="midi_8hpp_source.html#l00267">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::operator[]()</a>, and <a class="el" href="midi_8hpp_source.html#l00277">otto::core::midi::shared_vector&lt; midi::AnyMidiEvent &gt;::push_back()</a>.</p>
-
-</div>
-</div>
-<a id="ac82fd113c5dff73157bba0bb81d5cc19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac82fd113c5dff73157bba0bb81d5cc19">&#9670;&nbsp;</a></span>_test_field</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">otto::core::midi::shared_vector</a>&lt; T &gt;::_test_field</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= [] {</div><div class="line">      <a class="code" href="log__manager_8hpp.html#a83a7be587e09d8a246ef00e4a820420d" title="Shorthand to the loguru macro DLOG_F(INFO, ...)">DLOGI</a>(<span class="stringliteral">&quot;Constructed a shared_vector&quot;</span>);</div><div class="line">      <span class="keywordflow">return</span> 0;</div><div class="line">    }()</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00290">290</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>

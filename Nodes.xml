@@ -1920,6 +1920,11 @@
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
                       <Anchor>ab5c8471935553e375560ff626c9285fd</Anchor>
                      </Node>
+                     <Node>
+                      <Name>data</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>a644831ce624343a5bcfc959837fa32bb</Anchor>
+                     </Node>
                     </Subnodes>
                    </Node>
                    <Node>
@@ -1973,6 +1978,11 @@
                     <Name>operator-&gt;</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
                     <Anchor>afa695fc11f6d07bd40dad8db6bced64e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>current_idx</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                    <Anchor>ab36733c038c14ceb99f3e447ba03383c</Anchor>
                    </Node>
                    <Node>
                     <Name>select</Name>
@@ -2249,122 +2259,137 @@
                    <Node>
                     <Name>value_type</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>ab8cdb3afb7718d3708c95f037571545a</Anchor>
+                    <Anchor>ad395a565e557239dc998da454cecd8dc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>vector_type</Name>
+                    <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                    <Anchor>ac0447842f3bea56b64d35fe8f8149206</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>allocator_type</Name>
+                    <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                    <Anchor>a57b0d7294ebe7667bb5f0c14b8232540</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator</Name>
+                    <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                    <Anchor>a53ebff27b5df614cdc357b277274bbd8</Anchor>
                    </Node>
                    <Node>
                     <Name>shared_vector</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a34be6d312f57225b51a0963590d20380</Anchor>
+                    <Anchor>ae80082ebfce0dab3cedcacacfd98393e</Anchor>
                    </Node>
                    <Node>
                     <Name>shared_vector</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a80fa9100a05f3006b098e920ca2c1bb2</Anchor>
+                    <Anchor>af3ade87ba2816e4742890967789248ff</Anchor>
                    </Node>
                    <Node>
                     <Name>shared_vector</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a09f411a00b6574ca2200a29b1ea02fd1</Anchor>
+                    <Anchor>a3f25c85cdb208ab59744cb2a9d917f09</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>shared_vector</Name>
+                    <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                    <Anchor>a0dfc6ca19553c6fe2f61cf2457bcee24</Anchor>
                    </Node>
                    <Node>
                     <Name>begin</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a0f500b4b46cc2dc2d9287edd0e848afd</Anchor>
+                    <Anchor>a26b477bc57db06a8d4d1efaf128a3c2d</Anchor>
                    </Node>
                    <Node>
                     <Name>end</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a5226991cd2fb9686ba8ba6976e6f8456</Anchor>
+                    <Anchor>a45db548c006ae8fdb4f97c3b1bde47b0</Anchor>
                    </Node>
                    <Node>
                     <Name>begin</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>af97ad6a4de46aa80d2c69753bb885786</Anchor>
+                    <Anchor>aed0b927c8fd74502b2bd868f538c546c</Anchor>
                    </Node>
                    <Node>
                     <Name>end</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a4d007b8afa3e5976a9ce90bde0dda223</Anchor>
+                    <Anchor>a1f47f349922a7862b8fa287f19d4ca4a</Anchor>
                    </Node>
                    <Node>
                     <Name>cbegin</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a5057b37ab1fed3f0026b7ab52e4f6abc</Anchor>
+                    <Anchor>a6f5dcfed55d0053884cb98befe35ff8b</Anchor>
                    </Node>
                    <Node>
                     <Name>cend</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a6f7fee6f40abe1f39e9d7bbb6a8592cb</Anchor>
+                    <Anchor>a6a73194fb8fffe454ea48da877257ae4</Anchor>
                    </Node>
                    <Node>
                     <Name>front</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a44042ff82fd8148fa6e95eeaa118c378</Anchor>
+                    <Anchor>a7d8ddf8b6a6a654f9f543b518b57591f</Anchor>
                    </Node>
                    <Node>
                     <Name>back</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a2eda0c1d0b70bc5d245e09aa0910f1a0</Anchor>
+                    <Anchor>a6386e3e0bd1e0377261c2168c88dcca7</Anchor>
                    </Node>
                    <Node>
                     <Name>front</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>afca9f407a26fb9fc1170f0a1db071e4d</Anchor>
+                    <Anchor>a72c461cd235f823581c2b2bb6e3a2a06</Anchor>
                    </Node>
                    <Node>
                     <Name>back</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>ae1f58873463872579159d140db03a517</Anchor>
+                    <Anchor>afded648dc096aba21197959aa81e4739</Anchor>
                    </Node>
                    <Node>
                     <Name>operator*</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>ab1d5470a68beab2590c3156cd1cf3226</Anchor>
+                    <Anchor>aee7d68e4f561be0ff89006cb2002123e</Anchor>
                    </Node>
                    <Node>
                     <Name>operator*</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>aeb57d970073de4873142e98516781ea2</Anchor>
+                    <Anchor>acf3274d327190b3579ed79ce07113722</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>ad6bb2db5fd096e932d767faea4ddcca0</Anchor>
+                    <Anchor>ad266a77e313e7fa1fae31d07d357bebe</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a64c7bc04f6597aaff099d22893ef1275</Anchor>
+                    <Anchor>a9fb38ee0e1a4979afbf38b09e8d3efe8</Anchor>
                    </Node>
                    <Node>
                     <Name>operator[]</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a57d17b7c2a9421cb7f0ea663969b3b88</Anchor>
+                    <Anchor>adf66e3ea6c7087f13f69a0e6a1926041</Anchor>
                    </Node>
                    <Node>
                     <Name>clear</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a1d5dd49a26414131c99eda1ca656fab0</Anchor>
+                    <Anchor>a9dd4f9748db0ac3166ec3ab04b1a1056</Anchor>
                    </Node>
                    <Node>
                     <Name>push_back</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a5529e5cccd25daa8450c918aa16113f9</Anchor>
+                    <Anchor>a5cb51dbbce5559b216fcb2cb34b3ad59</Anchor>
                    </Node>
                    <Node>
                     <Name>emplace_back</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a98f77cfd28adeaa99d3c058cd715b5ac</Anchor>
+                    <Anchor>ab94e70dc49c39a020bfb30a6fc748416</Anchor>
                    </Node>
                    <Node>
-                    <Name>_data</Name>
+                    <Name>move_vector_out</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>ac27ada6505b2b8d9f32d8d4e2c11636a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>_test_field</Name>
-                    <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>ac82fd113c5dff73157bba0bb81d5cc19</Anchor>
+                    <Anchor>a90e2bb8764dce3c82075a3506333273f</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -8815,6 +8840,27 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>memory_pool</Name>
+                <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>memory_pool</Name>
+                  <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                  <Anchor>a7d692d20ecbd2e5f13a2e33bade50375</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>data</Name>
+                  <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                  <Anchor>a9639e417fa2a5d3a4826c1dd1be972d1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>size</Name>
+                  <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                  <Anchor>af9536db943431b79ee2edded9c79c911</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>overloaded</Name>
                 <Path>structotto_1_1util_1_1overloaded.html</Path>
                 <Subnodes>
@@ -8822,6 +8868,114 @@
                   <Name>overloaded</Name>
                   <Path>structotto_1_1util_1_1overloaded.html</Path>
                   <Anchor>a8850d011e93c9425246fc84b5d326eb0</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>pool_allocator</Name>
+                <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>rebind</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>structotto_1_1util_1_1pool__allocator_1_1rebind</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>other</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a34929f61db89c39e4f856fec9a1599f4</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>value_type</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a5e4d47a8d9bf1c389d49fc038a58ffcf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pointer</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a276a7825d20728ce6f969edd48e71b89</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>const_pointer</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>affa6e3d9cf44fc3f543ff1881430c7a5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>reference</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a0b25a67df5e45935e5f72dc5305af5ba</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>const_reference</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a62fa51ee9f7c040137db26067ecb9292</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>size_type</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>ac4c9471dfe73e43c924b4497f5f6a3ab</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>difference_type</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>ab0581fcf46ba2359b53732b10bc1d1d2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pool_allocator</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a63041e30a52f49f8ad127c325c4a69be</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pool_allocator</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a589c6ab07d2d9536ea7da5946dca9e38</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pool_allocator</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>aaaefbae99a36289b9f52104f2ba30a90</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~pool_allocator</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a5562aaaa12b4e4a55ff834528bd5d7e1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>address</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a02466cb7d9637881786e897640a14bca</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>address</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a1214e2bfef84533ee51600f20b939148</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>max_size</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a55a90bdddb35dee4de77c6967feae91f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>allocate</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>ad69d70dd7d3fbd7397c04c8b340742a7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>construct</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>aae8603c05dbab017832b5f23f3f56b1e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>destroy</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a07e12b6b52b92e65599a111fc2d211ba</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>deallocate</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a3f87c59f63b14cb4555fa6e75c3f2d13</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -11851,6 +12005,14 @@
             <Path>structotto_1_1test_1_1measure.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::memory_pool&lt; T &gt;</Name>
+            <Path>structotto_1_1util_1_1memory__pool.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::memory_pool&lt; value_type &gt;</Name>
+            <Path>structotto_1_1util_1_1memory__pool.html</Path>
+           </Node>
+           <Node>
             <Name>MidiApi</Name>
             <Path>class_midi_api.html</Path>
             <Subnodes>
@@ -11985,6 +12147,10 @@
             <Path>structotto_1_1core_1_1ui_1_1vg_1_1_point.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::pool_allocator&lt; T &gt;</Name>
+            <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+           </Node>
+           <Node>
             <Name>otto::core::audio::ProcessData&lt; N &gt;</Name>
             <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
            </Node>
@@ -12052,6 +12218,11 @@
             <Name>otto::core::props::PropertyImpl&lt; PlayMode, props::wrap &gt;</Name>
             <Path>namespaceotto_1_1core_1_1props.html</Path>
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
+           </Node>
+           <Node>
+            <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
+            <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+            <Anchor>structotto_1_1util_1_1pool__allocator_1_1rebind</Anchor>
            </Node>
            <Node>
             <Name>otto::filesystem::recursive_directory_iterator</Name>
@@ -12247,7 +12418,7 @@
             <Path>structotto_1_1services_1_1_service_storage.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::midi::shared_vector&lt; T &gt;</Name>
+            <Name>otto::core::midi::shared_vector&lt; T, Allocator &gt;</Name>
             <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
            </Node>
            <Node>
@@ -12382,12 +12553,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
            </Node>
            <Node>
             <Name>UIManager</Name>
@@ -18721,122 +18892,137 @@
                      <Node>
                       <Name>value_type</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>ab8cdb3afb7718d3708c95f037571545a</Anchor>
+                      <Anchor>ad395a565e557239dc998da454cecd8dc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>vector_type</Name>
+                      <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                      <Anchor>ac0447842f3bea56b64d35fe8f8149206</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>allocator_type</Name>
+                      <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                      <Anchor>a57b0d7294ebe7667bb5f0c14b8232540</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>iterator</Name>
+                      <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                      <Anchor>a53ebff27b5df614cdc357b277274bbd8</Anchor>
                      </Node>
                      <Node>
                       <Name>shared_vector</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a34be6d312f57225b51a0963590d20380</Anchor>
+                      <Anchor>ae80082ebfce0dab3cedcacacfd98393e</Anchor>
                      </Node>
                      <Node>
                       <Name>shared_vector</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a80fa9100a05f3006b098e920ca2c1bb2</Anchor>
+                      <Anchor>af3ade87ba2816e4742890967789248ff</Anchor>
                      </Node>
                      <Node>
                       <Name>shared_vector</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a09f411a00b6574ca2200a29b1ea02fd1</Anchor>
+                      <Anchor>a3f25c85cdb208ab59744cb2a9d917f09</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>shared_vector</Name>
+                      <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
+                      <Anchor>a0dfc6ca19553c6fe2f61cf2457bcee24</Anchor>
                      </Node>
                      <Node>
                       <Name>begin</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a0f500b4b46cc2dc2d9287edd0e848afd</Anchor>
+                      <Anchor>a26b477bc57db06a8d4d1efaf128a3c2d</Anchor>
                      </Node>
                      <Node>
                       <Name>end</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a5226991cd2fb9686ba8ba6976e6f8456</Anchor>
+                      <Anchor>a45db548c006ae8fdb4f97c3b1bde47b0</Anchor>
                      </Node>
                      <Node>
                       <Name>begin</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>af97ad6a4de46aa80d2c69753bb885786</Anchor>
+                      <Anchor>aed0b927c8fd74502b2bd868f538c546c</Anchor>
                      </Node>
                      <Node>
                       <Name>end</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a4d007b8afa3e5976a9ce90bde0dda223</Anchor>
+                      <Anchor>a1f47f349922a7862b8fa287f19d4ca4a</Anchor>
                      </Node>
                      <Node>
                       <Name>cbegin</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a5057b37ab1fed3f0026b7ab52e4f6abc</Anchor>
+                      <Anchor>a6f5dcfed55d0053884cb98befe35ff8b</Anchor>
                      </Node>
                      <Node>
                       <Name>cend</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a6f7fee6f40abe1f39e9d7bbb6a8592cb</Anchor>
+                      <Anchor>a6a73194fb8fffe454ea48da877257ae4</Anchor>
                      </Node>
                      <Node>
                       <Name>front</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a44042ff82fd8148fa6e95eeaa118c378</Anchor>
+                      <Anchor>a7d8ddf8b6a6a654f9f543b518b57591f</Anchor>
                      </Node>
                      <Node>
                       <Name>back</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a2eda0c1d0b70bc5d245e09aa0910f1a0</Anchor>
+                      <Anchor>a6386e3e0bd1e0377261c2168c88dcca7</Anchor>
                      </Node>
                      <Node>
                       <Name>front</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>afca9f407a26fb9fc1170f0a1db071e4d</Anchor>
+                      <Anchor>a72c461cd235f823581c2b2bb6e3a2a06</Anchor>
                      </Node>
                      <Node>
                       <Name>back</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>ae1f58873463872579159d140db03a517</Anchor>
+                      <Anchor>afded648dc096aba21197959aa81e4739</Anchor>
                      </Node>
                      <Node>
                       <Name>operator*</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>ab1d5470a68beab2590c3156cd1cf3226</Anchor>
+                      <Anchor>aee7d68e4f561be0ff89006cb2002123e</Anchor>
                      </Node>
                      <Node>
                       <Name>operator*</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>aeb57d970073de4873142e98516781ea2</Anchor>
+                      <Anchor>acf3274d327190b3579ed79ce07113722</Anchor>
                      </Node>
                      <Node>
                       <Name>operator-&gt;</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>ad6bb2db5fd096e932d767faea4ddcca0</Anchor>
+                      <Anchor>ad266a77e313e7fa1fae31d07d357bebe</Anchor>
                      </Node>
                      <Node>
                       <Name>operator-&gt;</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a64c7bc04f6597aaff099d22893ef1275</Anchor>
+                      <Anchor>a9fb38ee0e1a4979afbf38b09e8d3efe8</Anchor>
                      </Node>
                      <Node>
                       <Name>operator[]</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a57d17b7c2a9421cb7f0ea663969b3b88</Anchor>
+                      <Anchor>adf66e3ea6c7087f13f69a0e6a1926041</Anchor>
                      </Node>
                      <Node>
                       <Name>clear</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a1d5dd49a26414131c99eda1ca656fab0</Anchor>
+                      <Anchor>a9dd4f9748db0ac3166ec3ab04b1a1056</Anchor>
                      </Node>
                      <Node>
                       <Name>push_back</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a5529e5cccd25daa8450c918aa16113f9</Anchor>
+                      <Anchor>a5cb51dbbce5559b216fcb2cb34b3ad59</Anchor>
                      </Node>
                      <Node>
                       <Name>emplace_back</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a98f77cfd28adeaa99d3c058cd715b5ac</Anchor>
+                      <Anchor>ab94e70dc49c39a020bfb30a6fc748416</Anchor>
                      </Node>
                      <Node>
-                      <Name>_data</Name>
+                      <Name>move_vector_out</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>ac27ada6505b2b8d9f32d8d4e2c11636a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_test_field</Name>
-                      <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>ac82fd113c5dff73157bba0bb81d5cc19</Anchor>
+                      <Anchor>a90e2bb8764dce3c82075a3506333273f</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -19731,6 +19917,11 @@
                         <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
                         <Anchor>ab5c8471935553e375560ff626c9285fd</Anchor>
                        </Node>
+                       <Node>
+                        <Name>data</Name>
+                        <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                        <Anchor>a644831ce624343a5bcfc959837fa32bb</Anchor>
+                       </Node>
                       </Subnodes>
                      </Node>
                      <Node>
@@ -19784,6 +19975,11 @@
                       <Name>operator-&gt;</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
                       <Anchor>afa695fc11f6d07bd40dad8db6bced64e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>current_idx</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>ab36733c038c14ceb99f3e447ba03383c</Anchor>
                      </Node>
                      <Node>
                       <Name>select</Name>
@@ -19846,6 +20042,11 @@
                       <Name>construct</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
                       <Anchor>ab5c8471935553e375560ff626c9285fd</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>data</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>a644831ce624343a5bcfc959837fa32bb</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -31172,6 +31373,163 @@
                   <Name>has_one_v</Name>
                   <Path>meta_8hpp.html</Path>
                   <Anchor>ae9f82ac0962a327c770d547e2378b2b4</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>pool_allocator.hpp</Name>
+                <Path>pool__allocator_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>memory_pool</Name>
+                  <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>memory_pool</Name>
+                    <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                    <Anchor>a7d692d20ecbd2e5f13a2e33bade50375</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>data</Name>
+                    <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                    <Anchor>a9639e417fa2a5d3a4826c1dd1be972d1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>size</Name>
+                    <Path>structotto_1_1util_1_1memory__pool.html</Path>
+                    <Anchor>af9536db943431b79ee2edded9c79c911</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>pool_allocator</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>rebind</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>structotto_1_1util_1_1pool__allocator_1_1rebind</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>other</Name>
+                      <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                      <Anchor>a34929f61db89c39e4f856fec9a1599f4</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a5e4d47a8d9bf1c389d49fc038a58ffcf</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pointer</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a276a7825d20728ce6f969edd48e71b89</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>const_pointer</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>affa6e3d9cf44fc3f543ff1881430c7a5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>reference</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a0b25a67df5e45935e5f72dc5305af5ba</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>const_reference</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a62fa51ee9f7c040137db26067ecb9292</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>size_type</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>ac4c9471dfe73e43c924b4497f5f6a3ab</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>difference_type</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>ab0581fcf46ba2359b53732b10bc1d1d2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pool_allocator</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a63041e30a52f49f8ad127c325c4a69be</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pool_allocator</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a589c6ab07d2d9536ea7da5946dca9e38</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pool_allocator</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>aaaefbae99a36289b9f52104f2ba30a90</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~pool_allocator</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a5562aaaa12b4e4a55ff834528bd5d7e1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>address</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a02466cb7d9637881786e897640a14bca</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>address</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a1214e2bfef84533ee51600f20b939148</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>max_size</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a55a90bdddb35dee4de77c6967feae91f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>allocate</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>ad69d70dd7d3fbd7397c04c8b340742a7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>construct</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>aae8603c05dbab017832b5f23f3f56b1e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>destroy</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a07e12b6b52b92e65599a111fc2d211ba</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>deallocate</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a3f87c59f63b14cb4555fa6e75c3f2d13</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>rebind</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>structotto_1_1util_1_1pool__allocator_1_1rebind</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>other</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a34929f61db89c39e4f856fec9a1599f4</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>operator==</Name>
+                  <Path>pool__allocator_8hpp.html</Path>
+                  <Anchor>a26e7e0ddf6372b37a03a891d62ed3632</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator!=</Name>
+                  <Path>pool__allocator_8hpp.html</Path>
+                  <Anchor>a3fa3b06b03fc43b37605cd987da30f79</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

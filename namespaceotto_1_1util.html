@@ -168,8 +168,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1locked.html">locked</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap any type in a mutex, and guarantee that it is locked on every access.  <a href="classotto_1_1util_1_1locked.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1memory__pool.html">memory_pool</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1overloaded.html">overloaded</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload lambdas.  <a href="structotto_1_1util_1_1overloaded.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1ringbuffer.html">ringbuffer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +208,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a2392324f287ba6e38ba7d63dea6ee84d"><td class="memTemplParams" colspan="2">template&lt;typename DataRef , typename... Args&gt; </td></tr>
 <tr class="memitem:a2392324f287ba6e38ba7d63dea6ee84d"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a2392324f287ba6e38ba7d63dea6ee84d">as_exception</a> (DataRef &amp;&amp;dr, const <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;message, Args &amp;&amp;... args) -&gt; <a class="el" href="structotto_1_1util_1_1as__exception.html">as_exception</a>&lt; std::decay_t&lt; DataRef &gt;&gt;</td></tr>
 <tr class="separator:a2392324f287ba6e38ba7d63dea6ee84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e7e0ddf6372b37a03a891d62ed3632"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
+<tr class="memitem:a26e7e0ddf6372b37a03a891d62ed3632"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a26e7e0ddf6372b37a03a891d62ed3632">operator==</a> (const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T1 &gt; &amp;, const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T2 &gt; &amp;) noexcept</td></tr>
+<tr class="separator:a26e7e0ddf6372b37a03a891d62ed3632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fa3b06b03fc43b37605cd987da30f79"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
+<tr class="memitem:a3fa3b06b03fc43b37605cd987da30f79"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a3fa3b06b03fc43b37605cd987da30f79">operator!=</a> (const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T1 &gt; &amp;, const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T2 &gt; &amp;) noexcept</td></tr>
+<tr class="separator:a3fa3b06b03fc43b37605cd987da30f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1712151106797da1cd0a9358124ba76"><td class="memTemplParams" colspan="2">template&lt;typename... Ls&gt; </td></tr>
 <tr class="memitem:af1712151106797da1cd0a9358124ba76"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af1712151106797da1cd0a9358124ba76">overloaded</a> (Ls...) -&gt; <a class="el" href="structotto_1_1util_1_1overloaded.html">overloaded</a>&lt; std::decay_t&lt; Ls &gt;... &gt;</td></tr>
 <tr class="separator:af1712151106797da1cd0a9358124ba76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -385,6 +395,86 @@ template&lt;typename DataRef , typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26e7e0ddf6372b37a03a891d62ed3632"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e7e0ddf6372b37a03a891d62ed3632">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otto::util::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T1 &gt; &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T2 &gt; &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00112">112</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3fa3b06b03fc43b37605cd987da30f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fa3b06b03fc43b37605cd987da30f79">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otto::util::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T1 &gt; &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T2 &gt; &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00117">117</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
 
 </div>
 </div>

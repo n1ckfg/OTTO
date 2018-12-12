@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa695fc11f6d07bd40dad8db6bced64e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; ET &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#afa695fc11f6d07bd40dad8db6bced64e">operator-&gt;</a> () noexcept</td></tr>
 <tr class="memdesc:afa695fc11f6d07bd40dad8db6bced64e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the currently selected engine.  <a href="#afa695fc11f6d07bd40dad8db6bced64e">More...</a><br /></td></tr>
 <tr class="separator:afa695fc11f6d07bd40dad8db6bced64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab36733c038c14ceb99f3e447ba03383c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ab36733c038c14ceb99f3e447ba03383c">current_idx</a> () const noexcept</td></tr>
+<tr class="memdesc:ab36733c038c14ceb99f3e447ba03383c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of the currently selected engine.  <a href="#ab36733c038c14ceb99f3e447ba03383c">More...</a><br /></td></tr>
+<tr class="separator:ab36733c038c14ceb99f3e447ba03383c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e39c52a9d5523cc6283625b92e2211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; ET &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#af3e39c52a9d5523cc6283625b92e2211">select</a> (const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory">EngineFactory</a> &amp;)</td></tr>
 <tr class="memdesc:af3e39c52a9d5523cc6283625b92e2211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an engine and select it by factory.  <a href="#af3e39c52a9d5523cc6283625b92e2211">More...</a><br /></td></tr>
 <tr class="separator:af3e39c52a9d5523cc6283625b92e2211"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +175,12 @@ name</td>
 <a id="ab5c8471935553e375560ff626c9285fd"></a>function&lt; unique_ptr&lt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; ET &gt; &gt;)&gt;</td>
 <td class="fieldname">
 construct</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a644831ce624343a5bcfc959837fa32bb"></a>json</td>
+<td class="fieldname">
+data</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -282,6 +291,8 @@ template&lt;EngineType ET&gt; </div>
 
 <p>Access the currently selected engine. </p>
 
+<p class="reference">Referenced by <a class="el" href="engine__selector__screen_8hpp_source.html#l00038">otto::core::engine::EngineSelectorScreen::EngineSelectorScreen()</a>.</p>
+
 </div>
 </div>
 <a id="afbbf625597baf5a47d06c946fcc35b08"></a>
@@ -337,7 +348,6 @@ template&lt;EngineType ET&gt; </div>
 </div><div class="memdoc">
 
 <p>Access the currently selected engine. </p>
-<p>Access the currently selected engine Access the currently selected engine </p>
 
 </div>
 </div>
@@ -370,6 +380,35 @@ template&lt;EngineType ET&gt; </div>
 
 </div>
 </div>
+<a id="ab36733c038c14ceb99f3e447ba03383c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab36733c038c14ceb99f3e447ba03383c">&#9670;&nbsp;</a></span>current_idx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;EngineType ET&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET &gt;::current_idx </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the index of the currently selected engine. </p>
+
+</div>
+</div>
 <a id="af3e39c52a9d5523cc6283625b92e2211"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3e39c52a9d5523cc6283625b92e2211">&#9670;&nbsp;</a></span>select() <span class="overload">[1/3]</span></h2>
 
@@ -389,8 +428,9 @@ template&lt;EngineType ET&gt; </div>
 </div><div class="memdoc">
 
 <p>Create an engine and select it by factory. </p>
+<p>If the name is the same as the already selected engine, that engine is returned instead. </p>
 
-<p class="reference">Referenced by <a class="el" href="engine__selector__screen_8hpp_source.html#l00037">otto::core::engine::EngineSelectorScreen::EngineSelectorScreen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="engine__selector__screen_8hpp_source.html#l00038">otto::core::engine::EngineSelectorScreen::EngineSelectorScreen()</a>.</p>
 
 </div>
 </div>
@@ -492,7 +532,7 @@ template&lt;EngineType ET&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="engine__dispatcher_8hpp_source.html#l00085">otto::core::engine::EngineDispatcher&lt; ET &gt;::register_engine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="engine__dispatcher_8hpp_source.html#l00087">otto::core::engine::EngineDispatcher&lt; ET &gt;::register_engine()</a>.</p>
 
 </div>
 </div>
@@ -516,7 +556,7 @@ template&lt;typename Eg &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8hpp_source.html#l00085">85</a> of file <a class="el" href="engine__dispatcher_8hpp_source.html">engine_dispatcher.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8hpp_source.html#l00087">87</a> of file <a class="el" href="engine__dispatcher_8hpp_source.html">engine_dispatcher.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>, and <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a8b82b320157f3115474cee051df9aaa6">otto::core::engine::EngineDispatcher&lt; ET &gt;::register_factory()</a>.</p>
 
@@ -546,6 +586,8 @@ template&lt;EngineType ET&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="engine__selector__screen_8hpp_source.html#l00038">otto::core::engine::EngineSelectorScreen::EngineSelectorScreen()</a>.</p>
 
 </div>
 </div>
