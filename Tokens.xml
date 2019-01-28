@@ -1102,13 +1102,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::ui::vg</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1ui_1_1vg.html</Path>
-    <Anchor>a3321dfc3c7160248acaf63639cf3e500</Anchor>
+    <Anchor>ac49c4293bedbc6c37601db0f2ab46293</Anchor>
     <DeclaredIn>canvas.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -3882,77 +3882,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>iterator_adaptor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>a52b660bb45a58cdc7bd6e016954aa3a1</Anchor>
-    <Abstract>Zero overhead wrapper to create iterators.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>generating_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>ad7057866c78699273bdc7728131d85a6</Anchor>
-    <Abstract>Generating iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>zipped_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>a5c4d8c13381464c4f26111d769ba955d</Anchor>
-    <Abstract>Zipped iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>adjacent_pair_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>ae5318cce65932fc02b876e06ecd1ca1f</Anchor>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>transform_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>a41635fce9fd42f98a8e8f5f5baaa5644</Anchor>
-    <Abstract>Transforming Iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>filter_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>aca0a1ad6e787c390b5ff7b4d59f6c1b3</Anchor>
-    <Abstract>Filter Iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>float_step_iterator</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -4037,10 +3966,10 @@
       <Name>transform</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::util::iterator::view</Scope>
+      <Scope>otto::util::view</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator_1_1view.html</Path>
-    <Anchor>add5d7602c9da5fdb97908874b25e8dc2</Anchor>
+    <Path>namespaceotto_1_1util_1_1view.html</Path>
+    <Anchor>acb58bc70335d1a3d0f9f1e684b48c70d</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -4048,10 +3977,10 @@
       <Name>filter</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::util::iterator::view</Scope>
+      <Scope>otto::util::view</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator_1_1view.html</Path>
-    <Anchor>a637702c8ab78cbf53154703f122962e0</Anchor>
+    <Path>namespaceotto_1_1util_1_1view.html</Path>
+    <Anchor>a5eb0bf0fe3a95da366c274c00b2e5bc2</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -4643,13 +4572,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util_1_1math.html</Path>
-    <Anchor>a441f8b0f423ab933b18137c2b7869849</Anchor>
+    <Anchor>accc11c23d8bbc90fc406fd9c390fafa9</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5049,7 +4978,7 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>af8f23c1f04b89e67a7a3bcf84409e1a2</Anchor>
+    <Anchor>a4baea16cf53d44dc3b55cb4a06883624</Anchor>
     <Abstract>Match any type, do nothing with it.</Abstract>
     <DeclaredIn>utility.hpp</DeclaredIn>
   </Token>
@@ -15987,7 +15916,7 @@
       <Scope>otto::board::ui::Modifiers</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-    <Anchor>a2de442ee4a30b68bdcbbb6928449f3ca</Anchor>
+    <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
     <DeclaredIn>keys.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16086,7 +16015,7 @@
       <Scope>otto::board::ui::Modifiers</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-    <Anchor>a2de442ee4a30b68bdcbbb6928449f3ca</Anchor>
+    <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
     <DeclaredIn>keys.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17347,6 +17276,17 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_voice_manager.html</Path>
     <Anchor>a7af6ea1039f90c7140ce95ebf130c80f</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>handle_midi_event</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_voice_manager.html</Path>
+    <Anchor>a92e40ad45a27998d0171bf91068a1802</Anchor>
     <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -20326,24 +20266,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::midi::shared_vector</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-    <Anchor>aee7d68e4f561be0ff89006cb2002123e</Anchor>
+    <Anchor>a0466952c7284ea59e7b4ff9f447938c0</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::midi::shared_vector</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-    <Anchor>acf3274d327190b3579ed79ce07113722</Anchor>
+    <Anchor>a641005c4a980f1df0f31532b18a59872</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -20990,7 +20930,7 @@
       <Scope>otto::core::props::compare_tags</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1compare__tags.html</Path>
-    <Anchor>a09a363856f69554a0b2b30f6143164c7</Anchor>
+    <Anchor>abf768d55308c22c2bc6c3437d8df2a17</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21148,7 +21088,7 @@
       <Scope>otto::core::props::HookWithValue</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1_hook_with_value.html</Path>
-    <Anchor>a1624ba798105cb448a04545739bbc0b0</Anchor>
+    <Anchor>af0134e77cd138993ceaee25558d5dca9</Anchor>
     <DeclaredIn>type_traits.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -21267,7 +21207,7 @@
       <Scope>otto::core::props::MixinTag</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1_mixin_tag.html</Path>
-    <Anchor>a39675c9777990e9d027faab2e9fa5889</Anchor>
+    <Anchor>a8fc9fb79c8d520637874fe35b4d5b002</Anchor>
     <DeclaredIn>type_traits.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -21278,7 +21218,7 @@
       <Scope>otto::core::props::MixinTag</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1_mixin_tag.html</Path>
-    <Anchor>ac0928b02f6254fb5a6e3707bbd4eebd7</Anchor>
+    <Anchor>a3fc60ac71518adf97e45bb8c09814761</Anchor>
     <Abstract>Check if Tag has a type-erased interface.</Abstract>
   </Token>
   <Token>
@@ -21978,7 +21918,7 @@
       <Scope>otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html</Path>
-    <Anchor>acbc638e90504bb0ec19072505066dcf8</Anchor>
+    <Anchor>a904556aa1f89870e64d87f047696fcb8</Anchor>
     <DeclaredIn>property.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -21989,7 +21929,7 @@
       <Scope>otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html</Path>
-    <Anchor>a866f46b010155f0077accb4f62269a6a</Anchor>
+    <Anchor>a17aea038b3469ff26e7477820f501cc3</Anchor>
     <DeclaredIn>property.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -22176,7 +22116,7 @@
       <Scope>otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html</Path>
-    <Anchor>af303d84e6969d76bb2824fe011d80b1a</Anchor>
+    <Anchor>a845c6c96b8a96d199d785ddca541f9fa</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -23316,13 +23256,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::ui::vg</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1ui_1_1vg.html</Path>
-    <Anchor>a3321dfc3c7160248acaf63639cf3e500</Anchor>
+    <Anchor>ac49c4293bedbc6c37601db0f2ab46293</Anchor>
     <DeclaredIn>canvas.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -24463,13 +24403,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::ui::vg::Point</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1ui_1_1vg_1_1_point.html</Path>
-    <Anchor>ab3171f8694c1d77527b4614a0fac8202</Anchor>
+    <Anchor>a08ebb013ffbf2041087f52ee1565abe2</Anchor>
     <DeclaredIn>canvas.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -27666,16 +27606,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>carrier</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::OperatorEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_envelope.html</Path>
-    <Anchor>ab9126edc02078eb7ca82f770008b7534</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>modulator</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -27766,6 +27696,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>carrier</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::VoiceEnvelope</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_voice_envelope.html</Path>
+    <Anchor>a74ee1efb71080871706835b8f8d88394</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ops</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -27803,7 +27743,7 @@
       <Scope>otto::engines::Pingpong</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_pingpong.html</Path>
-    <Anchor>a57dd67dd09e0ad70312edcdaa513f668</Anchor>
+    <Anchor>a60f7d7aaf0a137ca3dfa3726ac19c2dd</Anchor>
     <DeclaredIn>pingpong.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28344,6 +28284,614 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::engines::Sample</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Sample</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a3b125c507ddc7d150bca25a7d77d8ec4</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Sample</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>ad409ebce8e4e8271b1490738b602d2ed</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a2f70e2e643646b81bf6414c3fde375c4</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>begin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a93a4c34d009192e1862723fa3b446a8e</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a913f2e439f477999849a5b58fcbc6460</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>waveform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a722b9ff7eecb19ad1faf7f87a06e3f13</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>waveform_scale</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>af59502f85fe8f426139fed9dfb0974d5</Anchor>
+    <Abstract>Audio samples per entry in waveform()</Abstract>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>start_point</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a9c14e4dda1313d5b692790c80d7cffb5</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end_point</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>af5fd967df6b8d4e86048400455553d82</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loop_start</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a7cc4d6a80b65f4f6bf011c8fe99a9f30</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loop_end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a00b10d194a2fb09c037666c239974259</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>start_point</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>af5092918b2079ca54a5caea7b0364c4d</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end_point</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a741b4e99e5f830d46920ac461f176cc9</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loop_start</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a0f894418db0794b56aa78948d51a4ce3</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loop_end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a5b3d87c058a0b9fe011ca1e1f7cb972c</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cut</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a2cc0803118e042711cf0c70b1d3ecbd1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a55ae1fe3783410054388639d136cfd0f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>otto::engines::Sample</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample.html</Path>
+    <Anchor>a56458d1a586dea226625fb759fc3867a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::Sample::iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vector_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a12536531036a1b1e28db7649e8757690</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a815e401bad3ad6c129ac24f7c7cf6a6a</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>af28b083ccc6284a9c4a4eb6f17f9c06b</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a2bf7e63af461d596197b432f8dcf4ba9</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>advance</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a6f6c3ac9b365bbf31ad57939e72e19f2</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dereference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a994e13e9c2b744228a102dd2a02fbb3c</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>equal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a9262cbdcb624d9000428cdabaaec52ea</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>index</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a2d40e6dfa4c534b1945c4d803a9344e5</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sample</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a861c52a5690894d4b263ca0c039488dd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>do_loop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sample::iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
+    <Anchor>a83b9bf26fbad5609ff9cd5e6fdc6c331</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::Sampler</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Sampler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ac158e8c354982a3387743bc7595d918d</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>process</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a6485e07b8f9c2aac2db698a6d94fc62d</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a8765d374cb39e4800d1ece5ec279fd30</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voices_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>aabfc2635c271091d5d8c2e885a9fbc94</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AnyEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a569a96572dde4ab647797d3f28a0cfe3</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AnyEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a280e6a6f9adad749791ec8900af2cb92</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~AnyEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>abb44c6fa9c04a201342ceec7d4681bfd</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_enable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a393f5280478e9262bdc621c9e27e6e0f</Anchor>
+    <Abstract>Called when this module is enabled.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_disable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>ae526f7f9b6323f5e7e32c0cac2c32c81</Anchor>
+    <Abstract>Called when this module is disabled.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a6202ffd30ee96989d0f15395479251f2</Anchor>
+    <Abstract>The name of this module.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a1d47762e1c23e75f65bf6811cfff9fc7</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a913081b4c17a0c953d8b4beaf3ee0e0b</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current_preset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a47357ecd836e5d2c275f53f216c07801</Anchor>
+    <Abstract>The currently selected preset.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current_preset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a06eb08a2d296ab387bf22e1edbdcc407</Anchor>
+    <Abstract>Set the current preset.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a3c39faa6e1e6157a712804e81e6f8e50</Anchor>
+    <Abstract>Serialize the engine.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>ae8cc58f1238000ad0388539304a46b68</Anchor>
+    <Abstract>Deserialize the engine.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>aa058bc66a05123d08fc227f5f6383260</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>ae020f2ea1fc4e58bc0780d1fadf0785a</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ab00860453c1a84ea1e696def6499c11c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SamplerScreen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a4b658f77bde19f54cbf90cea244f5f66</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SamplerEnvelopeScreen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a06f14d73edec3172fb19fd095ccffec6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::Sampler::Props</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sampler::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>file</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+    <Anchor>a282a3e0f565d34a2eebbd12f80f3184b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>filter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+    <Anchor>aa04659fed7732e2cc1eed6a40b48a10b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>speed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+    <Anchor>af7893e5debe678c615b315a638a7b879</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::engines::VocoderSynth</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -28646,7 +29194,7 @@
       <Scope>otto::engines::Wormhole</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_wormhole.html</Path>
-    <Anchor>a8d1e1ab3e2392913473f3b6b914c8920</Anchor>
+    <Anchor>a02ba5a8a4a018736591a7cb7ea4f37c5</Anchor>
     <DeclaredIn>wormhole.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -31324,13 +31872,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::filesystem::directory_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1filesystem_1_1directory__iterator.html</Path>
-    <Anchor>ab0cfc39b176fae55adcd197f8c1dc12c</Anchor>
+    <Anchor>a8b4e4dca8bc477fedc7ff1ea3f674e19</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -32763,13 +33311,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::filesystem::path::iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
-    <Anchor>aba00472e2399deb29b83e34dc6eda9f0</Anchor>
+    <Anchor>abd1be4b10b6b890cd8b1bdf315b1876c</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -32944,13 +33492,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::filesystem::recursive_directory_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1filesystem_1_1recursive__directory__iterator.html</Path>
-    <Anchor>a2e9f0d52c17b5f5fa421905ab6d3ba3a</Anchor>
+    <Anchor>a65ad8dfbfbda188e5368da4c1416a333</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -33754,7 +34302,7 @@
       <Scope>otto::meta::compare&lt; c&lt; I1 &gt;, c&lt; I2 &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1meta_1_1compare_3_01c_3_01_i1_01_4_00_01c_3_01_i2_01_4_01_4.html</Path>
-    <Anchor>a4e4f690e0c83ddda3f8988a47e800d80</Anchor>
+    <Anchor>ad4189e883687d64b9912c1e928f3e5e4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -33795,7 +34343,7 @@
       <Scope>otto::meta::equals</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1meta_1_1equals.html</Path>
-    <Anchor>a6dd646a1f6d7c43ac777d938272dcf9b</Anchor>
+    <Anchor>a92b199e3dcb53b078a2fb212454214a6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35647,13 +36195,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::services::ServiceStorage</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_service_storage.html</Path>
-    <Anchor>a6592ad049a6ab87e41cf98e595131dab</Anchor>
+    <Anchor>a937b5a97ae23a6a04f8f8749d2c54a40</Anchor>
     <DeclaredIn>application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -36135,7 +36683,7 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>af8f23c1f04b89e67a7a3bcf84409e1a2</Anchor>
+    <Anchor>a4baea16cf53d44dc3b55cb4a06883624</Anchor>
     <Abstract>Match any type, do nothing with it.</Abstract>
     <DeclaredIn>utility.hpp</DeclaredIn>
   </Token>
@@ -36676,7 +37224,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a64459f92fe16eb2827952b48f39319af</Anchor>
+    <Anchor>ae6ee39727864de7792290ac950fdcce1</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -37290,13 +37838,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::cache_base</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1cache__base.html</Path>
-    <Anchor>afc30e6a2b6b7a86400858999835c761f</Anchor>
+    <Anchor>a20e24f67dd8dd887f57e2fbf4d1d6524</Anchor>
     <Abstract>Access the cached value.</Abstract>
     <DeclaredIn>cache.hpp</DeclaredIn>
   </Token>
@@ -37394,13 +37942,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::cache_base</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1cache__base.html</Path>
-    <Anchor>afc30e6a2b6b7a86400858999835c761f</Anchor>
+    <Anchor>a20e24f67dd8dd887f57e2fbf4d1d6524</Anchor>
     <Abstract>Access the cached value.</Abstract>
     <DeclaredIn>cache.hpp</DeclaredIn>
   </Token>
@@ -38607,23 +39155,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::ringbuffer</Scope>
-    </TokenIdentifier>
-    <Path>classotto_1_1util_1_1ringbuffer.html</Path>
-    <Anchor>aeb593fd0777f8d3d642b418773aec1a0</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>const_iterator</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
       <Scope>otto::util::ringbuffer</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1ringbuffer.html</Path>
-    <Anchor>a6aa8a07db0a89467ef493dea0767eb20</Anchor>
+    <Anchor>a011d747816c1514b144ff9f4388b76c8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::ringbuffer</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1util_1_1ringbuffer.html</Path>
+    <Anchor>a935141214ee60cbfc267a8711e62b75d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -39300,7 +39848,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a64459f92fe16eb2827952b48f39319af</Anchor>
+    <Anchor>ae6ee39727864de7792290ac950fdcce1</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39331,7 +39879,7 @@
       <Scope>otto::util::SoundFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_sound_file.html</Path>
-    <Anchor>a473d4b45e7cf04cac1f7ac7c064b0984</Anchor>
+    <Anchor>ae7a86207b9692af084b6fe52c0091411</Anchor>
     <Abstract>Size in bytes of one sample.</Abstract>
   </Token>
   <Token>
@@ -39931,7 +40479,7 @@
       <Scope>otto::util::ByteFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_byte_file.html</Path>
-    <Anchor>a64459f92fe16eb2827952b48f39319af</Anchor>
+    <Anchor>ae6ee39727864de7792290ac950fdcce1</Anchor>
     <DeclaredIn>bytefile.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40070,7 +40618,7 @@
       <Scope>otto::util::SoundFile</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1_sound_file.html</Path>
-    <Anchor>a473d4b45e7cf04cac1f7ac7c064b0984</Anchor>
+    <Anchor>ae7a86207b9692af084b6fe52c0091411</Anchor>
     <Abstract>Size in bytes of one sample.</Abstract>
   </Token>
   <Token>
@@ -40131,7 +40679,7 @@
       <Scope>otto::util::wrapping_array</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1wrapping__array.html</Path>
-    <Anchor>aeb593fd0777f8d3d642b418773aec1a0</Anchor>
+    <Anchor>a935141214ee60cbfc267a8711e62b75d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40141,7 +40689,7 @@
       <Scope>otto::util::wrapping_array</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1wrapping__array.html</Path>
-    <Anchor>a6aa8a07db0a89467ef493dea0767eb20</Anchor>
+    <Anchor>a011d747816c1514b144ff9f4388b76c8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40254,12 +40802,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::util::wrapping_array::IteratorImpl</Name>
+      <Name>otto::util::wrapping_array::iterator_impl</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
     <Abstract>Specification for iterator.</Abstract>
     <DeclaredIn>ringbuffer.hpp</DeclaredIn>
   </Token>
@@ -40268,30 +40816,20 @@
       <Name>value_type</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>a0aebabca08b6cd6340f882a2f123a6ed</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>ad5a977739964aa08be515d556166098d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>iterator_category</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>a0a52202ceb6c52bff909d2a0e47ec58c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>IteratorImpl</Name>
+      <Name>iterator_impl</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>a79a6212aa4c5249fed0d6a6a23fb6179</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>a190b2c681651c57ef48e18b56f834d2c</Anchor>
     <DeclaredIn>ringbuffer.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40299,10 +40837,10 @@
       <Name>advance</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>a8705227cdb232aa7d49d9ca1afa44142</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>a83c04ffdd6abf4932b37ef7a5ceae791</Anchor>
     <DeclaredIn>ringbuffer.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40310,10 +40848,10 @@
       <Name>equal</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>a115484325744f6fcd600066d1fa45885</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>a62a56393cbc7543e470b24ad59dd5d5c</Anchor>
     <DeclaredIn>ringbuffer.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40321,10 +40859,10 @@
       <Name>difference</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>aa72bd9e937244766d1fc65ed57cb0831</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>aff624694c394f34539f978a5a64ad145</Anchor>
     <DeclaredIn>ringbuffer.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40332,10 +40870,10 @@
       <Name>dereference</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>abe3eab7585c048d0afc4a50c248918c5</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>a81d1a7d4d4ee4abc51e8e1192b1ddf0f</Anchor>
     <DeclaredIn>ringbuffer.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40343,20 +40881,20 @@
       <Name>value</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>a7c20c4bd3977e53e7e1a26f43a457eb8</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>a84be1fe476857fb62bff276064d0f1cc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>index</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::util::wrapping_array::IteratorImpl</Scope>
+      <Scope>otto::util::wrapping_array::iterator_impl</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1wrapping__array_1_1_iterator_impl.html</Path>
-    <Anchor>a108a3aedea604006be140654b44fbc85</Anchor>
+    <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
+    <Anchor>a09fba133c29c8ad40d294529388b93bd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -41355,6 +41893,48 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::util::audio::EnvelopeFollower</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::util::audio::EnvelopeFollower</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1audio_1_1_envelope_follower.html</Path>
+    <Abstract>Envelope follower.</Abstract>
+    <DeclaredIn>audio.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::audio::EnvelopeFollower</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1audio_1_1_envelope_follower.html</Path>
+    <Anchor>acaa7e2c629cb90da3e19fb01db6b925a</Anchor>
+    <DeclaredIn>audio.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>k</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::audio::EnvelopeFollower</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1audio_1_1_envelope_follower.html</Path>
+    <Anchor>a1167bd729d7844ac3fef22ba35450a59</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::audio::EnvelopeFollower</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1audio_1_1_envelope_follower.html</Path>
+    <Anchor>a850f89796253ec1731ca009f02bf604b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::util::audio::Graph</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -41898,77 +42478,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>iterator_adaptor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>a52b660bb45a58cdc7bd6e016954aa3a1</Anchor>
-    <Abstract>Zero overhead wrapper to create iterators.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>generating_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>ad7057866c78699273bdc7728131d85a6</Anchor>
-    <Abstract>Generating iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>zipped_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>a5c4d8c13381464c4f26111d769ba955d</Anchor>
-    <Abstract>Zipped iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>adjacent_pair_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>ae5318cce65932fc02b876e06ecd1ca1f</Anchor>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>transform_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>a41635fce9fd42f98a8e8f5f5baaa5644</Anchor>
-    <Abstract>Transforming Iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>filter_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::iterator</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator.html</Path>
-    <Anchor>aca0a1ad6e787c390b5ff7b4d59f6c1b3</Anchor>
-    <Abstract>Filter Iterator.</Abstract>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>float_step_iterator</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -42047,6 +42556,240 @@
     <Path>namespaceotto_1_1util_1_1iterator.html</Path>
     <Anchor>a3226e46f7c01ef6bee183dfda811cfb7</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::adjacent_pair_iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>a6d4ededa71180db706f9e5ae08e8ef28</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>abcc54aa653c70252f7b98b2dcd0b8697</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>acc63614bf4b8605dfafb6adc26a45570</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adjacent_pair_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>ab6af9e7bbe914ee89fd8c0863a37eb14</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>advance</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>a246d6b5daad234ce94e71df8dc834fb8</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dereference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>abc8a096013adfbdd7825500afd6b7cd9</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>equal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>ac48056598e39583f66398934c166949b</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>prev</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>abb13a5d6ef112d7efdf0e81762ea734a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cur</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::adjacent_pair_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html</Path>
+    <Anchor>a013b97296294d3f4e1beb40d533f2853</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42131,6 +42874,254 @@
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
     <Anchor>a3ef6007ed385675c143495e3b6a5bb10</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::filter_iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Abstract>Filter iterator.</Abstract>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>filter_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>ae31289bdc81ea2dc3137e8987976ef6d</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>filter_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>a95d4bb876485a2a804025e924b7c52e3</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nextvalid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>adb8c70d023f8e47651bdbaeef8f25903</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>advance</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>a1b7cb1cc1fdfc14c3fac7a8fe5349486</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dereference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>ac03c13f4d546b0a6be352ac1f87ff7d2</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>equal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>a29fe7292e26eebcdb739c52812fc74db</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>ad265768509300fb1ce6822411b4460a5</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>a075edc85c4b6f97e714652b1b5d0d024</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>last</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>aa18105c3a9654e67ccfe30a1334d67a3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>callable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::filter_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1filter__iterator.html</Path>
+    <Anchor>a7e45093392499332c83a5523a357b6e0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42263,25 +43254,25 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>a8537d100ae4f0cc0c7e6952c651143af</Anchor>
+    <Anchor>aff4cb69b8a9861f5079eda6fa2260cc0</Anchor>
     <Abstract>Dereference the iterator.</Abstract>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>a052e59b35fdeb4a927108853507a8b90</Anchor>
+    <Anchor>a589deb5dd73295ab16cb935c67eea7ae</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42376,8 +43367,19 @@
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>aaa70d04773fdc8138572e241b7172994</Anchor>
+    <Anchor>aad2db10cb8e2e183b8c97bfb6bcea035</Anchor>
     <Abstract>Increment this by n</Abstract>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator+</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::float_step_iterator</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+    <Anchor>a10ca299554e66ed3235e7d715f08d315</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42412,8 +43414,19 @@
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>aedd4da2cd88f18ea713af59f99411310</Anchor>
+    <Anchor>ae9b47247411d2e129b20149b8146768c</Anchor>
     <Abstract>Decrement this by n</Abstract>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::float_step_iterator</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
+    <Anchor>a36793cc9d0810b7de862445f282c3c1a</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42424,7 +43437,7 @@
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>adbc9f27d305f5c18a3c5281053b987f4</Anchor>
+    <Anchor>ae09ee384797ab1d0cbda6c3e3c173e63</Anchor>
     <Abstract>Decrement this by one.</Abstract>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
@@ -42436,7 +43449,7 @@
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>a6a915b7b436c80f1252ad9848ece45d1</Anchor>
+    <Anchor>a1036972f94572768433857bd5d4d2d11</Anchor>
     <Abstract>Decrement this by one.</Abstract>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
@@ -42486,6 +43499,812 @@
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
     <Anchor>af0c38d3e226cb5e1884400019113a79e</Anchor>
     <Abstract>The size of one step.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::generating_iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::generating_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1generating__iterator.html</Path>
+    <Abstract>Generating iterator.</Abstract>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::generating_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1generating__iterator.html</Path>
+    <Anchor>a487348a254fa2a94938e82bffcc7ccf7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::generating_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1generating__iterator.html</Path>
+    <Anchor>a9cd80c3c24bd23e4c057c6185bcd57c2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>generating_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::generating_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1generating__iterator.html</Path>
+    <Anchor>a30acd9ea3b07adb8fc691621afac2278</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>advance</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::generating_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1generating__iterator.html</Path>
+    <Anchor>a983025e141edff86dd94bb392a09be0a</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dereference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::generating_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1generating__iterator.html</Path>
+    <Anchor>a931e665577499c6326f84382011ada28</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>equal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::generating_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1generating__iterator.html</Path>
+    <Anchor>ad3d443e8e567f742fc28f5545bd36a8a</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::iterator_facade</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Abstract>Zero overhead wrapper to create iterators.</Abstract>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Super</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>abfdad20eef6c415d8db83535e60333c3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a8221fc9351e74028434d656b8c53e282</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator+</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a8e9b0e13936bd43051f75bfc9bcd886b</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a31b43386cde44cac057c11d096c0b413</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a08c4b81274049fad9977fed0ca34980d</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&lt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a470508d7d6dadd099bdce6f55f64f63b</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&gt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>ab1d43bde27894daa8cf1299381b5fb54</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&lt;=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a58e5ab1207570906a7de8acc0e4c5a10</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&gt;=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a2cb521715c2c90ff3c05f20acc69bc79</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator+=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>aedae7f221dd7a2463eac042952125f16</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a212052b17e8a87d313a3acd0723df5fc</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html</Path>
+    <Anchor>a05d4928020dc82fed7dbcc6f9a2fb830</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_value_type_00_01std_1_1bidbaeecc5756f3133701c6a682f3a28048.html</Path>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Super</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_value_type_00_01std_1_1bidbaeecc5756f3133701c6a682f3a28048.html</Path>
+    <Anchor>ab5715bb860473ed79e17ab2341725b4e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_value_type_00_01std_1_1bidbaeecc5756f3133701c6a682f3a28048.html</Path>
+    <Anchor>a900fe5bd910b521dd64aa7c935ec67f6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator--</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_value_type_00_01std_1_1bidbaeecc5756f3133701c6a682f3a28048.html</Path>
+    <Anchor>ae71a69b3ae0f2a8696cf152abdcbf418</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator--</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_value_type_00_01std_1_1bidbaeecc5756f3133701c6a682f3a28048.html</Path>
+    <Anchor>aace83bab4046353f5ea27a80ecc6e3fd</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42560,6 +44379,480 @@
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
     <Anchor>ab045fe48a8829ac55b1057c9eb52a69d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::transform_iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Abstract>Transform iterator.</Abstract>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>transform_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>a0c49f993197cd93540d9a085bd1f2dce</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>transform_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>ac3ef267db11126a56c7c511daba58a92</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>advance</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>a786295edb6a172ac719f7c7e01f7d42b</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dereference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>a8e9a8c246270329cbe9feb20dcb708b9</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>equal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>a0e44c34f42d96b69d6c4612f6cc0b1fe</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>ae9ca8605a64ac20af3f52477e64d6a7b</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>a6067328110d5f6a437a8ca712fbcc2d5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>callable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::transform_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1transform__iterator.html</Path>
+    <Anchor>a8da529b35be02621406b84f37ede5a25</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::iterator::zipped_iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Abstract>Zipped iterator.</Abstract>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a7c2768c43e45f38eca3d522939457fcd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>ae21ddcf33aa29e2a0ec99b50730775a6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a79559ecbf22a3dfe2b7c771941e041f8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ad907f521b6c3794fc52b3a343f861979</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator_category</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a366d9ae6af7171d594aa8ebb54ccc0ef</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reference</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ac247eec9d1d38667e7576f132afd5ccb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pointer</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a9532f24d875135f6d6b859f49d0c508b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>difference_type</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a572f9abac79938e27dda1a66ddc9f899</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>zipped_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a7c2dae8f388d394dcbbd7bad39ff8b14</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>zipped_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>abc1e243d984b3b42ed73045cad2ea2f4</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>advance</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a76298e3d97f2ae440502e000e65a49d8</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dereference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a2af2429d3beb7b7f1ff912d570a0f491</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dereference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a71f0802ea1d37caa7c48086ab405925f</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>equal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a2b4f50e47ebfee0c88988dfa4b4ad626</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a0ba9b205e19b8b37671f3a112872df6c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator *</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a4181862556bd8de75282d1de410b1864</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a732c2247b40366e49ab1128852ed3ac5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>a1cad0cda71de61bf2e1f73e27c4a9b39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+    <Anchor>ae71fe79f96f595eae8102e476bd4ae8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterators</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::iterator::zipped_iterator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1iterator_1_1zipped__iterator.html</Path>
+    <Anchor>a87ee65b2206a978cc3591e354bbaa647</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42658,28 +44951,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>transform</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::iterator::view</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator_1_1view.html</Path>
-    <Anchor>add5d7602c9da5fdb97908874b25e8dc2</Anchor>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>filter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::util::iterator::view</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util_1_1iterator_1_1view.html</Path>
-    <Anchor>a637702c8ab78cbf53154703f122962e0</Anchor>
-    <DeclaredIn>iterator.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>otto::util::math</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -42723,13 +44994,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util_1_1math.html</Path>
-    <Anchor>a441f8b0f423ab933b18137c2b7869849</Anchor>
+    <Anchor>accc11c23d8bbc90fc406fd9c390fafa9</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42943,13 +45214,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math::vec</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-    <Anchor>af7fb17a31e8813a5ed1d47dff2ad8c44</Anchor>
+    <Anchor>aeee916d2ca5144fbb29148a03d4a72ce</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42965,13 +45236,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator*</Name>
+      <Name>operator *</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math::vec</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-    <Anchor>a118481cfb3a0b5f2b473c468fef6ff56</Anchor>
+    <Anchor>a367ff90154a01441f61517cb1fb6a67a</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -43047,6 +45318,37 @@
     <Anchor>a512cc543feca1caab3faee98d020dfec</Anchor>
     <Abstract>Foreach for tuples.</Abstract>
     <DeclaredIn>type_traits.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::view</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>otto::util::view</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1util_1_1view.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>transform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::view</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1util_1_1view.html</Path>
+    <Anchor>acb58bc70335d1a3d0f9f1e684b48c70d</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>filter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::view</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1util_1_1view.html</Path>
+    <Anchor>a5eb0bf0fe3a95da366c274c00b2e5bc2</Anchor>
+    <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
