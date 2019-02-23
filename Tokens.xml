@@ -316,6 +316,40 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>make_envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>a1aa28b529bae3c89abd8bf6a2cbbf243</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_settings_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>afa313dc0407f4922429572c420336740</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_string</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>a5efaa602e0fe41cc7228e31b7ace3a00</Anchor>
+    <Abstract>Convert a playmode to string.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OTTO_ENGINE_COMMON_CONTENT</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -349,13 +383,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SequencerEngine</Name>
+      <Name>ArpeggiatorEngine</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
       <Scope>otto::core::engine</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1engine.html</Path>
-    <Anchor>a858792fa367b2edec112211329837c4d</Anchor>
+    <Anchor>a67986567264dbded4208de232b235648</Anchor>
     <DeclaredIn>engine.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -367,6 +401,17 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1engine.html</Path>
     <Anchor>ab65c35dbb4fd6ffe0edbf7a78a21fa8b</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MiscEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::engine</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1engine.html</Path>
+    <Anchor>ae9a060105a3caf390d8f6f792218446f</Anchor>
     <DeclaredIn>engine.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -887,6 +932,28 @@
       <Scope>otto::core::props</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
+    <DeclaredIn>change_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
+    <DeclaredIn>change_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a68ea4072ebdf93c845c71eb5e57f44ff</Anchor>
     <DeclaredIn>faust_link.hpp</DeclaredIn>
   </Token>
@@ -1021,6 +1088,28 @@
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a268b9e744523208a29837cf9a286b411</Anchor>
     <DeclaredIn>serializable.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
+    <DeclaredIn>change_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
+    <DeclaredIn>change_hook.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1330,6 +1419,17 @@
     <Path>namespaceotto_1_1core_1_1ui_1_1vg_1_1_fonts.html</Path>
     <Anchor>ab08790309634e714e4d2285c5b8a2207</Anchor>
     <DeclaredIn>vector_graphics.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_string</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>a368b87919e831e2b327714fdb987ddb4</Anchor>
+    <DeclaredIn>voice_manager.impl.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1812,6 +1912,18 @@
     <Path>group__container__algos.html</Path>
     <Anchor>gad12b6e39e10012394c5c4cef25220513</Anchor>
     <Abstract>Container based wrapper for std::accumulate()</Abstract>
+    <DeclaredIn>algorithm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>for_each</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::algorithm</Scope>
+    </TokenIdentifier>
+    <Path>group__container__algos.html</Path>
+    <Anchor>ga7d516fab058229e159e15c3a987b6f02</Anchor>
+    <Abstract>Container based wrapper for std::for_each()</Abstract>
     <DeclaredIn>algorithm.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5077,6 +5189,18 @@
     <Path>group__container__algos.html</Path>
     <Anchor>gad12b6e39e10012394c5c4cef25220513</Anchor>
     <Abstract>Container based wrapper for std::accumulate()</Abstract>
+    <DeclaredIn>algorithm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>for_each</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::algorithm</Scope>
+    </TokenIdentifier>
+    <Path>group__container__algos.html</Path>
+    <Anchor>ga7d516fab058229e159e15c3a987b6f02</Anchor>
+    <Abstract>Container based wrapper for std::for_each()</Abstract>
     <DeclaredIn>algorithm.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16365,7 +16489,7 @@
       <Scope>otto::core::audio::AudioBufferHandle</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
-    <Anchor>a477b12979fb9154fdd27cee3649e0faf</Anchor>
+    <Anchor>ad8a727ab1fe991a1e596fd3aed6bf1aa</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16376,7 +16500,7 @@
       <Scope>otto::core::audio::AudioBufferHandle</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
-    <Anchor>a825c7b63098d4b617dafbed443db9428</Anchor>
+    <Anchor>a04dfa435c2c65b09b4be64fc6f2b1b1d</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16387,7 +16511,7 @@
       <Scope>otto::core::audio::AudioBufferHandle</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
-    <Anchor>a6b7ceae64d1030d0208cbd26597c22d5</Anchor>
+    <Anchor>adbb86cc350827940c0052a806198d93c</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16398,7 +16522,29 @@
       <Scope>otto::core::audio::AudioBufferHandle</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
-    <Anchor>a44924b3dfc493341f02eabf78bea9f85</Anchor>
+    <Anchor>a7f902b9eb36e6032b51acb4f48aeaf84</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::AudioBufferHandle</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
+    <Anchor>aaf90180372a1d312d4c20c65bd3912b0</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::AudioBufferHandle</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
+    <Anchor>a782fcc0cad65095def42f9ac02eb6daa</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16547,6 +16693,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>operator std::array&lt; AudioBufferHandle, 1 &gt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::AudioBufferHandle</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
+    <Anchor>a52fa8d44359b05fd81f4eb59b55a2dd5</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::core::audio::AudioBufferPool</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -16579,17 +16736,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>allocate_multi</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::AudioBufferPool</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
-    <Anchor>a720411683b615163cb6e91edd81ec3ad</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>allocate_clear</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -16601,13 +16747,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>allocate_multi</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::AudioBufferPool</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
+    <Anchor>a89daa0a5afd19706c0c09e245a25f32c</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>allocate_multi_clear</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::AudioBufferPool</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
-    <Anchor>a6c957bd34aa34d32dcca743b4f3f95e0</Anchor>
+    <Anchor>a9aefce147c187d38b3cbeb43704bb68f</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16620,6 +16777,16 @@
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
     <Anchor>abb2724d231a7da9310af1b22c824f1c8</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>number_of_buffers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::AudioBufferPool</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
+    <Anchor>a0ad6585561abcf57a356c56adb1ff7bd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16670,360 +16837,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_envelope_props.html</Path>
     <Anchor>a82d8b7e39e1de0aeea3ef35f647c8e6e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::core::audio::MultiChannelAudioBufferHandle&lt; 0 &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 0 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_010_01_4.html</Path>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>clear</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 0 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_010_01_4.html</Path>
-    <Anchor>aabbf27462e8d5d6698a7005cf6abf330</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 0 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_010_01_4.html</Path>
-    <Anchor>a1db9b60c39ffea17af1784d5843aee4b</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>aab86880f18a6ab4d2d3398973daa1ec8</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>const_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>ae3bf91c42bb1c2756923bd73b1960a09</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MultiChannelAudioBufferHandle</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>ab30a4d53bb9b2c5ac5781c76b4d6d055</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>size</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>afc498c4eb6d81cf14fa64cefe4d98d99</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>begin</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>af8e166cf5275df4daa3f12e7998fade9</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>a512ae1fab04632bf632fecc06e77c3b4</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>begin</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>a7feca2893ace4898de15e5d4b0f8d85f</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>afa849ee2649c94b3d745c85026388cca</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>ab30673200a445c9ec57ffa45c3365eb2</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>a2032052ad36fc38685dafcbc37950312</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>release</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>aa2f602921c7dad372b7a14467fde165b</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>clear</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>acae29f3304d1e624dfb3ceca5f6dd043</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>ac3a37d0c3d90be104accf48682a60632</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>channel_count</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html</Path>
-    <Anchor>a2aabb54c78e16358045c1589d8860fc4</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>a5bca1c2b152f1086f0afb3cf33dcf453</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>const_iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>aef31eec6cc87280e02f3edb9ded698f2</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MultiChannelAudioBufferHandle</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>a5d473b510eca3e82cdc1daa4f73c6f5f</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>size</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>ae92e97c7747f6c49edaad520c0ff3965</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>begin</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>a1f3701346f9e5e348a325d36fa17f2c9</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>acee0982030459150fdd158ca814107b4</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>begin</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>ac6bdd2adb66aacb65c7a632dca318308</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>a59ca1235d355494d648d7c4557830dce</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>a43426f5e976b88437e69a4d84a4ad91c</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>ae0bad4312f0440e15756babace203bc0</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>release</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>a0b976f1aae53ff509cbb4711876a73ba</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>clear</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>afb677c43fec3cfdd2537d245ae696026</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>a793a1145bc6011308f83997fc6e9cda5</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>channel_count</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html</Path>
-    <Anchor>afe4dd9181c01bc7e3f22b6750c8b014f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17080,13 +16893,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
+    <Anchor>a750e6dc57cf154b3e4bc8565a719deac</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
+    <Anchor>a478197c536f8d2fdafa8c24bcba4cd4f</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
+    <Anchor>ade63145bdc6b146f8587493e19934ebf</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>midi_only</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a2d4a5a639f8bd893c4680eab236ff6ff</Anchor>
+    <Anchor>a0a8ef3b2ceea7173376e15f89172b23c</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17097,7 +16943,7 @@
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>ab511e3d13c1ec28f8d39091ea760e317</Anchor>
+    <Anchor>a488fe62044af01eb73e2a358cceee0ad</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17108,7 +16954,18 @@
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>af0679311a951448376283dd8e931709a</Anchor>
+    <Anchor>aea60442fc6040f3aa38f2d025b7035ba</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>redirect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
+    <Anchor>a86ccb275c0c5c94682f9406a41517a9d</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17119,52 +16976,19 @@
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a87052326afc5e3663b81bc4f71dd493b</Anchor>
+    <Anchor>a247386f279bf60005acb4de75b3b7450</Anchor>
     <Abstract>Get only a slice of the audio.</Abstract>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>begin</Name>
+      <Name>raw_audio_buffers</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a8e8f83edf3e824145d31650eaa88ce05</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>af1ae28f66e146104f2a7fe640ea79cb2</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>begin</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a1921f62a3f9e0c1c6c6edc98bb63c597</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a52cf586ed0cd83fb1c3b18e25e488aab</Anchor>
+    <Anchor>aa3a58d16033070343cc460edae7994f3</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17175,7 +16999,7 @@
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a726ca7abea767b155402d270d3361fa6</Anchor>
+    <Anchor>a5676070ef1bca31c56746916f3b5943c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17206,6 +17030,275 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
     <Anchor>afef91b2d2334f4bd523e24934cbd00b1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::audio::ProcessData&lt; 0 &gt;</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Abstract>Non-owning package of data passed to audio processors.</Abstract>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>a0d5ab2b4c29e73e68b10f61dd1a98078</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>redirect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>a00b3cb62261fed2831c36eb0f5bec85a</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>redirect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>ad9cb5130ce343ea79cd37aaa015b0915</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>raw_audio_buffers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>a116513a0f8e1c1e3afbbcc71db47d082</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>midi</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>a86aaf85f3e84126e91abf3381a41cce7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nframes</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>ad29387fe1418e84369f89d692f165f8c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>channels</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>a7b3b31787b3ec9e1406db19bd0522b1c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::audio::ProcessData&lt; 1 &gt;</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Abstract>Non-owning package of data passed to audio processors.</Abstract>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>aa053bdd27c3d22026a3f3c3cd36be420</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a51849f5571e175b989e36a7cb3d0ebc5</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>af0dd54b6141e0e2bcb5c64a46d6abbb3</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a51bee366f233c93be4ea09e2cbdd0f54</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a4d6531af34e2b06cfa0c68123adf4642</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a60bbc8dc97b7668bfb6c787519cc0791</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>midi_only</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a0810fd8fb0cddd6a499335584b480f59</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>audio_only</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a74054cf045c351b97fec5cf6ec5b9a55</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>redirect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>adbd927f76a37459c4d413fc720588839</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>redirect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a172962abd1435e7d93767538672c67cc</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>slice</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>abdd8e0f295f81cb64a697a6c96d080ee</Anchor>
+    <Abstract>Get only a slice of the audio.</Abstract>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>raw_audio_buffers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a4ea715e5ca4a33b3643c5ab983a08ae6</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>audio</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>ab5b80d2ea7336ec4f6eb7e7becda9bc3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>midi</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a979d35a57e6fad6ea27f2aa4c8360765</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nframes</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>aca12eb84298cdef570107d21a91b0b5f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>channels</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>ab4350e5e2650349febdbd3fe6b6af7e6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17276,17 +17369,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_voice_manager.html</Path>
     <Anchor>a7af6ea1039f90c7140ce95ebf130c80f</Anchor>
-    <DeclaredIn>voice_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>handle_midi_event</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::VoiceManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_voice_manager.html</Path>
-    <Anchor>a92e40ad45a27998d0171bf91068a1802</Anchor>
     <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17476,13 +17558,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SequencerEngine</Name>
+      <Name>ArpeggiatorEngine</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
       <Scope>otto::core::engine</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1engine.html</Path>
-    <Anchor>a858792fa367b2edec112211329837c4d</Anchor>
+    <Anchor>a67986567264dbded4208de232b235648</Anchor>
     <DeclaredIn>engine.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17494,6 +17576,17 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1engine.html</Path>
     <Anchor>ab65c35dbb4fd6ffe0edbf7a78a21fa8b</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MiscEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::engine</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1engine.html</Path>
+    <Anchor>ae9a060105a3caf390d8f6f792218446f</Anchor>
     <DeclaredIn>engine.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17532,13 +17625,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>sequencer</Name>
+      <Name>arpeggiator</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>otto::core::engine</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1engine.html</Path>
-    <Anchor>a46a6572deaa916a3d887179d9d69d2c3a4aba196e572bb81e0036cfd9b9992781</Anchor>
+    <Anchor>a46a6572deaa916a3d887179d9d69d2c3ae17e8471674cb49f9a467bd4f6429ceb</Anchor>
     <Abstract>Sequencer engines.</Abstract>
   </Token>
   <Token>
@@ -17909,12 +18002,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::core::engine::Engine&lt; EngineType::effect &gt;</Name>
+      <Name>otto::core::engine::Engine&lt; EngineType::arpeggiator &gt;</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
-      <Scope>otto::core::engine::Engine&lt; EngineType::effect &gt;</Scope>
+      <Scope>otto::core::engine::Engine&lt; EngineType::arpeggiator &gt;</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+    <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
     <DeclaredIn>engine.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -18080,12 +18173,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::core::engine::Engine&lt; EngineType::sequencer &gt;</Name>
+      <Name>otto::core::engine::Engine&lt; EngineType::effect &gt;</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
-      <Scope>otto::core::engine::Engine&lt; EngineType::sequencer &gt;</Scope>
+      <Scope>otto::core::engine::Engine&lt; EngineType::effect &gt;</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1sequencer_01_4.html</Path>
+    <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1effect_01_4.html</Path>
     <DeclaredIn>engine.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -18632,7 +18725,7 @@
       <Scope>otto::core::engine::EngineDispatcher</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-    <Anchor>a87c2d6c9f4ce65b1582ce077287f426a</Anchor>
+    <Anchor>a0188825a04ca438403cc68ba5a92d6ec</Anchor>
     <Abstract>Access the currently selected engine.</Abstract>
     <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
   </Token>
@@ -18644,7 +18737,7 @@
       <Scope>otto::core::engine::EngineDispatcher</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-    <Anchor>afbbf625597baf5a47d06c946fcc35b08</Anchor>
+    <Anchor>a749bfe7ac9e8c1746bd5ada142656f1e</Anchor>
     <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -18784,6 +18877,17 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
     <Anchor>ae6ddb553e96caba392d635d93a640609</Anchor>
+    <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~IEngineDispatcher</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::IEngineDispatcher</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+    <Anchor>a65263d64851f05e8547255685335d55d</Anchor>
     <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -19021,6 +19125,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>keypress</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::EngineSelectorScreen</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_engine_selector_screen.html</Path>
+    <Anchor>a52cdff4327da111f4770ae51ed1d788c</Anchor>
+    <Abstract>Run by MainUI when a key is pressed.</Abstract>
+    <DeclaredIn>engine_selector_screen.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>draw</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -19075,18 +19191,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1ui_1_1_screen.html</Path>
     <Anchor>a9f1465af233673b1816a0a63b6d1f251</Anchor>
-    <DeclaredIn>screen.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>keypress</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::ui::Screen</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1ui_1_1_screen.html</Path>
-    <Anchor>a1f36a9375ebdaf7ecc756c62028f0dae</Anchor>
-    <Abstract>Run by MainUI when a key is pressed.</Abstract>
     <DeclaredIn>screen.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -19154,6 +19258,50 @@
     <Path>structotto_1_1core_1_1engine_1_1_engine_with_envelope.html</Path>
     <Anchor>a5b0518c688684ce0539d5d713f3b3e8a</Anchor>
     <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::engine::IEngineDispatcher</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::core::engine::IEngineDispatcher</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+    <Abstract>Interface base class for the EngineDispatcher struct.</Abstract>
+    <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::IEngineDispatcher</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+    <Anchor>a956dca66cf354fc16d98e0dc13b2f3dd</Anchor>
+    <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::IEngineDispatcher</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+    <Anchor>aceb9cd0ed115db15135ccc056e36244c</Anchor>
+    <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~IEngineDispatcher</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::IEngineDispatcher</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+    <Anchor>a65263d64851f05e8547255685335d55d</Anchor>
+    <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20460,6 +20608,28 @@
       <Scope>otto::core::props</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
+    <DeclaredIn>change_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
+    <DeclaredIn>change_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a68ea4072ebdf93c845c71eb5e57f44ff</Anchor>
     <DeclaredIn>faust_link.hpp</DeclaredIn>
   </Token>
@@ -20904,12 +21074,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::core::props::common::hooks::after_set</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::core::props::common::hooks::after_set</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1props_1_1common_1_1hooks_1_1after__set.html</Path>
+    <Abstract>Fired after the value has been changed.</Abstract>
+    <DeclaredIn>property.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::core::props::common::hooks::on_set</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
       <Scope>otto::core::props::common::hooks::on_set</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1common_1_1hooks_1_1on__set.html</Path>
+    <Abstract>Allows you to change the value that is set.</Abstract>
     <DeclaredIn>property.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -21956,6 +22138,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>run_hook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html</Path>
+    <Anchor>a2f1d674ea0c85c8a39e71f90852f694e</Anchor>
+    <DeclaredIn>property.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>run_hook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html</Path>
+    <Anchor>a702dc2961adddbb225fbf9de7d1b3d52</Anchor>
+    <DeclaredIn>property.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>get</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -22492,6 +22696,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::core::props::mixin::hook&lt; void &gt;</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::core::props::mixin::hook&lt; void &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4.html</Path>
+    <DeclaredIn>type_traits.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::core::props::mixin::hook&lt; void &gt;::type</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -22519,6 +22733,17 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
     <Anchor>a25727e474ad5a1f838cf8659a41ca597</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props::mixin::hook&lt; void &gt;::type</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
+    <Anchor>a36b77a81a4e97aff917ce0a3a329fe41</Anchor>
+    <DeclaredIn>type_traits.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22726,13 +22951,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>sequencer</Name>
+      <Name>arpeggiator</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>otto::core::ui</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1ui.html</Path>
-    <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa4aba196e572bb81e0036cfd9b9992781</Anchor>
+    <Anchor>a306d8d976c3fabbc9d75769c9e3f498fae17e8471674cb49f9a467bd4f6429ceb</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22743,6 +22968,16 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1ui.html</Path>
     <Anchor>a306d8d976c3fabbc9d75769c9e3f498fac6b8736b8889356ca5db1272e8b03935</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fx2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::core::ui</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1ui.html</Path>
+    <Anchor>a306d8d976c3fabbc9d75769c9e3f498faa8483a60f13bca565bcaca36456b54cd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22776,6 +23011,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sequencer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::core::ui</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1ui.html</Path>
+    <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa4aba196e572bb81e0036cfd9b9992781</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>master</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -22783,6 +23028,16 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1ui.html</Path>
     <Anchor>a306d8d976c3fabbc9d75769c9e3f498faeb0a191797624dd3a48fa681d3061212</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>send</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::core::ui</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1ui.html</Path>
+    <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa2541d938b0a58946090d7abdde0d3890</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25380,6 +25635,656 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::core::voices</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>otto::core::voices</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::voices::PostBase</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Voice</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a904ffce414c521c6e195c616af4c1147</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pre</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>af4196b2d9f2c3cfb0b851eeaca1f538f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a741e197ad8d916b09503948037c5ee9a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PostBase</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>af8d0954271906d867e6c968df5d5f5ec</Anchor>
+    <Abstract>Constructor.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pre</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a820e72d071d3e69647c8a7f74076e9b6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a0099d5294efaa6bf7ef82939e0c311e9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::voices::PreBase</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::core::voices::PreBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PreBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>a3808ea38a8ac175aed979ada8f31ada9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PreBase</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::PreBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>a01f507424e815ee9dd710ff925cafd6c</Anchor>
+    <Abstract>Constructor.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::PreBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>af4e80bc2b74760acb58ca6c53f976915</Anchor>
+    <Abstract>The engine properties.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::voices::VoiceBase</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Abstract>Base class for voices.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pre</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a92dd231931ab7a2702e1d5bc93fb3871</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a7166715b7a5d2cfba200e15cecbcc113</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VoiceBase</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a6b69ea920ea6a5ac8938eb0eedc27ad9</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VoiceBase</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>afcdb7407ce51dd6573a858c9499173df</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_note_on</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a1ffe370baae060132c087688cdadf440</Anchor>
+    <Abstract>Implement a handler for note on events.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_note_off</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>ae130df8c35e7afa017320828dbdddf9a</Anchor>
+    <Abstract>Implement a handler for note off events.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>frequency</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a2d86cbe5c19a538f2b916d5f01107c81</Anchor>
+    <Abstract>Get the current frequency this voice should play.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>velocity</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a5b4bc430ebbb27ff711202645fc92674</Anchor>
+    <Abstract>Get the velocity value.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>aftertouch</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a3501528580937563649db61f637027f8</Anchor>
+    <Abstract>Get the velocity value.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>is_triggered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a2e359e5d31f2e638ebb8f5da9af1843b</Anchor>
+    <Abstract>Is this voice currently triggered?</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a347b6ad04dcd8abd2e68b8e8856013dd</Anchor>
+    <Abstract>The current envelope value.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pre</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a3a3a954102c96284c408019e820e4ee0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a7484dc7bff77695f167d235df9ff948b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VoiceManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>otto::core::voices::VoiceBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>ac30ee8ac30f6f385293c21a9f6b6aa44</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::voices::VoiceManager</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Post</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>ad1f565d35b31e8fd28d18d19aea4b35f</Anchor>
+    <Abstract>PostProcessor.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Voice</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a36c35627be170892458106ef63f81180</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a1a6a8d12359cffacc4e54026d8daea2c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pre</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a2a5ca185fe0b1e58049a4c4f0569a274</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PlayMode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>adaa8e04fe0eefd73d24c4e29851a57d3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EnvelopeProps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a5d055065583daac7a82d7f7a9031291b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SettingsProps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>ae81460e9c1353517c6cd467b81e9dab2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VoiceManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a63291585c48d2afc10dd73cf2f5c5a65</Anchor>
+    <Abstract>Constructor.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a1a1364deff049354a60110531cfd0e08</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>settings_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a12f07b090489b190f447cac783f96557</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a07e3c1377b47a33983200516ce5e10b7</Anchor>
+    <Abstract>Process audio, applying Preprocessing, each voice and then postprocessing.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>handle_midi_on</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a3a42d90cad13969dec7eda6310b37888</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>handle_midi_off</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a9ce5ee278340f65ae37fca5999078e1a</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>process</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>ad2e19044d9b94fc9c5b373c11cb1a849</Anchor>
+    <Abstract>Process audio, applying Preprocessing, each voice and then postprocessing.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voice_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a9eec49f999d3405c6ef3adefd2cde51b</Anchor>
+    <Abstract>The number of voices.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::voices::details</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>a1aa28b529bae3c89abd8bf6a2cbbf243</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_settings_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>afa313dc0407f4922429572c420336740</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_string</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>a368b87919e831e2b327714fdb987ddb4</Anchor>
+    <DeclaredIn>voice_manager.impl.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_string</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>a5efaa602e0fe41cc7228e31b7ace3a00</Anchor>
+    <Abstract>Convert a playmode to string.</Abstract>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>poly</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>ad98df4be4d302e5db45a6edea4c383f6ac505a69ec179afb91b357bbbd1b0e60d</Anchor>
+    <Abstract>Multiple voices at once, each playing a note.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mono</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>ad98df4be4d302e5db45a6edea4c383f6a654db8a14a5f633b9ba85ec92dc51f7c</Anchor>
+    <Abstract>Only a single voice in use, allways playing the latest note.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unison</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::core::voices::details</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
+    <Anchor>ad98df4be4d302e5db45a6edea4c383f6a9770a912a024ff4a98ae47b1a6374383</Anchor>
+    <Abstract>All voices in use, all playing the latest note (posibly with detune)</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::voices::details::EnvelopeProps</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::core::voices::details::EnvelopeProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html</Path>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>attack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::EnvelopeProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html</Path>
+    <Anchor>ab3b76ab22ca3bfebbdd539782a2bbae7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>decay</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::EnvelopeProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html</Path>
+    <Anchor>ad0eac0ef3d2e71963f4b5ca134946eab</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sustain</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::EnvelopeProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html</Path>
+    <Anchor>af51163e3437dba522ab851011b912dca</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>release</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::EnvelopeProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html</Path>
+    <Anchor>a66c2e16ca0f0daead0c223f787ffd77e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::voices::details::SettingsProps</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::core::voices::details::SettingsProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>play_mode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::SettingsProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+    <Anchor>aa249d4dd24cb09337f9c641f7c76dce0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>portamento</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::SettingsProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+    <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>octave</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::SettingsProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+    <Anchor>a463325705507a646fbd85bbf6114d45a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>transpose</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::details::SettingsProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+    <Anchor>ad25e550f556573e69b62c74342a79031</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::engines</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -25389,35 +26294,35 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::Arp</Name>
+      <Name>otto::engines::Chorus</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::Arp</Scope>
+      <Scope>otto::engines::Chorus</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <DeclaredIn>arp.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_chorus.html</Path>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Arp</Name>
+      <Name>Chorus</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::Arp</Scope>
+      <Scope>otto::engines::Chorus</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>ac7202415d5184ca54c61b8613985f3fd</Anchor>
-    <DeclaredIn>arp.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_chorus.html</Path>
+    <Anchor>ab7a3728139fc6a08a805c13cd1e8421f</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>process</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::Arp</Scope>
+      <Scope>otto::engines::Chorus</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>a7ac634bc34c70ceb5d770cd2bf0a4c9f</Anchor>
-    <DeclaredIn>arp.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_chorus.html</Path>
+    <Anchor>a415da4cfeeb1c99edec661cf4fdcb6e3</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25585,70 +26490,60 @@
       <Name>props</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::Arp</Scope>
+      <Scope>otto::engines::Chorus</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>a89525a390b8537688f178a29d4782d8d</Anchor>
+    <Path>structotto_1_1engines_1_1_chorus.html</Path>
+    <Anchor>ac93155dd016627832113f0656806a431</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>notes</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::Arp</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>aab5614b0d8a027c8f810713bd1cb13dc</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>up</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::engines::Arp</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>down</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::engines::Arp</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a74e8333ad11685ff3bdae589c8f6e34d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>n_modes</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::engines::Arp</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a29812113feb36dfe3f321390a78eabb5</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::engines::Arp::Props</Name>
+      <Name>otto::engines::Chorus::Props</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::Arp::Props</Scope>
+      <Scope>otto::engines::Chorus::Props</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
-    <DeclaredIn>arp.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>playmode</Name>
+      <Name>delay</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::Arp::Props</Scope>
+      <Scope>otto::engines::Chorus::Props</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
-    <Anchor>a17cb6e7add8b8fbfd7db6c0c419292bf</Anchor>
+    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+    <Anchor>a96195275bfd85fafd0b58637f36b50a6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Chorus::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+    <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deviation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Chorus::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+    <Anchor>a52679eb68eec58cb31f4fa7816aca1c3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>depth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Chorus::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+    <Anchor>aeb971130b8c79008e4c986cebeed19e4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26049,35 +26944,57 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::External</Name>
+      <Name>otto::engines::GossSynth</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::External</Scope>
+      <Scope>otto::engines::GossSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_external.html</Path>
-    <DeclaredIn>external.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
+    <DeclaredIn>goss.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>External</Name>
+      <Name>GossSynth</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::External</Scope>
+      <Scope>otto::engines::GossSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_external.html</Path>
-    <Anchor>a9379a2c451a22e5c6fd0cf43304a417e</Anchor>
-    <DeclaredIn>external.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
+    <Anchor>aa336df328f33753d1fb9569651bd4549</Anchor>
+    <DeclaredIn>goss.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>process</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::External</Scope>
+      <Scope>otto::engines::GossSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_external.html</Path>
-    <Anchor>a7be1ca7a2337e52f566e66d6c11e1720</Anchor>
-    <DeclaredIn>external.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
+    <Anchor>a373e06500718aa828e7d47bb396a610a</Anchor>
+    <DeclaredIn>goss.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::GossSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
+    <Anchor>ac8416b44dd83ef7431990701f8904bab</Anchor>
+    <DeclaredIn>goss.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voices_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::GossSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
+    <Anchor>a269589459449e37fd314908e818c5c6c</Anchor>
+    <DeclaredIn>goss.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26245,40 +27162,70 @@
       <Name>props</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::External</Scope>
+      <Scope>otto::engines::GossSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_external.html</Path>
-    <Anchor>afa6254ca9f932080345db299f26a0d33</Anchor>
+    <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
+    <Anchor>a4e8f3395beaaab68eafe159efa1cd5c5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>graph</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::External</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_external.html</Path>
-    <Anchor>a34b03d462b88494fa81ca61e97776bbf</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::engines::External::Props</Name>
+      <Name>otto::engines::GossSynth::Props</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::External::Props</Scope>
+      <Scope>otto::engines::GossSynth::Props</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_external_1_1_props.html</Path>
-    <DeclaredIn>external.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+    <DeclaredIn>goss.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>gain</Name>
+      <Name>drawbar1</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::External::Props</Scope>
+      <Scope>otto::engines::GossSynth::Props</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_external_1_1_props.html</Path>
-    <Anchor>a0c712fcd92e34b52b44ac9fc8d836a2d</Anchor>
+    <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+    <Anchor>a6fcc8416f520619dd74e4fe4e4789d64</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>drawbar2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::GossSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+    <Anchor>aa4f45f182b115baeebe55e3ff6a115c4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>drawbar3</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::GossSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+    <Anchor>a76f0949d5d332a4598874b27a78c6056</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>leslie</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::GossSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+    <Anchor>afc225feb5bb80f1601b44d3c5a028bbf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rotation_value</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::GossSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+    <Anchor>ab26eb168a3c62b5bdf3fcc762d9e678c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27119,182 +28066,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OTTOFMSynth</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a91b2128aade3e448efc07e62779e69d1</Anchor>
-    <DeclaredIn>ottofm_BACKUP_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>process</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>aaa12cbadbbc8eb3da8ce6457225c9308</Anchor>
-    <DeclaredIn>ottofm_BACKUP_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>envelope_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a8a7f98be26bf233f3534667f53df9ca4</Anchor>
-    <DeclaredIn>ottofm_BACKUP_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a87de4e30c8f3a472e6e8edb07e39fefb</Anchor>
-    <DeclaredIn>ottofm_BACKUP_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OTTOFMSynth</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a91b2128aade3e448efc07e62779e69d1</Anchor>
-    <DeclaredIn>ottofm_BASE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>process</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>aaa12cbadbbc8eb3da8ce6457225c9308</Anchor>
-    <DeclaredIn>ottofm_BASE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>envelope_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a8a7f98be26bf233f3534667f53df9ca4</Anchor>
-    <DeclaredIn>ottofm_BASE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a87de4e30c8f3a472e6e8edb07e39fefb</Anchor>
-    <DeclaredIn>ottofm_BASE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OTTOFMSynth</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a91b2128aade3e448efc07e62779e69d1</Anchor>
-    <DeclaredIn>ottofm_LOCAL_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>process</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>aaa12cbadbbc8eb3da8ce6457225c9308</Anchor>
-    <DeclaredIn>ottofm_LOCAL_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>envelope_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a8a7f98be26bf233f3534667f53df9ca4</Anchor>
-    <DeclaredIn>ottofm_LOCAL_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a87de4e30c8f3a472e6e8edb07e39fefb</Anchor>
-    <DeclaredIn>ottofm_LOCAL_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OTTOFMSynth</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a91b2128aade3e448efc07e62779e69d1</Anchor>
-    <DeclaredIn>ottofm_REMOTE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>process</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>aaa12cbadbbc8eb3da8ce6457225c9308</Anchor>
-    <DeclaredIn>ottofm_REMOTE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>envelope_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a8a7f98be26bf233f3534667f53df9ca4</Anchor>
-    <DeclaredIn>ottofm_REMOTE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a87de4e30c8f3a472e6e8edb07e39fefb</Anchor>
-    <DeclaredIn>ottofm_REMOTE_9196.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>AnyEngine</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -27462,26 +28233,186 @@
       <Scope>otto::engines::OTTOFMSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>ac4bda54f0bbfe5da785c2707c4f741e8</Anchor>
+    <Anchor>a2e44e795a36460226ef18d62edb993da</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>OTTOFMSynthScreen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>ffunc</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a095d4380c456ee0ce4b6249154090dd3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::engines::OTTOFMSynth::Operator</Name>
+      <Name>otto::engines::OTTOFMSynth::FMOperator</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FMOperator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>a29fb5e99cb136035d9786c28dfbebaae</Anchor>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>a20db9ba4fff6518c56b8316ba31c99ee</Anchor>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>freq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>a56d2218b422a07d7f83bc0392fc880cd</Anchor>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>level</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>aa4e9603533b5ca3a6a52aaf5c7a14f6e</Anchor>
+    <Abstract>Set frequency.</Abstract>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>a53b63d17b1a13a3a2677a2f45b83cad3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>env</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>a9a5f7d6618f4b7638dea16869414f0dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>modulator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>acc61b1fc555c26b115c2b145abf8d6ae</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>outlevel</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>ab1886d1d79cc64c11c618337e5b9a49d</Anchor>
+    <Abstract>If it is a modulator, use the envelope.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>feedback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>a02620b45b5011cd56b5b96b55da6f8bc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fm_amount</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>ab2b829ec7ceaaf59b7bf83141da2ef1f</Anchor>
+    <Abstract>TODO:Implement in call operator.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>freq_ratio</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>ae3d6b80b5ddffcef73994cf007d7b832</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detune_amount</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html</Path>
+    <Anchor>ae2abee2d4c04d549ba03713606083b8b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::OTTOFMSynth::FMOperator::FMSine</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator::FMSine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator_1_1_f_m_sine.html</Path>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FMSine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator::FMSine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator_1_1_f_m_sine.html</Path>
+    <Anchor>a3be7f26a49e46358849150b578c01f41</Anchor>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::OTTOFMSynth::FMOperator::FMSine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator_1_1_f_m_sine.html</Path>
+    <Anchor>a549fb3e862b80d40daa66e4eab1d853c</Anchor>
+    <Abstract>Generate next sample with phase offset.</Abstract>
+    <DeclaredIn>ottofm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::OTTOFMSynth::OperatorProps</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
     <DeclaredIn>ottofm.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -27489,130 +28420,70 @@
       <Name>feedback</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>ad4302a2812909506d795ad357c38dc12</Anchor>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
+    <Anchor>a27ed2bd40b5b064b1623da7d3e61c67a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>mAtt</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a4eb73001a6456e3a0a3ac13aae5f4059</Anchor>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
+    <Anchor>a1fa9d73671b7dc0d343f2eab7ae09012</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>mDecrel</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a65dc67c670eaade741a7ccb4d0ecd403</Anchor>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
+    <Anchor>a8ba99247f3ab069464ebe492c9c5ddf2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>mSuspos</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a35a9eae28d70f71a27e4e4f6a85c11b2</Anchor>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
+    <Anchor>a5b5ca22dba51ca86809d498447c6517e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>detune</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a2d1f75300830f952421055b7f7f974db</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ratio</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a7d6a9f71ba4a43a2a3b7eb8f317616c8</Anchor>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
+    <Anchor>ae7203fa3558d952df933abc95df441b3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>ratio_idx</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a3e58d9a5030a116023aed0b229b1d844</Anchor>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
+    <Anchor>a6181437c57719fb98ad7fd710da0b485</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>outLev</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
+      <Scope>otto::engines::OTTOFMSynth::OperatorProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a87430b04c8c4535163c7d0fb146e6b9d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cAtt</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>a809f1e1d1b3f16e9c048afb905f99727</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cSus</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>ad92c6a882cee97acc2e26867ccd95c62</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cRel</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Operator</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator.html</Path>
-    <Anchor>adaf6fe29de8843fddf9de220368fd2c3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::engines::OTTOFMSynth::OperatorEnvelope</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>otto::engines::OTTOFMSynth::OperatorEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_envelope.html</Path>
-    <DeclaredIn>ottofm.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>modulator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::OperatorEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_envelope.html</Path>
-    <Anchor>a8919d7a36987de01e34f4e57fa445859</Anchor>
+    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
+    <Anchor>a1ffd510f947e075cbd1e49d8c69765e3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27632,7 +28503,7 @@
       <Scope>otto::engines::OTTOFMSynth::Props</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
-    <Anchor>a833ab8a5367cb146f43a6b9412062306</Anchor>
+    <Anchor>a8dbd59f40816c4aa835d7eb477832016</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27642,7 +28513,7 @@
       <Scope>otto::engines::OTTOFMSynth::Props</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
-    <Anchor>ab279a440c81fe1b5dc33da0673464b8d</Anchor>
+    <Anchor>a00c1f9d7dfa93f952565366110732a0a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27652,67 +28523,7 @@
       <Scope>otto::engines::OTTOFMSynth::Props</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
-    <Anchor>a93d301ad56c8f6c44ddbf9bf960c52b2</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voice_envelopes</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
-    <Anchor>a12cf825d7dfad77e8bfa2cb3bbe4ea73</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>cur_op</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
-    <Anchor>a4a2e862949f17f977f03c1ff201366f5</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shift</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
-    <Anchor>a04f3e971ae581280cbf11320cf6639ac</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::engines::OTTOFMSynth::VoiceEnvelope</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>otto::engines::OTTOFMSynth::VoiceEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_voice_envelope.html</Path>
-    <DeclaredIn>ottofm.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>carrier</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::VoiceEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_voice_envelope.html</Path>
-    <Anchor>a74ee1efb71080871706835b8f8d88394</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ops</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::OTTOFMSynth::VoiceEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_voice_envelope.html</Path>
-    <Anchor>af01c26b6c65b1dba8bced0760997428b</Anchor>
+    <Anchor>afe530bbf014824b8934982e8202e42e2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28009,57 +28820,57 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::SacredSynth</Name>
+      <Name>otto::engines::PotionSynth</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::SacredSynth</Scope>
+      <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth.html</Path>
-    <DeclaredIn>sacred.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
+    <DeclaredIn>potion.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SacredSynth</Name>
+      <Name>PotionSynth</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::SacredSynth</Scope>
+      <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth.html</Path>
-    <Anchor>ae22299d9cd773cb851c655640678dd18</Anchor>
-    <DeclaredIn>sacred.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
+    <Anchor>a6d131d0e1e4a667092737276a67f10e7</Anchor>
+    <DeclaredIn>potion.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>process</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::SacredSynth</Scope>
+      <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth.html</Path>
-    <Anchor>aa49d3c56112ca6e2da20da838cc70fb4</Anchor>
-    <DeclaredIn>sacred.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
+    <Anchor>aeedb871a3408e6c9aa73a5cb61b8b7bd</Anchor>
+    <DeclaredIn>potion.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>envelope_screen</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::SacredSynth</Scope>
+      <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth.html</Path>
-    <Anchor>ae9bd9d09c345f0dceb5f759aab1b802d</Anchor>
-    <DeclaredIn>sacred.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
+    <Anchor>ad9cc461bc19f87d58ee0271c940a52d4</Anchor>
+    <DeclaredIn>potion.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>voices_screen</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::SacredSynth</Scope>
+      <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth.html</Path>
-    <Anchor>a4a3093dc0a12f5f75a022bd92f496993</Anchor>
-    <DeclaredIn>sacred.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
+    <Anchor>af01246055e342c547051950270d86dee</Anchor>
+    <DeclaredIn>potion.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28227,60 +29038,524 @@
       <Name>props</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::SacredSynth</Scope>
+      <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth.html</Path>
-    <Anchor>a9021c6666bc79a413f84f92fc4a50d8a</Anchor>
+    <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
+    <Anchor>ac60d8a76018764bbc9a7a93f07ea3dcb</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::SacredSynth::Props</Name>
+      <Name>otto::engines::PotionSynth::CurveOscProps</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::SacredSynth::Props</Scope>
+      <Scope>otto::engines::PotionSynth::CurveOscProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth_1_1_props.html</Path>
-    <DeclaredIn>sacred.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_curve_osc_props.html</Path>
+    <DeclaredIn>potion.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>drawbar1</Name>
+      <Name>curve_length</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::SacredSynth::Props</Scope>
+      <Scope>otto::engines::PotionSynth::CurveOscProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth_1_1_props.html</Path>
-    <Anchor>a7641e768a6b7089d61a9a99934d902c5</Anchor>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_curve_osc_props.html</Path>
+    <Anchor>a0bc8a0eb0bffecd4f94b2561b91880f7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>drawbar2</Name>
+      <Name>wave_pair</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::SacredSynth::Props</Scope>
+      <Scope>otto::engines::PotionSynth::CurveOscProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth_1_1_props.html</Path>
-    <Anchor>a45072b728c38d45f04818c05b2986b4a</Anchor>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_curve_osc_props.html</Path>
+    <Anchor>a334d68539f19f3f1be2d501e955cac2c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>drawbar3</Name>
+      <Name>volume</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::SacredSynth::Props</Scope>
+      <Scope>otto::engines::PotionSynth::CurveOscProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth_1_1_props.html</Path>
-    <Anchor>a8ac7188bc1ed32660684546d91430386</Anchor>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_curve_osc_props.html</Path>
+    <Anchor>a43cac5cbad515093bd9c8a7fa40b9019</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>leslie</Name>
+      <Name>remap</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::SacredSynth::Props</Scope>
+      <Scope>otto::engines::PotionSynth::CurveOscProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sacred_synth_1_1_props.html</Path>
-    <Anchor>aaa3a771eb043f3798cf282994f163931</Anchor>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_curve_osc_props.html</Path>
+    <Anchor>a6f148cc9e99ee2e39fb77e0340cac693</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::PotionSynth::DualWavePlayer</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::PotionSynth::DualWavePlayer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html</Path>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::PotionSynth::DualWavePlayer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html</Path>
+    <Anchor>a543c6ba52b49a742769e5b3ea9dfda97</Anchor>
+    <Abstract>Call operator takes play position and pan value.</Abstract>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>waves</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::DualWavePlayer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html</Path>
+    <Anchor>ad2ae0b4595f66561a6896fd420d41102</Anchor>
+    <Abstract>Returns the weighted sum of two wavetables.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pan</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::DualWavePlayer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html</Path>
+    <Anchor>a6fb6613e9fcaf43636114645f4fc1989</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::PotionSynth::LFOOscProps</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::PotionSynth::LFOOscProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html</Path>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lfo_speed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::LFOOscProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html</Path>
+    <Anchor>a2af1b47cf7d125f67cca25a01c2e0c01</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wave_pair</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::LFOOscProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html</Path>
+    <Anchor>a6047efef328d4f7a11892b9f02aa5cde</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>volume</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::LFOOscProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html</Path>
+    <Anchor>a40739e791bc02d66e207cbfb7064894e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>remap</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::LFOOscProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html</Path>
+    <Anchor>a6a0155c1dc2d98cd9e94e51c95ebb3e5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::PotionSynth::PanSM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::PotionSynth::PanSM</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
+    <Abstract>Equal-power 2-channel panner (Stereo-to-Mono)</Abstract>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PanSM</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::engines::PotionSynth::PanSM</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
+    <Anchor>ae8b6707d11c4817d6c46ae5e09ee0009</Anchor>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::engines::PotionSynth::PanSM</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
+    <Anchor>a1e06be728fab3ed1a674a090f440e5fb</Anchor>
+    <Abstract>Filter sample (mono to stereo)</Abstract>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pos</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::engines::PotionSynth::PanSM</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
+    <Anchor>a8fdf2efbb3e6842fdf99bd6c8d409e71</Anchor>
+    <Abstract>Set position (constant power law)</Abstract>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>w1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::PanSM</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
+    <Anchor>a714f40d1feb58a29463d63695359b7e5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>w2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::PanSM</Scope>
+    </TokenIdentifier>
+    <Path>classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
+    <Anchor>ac4dc8a2cf05a5ab917470c5642c57c39</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::PotionSynth::Props</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::PotionSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
+    <DeclaredIn>potion.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>curve_osc</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
+    <Anchor>a19996d5117026d2a38efcd07d08fb820</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lfo_osc</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
+    <Anchor>aa4ee9bbb56b973fec23a7d622ae897da</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::RhodesSynth</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::RhodesSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
+    <DeclaredIn>rhodes.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RhodesSynth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::RhodesSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
+    <Anchor>aa421563d0e2ad6dd7b0fe1256b9332ed</Anchor>
+    <DeclaredIn>rhodes.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>process</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::RhodesSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
+    <Anchor>a1d825b0c0178046ef61f26c06f142431</Anchor>
+    <DeclaredIn>rhodes.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::RhodesSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
+    <Anchor>a6abd96365738c7041604879bd5489296</Anchor>
+    <DeclaredIn>rhodes.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voices_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::RhodesSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
+    <Anchor>a300ff255f05a2c6a31b1d1ede0dc97f3</Anchor>
+    <DeclaredIn>rhodes.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AnyEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a569a96572dde4ab647797d3f28a0cfe3</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AnyEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a280e6a6f9adad749791ec8900af2cb92</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~AnyEngine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>abb44c6fa9c04a201342ceec7d4681bfd</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_enable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a393f5280478e9262bdc621c9e27e6e0f</Anchor>
+    <Abstract>Called when this module is enabled.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_disable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>ae526f7f9b6323f5e7e32c0cac2c32c81</Anchor>
+    <Abstract>Called when this module is disabled.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a6202ffd30ee96989d0f15395479251f2</Anchor>
+    <Abstract>The name of this module.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a1d47762e1c23e75f65bf6811cfff9fc7</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a913081b4c17a0c953d8b4beaf3ee0e0b</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current_preset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a47357ecd836e5d2c275f53f216c07801</Anchor>
+    <Abstract>The currently selected preset.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current_preset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a06eb08a2d296ab387bf22e1edbdcc407</Anchor>
+    <Abstract>Set the current preset.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>a3c39faa6e1e6157a712804e81e6f8e50</Anchor>
+    <Abstract>Serialize the engine.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>ae8cc58f1238000ad0388539304a46b68</Anchor>
+    <Abstract>Deserialize the engine.</Abstract>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>aa058bc66a05123d08fc227f5f6383260</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::AnyEngine</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+    <Anchor>ae020f2ea1fc4e58bc0780d1fadf0785a</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::RhodesSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
+    <Anchor>a3f8da5d70f72630faaa4c26c31d61aa8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::RhodesSynth::Props</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::RhodesSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
+    <DeclaredIn>rhodes.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>aggro</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::RhodesSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
+    <Anchor>adf8f37c7d0e6b7fcce4637adedb9339d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>asymmetry</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::RhodesSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
+    <Anchor>a494ce71410fe3734f7ffe746d375d0db</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lfo_speed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::RhodesSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
+    <Anchor>ab10307fa0660ae907272825d72f140d4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lfo_depth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::RhodesSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
+    <Anchor>af20e25144910e1d23d0c0aba22a5e05d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28628,6 +29903,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>restart</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ae9c055f208ad1b09a4cc819d38bcc93d</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a7b0fa0f4a40082a11a06a673dbc3a376</Anchor>
+    <DeclaredIn>sampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>process</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -28892,57 +30189,35 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::VocoderSynth</Name>
+      <Name>otto::engines::Sequencer</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::VocoderSynth</Scope>
+      <Scope>otto::engines::Sequencer</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth.html</Path>
-    <DeclaredIn>vocoder.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>VocoderSynth</Name>
+      <Name>Sequencer</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::VocoderSynth</Scope>
+      <Scope>otto::engines::Sequencer</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth.html</Path>
-    <Anchor>aac97e043be354bf48a0652206f6b1141</Anchor>
-    <DeclaredIn>vocoder.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <Anchor>af715d64707faafe620c949eacff9cfe4</Anchor>
+    <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>process</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::VocoderSynth</Scope>
+      <Scope>otto::engines::Sequencer</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth.html</Path>
-    <Anchor>ad9d5970374ddb5e570463ea49539a99d</Anchor>
-    <DeclaredIn>vocoder.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>envelope_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::VocoderSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth.html</Path>
-    <Anchor>afe980a604e425a19a829422bb482145c</Anchor>
-    <DeclaredIn>vocoder.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::VocoderSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth.html</Path>
-    <Anchor>a65592da358a9ffcc75adce216e227f07</Anchor>
-    <DeclaredIn>vocoder.hpp</DeclaredIn>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <Anchor>a1dad8169e76cab3bca8deb6e7324b445</Anchor>
+    <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -29107,63 +30382,63 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>current_channel</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sequencer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <Anchor>a797a3c64ef5c91bb8e15155bb18d6a88</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>props</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::VocoderSynth</Scope>
+      <Scope>otto::engines::Sequencer</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth.html</Path>
-    <Anchor>a0263a4e50c807cf20b69422a475b6f21</Anchor>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <Anchor>ab6eb8bd1987df5e6ad46675dd446b560</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::VocoderSynth::Props</Name>
+      <Name>channels</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sequencer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <Anchor>aac076de59db930ae6a562b0bdfc14210</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>number_of_channels</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sequencer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <Anchor>a2c7d940426698345c3de8cd35cd6d5d8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SequencerScreen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>otto::engines::Sequencer</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+    <Anchor>a58f3d0ceb2d75dd455f78b66496e2a58</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::Sequencer::Props</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>otto::engines::VocoderSynth::Props</Scope>
+      <Scope>otto::engines::Sequencer::Props</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth_1_1_props.html</Path>
-    <DeclaredIn>vocoder.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>mix</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::VocoderSynth::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth_1_1_props.html</Path>
-    <Anchor>aac9f7b29b5b97741bb15b6dadf0c4be2</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>noise</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::VocoderSynth::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth_1_1_props.html</Path>
-    <Anchor>a7af06a83fb03138581cfde8cada97b52</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ratio</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::VocoderSynth::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth_1_1_props.html</Path>
-    <Anchor>adb830e27ffb12f48bacf57e8dc1b908e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>gateamount</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::VocoderSynth::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_vocoder_synth_1_1_props.html</Path>
-    <Anchor>abd8511fbc8019b2f365054defebfa424</Anchor>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
+    <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -29380,13 +30655,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>mix</Name>
+      <Name>spread</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>otto::engines::Wormhole::Props</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-    <Anchor>a41670ee30b7ac424dc298d2d074f9bf9</Anchor>
+    <Anchor>a679ad1f03f0d6af57b942bad0d121c8f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35161,6 +36436,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cpu_time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::AudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+    <Anchor>a66eecc20d593bec6fb290304203f0ade</Anchor>
+    <Abstract>The amount of cpu time spent on average since the last call to this function.</Abstract>
+    <DeclaredIn>audio_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Service</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -35254,6 +36541,16 @@
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
     <Anchor>ab117b04fd4aa7753d402a347ad9706bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_cpu_time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::AudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+    <Anchor>a466df1b2e521f693beefc354fbba6520</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35984,6 +37281,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cpu_time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::AudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+    <Anchor>a66eecc20d593bec6fb290304203f0ade</Anchor>
+    <Abstract>The amount of cpu time spent on average since the last call to this function.</Abstract>
+    <DeclaredIn>audio_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Service</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -36140,6 +37449,16 @@
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
     <Anchor>ab117b04fd4aa7753d402a347ad9706bf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_cpu_time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::AudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+    <Anchor>a466df1b2e521f693beefc354fbba6520</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -37964,6 +39283,144 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::util::Connection</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Signal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>ae380b80256a1fb0bcace2912d197767c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SlotRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>a14d4f51e9c9fae1fef1a7a292ff4156a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Function</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>a288d185c0a2fc3275225f620d1756d96</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FuncIterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>a22c6a1901e854f3cf550f61f239bacea</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Connection</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>a13d1ea6506548f91c9e30ef22635366f</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Connection</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>a07f728be33387583cf44128340d71a45</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Connection</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>a175beb1da5392877649208dca965bf6a</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>a9523ba408653e2da20f46e105d751bb0</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>abda2b326e5b3ff0fa0dedca85a3033d3</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator SlotRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>aaadb11dc57b2829c5d753aa30c8ec875</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Connection</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Connection</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_connection.html</Path>
+    <Anchor>aa58e46fd5b13bc92f5d680df0cdceb3f</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::crtp</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::crtp</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1crtp.html</Path>
+    <Abstract>A helper for CRTP.</Abstract>
+    <DeclaredIn>crtp.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::util::is_greater_than_comparable&lt; T1, T2, std::void_t&lt; decltype(std::declval&lt; T1 &gt;() &gt; std::declval&lt; T2 &gt;())&gt; &gt;</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -39395,6 +40852,237 @@
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1select__type_3_01true_00_01_t1_00_01_t2_01_4.html</Path>
     <Anchor>a860135b474b9e189f790b18231b76e0d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::Signal</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Abstract>A signal that can be emitted.</Abstract>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Connection</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>ac567e1b78ca22e5e3e32b895245b4b1c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SlotRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>ab11f42b56ba850a6f2c40746b61848ad</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Function</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>acdecfb712048f64ef54de88a3c81e68c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FuncIterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>aa0defb7daeeed8a920d18d69a123c12e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>ae67ba40d70f276fdd6528a5440d5d085</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>a545b0d31490c5209e375b5f9a19e8119</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connect_member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>a02c6680542b66c21aa563eda31c49645</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connect_member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>a8674d110637e4d91d811b8a6702da663</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>disconnect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>a87cfc238cb621a42dd2bd0722ae18af2</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>disconnect_all</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>ab04b9cc043a10e9a439101d61d3ceeac</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>emit</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>a762911b133f2dc0a7f617f0b7fa35b28</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connect_member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>a046806c2698355b37fcffe484faedd00</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connect_member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::Signal</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_signal.html</Path>
+    <Anchor>af6f86d3f825bf6c22e9a76ca66d2d3c6</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::SlotRef</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Connection</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <Anchor>a20744eb00b1d346875e7e38810843818</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Signal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <Anchor>af340c3c147cf95e3e686e26b95f85c8d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Function</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <Anchor>ac026ba0259801d4d738a2256a1f9c79f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FuncIterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <Anchor>a99a1b69e4bbf712a047ac98e5b721568</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>call_now</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <Anchor>a27c143ed67928ce5cca55c97e18fb72e</Anchor>
+    <DeclaredIn>signals.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>signal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <Anchor>a1b186c6cd388fc2c7a563b4976a47efd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>func_iter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::SlotRef</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_slot_ref.html</Path>
+    <Anchor>a78d1f1da24ee003796a2ecb1dabde905</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -41094,6 +42782,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>for_each</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::algorithm</Scope>
+    </TokenIdentifier>
+    <Path>group__container__algos.html</Path>
+    <Anchor>ga7d516fab058229e159e15c3a987b6f02</Anchor>
+    <Abstract>Container based wrapper for std::for_each()</Abstract>
+    <DeclaredIn>algorithm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>adjacent_difference</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -42009,16 +43709,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1audio_1_1_graph.html</Path>
     <Anchor>a02e8c870fd19a5338173be0665b14952</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>average</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::util::audio::Graph</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1audio_1_1_graph.html</Path>
-    <Anchor>a00d5d76e666415c3f310c426a27d0403</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

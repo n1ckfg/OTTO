@@ -83,36 +83,37 @@ struct otto::core::audio::ProcessData&lt; N &gt;</h3>
 
 <p>Non-owning package of data passed to audio processors. </p>
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00361">361</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00244">244</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="processor_8hpp_source.html">processor.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2d4a5a639f8bd893c4680eab236ff6ff"><td class="memTemplParams" colspan="2">template&lt;int outN = 0&gt; </td></tr>
-<tr class="memitem:a2d4a5a639f8bd893c4680eab236ff6ff"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; outN &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a2d4a5a639f8bd893c4680eab236ff6ff">midi_only</a> ()</td></tr>
-<tr class="separator:a2d4a5a639f8bd893c4680eab236ff6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab511e3d13c1ec28f8d39091ea760e317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#ab511e3d13c1ec28f8d39091ea760e317">audio_only</a> ()</td></tr>
-<tr class="separator:ab511e3d13c1ec28f8d39091ea760e317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0679311a951448376283dd8e931709a"><td class="memTemplParams" colspan="2">template&lt;std::size_t NN&gt; </td></tr>
-<tr class="memitem:af0679311a951448376283dd8e931709a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#af0679311a951448376283dd8e931709a">redirect</a> (const <a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt; NN &gt; &amp;buf)</td></tr>
-<tr class="separator:af0679311a951448376283dd8e931709a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87052326afc5e3663b81bc4f71dd493b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a87052326afc5e3663b81bc4f71dd493b">slice</a> (int idx, int length=-1)</td></tr>
-<tr class="memdesc:a87052326afc5e3663b81bc4f71dd493b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get only a slice of the audio.  <a href="#a87052326afc5e3663b81bc4f71dd493b">More...</a><br /></td></tr>
-<tr class="separator:a87052326afc5e3663b81bc4f71dd493b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e8f83edf3e824145d31650eaa88ce05"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a8e8f83edf3e824145d31650eaa88ce05">begin</a> ()</td></tr>
-<tr class="separator:a8e8f83edf3e824145d31650eaa88ce05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1ae28f66e146104f2a7fe640ea79cb2"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#af1ae28f66e146104f2a7fe640ea79cb2">end</a> ()</td></tr>
-<tr class="separator:af1ae28f66e146104f2a7fe640ea79cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1921f62a3f9e0c1c6c6edc98bb63c597"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a1921f62a3f9e0c1c6c6edc98bb63c597">begin</a> () const</td></tr>
-<tr class="separator:a1921f62a3f9e0c1c6c6edc98bb63c597"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52cf586ed0cd83fb1c3b18e25e488aab"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a52cf586ed0cd83fb1c3b18e25e488aab">end</a> () const</td></tr>
-<tr class="separator:a52cf586ed0cd83fb1c3b18e25e488aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a750e6dc57cf154b3e4bc8565a719deac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a750e6dc57cf154b3e4bc8565a719deac">ProcessData</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a5676070ef1bca31c56746916f3b5943c">audio</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">midi::shared_vector</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1midi.html#a61e4142a5bfe368f40e220dd1288f1fc">midi::AnyMidiEvent</a> &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a61e4010e0d7d5ffc4c09c0eae0e21a1a">midi</a>, long <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#aae0460f0db348e3cd699ef4814479881">nframes</a>) noexcept</td></tr>
+<tr class="separator:a750e6dc57cf154b3e4bc8565a719deac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478197c536f8d2fdafa8c24bcba4cd4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a478197c536f8d2fdafa8c24bcba4cd4f">ProcessData</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a5676070ef1bca31c56746916f3b5943c">audio</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">midi::shared_vector</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1midi.html#a61e4142a5bfe368f40e220dd1288f1fc">midi::AnyMidiEvent</a> &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a61e4010e0d7d5ffc4c09c0eae0e21a1a">midi</a>) noexcept</td></tr>
+<tr class="separator:a478197c536f8d2fdafa8c24bcba4cd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade63145bdc6b146f8587493e19934ebf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#ade63145bdc6b146f8587493e19934ebf">ProcessData</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a5676070ef1bca31c56746916f3b5943c">audio</a>) noexcept</td></tr>
+<tr class="separator:ade63145bdc6b146f8587493e19934ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8ef3b2ceea7173376e15f89172b23c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; 0 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a0a8ef3b2ceea7173376e15f89172b23c">midi_only</a> ()</td></tr>
+<tr class="separator:a0a8ef3b2ceea7173376e15f89172b23c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488fe62044af01eb73e2a358cceee0ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a488fe62044af01eb73e2a358cceee0ad">audio_only</a> ()</td></tr>
+<tr class="separator:a488fe62044af01eb73e2a358cceee0ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea60442fc6040f3aa38f2d025b7035ba"><td class="memTemplParams" colspan="2">template&lt;std::size_t NN&gt; </td></tr>
+<tr class="memitem:aea60442fc6040f3aa38f2d025b7035ba"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; NN &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#aea60442fc6040f3aa38f2d025b7035ba">redirect</a> (const <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, NN &gt; &amp;buf)</td></tr>
+<tr class="separator:aea60442fc6040f3aa38f2d025b7035ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ccb275c0c5c94682f9406a41517a9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a86ccb275c0c5c94682f9406a41517a9d">redirect</a> (const <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a> &amp;buf)</td></tr>
+<tr class="separator:a86ccb275c0c5c94682f9406a41517a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247386f279bf60005acb4de75b3b7450"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a247386f279bf60005acb4de75b3b7450">slice</a> (int idx, int length=-1)</td></tr>
+<tr class="memdesc:a247386f279bf60005acb4de75b3b7450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get only a slice of the audio.  <a href="#a247386f279bf60005acb4de75b3b7450">More...</a><br /></td></tr>
+<tr class="separator:a247386f279bf60005acb4de75b3b7450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a58d16033070343cc460edae7994f3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; float *, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#aa3a58d16033070343cc460edae7994f3">raw_audio_buffers</a> ()</td></tr>
+<tr class="separator:aa3a58d16033070343cc460edae7994f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a726ca7abea767b155402d270d3361fa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a726ca7abea767b155402d270d3361fa6">audio</a></td></tr>
-<tr class="separator:a726ca7abea767b155402d270d3361fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5676070ef1bca31c56746916f3b5943c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a5676070ef1bca31c56746916f3b5943c">audio</a></td></tr>
+<tr class="separator:a5676070ef1bca31c56746916f3b5943c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61e4010e0d7d5ffc4c09c0eae0e21a1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">midi::shared_vector</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1midi.html#a61e4142a5bfe368f40e220dd1288f1fc">midi::AnyMidiEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a61e4010e0d7d5ffc4c09c0eae0e21a1a">midi</a></td></tr>
 <tr class="separator:a61e4010e0d7d5ffc4c09c0eae0e21a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae0460f0db348e3cd699ef4814479881"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#aae0460f0db348e3cd699ef4814479881">nframes</a></td></tr>
@@ -123,34 +124,126 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:afef91b2d2334f4bd523e24934cbd00b1"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> = N</td></tr>
 <tr class="separator:afef91b2d2334f4bd523e24934cbd00b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a750e6dc57cf154b3e4bc8565a719deac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a750e6dc57cf154b3e4bc8565a719deac">&#9670;&nbsp;</a></span>ProcessData() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt;&#160;</td>
+          <td class="paramname"><em>audio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">midi::shared_vector</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1midi.html#a61e4142a5bfe368f40e220dd1288f1fc">midi::AnyMidiEvent</a> &gt;&#160;</td>
+          <td class="paramname"><em>midi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>nframes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00007">7</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a478197c536f8d2fdafa8c24bcba4cd4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478197c536f8d2fdafa8c24bcba4cd4f">&#9670;&nbsp;</a></span>ProcessData() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt;&#160;</td>
+          <td class="paramname"><em>audio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">midi::shared_vector</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1midi.html#a61e4142a5bfe368f40e220dd1288f1fc">midi::AnyMidiEvent</a> &gt;&#160;</td>
+          <td class="paramname"><em>midi</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00014">14</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ade63145bdc6b146f8587493e19934ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade63145bdc6b146f8587493e19934ebf">&#9670;&nbsp;</a></span>ProcessData() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a> &gt;&#160;</td>
+          <td class="paramname"><em>audio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00020">20</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2d4a5a639f8bd893c4680eab236ff6ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4a5a639f8bd893c4680eab236ff6ff">&#9670;&nbsp;</a></span>midi_only()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-<div class="memtemplate">
-template&lt;int outN = 0&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt;outN&gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::midi_only </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00370">370</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00365">otto::core::audio::ProcessData&lt; N &gt;::midi</a>, and <a class="el" href="processor_8hpp_source.html#l00367">otto::core::audio::ProcessData&lt; N &gt;::nframes</a>.</p>
-
-</div>
-</div>
-<a id="ab511e3d13c1ec28f8d39091ea760e317"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab511e3d13c1ec28f8d39091ea760e317">&#9670;&nbsp;</a></span>audio_only()</h2>
+<a id="a0a8ef3b2ceea7173376e15f89172b23c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8ef3b2ceea7173376e15f89172b23c">&#9670;&nbsp;</a></span>midi_only()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,7 +251,7 @@ template&lt;int outN = 0&gt; </div>
 template&lt;int N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a> <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::audio_only </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; 0 &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::midi_only </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -166,14 +259,33 @@ template&lt;int N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00375">375</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00364">otto::core::audio::ProcessData&lt; N &gt;::audio</a>, and <a class="el" href="processor_8hpp_source.html#l00367">otto::core::audio::ProcessData&lt; N &gt;::nframes</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00025">25</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
 
 </div>
 </div>
-<a id="af0679311a951448376283dd8e931709a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0679311a951448376283dd8e931709a">&#9670;&nbsp;</a></span>redirect()</h2>
+<a id="a488fe62044af01eb73e2a358cceee0ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a488fe62044af01eb73e2a358cceee0ad">&#9670;&nbsp;</a></span>audio_only()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; N &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::audio_only </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00031">31</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aea60442fc6040f3aa38f2d025b7035ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea60442fc6040f3aa38f2d025b7035ba">&#9670;&nbsp;</a></span>redirect() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,23 +295,21 @@ template&lt;int N&gt; </div>
 template&lt;std::size_t NN&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::redirect </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; NN &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::redirect </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt; NN &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, NN &gt; &amp;&#160;</td>
           <td class="paramname"><em>buf</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00381">381</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00365">otto::core::audio::ProcessData&lt; N &gt;::midi</a>, and <a class="el" href="processor_8hpp_source.html#l00367">otto::core::audio::ProcessData&lt; N &gt;::nframes</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00038">38</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a87052326afc5e3663b81bc4f71dd493b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87052326afc5e3663b81bc4f71dd493b">&#9670;&nbsp;</a></span>slice()</h2>
+<a id="a86ccb275c0c5c94682f9406a41517a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ccb275c0c5c94682f9406a41517a9d">&#9670;&nbsp;</a></span>redirect() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,7 +317,29 @@ template&lt;std::size_t NN&gt; </div>
 template&lt;int N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a> <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::slice </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; 1 &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::redirect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a> &amp;&#160;</td>
+          <td class="paramname"><em>buf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00044">44</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a247386f279bf60005acb4de75b3b7450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247386f279bf60005acb4de75b3b7450">&#9670;&nbsp;</a></span>slice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">ProcessData</a>&lt; N &gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::slice </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>idx</em>, </td>
@@ -235,14 +367,14 @@ template&lt;int N&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00393">393</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00057">57</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00364">otto::core::audio::ProcessData&lt; N &gt;::audio</a>, <a class="el" href="processor_8hpp_source.html#l00362">otto::core::audio::ProcessData&lt; N &gt;::channels</a>, and <a class="el" href="processor_8hpp_source.html#l00367">otto::core::audio::ProcessData&lt; N &gt;::nframes</a>.</p>
+<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00249">otto::core::audio::ProcessData&lt; N &gt;::nframes</a>.</p>
 
 </div>
 </div>
-<a id="a8e8f83edf3e824145d31650eaa88ce05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e8f83edf3e824145d31650eaa88ce05">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/2]</span></h2>
+<a id="aa3a58d16033070343cc460edae7994f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a58d16033070343cc460edae7994f3">&#9670;&nbsp;</a></span>raw_audio_buffers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,7 +382,7 @@ template&lt;int N&gt; </div>
 template&lt;int N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::begin </td>
+          <td class="memname">auto <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::raw_audio_buffers </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -258,78 +390,7 @@ template&lt;int N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00404">404</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00364">otto::core::audio::ProcessData&lt; N &gt;::audio</a>.</p>
-
-</div>
-</div>
-<a id="af1ae28f66e146104f2a7fe640ea79cb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1ae28f66e146104f2a7fe640ea79cb2">&#9670;&nbsp;</a></span>end() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00408">408</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00364">otto::core::audio::ProcessData&lt; N &gt;::audio</a>.</p>
-
-</div>
-</div>
-<a id="a1921f62a3f9e0c1c6c6edc98bb63c597"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1921f62a3f9e0c1c6c6edc98bb63c597">&#9670;&nbsp;</a></span>begin() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::begin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00412">412</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00364">otto::core::audio::ProcessData&lt; N &gt;::audio</a>.</p>
-
-</div>
-</div>
-<a id="a52cf586ed0cd83fb1c3b18e25e488aab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52cf586ed0cd83fb1c3b18e25e488aab">&#9670;&nbsp;</a></span>end() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;int N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00416">416</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00364">otto::core::audio::ProcessData&lt; N &gt;::audio</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8impl_8hpp_source.html#l00067">67</a> of file <a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a>.</p>
 
 </div>
 </div>
@@ -356,14 +417,12 @@ template&lt;int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00362">362</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00393">otto::core::audio::ProcessData&lt; N &gt;::slice()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00245">245</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a726ca7abea767b155402d270d3361fa6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a726ca7abea767b155402d270d3361fa6">&#9670;&nbsp;</a></span>audio</h2>
+<a id="a5676070ef1bca31c56746916f3b5943c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5676070ef1bca31c56746916f3b5943c">&#9670;&nbsp;</a></span>audio</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,14 +430,14 @@ template&lt;int N&gt; </div>
 template&lt;int N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt;<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a>&gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::audio</td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt;<a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#afef91b2d2334f4bd523e24934cbd00b1">channels</a>&gt; <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData</a>&lt; N &gt;::audio</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00364">364</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00247">247</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00375">otto::core::audio::ProcessData&lt; N &gt;::audio_only()</a>, <a class="el" href="processor_8hpp_source.html#l00404">otto::core::audio::ProcessData&lt; N &gt;::begin()</a>, <a class="el" href="processor_8hpp_source.html#l00408">otto::core::audio::ProcessData&lt; N &gt;::end()</a>, and <a class="el" href="processor_8hpp_source.html#l00393">otto::core::audio::ProcessData&lt; N &gt;::slice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="processor_8impl_8hpp_source.html#l00133">otto::core::audio::ProcessData&lt; 1 &gt;::audio_only()</a>, <a class="el" href="processor_8impl_8hpp_source.html#l00165">otto::core::audio::ProcessData&lt; 1 &gt;::raw_audio_buffers()</a>, and <a class="el" href="processor_8impl_8hpp_source.html#l00156">otto::core::audio::ProcessData&lt; 1 &gt;::slice()</a>.</p>
 
 </div>
 </div>
@@ -396,9 +455,9 @@ template&lt;int N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00365">365</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00248">248</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00370">otto::core::audio::ProcessData&lt; N &gt;::midi_only()</a>, <a class="el" href="voice__manager_8hpp_source.html#l00265">otto::core::audio::VoiceManager&lt; 6 &gt;::process_after()</a>, <a class="el" href="voice__manager_8hpp_source.html#l00242">otto::core::audio::VoiceManager&lt; 6 &gt;::process_before()</a>, and <a class="el" href="processor_8hpp_source.html#l00381">otto::core::audio::ProcessData&lt; N &gt;::redirect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="processor_8impl_8hpp_source.html#l00128">otto::core::audio::ProcessData&lt; 1 &gt;::midi_only()</a>, <a class="el" href="processor_8impl_8hpp_source.html#l00080">otto::core::audio::ProcessData&lt; 0 &gt;::redirect()</a>, and <a class="el" href="processor_8impl_8hpp_source.html#l00139">otto::core::audio::ProcessData&lt; 1 &gt;::redirect()</a>.</p>
 
 </div>
 </div>
@@ -416,14 +475,15 @@ template&lt;int N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00367">367</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00249">249</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00375">otto::core::audio::ProcessData&lt; N &gt;::audio_only()</a>, <a class="el" href="processor_8hpp_source.html#l00370">otto::core::audio::ProcessData&lt; N &gt;::midi_only()</a>, <a class="el" href="processor_8hpp_source.html#l00381">otto::core::audio::ProcessData&lt; N &gt;::redirect()</a>, and <a class="el" href="processor_8hpp_source.html#l00393">otto::core::audio::ProcessData&lt; N &gt;::slice()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="processor_8impl_8hpp_source.html#l00133">otto::core::audio::ProcessData&lt; 1 &gt;::audio_only()</a>, <a class="el" href="processor_8impl_8hpp_source.html#l00128">otto::core::audio::ProcessData&lt; 1 &gt;::midi_only()</a>, <a class="el" href="processor_8impl_8hpp_source.html#l00080">otto::core::audio::ProcessData&lt; 0 &gt;::redirect()</a>, <a class="el" href="processor_8impl_8hpp_source.html#l00139">otto::core::audio::ProcessData&lt; 1 &gt;::redirect()</a>, <a class="el" href="processor_8impl_8hpp_source.html#l00057">otto::core::audio::ProcessData&lt; N &gt;::slice()</a>, and <a class="el" href="processor_8impl_8hpp_source.html#l00156">otto::core::audio::ProcessData&lt; 1 &gt;::slice()</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>The documentation for this struct was generated from the following files:<ul>
 <li>/home/travis/build/topisani/OTTO/src/core/audio/<a class="el" href="processor_8hpp_source.html">processor.hpp</a></li>
+<li>/home/travis/build/topisani/OTTO/src/core/audio/<a class="el" href="processor_8impl_8hpp_source.html">processor.impl.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->

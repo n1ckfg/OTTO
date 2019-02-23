@@ -70,6 +70,7 @@
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::core::audio::AudioBufferPool Struct Reference</div>  </div>
@@ -77,7 +78,7 @@
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00291">291</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00175">175</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="processor_8hpp_source.html">processor.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -87,16 +88,21 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a35f19587213662f5e1c178f9d505105e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a192b160b36182204540b53cf791839b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a192b160b36182204540b53cf791839b4">allocate</a> () noexcept</td></tr>
 <tr class="separator:a192b160b36182204540b53cf791839b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a720411683b615163cb6e91edd81ec3ad"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:a720411683b615163cb6e91edd81ec3ad"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt; N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a720411683b615163cb6e91edd81ec3ad">allocate_multi</a> () noexcept</td></tr>
-<tr class="separator:a720411683b615163cb6e91edd81ec3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f16f3e0bb0688de99206e3788e489ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a5f16f3e0bb0688de99206e3788e489ce">allocate_clear</a> ()</td></tr>
 <tr class="separator:a5f16f3e0bb0688de99206e3788e489ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c957bd34aa34d32dcca743b4f3f95e0"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:a6c957bd34aa34d32dcca743b4f3f95e0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt; N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a6c957bd34aa34d32dcca743b4f3f95e0">allocate_multi_clear</a> () noexcept</td></tr>
-<tr class="separator:a6c957bd34aa34d32dcca743b4f3f95e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89daa0a5afd19706c0c09e245a25f32c"><td class="memTemplParams" colspan="2">template&lt;int NN&gt; </td></tr>
+<tr class="memitem:a89daa0a5afd19706c0c09e245a25f32c"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, NN &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a89daa0a5afd19706c0c09e245a25f32c">allocate_multi</a> () noexcept</td></tr>
+<tr class="separator:a89daa0a5afd19706c0c09e245a25f32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aefce147c187d38b3cbeb43704bb68f"><td class="memTemplParams" colspan="2">template&lt;int NN&gt; </td></tr>
+<tr class="memitem:a9aefce147c187d38b3cbeb43704bb68f"><td class="memTemplItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, NN &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a9aefce147c187d38b3cbeb43704bb68f">allocate_multi_clear</a> () noexcept</td></tr>
+<tr class="separator:a9aefce147c187d38b3cbeb43704bb68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb2724d231a7da9310af1b22c824f1c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#abb2724d231a7da9310af1b22c824f1c8">set_buffer_size</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> bs) noexcept</td></tr>
 <tr class="separator:abb2724d231a7da9310af1b22c824f1c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a0ad6585561abcf57a356c56adb1ff7bd"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a0ad6585561abcf57a356c56adb1ff7bd">number_of_buffers</a> = 8</td></tr>
+<tr class="separator:a0ad6585561abcf57a356c56adb1ff7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a35f19587213662f5e1c178f9d505105e"></a>
@@ -115,7 +121,9 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00292">292</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00177">177</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00176">number_of_buffers</a>.</p>
 
 </div>
 </div>
@@ -143,42 +151,11 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00299">299</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00184">184</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr/get.html">std::unique_ptr&lt; T &gt;::get()</a>, <a class="el" href="log__manager_8hpp_source.html#l00033">LOGF</a>, <a class="el" href="log__manager_8hpp_source.html#l00024">LOGI</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector/size.html">std::vector&lt; T &gt;::size()</a>, and <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/error/terminate.html">std::terminate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00324">allocate_clear()</a>, and <a class="el" href="processor_8hpp_source.html#l00318">allocate_multi()</a>.</p>
-
-</div>
-</div>
-<a id="a720411683b615163cb6e91edd81ec3ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a720411683b615163cb6e91edd81ec3ad">&#9670;&nbsp;</a></span>allocate_multi()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t N&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt;N&gt; otto::core::audio::AudioBufferPool::allocate_multi </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00318">318</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00299">allocate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00202">allocate_clear()</a>, and <a class="el" href="processor_8hpp_source.html#l00210">allocate_multi()</a>.</p>
 
 </div>
 </div>
@@ -197,27 +174,27 @@ template&lt;std::size_t N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00324">324</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00202">202</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00299">allocate()</a>.</p>
+<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00184">allocate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00332">allocate_multi_clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00216">allocate_multi_clear()</a>.</p>
 
 </div>
 </div>
-<a id="a6c957bd34aa34d32dcca743b4f3f95e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c957bd34aa34d32dcca743b4f3f95e0">&#9670;&nbsp;</a></span>allocate_multi_clear()</h2>
+<a id="a89daa0a5afd19706c0c09e245a25f32c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89daa0a5afd19706c0c09e245a25f32c">&#9670;&nbsp;</a></span>allocate_multi()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;std::size_t N&gt; </div>
+template&lt;int NN&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle">MultiChannelAudioBufferHandle</a>&lt;N&gt; otto::core::audio::AudioBufferPool::allocate_multi_clear </td>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt;<a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, NN&gt; otto::core::audio::AudioBufferPool::allocate_multi </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -230,9 +207,40 @@ template&lt;std::size_t N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00332">332</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00210">210</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00324">allocate_clear()</a>.</p>
+<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00184">allocate()</a>.</p>
+
+</div>
+</div>
+<a id="a9aefce147c187d38b3cbeb43704bb68f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aefce147c187d38b3cbeb43704bb68f">&#9670;&nbsp;</a></span>allocate_multi_clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int NN&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt;<a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">AudioBufferHandle</a>, NN&gt; otto::core::audio::AudioBufferPool::allocate_multi_clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00216">216</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00202">allocate_clear()</a>.</p>
 
 </div>
 </div>
@@ -260,7 +268,36 @@ template&lt;std::size_t N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00338">338</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00221">221</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="processor_8hpp_source.html#l00176">number_of_buffers</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0ad6585561abcf57a356c56adb1ff7bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ad6585561abcf57a356c56adb1ff7bd">&#9670;&nbsp;</a></span>number_of_buffers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int otto::core::audio::AudioBufferPool::number_of_buffers = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="processor_8hpp_source.html#l00176">176</a> of file <a class="el" href="processor_8hpp_source.html">processor.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="processor_8hpp_source.html#l00177">AudioBufferPool()</a>, and <a class="el" href="processor_8hpp_source.html#l00221">set_buffer_size()</a>.</p>
 
 </div>
 </div>

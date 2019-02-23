@@ -70,9 +70,6 @@
 <li>S24()
 : <a class="el" href="class_s24.html#a81ca508298afe9c1dbe37afc55406f77">S24</a>
 </li>
-<li>SacredSynth()
-: <a class="el" href="structotto_1_1engines_1_1_sacred_synth.html#ae22299d9cd773cb851c655640678dd18">otto::engines::SacredSynth</a>
-</li>
 <li>sample
 : <a class="el" href="structotto_1_1engines_1_1_sample_1_1iterator.html#a861c52a5690894d4b263ca0c039488dd">otto::engines::Sample::iterator</a>
 </li>
@@ -91,6 +88,9 @@
 </li>
 <li>Sampler()
 : <a class="el" href="structotto_1_1engines_1_1_sampler.html#ac158e8c354982a3387743bc7595d918d">otto::engines::Sampler</a>
+</li>
+<li>sampler
+: <a class="el" href="structotto_1_1engines_1_1_sequencer.html#a4688925dd8570ad414e5dcf59d5538a5">otto::engines::Sequencer::Channel</a>
 </li>
 <li>samplerate
 : <a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#aa995d2526382d3105db13d5cbe9f5867">otto::service::audio::JackAudioDriver</a>
@@ -168,6 +168,12 @@
 <li>sequence()
 : <a class="el" href="structotto_1_1util_1_1iterator_1_1sequence.html#a449a44bdfcb371019d7bf592568ff71e">otto::util::iterator::sequence&lt; BIter, EIter &gt;</a>
 </li>
+<li>Sequencer()
+: <a class="el" href="structotto_1_1engines_1_1_sequencer.html#af715d64707faafe620c949eacff9cfe4">otto::engines::Sequencer</a>
+</li>
+<li>SequencerScreen
+: <a class="el" href="structotto_1_1engines_1_1_sequencer.html#a58f3d0ceb2d75dd455f78b66496e2a58">otto::engines::Sequencer</a>
+</li>
 <li>Service()
 : <a class="el" href="structotto_1_1core_1_1_service.html#ae5c0f4d23d16f0ef33f57f506af9b5f4">otto::core::Service</a>
 </li>
@@ -223,15 +229,16 @@
 </li>
 <li>settings_screen()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_voice_manager.html#a17e4e27dc3091b9266f5958181019aff">otto::core::audio::VoiceManager&lt; N &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#a12f07b090489b190f447cac783f96557">otto::core::voices::VoiceManager&lt; PostT, NumberOfVoices &gt;</a>
+</li>
+<li>SettingsProps
+: <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#ae81460e9c1353517c6cd467b81e9dab2">otto::core::voices::VoiceManager&lt; PostT, NumberOfVoices &gt;</a>
 </li>
 <li>shape
 : <a class="el" href="structotto_1_1engines_1_1_wormhole_1_1_props.html#a7672eaa7aafa3eeaf55fd6c5ad102d3a">otto::engines::Wormhole::Props</a>
 </li>
 <li>shared_vector()
 : <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ae80082ebfce0dab3cedcacacfd98393e">otto::core::midi::shared_vector&lt; T, Allocator &gt;</a>
-</li>
-<li>shift
-: <a class="el" href="structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html#a04f3e971ae581280cbf11320cf6639ac">otto::engines::OTTOFMSynth::Props</a>
 </li>
 <li>shimmer
 : <a class="el" href="structotto_1_1engines_1_1_wormhole_1_1_props.html#ac002cb71e2587b8562c630ebdca3889c">otto::engines::Wormhole::Props</a>
@@ -249,18 +256,28 @@
 <li>shutdown()
 : <a class="el" href="structotto_1_1service_1_1audio_1_1_jack_audio_driver.html#aa33dfda2c66ea1d0f9ffe4a0930643c5">otto::service::audio::JackAudioDriver</a>
 </li>
+<li>Signal
+: <a class="el" href="structotto_1_1util_1_1_connection.html#ae380b80256a1fb0bcace2912d197767c">otto::util::Connection&lt; Args &gt;</a>
+</li>
+<li>signal
+: <a class="el" href="structotto_1_1util_1_1_slot_ref.html#a1b186c6cd388fc2c7a563b4976a47efd">otto::util::SlotRef&lt; Args &gt;</a>
+</li>
+<li>Signal
+: <a class="el" href="structotto_1_1util_1_1_slot_ref.html#af340c3c147cf95e3e686e26b95f85c8d">otto::util::SlotRef&lt; Args &gt;</a>
+</li>
+<li>sine
+: <a class="el" href="structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html#a53b63d17b1a13a3a2677a2f45b83cad3">otto::engines::OTTOFMSynth::FMOperator</a>
+</li>
 <li>size()
 : <a class="el" href="struct_midi_in_api_1_1_midi_queue.html#a2585b8ba7f0cdd593f96787bb4938351">MidiInApi::MidiQueue</a>
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#abea8eaeac4152fa3033eb698b8cbe878">otto::core::audio::AudioBufferHandle</a>
-, <a class="el" href="structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_011_01_4.html#afc498c4eb6d81cf14fa64cefe4d98d99">otto::core::audio::MultiChannelAudioBufferHandle&lt; 1 &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1audio_1_1_multi_channel_audio_buffer_handle_3_012_01_4.html#ae92e97c7747f6c49edaad520c0ff3965">otto::core::audio::MultiChannelAudioBufferHandle&lt; 2 &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#a625870de7d48d611dd47c9d6539271ea">otto::core::ui::SelectorWidget::Options</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_box.html#abd931d892194ba0cad3ef2d5f2a2dbac">otto::core::ui::vg::Box</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html#a6b90e93892e26366d91077852a79afd8">otto::core::ui::vg::Canvas</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1icons_1_1_icon.html#a20625b7ff0c61f9c1ad83d35a345da07">otto::core::ui::vg::icons::Icon</a>
 </li>
 <li>Size()
-: <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#a046007f25658830ee9857de21d84f5cc">otto::core::ui::vg::Size</a>
+: <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_size.html#ad0e7927566b9a6a1f2cd3bc38cf4e040">otto::core::ui::vg::Size</a>
 </li>
 <li>size
 : <a class="el" href="structotto_1_1core_1_1ui_1_1_widget.html#aedf83404e4430a25d718319d35eb734c">otto::core::ui::Widget</a>
@@ -279,10 +296,15 @@
 </li>
 <li>slice()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#a3cc2fb62a48d18ec3b8ed073610e457d">otto::core::audio::AudioBufferHandle</a>
-, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a87052326afc5e3663b81bc4f71dd493b">otto::core::audio::ProcessData&lt; N &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a247386f279bf60005acb4de75b3b7450">otto::core::audio::ProcessData&lt; N &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html#abdd8e0f295f81cb64a697a6c96d080ee">otto::core::audio::ProcessData&lt; 1 &gt;</a>
 </li>
 <li>slices
 : <a class="el" href="classotto_1_1util_1_1_tape_file.html#a140a927638a5d068d9a2c6f1cfdfc9e3">otto::util::TapeFile</a>
+</li>
+<li>SlotRef
+: <a class="el" href="structotto_1_1util_1_1_connection.html#a14d4f51e9c9fae1fef1a7a292ff4156a">otto::util::Connection&lt; Args &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1_signal.html#ab11f42b56ba850a6f2c40746b61848ad">otto::util::Signal&lt; Args &gt;</a>
 </li>
 <li>SoundFile()
 : <a class="el" href="classotto_1_1util_1_1_sound_file.html#a84bb2f419d72a679fded9edaa5006065">otto::util::SoundFile</a>
@@ -292,13 +314,14 @@
 </li>
 <li>spread
 : <a class="el" href="structotto_1_1engines_1_1_pingpong_1_1_props.html#a2a08b73965c47dcb8adfb983d7a1a848">otto::engines::Pingpong::Props</a>
+, <a class="el" href="structotto_1_1engines_1_1_wormhole_1_1_props.html#a679ad1f03f0d6af57b942bad0d121c8f">otto::engines::Wormhole::Props</a>
 </li>
 <li>start()
 : <a class="el" href="structotto_1_1services_1_1_audio_manager.html#ae0f0d0392c52601c8ab4aecf4a800790">otto::services::AudioManager</a>
 , <a class="el" href="structotto_1_1services_1_1_engine_manager.html#a4b6509ce51050b10ceab0866b47f64bd">otto::services::EngineManager</a>
 </li>
 <li>start_point()
-: <a class="el" href="structotto_1_1engines_1_1_sample.html#af5092918b2079ca54a5caea7b0364c4d">otto::engines::Sample</a>
+: <a class="el" href="structotto_1_1engines_1_1_sample.html#a9c14e4dda1313d5b692790c80d7cffb5">otto::engines::Sample</a>
 </li>
 <li>startStream()
 : <a class="el" href="class_rt_api.html#a10ee2f45dc6c1200da231365b4686ac8">RtApi</a>
@@ -313,7 +336,7 @@
 : <a class="el" href="structotto_1_1services_1_1_application.html#a6cabe4d04710e183836428b76379cc12">otto::services::Application</a>
 </li>
 <li>status()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#ae280ad8ec57f71c0b8a809f7ba4ed107">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a358356fb455b41f125bf4ea77bb14c45">otto::filesystem::directory_entry</a>
 </li>
 <li>stem()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#a1e26a39d3eb5c943d9bdcfba3b8d9ff5">otto::filesystem::path</a>
@@ -402,6 +425,7 @@
 </li>
 <li>sustain
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_envelope_props.html#a46c0badd339467ec9af980635ac6e346">otto::core::audio::EnvelopeProps</a>
+, <a class="el" href="structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html#af51163e3437dba522ab851011b912dca">otto::core::voices::details::EnvelopeProps</a>
 </li>
 <li>swap()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ada80d229a4e936955c5e4c4c4eebeb62">otto::filesystem::path</a>

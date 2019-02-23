@@ -92,9 +92,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html" title="Engine base class.">Engine</a> base class.  <a href="structotto_1_1core_1_1engine_1_1_engine.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1effect_01_4.html">Engine&lt; EngineType::effect &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1arpeggiator_01_4.html">Engine&lt; EngineType::arpeggiator &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1sequencer_01_4.html">Engine&lt; EngineType::sequencer &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1effect_01_4.html">Engine&lt; EngineType::effect &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1synth_01_4.html">Engine&lt; EngineType::synth &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,6 +110,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html">EngineWithEnvelope</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html">IEngineDispatcher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface base class for the <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html" title="Owns engines of type ET, and dispatches to a selected one of them.">EngineDispatcher</a> struct.  <a href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -117,17 +120,19 @@ Typedefs</h2></td></tr>
 <tr class="separator:a5cc6025cb58f97decfcedb77332687ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada63b554641f386e7dff8be6f2c46468"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#ada63b554641f386e7dff8be6f2c46468">EffectEngine</a> = <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3abf5b17fac5c60d745a593b5920372235">EngineType::effect</a> &gt;</td></tr>
 <tr class="separator:ada63b554641f386e7dff8be6f2c46468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a858792fa367b2edec112211329837c4d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#a858792fa367b2edec112211329837c4d">SequencerEngine</a> = <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3a4aba196e572bb81e0036cfd9b9992781">EngineType::sequencer</a> &gt;</td></tr>
-<tr class="separator:a858792fa367b2edec112211329837c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67986567264dbded4208de232b235648"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#a67986567264dbded4208de232b235648">ArpeggiatorEngine</a> = <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3ae17e8471674cb49f9a467bd4f6429ceb">EngineType::arpeggiator</a> &gt;</td></tr>
+<tr class="separator:a67986567264dbded4208de232b235648"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab65c35dbb4fd6ffe0edbf7a78a21fa8b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#ab65c35dbb4fd6ffe0edbf7a78a21fa8b">TwistEngine</a> = <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3aeb3bac16ce0b10104556989311d71e56">EngineType::twist</a> &gt;</td></tr>
 <tr class="separator:ab65c35dbb4fd6ffe0edbf7a78a21fa8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a060105a3caf390d8f6f792218446f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#ae9a060105a3caf390d8f6f792218446f">MiscEngine</a> = <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3abc957e26ff41470c556ee5d09e96880b">EngineType::misc</a> &gt;</td></tr>
+<tr class="separator:ae9a060105a3caf390d8f6f792218446f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a46a6572deaa916a3d887179d9d69d2c3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3">EngineType</a> { <br />
 &#160;&#160;<a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3a3d401e8a794a88b7666f73faf9c99014">EngineType::synth</a>, 
 <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3abf5b17fac5c60d745a593b5920372235">EngineType::effect</a>, 
-<a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3a4aba196e572bb81e0036cfd9b9992781">EngineType::sequencer</a>, 
+<a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3ae17e8471674cb49f9a467bd4f6429ceb">EngineType::arpeggiator</a>, 
 <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3aeb3bac16ce0b10104556989311d71e56">EngineType::twist</a>, 
 <br />
 &#160;&#160;<a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3abc957e26ff41470c556ee5d09e96880b">EngineType::misc</a>
@@ -176,14 +181,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a858792fa367b2edec112211329837c4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a858792fa367b2edec112211329837c4d">&#9670;&nbsp;</a></span>SequencerEngine</h2>
+<a id="a67986567264dbded4208de232b235648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67986567264dbded4208de232b235648">&#9670;&nbsp;</a></span>ArpeggiatorEngine</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1engine.html#a858792fa367b2edec112211329837c4d">otto::core::engine::SequencerEngine</a> = typedef <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt;<a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3a4aba196e572bb81e0036cfd9b9992781">EngineType::sequencer</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1engine.html#a67986567264dbded4208de232b235648">otto::core::engine::ArpeggiatorEngine</a> = typedef <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt;<a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3ae17e8471674cb49f9a467bd4f6429ceb">EngineType::arpeggiator</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -205,6 +210,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00186">186</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae9a060105a3caf390d8f6f792218446f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a060105a3caf390d8f6f792218446f">&#9670;&nbsp;</a></span>MiscEngine</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1engine.html#ae9a060105a3caf390d8f6f792218446f">otto::core::engine::MiscEngine</a> = typedef <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt;<a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3abc957e26ff41470c556ee5d09e96880b">EngineType::misc</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00188">188</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
 </div>
 </div>
@@ -236,7 +257,7 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3abf5b17fac5c60d745a593b5920372235"></a>effect&#160;</td><td class="fielddoc"><p>FX engines. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3a4aba196e572bb81e0036cfd9b9992781"></a>sequencer&#160;</td><td class="fielddoc"><p>Sequencer engines. </p>
+<tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3ae17e8471674cb49f9a467bd4f6429ceb"></a>arpeggiator&#160;</td><td class="fielddoc"><p>Sequencer engines. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a46a6572deaa916a3d887179d9d69d2c3aeb3bac16ce0b10104556989311d71e56"></a>twist&#160;</td><td class="fielddoc"><p>Twist engines - Not really engines in the same sense. </p>
 </td></tr>
@@ -274,7 +295,7 @@ template&lt;typename E &gt; </div>
 <p>Type trait to get engine type. </p>
 <p>SFINAE friendly, and will match any type that inherits from [<a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html" title="Engine base class.">Engine</a>]() </p>
 
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00205">205</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00206">206</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
 </div>
 </div>
