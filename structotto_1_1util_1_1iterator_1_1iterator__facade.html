@@ -83,7 +83,7 @@ struct otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, R
 <p>Zero overhead wrapper to create iterators. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">Impl</td><td>must define the following member functions: <div class="fragment"><div class="line"><span class="keywordtype">void</span>           Impl::advance(<a class="code" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a572f9abac79938e27dda1a66ddc9f899">difference_type</a>);</div><div class="line"><a class="code" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#ac247eec9d1d38667e7576f132afd5ccb">reference</a>      Impl::dereference();</div><div class="line"><span class="keywordtype">bool</span>           Impl::equal(<span class="keyword">const</span> Impl&amp;);</div></div><!-- fragment --> For random access iterators, it must also define <div class="fragment"><div class="line"><a class="codeRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/ptrdiff_t">std::ptrdiff_t</a> Impl::difference(<span class="keyword">const</span> Impl&amp;);</div></div><!-- fragment --> Other than those, it must define a copy constructor, and the member types <code>iterator_category</code> and <code>value_type</code>, Any other of the five <code>iterator_traits</code> types will also be used from <code>Impl</code> if avaliable </td></tr>
+    <tr><td class="paramname">Impl</td><td>must define the following member functions: <div class="fragment"><div class="line"><span class="keywordtype">void</span>           Impl::advance(<a class="code" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a572f9abac79938e27dda1a66ddc9f899">difference_type</a>);</div><div class="line"><a class="code" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#ac247eec9d1d38667e7576f132afd5ccb">reference</a>      Impl::dereference();</div><div class="line"><span class="keywordtype">bool</span>           Impl::equal(<span class="keyword">const</span> Impl&amp;);</div></div><!-- fragment --> For random access iterators, it must also define <div class="fragment"><div class="line"><a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/ptrdiff_t">std::ptrdiff_t</a> Impl::difference(<span class="keyword">const</span> Impl&amp;);</div></div><!-- fragment --> Other than those, it must define a copy constructor, and the member types <code>iterator_category</code> and <code>value_type</code>, Any other of the five <code>iterator_traits</code> types will also be used from <code>Impl</code> if avaliable </td></tr>
   </table>
   </dd>
 </dl>
@@ -111,10 +111,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0ba9b205e19b8b37671f3a112872df6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31687c6bd06e9fe03b895a746d62b281"><td class="memItemLeft" align="right" valign="top">Derived&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a31687c6bd06e9fe03b895a746d62b281">operator++</a> (int)</td></tr>
 <tr class="separator:a31687c6bd06e9fe03b895a746d62b281"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a694afcda3fcf18ffde62a02fe1886dac"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a694afcda3fcf18ffde62a02fe1886dac">operator *</a> ()</td></tr>
-<tr class="separator:a694afcda3fcf18ffde62a02fe1886dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45015777edab52056b025e00f503ce2f"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a45015777edab52056b025e00f503ce2f">operator *</a> () const</td></tr>
-<tr class="separator:a45015777edab52056b025e00f503ce2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb75cf499b8e0e0c32c0ca250e614526"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#acb75cf499b8e0e0c32c0ca250e614526">operator*</a> ()</td></tr>
+<tr class="separator:acb75cf499b8e0e0c32c0ca250e614526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4ebf85a310d57b7da24d3d04a6986b8"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#ac4ebf85a310d57b7da24d3d04a6986b8">operator*</a> () const</td></tr>
+<tr class="separator:ac4ebf85a310d57b7da24d3d04a6986b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4181862556bd8de75282d1de410b1864"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a4181862556bd8de75282d1de410b1864">operator-&gt;</a> ()</td></tr>
 <tr class="separator:a4181862556bd8de75282d1de410b1864"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a732c2247b40366e49ab1128852ed3ac5"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a732c2247b40366e49ab1128852ed3ac5">operator-&gt;</a> () const</td></tr>
@@ -259,8 +259,8 @@ template&lt;typename Derived, typename ValueType, typename Category, typename Re
 
 </div>
 </div>
-<a id="a694afcda3fcf18ffde62a02fe1886dac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a694afcda3fcf18ffde62a02fe1886dac">&#9670;&nbsp;</a></span>operator *() <span class="overload">[1/2]</span></h2>
+<a id="acb75cf499b8e0e0c32c0ca250e614526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb75cf499b8e0e0c32c0ca250e614526">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,7 +268,7 @@ template&lt;typename Derived, typename ValueType, typename Category, typename Re
 template&lt;typename Derived, typename ValueType, typename Category, typename Reference = ValueType&amp;, typename Pointer = ValueType*, typename Difference = std::ptrdiff_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html">otto::util::iterator::iterator_facade</a>&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;::operator * </td>
+          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html">otto::util::iterator::iterator_facade</a>&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;::operator* </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -280,8 +280,8 @@ template&lt;typename Derived, typename ValueType, typename Category, typename Re
 
 </div>
 </div>
-<a id="a45015777edab52056b025e00f503ce2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45015777edab52056b025e00f503ce2f">&#9670;&nbsp;</a></span>operator *() <span class="overload">[2/2]</span></h2>
+<a id="ac4ebf85a310d57b7da24d3d04a6986b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4ebf85a310d57b7da24d3d04a6986b8">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,7 +289,7 @@ template&lt;typename Derived, typename ValueType, typename Category, typename Re
 template&lt;typename Derived, typename ValueType, typename Category, typename Reference = ValueType&amp;, typename Pointer = ValueType*, typename Difference = std::ptrdiff_t&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html">otto::util::iterator::iterator_facade</a>&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;::operator * </td>
+          <td class="memname">decltype(auto) <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html">otto::util::iterator::iterator_facade</a>&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;::operator* </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

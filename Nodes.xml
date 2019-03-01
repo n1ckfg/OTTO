@@ -1169,9 +1169,9 @@
                     <Anchor>ab6868bc947a838110651221e7038ef59</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator &amp;</Name>
+                    <Name>operator&amp;</Name>
                     <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-                    <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+                    <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
                    </Node>
                    <Node>
                     <Name>operator|</Name>
@@ -1199,9 +1199,9 @@
                     <Anchor>ab6868bc947a838110651221e7038ef59</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator &amp;</Name>
+                    <Name>operator&amp;</Name>
                     <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-                    <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+                    <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
                    </Node>
                    <Node>
                     <Name>operator|</Name>
@@ -2383,14 +2383,14 @@
                     <Anchor>afded648dc096aba21197959aa81e4739</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a0466952c7284ea59e7b4ff9f447938c0</Anchor>
+                    <Anchor>aee7d68e4f561be0ff89006cb2002123e</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                    <Anchor>a641005c4a980f1df0f31532b18a59872</Anchor>
+                    <Anchor>acf3274d327190b3579ed79ce07113722</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
@@ -3800,9 +3800,9 @@
                       <Anchor>a3f26bb913b0eb7e95b9947fd645c858f</Anchor>
                      </Node>
                      <Node>
-                      <Name>operator *</Name>
+                      <Name>operator*</Name>
                       <Path>structotto_1_1core_1_1ui_1_1vg_1_1_point.html</Path>
-                      <Anchor>a08ebb013ffbf2041087f52ee1565abe2</Anchor>
+                      <Anchor>ab3171f8694c1d77527b4614a0fac8202</Anchor>
                      </Node>
                      <Node>
                       <Name>operator/</Name>
@@ -5984,9 +5984,9 @@
                   <Anchor>a45bd5c4ccefebbcaf8fd9e3eb4e8ad17</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator *</Name>
+                  <Name>operator*</Name>
                   <Path>classotto_1_1filesystem_1_1directory__iterator.html</Path>
-                  <Anchor>a8b4e4dca8bc477fedc7ff1ea3f674e19</Anchor>
+                  <Anchor>ab0cfc39b176fae55adcd197f8c1dc12c</Anchor>
                  </Node>
                  <Node>
                   <Name>operator-&gt;</Name>
@@ -6186,9 +6186,9 @@
                     <Anchor>af4361e49c434ad9bd3abbc52c72aef12</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
-                    <Anchor>abd1be4b10b6b890cd8b1bdf315b1876c</Anchor>
+                    <Anchor>aba00472e2399deb29b83e34dc6eda9f0</Anchor>
                    </Node>
                    <Node>
                     <Name>operator++</Name>
@@ -6726,9 +6726,9 @@
                   <Anchor>ab2c4021d96938f08c9462af53d9e67a5</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator *</Name>
+                  <Name>operator*</Name>
                   <Path>classotto_1_1filesystem_1_1recursive__directory__iterator.html</Path>
-                  <Anchor>a65ad8dfbfbda188e5368da4c1416a333</Anchor>
+                  <Anchor>a2e9f0d52c17b5f5fa421905ab6d3ba3a</Anchor>
                  </Node>
                  <Node>
                   <Name>operator-&gt;</Name>
@@ -7803,9 +7803,9 @@
                   <Anchor>a7433bc5768162cdf76406317e774007d</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator *</Name>
+                  <Name>operator*</Name>
                   <Path>structotto_1_1services_1_1_service_storage.html</Path>
-                  <Anchor>a937b5a97ae23a6a04f8f8749d2c54a40</Anchor>
+                  <Anchor>a6592ad049a6ab87e41cf98e595131dab</Anchor>
                  </Node>
                  <Node>
                   <Name>operator Service &amp;</Name>
@@ -8398,14 +8398,14 @@
                     <Anchor>ae6dba7bdde07fcf165b4f9f303dd0aa1</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-                    <Anchor>aff4cb69b8a9861f5079eda6fa2260cc0</Anchor>
+                    <Anchor>a8537d100ae4f0cc0c7e6952c651143af</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-                    <Anchor>a589deb5dd73295ab16cb935c67eea7ae</Anchor>
+                    <Anchor>a052e59b35fdeb4a927108853507a8b90</Anchor>
                    </Node>
                    <Node>
                     <Name>operator==</Name>
@@ -8580,14 +8580,14 @@
                     <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-                    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+                    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-                    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+                    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
@@ -8973,9 +8973,9 @@
                     <Anchor>a60f920c7007fc045857d5f4e6b38ef76</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-                    <Anchor>aeee916d2ca5144fbb29148a03d4a72ce</Anchor>
+                    <Anchor>af7fb17a31e8813a5ed1d47dff2ad8c44</Anchor>
                    </Node>
                    <Node>
                     <Name>operator/</Name>
@@ -8983,9 +8983,9 @@
                     <Anchor>a6c5877744b814b41df40943a01c70cfd</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-                    <Anchor>a367ff90154a01441f61517cb1fb6a67a</Anchor>
+                    <Anchor>a118481cfb3a0b5f2b473c468fef6ff56</Anchor>
                    </Node>
                    <Node>
                     <Name>operator/</Name>
@@ -9484,9 +9484,9 @@
                   <Anchor>af437ec107c29f3339b96aa830fa716e2</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator *</Name>
+                  <Name>operator*</Name>
                   <Path>structotto_1_1util_1_1cache__base.html</Path>
-                  <Anchor>a20e24f67dd8dd887f57e2fbf4d1d6524</Anchor>
+                  <Anchor>afc30e6a2b6b7a86400858999835c761f</Anchor>
                  </Node>
                  <Node>
                   <Name>refresh</Name>
@@ -16880,9 +16880,9 @@
                               <Anchor>ab6868bc947a838110651221e7038ef59</Anchor>
                              </Node>
                              <Node>
-                              <Name>operator &amp;</Name>
+                              <Name>operator&amp;</Name>
                               <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-                              <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+                              <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
                              </Node>
                              <Node>
                               <Name>operator|</Name>
@@ -16910,9 +16910,9 @@
                               <Anchor>ab6868bc947a838110651221e7038ef59</Anchor>
                              </Node>
                              <Node>
-                              <Name>operator &amp;</Name>
+                              <Name>operator&amp;</Name>
                               <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-                              <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+                              <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
                              </Node>
                              <Node>
                               <Name>operator|</Name>
@@ -18808,9 +18808,9 @@
                               <Anchor>ab6868bc947a838110651221e7038ef59</Anchor>
                              </Node>
                              <Node>
-                              <Name>operator &amp;</Name>
+                              <Name>operator&amp;</Name>
                               <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-                              <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+                              <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
                              </Node>
                              <Node>
                               <Name>operator|</Name>
@@ -18838,9 +18838,9 @@
                               <Anchor>ab6868bc947a838110651221e7038ef59</Anchor>
                              </Node>
                              <Node>
-                              <Name>operator &amp;</Name>
+                              <Name>operator&amp;</Name>
                               <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-                              <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+                              <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
                              </Node>
                              <Node>
                               <Name>operator|</Name>
@@ -20455,14 +20455,14 @@
                       <Anchor>afded648dc096aba21197959aa81e4739</Anchor>
                      </Node>
                      <Node>
-                      <Name>operator *</Name>
+                      <Name>operator*</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a0466952c7284ea59e7b4ff9f447938c0</Anchor>
+                      <Anchor>aee7d68e4f561be0ff89006cb2002123e</Anchor>
                      </Node>
                      <Node>
-                      <Name>operator *</Name>
+                      <Name>operator*</Name>
                       <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-                      <Anchor>a641005c4a980f1df0f31532b18a59872</Anchor>
+                      <Anchor>acf3274d327190b3579ed79ce07113722</Anchor>
                      </Node>
                      <Node>
                       <Name>operator-&gt;</Name>
@@ -23273,9 +23273,9 @@
                       <Anchor>a3f26bb913b0eb7e95b9947fd645c858f</Anchor>
                      </Node>
                      <Node>
-                      <Name>operator *</Name>
+                      <Name>operator*</Name>
                       <Path>structotto_1_1core_1_1ui_1_1vg_1_1_point.html</Path>
-                      <Anchor>a08ebb013ffbf2041087f52ee1565abe2</Anchor>
+                      <Anchor>ab3171f8694c1d77527b4614a0fac8202</Anchor>
                      </Node>
                      <Node>
                       <Name>operator/</Name>
@@ -23741,9 +23741,9 @@
                     <Anchor>affb90c1fcf71bd0d0e8b4ad7da44f587</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>canvas_8hpp.html</Path>
-                    <Anchor>ac49c4293bedbc6c37601db0f2ab46293</Anchor>
+                    <Anchor>a3321dfc3c7160248acaf63639cf3e500</Anchor>
                    </Node>
                    <Node>
                     <Name>operator/</Name>
@@ -26680,9 +26680,9 @@
                     <Anchor>a7433bc5768162cdf76406317e774007d</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1services_1_1_service_storage.html</Path>
-                    <Anchor>a937b5a97ae23a6a04f8f8749d2c54a40</Anchor>
+                    <Anchor>a6592ad049a6ab87e41cf98e595131dab</Anchor>
                    </Node>
                    <Node>
                     <Name>operator Service &amp;</Name>
@@ -28749,9 +28749,9 @@
                     <Anchor>af437ec107c29f3339b96aa830fa716e2</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1cache__base.html</Path>
-                    <Anchor>a20e24f67dd8dd887f57e2fbf4d1d6524</Anchor>
+                    <Anchor>afc30e6a2b6b7a86400858999835c761f</Anchor>
                    </Node>
                    <Node>
                     <Name>refresh</Name>
@@ -29035,9 +29035,9 @@
                       <Anchor>af4361e49c434ad9bd3abbc52c72aef12</Anchor>
                      </Node>
                      <Node>
-                      <Name>operator *</Name>
+                      <Name>operator*</Name>
                       <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
-                      <Anchor>abd1be4b10b6b890cd8b1bdf315b1876c</Anchor>
+                      <Anchor>aba00472e2399deb29b83e34dc6eda9f0</Anchor>
                      </Node>
                      <Node>
                       <Name>operator++</Name>
@@ -29580,9 +29580,9 @@
                     <Anchor>af4361e49c434ad9bd3abbc52c72aef12</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
-                    <Anchor>abd1be4b10b6b890cd8b1bdf315b1876c</Anchor>
+                    <Anchor>aba00472e2399deb29b83e34dc6eda9f0</Anchor>
                    </Node>
                    <Node>
                     <Name>operator++</Name>
@@ -30066,9 +30066,9 @@
                     <Anchor>a45bd5c4ccefebbcaf8fd9e3eb4e8ad17</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1filesystem_1_1directory__iterator.html</Path>
-                    <Anchor>a8b4e4dca8bc477fedc7ff1ea3f674e19</Anchor>
+                    <Anchor>ab0cfc39b176fae55adcd197f8c1dc12c</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
@@ -30162,9 +30162,9 @@
                     <Anchor>ab2c4021d96938f08c9462af53d9e67a5</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1filesystem_1_1recursive__directory__iterator.html</Path>
-                    <Anchor>a65ad8dfbfbda188e5368da4c1416a333</Anchor>
+                    <Anchor>a2e9f0d52c17b5f5fa421905ab6d3ba3a</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
@@ -31094,14 +31094,14 @@
                     <Anchor>a31687c6bd06e9fe03b895a746d62b281</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-                    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+                    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-                    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+                    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
                    </Node>
                    <Node>
                     <Name>operator-&gt;</Name>
@@ -31313,14 +31313,14 @@
                     <Anchor>ae6dba7bdde07fcf165b4f9f303dd0aa1</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-                    <Anchor>aff4cb69b8a9861f5079eda6fa2260cc0</Anchor>
+                    <Anchor>a8537d100ae4f0cc0c7e6952c651143af</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-                    <Anchor>a589deb5dd73295ab16cb935c67eea7ae</Anchor>
+                    <Anchor>a052e59b35fdeb4a927108853507a8b90</Anchor>
                    </Node>
                    <Node>
                     <Name>operator==</Name>
@@ -32454,9 +32454,9 @@
                     <Anchor>a60f920c7007fc045857d5f4e6b38ef76</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-                    <Anchor>aeee916d2ca5144fbb29148a03d4a72ce</Anchor>
+                    <Anchor>af7fb17a31e8813a5ed1d47dff2ad8c44</Anchor>
                    </Node>
                    <Node>
                     <Name>operator/</Name>
@@ -32464,9 +32464,9 @@
                     <Anchor>a6c5877744b814b41df40943a01c70cfd</Anchor>
                    </Node>
                    <Node>
-                    <Name>operator *</Name>
+                    <Name>operator*</Name>
                     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-                    <Anchor>a367ff90154a01441f61517cb1fb6a67a</Anchor>
+                    <Anchor>a118481cfb3a0b5f2b473c468fef6ff56</Anchor>
                    </Node>
                    <Node>
                     <Name>operator/</Name>
@@ -32506,9 +32506,9 @@
                   <Anchor>a1c4128f38834f42c7ede1c6777b83fcc</Anchor>
                  </Node>
                  <Node>
-                  <Name>operator *</Name>
+                  <Name>operator*</Name>
                   <Path>math_8hpp.html</Path>
-                  <Anchor>accc11c23d8bbc90fc406fd9c390fafa9</Anchor>
+                  <Anchor>a441f8b0f423ab933b18137c2b7869849</Anchor>
                  </Node>
                  <Node>
                   <Name>operator/</Name>

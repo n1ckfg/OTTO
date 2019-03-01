@@ -1191,13 +1191,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::ui::vg</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1ui_1_1vg.html</Path>
-    <Anchor>ac49c4293bedbc6c37601db0f2ab46293</Anchor>
+    <Anchor>a3321dfc3c7160248acaf63639cf3e500</Anchor>
     <DeclaredIn>canvas.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -4684,13 +4684,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util_1_1math.html</Path>
-    <Anchor>accc11c23d8bbc90fc406fd9c390fafa9</Anchor>
+    <Anchor>a441f8b0f423ab933b18137c2b7869849</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16034,13 +16034,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator &amp;</Name>
+      <Name>operator&amp;</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::board::ui::Modifiers</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-    <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+    <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
     <DeclaredIn>keys.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16133,13 +16133,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator &amp;</Name>
+      <Name>operator&amp;</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::board::ui::Modifiers</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
-    <Anchor>a8de51d06bd529bd60bbdbff76bcac934</Anchor>
+    <Anchor>a6850bbeac6df6b72b1144224cd71ab0b</Anchor>
     <DeclaredIn>keys.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -20414,24 +20414,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::midi::shared_vector</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-    <Anchor>a0466952c7284ea59e7b4ff9f447938c0</Anchor>
+    <Anchor>aee7d68e4f561be0ff89006cb2002123e</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::midi::shared_vector</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1midi_1_1shared__vector.html</Path>
-    <Anchor>a641005c4a980f1df0f31532b18a59872</Anchor>
+    <Anchor>acf3274d327190b3579ed79ce07113722</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -23511,13 +23511,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::ui::vg</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1ui_1_1vg.html</Path>
-    <Anchor>ac49c4293bedbc6c37601db0f2ab46293</Anchor>
+    <Anchor>a3321dfc3c7160248acaf63639cf3e500</Anchor>
     <DeclaredIn>canvas.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -24658,13 +24658,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::ui::vg::Point</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1ui_1_1vg_1_1_point.html</Path>
-    <Anchor>a08ebb013ffbf2041087f52ee1565abe2</Anchor>
+    <Anchor>ab3171f8694c1d77527b4614a0fac8202</Anchor>
     <DeclaredIn>canvas.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -33147,13 +33147,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::filesystem::directory_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1filesystem_1_1directory__iterator.html</Path>
-    <Anchor>a8b4e4dca8bc477fedc7ff1ea3f674e19</Anchor>
+    <Anchor>ab0cfc39b176fae55adcd197f8c1dc12c</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34586,13 +34586,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::filesystem::path::iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
-    <Anchor>abd1be4b10b6b890cd8b1bdf315b1876c</Anchor>
+    <Anchor>aba00472e2399deb29b83e34dc6eda9f0</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34767,13 +34767,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::filesystem::recursive_directory_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1filesystem_1_1recursive__directory__iterator.html</Path>
-    <Anchor>a65ad8dfbfbda188e5368da4c1416a333</Anchor>
+    <Anchor>a2e9f0d52c17b5f5fa421905ab6d3ba3a</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -37514,13 +37514,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::services::ServiceStorage</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_service_storage.html</Path>
-    <Anchor>a937b5a97ae23a6a04f8f8749d2c54a40</Anchor>
+    <Anchor>a6592ad049a6ab87e41cf98e595131dab</Anchor>
     <DeclaredIn>application.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39157,13 +39157,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::cache_base</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1cache__base.html</Path>
-    <Anchor>a20e24f67dd8dd887f57e2fbf4d1d6524</Anchor>
+    <Anchor>afc30e6a2b6b7a86400858999835c761f</Anchor>
     <Abstract>Access the cached value.</Abstract>
     <DeclaredIn>cache.hpp</DeclaredIn>
   </Token>
@@ -39261,13 +39261,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::cache_base</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1cache__base.html</Path>
-    <Anchor>a20e24f67dd8dd887f57e2fbf4d1d6524</Anchor>
+    <Anchor>afc30e6a2b6b7a86400858999835c761f</Anchor>
     <Abstract>Access the cached value.</Abstract>
     <DeclaredIn>cache.hpp</DeclaredIn>
   </Token>
@@ -44403,23 +44403,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44675,23 +44675,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; filter_iterator&lt; WrappedIter, Predicate &gt;, detail::value_type_t&lt; WrappedIter &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, detail::reference_t&lt; WrappedIter &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44944,25 +44944,25 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>aff4cb69b8a9861f5079eda6fa2260cc0</Anchor>
+    <Anchor>a8537d100ae4f0cc0c7e6952c651143af</Anchor>
     <Abstract>Dereference the iterator.</Abstract>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::float_step_iterator</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1util_1_1iterator_1_1float__step__iterator.html</Path>
-    <Anchor>a589deb5dd73295ab16cb935c67eea7ae</Anchor>
+    <Anchor>a052e59b35fdeb4a927108853507a8b90</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -45337,23 +45337,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; generating_iterator&lt; Generator &gt;, util::invoke_result_t&lt; Generator &gt;, std::input_iterator_tag &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45480,24 +45480,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::iterator::iterator_facade</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::iterator::iterator_facade</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
     <DeclaredIn>iterator.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -45756,23 +45756,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; Derived, Va, std::bidirectional_iterator_tag, Re, Po, Di &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45938,23 +45938,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::input_iterator_tag, Reference, Pointer, Difference &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -46169,23 +46169,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; transform_iterator&lt; WrappedIter, Callable &gt;, std::decay_t&lt; util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;, detail::iterator_category_t&lt; WrappedIter &gt;, util::invoke_result_t&lt; Callable, detail::reference_t&lt; WrappedIter &gt; &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -46476,23 +46476,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a694afcda3fcf18ffde62a02fe1886dac</Anchor>
+    <Anchor>acb75cf499b8e0e0c32c0ca250e614526</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>unknown</APILanguage>
       <Type>instm</Type>
       <Scope>otto::util::iterator::iterator_facade&lt; zipped_iterator&lt; Iterators... &gt;, std::tuple&lt; detail::value_type_t&lt; Iterators &gt;... &gt;, std::common_type_t&lt; detail::iterator_category&lt; Iterators &gt;::type... &gt;, std::tuple&lt; detail::reference_t&lt; Iterators &gt;... &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-    <Anchor>a45015777edab52056b025e00f503ce2f</Anchor>
+    <Anchor>ac4ebf85a310d57b7da24d3d04a6986b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -46684,13 +46684,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util_1_1math.html</Path>
-    <Anchor>accc11c23d8bbc90fc406fd9c390fafa9</Anchor>
+    <Anchor>a441f8b0f423ab933b18137c2b7869849</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -46904,13 +46904,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math::vec</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-    <Anchor>aeee916d2ca5144fbb29148a03d4a72ce</Anchor>
+    <Anchor>af7fb17a31e8813a5ed1d47dff2ad8c44</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -46926,13 +46926,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>operator *</Name>
+      <Name>operator*</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::util::math::vec</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1math_1_1vec.html</Path>
-    <Anchor>a367ff90154a01441f61517cb1fb6a67a</Anchor>
+    <Anchor>a118481cfb3a0b5f2b473c468fef6ff56</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>
