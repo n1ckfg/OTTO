@@ -71,13 +71,13 @@
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">type_traits.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
-<code>#include &lt;range/v3/utility/concepts.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="meta_8hpp_source.html">util/meta.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="util_2type__traits_8hpp_source.html">util/type_traits.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="base_8hpp_source.html">base.hpp</a>&quot;</code><br />
@@ -109,10 +109,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01value__type_01_4"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props_1_1mixin.html#structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01value__type_01_4">otto::core::props::mixin::hook&lt; value_type &gt;</a></td></tr>
 <tr class="separator:structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01value__type_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">otto::core::props::NonVoid</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_value.html">otto::core::props::MixinValue</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">otto::core::props::Hook</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A hook implementation concept.  <a href="structotto_1_1core_1_1props_1_1_hook.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +145,12 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a524744338fe5162cde723c8c4bbdae48"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
 <tr class="memitem:a524744338fe5162cde723c8c4bbdae48"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props_1_1mixin.html#a524744338fe5162cde723c8c4bbdae48">otto::core::props::mixin::required_tags_t</a> = meta::_t&lt; required_tags&lt; Tag &gt; &gt;</td></tr>
 <tr class="separator:a524744338fe5162cde723c8c4bbdae48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a7b886579296f40430df9792243504922"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7b886579296f40430df9792243504922"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a7b886579296f40430df9792243504922">otto::core::props::is_MixinValue</a> = !std::is_void_v&lt;T&gt;</td></tr>
+<tr class="separator:a7b886579296f40430df9792243504922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="structotto_1_1core_1_1props_1_1mixin_1_1required__tags" id="structotto_1_1core_1_1props_1_1mixin_1_1required__tags"></a>

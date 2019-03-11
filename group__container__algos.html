@@ -72,7 +72,7 @@
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>These are the standard library algorithms wrapped in container-based interfaces, instead of iterator based ones. </p>
-<p>What this basically means is, this code </p><div class="fragment"><div class="line"><span class="keyword">auto</span> found = <a class="codeRef" href="http://en.cppreference.com/w/cpp/algorithm/find.html">std::find</a>(<a class="codeRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a>(vec), <a class="codeRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end</a>(vec), 42);</div></div><!-- fragment --><p> becomes </p><div class="fragment"><div class="line"><span class="keyword">auto</span> found = <a class="code" href="group__container__algos.html#gace9f3b07f3956fa6bed7b7adabf0391e" title="Container based wrapper for std::find()">util::find</a>(vec, 42);</div></div><!-- fragment --><p>The wrappers call <code><a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a></code> and <code><a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end</a></code> or use <a href="https://en.cppreference.com/w/cpp/language/adl">ADL</a> to find free <code>begin(cont)</code> and <code>end(cont)</code> functions.</p>
+<p>What this basically means is, this code </p><div class="fragment"><div class="line"><span class="keyword">auto</span> found = <a class="codeRef" href="http://en.cppreference.com/w/cpp/algorithm/find.html">std::find</a>(<a class="codeRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a>(vec), std::end(vec), 42);</div></div><!-- fragment --><p> becomes </p><div class="fragment"><div class="line"><span class="keyword">auto</span> found = <a class="code" href="group__container__algos.html#gace9f3b07f3956fa6bed7b7adabf0391e" title="Container based wrapper for std::find()">util::find</a>(vec, 42);</div></div><!-- fragment --><p>The wrappers call <code><a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a></code> and <code><a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end</a></code> or use <a href="https://en.cppreference.com/w/cpp/language/adl">ADL</a> to find free <code>begin(cont)</code> and <code>end(cont)</code> functions.</p>
 <p>For documentation for the individual algorithms, refer to <a href="https://en.cppreference.com/w/cpp/header/algorithm">https://en.cppreference.com/w/cpp/header/algorithm</a></p>
 <p>All of these are defined in the <a class="el" href="namespaceotto_1_1util_1_1algorithm.html">otto::util::algorithm</a> namespace, which also includes some custom algorithms, matching a similar interface. </p>
 <table class="memberdecls">
@@ -112,7 +112,7 @@ Functions</h2></td></tr>
 <tr class="separator:gafad161b984d06ee40fb4fa3f3e47f95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac924289c208f71eaa44b9a70cac7d6de"><td class="memTemplParams" colspan="2">template&lt;typename Cont , typename T &gt; </td></tr>
 <tr class="memitem:gac924289c208f71eaa44b9a70cac7d6de"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__container__algos.html#gac924289c208f71eaa44b9a70cac7d6de">otto::util::algorithm::remove</a> (Cont &amp;&amp;cont, T &amp;&amp;value)</td></tr>
-<tr class="memdesc:gac924289c208f71eaa44b9a70cac7d6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container based wrapper for <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove.html">std::remove()</a>  <a href="group__container__algos.html#gac924289c208f71eaa44b9a70cac7d6de">More...</a><br /></td></tr>
+<tr class="memdesc:gac924289c208f71eaa44b9a70cac7d6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container based wrapper for std::remove()  <a href="group__container__algos.html#gac924289c208f71eaa44b9a70cac7d6de">More...</a><br /></td></tr>
 <tr class="separator:gac924289c208f71eaa44b9a70cac7d6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga537015965da3155e9017474ab923e00f"><td class="memTemplParams" colspan="2">template&lt;typename Cont , typename OutputIterator , typename T &gt; </td></tr>
 <tr class="memitem:ga537015965da3155e9017474ab923e00f"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__container__algos.html#ga537015965da3155e9017474ab923e00f">otto::util::algorithm::remove_copy</a> (Cont &amp;&amp;cont, OutputIterator &amp;&amp;first, T &amp;&amp;value)</td></tr>
@@ -128,7 +128,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga68c5a51467a0a214df053eb0e180bcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga141e9aacbd49aeaa4574f231bf026e0b"><td class="memTemplParams" colspan="2">template&lt;typename Cont , typename T , typename T2 &gt; </td></tr>
 <tr class="memitem:ga141e9aacbd49aeaa4574f231bf026e0b"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__container__algos.html#ga141e9aacbd49aeaa4574f231bf026e0b">otto::util::algorithm::replace</a> (Cont &amp;&amp;cont, T &amp;&amp;old_value, T2 &amp;&amp;new_value)</td></tr>
-<tr class="memdesc:ga141e9aacbd49aeaa4574f231bf026e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container based wrapper for <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace.html">std::replace()</a>  <a href="group__container__algos.html#ga141e9aacbd49aeaa4574f231bf026e0b">More...</a><br /></td></tr>
+<tr class="memdesc:ga141e9aacbd49aeaa4574f231bf026e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container based wrapper for std::replace()  <a href="group__container__algos.html#ga141e9aacbd49aeaa4574f231bf026e0b">More...</a><br /></td></tr>
 <tr class="separator:ga141e9aacbd49aeaa4574f231bf026e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae7e2c6490e4e09833e008f7ba3f144a3"><td class="memTemplParams" colspan="2">template&lt;typename Cont , typename OutputIterator , typename T , typename T2 &gt; </td></tr>
 <tr class="memitem:gae7e2c6490e4e09833e008f7ba3f144a3"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__container__algos.html#gae7e2c6490e4e09833e008f7ba3f144a3">otto::util::algorithm::replace_copy</a> (Cont &amp;&amp;cont, OutputIterator &amp;&amp;first, T &amp;&amp;old_value, T2 &amp;&amp;new_value)</td></tr>
@@ -384,7 +384,7 @@ template&lt;typename Cont , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00227">227</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 </div>
 </div>
@@ -434,7 +434,7 @@ template&lt;typename Cont , typename T , typename BinaryOperation &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00239">239</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 </div>
 </div>
@@ -478,7 +478,7 @@ template&lt;typename Cont , typename UnaryOperation &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00251">251</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="voice__manager_8impl_8hpp_source.html#l00088">otto::core::voices::VoiceManager&lt; Post, 6 &gt;::VoiceManager()</a>.</p>
 
@@ -516,7 +516,7 @@ template&lt;typename Cont , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00261">261</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/adjacent_difference.html">std::adjacent_difference()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/adjacent_difference.html">std::adjacent_difference()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 </div>
 </div>
@@ -542,7 +542,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00270">270</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/prev_permutation.html">std::prev_permutation()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/prev_permutation.html">std::prev_permutation()</a>.</p>
 
 </div>
 </div>
@@ -578,7 +578,7 @@ template&lt;typename Cont , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00279">279</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/prev_permutation.html">std::prev_permutation()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/prev_permutation.html">std::prev_permutation()</a>.</p>
 
 </div>
 </div>
@@ -604,7 +604,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00288">288</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/push_heap.html">std::push_heap()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/push_heap.html">std::push_heap()</a>.</p>
 
 </div>
 </div>
@@ -640,7 +640,7 @@ template&lt;typename Cont , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00297">297</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/push_heap.html">std::push_heap()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/push_heap.html">std::push_heap()</a>.</p>
 
 </div>
 </div>
@@ -672,11 +672,11 @@ template&lt;typename Cont , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Container based wrapper for <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove.html">std::remove()</a> </p>
+<p>Container based wrapper for std::remove() </p>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00306">306</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove.html">std::remove()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 </div>
 </div>
@@ -718,7 +718,7 @@ template&lt;typename Cont , typename OutputIterator , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00315">315</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove_copy.html">std::remove_copy()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove_copy.html">std::remove_copy()</a>.</p>
 
 </div>
 </div>
@@ -760,7 +760,7 @@ template&lt;typename Cont , typename OutputIterator , typename UnaryPredicate &g
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00325">325</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove_copy.html">std::remove_copy_if()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove_copy.html">std::remove_copy_if()</a>.</p>
 
 </div>
 </div>
@@ -796,7 +796,7 @@ template&lt;typename Cont , typename UnaryPredicate &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00335">335</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove.html">std::remove_if()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/remove.html">std::remove_if()</a>.</p>
 
 </div>
 </div>
@@ -834,11 +834,11 @@ template&lt;typename Cont , typename T , typename T2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Container based wrapper for <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace.html">std::replace()</a> </p>
+<p>Container based wrapper for std::replace() </p>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00344">344</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace.html">std::replace()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 </div>
 </div>
@@ -886,7 +886,7 @@ template&lt;typename Cont , typename OutputIterator , typename T , typename T2 &
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00354">354</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace_copy.html">std::replace_copy()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace_copy.html">std::replace_copy()</a>.</p>
 
 </div>
 </div>
@@ -934,7 +934,7 @@ template&lt;typename Cont , typename OutputIterator , typename UnaryPredicate , 
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00364">364</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace_copy.html">std::replace_copy()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace_copy.html">std::replace_copy()</a>.</p>
 
 </div>
 </div>
@@ -976,7 +976,7 @@ template&lt;typename Cont , typename UnaryPredicate , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00377">377</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace.html">std::replace_if()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/replace.html">std::replace_if()</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +1002,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00387">387</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/reverse.html">std::reverse()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/reverse.html">std::reverse()</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1038,7 @@ template&lt;typename Cont , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00396">396</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/reverse_copy.html">std::reverse_copy()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/reverse_copy.html">std::reverse_copy()</a>.</p>
 
 </div>
 </div>
@@ -1074,7 +1074,7 @@ template&lt;typename Cont , typename ForwardIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00405">405</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/rotate.html">std::rotate()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/rotate.html">std::rotate()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="canvas_8hpp_source.html#l00398">otto::core::ui::vg::Canvas::rotateAround()</a>.</p>
 
@@ -1118,7 +1118,7 @@ template&lt;typename Cont , typename ForwardIterator , typename OutputIterator &
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00414">414</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/rotate_copy.html">std::rotate_copy()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/rotate_copy.html">std::rotate_copy()</a>.</p>
 
 </div>
 </div>
@@ -1154,7 +1154,7 @@ template&lt;typename Cont , typename Cont2 &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00424">424</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search.html">std::search()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search.html">std::search()</a>.</p>
 
 </div>
 </div>
@@ -1196,7 +1196,7 @@ template&lt;typename Cont , typename Cont2 , typename BinaryPredicate &gt; </div
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00433">433</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search.html">std::search()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search.html">std::search()</a>.</p>
 
 </div>
 </div>
@@ -1238,7 +1238,7 @@ template&lt;typename Cont , typename Size , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00443">443</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search_n.html">std::search_n()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search_n.html">std::search_n()</a>.</p>
 
 </div>
 </div>
@@ -1286,7 +1286,7 @@ template&lt;typename Cont , typename Size , typename T , typename BinaryPredicat
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00452">452</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search_n.html">std::search_n()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/search_n.html">std::search_n()</a>.</p>
 
 </div>
 </div>
@@ -1328,7 +1328,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00462">462</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_difference.html">std::set_difference()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_difference.html">std::set_difference()</a>.</p>
 
 </div>
 </div>
@@ -1376,7 +1376,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator , typename 
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00472">472</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_difference.html">std::set_difference()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_difference.html">std::set_difference()</a>.</p>
 
 </div>
 </div>
@@ -1418,7 +1418,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00485">485</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_intersection.html">std::set_intersection()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_intersection.html">std::set_intersection()</a>.</p>
 
 </div>
 </div>
@@ -1466,7 +1466,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator , typename 
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00495">495</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_intersection.html">std::set_intersection()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_intersection.html">std::set_intersection()</a>.</p>
 
 </div>
 </div>
@@ -1508,7 +1508,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00509">509</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_symmetric_difference.html">std::set_symmetric_difference()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_symmetric_difference.html">std::set_symmetric_difference()</a>.</p>
 
 </div>
 </div>
@@ -1556,7 +1556,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator , typename 
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00519">519</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_symmetric_difference.html">std::set_symmetric_difference()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_symmetric_difference.html">std::set_symmetric_difference()</a>.</p>
 
 </div>
 </div>
@@ -1598,7 +1598,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00533">533</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_union.html">std::set_union()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_union.html">std::set_union()</a>.</p>
 
 </div>
 </div>
@@ -1646,7 +1646,7 @@ template&lt;typename Cont , typename Cont2 , typename OutputIterator , typename 
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00543">543</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_union.html">std::set_union()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/set_union.html">std::set_union()</a>.</p>
 
 </div>
 </div>
@@ -1682,7 +1682,7 @@ template&lt;typename Cont , typename UniformRandomNumberGenerator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00553">553</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/random_shuffle.html">std::shuffle()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/random_shuffle.html">std::shuffle()</a>.</p>
 
 </div>
 </div>
@@ -1708,7 +1708,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00562">562</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort.html">std::sort()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort.html">std::sort()</a>.</p>
 
 </div>
 </div>
@@ -1744,7 +1744,7 @@ template&lt;typename Cont , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00571">571</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort.html">std::sort()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort.html">std::sort()</a>.</p>
 
 </div>
 </div>
@@ -1770,7 +1770,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00580">580</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort_heap.html">std::sort_heap()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort_heap.html">std::sort_heap()</a>.</p>
 
 </div>
 </div>
@@ -1806,7 +1806,7 @@ template&lt;typename Cont , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00589">589</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort_heap.html">std::sort_heap()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/sort_heap.html">std::sort_heap()</a>.</p>
 
 </div>
 </div>
@@ -1842,7 +1842,7 @@ template&lt;typename Cont , typename UnaryPredicate &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00598">598</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/stable_partition.html">std::stable_partition()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/stable_partition.html">std::stable_partition()</a>.</p>
 
 </div>
 </div>
@@ -1868,7 +1868,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00607">607</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/stable_sort.html">std::stable_sort()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/stable_sort.html">std::stable_sort()</a>.</p>
 
 </div>
 </div>
@@ -1904,7 +1904,7 @@ template&lt;typename Cont , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00616">616</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/stable_sort.html">std::stable_sort()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/stable_sort.html">std::stable_sort()</a>.</p>
 
 </div>
 </div>
@@ -1940,7 +1940,7 @@ template&lt;typename Cont , typename ForwardIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00625">625</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/swap_ranges.html">std::swap_ranges()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/swap_ranges.html">std::swap_ranges()</a>.</p>
 
 </div>
 </div>
@@ -1983,7 +1983,7 @@ template&lt;typename Cont , typename Cont2 , typename F &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00634">634</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
 </div>
 </div>
@@ -2025,7 +2025,7 @@ template&lt;typename Cont , typename Iter , typename F &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00643">643</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
 </div>
 </div>
@@ -2074,7 +2074,7 @@ template&lt;typename Cont , typename Cont2 , typename Cont3 , typename BinaryPre
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00652">652</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
 </div>
 </div>
@@ -2123,7 +2123,7 @@ template&lt;typename Cont , typename InputIterator , typename Cont3 , typename B
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00663">663</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
 </div>
 </div>
@@ -2172,7 +2172,7 @@ template&lt;typename Cont , typename Cont2 , typename InputIterator , typename B
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00674">674</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
 </div>
 </div>
@@ -2220,7 +2220,7 @@ template&lt;typename Cont , typename InputIterator , typename OutputIterator , t
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00688">688</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
 </div>
 </div>
@@ -2246,7 +2246,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00702">702</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique.html">std::unique()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique.html">std::unique()</a>.</p>
 
 </div>
 </div>
@@ -2282,7 +2282,7 @@ template&lt;typename Cont , typename BinaryPredicate &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00711">711</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique.html">std::unique()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique.html">std::unique()</a>.</p>
 
 </div>
 </div>
@@ -2318,7 +2318,7 @@ template&lt;typename Cont , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00720">720</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique_copy.html">std::unique_copy()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique_copy.html">std::unique_copy()</a>.</p>
 
 </div>
 </div>
@@ -2360,7 +2360,7 @@ template&lt;typename Cont , typename OutputIterator , typename BinaryPredicate &
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00729">729</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique_copy.html">std::unique_copy()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/unique_copy.html">std::unique_copy()</a>.</p>
 
 </div>
 </div>
@@ -2396,7 +2396,7 @@ template&lt;typename Cont , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00739">739</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/upper_bound.html">std::upper_bound()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/upper_bound.html">std::upper_bound()</a>.</p>
 
 </div>
 </div>
@@ -2438,7 +2438,7 @@ template&lt;typename Cont , typename T , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00748">748</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/upper_bound.html">std::upper_bound()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/upper_bound.html">std::upper_bound()</a>.</p>
 
 </div>
 </div>
@@ -2474,7 +2474,7 @@ template&lt;typename Cont , typename OutputIterator &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00758">758</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/copy.html">std::copy()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/copy.html">std::copy()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="serializable_8hpp_source.html#l00074">otto::core::props::OTTO_PROPS_MIXIN_LEAF()</a>.</p>
 
@@ -2518,7 +2518,7 @@ template&lt;typename Cont , typename OutputIterator , typename UnaryPredicate &g
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00767">767</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/copy.html">std::copy_if()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/copy.html">std::copy_if()</a>.</p>
 
 </div>
 </div>
@@ -2554,7 +2554,7 @@ template&lt;typename Cont , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00777">777</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/fill.html">std::fill()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/fill.html">std::fill()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="canvas_8hpp_source.html#l00378">otto::core::ui::vg::Canvas::fill()</a>.</p>
 
@@ -2598,7 +2598,7 @@ template&lt;typename Cont , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00786">786</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/fill_n.html">std::fill_n()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/fill_n.html">std::fill_n()</a>.</p>
 
 </div>
 </div>
@@ -2634,7 +2634,7 @@ template&lt;typename Cont , typename UnaryPredicate &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00795">795</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::any_of()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::any_of()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 </div>
 </div>
@@ -2670,7 +2670,7 @@ template&lt;typename Cont , typename UnaryPredicate &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00804">804</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::all_of()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::all_of()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, and <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>.</p>
 
 </div>
 </div>
@@ -2706,7 +2706,7 @@ template&lt;typename Cont , typename UnaryPredicate &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00813">813</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::none_of()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/all_any_none_of.html">std::none_of()</a>.</p>
 
 </div>
 </div>
@@ -2732,7 +2732,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00822">822</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/max_element.html">std::max_element()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/max_element.html">std::max_element()</a>.</p>
 
 </div>
 </div>
@@ -2758,7 +2758,7 @@ template&lt;typename Cont &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00831">831</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/min_element.html">std::min_element()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/min_element.html">std::min_element()</a>.</p>
 
 </div>
 </div>
@@ -2794,7 +2794,7 @@ template&lt;typename Cont , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00840">840</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/min_element.html">std::min_element()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/min_element.html">std::min_element()</a>.</p>
 
 </div>
 </div>
@@ -2830,7 +2830,7 @@ template&lt;typename Cont , typename Compare &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00849">849</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/max_element.html">std::max_element()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/max_element.html">std::max_element()</a>.</p>
 
 </div>
 </div>
@@ -2866,7 +2866,7 @@ template&lt;typename Cont , typename T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00858">858</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/find.html">std::find()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/find.html">std::find()</a>.</p>
 
 </div>
 </div>
@@ -2902,7 +2902,7 @@ template&lt;typename Cont , typename UnaryPredicate &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="algorithm_8hpp_source.html#l00867">867</a> of file <a class="el" href="algorithm_8hpp_source.html">algorithm.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/find.html">std::find_if()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin()</a>, <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/find.html">std::find_if()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="faust__link_8hpp_source.html#l00030">otto::core::props::OTTO_PROPS_MIXIN_BRANCH()</a>.</p>
 

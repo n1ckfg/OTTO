@@ -71,7 +71,6 @@
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structotto_1_1core_1_1props_1_1_mixin_tag-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -81,7 +80,7 @@
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concept for a Tag used to identify a mixin. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00202">202</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00216">216</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -104,14 +103,11 @@ Public Types</h2></td></tr>
 <tr class="memdesc:a2414f218976b5650f5f01708bb28d5ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">A branch of <code>Tag</code>  <a href="#a2414f218976b5650f5f01708bb28d5ee">More...</a><br /></td></tr>
 <tr class="separator:a2414f218976b5650f5f01708bb28d5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a8fc9fb79c8d520637874fe35b4d5b002"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a8fc9fb79c8d520637874fe35b4d5b002"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a8fc9fb79c8d520637874fe35b4d5b002">requires_</a> (Tag &amp;&amp;t) -&gt; decltype(cpts::valid_expr(cpts::has_type&lt; const char * &gt;(Tag::name)))</td></tr>
-<tr class="separator:a8fc9fb79c8d520637874fe35b4d5b002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:ae806688a37ce1fadd9e0fb34eedb7435"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae806688a37ce1fadd9e0fb34eedb7435"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#ae806688a37ce1fadd9e0fb34eedb7435">is</a> = decltype(_is(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;()))::value</td></tr>
+<tr class="separator:ae806688a37ce1fadd9e0fb34eedb7435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fc60ac71518adf97e45bb8c09814761"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
 <tr class="memitem:a3fc60ac71518adf97e45bb8c09814761"><td class="memTemplItemLeft" align="right" valign="top">constexpr static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a3fc60ac71518adf97e45bb8c09814761">has_interface</a> = !std::is_void_v&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7">interface</a>&lt;Tag&gt;&gt;</td></tr>
 <tr class="memdesc:a3fc60ac71518adf97e45bb8c09814761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if <code>Tag</code> has a type-erased interface.  <a href="#a3fc60ac71518adf97e45bb8c09814761">More...</a><br /></td></tr>
@@ -134,7 +130,7 @@ template&lt;typename Tag &gt; </div>
 
 <p>Get all required tags for <code>Tag</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00212">212</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00230">230</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -154,7 +150,7 @@ template&lt;typename Tag , typename T , typename TagList &gt; </div>
 
 <p>Get mixin type for type <code>T</code> and tag <code>Tag</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00216">216</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00234">234</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -176,7 +172,7 @@ template&lt;typename Tag &gt; </div>
 <p>The interface type is a non-templated type which provides functionality that can be used in a type-erased context. For example, the <code>serializable</code> mixin has a <code>JsonClient</code> with loader and saver functions to use independently from the specific property.</p>
 <p>If a mixin provides a type-erased interface, it should have a <code>interface_type&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7" title="Get the type-erased interface type for Tag">interface()</a></code> member function, which returns an instance of this type. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00243">243</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00261">261</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -196,32 +192,37 @@ template&lt;typename Tag &gt; </div>
 
 <p>A branch of <code>Tag</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00262">262</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8fc9fb79c8d520637874fe35b4d5b002"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fc9fb79c8d520637874fe35b4d5b002">&#9670;&nbsp;</a></span>requires_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Tag &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto otto::core::props::MixinTag::requires_ </td>
-          <td>(</td>
-          <td class="paramtype">Tag &amp;&amp;&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt;  decltype(cpts::valid_expr(cpts::has_type&lt; const char * &gt;(Tag::name)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00280">280</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae806688a37ce1fadd9e0fb34eedb7435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae806688a37ce1fadd9e0fb34eedb7435">&#9670;&nbsp;</a></span>is</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto otto::core::props::MixinTag::is = decltype(_is(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;()))::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00225">225</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a3fc60ac71518adf97e45bb8c09814761"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3fc60ac71518adf97e45bb8c09814761">&#9670;&nbsp;</a></span>has_interface</h2>
 
@@ -249,7 +250,7 @@ template&lt;typename Tag &gt; </div>
 <p>If a mixin provides a type-erased interface, it should have a <code>interface_type&amp; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a605b56bb1f5b9fdf734b67daa4d580e7" title="Get the type-erased interface type for Tag">interface()</a></code> member function, which returns an instance of this type.</p>
 <p>If no interface type is provided, this is void. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00258">258</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00276">276</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>

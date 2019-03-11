@@ -72,6 +72,7 @@
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -105,6 +106,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">atomic_swap</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inner and outer buffers swapped atomically.  <a href="structotto_1_1util_1_1atomic__swap.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">basic_variant_w_base</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">SOURCE: <a href="https://tower120.github.io/2018/05/18/variant_with_base.html">https://tower120.github.io/2018/05/18/variant_with_base.html</a>.  <a href="classotto_1_1util_1_1basic__variant__w__base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html">ByteFile</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: Documentation.  <a href="classotto_1_1util_1_1_byte_file.html#details">More...</a><br /></td></tr>
@@ -201,6 +205,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html">TapeFile</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1thread.html">thread</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1triggered__thread.html">triggered_thread</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1is__less__than__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01declty218def2a14c615deb3866bcaa3c42db4.html">void_t&lt; decltype(std::declval&lt; T1 &gt;()&lt; std::declval&lt; T2 &gt;())&gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1wrapping__array.html">wrapping_array</a></td></tr>
@@ -208,12 +216,24 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a43504517e4eca0124698827acf936de5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> = <a class="el" href="structotto_1_1util_1_1as__exception.html">util::as_exception</a>&lt; <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67d">StringConvErrCode</a> &gt;</td></tr>
+<tr class="separator:a43504517e4eca0124698827acf936de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6e35358f694ec10524edc650f6c0578"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aa6e35358f694ec10524edc650f6c0578"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#aa6e35358f694ec10524edc650f6c0578">enum_decay_t</a> = typename <a class="el" href="namespaceotto_1_1util.html#structotto_1_1util_1_1enum__decay">enum_decay</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:aa6e35358f694ec10524edc650f6c0578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a932699080f0c5778a1045ec61737e5b7"><td class="memTemplParams" colspan="2">template&lt;bool b, typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a932699080f0c5778a1045ec61737e5b7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a932699080f0c5778a1045ec61737e5b7">select_type_t</a> = typename <a class="el" href="namespaceotto_1_1util.html#structotto_1_1util_1_1select__type">select_type</a>&lt; b, T1, T2 &gt;::type</td></tr>
 <tr class="separator:a932699080f0c5778a1045ec61737e5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4fc57a4ab642a604b4eb92be818455a"><td class="memTemplParams" colspan="2">template&lt;typename Base , typename... Types&gt; </td></tr>
+<tr class="memitem:af4fc57a4ab642a604b4eb92be818455a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af4fc57a4ab642a604b4eb92be818455a">variant_w_base</a> = <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">basic_variant_w_base</a>&lt; Base, std::variant&lt; Types... &gt; &gt;</td></tr>
+<tr class="separator:af4fc57a4ab642a604b4eb92be818455a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a0639e7c42fc4497a3e1f3979d66fa67d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67d">StringConvErrCode</a> { <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da1080ed39e08a161dc545804658700e33">StringConvErrCode::invalid_input</a>, 
+<a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da4fb901c70a0fdc05b55d95985f3300b0">StringConvErrCode::out_of_range</a>
+ }</td></tr>
+<tr class="separator:a0639e7c42fc4497a3e1f3979d66fa67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -226,6 +246,89 @@ Functions</h2></td></tr>
 <tr class="memitem:a3fa3b06b03fc43b37605cd987da30f79"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
 <tr class="memitem:a3fa3b06b03fc43b37605cd987da30f79"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a3fa3b06b03fc43b37605cd987da30f79">operator!=</a> (const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T1 &gt; &amp;, const <a class="el" href="structotto_1_1util_1_1pool__allocator.html">pool_allocator</a>&lt; T2 &gt; &amp;) noexcept</td></tr>
 <tr class="separator:a3fa3b06b03fc43b37605cd987da30f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11ba4701974f4b2d5e01b560212d12b8"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;reflect::is_registered&lt;Class&gt;()&gt;&gt; </td></tr>
+<tr class="memitem:a11ba4701974f4b2d5e01b560212d12b8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a11ba4701974f4b2d5e01b560212d12b8">serialize</a> (const Class &amp;obj)</td></tr>
+<tr class="separator:a11ba4701974f4b2d5e01b560212d12b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88bc038892030ac9a321e08f6ed934c8"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </td></tr>
+<tr class="memitem:a88bc038892030ac9a321e08f6ed934c8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a88bc038892030ac9a321e08f6ed934c8">serialize</a> (const Class &amp;obj)</td></tr>
+<tr class="separator:a88bc038892030ac9a321e08f6ed934c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1fe9400b71663b5971278e6067e037e"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:af1fe9400b71663b5971278e6067e037e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af1fe9400b71663b5971278e6067e037e">serialize_basic</a> (const Class &amp;obj)</td></tr>
+<tr class="separator:af1fe9400b71663b5971278e6067e037e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a8ebd6a97ce8612bfa373e6af43937a24">serialize_basic</a> (const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;obj)</td></tr>
+<tr class="separator:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73cfd44066775314204ab7f90f5e8654"><td class="memTemplParams" colspan="2">template&lt;typename K , typename V &gt; </td></tr>
+<tr class="memitem:a73cfd44066775314204ab7f90f5e8654"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a73cfd44066775314204ab7f90f5e8654">serialize_basic</a> (const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/unordered_map.html">std::unordered_map</a>&lt; K, V &gt; &amp;obj)</td></tr>
+<tr class="separator:a73cfd44066775314204ab7f90f5e8654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676d2f68d58739739474f177d57ba571"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;reflect::is_registered&lt;Class&gt;()&gt;&gt; </td></tr>
+<tr class="memitem:a676d2f68d58739739474f177d57ba571"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a676d2f68d58739739474f177d57ba571">deserialize</a> (Class &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
+<tr class="separator:a676d2f68d58739739474f177d57ba571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a918b8838e63b0e0220c3ae74d8418"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </td></tr>
+<tr class="memitem:a33a918b8838e63b0e0220c3ae74d8418"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a33a918b8838e63b0e0220c3ae74d8418">deserialize</a> (Class &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
+<tr class="separator:a33a918b8838e63b0e0220c3ae74d8418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a73d94d898f71d00e5b1d8d298540ecc3">deserialize</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
+<tr class="separator:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fda81fc8e3d860d8b9607b0fc933d19"><td class="memTemplParams" colspan="2">template&lt;typename K , typename V &gt; </td></tr>
+<tr class="memitem:a9fda81fc8e3d860d8b9607b0fc933d19"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a9fda81fc8e3d860d8b9607b0fc933d19">deserialize</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/container/unordered_map.html">std::unordered_map</a>&lt; K, V &gt; &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
+<tr class="separator:a9fda81fc8e3d860d8b9607b0fc933d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d5fa1a6428bb37ea7a2c72eec1d201"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ae5d5fa1a6428bb37ea7a2c72eec1d201">to_lowercase</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:ae5d5fa1a6428bb37ea7a2c72eec1d201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9630b1e249e1d81e7ee621e5d8090a07"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a9630b1e249e1d81e7ee621e5d8090a07">to_uppercase</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:a9630b1e249e1d81e7ee621e5d8090a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c08cbe807e1a3b37516e4c880d4bef"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af0c08cbe807e1a3b37516e4c880d4bef">to_string</a> (int i) noexcept</td></tr>
+<tr class="separator:af0c08cbe807e1a3b37516e4c880d4bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e3aeead0227da6cf962e1bd9000b7e"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ac1e3aeead0227da6cf962e1bd9000b7e">to_string</a> (long i) noexcept</td></tr>
+<tr class="separator:ac1e3aeead0227da6cf962e1bd9000b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5560eb9b640164cec0bb2d9fd14fc4bc"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a5560eb9b640164cec0bb2d9fd14fc4bc">to_string</a> (long long i) noexcept</td></tr>
+<tr class="separator:a5560eb9b640164cec0bb2d9fd14fc4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1bb3dc008cb9f1c45137bb5cb9d2af1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ab1bb3dc008cb9f1c45137bb5cb9d2af1">to_string</a> (unsigned int i) noexcept</td></tr>
+<tr class="separator:ab1bb3dc008cb9f1c45137bb5cb9d2af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a980b57c6b1096cab8122c41e0bd1c080"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a980b57c6b1096cab8122c41e0bd1c080">to_string</a> (unsigned long i) noexcept</td></tr>
+<tr class="separator:a980b57c6b1096cab8122c41e0bd1c080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5f6c34e096923b7e6628659ed24732"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a5c5f6c34e096923b7e6628659ed24732">to_string</a> (unsigned long long i) noexcept</td></tr>
+<tr class="separator:a5c5f6c34e096923b7e6628659ed24732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b28bc7f0e3604635af844172a150d46"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a9b28bc7f0e3604635af844172a150d46">to_string</a> (float i) noexcept</td></tr>
+<tr class="separator:a9b28bc7f0e3604635af844172a150d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925c6d8dc791f6e8b7eb8fc76c7a0967"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a925c6d8dc791f6e8b7eb8fc76c7a0967">to_string</a> (double i) noexcept</td></tr>
+<tr class="separator:a925c6d8dc791f6e8b7eb8fc76c7a0967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ee64fb62d3fdb422086856b7a1da8d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af0ee64fb62d3fdb422086856b7a1da8d">to_string</a> (long double i) noexcept</td></tr>
+<tr class="separator:af0ee64fb62d3fdb422086856b7a1da8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a599dc45d06c21719fba437a23976d007"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a599dc45d06c21719fba437a23976d007">to_string</a> (bool b) noexcept</td></tr>
+<tr class="separator:a599dc45d06c21719fba437a23976d007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a989314a5375c5f3adbc0eb5ec6c966a8"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a989314a5375c5f3adbc0eb5ec6c966a8">to_string</a> (std::string_view v) noexcept</td></tr>
+<tr class="separator:a989314a5375c5f3adbc0eb5ec6c966a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaa8f4c94876fe2bb02adb04441c07f2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afaa8f4c94876fe2bb02adb04441c07f2"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; T, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#afaa8f4c94876fe2bb02adb04441c07f2">from_string</a> (std::string_view) noexcept</td></tr>
+<tr class="separator:afaa8f4c94876fe2bb02adb04441c07f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26377c6a0d1f6cd732f7ca1a026fb78"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:af26377c6a0d1f6cd732f7ca1a026fb78"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af26377c6a0d1f6cd732f7ca1a026fb78">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:af26377c6a0d1f6cd732f7ca1a026fb78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6854904d704100cfea311c3c6e3bad1b"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a6854904d704100cfea311c3c6e3bad1b"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; long long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a6854904d704100cfea311c3c6e3bad1b">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:a6854904d704100cfea311c3c6e3bad1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed9641e8452e909ee14d7614b8a4ec7e"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:aed9641e8452e909ee14d7614b8a4ec7e"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; unsigned int, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#aed9641e8452e909ee14d7614b8a4ec7e">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:aed9641e8452e909ee14d7614b8a4ec7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2d74b0c00b63ef1f5152ab04365581"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a3d2d74b0c00b63ef1f5152ab04365581"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; unsigned long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a3d2d74b0c00b63ef1f5152ab04365581">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:a3d2d74b0c00b63ef1f5152ab04365581"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647c3361cdabed86c0eca1a94c416c32"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a647c3361cdabed86c0eca1a94c416c32"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; unsigned long long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a647c3361cdabed86c0eca1a94c416c32">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:a647c3361cdabed86c0eca1a94c416c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac88ff4a74a7004c5762109dbebfb720a"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:ac88ff4a74a7004c5762109dbebfb720a"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; float, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ac88ff4a74a7004c5762109dbebfb720a">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:ac88ff4a74a7004c5762109dbebfb720a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75bb89d7f484e2978651bd36708219a1"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a75bb89d7f484e2978651bd36708219a1"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; double, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a75bb89d7f484e2978651bd36708219a1">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:a75bb89d7f484e2978651bd36708219a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe061e4663cad28d70d1a435ba21106"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:abfe061e4663cad28d70d1a435ba21106"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; bool, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#abfe061e4663cad28d70d1a435ba21106">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:abfe061e4663cad28d70d1a435ba21106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f4547f2aa7a900f532b4c13241f0113"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a1f4547f2aa7a900f532b4c13241f0113"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; std::string_view, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a1f4547f2aa7a900f532b4c13241f0113">from_string</a> (std::string_view sv) noexcept</td></tr>
+<tr class="separator:a1f4547f2aa7a900f532b4c13241f0113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1712151106797da1cd0a9358124ba76"><td class="memTemplParams" colspan="2">template&lt;typename... Ls&gt; </td></tr>
 <tr class="memitem:af1712151106797da1cd0a9358124ba76"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af1712151106797da1cd0a9358124ba76">overloaded</a> (Ls...) -&gt; <a class="el" href="structotto_1_1util_1_1overloaded.html">overloaded</a>&lt; std::decay_t&lt; Ls &gt;... &gt;</td></tr>
 <tr class="separator:af1712151106797da1cd0a9358124ba76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -337,6 +440,22 @@ type</td>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a43504517e4eca0124698827acf936de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43504517e4eca0124698827acf936de5">&#9670;&nbsp;</a></span>StringConvErr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">otto::util::StringConvErr</a> = typedef <a class="el" href="structotto_1_1util_1_1as__exception.html">util::as_exception</a>&lt;<a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67d">StringConvErrCode</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00011">11</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
 <a id="aa6e35358f694ec10524edc650f6c0578"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6e35358f694ec10524edc650f6c0578">&#9670;&nbsp;</a></span>enum_decay_t</h2>
 
@@ -370,6 +489,53 @@ template&lt;bool b, typename T1 , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="util_2type__traits_8hpp_source.html#l00107">107</a> of file <a class="el" href="util_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af4fc57a4ab642a604b4eb92be818455a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4fc57a4ab642a604b4eb92be818455a">&#9670;&nbsp;</a></span>variant_w_base</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Base , typename... Types&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1util.html#af4fc57a4ab642a604b4eb92be818455a">otto::util::variant_w_base</a> = typedef <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">basic_variant_w_base</a>&lt;Base, std::variant&lt;Types...&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="variant__w__base_8hpp_source.html#l00166">166</a> of file <a class="el" href="variant__w__base_8hpp_source.html">variant_w_base.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a0639e7c42fc4497a3e1f3979d66fa67d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0639e7c42fc4497a3e1f3979d66fa67d">&#9670;&nbsp;</a></span>StringConvErrCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67d">otto::util::StringConvErrCode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0639e7c42fc4497a3e1f3979d66fa67da1080ed39e08a161dc545804658700e33"></a>invalid_input&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0639e7c42fc4497a3e1f3979d66fa67da4fb901c70a0fdc05b55d95985f3300b0"></a>out_of_range&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00010">10</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -490,6 +656,916 @@ template&lt;class T1 , class T2 &gt; </div>
 
 </div>
 </div>
+<a id="a11ba4701974f4b2d5e01b560212d12b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11ba4701974f4b2d5e01b560212d12b8">&#9670;&nbsp;</a></span>serialize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class , typename  = std::enable_if_t&lt;reflect::is_registered&lt;Class&gt;()&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> otto::util::serialize </td>
+          <td>(</td>
+          <td class="paramtype">const Class &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88bc038892030ac9a321e08f6ed934c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88bc038892030ac9a321e08f6ed934c8">&#9670;&nbsp;</a></span>serialize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> otto::util::serialize </td>
+          <td>(</td>
+          <td class="paramtype">const Class &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1fe9400b71663b5971278e6067e037e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1fe9400b71663b5971278e6067e037e">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> otto::util::serialize_basic </td>
+          <td>(</td>
+          <td class="paramtype">const Class &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ebd6a97ce8612bfa373e6af43937a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ebd6a97ce8612bfa373e6af43937a24">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> otto::util::serialize_basic </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73cfd44066775314204ab7f90f5e8654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73cfd44066775314204ab7f90f5e8654">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K , typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> otto::util::serialize_basic </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/unordered_map.html">std::unordered_map</a>&lt; K, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a676d2f68d58739739474f177d57ba571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a676d2f68d58739739474f177d57ba571">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class , typename  = std::enable_if_t&lt;reflect::is_registered&lt;Class&gt;()&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::util::deserialize </td>
+          <td>(</td>
+          <td class="paramtype">Class &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33a918b8838e63b0e0220c3ae74d8418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a918b8838e63b0e0220c3ae74d8418">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::util::deserialize </td>
+          <td>(</td>
+          <td class="paramtype">Class &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73d94d898f71d00e5b1d8d298540ecc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d94d898f71d00e5b1d8d298540ecc3">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::util::deserialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fda81fc8e3d860d8b9607b0fc933d19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fda81fc8e3d860d8b9607b0fc933d19">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename K , typename V &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::util::deserialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/unordered_map.html">std::unordered_map</a>&lt; K, V &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5d5fa1a6428bb37ea7a2c72eec1d201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5d5fa1a6428bb37ea7a2c72eec1d201">&#9670;&nbsp;</a></span>to_lowercase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_lowercase </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00061">61</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/back_inserter.html">std::back_inserter()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/reserve.html">std::string::reserve()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="string__conversions_8hpp_source.html#l00263">otto::otto::util::from_string()</a>, and <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00056">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;::select()</a>.</p>
+
+</div>
+</div>
+<a id="a9630b1e249e1d81e7ee621e5d8090a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9630b1e249e1d81e7ee621e5d8090a07">&#9670;&nbsp;</a></span>to_uppercase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_uppercase </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00069">69</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/back_inserter.html">std::back_inserter()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/reserve.html">std::string::reserve()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
+
+</div>
+</div>
+<a id="af0c08cbe807e1a3b37516e4c880d4bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c08cbe807e1a3b37516e4c880d4bef">&#9670;&nbsp;</a></span>to_string() <span class="overload">[1/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00077">77</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="ac1e3aeead0227da6cf962e1bd9000b7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e3aeead0227da6cf962e1bd9000b7e">&#9670;&nbsp;</a></span>to_string() <span class="overload">[2/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00081">81</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="a5560eb9b640164cec0bb2d9fd14fc4bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5560eb9b640164cec0bb2d9fd14fc4bc">&#9670;&nbsp;</a></span>to_string() <span class="overload">[3/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">long long&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00085">85</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="ab1bb3dc008cb9f1c45137bb5cb9d2af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1bb3dc008cb9f1c45137bb5cb9d2af1">&#9670;&nbsp;</a></span>to_string() <span class="overload">[4/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00089">89</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="a980b57c6b1096cab8122c41e0bd1c080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a980b57c6b1096cab8122c41e0bd1c080">&#9670;&nbsp;</a></span>to_string() <span class="overload">[5/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00093">93</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="a5c5f6c34e096923b7e6628659ed24732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c5f6c34e096923b7e6628659ed24732">&#9670;&nbsp;</a></span>to_string() <span class="overload">[6/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long long&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00097">97</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="a9b28bc7f0e3604635af844172a150d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b28bc7f0e3604635af844172a150d46">&#9670;&nbsp;</a></span>to_string() <span class="overload">[7/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00102">102</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="a925c6d8dc791f6e8b7eb8fc76c7a0967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a925c6d8dc791f6e8b7eb8fc76c7a0967">&#9670;&nbsp;</a></span>to_string() <span class="overload">[8/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00106">106</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="af0ee64fb62d3fdb422086856b7a1da8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ee64fb62d3fdb422086856b7a1da8d">&#9670;&nbsp;</a></span>to_string() <span class="overload">[9/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">long double&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00110">110</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
+
+</div>
+</div>
+<a id="a599dc45d06c21719fba437a23976d007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a599dc45d06c21719fba437a23976d007">&#9670;&nbsp;</a></span>to_string() <span class="overload">[10/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string_view otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00115">115</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a989314a5375c5f3adbc0eb5ec6c966a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a989314a5375c5f3adbc0eb5ec6c966a8">&#9670;&nbsp;</a></span>to_string() <span class="overload">[11/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string_view otto::util::to_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00119">119</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afaa8f4c94876fe2bb02adb04441c07f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaa8f4c94876fe2bb02adb04441c07f2">&#9670;&nbsp;</a></span>from_string() <span class="overload">[1/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;T, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af26377c6a0d1f6cd732f7ca1a026fb78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af26377c6a0d1f6cd732f7ca1a026fb78">&#9670;&nbsp;</a></span>from_string() <span class="overload">[2/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6854904d704100cfea311c3c6e3bad1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6854904d704100cfea311c3c6e3bad1b">&#9670;&nbsp;</a></span>from_string() <span class="overload">[3/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;long long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aed9641e8452e909ee14d7614b8a4ec7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed9641e8452e909ee14d7614b8a4ec7e">&#9670;&nbsp;</a></span>from_string() <span class="overload">[4/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;unsigned int, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3d2d74b0c00b63ef1f5152ab04365581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2d74b0c00b63ef1f5152ab04365581">&#9670;&nbsp;</a></span>from_string() <span class="overload">[5/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;unsigned long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a647c3361cdabed86c0eca1a94c416c32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647c3361cdabed86c0eca1a94c416c32">&#9670;&nbsp;</a></span>from_string() <span class="overload">[6/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;unsigned long long, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac88ff4a74a7004c5762109dbebfb720a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac88ff4a74a7004c5762109dbebfb720a">&#9670;&nbsp;</a></span>from_string() <span class="overload">[7/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;float, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a75bb89d7f484e2978651bd36708219a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75bb89d7f484e2978651bd36708219a1">&#9670;&nbsp;</a></span>from_string() <span class="overload">[8/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt; double, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="abfe061e4663cad28d70d1a435ba21106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe061e4663cad28d70d1a435ba21106">&#9670;&nbsp;</a></span>from_string() <span class="overload">[9/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;bool, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1f4547f2aa7a900f532b4c13241f0113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f4547f2aa7a900f532b4c13241f0113">&#9670;&nbsp;</a></span>from_string() <span class="overload">[10/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tl::expected&lt;std::string_view, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a>&gt; otto::util::from_string </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da1080ed39e08a161dc545804658700e33">invalid_input</a>, <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da4fb901c70a0fdc05b55d95985f3300b0">out_of_range</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtod()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtof()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtol.html">std::strtol()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtold()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtol.html">std::strtoll()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtoul.html">std::strtoul()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtoul.html">std::strtoull()</a>, and <a class="el" href="string__conversions_8hpp_source.html#l00061">to_lowercase()</a>.</p>
+
+</div>
+</div>
 <a id="af1712151106797da1cd0a9358124ba76"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1712151106797da1cd0a9358124ba76">&#9670;&nbsp;</a></span>overloaded()</h2>
 
@@ -543,7 +1619,7 @@ template&lt;typename Var , typename... Lambdas&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00028">28</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>, and <a class="el" href="variant__w__base_8hpp_source.html#l00174">otto::std::visit()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="utility_8hpp_source.html#l00044">partial_match()</a>, <a class="el" href="voice__manager_8impl_8hpp_source.html#l00158">otto::core::voices::VoiceManager&lt; Post, 6 &gt;::process()</a>, <a class="el" href="audio_2voice__manager_8hpp_source.html#l00242">otto::core::audio::VoiceManager&lt; 6 &gt;::process_after()</a>, and <a class="el" href="audio_2voice__manager_8hpp_source.html#l00219">otto::core::audio::VoiceManager&lt; 6 &gt;::process_before()</a>.</p>
 

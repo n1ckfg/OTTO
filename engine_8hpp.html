@@ -95,11 +95,14 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html">otto::core::engine::AnyEngine</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for Engines.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">otto::core::engine::IEngine</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for Engines.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">otto::core::engine::Engine&lt; ET &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html" title="Engine base class.">Engine</a> base class.  <a href="structotto_1_1core_1_1engine_1_1_engine.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1name__of__engine.html">otto::core::engine::name_of_engine&lt; Engine &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of an engine.  <a href="structotto_1_1core_1_1engine_1_1name__of__engine.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1synth_01_4.html">otto::core::engine::Engine&lt; EngineType::synth &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +173,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a698d5d04a2614ac2139362c4ed86e81e"><td class="memTemplParams" colspan="2">template&lt;typename Engine &gt; </td></tr>
+<tr class="memitem:a698d5d04a2614ac2139362c4ed86e81e"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#a698d5d04a2614ac2139362c4ed86e81e">otto::core::engine::name_of_engine_v</a> = name_of_engine&lt;Engine&gt;::value</td></tr>
+<tr class="memdesc:a698d5d04a2614ac2139362c4ed86e81e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of an engine.  <a href="namespaceotto_1_1core_1_1engine.html#a698d5d04a2614ac2139362c4ed86e81e">More...</a><br /></td></tr>
+<tr class="separator:a698d5d04a2614ac2139362c4ed86e81e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae297e40eb5301c1c5a32ede39e4933c9"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
 <tr class="memitem:ae297e40eb5301c1c5a32ede39e4933c9"><td class="memTemplItemLeft" align="right" valign="top">constexpr EngineType&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html#ae297e40eb5301c1c5a32ede39e4933c9">otto::core::engine::engine_type_v</a></td></tr>
 <tr class="memdesc:ae297e40eb5301c1c5a32ede39e4933c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type trait to get engine type.  <a href="namespaceotto_1_1core_1_1engine.html#ae297e40eb5301c1c5a32ede39e4933c9">More...</a><br /></td></tr>
@@ -191,7 +198,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">protected</span>:                                                                     \</div><div class="line">  using AnyEngine::AnyEngine;                                                  \</div><div class="line">                                                                               \</div><div class="line">public:                                                                        \</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">protected</span>:                                                                     \</div><div class="line">  using IEngine::IEngine;                                                  \</div><div class="line">                                                                               \</div><div class="line">public:                                                                        \</div></div><!-- fragment -->
 <p>Define common functions for the <code>Engine</code> specializations below This macro is undefined a few lines down, and is only used to simplify the generation of this function. </p>
 <p>\exclude </p>
 

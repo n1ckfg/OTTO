@@ -70,7 +70,7 @@
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structotto_1_1core_1_1props_1_1_hook-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::core::props::Hook Struct Reference</div>  </div>
@@ -79,44 +79,25 @@
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A hook implementation concept. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00115">115</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00109">109</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1cae93ec7a3ac5fd1028af1e10b602e4"><td class="memTemplParams" colspan="2">template&lt;typename H &gt; </td></tr>
-<tr class="memitem:a1cae93ec7a3ac5fd1028af1e10b602e4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook.html#a1cae93ec7a3ac5fd1028af1e10b602e4">value_type</a> = typename H::value_type</td></tr>
-<tr class="separator:a1cae93ec7a3ac5fd1028af1e10b602e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88c3fda6a1981dcfab7e95e021d4504d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a88c3fda6a1981dcfab7e95e021d4504d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook.html#a88c3fda6a1981dcfab7e95e021d4504d">value_type</a> = typename T::value_type</td></tr>
+<tr class="separator:a88c3fda6a1981dcfab7e95e021d4504d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ac254ec7f6377a116f2cbe404b55189ab"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ac254ec7f6377a116f2cbe404b55189ab"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook.html#ac254ec7f6377a116f2cbe404b55189ab">requires_</a> (T &amp;&amp;t) -&gt; decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_value.html">MixinValue</a>, typename T::value_type &gt;()))</td></tr>
-<tr class="separator:ac254ec7f6377a116f2cbe404b55189ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a7a3f59772b8bcfd107da04cc4736552c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7a3f59772b8bcfd107da04cc4736552c"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook.html#a7a3f59772b8bcfd107da04cc4736552c">is</a> = decltype(_is(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;()))::value</td></tr>
+<tr class="separator:a7a3f59772b8bcfd107da04cc4736552c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a1cae93ec7a3ac5fd1028af1e10b602e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cae93ec7a3ac5fd1028af1e10b602e4">&#9670;&nbsp;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename H &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html#a1cae93ec7a3ac5fd1028af1e10b602e4">otto::core::props::Hook::value_type</a> =  typename H::value_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00117">117</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac254ec7f6377a116f2cbe404b55189ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac254ec7f6377a116f2cbe404b55189ab">&#9670;&nbsp;</a></span>requires_()</h2>
+<a id="a88c3fda6a1981dcfab7e95e021d4504d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88c3fda6a1981dcfab7e95e021d4504d">&#9670;&nbsp;</a></span>value_type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,14 +105,39 @@ template&lt;typename H &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto otto::core::props::Hook::requires_ </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt;  decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_value.html">MixinValue</a>, typename T::value_type &gt;()))</td>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html#a88c3fda6a1981dcfab7e95e021d4504d">otto::core::props::Hook::value_type</a> =  typename T::value_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00111">111</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7a3f59772b8bcfd107da04cc4736552c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3f59772b8bcfd107da04cc4736552c">&#9670;&nbsp;</a></span>is</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto otto::core::props::Hook::is = decltype(_is(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;()))::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00120">120</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>

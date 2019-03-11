@@ -70,7 +70,7 @@
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structotto_1_1core_1_1props_1_1_hook_tag-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::core::props::HookTag Struct Reference</div>  </div>
@@ -79,7 +79,7 @@
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Concept of a hook tag type. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00145">145</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00149">149</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>&gt;</code></p>
 <table class="memberdecls">
@@ -90,11 +90,11 @@ Public Types</h2></td></tr>
 <tr class="memdesc:ac6e967edcf0fe49fababb4dd8e8f7a95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the hook type from a tag and a value type.  <a href="#ac6e967edcf0fe49fababb4dd8e8f7a95">More...</a><br /></td></tr>
 <tr class="separator:ac6e967edcf0fe49fababb4dd8e8f7a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a200731693e289fbb003b7fe03c16f176"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ValueType , HookOrder HO = HookOrder::Middle&gt; </td></tr>
-<tr class="memitem:a200731693e289fbb003b7fe03c16f176"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook_tag.html#a200731693e289fbb003b7fe03c16f176">requires_</a> (T &amp;&amp;t) -&gt; decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>, typename T::template type&lt; T, ValueType, HO &gt;&gt;()))</td></tr>
-<tr class="separator:a200731693e289fbb003b7fe03c16f176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a9f71c6962e229a410fc6e065f5455932"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ValueType , HookOrder HO = HookOrder::Middle&gt; </td></tr>
+<tr class="memitem:a9f71c6962e229a410fc6e065f5455932"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_hook_tag.html#a9f71c6962e229a410fc6e065f5455932">is</a></td></tr>
+<tr class="separator:a9f71c6962e229a410fc6e065f5455932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ac6e967edcf0fe49fababb4dd8e8f7a95"></a>
@@ -113,28 +113,34 @@ template&lt;typename HT , typename VT , HookOrder HO = HookOrder::Middle&gt; </d
 
 <p>Get the hook type from a tag and a value type. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00148">148</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00152">152</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a200731693e289fbb003b7fe03c16f176"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a200731693e289fbb003b7fe03c16f176">&#9670;&nbsp;</a></span>requires_()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9f71c6962e229a410fc6e065f5455932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f71c6962e229a410fc6e065f5455932">&#9670;&nbsp;</a></span>is</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T , typename ValueType , HookOrder HO = HookOrder::Middle&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto otto::core::props::HookTag::requires_ </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt;  decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a>, typename T::template type&lt; T, ValueType, HO &gt;&gt;()))</td>
+          <td class="memname">constexpr auto otto::core::props::HookTag::is</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      decltype(_is(std::declval&lt;T&gt;(), std::declval&lt;ValueType&gt;(), meta::c&lt;HO&gt;()))::value</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00165">165</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>

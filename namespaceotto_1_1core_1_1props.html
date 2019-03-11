@@ -139,12 +139,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html">MixinTag</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concept for a Tag used to identify a mixin.  <a href="structotto_1_1core_1_1props_1_1_mixin_tag.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_value.html">MixinValue</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:structotto_1_1core_1_1props_1_1no"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1no">no</a></td></tr>
 <tr class="separator:structotto_1_1core_1_1props_1_1no"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:structotto_1_1core_1_1props_1_1normalize__tags"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1normalize__tags">normalize_tags</a></td></tr>
 <tr class="memdesc:structotto_1_1core_1_1props_1_1normalize__tags"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uniquify and sort tags by their name.  <a href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1normalize__tags">More...</a><br /></td></tr>
 <tr class="separator:structotto_1_1core_1_1props_1_1normalize__tags"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,6 +248,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a7330b9284ac5dedef8d9244791dfed1b"><td class="memTemplItemLeft" align="right" valign="top">constexpr const bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a7330b9284ac5dedef8d9244791dfed1b">contains_tag_v</a> = <a class="el" href="namespaceotto_1_1meta.html#abaac0f815996fa7d60333a899156a3c1">meta::_v</a>&lt;<a class="el" href="namespaceotto_1_1meta.html#structotto_1_1meta_1_1contains">meta::contains</a>&lt;TagList, T&gt;&gt;</td></tr>
 <tr class="memdesc:a7330b9284ac5dedef8d9244791dfed1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type trait to see if a tag_list contains a tag.  <a href="#a7330b9284ac5dedef8d9244791dfed1b">More...</a><br /></td></tr>
 <tr class="separator:a7330b9284ac5dedef8d9244791dfed1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b886579296f40430df9792243504922"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7b886579296f40430df9792243504922"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a7b886579296f40430df9792243504922">is_MixinValue</a> = !std::is_void_v&lt;T&gt;</td></tr>
+<tr class="separator:a7b886579296f40430df9792243504922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="structotto_1_1core_1_1props_1_1add__required" id="structotto_1_1core_1_1props_1_1add__required"></a>
@@ -840,7 +839,7 @@ template&lt;typename Tag , typename... Args&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="change__hook_8hpp_source.html#l00019">19</a> of file <a class="el" href="change__hook_8hpp_source.html">change_hook.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="mixin__macros_8hpp_source.html#l00014">OTTO_PROPS_MIXIN_DECLS</a>.</p>
+<p class="reference">References <a class="el" href="variant__w__base_8hpp_source.html#l00181">otto::std::get()</a>, and <a class="el" href="mixin__macros_8hpp_source.html#l00014">OTTO_PROPS_MIXIN_DECLS</a>.</p>
 
 </div>
 </div>
@@ -1092,7 +1091,7 @@ template&lt;typename Tag , typename... Args&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="serializable_8hpp_source.html#l00035">35</a> of file <a class="el" href="serializable_8hpp_source.html">serializable.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="algorithm_8hpp_source.html#l00867">otto::util::algorithm::find_if()</a>.</p>
+<p class="reference">References <a class="el" href="algorithm_8hpp_source.html#l00867">otto::util::algorithm::find_if()</a>, <a class="el" href="serialize_8hpp.html#af3fda831e199f46082301e2c13b7b1b8">from_json()</a>, and <a class="el" href="serialize_8hpp.html#a61662432972fdfc4eb9b0c004a06ab09">to_json()</a>.</p>
 
 </div>
 </div>
@@ -1114,7 +1113,7 @@ template&lt;typename Tag , typename... Args&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="serializable_8hpp_source.html#l00074">74</a> of file <a class="el" href="serializable_8hpp_source.html">serializable.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">std::vector&lt; T &gt;::begin()</a>, <a class="el" href="algorithm_8hpp_source.html#l00758">otto::util::algorithm::copy()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>, <a class="el" href="mixin__macros_8hpp_source.html#l00014">OTTO_PROPS_MIXIN_DECLS</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/size.html">std::vector&lt; T &gt;::size()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/begin.html">std::vector&lt; T &gt;::begin()</a>, <a class="el" href="algorithm_8hpp_source.html#l00758">otto::util::algorithm::copy()</a>, <a class="el" href="serialize_8hpp.html#af3fda831e199f46082301e2c13b7b1b8">from_json()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>, <a class="el" href="mixin__macros_8hpp_source.html#l00014">OTTO_PROPS_MIXIN_DECLS</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/size.html">std::vector&lt; T &gt;::size()</a>, and <a class="el" href="serialize_8hpp.html#a61662432972fdfc4eb9b0c004a06ab09">to_json()</a>.</p>
 
 </div>
 </div>
@@ -1244,6 +1243,32 @@ template&lt;typename TagList , typename T &gt; </div>
 <p>Type trait to see if a tag_list contains a tag. </p>
 
 <p class="definition">Definition at line <a class="el" href="tag__list_8hpp_source.html#l00048">48</a> of file <a class="el" href="tag__list_8hpp_source.html">tag_list.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7b886579296f40430df9792243504922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b886579296f40430df9792243504922">&#9670;&nbsp;</a></span>is_MixinValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto otto::core::props::is_MixinValue = !std::is_void_v&lt;T&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00106">106</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>

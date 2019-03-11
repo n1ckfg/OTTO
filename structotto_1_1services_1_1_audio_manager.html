@@ -112,12 +112,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae6f502ea0b5c714ea289acd5bfcb72cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#ae6f502ea0b5c714ea289acd5bfcb72cd">send_midi_event</a> (<a class="el" href="namespaceotto_1_1core_1_1midi.html#a61e4142a5bfe368f40e220dd1288f1fc">core::midi::AnyMidiEvent</a>) noexcept</td></tr>
 <tr class="memdesc:ae6f502ea0b5c714ea289acd5bfcb72cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a midi event into the system.  <a href="#ae6f502ea0b5c714ea289acd5bfcb72cd">More...</a><br /></td></tr>
 <tr class="separator:ae6f502ea0b5c714ea289acd5bfcb72cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a306b678f47f70df1e7576e3c2d8591e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#a306b678f47f70df1e7576e3c2d8591e4">samplerate</a> () noexcept</td></tr>
-<tr class="memdesc:a306b678f47f70df1e7576e3c2d8591e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current samplerate.  <a href="#a306b678f47f70df1e7576e3c2d8591e4">More...</a><br /></td></tr>
-<tr class="separator:a306b678f47f70df1e7576e3c2d8591e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb9570469df074fdfd23517b98306fad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#abb9570469df074fdfd23517b98306fad">process_audio_output</a> (<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">core::audio::ProcessData</a>&lt; 2 &gt; audio_output)</td></tr>
-<tr class="memdesc:abb9570469df074fdfd23517b98306fad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process the final output.  <a href="#abb9570469df074fdfd23517b98306fad">More...</a><br /></td></tr>
-<tr class="separator:abb9570469df074fdfd23517b98306fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c2ca5894c7912b49f646c2e439df689"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#a5c2ca5894c7912b49f646c2e439df689">samplerate</a> () const noexcept</td></tr>
+<tr class="memdesc:a5c2ca5894c7912b49f646c2e439df689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the samplerate.  <a href="#a5c2ca5894c7912b49f646c2e439df689">More...</a><br /></td></tr>
+<tr class="separator:a5c2ca5894c7912b49f646c2e439df689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc145b6ed7d4f97516863803ab6c4138"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#afc145b6ed7d4f97516863803ab6c4138">buffer_size</a> () const noexcept</td></tr>
+<tr class="memdesc:afc145b6ed7d4f97516863803ab6c4138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the buffer size.  <a href="#afc145b6ed7d4f97516863803ab6c4138">More...</a><br /></td></tr>
+<tr class="separator:afc145b6ed7d4f97516863803ab6c4138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b69d49a3f98f2951eeec06205890909"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#a1b69d49a3f98f2951eeec06205890909">buffer_number</a> () const noexcept</td></tr>
+<tr class="memdesc:a1b69d49a3f98f2951eeec06205890909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current buffer number.  <a href="#a1b69d49a3f98f2951eeec06205890909">More...</a><br /></td></tr>
+<tr class="separator:a1b69d49a3f98f2951eeec06205890909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02fb3266b1eaf02c502b0c1635f2ce4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#ab02fb3266b1eaf02c502b0c1635f2ce4">wait_one</a> () const noexcept</td></tr>
+<tr class="memdesc:ab02fb3266b1eaf02c502b0c1635f2ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait at least until the current process call is done.  <a href="#ab02fb3266b1eaf02c502b0c1635f2ce4">More...</a><br /></td></tr>
+<tr class="separator:ab02fb3266b1eaf02c502b0c1635f2ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0f0d0392c52601c8ab4aecf4a800790"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#ae0f0d0392c52601c8ab4aecf4a800790">start</a> () noexcept</td></tr>
 <tr class="memdesc:ae0f0d0392c52601c8ab4aecf4a800790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start audio processing.  <a href="#ae0f0d0392c52601c8ab4aecf4a800790">More...</a><br /></td></tr>
 <tr class="separator:ae0f0d0392c52601c8ab4aecf4a800790"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,8 +156,12 @@ Public Attributes</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a4e763e117940e08b3ac76e209a47b5b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1atomic__swap.html">util::atomic_swap</a>&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">core::midi::shared_vector</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1midi.html#a61e4142a5bfe368f40e220dd1288f1fc">core::midi::AnyMidiEvent</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#a4e763e117940e08b3ac76e209a47b5b2">midi_bufs</a> = {{}, {}}</td></tr>
 <tr class="separator:a4e763e117940e08b3ac76e209a47b5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab117b04fd4aa7753d402a347ad9706bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#ab117b04fd4aa7753d402a347ad9706bf">_samplerate</a> = 48000</td></tr>
-<tr class="separator:ab117b04fd4aa7753d402a347ad9706bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5f1a2bb33436edf77895b4a92abe5f"><td class="memItemLeft" align="right" valign="top">std::atomic_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#a0c5f1a2bb33436edf77895b4a92abe5f">_samplerate</a> = 48000</td></tr>
+<tr class="separator:a0c5f1a2bb33436edf77895b4a92abe5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede979ff0b3bbc87ecb5d5a45ff52263"><td class="memItemLeft" align="right" valign="top">std::atomic_uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#aede979ff0b3bbc87ecb5d5a45ff52263">_buffer_size</a> = 256</td></tr>
+<tr class="separator:aede979ff0b3bbc87ecb5d5a45ff52263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aae83262ac849bf6e989ca14523f639"><td class="memItemLeft" align="right" valign="top">std::atomic_uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#a4aae83262ac849bf6e989ca14523f639">_buffer_number</a> = 0</td></tr>
+<tr class="separator:a4aae83262ac849bf6e989ca14523f639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a466df1b2e521f693beefc354fbba6520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1audio_1_1_graph.html">util::audio::Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#a466df1b2e521f693beefc354fbba6520">_cpu_time</a></td></tr>
 <tr class="separator:a466df1b2e521f693beefc354fbba6520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -258,8 +268,8 @@ pre_init</td>
 
 </div>
 </div>
-<a id="a306b678f47f70df1e7576e3c2d8591e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a306b678f47f70df1e7576e3c2d8591e4">&#9670;&nbsp;</a></span>samplerate()</h2>
+<a id="a5c2ca5894c7912b49f646c2e439df689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c2ca5894c7912b49f646c2e439df689">&#9670;&nbsp;</a></span>samplerate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,7 +281,7 @@ pre_init</td>
           <td class="memname">int otto::services::AudioManager::samplerate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -281,32 +291,102 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p>Get the current samplerate. </p>
+<p>Get the samplerate. </p>
 
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00034">34</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00060">_samplerate</a>.</p>
+<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00068">_samplerate</a>.</p>
 
 </div>
 </div>
-<a id="abb9570469df074fdfd23517b98306fad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb9570469df074fdfd23517b98306fad">&#9670;&nbsp;</a></span>process_audio_output()</h2>
+<a id="afc145b6ed7d4f97516863803ab6c4138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc145b6ed7d4f97516863803ab6c4138">&#9670;&nbsp;</a></span>buffer_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void otto::services::AudioManager::process_audio_output </td>
+          <td class="memname">int otto::services::AudioManager::buffer_size </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">core::audio::ProcessData</a>&lt; 2 &gt;&#160;</td>
-          <td class="paramname"><em>audio_output</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Process the final output. </p>
-<p>Currently only used for debugging </p>
+<p>Get the buffer size. </p>
+
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00037">37</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00069">_buffer_size</a>.</p>
+
+</div>
+</div>
+<a id="a1b69d49a3f98f2951eeec06205890909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b69d49a3f98f2951eeec06205890909">&#9670;&nbsp;</a></span>buffer_number()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned otto::services::AudioManager::buffer_number </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current buffer number. </p>
+<p>i.e. number of {<a class="el" href="structotto_1_1services_1_1_audio_manager.html#afc145b6ed7d4f97516863803ab6c4138">buffer_size()</a>} chunks of samples since the start</p>
+<p>Can be used to wait until the current process call is over </p>
+
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00044">44</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00070">_buffer_number</a>.</p>
+
+</div>
+</div>
+<a id="ab02fb3266b1eaf02c502b0c1635f2ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab02fb3266b1eaf02c502b0c1635f2ce4">&#9670;&nbsp;</a></span>wait_one()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::services::AudioManager::wait_one </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wait at least until the current process call is done. </p>
 
 </div>
 </div>
@@ -428,12 +508,12 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00059">59</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00067">67</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab117b04fd4aa7753d402a347ad9706bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab117b04fd4aa7753d402a347ad9706bf">&#9670;&nbsp;</a></span>_samplerate</h2>
+<a id="a0c5f1a2bb33436edf77895b4a92abe5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c5f1a2bb33436edf77895b4a92abe5f">&#9670;&nbsp;</a></span>_samplerate</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +522,7 @@ pre_init</td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int otto::services::AudioManager::_samplerate = 48000</td>
+          <td class="memname">std::atomic_int otto::services::AudioManager::_samplerate = 48000</td>
         </tr>
       </table>
   </td>
@@ -452,9 +532,61 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00060">60</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00068">68</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00034">samplerate()</a>.</p>
+
+</div>
+</div>
+<a id="aede979ff0b3bbc87ecb5d5a45ff52263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aede979ff0b3bbc87ecb5d5a45ff52263">&#9670;&nbsp;</a></span>_buffer_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic_uint otto::services::AudioManager::_buffer_size = 256</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00069">69</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00037">buffer_size()</a>.</p>
+
+</div>
+</div>
+<a id="a4aae83262ac849bf6e989ca14523f639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aae83262ac849bf6e989ca14523f639">&#9670;&nbsp;</a></span>_buffer_number</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic_uint otto::services::AudioManager::_buffer_number = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00070">70</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00044">buffer_number()</a>.</p>
 
 </div>
 </div>
@@ -478,7 +610,7 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00061">61</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00071">71</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 </div>
 </div>

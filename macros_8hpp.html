@@ -189,6 +189,80 @@ Macros</h2></td></tr>
 <tr class="separator:a1c1c2cf1595eed3a07dd5588c2a47eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69cf69197ea2210f370ea6320d41681c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a69cf69197ea2210f370ea6320d41681c">FOR_EACH_LAST</a>(action,  args, ...)</td></tr>
 <tr class="separator:a69cf69197ea2210f370ea6320d41681c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d7b331547e45a6a60426d446038d464"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a3d7b331547e45a6a60426d446038d464">FELS_01</a>(WHAT,  ARGS,  X)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X)</td></tr>
+<tr class="separator:a3d7b331547e45a6a60426d446038d464"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46ae719bae6c7810db1149d49db7034"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#ac46ae719bae6c7810db1149d49db7034">FELS_02</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a3d7b331547e45a6a60426d446038d464">FELS_01</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:ac46ae719bae6c7810db1149d49db7034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ab571a1116e92bdd8203aed9f0b759"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#ab6ab571a1116e92bdd8203aed9f0b759">FELS_03</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ac46ae719bae6c7810db1149d49db7034">FELS_02</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:ab6ab571a1116e92bdd8203aed9f0b759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da8499aa5d498adb21244eaba9d4602"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a8da8499aa5d498adb21244eaba9d4602">FELS_04</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ab6ab571a1116e92bdd8203aed9f0b759">FELS_03</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a8da8499aa5d498adb21244eaba9d4602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac835abbbb096e0f3567ef889b2807e20"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#ac835abbbb096e0f3567ef889b2807e20">FELS_05</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a8da8499aa5d498adb21244eaba9d4602">FELS_04</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:ac835abbbb096e0f3567ef889b2807e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9a8373cf1de9ee4206bf8abd3277c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a9a9a8373cf1de9ee4206bf8abd3277c3">FELS_06</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ac835abbbb096e0f3567ef889b2807e20">FELS_05</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a9a9a8373cf1de9ee4206bf8abd3277c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e5ae6f6aaaf4be68ebde6075c950876"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a7e5ae6f6aaaf4be68ebde6075c950876">FELS_07</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a9a9a8373cf1de9ee4206bf8abd3277c3">FELS_06</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a7e5ae6f6aaaf4be68ebde6075c950876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ec99fa73c864955daa30159d728f9f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a68ec99fa73c864955daa30159d728f9f">FELS_08</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a7e5ae6f6aaaf4be68ebde6075c950876">FELS_07</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a68ec99fa73c864955daa30159d728f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc0389ae5022f27c609378715503f979"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#afc0389ae5022f27c609378715503f979">FELS_09</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a68ec99fa73c864955daa30159d728f9f">FELS_08</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:afc0389ae5022f27c609378715503f979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a556c133f8abe1ca9fa58dc1027fd9a78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a556c133f8abe1ca9fa58dc1027fd9a78">FELS_10</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#afc0389ae5022f27c609378715503f979">FELS_09</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a556c133f8abe1ca9fa58dc1027fd9a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f25675c74001455bf128dafe6bad21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a67f25675c74001455bf128dafe6bad21">FELS_11</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a556c133f8abe1ca9fa58dc1027fd9a78">FELS_10</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a67f25675c74001455bf128dafe6bad21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a768f2c6f72cb819230bb0be1ee7f665a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a768f2c6f72cb819230bb0be1ee7f665a">FELS_12</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a67f25675c74001455bf128dafe6bad21">FELS_11</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a768f2c6f72cb819230bb0be1ee7f665a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bada9a6dfb6cc2782cc619113c3eef6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a8bada9a6dfb6cc2782cc619113c3eef6">FELS_13</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a768f2c6f72cb819230bb0be1ee7f665a">FELS_12</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a8bada9a6dfb6cc2782cc619113c3eef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1c96ea872668828bf74ddfd9fa60e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#add1c96ea872668828bf74ddfd9fa60e3">FELS_14</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a8bada9a6dfb6cc2782cc619113c3eef6">FELS_13</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:add1c96ea872668828bf74ddfd9fa60e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb801e01c49136b396dbd492cfd0f081"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#acb801e01c49136b396dbd492cfd0f081">FELS_15</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#add1c96ea872668828bf74ddfd9fa60e3">FELS_14</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:acb801e01c49136b396dbd492cfd0f081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251328f0db2f287c7ee8c89d235736cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a251328f0db2f287c7ee8c89d235736cd">FOR_EACH_LAST_SEP</a>(action,  args, ...)</td></tr>
+<tr class="separator:a251328f0db2f287c7ee8c89d235736cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29266fa3f9f81aedbfbc1449874997a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a29266fa3f9f81aedbfbc1449874997a6">FELS2_01</a>(WHAT,  ARGS,  X)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X)</td></tr>
+<tr class="separator:a29266fa3f9f81aedbfbc1449874997a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee7819cb5f130fea576311dcbb569c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a4ee7819cb5f130fea576311dcbb569c6">FELS2_02</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a29266fa3f9f81aedbfbc1449874997a6">FELS2_01</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a4ee7819cb5f130fea576311dcbb569c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf047cc755e8523136e406c70831a21f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#aaf047cc755e8523136e406c70831a21f">FELS2_03</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a4ee7819cb5f130fea576311dcbb569c6">FELS2_02</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:aaf047cc755e8523136e406c70831a21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b387da5b2319c7f6d67df805417001d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a7b387da5b2319c7f6d67df805417001d">FELS2_04</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#aaf047cc755e8523136e406c70831a21f">FELS2_03</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a7b387da5b2319c7f6d67df805417001d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad57cab015f0cf5e4d1b57322475fa0a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#ad57cab015f0cf5e4d1b57322475fa0a1">FELS2_05</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a7b387da5b2319c7f6d67df805417001d">FELS2_04</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:ad57cab015f0cf5e4d1b57322475fa0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bbdad97d913706c379ee0bbedcd56c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a2bbdad97d913706c379ee0bbedcd56c2">FELS2_06</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ad57cab015f0cf5e4d1b57322475fa0a1">FELS2_05</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a2bbdad97d913706c379ee0bbedcd56c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d77d23f4391eefcd730f15650caf8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a50d77d23f4391eefcd730f15650caf8a">FELS2_07</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a2bbdad97d913706c379ee0bbedcd56c2">FELS2_06</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a50d77d23f4391eefcd730f15650caf8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28987631360d5a7de1c40f325a111875"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a28987631360d5a7de1c40f325a111875">FELS2_08</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a50d77d23f4391eefcd730f15650caf8a">FELS2_07</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a28987631360d5a7de1c40f325a111875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45c98d35cb762a00bbd57b544bdf8c0d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a45c98d35cb762a00bbd57b544bdf8c0d">FELS2_09</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a28987631360d5a7de1c40f325a111875">FELS2_08</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a45c98d35cb762a00bbd57b544bdf8c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ee518804f293af376639fd05a79431"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#ac8ee518804f293af376639fd05a79431">FELS2_10</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a45c98d35cb762a00bbd57b544bdf8c0d">FELS2_09</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:ac8ee518804f293af376639fd05a79431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a601e7019c4829b3fe7ec0e687737f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a5a601e7019c4829b3fe7ec0e687737f2">FELS2_11</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ac8ee518804f293af376639fd05a79431">FELS2_10</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a5a601e7019c4829b3fe7ec0e687737f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0329f32fb2995929b137d7936852eedf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a0329f32fb2995929b137d7936852eedf">FELS2_12</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a5a601e7019c4829b3fe7ec0e687737f2">FELS2_11</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a0329f32fb2995929b137d7936852eedf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430422d9c330b0345e4e8bce2b0d2a88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a430422d9c330b0345e4e8bce2b0d2a88">FELS2_13</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a0329f32fb2995929b137d7936852eedf">FELS2_12</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a430422d9c330b0345e4e8bce2b0d2a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d76766e2af6a402c0bd03c84809b131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a6d76766e2af6a402c0bd03c84809b131">FELS2_14</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a430422d9c330b0345e4e8bce2b0d2a88">FELS2_13</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a6d76766e2af6a402c0bd03c84809b131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e4f12a8a1eeb3a87b84aa3af5321c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a07e4f12a8a1eeb3a87b84aa3af5321c5">FELS2_15</a>(WHAT,  ARGS,  X, ...)&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a6d76766e2af6a402c0bd03c84809b131">FELS2_14</a>(WHAT, ARGS, __VA_ARGS__)</td></tr>
+<tr class="separator:a07e4f12a8a1eeb3a87b84aa3af5321c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8363d7e0358b0fd0fe4617c406e0a1c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a8363d7e0358b0fd0fe4617c406e0a1c1">FOR_EACH_LAST_SEP2</a>(action,  args, ...)</td></tr>
+<tr class="separator:a8363d7e0358b0fd0fe4617c406e0a1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afd5c30fbdad326d6ca545a41ab1fab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a3afd5c30fbdad326d6ca545a41ab1fab">EXTRACT</a>(...)&#160;&#160;&#160;EXTRACT __VA_ARGS__</td></tr>
+<tr class="separator:a3afd5c30fbdad326d6ca545a41ab1fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1f24c1c890fcdaacae84034e8b7e6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#adf1f24c1c890fcdaacae84034e8b7e6e">NOTHING_EXTRACT</a></td></tr>
+<tr class="separator:adf1f24c1c890fcdaacae84034e8b7e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f394b9d26fda4aa1e54c4de1e528f83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a1f394b9d26fda4aa1e54c4de1e528f83">PASTE</a>(x, ...)&#160;&#160;&#160;x ## __VA_ARGS__</td></tr>
+<tr class="separator:a1f394b9d26fda4aa1e54c4de1e528f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61fa89f464d0536cb19def171b413179"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a61fa89f464d0536cb19def171b413179">EVALUATING_PASTE</a>(x, ...)&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#a1f394b9d26fda4aa1e54c4de1e528f83">PASTE</a>(x, __VA_ARGS__)</td></tr>
+<tr class="separator:a61fa89f464d0536cb19def171b413179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed2dc2a3637f9fc93a1ca19c7100043"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a1ed2dc2a3637f9fc93a1ca19c7100043">UNPAREN</a>(x)&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#a61fa89f464d0536cb19def171b413179">EVALUATING_PASTE</a>(NOTHING_, <a class="el" href="macros_8hpp.html#a3afd5c30fbdad326d6ca545a41ab1fab">EXTRACT</a> x)</td></tr>
+<tr class="separator:a1ed2dc2a3637f9fc93a1ca19c7100043"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ab60dd6824121b7afaa4f36896df77ba0"></a>
@@ -2735,6 +2809,1442 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="macros_8hpp.html#ae7c3996fa696a0c4a3255f2f963b1448">GET_MACRO_15</a>(__VA_ARGS__, <a class="code" href="macros_8hpp.html#a1c1c2cf1595eed3a07dd5588c2a47eec">FEL_15</a>, <a class="code" href="macros_8hpp.html#ae7fdce34cfcc54591a13f8c393c28dcd">FEL_14</a>, <a class="code" href="macros_8hpp.html#ae546b1611b15196c7770bf778f3214f5">FEL_13</a>, <a class="code" href="macros_8hpp.html#abb370b0099fb3fa4f89d744798d1fff6">FEL_12</a>, <a class="code" href="macros_8hpp.html#a35f3819043456464682243b4cd3f44c6">FEL_11</a>, <a class="code" href="macros_8hpp.html#a89e72017c4d8ba2d972a39237962a161">FEL_10</a>, <a class="code" href="macros_8hpp.html#a19281ee42fd965a6f5ec4433d9cd0e85">FEL_09</a>,    \</div><div class="line">               <a class="code" href="macros_8hpp.html#acbe78f22517dbe843fc2b5ae9704ce7b">FEL_08</a>, <a class="code" href="macros_8hpp.html#ac789e82f2325ca85a0bf9bb7eea4640c">FEL_07</a>, <a class="code" href="macros_8hpp.html#a02a22c06c727ccbc07f055ab562bb76c">FEL_06</a>, <a class="code" href="macros_8hpp.html#a255adaad9d94005cf82c9cbb2aafb99e">FEL_05</a>, <a class="code" href="macros_8hpp.html#a15823d2e0e6a6e5fa1f57482161be5c4">FEL_04</a>, <a class="code" href="macros_8hpp.html#ab5405bb636ee469c2dd4232cccce3806">FEL_03</a>, <a class="code" href="macros_8hpp.html#a5ccab7f0cb6ec59c46de72662a5c9738">FEL_02</a>, <a class="code" href="macros_8hpp.html#a1c1b70ea879a6bcd6013591b47c3f031">FEL_01</a>, NONE)           \</div><div class="line">  (action, args, __VA_ARGS__)</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00099">99</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3d7b331547e45a6a60426d446038d464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d7b331547e45a6a60426d446038d464">&#9670;&nbsp;</a></span>FELS_01</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_01</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00106">106</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac46ae719bae6c7810db1149d49db7034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac46ae719bae6c7810db1149d49db7034">&#9670;&nbsp;</a></span>FELS_02</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_02</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a3d7b331547e45a6a60426d446038d464">FELS_01</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00107">107</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab6ab571a1116e92bdd8203aed9f0b759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ab571a1116e92bdd8203aed9f0b759">&#9670;&nbsp;</a></span>FELS_03</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_03</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ac46ae719bae6c7810db1149d49db7034">FELS_02</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00108">108</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8da8499aa5d498adb21244eaba9d4602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8da8499aa5d498adb21244eaba9d4602">&#9670;&nbsp;</a></span>FELS_04</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_04</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ab6ab571a1116e92bdd8203aed9f0b759">FELS_03</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00109">109</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac835abbbb096e0f3567ef889b2807e20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac835abbbb096e0f3567ef889b2807e20">&#9670;&nbsp;</a></span>FELS_05</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_05</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a8da8499aa5d498adb21244eaba9d4602">FELS_04</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00110">110</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9a9a8373cf1de9ee4206bf8abd3277c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9a8373cf1de9ee4206bf8abd3277c3">&#9670;&nbsp;</a></span>FELS_06</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_06</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ac835abbbb096e0f3567ef889b2807e20">FELS_05</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00111">111</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7e5ae6f6aaaf4be68ebde6075c950876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e5ae6f6aaaf4be68ebde6075c950876">&#9670;&nbsp;</a></span>FELS_07</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_07</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a9a9a8373cf1de9ee4206bf8abd3277c3">FELS_06</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00112">112</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a68ec99fa73c864955daa30159d728f9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ec99fa73c864955daa30159d728f9f">&#9670;&nbsp;</a></span>FELS_08</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_08</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a7e5ae6f6aaaf4be68ebde6075c950876">FELS_07</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00113">113</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afc0389ae5022f27c609378715503f979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc0389ae5022f27c609378715503f979">&#9670;&nbsp;</a></span>FELS_09</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_09</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a68ec99fa73c864955daa30159d728f9f">FELS_08</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00114">114</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a556c133f8abe1ca9fa58dc1027fd9a78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a556c133f8abe1ca9fa58dc1027fd9a78">&#9670;&nbsp;</a></span>FELS_10</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_10</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#afc0389ae5022f27c609378715503f979">FELS_09</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00115">115</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a67f25675c74001455bf128dafe6bad21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67f25675c74001455bf128dafe6bad21">&#9670;&nbsp;</a></span>FELS_11</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_11</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a556c133f8abe1ca9fa58dc1027fd9a78">FELS_10</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00116">116</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a768f2c6f72cb819230bb0be1ee7f665a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a768f2c6f72cb819230bb0be1ee7f665a">&#9670;&nbsp;</a></span>FELS_12</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_12</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a67f25675c74001455bf128dafe6bad21">FELS_11</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00117">117</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8bada9a6dfb6cc2782cc619113c3eef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bada9a6dfb6cc2782cc619113c3eef6">&#9670;&nbsp;</a></span>FELS_13</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_13</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a768f2c6f72cb819230bb0be1ee7f665a">FELS_12</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00118">118</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="add1c96ea872668828bf74ddfd9fa60e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add1c96ea872668828bf74ddfd9fa60e3">&#9670;&nbsp;</a></span>FELS_14</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_14</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a8bada9a6dfb6cc2782cc619113c3eef6">FELS_13</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00119">119</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="acb801e01c49136b396dbd492cfd0f081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb801e01c49136b396dbd492cfd0f081">&#9670;&nbsp;</a></span>FELS_15</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS_15</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#add1c96ea872668828bf74ddfd9fa60e3">FELS_14</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00120">120</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a251328f0db2f287c7ee8c89d235736cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a251328f0db2f287c7ee8c89d235736cd">&#9670;&nbsp;</a></span>FOR_EACH_LAST_SEP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FOR_EACH_LAST_SEP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">action, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">args, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="macros_8hpp.html#ae7c3996fa696a0c4a3255f2f963b1448">GET_MACRO_15</a>(__VA_ARGS__, <a class="code" href="macros_8hpp.html#acb801e01c49136b396dbd492cfd0f081">FELS_15</a>, <a class="code" href="macros_8hpp.html#add1c96ea872668828bf74ddfd9fa60e3">FELS_14</a>, <a class="code" href="macros_8hpp.html#a8bada9a6dfb6cc2782cc619113c3eef6">FELS_13</a>, <a class="code" href="macros_8hpp.html#a768f2c6f72cb819230bb0be1ee7f665a">FELS_12</a>, <a class="code" href="macros_8hpp.html#a67f25675c74001455bf128dafe6bad21">FELS_11</a>, <a class="code" href="macros_8hpp.html#a556c133f8abe1ca9fa58dc1027fd9a78">FELS_10</a>, <a class="code" href="macros_8hpp.html#afc0389ae5022f27c609378715503f979">FELS_09</a>,    \</div><div class="line">               <a class="code" href="macros_8hpp.html#a68ec99fa73c864955daa30159d728f9f">FELS_08</a>, <a class="code" href="macros_8hpp.html#a7e5ae6f6aaaf4be68ebde6075c950876">FELS_07</a>, <a class="code" href="macros_8hpp.html#a9a9a8373cf1de9ee4206bf8abd3277c3">FELS_06</a>, <a class="code" href="macros_8hpp.html#ac835abbbb096e0f3567ef889b2807e20">FELS_05</a>, <a class="code" href="macros_8hpp.html#a8da8499aa5d498adb21244eaba9d4602">FELS_04</a>, <a class="code" href="macros_8hpp.html#ab6ab571a1116e92bdd8203aed9f0b759">FELS_03</a>, <a class="code" href="macros_8hpp.html#ac46ae719bae6c7810db1149d49db7034">FELS_02</a>, <a class="code" href="macros_8hpp.html#a3d7b331547e45a6a60426d446038d464">FELS_01</a>, NONE)           \</div><div class="line">  (action, args, __VA_ARGS__)</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00122">122</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a29266fa3f9f81aedbfbc1449874997a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29266fa3f9f81aedbfbc1449874997a6">&#9670;&nbsp;</a></span>FELS2_01</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_01</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00129">129</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4ee7819cb5f130fea576311dcbb569c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee7819cb5f130fea576311dcbb569c6">&#9670;&nbsp;</a></span>FELS2_02</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_02</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a29266fa3f9f81aedbfbc1449874997a6">FELS2_01</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00130">130</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aaf047cc755e8523136e406c70831a21f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf047cc755e8523136e406c70831a21f">&#9670;&nbsp;</a></span>FELS2_03</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_03</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a4ee7819cb5f130fea576311dcbb569c6">FELS2_02</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00131">131</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7b387da5b2319c7f6d67df805417001d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b387da5b2319c7f6d67df805417001d">&#9670;&nbsp;</a></span>FELS2_04</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_04</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#aaf047cc755e8523136e406c70831a21f">FELS2_03</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00132">132</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad57cab015f0cf5e4d1b57322475fa0a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad57cab015f0cf5e4d1b57322475fa0a1">&#9670;&nbsp;</a></span>FELS2_05</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_05</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a7b387da5b2319c7f6d67df805417001d">FELS2_04</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00133">133</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2bbdad97d913706c379ee0bbedcd56c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bbdad97d913706c379ee0bbedcd56c2">&#9670;&nbsp;</a></span>FELS2_06</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_06</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ad57cab015f0cf5e4d1b57322475fa0a1">FELS2_05</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00134">134</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a50d77d23f4391eefcd730f15650caf8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d77d23f4391eefcd730f15650caf8a">&#9670;&nbsp;</a></span>FELS2_07</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_07</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a2bbdad97d913706c379ee0bbedcd56c2">FELS2_06</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00135">135</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a28987631360d5a7de1c40f325a111875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28987631360d5a7de1c40f325a111875">&#9670;&nbsp;</a></span>FELS2_08</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_08</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a50d77d23f4391eefcd730f15650caf8a">FELS2_07</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00136">136</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a45c98d35cb762a00bbd57b544bdf8c0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45c98d35cb762a00bbd57b544bdf8c0d">&#9670;&nbsp;</a></span>FELS2_09</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_09</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a28987631360d5a7de1c40f325a111875">FELS2_08</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00137">137</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac8ee518804f293af376639fd05a79431"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8ee518804f293af376639fd05a79431">&#9670;&nbsp;</a></span>FELS2_10</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_10</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a45c98d35cb762a00bbd57b544bdf8c0d">FELS2_09</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00138">138</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5a601e7019c4829b3fe7ec0e687737f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a601e7019c4829b3fe7ec0e687737f2">&#9670;&nbsp;</a></span>FELS2_11</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_11</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#ac8ee518804f293af376639fd05a79431">FELS2_10</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00139">139</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0329f32fb2995929b137d7936852eedf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0329f32fb2995929b137d7936852eedf">&#9670;&nbsp;</a></span>FELS2_12</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_12</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a5a601e7019c4829b3fe7ec0e687737f2">FELS2_11</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00140">140</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a430422d9c330b0345e4e8bce2b0d2a88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a430422d9c330b0345e4e8bce2b0d2a88">&#9670;&nbsp;</a></span>FELS2_13</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_13</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a0329f32fb2995929b137d7936852eedf">FELS2_12</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00141">141</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6d76766e2af6a402c0bd03c84809b131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d76766e2af6a402c0bd03c84809b131">&#9670;&nbsp;</a></span>FELS2_14</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_14</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a430422d9c330b0345e4e8bce2b0d2a88">FELS2_13</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00142">142</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a07e4f12a8a1eeb3a87b84aa3af5321c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e4f12a8a1eeb3a87b84aa3af5321c5">&#9670;&nbsp;</a></span>FELS2_15</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FELS2_15</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">WHAT, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ARGS, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;WHAT(<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a> ARGS, X), <a class="el" href="macros_8hpp.html#a6d76766e2af6a402c0bd03c84809b131">FELS2_14</a>(WHAT, ARGS, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00143">143</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8363d7e0358b0fd0fe4617c406e0a1c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8363d7e0358b0fd0fe4617c406e0a1c1">&#9670;&nbsp;</a></span>FOR_EACH_LAST_SEP2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FOR_EACH_LAST_SEP2</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">action, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">args, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="macros_8hpp.html#ae7c3996fa696a0c4a3255f2f963b1448">GET_MACRO_15</a>(__VA_ARGS__, <a class="code" href="macros_8hpp.html#a07e4f12a8a1eeb3a87b84aa3af5321c5">FELS2_15</a>, <a class="code" href="macros_8hpp.html#a6d76766e2af6a402c0bd03c84809b131">FELS2_14</a>, <a class="code" href="macros_8hpp.html#a430422d9c330b0345e4e8bce2b0d2a88">FELS2_13</a>, <a class="code" href="macros_8hpp.html#a0329f32fb2995929b137d7936852eedf">FELS2_12</a>, <a class="code" href="macros_8hpp.html#a5a601e7019c4829b3fe7ec0e687737f2">FELS2_11</a>, <a class="code" href="macros_8hpp.html#ac8ee518804f293af376639fd05a79431">FELS2_10</a>, <a class="code" href="macros_8hpp.html#a45c98d35cb762a00bbd57b544bdf8c0d">FELS2_09</a>,    \</div><div class="line">               <a class="code" href="macros_8hpp.html#a28987631360d5a7de1c40f325a111875">FELS2_08</a>, <a class="code" href="macros_8hpp.html#a50d77d23f4391eefcd730f15650caf8a">FELS2_07</a>, <a class="code" href="macros_8hpp.html#a2bbdad97d913706c379ee0bbedcd56c2">FELS2_06</a>, <a class="code" href="macros_8hpp.html#ad57cab015f0cf5e4d1b57322475fa0a1">FELS2_05</a>, <a class="code" href="macros_8hpp.html#a7b387da5b2319c7f6d67df805417001d">FELS2_04</a>, <a class="code" href="macros_8hpp.html#aaf047cc755e8523136e406c70831a21f">FELS2_03</a>, <a class="code" href="macros_8hpp.html#a4ee7819cb5f130fea576311dcbb569c6">FELS2_02</a>, <a class="code" href="macros_8hpp.html#a29266fa3f9f81aedbfbc1449874997a6">FELS2_01</a>, NONE)           \</div><div class="line">  (action, args, __VA_ARGS__)</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00145">145</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3afd5c30fbdad326d6ca545a41ab1fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3afd5c30fbdad326d6ca545a41ab1fab">&#9670;&nbsp;</a></span>EXTRACT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXTRACT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;EXTRACT __VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00152">152</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="adf1f24c1c890fcdaacae84034e8b7e6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf1f24c1c890fcdaacae84034e8b7e6e">&#9670;&nbsp;</a></span>NOTHING_EXTRACT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NOTHING_EXTRACT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00153">153</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1f394b9d26fda4aa1e54c4de1e528f83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f394b9d26fda4aa1e54c4de1e528f83">&#9670;&nbsp;</a></span>PASTE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PASTE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;x ## __VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00154">154</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a61fa89f464d0536cb19def171b413179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61fa89f464d0536cb19def171b413179">&#9670;&nbsp;</a></span>EVALUATING_PASTE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EVALUATING_PASTE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#a1f394b9d26fda4aa1e54c4de1e528f83">PASTE</a>(x, __VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00155">155</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1ed2dc2a3637f9fc93a1ca19c7100043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed2dc2a3637f9fc93a1ca19c7100043">&#9670;&nbsp;</a></span>UNPAREN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UNPAREN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#a61fa89f464d0536cb19def171b413179">EVALUATING_PASTE</a>(NOTHING_, <a class="el" href="macros_8hpp.html#a3afd5c30fbdad326d6ca545a41ab1fab">EXTRACT</a> x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00156">156</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
 
 </div>
 </div>

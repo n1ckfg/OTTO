@@ -75,7 +75,10 @@
 <div class="title">engine_dispatcher.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="engine_8hpp_source.html">core/engine/engine.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;foonathan/array/flat_map.hpp&gt;</code><br />
+<code>#include &quot;<a class="el" href="engine_8hpp_source.html">core/engine/engine.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="nullengine_8hpp_source.html">core/engine/nullengine.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="variant__w__base_8hpp_source.html">util/variant_w_base.hpp</a>&quot;</code><br />
 </div>
 <p><a href="engine__dispatcher_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -84,11 +87,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html">otto::core::engine::IEngineDispatcher</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface base class for the <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html" title="Owns engines of type ET, and dispatches to a selected one of them.">EngineDispatcher</a> struct.  <a href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher&lt; ET &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Owns engines of type <code>ET</code>, and dispatches to a selected one of them.  <a href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory">otto::core::engine::EngineDispatcher&lt; ET &gt;::EngineFactory</a></td></tr>
-<tr class="separator:structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -100,42 +101,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceotto_1_1core_1_1engine"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1engine.html">otto::core::engine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory" id="structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory">&#9670;&nbsp;</a></span>otto::core::engine::EngineDispatcher::EngineFactory</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct otto::core::engine::EngineDispatcher::EngineFactory</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="3">Class Members</th></tr>
-<tr><td class="fieldtype">
-<a id="ab85683b5f13098016566c597d37bf812"></a>string</td>
-<td class="fieldname">
-name</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ab5c8471935553e375560ff626c9285fd"></a>function&lt; unique_ptr&lt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a>&lt; ET &gt; &gt;)&gt;</td>
-<td class="fieldname">
-construct</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a644831ce624343a5bcfc959837fa32bb"></a>json</td>
-<td class="fieldname">
-data</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

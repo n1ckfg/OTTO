@@ -68,14 +68,20 @@
 
 <h3><a id="index_n"></a>- n -</h3><ul>
 <li>name()
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a6202ffd30ee96989d0f15395479251f2">otto::core::engine::AnyEngine</a>
-, <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ab85683b5f13098016566c597d37bf812">otto::core::engine::EngineDispatcher&lt; ET &gt;::EngineFactory</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#afb8bd8ee608862faa112daedc7961e36">otto::core::engine::IEngine</a>
 , <a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">otto::core::props::property_base</a>
+, <a class="el" href="structotto_1_1engines_1_1_chorus.html#a1084986f132793edd01618ab3c76484d">otto::engines::Chorus</a>
+, <a class="el" href="structotto_1_1engines_1_1_euclid.html#a1362397e94115351691281af07b2463f">otto::engines::Euclid</a>
+, <a class="el" href="structotto_1_1engines_1_1_goss_synth.html#ab8996632c60fc7fd5874e8cf461a0861">otto::engines::GossSynth</a>
+, <a class="el" href="structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html#aadb65544ec876bcdc1a66c2d3d938ea4">otto::engines::OTTOFMSynth</a>
+, <a class="el" href="structotto_1_1engines_1_1_pingpong.html#affc85e04bdc4d4409d88027806abe1ae">otto::engines::Pingpong</a>
+, <a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#a3ab4593f4971453b1f0f8bba6de5389e">otto::engines::RhodesSynth</a>
+, <a class="el" href="structotto_1_1engines_1_1_wormhole.html#a9c11f5550edd5514a08a505fde7062a5">otto::engines::Wormhole</a>
 , <a class="el" href="structotto_1_1services_1_1_state_manager.html#ab3ad1c574b95305b0be185a403b8d51f">otto::services::StateManager::Client</a>
 , <a class="el" href="struct_rt_audio_1_1_device_info.html#a24df596ab8d54f2eb540c7cf16212b3b">RtAudio::DeviceInfo</a>
 </li>
 <li>name_of_idx()
-: <a class="el" href="structotto_1_1services_1_1_preset_manager.html#a2974b3d29e5aa8d9cb4f68c6d208c801">otto::services::PresetManager</a>
+: <a class="el" href="structotto_1_1services_1_1_preset_manager.html#a3e1b9aaeae4da72063309d0858467526">otto::services::PresetManager</a>
 </li>
 <li>native()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#afb6a78e0576d6b26c686f8a945b1a924">otto::filesystem::path</a>
@@ -126,10 +132,10 @@
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_note_voice_pair.html#a717544218e1a5f00430588adaeda541c">otto::core::audio::NoteVoicePair</a>
 </li>
 <li>NoteEvent()
-: <a class="el" href="structotto_1_1core_1_1midi_1_1_note_event.html#aee9611d77ce4adb6325a8e3bee9d1c9e">otto::core::midi::NoteEvent</a>
+: <a class="el" href="structotto_1_1core_1_1midi_1_1_note_event.html#ae3d6da5bf1ae00f53ce01d773c2d739f">otto::core::midi::NoteEvent</a>
 </li>
 <li>NoteOffEvent()
-: <a class="el" href="structotto_1_1core_1_1midi_1_1_note_off_event.html#a3a029e98f41a64c67f83b14983f67234">otto::core::midi::NoteOffEvent</a>
+: <a class="el" href="structotto_1_1core_1_1midi_1_1_note_off_event.html#a91bfb2af45a7002363c3e16a2561dc08">otto::core::midi::NoteOffEvent</a>
 </li>
 <li>NoteOnEvent()
 : <a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html#a3fdc7c528fc2f2f09a57216c10f4bccc">otto::core::midi::NoteOnEvent</a>
@@ -142,6 +148,11 @@
 </li>
 <li>NukeSynth()
 : <a class="el" href="structotto_1_1engines_1_1_nuke_synth.html#a916cbaab5e9e79d887f6dc5c83c15723">otto::engines::NukeSynth</a>
+</li>
+<li>NullEngine()
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html#a98c7480bef7942da61311c6c02e9a29e">otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html#a977e668cabe82ee48b7ba783b80be111">otto::core::engine::NullEngine&lt; EngineType::effect &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html#a8e878a8f0ae47af84523eed44c635994">otto::core::engine::NullEngine&lt; EngineType::synth &gt;</a>
 </li>
 <li>number_of_buffers
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#a0ad6585561abcf57a356c56adb1ff7bd">otto::core::audio::AudioBufferPool</a>

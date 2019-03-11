@@ -79,6 +79,9 @@
 <li>emit()
 : <a class="el" href="structotto_1_1util_1_1_signal.html#a762911b133f2dc0a7f617f0b7fa35b28">otto::util::Signal&lt; Args &gt;</a>
 </li>
+<li>emplace()
+: <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html#ad9461629ccb74b87ff6bf65b7c41fb57">otto::util::basic_variant_w_base&lt; Base, Variant &gt;</a>
+</li>
 <li>emplace_back()
 : <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ab94e70dc49c39a020bfb30a6fc748416">otto::core::midi::shared_vector&lt; T, Allocator &gt;</a>
 </li>
@@ -87,7 +90,7 @@
 </li>
 <li>end()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#ab1ed4199cc17fb33a8f55a5891e88dd7">otto::core::audio::AudioBufferHandle</a>
-, <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a1f47f349922a7862b8fa287f19d4ca4a">otto::core::midi::shared_vector&lt; T, Allocator &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a45db548c006ae8fdb4f97c3b1bde47b0">otto::core::midi::shared_vector&lt; T, Allocator &gt;</a>
 , <a class="el" href="structotto_1_1engines_1_1_sample.html#a913f2e439f477999849a5b58fcbc6460">otto::engines::Sample</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path.html#ab4d3af85b29390419dc67a53d9054450">otto::filesystem::path</a>
 , <a class="el" href="structotto_1_1util_1_1bytes.html#abeb861327c0918a95dfb87742a47fe10">otto::util::bytes&lt; len &gt;</a>
@@ -102,19 +105,25 @@
 : <a class="el" href="structotto_1_1glfw_1_1_n_v_g_window.html#ad2b1b43231de3f3804dd600b8c14501d">otto::glfw::NVGWindow</a>
 </li>
 <li>end_point()
-: <a class="el" href="structotto_1_1engines_1_1_sample.html#af5fd967df6b8d4e86048400455553d82">otto::engines::Sample</a>
+: <a class="el" href="structotto_1_1engines_1_1_sample.html#a4af11dfb3043858d1b973c93d344dbc5">otto::engines::Sample</a>
 </li>
 <li>endFrame()
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#a101ea72a9fb9bd143f932fc55c5d2035">otto::board::ui::EGLConnection</a>
 </li>
+<li>Engine
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
+</li>
 <li>engine
 : <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_screen.html#a27cb876c705f3b054e38a3ff7f9cf6b1">otto::core::engine::EngineScreen&lt; Engine &gt;</a>
 </li>
-<li>engine_factories()
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a88b4b71c7b7228f38a0358aaa5d0c397">otto::core::engine::EngineDispatcher&lt; ET &gt;</a>
-</li>
 <li>engine_manager
 : <a class="el" href="structotto_1_1services_1_1_application.html#a0943e951f341de6ca0948db8bfa328bd">otto::services::Application</a>
+</li>
+<li>engine_type
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a076bdb2546ee30dbf3cf4ef6c81c8f39">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
+</li>
+<li>EngineDispatcher()
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a34251e6ab205f0dbd3cf11841f75b9ed">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
 </li>
 <li>EngineManager()
 : <a class="el" href="structotto_1_1services_1_1_engine_manager.html#af659dd230dea928ae35eb42f1ba40b08">otto::services::EngineManager</a>
@@ -123,7 +132,7 @@
 : <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_screen.html#a101ee77dbbafe29e8f02ec63b5d4be1f">otto::core::engine::EngineScreen&lt; Engine &gt;</a>
 </li>
 <li>EngineSelectorScreen()
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_selector_screen.html#a2156ebd52997a6e05f0c1b2091566040">otto::core::engine::EngineSelectorScreen</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_selector_screen.html#a5f45481407c1874a6700c5b56bec69ea">otto::core::engine::EngineSelectorScreen</a>
 </li>
 <li>enumString()
 : <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#a923a9984fc5b92abac5c637dd352836a">otto::util::ByteFile::Error</a>
@@ -187,7 +196,7 @@
 : <a class="el" href="class_midi_api.html#a25be898d4cfd92d8221d5b2aeaffe051">MidiApi</a>
 </li>
 <li>ErrorCode
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a68d1035001a274f22e2918b4d6607e77">otto::core::engine::EngineDispatcher&lt; ET &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a68d1035001a274f22e2918b4d6607e77">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
 , <a class="el" href="structotto_1_1services_1_1_application.html#a31fb6666426f35b0b5a3c0803f2c000f">otto::services::Application</a>
 , <a class="el" href="structotto_1_1services_1_1_engine_manager.html#a4851e65538cb4036fce84dc5664ffd65">otto::services::EngineManager</a>
 , <a class="el" href="structotto_1_1services_1_1_preset_manager.html#ada9bb08418ff1f8245c41183178146af">otto::services::PresetManager</a>
@@ -216,7 +225,7 @@
 , <a class="el" href="structotto_1_1services_1_1_audio_manager.html#a4dbefbea318a69ae811a3db2822ed79d">otto::services::AudioManager</a>
 </li>
 <li>exception
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a09d1584488bb1fcdbcffd710e09b4553">otto::core::engine::EngineDispatcher&lt; ET &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#adcce5a0bc86d882c44733428ddf87684">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
 , <a class="el" href="structotto_1_1services_1_1_application.html#aac68018c37fd9c8bfcd7ba8fa4653256">otto::services::Application</a>
 , <a class="el" href="structotto_1_1services_1_1_engine_manager.html#ad3e8d0aa7592de7e37e4b40b4cd10f95">otto::services::EngineManager</a>
 , <a class="el" href="structotto_1_1services_1_1_preset_manager.html#a4af8fcdda281b02c0960b3098480e5e6">otto::services::PresetManager</a>
@@ -227,7 +236,7 @@
 : <a class="el" href="structotto_1_1test_1_1measure.html#ab0dbf891ae4977465d5dbafda9a015e0">otto::test::measure</a>
 </li>
 <li>exists()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#add44dbf8317c15c376ac1629d26baf2e">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a6765b98b924a6160fc005187f706bf4b">otto::filesystem::directory_entry</a>
 </li>
 <li>exit()
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#ac1d48681fac6e190986f6bd2e09e4a91">otto::board::ui::EGLConnection</a>

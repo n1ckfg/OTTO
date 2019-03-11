@@ -515,7 +515,15 @@
                 <Name>services</Name>
                 <Path>namespaceotto_1_1otto_1_1services.html</Path>
                </Node>
+               <Node>
+                <Name>util</Name>
+                <Path>namespaceotto_1_1otto_1_1util.html</Path>
+               </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>reflect</Name>
+              <Path>namespaceotto_1_1reflect.html</Path>
              </Node>
              <Node>
               <Name>service</Name>
@@ -530,6 +538,10 @@
              <Node>
               <Name>services</Name>
               <Path>namespaceotto_1_1services.html</Path>
+             </Node>
+             <Node>
+              <Name>std</Name>
+              <Path>namespaceotto_1_1std.html</Path>
              </Node>
              <Node>
               <Name>test</Name>
@@ -710,6 +722,10 @@
               <Path>namespacemembers_func_c.html</Path>
              </Node>
              <Node>
+              <Name>d</Name>
+              <Path>namespacemembers_func_d.html</Path>
+             </Node>
+             <Node>
               <Name>e</Name>
               <Path>namespacemembers_func_e.html</Path>
              </Node>
@@ -768,6 +784,10 @@
              <Node>
               <Name>u</Name>
               <Path>namespacemembers_func_u.html</Path>
+             </Node>
+             <Node>
+              <Name>v</Name>
+              <Path>namespacemembers_func_v.html</Path>
              </Node>
              <Node>
               <Name>w</Name>
@@ -885,7 +905,7 @@
                      <Node>
                       <Name>select_engine</Name>
                       <Path>structotto_1_1board_1_1otto_1_1services_1_1_u_i_manager.html</Path>
-                      <Anchor>aba0d8832ea2601af412e96d8b46d2e5f</Anchor>
+                      <Anchor>acdd12a4832b8cbccc840deab2c6b1e15</Anchor>
                      </Node>
                      <Node>
                       <Name>select_engine</Name>
@@ -1287,6 +1307,11 @@
                     <Name>iterator</Name>
                     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
                     <Anchor>ac7ac998f2bab191ce1f3d4e27521f591</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pointer</Name>
+                    <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
+                    <Anchor>a1e1cad435f9623713dc9f1a75492697a</Anchor>
                    </Node>
                    <Node>
                     <Name>const_iterator</Name>
@@ -1816,82 +1841,6 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>AnyEngine</Name>
-                  <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>AnyEngine</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a569a96572dde4ab647797d3f28a0cfe3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AnyEngine</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a280e6a6f9adad749791ec8900af2cb92</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>~AnyEngine</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>abb44c6fa9c04a201342ceec7d4681bfd</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>on_enable</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a393f5280478e9262bdc621c9e27e6e0f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>on_disable</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>ae526f7f9b6323f5e7e32c0cac2c32c81</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>name</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a6202ffd30ee96989d0f15395479251f2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>screen</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a1d47762e1c23e75f65bf6811cfff9fc7</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>screen</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a913081b4c17a0c953d8b4beaf3ee0e0b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>current_preset</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a47357ecd836e5d2c275f53f216c07801</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>current_preset</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a06eb08a2d296ab387bf22e1edbdcc407</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>to_json</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>a3c39faa6e1e6157a712804e81e6f8e50</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>from_json</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>ae8cc58f1238000ad0388539304a46b68</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>props</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>aa058bc66a05123d08fc227f5f6383260</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>props</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                    <Anchor>ae020f2ea1fc4e58bc0780d1fadf0785a</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
                   <Name>Engine</Name>
                   <Path>structotto_1_1core_1_1engine_1_1_engine.html</Path>
                  </Node>
@@ -1916,31 +1865,24 @@
                   <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>EngineFactory</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>name</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>ab85683b5f13098016566c597d37bf812</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>construct</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>ab5c8471935553e375560ff626c9285fd</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>data</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a644831ce624343a5bcfc959837fa32bb</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>exception</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a09d1584488bb1fcdbcffd710e09b4553</Anchor>
+                    <Anchor>adcce5a0bc86d882c44733428ddf87684</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Engine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                    <Anchor>a7743b9be5391c46e5d2d6c472950d682</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>variant</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                    <Anchor>ae5d371a37b544292914d696082ce4899</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DataMap</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                    <Anchor>a47d8702c4b34076e5f7849e1a1c8353c</Anchor>
                    </Node>
                    <Node>
                     <Name>ErrorCode</Name>
@@ -1965,79 +1907,74 @@
                     </Subnodes>
                    </Node>
                    <Node>
+                    <Name>EngineDispatcher</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                    <Anchor>a34251e6ab205f0dbd3cf11841f75b9ed</Anchor>
+                   </Node>
+                   <Node>
                     <Name>init</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>af6e93451ad4d5982ff92478d317336a9</Anchor>
+                    <Anchor>a632970095815fd82648b78d139dc52cc</Anchor>
                    </Node>
                    <Node>
                     <Name>current</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a0188825a04ca438403cc68ba5a92d6ec</Anchor>
+                    <Anchor>a0741ed184dad25c646715ffd1ac8ad6a</Anchor>
                    </Node>
                    <Node>
                     <Name>current</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a749bfe7ac9e8c1746bd5ada142656f1e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator-&gt;</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a9945db08270305708facba53a39180f8</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator-&gt;</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>afa695fc11f6d07bd40dad8db6bced64e</Anchor>
+                    <Anchor>a8b5e655ecf2eca4273d2eb9ef2ceee50</Anchor>
                    </Node>
                    <Node>
                     <Name>current_idx</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>ab36733c038c14ceb99f3e447ba03383c</Anchor>
+                    <Anchor>aed057ec3e0fae540cb3f3d4463420b70</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-&gt;</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                    <Anchor>a04bf45b2c6e45f18f632d76a9cfcc235</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-&gt;</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                    <Anchor>a70f0c9ce44514c28214612414f61ea09</Anchor>
                    </Node>
                    <Node>
                     <Name>select</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>af3e39c52a9d5523cc6283625b92e2211</Anchor>
+                    <Anchor>a6f923b3eaf3a3a70f3e28af1201e38b6</Anchor>
                    </Node>
                    <Node>
                     <Name>select</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a081abadd8f0965f657a035c6e7c942dd</Anchor>
+                    <Anchor>a77a7388e83228057b9fb32d167bd9c77</Anchor>
                    </Node>
                    <Node>
-                    <Name>select</Name>
+                    <Name>make_name_list</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a896ffcdd7e2a642fc6dc21935e318ec7</Anchor>
+                    <Anchor>ab8f3270ede871872814967b6935b1f6f</Anchor>
                    </Node>
                    <Node>
                     <Name>selector_screen</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a2830d941c130d1e939464978322f2aea</Anchor>
+                    <Anchor>a8625da567040af5480cdb9687b655dd2</Anchor>
                    </Node>
                    <Node>
-                    <Name>register_factory</Name>
+                    <Name>data_of_engines</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a8b82b320157f3115474cee051df9aaa6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>register_engine</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>af097a6901187a5db3cb411099b10ce82</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>engine_factories</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a88b4b71c7b7228f38a0358aaa5d0c397</Anchor>
+                    <Anchor>af42a1ab096a4ec84d5f0a44428030bc0</Anchor>
                    </Node>
                    <Node>
                     <Name>to_json</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a912e65ff451fe879394ee1b641209dd2</Anchor>
+                    <Anchor>a086268924df2eb441b01f1d4354fed80</Anchor>
                    </Node>
                    <Node>
                     <Name>from_json</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>ae6ddb553e96caba392d635d93a640609</Anchor>
+                    <Anchor>a3a23104efef96a78aa9de33b7cf5ead1</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2069,7 +2006,7 @@
                    <Node>
                     <Name>EngineSelectorScreen</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_selector_screen.html</Path>
-                    <Anchor>a2156ebd52997a6e05f0c1b2091566040</Anchor>
+                    <Anchor>a5f45481407c1874a6700c5b56bec69ea</Anchor>
                    </Node>
                    <Node>
                     <Name>rotary</Name>
@@ -2115,9 +2052,90 @@
                   </Subnodes>
                  </Node>
                  <Node>
+                  <Name>IEngine</Name>
+                  <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>IEngine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a9f4b4cfe66dec401636e571380d7d6ae</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IEngine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a65df4332b4d6fd7ff6677586acd4e9c4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~IEngine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>ae4140c99a20231a8bec727cfdc43fde7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>on_enable</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a187e5377087194bf471a27181f5dae61</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>on_disable</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a8e43011670d9aee35e756f5796facbdf</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>name</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>afb8bd8ee608862faa112daedc7961e36</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>screen</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a67d393d34b2f2e61568ab4fbb7c4ee53</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>screen</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>acee8ecb3bc404f484cebb6047f02e5ea</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>current_preset</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a1fa07701f2e348ce8cda1ddb7d7bd87a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>current_preset</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>aabce2bc83300d768b49984507e38f7cb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>to_json</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a1b7d5227a5917222898cfdda43ccca54</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>from_json</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a8ac4b7b5a3b38c442eb0b81dbb07e0fc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>props</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a438e92ce21008f77c22fd695d92cd3cf</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>props</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                    <Anchor>a21c8e7a374358cd06e6661e104d71911</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
                   <Name>IEngineDispatcher</Name>
                   <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
                   <Subnodes>
+                   <Node>
+                    <Name>IEngineDispatcher</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                    <Anchor>a1b6c1e7e2f179d9a9a9faaae0d098440</Anchor>
+                   </Node>
                    <Node>
                     <Name>~IEngineDispatcher</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
@@ -2126,12 +2144,111 @@
                    <Node>
                     <Name>current</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
-                    <Anchor>a956dca66cf354fc16d98e0dc13b2f3dd</Anchor>
+                    <Anchor>a42d607ff5380601f90d0b874da19f8e1</Anchor>
                    </Node>
                    <Node>
                     <Name>current</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
-                    <Anchor>aceb9cd0ed115db15135ccc056e36244c</Anchor>
+                    <Anchor>a681d94f5e15ec03f7979d986d9775897</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>current_idx</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                    <Anchor>a7b6208c94533eff41801af0b44741836</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>select</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                    <Anchor>a92f1589848e5861a3f7ef0bd73eee883</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>select</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                    <Anchor>ac41aa166ec9c9af3354c8a3fc12fe114</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>make_name_list</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                    <Anchor>afff9607de95ee782afe7d51b579bb5eb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>allow_off</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                    <Anchor>af5b109ce96d118675641660975aac701</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>name_of_engine</Name>
+                  <Path>structotto_1_1core_1_1engine_1_1name__of__engine.html</Path>
+                  <Subnodes>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>NullEngine</Name>
+                  <Path>namespaceotto_1_1core_1_1engine.html</Path>
+                  <Anchor>structotto_1_1core_1_1engine_1_1_null_engine</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>NullEngine&lt; EngineType::arpeggiator &gt;</Name>
+                  <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>NullEngine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                    <Anchor>a98c7480bef7942da61311c6c02e9a29e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>process</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                    <Anchor>a3050faa6dc76997cf10eed2f3979aba9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>props</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                    <Anchor>a0db665ecd1a17d05d9801ee035b9b241</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>NullEngine&lt; EngineType::effect &gt;</Name>
+                  <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>NullEngine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                    <Anchor>a977e668cabe82ee48b7ba783b80be111</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>process</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                    <Anchor>afe6277fd49f1a929064b02a9b17b7891</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>props</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                    <Anchor>ac7f4fa6209324f7325f28c4a3584f991</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>NullEngine&lt; EngineType::synth &gt;</Name>
+                  <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>NullEngine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                    <Anchor>a8e878a8f0ae47af84523eed44c635994</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>process</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                    <Anchor>a728b6a2fdacba62389a3f80e23ba64c6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>props</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                    <Anchor>af2b2df0db8b3f76f361b459a3002f1d4</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2844,12 +2961,7 @@
                    <Node>
                     <Name>value_type</Name>
                     <Path>structotto_1_1core_1_1props_1_1_hook.html</Path>
-                    <Anchor>a1cae93ec7a3ac5fd1028af1e10b602e4</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>requires_</Name>
-                    <Path>structotto_1_1core_1_1props_1_1_hook.html</Path>
-                    <Anchor>ac254ec7f6377a116f2cbe404b55189ab</Anchor>
+                    <Anchor>a88c3fda6a1981dcfab7e95e021d4504d</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2861,11 +2973,6 @@
                     <Name>impl_t</Name>
                     <Path>structotto_1_1core_1_1props_1_1_hook_tag.html</Path>
                     <Anchor>ac6e967edcf0fe49fababb4dd8e8f7a95</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>requires_</Name>
-                    <Path>structotto_1_1core_1_1props_1_1_hook_tag.html</Path>
-                    <Anchor>a200731693e289fbb003b7fe03c16f176</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2882,11 +2989,6 @@
                     <Name>arg_type</Name>
                     <Path>structotto_1_1core_1_1props_1_1_hook_with_value.html</Path>
                     <Anchor>aa37d58fa9abe0c19de5166076c12dcd0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>requires_</Name>
-                    <Path>structotto_1_1core_1_1props_1_1_hook_with_value.html</Path>
-                    <Anchor>af0134e77cd138993ceaee25558d5dca9</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2924,11 +3026,6 @@
                     <Path>structotto_1_1core_1_1props_1_1_mixin_impl.html</Path>
                     <Anchor>a9cb2a25cb97e48e9640b0a273c33f1d1</Anchor>
                    </Node>
-                   <Node>
-                    <Name>requires_</Name>
-                    <Path>structotto_1_1core_1_1props_1_1_mixin_impl.html</Path>
-                    <Anchor>a2a1d70614591812be6a3aa0edf4985b2</Anchor>
-                   </Node>
                   </Subnodes>
                  </Node>
                  <Node>
@@ -2955,32 +3052,12 @@
                     <Path>structotto_1_1core_1_1props_1_1_mixin_tag.html</Path>
                     <Anchor>a2414f218976b5650f5f01708bb28d5ee</Anchor>
                    </Node>
-                   <Node>
-                    <Name>requires_</Name>
-                    <Path>structotto_1_1core_1_1props_1_1_mixin_tag.html</Path>
-                    <Anchor>a8fc9fb79c8d520637874fe35b4d5b002</Anchor>
-                   </Node>
                   </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>MixinValue</Name>
-                  <Path>structotto_1_1core_1_1props_1_1_mixin_value.html</Path>
                  </Node>
                  <Node>
                   <Name>no</Name>
                   <Path>namespaceotto_1_1core_1_1props.html</Path>
                   <Anchor>structotto_1_1core_1_1props_1_1no</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>NonVoid</Name>
-                  <Path>structotto_1_1core_1_1props_1_1_non_void.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>requires_</Name>
-                    <Path>structotto_1_1core_1_1props_1_1_non_void.html</Path>
-                    <Anchor>a4a7d34e49a61b80e01b2f324f1cea19f</Anchor>
-                   </Node>
-                  </Subnodes>
                  </Node>
                  <Node>
                   <Name>normalize_tags</Name>
@@ -5325,7 +5402,7 @@
                    <Node>
                     <Name>iterator</Name>
                     <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
-                    <Anchor>a815e401bad3ad6c129ac24f7c7cf6a6a</Anchor>
+                    <Anchor>a443fc3c7009e08b41169bfaf6da3440e</Anchor>
                    </Node>
                    <Node>
                     <Name>iterator</Name>
@@ -5355,7 +5432,7 @@
                    <Node>
                     <Name>index</Name>
                     <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
-                    <Anchor>a2d40e6dfa4c534b1945c4d803a9344e5</Anchor>
+                    <Anchor>a76109f5678a91cc4a28f0295803d56c1</Anchor>
                    </Node>
                    <Node>
                     <Name>sample</Name>
@@ -5407,12 +5484,12 @@
                  <Node>
                   <Name>start_point</Name>
                   <Path>structotto_1_1engines_1_1_sample.html</Path>
-                  <Anchor>a9c14e4dda1313d5b692790c80d7cffb5</Anchor>
+                  <Anchor>a3fc022e6cfe78bb18bdf6029d797e159</Anchor>
                  </Node>
                  <Node>
                   <Name>end_point</Name>
                   <Path>structotto_1_1engines_1_1_sample.html</Path>
-                  <Anchor>af5fd967df6b8d4e86048400455553d82</Anchor>
+                  <Anchor>a4af11dfb3043858d1b973c93d344dbc5</Anchor>
                  </Node>
                  <Node>
                   <Name>loop_start</Name>
@@ -5427,12 +5504,12 @@
                  <Node>
                   <Name>start_point</Name>
                   <Path>structotto_1_1engines_1_1_sample.html</Path>
-                  <Anchor>af5092918b2079ca54a5caea7b0364c4d</Anchor>
+                  <Anchor>a19f8436ff98fa9b21062f8cef75a6178</Anchor>
                  </Node>
                  <Node>
                   <Name>end_point</Name>
                   <Path>structotto_1_1engines_1_1_sample.html</Path>
-                  <Anchor>a741b4e99e5f830d46920ac461f176cc9</Anchor>
+                  <Anchor>a55a2de6eb448ac57b8212ecdb90e5d2a</Anchor>
                  </Node>
                  <Node>
                   <Name>loop_start</Name>
@@ -7520,12 +7597,22 @@
                  <Node>
                   <Name>samplerate</Name>
                   <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                  <Anchor>a306b678f47f70df1e7576e3c2d8591e4</Anchor>
+                  <Anchor>a5c2ca5894c7912b49f646c2e439df689</Anchor>
                  </Node>
                  <Node>
-                  <Name>process_audio_output</Name>
+                  <Name>buffer_size</Name>
                   <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                  <Anchor>abb9570469df074fdfd23517b98306fad</Anchor>
+                  <Anchor>afc145b6ed7d4f97516863803ab6c4138</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>buffer_number</Name>
+                  <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                  <Anchor>a1b69d49a3f98f2951eeec06205890909</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>wait_one</Name>
+                  <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                  <Anchor>ab02fb3266b1eaf02c502b0c1635f2ce4</Anchor>
                  </Node>
                  <Node>
                   <Name>start</Name>
@@ -7555,7 +7642,17 @@
                  <Node>
                   <Name>_samplerate</Name>
                   <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                  <Anchor>ab117b04fd4aa7753d402a347ad9706bf</Anchor>
+                  <Anchor>a0c5f1a2bb33436edf77895b4a92abe5f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_buffer_size</Name>
+                  <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                  <Anchor>aede979ff0b3bbc87ecb5d5a45ff52263</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_buffer_number</Name>
+                  <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                  <Anchor>a4aae83262ac849bf6e989ca14523f639</Anchor>
                  </Node>
                  <Node>
                   <Name>_cpu_time</Name>
@@ -7628,7 +7725,7 @@
                  <Node>
                   <Name>by_name</Name>
                   <Path>structotto_1_1services_1_1_engine_manager.html</Path>
-                  <Anchor>a23c130ea465e5d901048f5b38d8e2624</Anchor>
+                  <Anchor>a34489f2cb3c4523008c9661a48217471</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -7708,32 +7805,32 @@
                  <Node>
                   <Name>preset_names</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>acd3a2dd0a44e58066b58314c17057821</Anchor>
+                  <Anchor>afd4ce30c5acf27aa88ba5f536ef1e995</Anchor>
                  </Node>
                  <Node>
                   <Name>name_of_idx</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a2974b3d29e5aa8d9cb4f68c6d208c801</Anchor>
+                  <Anchor>a3e1b9aaeae4da72063309d0858467526</Anchor>
                  </Node>
                  <Node>
                   <Name>idx_of_name</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>ad4bc5058f00294a16954fd451eb17813</Anchor>
+                  <Anchor>a2cddcce8961db5455e9863ec79383950</Anchor>
                  </Node>
                  <Node>
                   <Name>apply_preset</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a20f54ab91e63b9c026583916cb8956c7</Anchor>
+                  <Anchor>a52e13b411eb15ef9dbe77e541cc2fb9c</Anchor>
                  </Node>
                  <Node>
                   <Name>apply_preset</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a3e54b89a8696afb4d92c66f43446dfc7</Anchor>
+                  <Anchor>a3f2fc6aab9b4fa393436673bc85f8501</Anchor>
                  </Node>
                  <Node>
                   <Name>create_preset</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>ac75b71b9e519c3d2cecdb13cca861cae</Anchor>
+                  <Anchor>adc62d579462f500b2c2d099e2f78f591</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -7775,11 +7872,6 @@
                   <Name>midi_out</Name>
                   <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
                   <Anchor>aac6f79059447bf95f257116eb715afba</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>buffer_size</Name>
-                  <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
-                  <Anchor>a5c9cdbf0680a023e0709b10483e58598</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -9090,6 +9182,117 @@
                   <Name>swap</Name>
                   <Path>structotto_1_1util_1_1atomic__swap.html</Path>
                   <Anchor>aca95110170370db146100c4115ec5c90</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>basic_variant_w_base</Name>
+                <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>basic_variant_w_base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>abe61bc7497a0fb9ced1833c9b09abb72</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>basic_variant_w_base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a04ae933fb09e1ae4b92a421b2953f6ba</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>basic_variant_w_base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a0333d5408b934577995639faa87d5c76</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>basic_variant_w_base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a42c1d39be4ec4009302b0acedc87c78c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>basic_variant_w_base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>ae0583bfcbfe5e335da7866db8929ac03</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>basic_variant_w_base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a55c0804b3be0334c8eedc23f70b03ece</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a634e049b293c76e3104c3bbf8f8bbdac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a107578fbe8a825b6e1f14b233699d3b2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a844b91ac97bd40bcd6cbfcfe7af71ce7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a9863f165b91326d96959c56b0636be11</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator=</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a491792b84b8ea39b3ffa7eed23720a4c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>emplace</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>ad9461629ccb74b87ff6bf65b7c41fb57</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>emplace</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>aeedc3441be379bb5649fc8ec10085d84</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator==</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a19709c60fcf2f62825f3cdd5bdba0e07</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator!=</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>aa0765997077423b2e2fc1c2e6893d07a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>aff10e439793a8f9b6fa952e0d356c3ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a6f78313dd5a5ebe54ff81d72c69c991b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator-&gt;</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a2d0ce55693c3c4c9a228b547a469ba7c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator-&gt;</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>ae3c59732e693bba2c191bd3fe29ca443</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>index</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a0857cda62a0513179f4787521c099570</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>variant</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Anchor>a98601a657cca0f2a5b59b3194e6be1d9</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -10612,6 +10815,53 @@
                   <Name>slices</Name>
                   <Path>classotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>a140a927638a5d068d9a2c6f1cfdfc9e3</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>thread</Name>
+                <Path>structotto_1_1util_1_1thread.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>thread</Name>
+                  <Path>structotto_1_1util_1_1thread.html</Path>
+                  <Anchor>a4002f664eabc18072a2493778c4fb3cc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~thread</Name>
+                  <Path>structotto_1_1util_1_1thread.html</Path>
+                  <Anchor>ae2ebcf3ef08e89eb5316ea625427ec95</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>join</Name>
+                  <Path>structotto_1_1util_1_1thread.html</Path>
+                  <Anchor>a357a13d6ee06c13bfe7cb733fe0c06eb</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>triggered_thread</Name>
+                <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>triggered_thread</Name>
+                  <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                  <Anchor>ab7c650332e9662255270f11223209864</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~triggered_thread</Name>
+                  <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                  <Anchor>a863051bb6076d969071ef028c8fe5f1d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>trigger</Name>
+                  <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                  <Anchor>af10cc2c90e8a8f8550803ebc6bb30e8f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>join</Name>
+                  <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                  <Anchor>a274e1c0728ebbcaafabd86090da469e3</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -12511,96 +12761,6 @@
             <Path>structotto_1_1util_1_1iterator_1_1_adjacent_range.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::AnyEngine</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>otto::core::engine::Engine&lt; EngineType::misc &gt;</Name>
-              <Path>structotto_1_1core_1_1engine_1_1_engine.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>otto::engines::Master</Name>
-                <Path>structotto_1_1engines_1_1_master.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Sequencer</Name>
-                <Path>structotto_1_1engines_1_1_sequencer.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>otto::core::engine::Engine&lt; ET &gt;</Name>
-              <Path>structotto_1_1core_1_1engine_1_1_engine.html</Path>
-             </Node>
-             <Node>
-              <Name>otto::core::engine::Engine&lt; EngineType::arpeggiator &gt;</Name>
-              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>otto::engines::Euclid</Name>
-                <Path>structotto_1_1engines_1_1_euclid.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>otto::core::engine::Engine&lt; EngineType::effect &gt;</Name>
-              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1effect_01_4.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>otto::engines::Chorus</Name>
-                <Path>structotto_1_1engines_1_1_chorus.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Pingpong</Name>
-                <Path>structotto_1_1engines_1_1_pingpong.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Wormhole</Name>
-                <Path>structotto_1_1engines_1_1_wormhole.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>otto::core::engine::Engine&lt; EngineType::synth &gt;</Name>
-              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1synth_01_4.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>otto::engines::GossSynth</Name>
-                <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::HammondSynth</Name>
-                <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::NukeSynth</Name>
-                <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::OTTOFMSynth</Name>
-                <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::PotionSynth</Name>
-                <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::RhodesSynth</Name>
-                <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Sampler</Name>
-                <Path>structotto_1_1engines_1_1_sampler.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>otto::core::engine::Engine&lt; EngineType::twist &gt;</Name>
-              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1twist_01_4.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>otto::services::ApplicationHandler</Name>
             <Path>structotto_1_1services_1_1_application_handler.html</Path>
             <Subnodes>
@@ -12642,6 +12802,14 @@
            <Node>
             <Name>otto::core::audio::AudioBufferPool</Name>
             <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::basic_variant_w_base&lt; Base, Variant &gt;</Name>
+            <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::basic_variant_w_base&lt; Engine, Engines... &gt;</Name>
+            <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
            </Node>
            <Node>
             <Name>otto::core::ui::vg::Box</Name>
@@ -12969,11 +13137,6 @@
             <Path>structotto_1_1core_1_1engine_1_1internal_1_1engine__type__impl.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::EngineDispatcher&lt; ET &gt;::EngineFactory</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-            <Anchor>structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory</Anchor>
-           </Node>
-           <Node>
             <Name>otto::core::engine::EngineWithEnvelope</Name>
             <Path>structotto_1_1core_1_1engine_1_1_engine_with_envelope.html</Path>
             <Subnodes>
@@ -13249,11 +13412,117 @@
             <Path>structotto_1_1core_1_1props_1_1_hook_tag.html</Path>
            </Node>
            <Node>
+            <Name>otto::core::props::HookWithValue</Name>
+            <Path>structotto_1_1core_1_1props_1_1_hook_with_value.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::IEngine</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>otto::core::engine::Engine&lt; EngineType::misc &gt;</Name>
+              <Path>structotto_1_1core_1_1engine_1_1_engine.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::engines::Master</Name>
+                <Path>structotto_1_1engines_1_1_master.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Sequencer</Name>
+                <Path>structotto_1_1engines_1_1_sequencer.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>otto::core::engine::Engine&lt; ET &gt;</Name>
+              <Path>structotto_1_1core_1_1engine_1_1_engine.html</Path>
+             </Node>
+             <Node>
+              <Name>otto::core::engine::Engine&lt; EngineType::arpeggiator &gt;</Name>
+              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;</Name>
+                <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Euclid</Name>
+                <Path>structotto_1_1engines_1_1_euclid.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>otto::core::engine::Engine&lt; EngineType::effect &gt;</Name>
+              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;</Name>
+                <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Chorus</Name>
+                <Path>structotto_1_1engines_1_1_chorus.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Pingpong</Name>
+                <Path>structotto_1_1engines_1_1_pingpong.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Wormhole</Name>
+                <Path>structotto_1_1engines_1_1_wormhole.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>otto::core::engine::Engine&lt; EngineType::synth &gt;</Name>
+              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;</Name>
+                <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::GossSynth</Name>
+                <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::HammondSynth</Name>
+                <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::NukeSynth</Name>
+                <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::OTTOFMSynth</Name>
+                <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::PotionSynth</Name>
+                <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::RhodesSynth</Name>
+                <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Sampler</Name>
+                <Path>structotto_1_1engines_1_1_sampler.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>otto::core::engine::Engine&lt; EngineType::twist &gt;</Name>
+              <Path>structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1twist_01_4.html</Path>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>otto::core::engine::IEngineDispatcher</Name>
             <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
             <Subnodes>
              <Node>
-              <Name>otto::core::engine::EngineDispatcher&lt; ET &gt;</Name>
+              <Name>otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</Name>
               <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
              </Node>
             </Subnodes>
@@ -13507,13 +13776,13 @@
             <Path>structotto_1_1board_1_1ui_1_1_modifiers.html</Path>
            </Node>
            <Node>
+            <Name>otto::core::engine::name_of_engine&lt; Engine &gt;</Name>
+            <Path>structotto_1_1core_1_1engine_1_1name__of__engine.html</Path>
+           </Node>
+           <Node>
             <Name>otto::core::props::no&lt; Tag &gt;</Name>
             <Path>namespaceotto_1_1core_1_1props.html</Path>
             <Anchor>structotto_1_1core_1_1props_1_1no</Anchor>
-           </Node>
-           <Node>
-            <Name>otto::core::props::NonVoid</Name>
-            <Path>structotto_1_1core_1_1props_1_1_non_void.html</Path>
            </Node>
            <Node>
             <Name>otto::core::props::normalize_tags&lt; TagList &gt;</Name>
@@ -13523,6 +13792,11 @@
            <Node>
             <Name>otto::core::audio::NoteVoicePair</Name>
             <Path>structotto_1_1core_1_1audio_1_1_note_voice_pair.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; ET &gt;</Name>
+            <Path>namespaceotto_1_1core_1_1engine.html</Path>
+            <Anchor>structotto_1_1core_1_1engine_1_1_null_engine</Anchor>
            </Node>
            <Node>
             <Name>otto::core::props::mixin::hooks&lt; has_limits &gt;::on_exceeded</Name>
@@ -13673,20 +13947,6 @@
            <Node>
             <Name>otto::filesystem::recursive_directory_iterator</Name>
             <Path>classotto_1_1filesystem_1_1recursive__directory__iterator.html</Path>
-           </Node>
-           <Node>
-            <Name>refines</Name>
-            <Path></Path>
-            <Subnodes>
-             <Node>
-              <Name>otto::core::props::HookWithValue</Name>
-              <Path>structotto_1_1core_1_1props_1_1_hook_with_value.html</Path>
-             </Node>
-             <Node>
-              <Name>otto::core::props::MixinValue</Name>
-              <Path>structotto_1_1core_1_1props_1_1_mixin_value.html</Path>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>otto::meta::remove&lt; List, T &gt;</Name>
@@ -13953,6 +14213,10 @@
             <Anchor>structotto_1_1meta_1_1tail_3_01list_3_01_t_00_01_types_8_8_8_01_4_01_4</Anchor>
            </Node>
            <Node>
+            <Name>otto::util::thread</Name>
+            <Path>structotto_1_1util_1_1thread.html</Path>
+           </Node>
+           <Node>
             <Name>otto::meta::impl::transform_to_tuple&lt; List &gt;</Name>
             <Path>namespaceotto_1_1meta_1_1impl.html</Path>
             <Anchor>structotto_1_1meta_1_1impl_1_1transform__to__tuple</Anchor>
@@ -13979,6 +14243,10 @@
            <Node>
             <Name>otto::meta::impl::transform_to_tuple_impl&lt;&gt;</Name>
             <Path>structotto_1_1meta_1_1impl_1_1transform__to__tuple__impl_3_4.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::triggered_thread</Name>
+            <Path>structotto_1_1util_1_1triggered__thread.html</Path>
             <Subnodes>
              <Node>
               <Name>otto::util::is_equal_comparable&lt; T1, T1 &gt;</Name>
@@ -14015,12 +14283,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
            </Node>
            <Node>
             <Name>UIManager</Name>
@@ -14077,10 +14345,6 @@
             <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::dsp::Window</Name>
-            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
-           </Node>
-           <Node>
             <Name>otto::glfw::Window</Name>
             <Path>structotto_1_1glfw_1_1_window.html</Path>
             <Subnodes>
@@ -14089,6 +14353,10 @@
               <Path>structotto_1_1glfw_1_1_n_v_g_window.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>otto::util::dsp::Window</Name>
+            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;</Name>
@@ -14628,11 +14896,6 @@
                             <Name>midi_out</Name>
                             <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
                             <Anchor>aac6f79059447bf95f257116eb715afba</Anchor>
-                           </Node>
-                           <Node>
-                            <Name>buffer_size</Name>
-                            <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
-                            <Anchor>a5c9cdbf0680a023e0709b10483e58598</Anchor>
                            </Node>
                           </Subnodes>
                          </Node>
@@ -20563,6 +20826,11 @@
                       <Anchor>ac7ac998f2bab191ce1f3d4e27521f591</Anchor>
                      </Node>
                      <Node>
+                      <Name>pointer</Name>
+                      <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
+                      <Anchor>a1e1cad435f9623713dc9f1a75492697a</Anchor>
+                     </Node>
+                     <Node>
                       <Name>const_iterator</Name>
                       <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
                       <Anchor>a255ad10feb4424f9a040e28cf8441e8e</Anchor>
@@ -21157,84 +21425,90 @@
                   <Path>engine_8hpp.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>AnyEngine</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
+                    <Name>IEngine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
                     <Subnodes>
                      <Node>
-                      <Name>AnyEngine</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a569a96572dde4ab647797d3f28a0cfe3</Anchor>
+                      <Name>IEngine</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a9f4b4cfe66dec401636e571380d7d6ae</Anchor>
                      </Node>
                      <Node>
-                      <Name>AnyEngine</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a280e6a6f9adad749791ec8900af2cb92</Anchor>
+                      <Name>IEngine</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a65df4332b4d6fd7ff6677586acd4e9c4</Anchor>
                      </Node>
                      <Node>
-                      <Name>~AnyEngine</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>abb44c6fa9c04a201342ceec7d4681bfd</Anchor>
+                      <Name>~IEngine</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>ae4140c99a20231a8bec727cfdc43fde7</Anchor>
                      </Node>
                      <Node>
                       <Name>on_enable</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a393f5280478e9262bdc621c9e27e6e0f</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a187e5377087194bf471a27181f5dae61</Anchor>
                      </Node>
                      <Node>
                       <Name>on_disable</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>ae526f7f9b6323f5e7e32c0cac2c32c81</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a8e43011670d9aee35e756f5796facbdf</Anchor>
                      </Node>
                      <Node>
                       <Name>name</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a6202ffd30ee96989d0f15395479251f2</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>afb8bd8ee608862faa112daedc7961e36</Anchor>
                      </Node>
                      <Node>
                       <Name>screen</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a1d47762e1c23e75f65bf6811cfff9fc7</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a67d393d34b2f2e61568ab4fbb7c4ee53</Anchor>
                      </Node>
                      <Node>
                       <Name>screen</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a913081b4c17a0c953d8b4beaf3ee0e0b</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>acee8ecb3bc404f484cebb6047f02e5ea</Anchor>
                      </Node>
                      <Node>
                       <Name>current_preset</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a47357ecd836e5d2c275f53f216c07801</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a1fa07701f2e348ce8cda1ddb7d7bd87a</Anchor>
                      </Node>
                      <Node>
                       <Name>current_preset</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a06eb08a2d296ab387bf22e1edbdcc407</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>aabce2bc83300d768b49984507e38f7cb</Anchor>
                      </Node>
                      <Node>
                       <Name>to_json</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>a3c39faa6e1e6157a712804e81e6f8e50</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a1b7d5227a5917222898cfdda43ccca54</Anchor>
                      </Node>
                      <Node>
                       <Name>from_json</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>ae8cc58f1238000ad0388539304a46b68</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a8ac4b7b5a3b38c442eb0b81dbb07e0fc</Anchor>
                      </Node>
                      <Node>
                       <Name>props</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>aa058bc66a05123d08fc227f5f6383260</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a438e92ce21008f77c22fd695d92cd3cf</Anchor>
                      </Node>
                      <Node>
                       <Name>props</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_any_engine.html</Path>
-                      <Anchor>ae020f2ea1fc4e58bc0780d1fadf0785a</Anchor>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine.html</Path>
+                      <Anchor>a21c8e7a374358cd06e6661e104d71911</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>Engine</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine.html</Path>
+                   </Node>
+                   <Node>
+                    <Name>name_of_engine</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1name__of__engine.html</Path>
+                    <Subnodes>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>Engine&lt; EngineType::synth &gt;</Name>
@@ -21363,6 +21637,11 @@
                     <Anchor>ac2cbdac55d70f2e6fd796857a12aa538</Anchor>
                    </Node>
                    <Node>
+                    <Name>name_of_engine_v</Name>
+                    <Path>engine_8hpp.html</Path>
+                    <Anchor>a698d5d04a2614ac2139362c4ed86e81e</Anchor>
+                   </Node>
+                   <Node>
                     <Name>engine_type_v</Name>
                     <Path>engine_8hpp.html</Path>
                     <Anchor>ae297e40eb5301c1c5a32ede39e4933c9</Anchor>
@@ -21378,6 +21657,11 @@
                     <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
                     <Subnodes>
                      <Node>
+                      <Name>IEngineDispatcher</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                      <Anchor>a1b6c1e7e2f179d9a9a9faaae0d098440</Anchor>
+                     </Node>
+                     <Node>
                       <Name>~IEngineDispatcher</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
                       <Anchor>a65263d64851f05e8547255685335d55d</Anchor>
@@ -21385,12 +21669,37 @@
                      <Node>
                       <Name>current</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
-                      <Anchor>a956dca66cf354fc16d98e0dc13b2f3dd</Anchor>
+                      <Anchor>a42d607ff5380601f90d0b874da19f8e1</Anchor>
                      </Node>
                      <Node>
                       <Name>current</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
-                      <Anchor>aceb9cd0ed115db15135ccc056e36244c</Anchor>
+                      <Anchor>a681d94f5e15ec03f7979d986d9775897</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>current_idx</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                      <Anchor>a7b6208c94533eff41801af0b44741836</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>select</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                      <Anchor>a92f1589848e5861a3f7ef0bd73eee883</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>select</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                      <Anchor>ac41aa166ec9c9af3354c8a3fc12fe114</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>make_name_list</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                      <Anchor>afff9607de95ee782afe7d51b579bb5eb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>allow_off</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html</Path>
+                      <Anchor>af5b109ce96d118675641660975aac701</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -21399,31 +21708,24 @@
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
                     <Subnodes>
                      <Node>
-                      <Name>EngineFactory</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory</Anchor>
-                      <Subnodes>
-                       <Node>
-                        <Name>name</Name>
-                        <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                        <Anchor>ab85683b5f13098016566c597d37bf812</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>construct</Name>
-                        <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                        <Anchor>ab5c8471935553e375560ff626c9285fd</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>data</Name>
-                        <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                        <Anchor>a644831ce624343a5bcfc959837fa32bb</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
                       <Name>exception</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a09d1584488bb1fcdbcffd710e09b4553</Anchor>
+                      <Anchor>adcce5a0bc86d882c44733428ddf87684</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Engine</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>a7743b9be5391c46e5d2d6c472950d682</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>variant</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>ae5d371a37b544292914d696082ce4899</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>DataMap</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>a47d8702c4b34076e5f7849e1a1c8353c</Anchor>
                      </Node>
                      <Node>
                       <Name>ErrorCode</Name>
@@ -21448,105 +21750,82 @@
                       </Subnodes>
                      </Node>
                      <Node>
+                      <Name>EngineDispatcher</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>a34251e6ab205f0dbd3cf11841f75b9ed</Anchor>
+                     </Node>
+                     <Node>
                       <Name>init</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>af6e93451ad4d5982ff92478d317336a9</Anchor>
+                      <Anchor>a632970095815fd82648b78d139dc52cc</Anchor>
                      </Node>
                      <Node>
                       <Name>current</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a0188825a04ca438403cc68ba5a92d6ec</Anchor>
+                      <Anchor>a0741ed184dad25c646715ffd1ac8ad6a</Anchor>
                      </Node>
                      <Node>
                       <Name>current</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a749bfe7ac9e8c1746bd5ada142656f1e</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>operator-&gt;</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a9945db08270305708facba53a39180f8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>operator-&gt;</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>afa695fc11f6d07bd40dad8db6bced64e</Anchor>
+                      <Anchor>a8b5e655ecf2eca4273d2eb9ef2ceee50</Anchor>
                      </Node>
                      <Node>
                       <Name>current_idx</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>ab36733c038c14ceb99f3e447ba03383c</Anchor>
+                      <Anchor>aed057ec3e0fae540cb3f3d4463420b70</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator-&gt;</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>a04bf45b2c6e45f18f632d76a9cfcc235</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator-&gt;</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
+                      <Anchor>a70f0c9ce44514c28214612414f61ea09</Anchor>
                      </Node>
                      <Node>
                       <Name>select</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>af3e39c52a9d5523cc6283625b92e2211</Anchor>
+                      <Anchor>a6f923b3eaf3a3a70f3e28af1201e38b6</Anchor>
                      </Node>
                      <Node>
                       <Name>select</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a081abadd8f0965f657a035c6e7c942dd</Anchor>
+                      <Anchor>a77a7388e83228057b9fb32d167bd9c77</Anchor>
                      </Node>
                      <Node>
-                      <Name>select</Name>
+                      <Name>make_name_list</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a896ffcdd7e2a642fc6dc21935e318ec7</Anchor>
+                      <Anchor>ab8f3270ede871872814967b6935b1f6f</Anchor>
                      </Node>
                      <Node>
                       <Name>selector_screen</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a2830d941c130d1e939464978322f2aea</Anchor>
+                      <Anchor>a8625da567040af5480cdb9687b655dd2</Anchor>
                      </Node>
                      <Node>
-                      <Name>register_factory</Name>
+                      <Name>data_of_engines</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a8b82b320157f3115474cee051df9aaa6</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>register_engine</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>af097a6901187a5db3cb411099b10ce82</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>engine_factories</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a88b4b71c7b7228f38a0358aaa5d0c397</Anchor>
+                      <Anchor>af42a1ab096a4ec84d5f0a44428030bc0</Anchor>
                      </Node>
                      <Node>
                       <Name>to_json</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a912e65ff451fe879394ee1b641209dd2</Anchor>
+                      <Anchor>a086268924df2eb441b01f1d4354fed80</Anchor>
                      </Node>
                      <Node>
                       <Name>from_json</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>ae6ddb553e96caba392d635d93a640609</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>EngineFactory</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>structotto_1_1core_1_1engine_1_1_engine_dispatcher_1_1_engine_factory</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>name</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>ab85683b5f13098016566c597d37bf812</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>construct</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>ab5c8471935553e375560ff626c9285fd</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>data</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a644831ce624343a5bcfc959837fa32bb</Anchor>
+                      <Anchor>a3a23104efef96a78aa9de33b7cf5ead1</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                   </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>engine_dispatcher.impl.hpp</Name>
+                  <Path>engine__dispatcher_8impl_8hpp.html</Path>
                  </Node>
                  <Node>
                   <Name>engine_selector_screen.hpp</Name>
@@ -21559,7 +21838,7 @@
                      <Node>
                       <Name>EngineSelectorScreen</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_selector_screen.html</Path>
-                      <Anchor>a2156ebd52997a6e05f0c1b2091566040</Anchor>
+                      <Anchor>a5f45481407c1874a6700c5b56bec69ea</Anchor>
                      </Node>
                      <Node>
                       <Name>rotary</Name>
@@ -21585,6 +21864,80 @@
                       <Name>on_hide</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_selector_screen.html</Path>
                       <Anchor>a3d0f97f0dfb77915f1a62c1fd563cb22</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>nullengine.hpp</Name>
+                  <Path>nullengine_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>NullEngine</Name>
+                    <Path>namespaceotto_1_1core_1_1engine.html</Path>
+                    <Anchor>structotto_1_1core_1_1engine_1_1_null_engine</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>NullEngine&lt; EngineType::effect &gt;</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>NullEngine</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                      <Anchor>a977e668cabe82ee48b7ba783b80be111</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>process</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                      <Anchor>afe6277fd49f1a929064b02a9b17b7891</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>props</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
+                      <Anchor>ac7f4fa6209324f7325f28c4a3584f991</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>NullEngine&lt; EngineType::arpeggiator &gt;</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>NullEngine</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                      <Anchor>a98c7480bef7942da61311c6c02e9a29e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>process</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                      <Anchor>a3050faa6dc76997cf10eed2f3979aba9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>props</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
+                      <Anchor>a0db665ecd1a17d05d9801ee035b9b241</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>NullEngine&lt; EngineType::synth &gt;</Name>
+                    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>NullEngine</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                      <Anchor>a8e878a8f0ae47af84523eed44c635994</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>process</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                      <Anchor>a728b6a2fdacba62389a3f80e23ba64c6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>props</Name>
+                      <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+                      <Anchor>af2b2df0db8b3f76f361b459a3002f1d4</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -22567,33 +22920,13 @@
                       </Subnodes>
                      </Node>
                      <Node>
-                      <Name>NonVoid</Name>
-                      <Path>structotto_1_1core_1_1props_1_1_non_void.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>requires_</Name>
-                        <Path>structotto_1_1core_1_1props_1_1_non_void.html</Path>
-                        <Anchor>a4a7d34e49a61b80e01b2f324f1cea19f</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
-                      <Name>MixinValue</Name>
-                      <Path>structotto_1_1core_1_1props_1_1_mixin_value.html</Path>
-                     </Node>
-                     <Node>
                       <Name>Hook</Name>
                       <Path>structotto_1_1core_1_1props_1_1_hook.html</Path>
                       <Subnodes>
                        <Node>
                         <Name>value_type</Name>
                         <Path>structotto_1_1core_1_1props_1_1_hook.html</Path>
-                        <Anchor>a1cae93ec7a3ac5fd1028af1e10b602e4</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>requires_</Name>
-                        <Path>structotto_1_1core_1_1props_1_1_hook.html</Path>
-                        <Anchor>ac254ec7f6377a116f2cbe404b55189ab</Anchor>
+                        <Anchor>a88c3fda6a1981dcfab7e95e021d4504d</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -22611,11 +22944,6 @@
                         <Path>structotto_1_1core_1_1props_1_1_hook_with_value.html</Path>
                         <Anchor>aa37d58fa9abe0c19de5166076c12dcd0</Anchor>
                        </Node>
-                       <Node>
-                        <Name>requires_</Name>
-                        <Path>structotto_1_1core_1_1props_1_1_hook_with_value.html</Path>
-                        <Anchor>af0134e77cd138993ceaee25558d5dca9</Anchor>
-                       </Node>
                       </Subnodes>
                      </Node>
                      <Node>
@@ -22627,11 +22955,6 @@
                         <Path>structotto_1_1core_1_1props_1_1_hook_tag.html</Path>
                         <Anchor>ac6e967edcf0fe49fababb4dd8e8f7a95</Anchor>
                        </Node>
-                       <Node>
-                        <Name>requires_</Name>
-                        <Path>structotto_1_1core_1_1props_1_1_hook_tag.html</Path>
-                        <Anchor>a200731693e289fbb003b7fe03c16f176</Anchor>
-                       </Node>
                       </Subnodes>
                      </Node>
                      <Node>
@@ -22642,11 +22965,6 @@
                         <Name>hook_t</Name>
                         <Path>structotto_1_1core_1_1props_1_1_mixin_impl.html</Path>
                         <Anchor>a9cb2a25cb97e48e9640b0a273c33f1d1</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>requires_</Name>
-                        <Path>structotto_1_1core_1_1props_1_1_mixin_impl.html</Path>
-                        <Anchor>a2a1d70614591812be6a3aa0edf4985b2</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -22674,11 +22992,6 @@
                         <Path>structotto_1_1core_1_1props_1_1_mixin_tag.html</Path>
                         <Anchor>a2414f218976b5650f5f01708bb28d5ee</Anchor>
                        </Node>
-                       <Node>
-                        <Name>requires_</Name>
-                        <Path>structotto_1_1core_1_1props_1_1_mixin_tag.html</Path>
-                        <Anchor>a8fc9fb79c8d520637874fe35b4d5b002</Anchor>
-                       </Node>
                       </Subnodes>
                      </Node>
                      <Node>
@@ -22690,6 +23003,11 @@
                       <Name>required_tags_t</Name>
                       <Path>core_2props_2internal_2type__traits_8hpp.html</Path>
                       <Anchor>a524744338fe5162cde723c8c4bbdae48</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>is_MixinValue</Name>
+                      <Path>core_2props_2internal_2type__traits_8hpp.html</Path>
+                      <Anchor>a7b886579296f40430df9792243504922</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -26359,7 +26677,7 @@
                          <Node>
                           <Name>iterator</Name>
                           <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
-                          <Anchor>a815e401bad3ad6c129ac24f7c7cf6a6a</Anchor>
+                          <Anchor>a443fc3c7009e08b41169bfaf6da3440e</Anchor>
                          </Node>
                          <Node>
                           <Name>iterator</Name>
@@ -26389,7 +26707,7 @@
                          <Node>
                           <Name>index</Name>
                           <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
-                          <Anchor>a2d40e6dfa4c534b1945c4d803a9344e5</Anchor>
+                          <Anchor>a76109f5678a91cc4a28f0295803d56c1</Anchor>
                          </Node>
                          <Node>
                           <Name>sample</Name>
@@ -26441,12 +26759,12 @@
                        <Node>
                         <Name>start_point</Name>
                         <Path>structotto_1_1engines_1_1_sample.html</Path>
-                        <Anchor>a9c14e4dda1313d5b692790c80d7cffb5</Anchor>
+                        <Anchor>a3fc022e6cfe78bb18bdf6029d797e159</Anchor>
                        </Node>
                        <Node>
                         <Name>end_point</Name>
                         <Path>structotto_1_1engines_1_1_sample.html</Path>
-                        <Anchor>af5fd967df6b8d4e86048400455553d82</Anchor>
+                        <Anchor>a4af11dfb3043858d1b973c93d344dbc5</Anchor>
                        </Node>
                        <Node>
                         <Name>loop_start</Name>
@@ -26461,12 +26779,12 @@
                        <Node>
                         <Name>start_point</Name>
                         <Path>structotto_1_1engines_1_1_sample.html</Path>
-                        <Anchor>af5092918b2079ca54a5caea7b0364c4d</Anchor>
+                        <Anchor>a19f8436ff98fa9b21062f8cef75a6178</Anchor>
                        </Node>
                        <Node>
                         <Name>end_point</Name>
                         <Path>structotto_1_1engines_1_1_sample.html</Path>
-                        <Anchor>a741b4e99e5f830d46920ac461f176cc9</Anchor>
+                        <Anchor>a55a2de6eb448ac57b8212ecdb90e5d2a</Anchor>
                        </Node>
                        <Node>
                         <Name>loop_start</Name>
@@ -26507,7 +26825,7 @@
                        <Node>
                         <Name>iterator</Name>
                         <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
-                        <Anchor>a815e401bad3ad6c129ac24f7c7cf6a6a</Anchor>
+                        <Anchor>a443fc3c7009e08b41169bfaf6da3440e</Anchor>
                        </Node>
                        <Node>
                         <Name>iterator</Name>
@@ -26537,7 +26855,7 @@
                        <Node>
                         <Name>index</Name>
                         <Path>structotto_1_1engines_1_1_sample_1_1iterator.html</Path>
-                        <Anchor>a2d40e6dfa4c534b1945c4d803a9344e5</Anchor>
+                        <Anchor>a76109f5678a91cc4a28f0295803d56c1</Anchor>
                        </Node>
                        <Node>
                         <Name>sample</Name>
@@ -26909,12 +27227,22 @@
                    <Node>
                     <Name>samplerate</Name>
                     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                    <Anchor>a306b678f47f70df1e7576e3c2d8591e4</Anchor>
+                    <Anchor>a5c2ca5894c7912b49f646c2e439df689</Anchor>
                    </Node>
                    <Node>
-                    <Name>process_audio_output</Name>
+                    <Name>buffer_size</Name>
                     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                    <Anchor>abb9570469df074fdfd23517b98306fad</Anchor>
+                    <Anchor>afc145b6ed7d4f97516863803ab6c4138</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>buffer_number</Name>
+                    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                    <Anchor>a1b69d49a3f98f2951eeec06205890909</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>wait_one</Name>
+                    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                    <Anchor>ab02fb3266b1eaf02c502b0c1635f2ce4</Anchor>
                    </Node>
                    <Node>
                     <Name>start</Name>
@@ -26944,7 +27272,17 @@
                    <Node>
                     <Name>_samplerate</Name>
                     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                    <Anchor>ab117b04fd4aa7753d402a347ad9706bf</Anchor>
+                    <Anchor>a0c5f1a2bb33436edf77895b4a92abe5f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_buffer_size</Name>
+                    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                    <Anchor>aede979ff0b3bbc87ecb5d5a45ff52263</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_buffer_number</Name>
+                    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+                    <Anchor>a4aae83262ac849bf6e989ca14523f639</Anchor>
                    </Node>
                    <Node>
                     <Name>_cpu_time</Name>
@@ -27046,7 +27384,7 @@
                    <Node>
                     <Name>by_name</Name>
                     <Path>structotto_1_1services_1_1_engine_manager.html</Path>
-                    <Anchor>a23c130ea465e5d901048f5b38d8e2624</Anchor>
+                    <Anchor>a34489f2cb3c4523008c9661a48217471</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -27242,32 +27580,32 @@
                    <Node>
                     <Name>preset_names</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>acd3a2dd0a44e58066b58314c17057821</Anchor>
+                    <Anchor>afd4ce30c5acf27aa88ba5f536ef1e995</Anchor>
                    </Node>
                    <Node>
                     <Name>name_of_idx</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a2974b3d29e5aa8d9cb4f68c6d208c801</Anchor>
+                    <Anchor>a3e1b9aaeae4da72063309d0858467526</Anchor>
                    </Node>
                    <Node>
                     <Name>idx_of_name</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>ad4bc5058f00294a16954fd451eb17813</Anchor>
+                    <Anchor>a2cddcce8961db5455e9863ec79383950</Anchor>
                    </Node>
                    <Node>
                     <Name>apply_preset</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a20f54ab91e63b9c026583916cb8956c7</Anchor>
+                    <Anchor>a52e13b411eb15ef9dbe77e541cc2fb9c</Anchor>
                    </Node>
                    <Node>
                     <Name>apply_preset</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a3e54b89a8696afb4d92c66f43446dfc7</Anchor>
+                    <Anchor>a3f2fc6aab9b4fa393436673bc85f8501</Anchor>
                    </Node>
                    <Node>
                     <Name>create_preset</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>ac75b71b9e519c3d2cecdb13cca861cae</Anchor>
+                    <Anchor>adc62d579462f500b2c2d099e2f78f591</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -27439,7 +27777,7 @@
                    <Node>
                     <Name>select_engine</Name>
                     <Path>structotto_1_1board_1_1otto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>aba0d8832ea2601af412e96d8b46d2e5f</Anchor>
+                    <Anchor>acdd12a4832b8cbccc840deab2c6b1e15</Anchor>
                    </Node>
                    <Node>
                     <Name>select_engine</Name>
@@ -32363,6 +32701,191 @@
                   <Path>macros_8hpp.html</Path>
                   <Anchor>a69cf69197ea2210f370ea6320d41681c</Anchor>
                  </Node>
+                 <Node>
+                  <Name>FELS_01</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a3d7b331547e45a6a60426d446038d464</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_02</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>ac46ae719bae6c7810db1149d49db7034</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_03</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>ab6ab571a1116e92bdd8203aed9f0b759</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_04</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a8da8499aa5d498adb21244eaba9d4602</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_05</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>ac835abbbb096e0f3567ef889b2807e20</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_06</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a9a9a8373cf1de9ee4206bf8abd3277c3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_07</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a7e5ae6f6aaaf4be68ebde6075c950876</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_08</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a68ec99fa73c864955daa30159d728f9f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_09</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>afc0389ae5022f27c609378715503f979</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_10</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a556c133f8abe1ca9fa58dc1027fd9a78</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_11</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a67f25675c74001455bf128dafe6bad21</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_12</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a768f2c6f72cb819230bb0be1ee7f665a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_13</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a8bada9a6dfb6cc2782cc619113c3eef6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_14</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>add1c96ea872668828bf74ddfd9fa60e3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS_15</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>acb801e01c49136b396dbd492cfd0f081</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FOR_EACH_LAST_SEP</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a251328f0db2f287c7ee8c89d235736cd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_01</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a29266fa3f9f81aedbfbc1449874997a6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_02</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a4ee7819cb5f130fea576311dcbb569c6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_03</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>aaf047cc755e8523136e406c70831a21f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_04</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a7b387da5b2319c7f6d67df805417001d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_05</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>ad57cab015f0cf5e4d1b57322475fa0a1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_06</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a2bbdad97d913706c379ee0bbedcd56c2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_07</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a50d77d23f4391eefcd730f15650caf8a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_08</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a28987631360d5a7de1c40f325a111875</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_09</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a45c98d35cb762a00bbd57b544bdf8c0d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_10</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>ac8ee518804f293af376639fd05a79431</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_11</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a5a601e7019c4829b3fe7ec0e687737f2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_12</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a0329f32fb2995929b137d7936852eedf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_13</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a430422d9c330b0345e4e8bce2b0d2a88</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_14</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a6d76766e2af6a402c0bd03c84809b131</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FELS2_15</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a07e4f12a8a1eeb3a87b84aa3af5321c5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FOR_EACH_LAST_SEP2</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a8363d7e0358b0fd0fe4617c406e0a1c1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>EXTRACT</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a3afd5c30fbdad326d6ca545a41ab1fab</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>NOTHING_EXTRACT</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>adf1f24c1c890fcdaacae84034e8b7e6e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PASTE</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a1f394b9d26fda4aa1e54c4de1e528f83</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>EVALUATING_PASTE</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a61fa89f464d0536cb19def171b413179</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>UNPAREN</Name>
+                  <Path>macros_8hpp.html</Path>
+                  <Anchor>a1ed2dc2a3637f9fc93a1ca19c7100043</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -33163,6 +33686,57 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>reflection.hpp</Name>
+                <Path>reflection_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>_REFLECT_STRUCT_ARGS1</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>aaffa767268d6ccdd872c44f9a06499b0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_REFLECT_STRUCT_ADD_TYPE</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>a1a6da851f87a80314db8c7b3469fab3f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_REFLECT_STRUCT_ARGS2</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>a657d564e3061cc0a29710b1f95210ec2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_REFLECT_STRUCT_ARGS_DISPATCH</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>a1039bb518fe09ce74dce4bd3a30d01a5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_REFLECT_STRUCT_ARGS</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>a4d073b37d6e00e89e5eaf334a0eb0334</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DECL_REFLECTION_OUTSIDE</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>ab47a32aab7e422d191e6cfdeffe20f66</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>DECL_REFLECTION</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>a9d11620d55ff716ec5f53f1646b3655f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>register_members</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>afd020d552659db3e09ac955a134b8b21</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>register_name</Name>
+                  <Path>reflection_8hpp.html</Path>
+                  <Anchor>a4b150a9af654cce4a8a3e71b5a9653a6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>ringbuffer.hpp</Name>
                 <Path>ringbuffer_8hpp.html</Path>
                 <Subnodes>
@@ -33404,6 +33978,72 @@
                     <Anchor>a11b958219aaabdd65c34a837af27e388</Anchor>
                    </Node>
                   </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>serialize.hpp</Name>
+                <Path>serialize_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>json</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>ab701e3ac61a85b337ec5c1abaad6742d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_json</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a61662432972fdfc4eb9b0c004a06ab09</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_json</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>af3fda831e199f46082301e2c13b7b1b8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>serialize</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a11ba4701974f4b2d5e01b560212d12b8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>serialize</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a88bc038892030ac9a321e08f6ed934c8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>serialize_basic</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>af1fe9400b71663b5971278e6067e037e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>serialize_basic</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a8ebd6a97ce8612bfa373e6af43937a24</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>serialize_basic</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a73cfd44066775314204ab7f90f5e8654</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>deserialize</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a676d2f68d58739739474f177d57ba571</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>deserialize</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a33a918b8838e63b0e0220c3ae74d8418</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>deserialize</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a73d94d898f71d00e5b1d8d298540ecc3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>deserialize</Name>
+                  <Path>serialize_8hpp.html</Path>
+                  <Anchor>a9fda81fc8e3d860d8b9607b0fc933d19</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -33954,6 +34594,269 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>string_conversions.hpp</Name>
+                <Path>string__conversions_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>StringConvErr</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a43504517e4eca0124698827acf936de5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>StringConvErrCode</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a0639e7c42fc4497a3e1f3979d66fa67d</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>invalid_input</Name>
+                    <Path>string__conversions_8hpp.html</Path>
+                    <Anchor>a0639e7c42fc4497a3e1f3979d66fa67da1080ed39e08a161dc545804658700e33</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>out_of_range</Name>
+                    <Path>string__conversions_8hpp.html</Path>
+                    <Anchor>a0639e7c42fc4497a3e1f3979d66fa67da4fb901c70a0fdc05b55d95985f3300b0</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>to_lowercase</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ae5d5fa1a6428bb37ea7a2c72eec1d201</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_uppercase</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a9630b1e249e1d81e7ee621e5d8090a07</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>af0c08cbe807e1a3b37516e4c880d4bef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ac1e3aeead0227da6cf962e1bd9000b7e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a5560eb9b640164cec0bb2d9fd14fc4bc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ab1bb3dc008cb9f1c45137bb5cb9d2af1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a980b57c6b1096cab8122c41e0bd1c080</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a5c5f6c34e096923b7e6628659ed24732</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a9b28bc7f0e3604635af844172a150d46</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a925c6d8dc791f6e8b7eb8fc76c7a0967</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>af0ee64fb62d3fdb422086856b7a1da8d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a599dc45d06c21719fba437a23976d007</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a989314a5375c5f3adbc0eb5ec6c966a8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>afaa8f4c94876fe2bb02adb04441c07f2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>af26377c6a0d1f6cd732f7ca1a026fb78</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a6854904d704100cfea311c3c6e3bad1b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>aed9641e8452e909ee14d7614b8a4ec7e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a3d2d74b0c00b63ef1f5152ab04365581</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a647c3361cdabed86c0eca1a94c416c32</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ac88ff4a74a7004c5762109dbebfb720a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a75bb89d7f484e2978651bd36708219a1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>abfe061e4663cad28d70d1a435ba21106</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a1f4547f2aa7a900f532b4c13241f0113</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_lowercase</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ab29e72af42a54e202b6476fd4a183963</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_uppercase</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>aa816e3706af0a5e1a3f69ebfd052e380</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a0bb990ea18a8485ac34c5bae689deb2d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a3fc51fdb3d5f860e101e4e6f3bcfa375</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a58b0c310aa5551c7ae3b2cca67112806</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a751db78aebdd118f155ec2b63013aa77</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a947534ed03f6c127dd093c70dc2ac12d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>af89d7563ef18498c7a7b8e561533b454</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>af51d0ee42f3a8e7768b40278961bda19</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ae7dc734e3a2c884ecf133f7cd20beb2a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ae724cbec636ba3d109091f5e2dc187bc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a97a895f606d3c0e51bc28e00da2757f7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a439fe9c2495f83bbb05436dc7cdd3e4d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a1d490c6525b9130a7212ce91d2da1361</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ac0e1b960f7e03e3cb124eca939e78815</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ad96c32d349a575f97157ae58ce84e931</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a948a2bc14f777b38984b96bc53128f82</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>adeca42bbae56c5806c39df9b9e06ef31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>abc5f3f8cf92513c398f885dc8dd55173</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a6f9816330a1556d4585fa4b4e692dcaa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a1112790621425058802a5c6c91f2798b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>ad1f44896aba7744e423e012cdbb6b71b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>aaadbf79a3920c246e0f78527ce92fb2f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>from_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a9d6bbdef477b548abe2cad67d77f9b8e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>tapefile.hpp</Name>
                 <Path>tapefile_8hpp.html</Path>
                 <Subnodes>
@@ -34053,6 +34956,59 @@
                     <Name>count</Name>
                     <Path>classotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a4f5ac56598290b333315ad6609511ed5</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>thread.hpp</Name>
+                <Path>thread_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>thread</Name>
+                  <Path>structotto_1_1util_1_1thread.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>thread</Name>
+                    <Path>structotto_1_1util_1_1thread.html</Path>
+                    <Anchor>a4002f664eabc18072a2493778c4fb3cc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~thread</Name>
+                    <Path>structotto_1_1util_1_1thread.html</Path>
+                    <Anchor>ae2ebcf3ef08e89eb5316ea625427ec95</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>join</Name>
+                    <Path>structotto_1_1util_1_1thread.html</Path>
+                    <Anchor>a357a13d6ee06c13bfe7cb733fe0c06eb</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>triggered_thread</Name>
+                  <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>triggered_thread</Name>
+                    <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                    <Anchor>ab7c650332e9662255270f11223209864</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~triggered_thread</Name>
+                    <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                    <Anchor>a863051bb6076d969071ef028c8fe5f1d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>trigger</Name>
+                    <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                    <Anchor>af10cc2c90e8a8f8550803ebc6bb30e8f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>join</Name>
+                    <Path>structotto_1_1util_1_1triggered__thread.html</Path>
+                    <Anchor>a274e1c0728ebbcaafabd86090da469e3</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -34329,6 +35285,138 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>variant_w_base.hpp</Name>
+                <Path>variant__w__base_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>basic_variant_w_base</Name>
+                  <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>basic_variant_w_base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>abe61bc7497a0fb9ced1833c9b09abb72</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>basic_variant_w_base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a04ae933fb09e1ae4b92a421b2953f6ba</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>basic_variant_w_base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a0333d5408b934577995639faa87d5c76</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>basic_variant_w_base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a42c1d39be4ec4009302b0acedc87c78c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>basic_variant_w_base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>ae0583bfcbfe5e335da7866db8929ac03</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>basic_variant_w_base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a55c0804b3be0334c8eedc23f70b03ece</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a634e049b293c76e3104c3bbf8f8bbdac</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a107578fbe8a825b6e1f14b233699d3b2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a844b91ac97bd40bcd6cbfcfe7af71ce7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a9863f165b91326d96959c56b0636be11</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator=</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a491792b84b8ea39b3ffa7eed23720a4c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>emplace</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>ad9461629ccb74b87ff6bf65b7c41fb57</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>emplace</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>aeedc3441be379bb5649fc8ec10085d84</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator==</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a19709c60fcf2f62825f3cdd5bdba0e07</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator!=</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>aa0765997077423b2e2fc1c2e6893d07a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>aff10e439793a8f9b6fa952e0d356c3ef</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>base</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a6f78313dd5a5ebe54ff81d72c69c991b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-&gt;</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a2d0ce55693c3c4c9a228b547a469ba7c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator-&gt;</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>ae3c59732e693bba2c191bd3fe29ca443</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>index</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a0857cda62a0513179f4787521c099570</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>variant</Name>
+                    <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+                    <Anchor>a98601a657cca0f2a5b59b3194e6be1d9</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>variant_w_base</Name>
+                  <Path>variant__w__base_8hpp.html</Path>
+                  <Anchor>af4fc57a4ab642a604b4eb92be818455a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>visit</Name>
+                  <Path>variant__w__base_8hpp.html</Path>
+                  <Anchor>a39289e479b3e9a8c159df0ad7165a890</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>get</Name>
+                  <Path>variant__w__base_8hpp.html</Path>
+                  <Anchor>af843f14bfc2fe4c05e2764e401dae017</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
             </Subnodes>
@@ -34395,6 +35483,10 @@
            <Node>
             <Name>All</Name>
             <Path>globals.html</Path>
+           </Node>
+           <Node>
+            <Name>Functions</Name>
+            <Path>globals_func.html</Path>
            </Node>
            <Node>
             <Name>Typedefs</Name>

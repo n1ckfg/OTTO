@@ -71,7 +71,7 @@
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structotto_1_1core_1_1props_1_1_mixin_impl-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::core::props::MixinImpl Struct Reference</div>  </div>
@@ -79,22 +79,22 @@
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00156">156</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00169">169</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a9cb2a25cb97e48e9640b0a273c33f1d1"><td class="memTemplParams" colspan="2">template&lt;typename Mixin , typename HT , HookOrder HO = HookOrder::Middle, CONCEPT_REQUIRES_(cpts::models&lt; HookTag, HT, typename Mixin::value_type &gt;()) &gt; </td></tr>
+<tr class="memitem:a9cb2a25cb97e48e9640b0a273c33f1d1"><td class="memTemplParams" colspan="2">template&lt;typename Mixin , typename HT , HookOrder HO = HookOrder::Middle, typename  = std::enable_if_t&lt;HookTag::is&lt;HT, typename Mixin::value_type&gt;&gt;&gt; </td></tr>
 <tr class="memitem:a9cb2a25cb97e48e9640b0a273c33f1d1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl.html#a9cb2a25cb97e48e9640b0a273c33f1d1">hook_t</a> = <a class="el" href="structotto_1_1core_1_1props_1_1_hook_tag.html#ac6e967edcf0fe49fababb4dd8e8f7a95">HookTag::impl_t</a>&lt; HT, typename Mixin::value_type, HO &gt;</td></tr>
 <tr class="memdesc:a9cb2a25cb97e48e9640b0a273c33f1d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the hook type from a tag and a Mixin type.  <a href="#a9cb2a25cb97e48e9640b0a273c33f1d1">More...</a><br /></td></tr>
 <tr class="separator:a9cb2a25cb97e48e9640b0a273c33f1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a1d70614591812be6a3aa0edf4985b2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a2a1d70614591812be6a3aa0edf4985b2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl.html#a2a1d70614591812be6a3aa0edf4985b2">requires_</a> (T &amp;&amp;t) -&gt; decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::value_type &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::tag_list &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::hooks &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::property_type &gt;()))</td></tr>
-<tr class="separator:a2a1d70614591812be6a3aa0edf4985b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a7725521a5adaf2aa5ce97bdd7b91e89a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7725521a5adaf2aa5ce97bdd7b91e89a"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl.html#a7725521a5adaf2aa5ce97bdd7b91e89a">is</a> = decltype(_is(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;()))::value</td></tr>
+<tr class="separator:a7725521a5adaf2aa5ce97bdd7b91e89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a9cb2a25cb97e48e9640b0a273c33f1d1"></a>
@@ -103,7 +103,7 @@ Public Member Functions</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Mixin , typename HT , HookOrder HO = HookOrder::Middle, CONCEPT_REQUIRES_(cpts::models&lt; HookTag, HT, typename Mixin::value_type &gt;()) &gt; </div>
+template&lt;typename Mixin , typename HT , HookOrder HO = HookOrder::Middle, typename  = std::enable_if_t&lt;HookTag::is&lt;HT, typename Mixin::value_type&gt;&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_impl.html#a9cb2a25cb97e48e9640b0a273c33f1d1">otto::core::props::MixinImpl::hook_t</a> =  <a class="el" href="structotto_1_1core_1_1props_1_1_hook_tag.html#ac6e967edcf0fe49fababb4dd8e8f7a95">HookTag::impl_t</a>&lt;HT, typename Mixin::value_type, HO&gt;</td>
@@ -113,28 +113,34 @@ template&lt;typename Mixin , typename HT , HookOrder HO = HookOrder::Middle, CON
 
 <p>Get the hook type from a tag and a Mixin type. </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00173">173</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00189">189</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2a1d70614591812be6a3aa0edf4985b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a1d70614591812be6a3aa0edf4985b2">&#9670;&nbsp;</a></span>requires_()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7725521a5adaf2aa5ce97bdd7b91e89a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7725521a5adaf2aa5ce97bdd7b91e89a">&#9670;&nbsp;</a></span>is</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto otto::core::props::MixinImpl::requires_ </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt;  decltype(cpts::valid_expr(cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::value_type &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::tag_list &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::hooks &gt;(), cpts::model_of&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_non_void.html">NonVoid</a>, typename T::property_type &gt;()))</td>
+          <td class="memname">constexpr auto otto::core::props::MixinImpl::is = decltype(_is(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;()))::value</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00180">180</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
