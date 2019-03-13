@@ -159,33 +159,29 @@ namespace otto::engines {
 
           // (temp unused) movement values
           float aggroMultiplier = engine.props.aggro * engine.props.aggro;
-          float valW1 = 1- ((engine.props.aggro * aggroMultiplier)*30);
-          float valR1 = 1- ((engine.props.aggro * aggroMultiplier)*20);
-          float valW2 = 1- ((engine.props.aggro * aggroMultiplier)*10);
+          float valW1 = 0 - ((engine.props.aggro * aggroMultiplier)*30) +3;
+          float valR1 = 0 - ((engine.props.aggro * aggroMultiplier)*20) +2 ;
+          float valW2 = 0 - ((engine.props.aggro * aggroMultiplier)*10) +1;
           // R2 does not move
-          float valW3 = 1+ ((engine.props.aggro * aggroMultiplier)*10);
-          float valR3 = 1+ ((engine.props.aggro * aggroMultiplier)*20);
-          float valW4 = 1+ ((engine.props.aggro * aggroMultiplier)*30);
+          float valW3 = 0 + ((engine.props.aggro * aggroMultiplier)*10) -1;
+          float valR3 = 0 + ((engine.props.aggro * aggroMultiplier)*20) -2 ;
+          float valW4 = 0 + ((engine.props.aggro * aggroMultiplier)*30) -3;
           // value for altering arc
           float arcVal1 = 0.2 + (engine.props.aggro / 6); //red bot arc       | right
-          float arcVal2 =       (engine.props.aggro / 2); //white bot arc     | about right, too much at (6) better at (4)
-          float arcVal3 =   1 + (engine.props.aggro * 3); //lineto            | needs to be a bit less + 123 grad
-          float arcVal4 =   1 + (engine.props.aggro * 3); //red bot lineto    | needs to be gradual
-          float arcVal5 =   1 + (engine.props.aggro / 5); //red top arc       | needs to be a bit tighter(3)
+          float arcVal2 =       (engine.props.aggro * 0); //white bot arc     | about right, too much at (6) better at (4) (good at 3)
+          float arcVal3 =   0 + (engine.props.aggro * 4); //white top lineto  | okayish now
+          float arcVal4 =   1 + (engine.props.aggro * 3); //red top lineto    | work at 3 and 4, trying 5.
+          float arcVal5 =   1 + (engine.props.aggro / 6); //red top arc       | needs to be a bit tighter(3) works at (6)
           float arcVal6 =   1 + (engine.props.aggro / 6); //white top arc     | needs to be less (3) better at (6)
-          float arcVal7 =   1 + (engine.props.aggro * 2); //white lineto      | about right, tiny bit less
+          float arcVal7 =   0 + (engine.props.aggro * 2); //white bot lineto  | about right, tiny bit less (1) 4.
 
-          //
-          //
-          // !!!
-          // anchor + chain supergroup
-          ctx.group([&] {
-            ctx.translate(0, (1.f + engine.props.aggro * 10));
-            // Rhodes/AnchorHack
+          float asymVal = engine.props.asymmetry + (engine.props.asymmetry * 5) ; //(works at 3), trying 4 now
+
+          //anchor
             ctx.group([&] {
-              ctx.translate(0,valW4);
+              ctx.translate(0,(valW4 + asymVal));
               ctx.beginPath();
-              ctx.moveTo(271.0, 123.3);
+              ctx.moveTo(271.0, 122);
               ctx.bezierCurveTo(273.2, 120.6, 277.2, 120.2, 279.9, 122.3);
               ctx.bezierCurveTo(282.6, 124.5, 283.0, 128.4, 280.9, 131.1);
               ctx.lineWidth(6.0);
@@ -197,7 +193,7 @@ namespace otto::engines {
 
             ctx.group([&] {
               // move entire group sideways.
-              ctx.translate(20,0);
+              ctx.translate(20,(0 + engine.props.asymmetry));
               //////////////////////////
               // RED CHAIN 1 /////////
               //////////////////////////
@@ -214,8 +210,8 @@ namespace otto::engines {
                 ctx.stroke();
 
                 ctx.beginPath();
-                ctx.arc(130, 61, 15, arcVal5 * M_PI, 0);
-                ctx.lineTo(145,(62 - arcVal4));
+                ctx.arc(130, (61 - asymVal), 15, arcVal5 * M_PI, 0);
+                ctx.lineTo(145,(62 + arcVal4 -5));
                 // x,y,radius,start(rad),end(rad),counterclock
                 ctx.lineWidth(6.0);
                 ctx.strokeStyle(Colours::Red);
@@ -235,8 +231,8 @@ namespace otto::engines {
                 ctx.stroke();
 
                 ctx.beginPath();
-                ctx.arc(178, 61, 15, arcVal5 * M_PI, 0);
-                ctx.lineTo(193,(62 + arcVal4));
+                ctx.arc(178, (61 - asymVal), 15, arcVal5 * M_PI, 0);
+                ctx.lineTo(193,(62 + arcVal4 -5));
                 // x,y,radius,start(rad),end(rad),counterclock
                 ctx.lineWidth(6.0);
                 ctx.strokeStyle(Colours::Red);
@@ -257,8 +253,8 @@ namespace otto::engines {
 
                 //top
                 ctx.beginPath();
-                ctx.arc(225, 61, 15, arcVal5 * M_PI, 0);
-                ctx.lineTo(240,(62 + arcVal4));
+                ctx.arc(225, (61 - asymVal), 15, arcVal5 * M_PI, 0);
+                ctx.lineTo(240,(62 + arcVal4 -5));
                 // x,y,radius,start(rad),end(rad),counterclock
                 ctx.lineWidth(6.0);
                 ctx.strokeStyle(Colours::Red);
@@ -271,7 +267,7 @@ namespace otto::engines {
               ctx.group([&] {
                 ctx.translate(0,valW1);
                 ctx.beginPath();
-                ctx.arc(106, 110, 15, arcVal2, 1 * M_PI);
+                ctx.arc(106, (110 + asymVal), 15, arcVal2, 1 * M_PI);
                 ctx.lineTo(91,82);
                 ctx.strokeStyle(Colours::White);
                 ctx.stroke();
@@ -290,7 +286,7 @@ namespace otto::engines {
               ctx.group([&] {
                 ctx.translate(0,valW2);
                 ctx.beginPath();
-                ctx.arc(154, 110, 15, arcVal2, 1 * M_PI);
+                ctx.arc(154, (110 + asymVal), 15, arcVal2, 1 * M_PI);
                 // lT moves when altered
                 ctx.lineTo(139,(109 - arcVal3));
                 ctx.strokeStyle(Colours::White);
@@ -310,7 +306,7 @@ namespace otto::engines {
               ctx.group([&] {
                 ctx.translate(0,valW3);
                 ctx.beginPath();
-                ctx.arc(201, 110, 15, arcVal2, 1 * M_PI);
+                ctx.arc(201, (110 + asymVal), 15, arcVal2, 1 * M_PI);
                 // lT moves when altered
                 ctx.lineTo(186,(109 - arcVal3));
                 ctx.strokeStyle(Colours::White);
@@ -330,7 +326,7 @@ namespace otto::engines {
               ctx.group([&] {
                 ctx.translate(0,valW4);
                 ctx.beginPath();
-                ctx.arc(249, 110, 15, 0, 1 * M_PI);
+                ctx.arc(249, (110 + asymVal), 15, 0, 1 * M_PI);
                 // lT moves when altered
                 ctx.lineTo(234,(109 - arcVal3));
                 ctx.strokeStyle(Colours::White);
@@ -338,7 +334,7 @@ namespace otto::engines {
 
                 ctx.beginPath();
                 ctx.arc(249, 82, 15, arcVal6 * M_PI, 0);
-                ctx.lineTo(264,110);
+                ctx.lineTo(264,(110 + asymVal));
                 // x,y,radius,start(rad),end(rad),counterclock
                 ctx.strokeStyle(Colours::White);
                 ctx.stroke();
@@ -347,7 +343,7 @@ namespace otto::engines {
 
             // anchor group
             ctx.group([&] {
-              ctx.translate(0,valW4);
+              ctx.translate(0,(valW4 + asymVal));
               ctx.beginPath();
               ctx.moveTo(280.9, 131.1);
               ctx.bezierCurveTo(278.7, 133.8, 274.7, 134.2, 272.0, 132.1);
@@ -364,7 +360,7 @@ namespace otto::engines {
 
               // Rhodes/Anchor/Stem
               ctx.beginPath();
-              ctx.moveTo(276.0, 133.4);
+              ctx.moveTo(276.0, 132.1);
               ctx.lineTo(276.0, 153.0);
               ctx.stroke();
 
@@ -385,7 +381,7 @@ namespace otto::engines {
               ctx.strokeStyle(Colours::Blue);
               ctx.stroke();
             });
-          });
+
     ///
   }
 } // namespace otto::engines
