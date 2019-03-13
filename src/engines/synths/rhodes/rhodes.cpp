@@ -132,52 +132,260 @@ namespace otto::engines {
 
     //shift = Application::current().ui_manager->is_pressed(ui::Key::shift);
 
-    ctx.font(Fonts::Norm, 35);
+          // Rhodes/Depth/Digits
+          ctx.save();
+          ctx.font(Fonts::Norm, 40);
+          ctx.fillStyle(Colours::Blue);
+          ctx.fillText(fmt::format("{:1}", engine.props.lfo_depth), 17.9, 106.9);
 
-    constexpr float x_pad = 30;
-    constexpr float y_pad = 50;
-    constexpr float space = (height - 2.f * y_pad) / 3.f;
+          // Rhodes/Depth/Text
+          ctx.font(Fonts::Norm, 25);
+          ctx.fillStyle(Colours::White);
+          ctx.fillText("depth", 17.9, 66.1);
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Blue);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Aggro", {x_pad, y_pad});
+          // Rhodes/Speed
+          ctx.restore();
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Blue);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1}", engine.props.aggro), {width - x_pad, y_pad});
+          // Rhodes/Speed/Digits
+          ctx.save();
+          ctx.font(Fonts::Norm, 40);
+          ctx.fillStyle(Colours::Green);
+          ctx.fillText(fmt::format("{:1}", engine.props.lfo_speed), 17.9, 205.7);
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Green);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Asym", {x_pad, y_pad + space});
+          // Rhodes/Speed/Text
+          ctx.font(Fonts::Norm, 25);
+          ctx.fillStyle(Colours::White);
+          ctx.fillText("speed", 17.9, 164.9);
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Green);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.asymmetry), {width - x_pad, y_pad + space});
+          // (temp unused) movement values
+          float aggroMultiplier = engine.props.aggro * engine.props.aggro;
+          float valW1 = 1- ((engine.props.aggro * aggroMultiplier)*30);
+          float valR1 = 1- ((engine.props.aggro * aggroMultiplier)*20);
+          float valW2 = 1- ((engine.props.aggro * aggroMultiplier)*10);
+          // R2 does not move
+          float valW3 = 1+ ((engine.props.aggro * aggroMultiplier)*10);
+          float valR3 = 1+ ((engine.props.aggro * aggroMultiplier)*20);
+          float valW4 = 1+ ((engine.props.aggro * aggroMultiplier)*30);
+          // value for altering arc
+          float arcVal1 = 0.2 + (engine.props.aggro / 6); //red bot arc       | right
+          float arcVal2 =       (engine.props.aggro / 2); //white bot arc     | about right, too much at (6) better at (4)
+          float arcVal3 =   1 + (engine.props.aggro * 3); //lineto            | needs to be a bit less + 123 grad
+          float arcVal4 =   1 + (engine.props.aggro * 3); //red bot lineto    | needs to be gradual
+          float arcVal5 =   1 + (engine.props.aggro / 5); //red top arc       | needs to be a bit tighter(3)
+          float arcVal6 =   1 + (engine.props.aggro / 6); //white top arc     | needs to be less (3) better at (6)
+          float arcVal7 =   1 + (engine.props.aggro * 2); //white lineto      | about right, tiny bit less
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Yellow);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Speed", {x_pad, y_pad + 2 * space});
+          //
+          //
+          // !!!
+          // anchor + chain supergroup
+          ctx.group([&] {
+            ctx.translate(0, (1.f + engine.props.aggro * 10));
+            // Rhodes/AnchorHack
+            ctx.group([&] {
+              ctx.translate(0,valW4);
+              ctx.beginPath();
+              ctx.moveTo(271.0, 123.3);
+              ctx.bezierCurveTo(273.2, 120.6, 277.2, 120.2, 279.9, 122.3);
+              ctx.bezierCurveTo(282.6, 124.5, 283.0, 128.4, 280.9, 131.1);
+              ctx.lineWidth(6.0);
+              ctx.strokeStyle(Colours::Yellow);
+              ctx.lineCap(Canvas::LineCap::ROUND);
+              ctx.lineJoin(Canvas::LineJoin::ROUND);
+              ctx.stroke();
+            });
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Yellow);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.lfo_speed), {width - x_pad, y_pad + 2 * space});
+            ctx.group([&] {
+              // move entire group sideways.
+              ctx.translate(20,0);
+              //////////////////////////
+              // RED CHAIN 1 /////////
+              //////////////////////////
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Red);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Depth", {x_pad, y_pad + 3 * space});
+              ctx.group([&] {
+                ctx.translate(0,valR1);
+                ctx.beginPath();
+                ctx.arc(130, 86, 15, arcVal1, 1 * M_PI);
+                ctx.lineTo(115,(85 - arcVal4));
+                ctx.lineWidth(6.0);
+                ctx.strokeStyle(Colours::Red);
+                ctx.lineCap(Canvas::LineCap::ROUND);
+                ctx.lineJoin(Canvas::LineJoin::ROUND);
+                ctx.stroke();
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Red);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.lfo_depth), {width - x_pad, y_pad + 3 * space});
+                ctx.beginPath();
+                ctx.arc(130, 61, 15, arcVal5 * M_PI, 0);
+                ctx.lineTo(145,(62 - arcVal4));
+                // x,y,radius,start(rad),end(rad),counterclock
+                ctx.lineWidth(6.0);
+                ctx.strokeStyle(Colours::Red);
+                ctx.stroke();
+              });
+              //////////////////////////
+              // RED CHAIN 2 /////////
+              //////////////////////////
 
+              ctx.group([&] {
+                ctx.translate(0,0);
+                ctx.beginPath();
+                ctx.arc(178, 86, 15, arcVal1, 1 * M_PI);
+                ctx.lineTo(163,(85 - arcVal4));
+                ctx.lineWidth(6.0);
+                ctx.strokeStyle(Colours::Red);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.arc(178, 61, 15, arcVal5 * M_PI, 0);
+                ctx.lineTo(193,(62 + arcVal4));
+                // x,y,radius,start(rad),end(rad),counterclock
+                ctx.lineWidth(6.0);
+                ctx.strokeStyle(Colours::Red);
+                ctx.stroke();
+              });
+              //////////////////////////
+              // RED CHAIN 3 /////////
+              //////////////////////////
+
+              ctx.group([&] {
+                ctx.translate(0,valR3);
+                ctx.beginPath();
+                ctx.arc(225, 86, 15, arcVal1, 1 * M_PI);
+                ctx.lineTo(210,(85 - arcVal4));
+                ctx.lineWidth(6.0);
+                ctx.strokeStyle(Colours::Red);
+                ctx.stroke();
+
+                //top
+                ctx.beginPath();
+                ctx.arc(225, 61, 15, arcVal5 * M_PI, 0);
+                ctx.lineTo(240,(62 + arcVal4));
+                // x,y,radius,start(rad),end(rad),counterclock
+                ctx.lineWidth(6.0);
+                ctx.strokeStyle(Colours::Red);
+                ctx.stroke();
+              });
+              //////////////////////////
+              // WHITE CHAIN 1 /////////
+              //////////////////////////
+
+              ctx.group([&] {
+                ctx.translate(0,valW1);
+                ctx.beginPath();
+                ctx.arc(106, 110, 15, arcVal2, 1 * M_PI);
+                ctx.lineTo(91,82);
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.arc(106, 82, 15, 1 * M_PI, 0);
+                ctx.lineTo(121,(83 + arcVal7));
+                // x,y,radius,start(rad),end(rad),counterclock
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+              });
+              //////////////////////////
+              // WHITE CHAIN 2 /////////
+              //////////////////////////
+
+              ctx.group([&] {
+                ctx.translate(0,valW2);
+                ctx.beginPath();
+                ctx.arc(154, 110, 15, arcVal2, 1 * M_PI);
+                // lT moves when altered
+                ctx.lineTo(139,(109 - arcVal3));
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.arc(154, 82, 15, arcVal6 * M_PI, 0);
+                ctx.lineTo(169,(83 + arcVal7));
+                // x,y,radius,start(rad),end(rad),counterclock
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+              });
+              //////////////////////////
+              // WHITE CHAIN 3 /////////
+              //////////////////////////
+
+              ctx.group([&] {
+                ctx.translate(0,valW3);
+                ctx.beginPath();
+                ctx.arc(201, 110, 15, arcVal2, 1 * M_PI);
+                // lT moves when altered
+                ctx.lineTo(186,(109 - arcVal3));
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.arc(201, 82, 15, arcVal6 * M_PI, 0);
+                ctx.lineTo(216,(83 + arcVal7));
+                // x,y,radius,start(rad),end(rad),counterclock
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+              });
+              //////////////////////////
+              // WHITE CHAIN 4 /////////
+              //////////////////////////
+
+              ctx.group([&] {
+                ctx.translate(0,valW4);
+                ctx.beginPath();
+                ctx.arc(249, 110, 15, 0, 1 * M_PI);
+                // lT moves when altered
+                ctx.lineTo(234,(109 - arcVal3));
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.arc(249, 82, 15, arcVal6 * M_PI, 0);
+                ctx.lineTo(264,110);
+                // x,y,radius,start(rad),end(rad),counterclock
+                ctx.strokeStyle(Colours::White);
+                ctx.stroke();
+              });
+            });
+
+            // anchor group
+            ctx.group([&] {
+              ctx.translate(0,valW4);
+              ctx.beginPath();
+              ctx.moveTo(280.9, 131.1);
+              ctx.bezierCurveTo(278.7, 133.8, 274.7, 134.2, 272.0, 132.1);
+              ctx.bezierCurveTo(269.3, 130.0, 268.9, 126.0, 271.0, 123.3);
+              ctx.strokeStyle(Colours::Yellow);
+              ctx.stroke();
+
+              // Rhodes/Anchor/R
+              ctx.beginPath();
+              ctx.moveTo(288.5, 153.0);
+              ctx.bezierCurveTo(288.5, 156.5, 285.7, 159.3, 282.2, 159.3);
+              ctx.bezierCurveTo(278.8, 159.3, 276.0, 156.5, 276.0, 153.0);
+              ctx.stroke();
+
+              // Rhodes/Anchor/Stem
+              ctx.beginPath();
+              ctx.moveTo(276.0, 133.4);
+              ctx.lineTo(276.0, 153.0);
+              ctx.stroke();
+
+              // Rhodes/Anchor/L
+              ctx.beginPath();
+              ctx.moveTo(276.0, 153.0);
+              ctx.bezierCurveTo(276.0, 156.5, 273.2, 159.3, 269.7, 159.3);
+              ctx.bezierCurveTo(266.3, 159.3, 263.5, 156.5, 263.5, 153.0);
+              ctx.stroke();
+            });
+
+            // Rhodes/Waves
+            ctx.group([&] {
+              ctx.beginPath();
+              ctx.moveTo(106, 188);
+              // x1, y1, x2, y2, x, y
+              ctx.bezierCurveTo(188, 200, 200, 200, 200, 188);
+              ctx.strokeStyle(Colours::Blue);
+              ctx.stroke();
+            });
+          });
     ///
   }
 } // namespace otto::engines
