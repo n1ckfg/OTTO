@@ -4571,19 +4571,19 @@
                     <Anchor>a96195275bfd85fafd0b58637f36b50a6</Anchor>
                    </Node>
                    <Node>
-                    <Name>rate</Name>
-                    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-                    <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>deviation</Name>
-                    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-                    <Anchor>a52679eb68eec58cb31f4fa7816aca1c3</Anchor>
-                   </Node>
-                   <Node>
                     <Name>depth</Name>
                     <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
                     <Anchor>aeb971130b8c79008e4c986cebeed19e4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>feedback</Name>
+                    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+                    <Anchor>a76feb381c3d56156083c28071cb4020c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>rate</Name>
+                    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+                    <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -25073,19 +25073,19 @@
                           <Anchor>a96195275bfd85fafd0b58637f36b50a6</Anchor>
                          </Node>
                          <Node>
-                          <Name>rate</Name>
-                          <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-                          <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>deviation</Name>
-                          <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-                          <Anchor>a52679eb68eec58cb31f4fa7816aca1c3</Anchor>
-                         </Node>
-                         <Node>
                           <Name>depth</Name>
                           <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
                           <Anchor>aeb971130b8c79008e4c986cebeed19e4</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>feedback</Name>
+                          <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+                          <Anchor>a76feb381c3d56156083c28071cb4020c</Anchor>
+                         </Node>
+                         <Node>
+                          <Name>rate</Name>
+                          <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+                          <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -25116,19 +25116,19 @@
                         <Anchor>a96195275bfd85fafd0b58637f36b50a6</Anchor>
                        </Node>
                        <Node>
-                        <Name>rate</Name>
-                        <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-                        <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>deviation</Name>
-                        <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-                        <Anchor>a52679eb68eec58cb31f4fa7816aca1c3</Anchor>
-                       </Node>
-                       <Node>
                         <Name>depth</Name>
                         <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
                         <Anchor>aeb971130b8c79008e4c986cebeed19e4</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>feedback</Name>
+                        <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+                        <Anchor>a76feb381c3d56156083c28071cb4020c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>rate</Name>
+                        <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+                        <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>

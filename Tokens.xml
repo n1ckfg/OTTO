@@ -28433,26 +28433,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>rate</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::Chorus::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-    <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>deviation</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::Chorus::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-    <Anchor>a52679eb68eec58cb31f4fa7816aca1c3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>depth</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -28460,6 +28440,26 @@
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
     <Anchor>aeb971130b8c79008e4c986cebeed19e4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>feedback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Chorus::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+    <Anchor>a76feb381c3d56156083c28071cb4020c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Chorus::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
+    <Anchor>a36a4cfd20f8ee6b4b9eaeb127370e729</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
