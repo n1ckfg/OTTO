@@ -2847,7 +2847,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>a0fdda1aafecebcabdc08b5668dd95284</Anchor>
+                    <Anchor>a19553ff84a9a8bb0e3ce66a0cf1a79ea</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2859,7 +2859,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>adeacc326d57ac04f1dc0a544322e5f7f</Anchor>
+                    <Anchor>a93ba271373b7aeee2b2c8fe0240f00ea</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2871,7 +2871,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>a2d0c0c33ea53ac0960350015e4c0d506</Anchor>
+                    <Anchor>ae88e30535019863945a3d60e0aedef5c</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2883,7 +2883,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>a2fae43a9991b3b4b3168fe3ab7e36578</Anchor>
+                    <Anchor>a17f0e80f175dc0fab3c33406c00690fe</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2895,7 +2895,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>a249548b941d65b31ac3e80b8a3606e35</Anchor>
+                    <Anchor>ae9f0706a9ed1cf920f6b8f7ba024f2de</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -4785,68 +4785,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>HammondSynth</Name>
-                <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Props</Name>
-                  <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>drawbar1</Name>
-                    <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                    <Anchor>a4cb6ab44231ba8dbb642796cb80794e3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>drawbar2</Name>
-                    <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                    <Anchor>af16854246812e4c9ec4467e09a5e7326</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>drawbar3</Name>
-                    <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                    <Anchor>a41488c196b378dbf1a14bea913b0a424</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>leslie</Name>
-                    <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                    <Anchor>a33969f3a4c51fbc6a4e3e40e1e3b348f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>phasor</Name>
-                    <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                    <Anchor>aa1425d696416848dd1697f90b70e283b</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>HammondSynth</Name>
-                  <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                  <Anchor>a2851f1f7188085a6e11ecbf960208727</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>process</Name>
-                  <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                  <Anchor>ae1d7289db1112fd9b358a12dfa23bc84</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>envelope_screen</Name>
-                  <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                  <Anchor>ac6fd0dc84c7395fbaee614c65473fbac</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>voices_screen</Name>
-                  <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                  <Anchor>ac9ee20d44ad4be2da25d26f37aed0aee</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>props</Name>
-                  <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                  <Anchor>af92f4d5f9ea3d3c79110b440686ffcd4</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>Master</Name>
                 <Path>structotto_1_1engines_1_1_master.html</Path>
                 <Subnodes>
@@ -4857,7 +4795,7 @@
                    <Node>
                     <Name>volume</Name>
                     <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
-                    <Anchor>ab1ed5bb34b4c19021190e973e5a58319</Anchor>
+                    <Anchor>a6ffcb4d55e6dc4f88ae3945fae1e3787</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -4875,63 +4813,6 @@
                   <Name>props</Name>
                   <Path>structotto_1_1engines_1_1_master.html</Path>
                   <Anchor>ab1aa1de3e4bf3e65c1f26c933aeeda38</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>NukeSynth</Name>
-                <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Props</Name>
-                  <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>wave</Name>
-                    <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                    <Anchor>a7d7767529195eb574e2232aa700cb8f3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>relation</Name>
-                    <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                    <Anchor>a9a31173142653ac2b213e3cbf4f12c12</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>aux</Name>
-                    <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                    <Anchor>a9bce4b8eed14bc775502f29c0b33196c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>filter</Name>
-                    <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                    <Anchor>acf870fae6de189b88404b49cbb4d69c2</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>NukeSynth</Name>
-                  <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                  <Anchor>a916cbaab5e9e79d887f6dc5c83c15723</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>process</Name>
-                  <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                  <Anchor>ac9717474d17893d0a2b0141bfd4fafbe</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>envelope_screen</Name>
-                  <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                  <Anchor>ae2c032c73de88bb2eb46d43242c585e2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>voices_screen</Name>
-                  <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                  <Anchor>a21561e002916a05da18ce20cb2a1b713</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>props</Name>
-                  <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                  <Anchor>a97d929f9ab368ef442c460270f4c179b</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -5121,7 +5002,7 @@
                    <Node>
                     <Name>level</Name>
                     <Path>structotto_1_1engines_1_1_pingpong_1_1_delay_line.html</Path>
-                    <Anchor>a06ba8ac414aa87a17e92a530f2661b66</Anchor>
+                    <Anchor>aff44a8e9e92fd6d8a03ffdc871a22428</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -5132,27 +5013,27 @@
                    <Node>
                     <Name>delaytime</Name>
                     <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                    <Anchor>aab1c39b2a1c16ef86517ebcf667c860e</Anchor>
+                    <Anchor>a0e9c2b019184e4dc5471c0bf3fe921e6</Anchor>
                    </Node>
                    <Node>
                     <Name>bpm_follow</Name>
                     <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                    <Anchor>abda36021322d1f1978b48da6fdbf922e</Anchor>
+                    <Anchor>aaea44c2fea4db0a736c670409e1975a9</Anchor>
                    </Node>
                    <Node>
                     <Name>feedback</Name>
                     <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                    <Anchor>abcd70b5ce38308ed7957cf9f0f004f0c</Anchor>
+                    <Anchor>a6dc8d4f2a03807e5b8689668078bca36</Anchor>
                    </Node>
                    <Node>
                     <Name>tone</Name>
                     <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                    <Anchor>a4aa6cb89dd1be87f35d203b3051f0ee1</Anchor>
+                    <Anchor>a45f32f0749d717008d915520457e59bf</Anchor>
                    </Node>
                    <Node>
                     <Name>spread</Name>
                     <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                    <Anchor>a2a08b73965c47dcb8adfb983d7a1a848</Anchor>
+                    <Anchor>a19b9d72bf22b966bb9459bab5b126a48</Anchor>
                    </Node>
                    <Node>
                     <Name>delay_level</Name>
@@ -5678,22 +5559,22 @@
                    <Node>
                     <Name>spread</Name>
                     <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                    <Anchor>a679ad1f03f0d6af57b942bad0d121c8f</Anchor>
+                    <Anchor>a75b17757ae8603dfad701732c01e9f51</Anchor>
                    </Node>
                    <Node>
                     <Name>shimmer</Name>
                     <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                    <Anchor>ac002cb71e2587b8562c630ebdca3889c</Anchor>
+                    <Anchor>aca240a8fe4a1f579089559a19f6eeb83</Anchor>
                    </Node>
                    <Node>
                     <Name>length</Name>
                     <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                    <Anchor>a674115b8ede4d200ec3718e8dc4b15e3</Anchor>
+                    <Anchor>adebf39d27611239a077fea3a34721dba</Anchor>
                    </Node>
                    <Node>
                     <Name>shape</Name>
                     <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                    <Anchor>a7672eaa7aafa3eeaf55fd6c5ad102d3a</Anchor>
+                    <Anchor>ab5defa3498e02d3a8f6b90f0844a16ac</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -7872,6 +7753,11 @@
                   <Name>midi_out</Name>
                   <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
                   <Anchor>aac6f79059447bf95f257116eb715afba</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>enable_input</Name>
+                  <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
+                  <Anchor>a67531aa3d80f3d480046f40a40898425</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -12623,6 +12509,28 @@
               <Path>structotto_1_1core_1_1props_1_1_properties.html</Path>
              </Node>
              <Node>
+              <Name>otto::core::props::Properties&lt; faust_link &gt;</Name>
+              <Path>structotto_1_1core_1_1props_1_1_properties.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::engines::Master::Props</Name>
+                <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Pingpong::DelayLine</Name>
+                <Path>structotto_1_1engines_1_1_pingpong_1_1_delay_line.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Pingpong::Props</Name>
+                <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::engines::Wormhole::Props</Name>
+                <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>otto::core::props::Properties&lt; otto::core::props::no &gt;</Name>
               <Path>structotto_1_1core_1_1props_1_1_properties.html</Path>
              </Node>
@@ -12677,32 +12585,12 @@
                 <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
                </Node>
                <Node>
-                <Name>otto::engines::HammondSynth::Props</Name>
-                <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Master::Props</Name>
-                <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::NukeSynth::Props</Name>
-                <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-               </Node>
-               <Node>
                 <Name>otto::engines::OTTOFMSynth::OperatorProps</Name>
                 <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html</Path>
                </Node>
                <Node>
                 <Name>otto::engines::OTTOFMSynth::Props</Name>
                 <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Pingpong::DelayLine</Name>
-                <Path>structotto_1_1engines_1_1_pingpong_1_1_delay_line.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Pingpong::Props</Name>
-                <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
                </Node>
                <Node>
                 <Name>otto::engines::PotionSynth::CurveOscProps</Name>
@@ -12727,10 +12615,6 @@
                <Node>
                 <Name>otto::engines::Sequencer::Props</Name>
                 <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::Wormhole::Props</Name>
-                <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
                </Node>
               </Subnodes>
              </Node>
@@ -13145,14 +13029,6 @@
               <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
              </Node>
              <Node>
-              <Name>otto::engines::HammondSynth</Name>
-              <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-             </Node>
-             <Node>
-              <Name>otto::engines::NukeSynth</Name>
-              <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-             </Node>
-             <Node>
               <Name>otto::engines::OTTOFMSynth</Name>
               <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
              </Node>
@@ -13484,14 +13360,6 @@
                <Node>
                 <Name>otto::engines::GossSynth</Name>
                 <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::HammondSynth</Name>
-                <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-               </Node>
-               <Node>
-                <Name>otto::engines::NukeSynth</Name>
-                <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
                </Node>
                <Node>
                 <Name>otto::engines::OTTOFMSynth</Name>
@@ -13905,12 +13773,22 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
+            <Name>otto::core::props::PropertyImpl&lt; bool, faust_link &gt;</Name>
+            <Path>namespaceotto_1_1core_1_1props.html</Path>
+            <Anchor>namespaceotto_1_1core_1_1props</Anchor>
+           </Node>
+           <Node>
             <Name>otto::core::props::PropertyImpl&lt; float &gt;</Name>
             <Path>namespaceotto_1_1core_1_1props.html</Path>
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
-            <Name>otto::core::props::PropertyImpl&lt; float, otto::core::props::no &gt;</Name>
+            <Name>otto::core::props::PropertyImpl&lt; float, faust_link &gt;</Name>
+            <Path>namespaceotto_1_1core_1_1props.html</Path>
+            <Anchor>namespaceotto_1_1core_1_1props</Anchor>
+           </Node>
+           <Node>
+            <Name>otto::core::props::PropertyImpl&lt; float, faust_link, otto::core::props::no &gt;</Name>
             <Path>namespaceotto_1_1core_1_1props.html</Path>
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
@@ -14283,12 +14161,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
            </Node>
            <Node>
             <Name>UIManager</Name>
@@ -14334,10 +14212,6 @@
            </Node>
            <Node>
             <Name>otto::core::audio::VoiceManager&lt; N &gt;</Name>
-            <Path>structotto_1_1core_1_1audio_1_1_voice_manager.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::core::audio::VoiceManager&lt; 6 &gt;</Name>
             <Path>structotto_1_1core_1_1audio_1_1_voice_manager.html</Path>
            </Node>
            <Node>
@@ -14896,6 +14770,11 @@
                             <Name>midi_out</Name>
                             <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
                             <Anchor>aac6f79059447bf95f257116eb715afba</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>enable_input</Name>
+                            <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
+                            <Anchor>a67531aa3d80f3d480046f40a40898425</Anchor>
                            </Node>
                           </Subnodes>
                          </Node>
@@ -23289,7 +23168,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>a2fae43a9991b3b4b3168fe3ab7e36578</Anchor>
+                      <Anchor>a17f0e80f175dc0fab3c33406c00690fe</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -23301,7 +23180,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>a0fdda1aafecebcabdc08b5668dd95284</Anchor>
+                      <Anchor>a19553ff84a9a8bb0e3ce66a0cf1a79ea</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -23313,7 +23192,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>a2d0c0c33ea53ac0960350015e4c0d506</Anchor>
+                      <Anchor>ae88e30535019863945a3d60e0aedef5c</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -23325,7 +23204,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>adeacc326d57ac04f1dc0a544322e5f7f</Anchor>
+                      <Anchor>a93ba271373b7aeee2b2c8fe0240f00ea</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -23337,7 +23216,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>a249548b941d65b31ac3e80b8a3606e35</Anchor>
+                      <Anchor>ae9f0706a9ed1cf920f6b8f7ba024f2de</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -25155,7 +25034,7 @@
                          <Node>
                           <Name>level</Name>
                           <Path>structotto_1_1engines_1_1_pingpong_1_1_delay_line.html</Path>
-                          <Anchor>a06ba8ac414aa87a17e92a530f2661b66</Anchor>
+                          <Anchor>aff44a8e9e92fd6d8a03ffdc871a22428</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -25166,27 +25045,27 @@
                          <Node>
                           <Name>delaytime</Name>
                           <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                          <Anchor>aab1c39b2a1c16ef86517ebcf667c860e</Anchor>
+                          <Anchor>a0e9c2b019184e4dc5471c0bf3fe921e6</Anchor>
                          </Node>
                          <Node>
                           <Name>bpm_follow</Name>
                           <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                          <Anchor>abda36021322d1f1978b48da6fdbf922e</Anchor>
+                          <Anchor>aaea44c2fea4db0a736c670409e1975a9</Anchor>
                          </Node>
                          <Node>
                           <Name>feedback</Name>
                           <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                          <Anchor>abcd70b5ce38308ed7957cf9f0f004f0c</Anchor>
+                          <Anchor>a6dc8d4f2a03807e5b8689668078bca36</Anchor>
                          </Node>
                          <Node>
                           <Name>tone</Name>
                           <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                          <Anchor>a4aa6cb89dd1be87f35d203b3051f0ee1</Anchor>
+                          <Anchor>a45f32f0749d717008d915520457e59bf</Anchor>
                          </Node>
                          <Node>
                           <Name>spread</Name>
                           <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                          <Anchor>a2a08b73965c47dcb8adfb983d7a1a848</Anchor>
+                          <Anchor>a19b9d72bf22b966bb9459bab5b126a48</Anchor>
                          </Node>
                          <Node>
                           <Name>delay_level</Name>
@@ -25219,7 +25098,7 @@
                        <Node>
                         <Name>level</Name>
                         <Path>structotto_1_1engines_1_1_pingpong_1_1_delay_line.html</Path>
-                        <Anchor>a06ba8ac414aa87a17e92a530f2661b66</Anchor>
+                        <Anchor>aff44a8e9e92fd6d8a03ffdc871a22428</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -25230,27 +25109,27 @@
                        <Node>
                         <Name>delaytime</Name>
                         <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                        <Anchor>aab1c39b2a1c16ef86517ebcf667c860e</Anchor>
+                        <Anchor>a0e9c2b019184e4dc5471c0bf3fe921e6</Anchor>
                        </Node>
                        <Node>
                         <Name>bpm_follow</Name>
                         <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                        <Anchor>abda36021322d1f1978b48da6fdbf922e</Anchor>
+                        <Anchor>aaea44c2fea4db0a736c670409e1975a9</Anchor>
                        </Node>
                        <Node>
                         <Name>feedback</Name>
                         <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                        <Anchor>abcd70b5ce38308ed7957cf9f0f004f0c</Anchor>
+                        <Anchor>a6dc8d4f2a03807e5b8689668078bca36</Anchor>
                        </Node>
                        <Node>
                         <Name>tone</Name>
                         <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                        <Anchor>a4aa6cb89dd1be87f35d203b3051f0ee1</Anchor>
+                        <Anchor>a45f32f0749d717008d915520457e59bf</Anchor>
                        </Node>
                        <Node>
                         <Name>spread</Name>
                         <Path>structotto_1_1engines_1_1_pingpong_1_1_props.html</Path>
-                        <Anchor>a2a08b73965c47dcb8adfb983d7a1a848</Anchor>
+                        <Anchor>a19b9d72bf22b966bb9459bab5b126a48</Anchor>
                        </Node>
                        <Node>
                         <Name>delay_level</Name>
@@ -25282,22 +25161,22 @@
                          <Node>
                           <Name>spread</Name>
                           <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                          <Anchor>a679ad1f03f0d6af57b942bad0d121c8f</Anchor>
+                          <Anchor>a75b17757ae8603dfad701732c01e9f51</Anchor>
                          </Node>
                          <Node>
                           <Name>shimmer</Name>
                           <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                          <Anchor>ac002cb71e2587b8562c630ebdca3889c</Anchor>
+                          <Anchor>aca240a8fe4a1f579089559a19f6eeb83</Anchor>
                          </Node>
                          <Node>
                           <Name>length</Name>
                           <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                          <Anchor>a674115b8ede4d200ec3718e8dc4b15e3</Anchor>
+                          <Anchor>adebf39d27611239a077fea3a34721dba</Anchor>
                          </Node>
                          <Node>
                           <Name>shape</Name>
                           <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                          <Anchor>a7672eaa7aafa3eeaf55fd6c5ad102d3a</Anchor>
+                          <Anchor>ab5defa3498e02d3a8f6b90f0844a16ac</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -25325,22 +25204,22 @@
                        <Node>
                         <Name>spread</Name>
                         <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                        <Anchor>a679ad1f03f0d6af57b942bad0d121c8f</Anchor>
+                        <Anchor>a75b17757ae8603dfad701732c01e9f51</Anchor>
                        </Node>
                        <Node>
                         <Name>shimmer</Name>
                         <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                        <Anchor>ac002cb71e2587b8562c630ebdca3889c</Anchor>
+                        <Anchor>aca240a8fe4a1f579089559a19f6eeb83</Anchor>
                        </Node>
                        <Node>
                         <Name>length</Name>
                         <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                        <Anchor>a674115b8ede4d200ec3718e8dc4b15e3</Anchor>
+                        <Anchor>adebf39d27611239a077fea3a34721dba</Anchor>
                        </Node>
                        <Node>
                         <Name>shape</Name>
                         <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
-                        <Anchor>a7672eaa7aafa3eeaf55fd6c5ad102d3a</Anchor>
+                        <Anchor>ab5defa3498e02d3a8f6b90f0844a16ac</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -25373,7 +25252,7 @@
                          <Node>
                           <Name>volume</Name>
                           <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
-                          <Anchor>ab1ed5bb34b4c19021190e973e5a58319</Anchor>
+                          <Anchor>a6ffcb4d55e6dc4f88ae3945fae1e3787</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -25401,7 +25280,7 @@
                        <Node>
                         <Name>volume</Name>
                         <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
-                        <Anchor>ab1ed5bb34b4c19021190e973e5a58319</Anchor>
+                        <Anchor>a6ffcb4d55e6dc4f88ae3945fae1e3787</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -25721,206 +25600,6 @@
                         <Name>rotation_value</Name>
                         <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
                         <Anchor>ab26eb168a3c62b5bdf3fcc762d9e678c</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>hammond</Name>
-                  <Path>dir_7dfc423a3d8a681f28f32c72d04f4e53.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>hammond.hpp</Name>
-                    <Path>hammond_8hpp.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>HammondSynth</Name>
-                      <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>Props</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                        <Subnodes>
-                         <Node>
-                          <Name>drawbar1</Name>
-                          <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                          <Anchor>a4cb6ab44231ba8dbb642796cb80794e3</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>drawbar2</Name>
-                          <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                          <Anchor>af16854246812e4c9ec4467e09a5e7326</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>drawbar3</Name>
-                          <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                          <Anchor>a41488c196b378dbf1a14bea913b0a424</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>leslie</Name>
-                          <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                          <Anchor>a33969f3a4c51fbc6a4e3e40e1e3b348f</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>phasor</Name>
-                          <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                          <Anchor>aa1425d696416848dd1697f90b70e283b</Anchor>
-                         </Node>
-                        </Subnodes>
-                       </Node>
-                       <Node>
-                        <Name>HammondSynth</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                        <Anchor>a2851f1f7188085a6e11ecbf960208727</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>process</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                        <Anchor>ae1d7289db1112fd9b358a12dfa23bc84</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>envelope_screen</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                        <Anchor>ac6fd0dc84c7395fbaee614c65473fbac</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>voices_screen</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                        <Anchor>ac9ee20d44ad4be2da25d26f37aed0aee</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>props</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth.html</Path>
-                        <Anchor>af92f4d5f9ea3d3c79110b440686ffcd4</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
-                      <Name>Props</Name>
-                      <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>drawbar1</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                        <Anchor>a4cb6ab44231ba8dbb642796cb80794e3</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>drawbar2</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                        <Anchor>af16854246812e4c9ec4467e09a5e7326</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>drawbar3</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                        <Anchor>a41488c196b378dbf1a14bea913b0a424</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>leslie</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                        <Anchor>a33969f3a4c51fbc6a4e3e40e1e3b348f</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>phasor</Name>
-                        <Path>structotto_1_1engines_1_1_hammond_synth_1_1_props.html</Path>
-                        <Anchor>aa1425d696416848dd1697f90b70e283b</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>nuke</Name>
-                  <Path>dir_c24cda431656aa8b6a8d8b839fd55222.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>nuke.hpp</Name>
-                    <Path>nuke_8hpp.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>NukeSynth</Name>
-                      <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>Props</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                        <Subnodes>
-                         <Node>
-                          <Name>wave</Name>
-                          <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                          <Anchor>a7d7767529195eb574e2232aa700cb8f3</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>relation</Name>
-                          <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                          <Anchor>a9a31173142653ac2b213e3cbf4f12c12</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>aux</Name>
-                          <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                          <Anchor>a9bce4b8eed14bc775502f29c0b33196c</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>filter</Name>
-                          <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                          <Anchor>acf870fae6de189b88404b49cbb4d69c2</Anchor>
-                         </Node>
-                        </Subnodes>
-                       </Node>
-                       <Node>
-                        <Name>NukeSynth</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                        <Anchor>a916cbaab5e9e79d887f6dc5c83c15723</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>process</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                        <Anchor>ac9717474d17893d0a2b0141bfd4fafbe</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>envelope_screen</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                        <Anchor>ae2c032c73de88bb2eb46d43242c585e2</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>voices_screen</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                        <Anchor>a21561e002916a05da18ce20cb2a1b713</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>props</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth.html</Path>
-                        <Anchor>a97d929f9ab368ef442c460270f4c179b</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
-                      <Name>Props</Name>
-                      <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>wave</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                        <Anchor>a7d7767529195eb574e2232aa700cb8f3</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>relation</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                        <Anchor>a9a31173142653ac2b213e3cbf4f12c12</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>aux</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                        <Anchor>a9bce4b8eed14bc775502f29c0b33196c</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>filter</Name>
-                        <Path>structotto_1_1engines_1_1_nuke_synth_1_1_props.html</Path>
-                        <Anchor>acf870fae6de189b88404b49cbb4d69c2</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
