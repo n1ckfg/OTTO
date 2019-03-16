@@ -118,7 +118,7 @@ namespace otto::engines {
 
     switch (e.rotary) {
     case Rotary::blue:  engine.props.aggro.step(e.clicks); break;
-    case Rotary::green:  engine. props.asymmetry.step(e.clicks); break;
+    case Rotary::green:  engine.props.asymmetry.step(e.clicks); break;
     case Rotary::yellow: engine.props.lfo_speed.step(e.clicks); break;
     case Rotary::red: engine.props.lfo_depth.step(e.clicks); break;
     }
@@ -134,9 +134,9 @@ namespace otto::engines {
 
           // Rhodes/Depth/Digits
           ctx.save();
-          ctx.font(Fonts::Norm, 40);
+          ctx.font(Fonts::Norm, 45);
           ctx.fillStyle(Colours::Blue);
-          ctx.fillText(fmt::format("{:1}", engine.props.lfo_depth), 17.9, 106.9);
+          ctx.fillText(fmt::format("{}", std::round(engine.props.lfo_depth * 100)), 17.9, 106.9);
 
           // Rhodes/Depth/Text
           ctx.font(Fonts::Norm, 25);
@@ -148,16 +148,16 @@ namespace otto::engines {
 
           // Rhodes/Speed/Digits
           ctx.save();
-          ctx.font(Fonts::Norm, 40);
+          ctx.font(Fonts::Norm, 45);
           ctx.fillStyle(Colours::Green);
-          ctx.fillText(fmt::format("{:1}", engine.props.lfo_speed), 17.9, 205.7);
+          ctx.fillText(fmt::format("{}", std::round(engine.props.lfo_speed * 100)), 17.9, 205.7);
 
           // Rhodes/Speed/Text
           ctx.font(Fonts::Norm, 25);
           ctx.fillStyle(Colours::White);
           ctx.fillText("speed", 17.9, 164.9);
 
-          // (temp unused) movement values
+          // movement values
           float aggroMultiplier = engine.props.aggro * engine.props.aggro;
           float valW1 = 0 - ((engine.props.aggro * aggroMultiplier)*30) +3;
           float valR1 = 0 - ((engine.props.aggro * aggroMultiplier)*20) +2 ;
@@ -177,7 +177,7 @@ namespace otto::engines {
 
           float asymVal = engine.props.asymmetry + (engine.props.asymmetry * 5) ; //(works at 3), trying 4 now
 
-          //anchor
+          // Anchor
             ctx.group([&] {
               ctx.translate(0,(valW4 + asymVal));
               ctx.beginPath();
@@ -192,12 +192,10 @@ namespace otto::engines {
             });
 
             ctx.group([&] {
-              // move entire group sideways.
+              // Move entire group sideways.
               ctx.translate(20,(0 + engine.props.asymmetry));
-              //////////////////////////
-              // RED CHAIN 1 /////////
-              //////////////////////////
 
+              // RED CHAIN 1
               ctx.group([&] {
                 ctx.translate(0,valR1);
                 ctx.beginPath();
@@ -217,10 +215,8 @@ namespace otto::engines {
                 ctx.strokeStyle(Colours::Red);
                 ctx.stroke();
               });
-              //////////////////////////
-              // RED CHAIN 2 /////////
-              //////////////////////////
 
+              // RED CHAIN 2
               ctx.group([&] {
                 ctx.translate(0,0);
                 ctx.beginPath();
@@ -238,10 +234,8 @@ namespace otto::engines {
                 ctx.strokeStyle(Colours::Red);
                 ctx.stroke();
               });
-              //////////////////////////
-              // RED CHAIN 3 /////////
-              //////////////////////////
 
+              // RED CHAIN 3
               ctx.group([&] {
                 ctx.translate(0,valR3);
                 ctx.beginPath();
@@ -251,7 +245,6 @@ namespace otto::engines {
                 ctx.strokeStyle(Colours::Red);
                 ctx.stroke();
 
-                //top
                 ctx.beginPath();
                 ctx.arc(225, (61 - asymVal), 15, arcVal5 * M_PI, 0);
                 ctx.lineTo(240,(62 + arcVal4 -5));
@@ -260,10 +253,8 @@ namespace otto::engines {
                 ctx.strokeStyle(Colours::Red);
                 ctx.stroke();
               });
-              //////////////////////////
-              // WHITE CHAIN 1 /////////
-              //////////////////////////
 
+              // WHITE CHAIN 1
               ctx.group([&] {
                 ctx.translate(0,valW1);
                 ctx.beginPath();
@@ -279,10 +270,8 @@ namespace otto::engines {
                 ctx.strokeStyle(Colours::White);
                 ctx.stroke();
               });
-              //////////////////////////
-              // WHITE CHAIN 2 /////////
-              //////////////////////////
 
+              // WHITE CHAIN 2
               ctx.group([&] {
                 ctx.translate(0,valW2);
                 ctx.beginPath();
@@ -299,15 +288,13 @@ namespace otto::engines {
                 ctx.strokeStyle(Colours::White);
                 ctx.stroke();
               });
-              //////////////////////////
-              // WHITE CHAIN 3 /////////
-              //////////////////////////
 
+              // WHITE CHAIN 3
               ctx.group([&] {
                 ctx.translate(0,valW3);
                 ctx.beginPath();
                 ctx.arc(201, (110 + asymVal), 15, arcVal2, 1 * M_PI);
-                // lT moves when altered
+                // lineTo moves when altered
                 ctx.lineTo(186,(109 - arcVal3));
                 ctx.strokeStyle(Colours::White);
                 ctx.stroke();
@@ -319,10 +306,8 @@ namespace otto::engines {
                 ctx.strokeStyle(Colours::White);
                 ctx.stroke();
               });
-              //////////////////////////
-              // WHITE CHAIN 4 /////////
-              //////////////////////////
 
+              // WHITE CHAIN 4
               ctx.group([&] {
                 ctx.translate(0,valW4);
                 ctx.beginPath();
@@ -341,7 +326,7 @@ namespace otto::engines {
               });
             });
 
-            // anchor group
+            // Anchor Group
             ctx.group([&] {
               ctx.translate(0,(valW4 + asymVal));
               ctx.beginPath();
@@ -372,16 +357,35 @@ namespace otto::engines {
               ctx.stroke();
             });
 
-            // Rhodes/Waves
-            ctx.group([&] {
-              ctx.beginPath();
-              ctx.moveTo(106, 188);
-              // x1, y1, x2, y2, x, y
-              ctx.bezierCurveTo(188, 200, 200, 200, 200, 188);
-              ctx.strokeStyle(Colours::Blue);
-              ctx.stroke();
-            });
+            // LFO/Speed Wave
+            //ctx.group([&] {
+              // set positions
+              float x = 106; //50
+              float y = 188; //200
+              float i = 10;
 
-    ///
+              // controls
+              float period = (engine.props.lfo_speed * 8) - 11; //4 //6
+              float amplitude = engine.props.lfo_depth * 15 + 0.01;
+
+                // beginpath used to be first,
+                // but wont need line to start yet.
+                // > next up:
+                // move to desired point
+                ctx.beginPath();
+                ctx.moveTo( x, y );
+                // set linewidth and stroke
+                ctx.lineWidth(6.0);
+                ctx.strokeStyle(Colours::Blue);
+                ctx.lineCap(Canvas::LineCap::ROUND);
+                ctx.lineJoin(Canvas::LineJoin::ROUND);
+
+                // infinite for loop
+                for(int a = x; a < 250 - 20; a++) {
+                    int b = amplitude * sin( a / period + ( i / 5 ) );
+                    ctx.lineTo( a , b + y );
+                };
+                ctx.stroke();
+            //});
   }
 } // namespace otto::engines
