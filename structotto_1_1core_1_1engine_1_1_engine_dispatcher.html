@@ -107,12 +107,12 @@ Public Types</h2></td></tr>
 <tr class="separator:a68d1035001a274f22e2918b4d6607e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcce5a0bc86d882c44733428ddf87684"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#adcce5a0bc86d882c44733428ddf87684">exception</a> = <a class="el" href="structotto_1_1util_1_1as__exception.html">util::as_exception</a>&lt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a68d1035001a274f22e2918b4d6607e77">ErrorCode</a> &gt;</td></tr>
 <tr class="separator:adcce5a0bc86d882c44733428ddf87684"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7743b9be5391c46e5d2d6c472950d682"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> = <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">engine::Engine</a>&lt; ET &gt;</td></tr>
-<tr class="separator:a7743b9be5391c46e5d2d6c472950d682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d371a37b544292914d696082ce4899"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ae5d371a37b544292914d696082ce4899">variant</a> = <a class="el" href="namespaceotto_1_1util.html#af4fc57a4ab642a604b4eb92be818455a">util::variant_w_base</a>&lt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>, Engines... &gt;</td></tr>
-<tr class="separator:ae5d371a37b544292914d696082ce4899"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47d8702c4b34076e5f7849e1a1c8353c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a47d8702c4b34076e5f7849e1a1c8353c">DataMap</a> = foonathan::array::flat_map&lt; std::string_view, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &gt;</td></tr>
-<tr class="separator:a47d8702c4b34076e5f7849e1a1c8353c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e46d18236d117b77ab7317cf4d9b263"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> = <a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html">engine::ITypedEngine</a>&lt; ET &gt;</td></tr>
+<tr class="separator:a6e46d18236d117b77ab7317cf4d9b263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6617e054d71818eafadcc99d3e9eb48b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6617e054d71818eafadcc99d3e9eb48b">variant</a> = <a class="el" href="namespaceotto_1_1util.html#af4fc57a4ab642a604b4eb92be818455a">util::variant_w_base</a>&lt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>, Engines... &gt;</td></tr>
+<tr class="separator:a6617e054d71818eafadcc99d3e9eb48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe55bdfc750cdb324d8d3e811b280bd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a2fe55bdfc750cdb324d8d3e811b280bd">DataMap</a> = foonathan::array::flat_map&lt; <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &gt;</td></tr>
+<tr class="separator:a2fe55bdfc750cdb324d8d3e811b280bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -121,32 +121,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a632970095815fd82648b78d139dc52cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a632970095815fd82648b78d139dc52cc">init</a> ()</td></tr>
 <tr class="memdesc:a632970095815fd82648b78d139dc52cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct all registered engines.  <a href="#a632970095815fd82648b78d139dc52cc">More...</a><br /></td></tr>
 <tr class="separator:a632970095815fd82648b78d139dc52cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0741ed184dad25c646715ffd1ac8ad6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a0741ed184dad25c646715ffd1ac8ad6a">current</a> () noexcept override</td></tr>
-<tr class="memdesc:a0741ed184dad25c646715ffd1ac8ad6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the currently selected engine.  <a href="#a0741ed184dad25c646715ffd1ac8ad6a">More...</a><br /></td></tr>
-<tr class="separator:a0741ed184dad25c646715ffd1ac8ad6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b5e655ecf2eca4273d2eb9ef2ceee50"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a8b5e655ecf2eca4273d2eb9ef2ceee50">current</a> () const noexcept override</td></tr>
-<tr class="separator:a8b5e655ecf2eca4273d2eb9ef2ceee50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab261cd7bd01a3111fc02e08734b80eed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ab261cd7bd01a3111fc02e08734b80eed">current</a> () noexcept override</td></tr>
+<tr class="memdesc:ab261cd7bd01a3111fc02e08734b80eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the currently selected engine.  <a href="#ab261cd7bd01a3111fc02e08734b80eed">More...</a><br /></td></tr>
+<tr class="separator:ab261cd7bd01a3111fc02e08734b80eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a220fd10b6ad744f61878dfc02504b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a15a220fd10b6ad744f61878dfc02504b">current</a> () const noexcept override</td></tr>
+<tr class="separator:a15a220fd10b6ad744f61878dfc02504b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed057ec3e0fae540cb3f3d4463420b70"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#aed057ec3e0fae540cb3f3d4463420b70">current_idx</a> () const noexcept override</td></tr>
 <tr class="separator:aed057ec3e0fae540cb3f3d4463420b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04bf45b2c6e45f18f632d76a9cfcc235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a04bf45b2c6e45f18f632d76a9cfcc235">operator-&gt;</a> () const noexcept</td></tr>
-<tr class="memdesc:a04bf45b2c6e45f18f632d76a9cfcc235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the currently selected engine.  <a href="#a04bf45b2c6e45f18f632d76a9cfcc235">More...</a><br /></td></tr>
-<tr class="separator:a04bf45b2c6e45f18f632d76a9cfcc235"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f0c9ce44514c28214612414f61ea09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a70f0c9ce44514c28214612414f61ea09">operator-&gt;</a> () noexcept</td></tr>
-<tr class="memdesc:a70f0c9ce44514c28214612414f61ea09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the currently selected engine.  <a href="#a70f0c9ce44514c28214612414f61ea09">More...</a><br /></td></tr>
-<tr class="separator:a70f0c9ce44514c28214612414f61ea09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f923b3eaf3a3a70f3e28af1201e38b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6f923b3eaf3a3a70f3e28af1201e38b6">select</a> (std::string_view name) override</td></tr>
-<tr class="memdesc:a6f923b3eaf3a3a70f3e28af1201e38b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select engine by name.  <a href="#a6f923b3eaf3a3a70f3e28af1201e38b6">More...</a><br /></td></tr>
-<tr class="separator:a6f923b3eaf3a3a70f3e28af1201e38b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77a7388e83228057b9fb32d167bd9c77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a77a7388e83228057b9fb32d167bd9c77">select</a> (int index) override</td></tr>
-<tr class="memdesc:a77a7388e83228057b9fb32d167bd9c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select engine by index.  <a href="#a77a7388e83228057b9fb32d167bd9c77">More...</a><br /></td></tr>
-<tr class="separator:a77a7388e83228057b9fb32d167bd9c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8f3270ede871872814967b6935b1f6f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; std::string_view &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ab8f3270ede871872814967b6935b1f6f">make_name_list</a> () const override</td></tr>
-<tr class="separator:ab8f3270ede871872814967b6935b1f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3fb2d47e5a5526c7176a556ce450de9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ae3fb2d47e5a5526c7176a556ce450de9">operator-&gt;</a> () const noexcept</td></tr>
+<tr class="memdesc:ae3fb2d47e5a5526c7176a556ce450de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the currently selected engine.  <a href="#ae3fb2d47e5a5526c7176a556ce450de9">More...</a><br /></td></tr>
+<tr class="separator:ae3fb2d47e5a5526c7176a556ce450de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc7c0a57ff47b1903db0e1212c3820b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#abc7c0a57ff47b1903db0e1212c3820b8">operator-&gt;</a> () noexcept</td></tr>
+<tr class="memdesc:abc7c0a57ff47b1903db0e1212c3820b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the currently selected engine.  <a href="#abc7c0a57ff47b1903db0e1212c3820b8">More...</a><br /></td></tr>
+<tr class="separator:abc7c0a57ff47b1903db0e1212c3820b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10917310d22ca4b8713e30d4af3147db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a10917310d22ca4b8713e30d4af3147db">select</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> name) override</td></tr>
+<tr class="memdesc:a10917310d22ca4b8713e30d4af3147db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select engine by name.  <a href="#a10917310d22ca4b8713e30d4af3147db">More...</a><br /></td></tr>
+<tr class="separator:a10917310d22ca4b8713e30d4af3147db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeead2ebda7cf5d237cbadb8977a77e1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#aeead2ebda7cf5d237cbadb8977a77e1b">select</a> (int index) override</td></tr>
+<tr class="memdesc:aeead2ebda7cf5d237cbadb8977a77e1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select engine by index.  <a href="#aeead2ebda7cf5d237cbadb8977a77e1b">More...</a><br /></td></tr>
+<tr class="separator:aeead2ebda7cf5d237cbadb8977a77e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a158a0c862afdd6f2d201c01681c6261b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a158a0c862afdd6f2d201c01681c6261b">make_name_list</a> () const override</td></tr>
+<tr class="separator:a158a0c862afdd6f2d201c01681c6261b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8625da567040af5480cdb9687b655dd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a8625da567040af5480cdb9687b655dd2">selector_screen</a> () noexcept</td></tr>
 <tr class="memdesc:a8625da567040af5480cdb9687b655dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the screen used to select engines/presets.  <a href="#a8625da567040af5480cdb9687b655dd2">More...</a><br /></td></tr>
 <tr class="separator:a8625da567040af5480cdb9687b655dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af42a1ab096a4ec84d5f0a44428030bc0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a47d8702c4b34076e5f7849e1a1c8353c">DataMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#af42a1ab096a4ec84d5f0a44428030bc0">data_of_engines</a> () const noexcept</td></tr>
-<tr class="separator:af42a1ab096a4ec84d5f0a44428030bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4ce2760cae7f26feaa8ddc85aeb691"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a2fe55bdfc750cdb324d8d3e811b280bd">DataMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e4ce2760cae7f26feaa8ddc85aeb691">data_of_engines</a> () const noexcept</td></tr>
+<tr class="separator:a6e4ce2760cae7f26feaa8ddc85aeb691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a086268924df2eb441b01f1d4354fed80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a086268924df2eb441b01f1d4354fed80">to_json</a> () const</td></tr>
 <tr class="separator:a086268924df2eb441b01f1d4354fed80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a23104efef96a78aa9de33b7cf5ead1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a3a23104efef96a78aa9de33b7cf5ead1">from_json</a> (const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;)</td></tr>
@@ -188,8 +188,8 @@ template&lt;EngineType ET, typename... Engines&gt; </div>
 
 </div>
 </div>
-<a id="a7743b9be5391c46e5d2d6c472950d682"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7743b9be5391c46e5d2d6c472950d682">&#9670;&nbsp;</a></span>Engine</h2>
+<a id="a6e46d18236d117b77ab7317cf4d9b263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e46d18236d117b77ab7317cf4d9b263">&#9670;&nbsp;</a></span>ITypedEngine</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,7 +197,7 @@ template&lt;EngineType ET, typename... Engines&gt; </div>
 template&lt;EngineType ET, typename... Engines&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Engines &gt;::<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a> =  <a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">engine::Engine</a>&lt;ET&gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Engines &gt;::<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a> =  <a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html">engine::ITypedEngine</a>&lt;ET&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -206,8 +206,8 @@ template&lt;EngineType ET, typename... Engines&gt; </div>
 
 </div>
 </div>
-<a id="ae5d371a37b544292914d696082ce4899"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5d371a37b544292914d696082ce4899">&#9670;&nbsp;</a></span>variant</h2>
+<a id="a6617e054d71818eafadcc99d3e9eb48b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6617e054d71818eafadcc99d3e9eb48b">&#9670;&nbsp;</a></span>variant</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +215,7 @@ template&lt;EngineType ET, typename... Engines&gt; </div>
 template&lt;EngineType ET, typename... Engines&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Engines &gt;::<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ae5d371a37b544292914d696082ce4899">variant</a> =  <a class="el" href="namespaceotto_1_1util.html#af4fc57a4ab642a604b4eb92be818455a">util::variant_w_base</a>&lt;<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>, Engines...&gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Engines &gt;::<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6617e054d71818eafadcc99d3e9eb48b">variant</a> =  <a class="el" href="namespaceotto_1_1util.html#af4fc57a4ab642a604b4eb92be818455a">util::variant_w_base</a>&lt;<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>, Engines...&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -224,8 +224,8 @@ template&lt;EngineType ET, typename... Engines&gt; </div>
 
 </div>
 </div>
-<a id="a47d8702c4b34076e5f7849e1a1c8353c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47d8702c4b34076e5f7849e1a1c8353c">&#9670;&nbsp;</a></span>DataMap</h2>
+<a id="a2fe55bdfc750cdb324d8d3e811b280bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe55bdfc750cdb324d8d3e811b280bd">&#9670;&nbsp;</a></span>DataMap</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,7 +233,7 @@ template&lt;EngineType ET, typename... Engines&gt; </div>
 template&lt;EngineType ET, typename... Engines&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Engines &gt;::<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a47d8702c4b34076e5f7849e1a1c8353c">DataMap</a> =  foonathan::array::flat_map&lt;std::string_view, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Engines &gt;::<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a2fe55bdfc750cdb324d8d3e811b280bd">DataMap</a> =  foonathan::array::flat_map&lt;<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -318,12 +318,12 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 <p>Construct all registered engines. </p>
 <p>Only call this after all engines are registered </p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00018">18</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00018">18</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
-<a id="a0741ed184dad25c646715ffd1ac8ad6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0741ed184dad25c646715ffd1ac8ad6a">&#9670;&nbsp;</a></span>current() <span class="overload">[1/2]</span></h2>
+<a id="ab261cd7bd01a3111fc02e08734b80eed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab261cd7bd01a3111fc02e08734b80eed">&#9670;&nbsp;</a></span>current() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +334,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::current </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::current </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -351,12 +351,12 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a42d607ff5380601f90d0b874da19f8e1">otto::core::engine::IEngineDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00024">24</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00024">24</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
-<a id="a8b5e655ecf2eca4273d2eb9ef2ceee50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b5e655ecf2eca4273d2eb9ef2ceee50">&#9670;&nbsp;</a></span>current() <span class="overload">[2/2]</span></h2>
+<a id="a15a220fd10b6ad744f61878dfc02504b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15a220fd10b6ad744f61878dfc02504b">&#9670;&nbsp;</a></span>current() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +367,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::current </td>
+          <td class="memname">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::current </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -382,7 +382,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a681d94f5e15ec03f7979d986d9775897">otto::core::engine::IEngineDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00037">37</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00037">37</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
@@ -413,12 +413,12 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a7b6208c94533eff41801af0b44741836">otto::core::engine::IEngineDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00030">30</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00030">30</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
-<a id="a04bf45b2c6e45f18f632d76a9cfcc235"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04bf45b2c6e45f18f632d76a9cfcc235">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[1/2]</span></h2>
+<a id="ae3fb2d47e5a5526c7176a556ce450de9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3fb2d47e5a5526c7176a556ce450de9">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,7 +429,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>&lt; ET &gt; * <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::operator-&gt; </td>
+          <td class="memname">const <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>&lt; ET &gt; * <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::operator-&gt; </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -444,12 +444,12 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 
 <p>Access the currently selected engine. </p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00050">50</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00050">50</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
-<a id="a70f0c9ce44514c28214612414f61ea09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70f0c9ce44514c28214612414f61ea09">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[2/2]</span></h2>
+<a id="abc7c0a57ff47b1903db0e1212c3820b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7c0a57ff47b1903db0e1212c3820b8">&#9670;&nbsp;</a></span>operator-&gt;() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -460,7 +460,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>&lt; ET &gt; * <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::operator-&gt; </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>&lt; ET &gt; * <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::operator-&gt; </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -475,12 +475,12 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 
 <p>Access the currently selected engine. </p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00044">44</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00044">44</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
-<a id="a6f923b3eaf3a3a70f3e28af1201e38b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f923b3eaf3a3a70f3e28af1201e38b6">&#9670;&nbsp;</a></span>select() <span class="overload">[1/2]</span></h2>
+<a id="a10917310d22ca4b8713e30d4af3147db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10917310d22ca4b8713e30d4af3147db">&#9670;&nbsp;</a></span>select() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -491,9 +491,9 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::select </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::select </td>
           <td>(</td>
-          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
         </tr>
@@ -513,16 +513,16 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a92f1589848e5861a3f7ef0bd73eee883">otto::core::engine::IEngineDispatcher</a>.</p>
+<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a9b48adf458c45d48fc47c22d22bb8e7d">otto::core::engine::IEngineDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00056">56</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00056">56</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
-<p class="reference">References <a class="el" href="meta_8hpp_source.html#l00473">otto::meta::for_each()</a>, and <a class="el" href="string__conversions_8hpp_source.html#l00061">otto::util::to_lowercase()</a>.</p>
+<p class="reference">References <a class="el" href="meta_8hpp_source.html#l00473">otto::meta::for_each()</a>, and <a class="el" href="string__conversions_8hpp_source.html#l00063">otto::util::to_lowercase()</a>.</p>
 
 </div>
 </div>
-<a id="a77a7388e83228057b9fb32d167bd9c77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77a7388e83228057b9fb32d167bd9c77">&#9670;&nbsp;</a></span>select() <span class="overload">[2/2]</span></h2>
+<a id="aeead2ebda7cf5d237cbadb8977a77e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeead2ebda7cf5d237cbadb8977a77e1b">&#9670;&nbsp;</a></span>select() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -533,7 +533,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a7743b9be5391c46e5d2d6c472950d682">Engine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::select </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a6e46d18236d117b77ab7317cf4d9b263">ITypedEngine</a>&lt; ET &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::select </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -557,14 +557,14 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#ac41aa166ec9c9af3354c8a3fc12fe114">otto::core::engine::IEngineDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00079">79</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00079">79</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 <p class="reference">References <a class="el" href="meta_8hpp_source.html#l00473">otto::meta::for_each()</a>.</p>
 
 </div>
 </div>
-<a id="ab8f3270ede871872814967b6935b1f6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8f3270ede871872814967b6935b1f6f">&#9670;&nbsp;</a></span>make_name_list()</h2>
+<a id="a158a0c862afdd6f2d201c01681c6261b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158a0c862afdd6f2d201c01681c6261b">&#9670;&nbsp;</a></span>make_name_list()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,7 +575,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; std::string_view &gt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::make_name_list </td>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> &gt; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::make_name_list </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -588,9 +588,9 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#afff9607de95ee782afe7d51b579bb5eb">otto::core::engine::IEngineDispatcher</a>.</p>
+<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a5d5aa789d8b8546a6b4f0d9fc1a04f89">otto::core::engine::IEngineDispatcher</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00103">103</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00103">103</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/emplace_back.html">std::vector&lt; T &gt;::emplace_back()</a>, <a class="el" href="meta_8hpp_source.html#l00473">otto::meta::for_each()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/reserve.html">std::vector&lt; T &gt;::reserve()</a>.</p>
 
@@ -624,12 +624,12 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 <p>Access the screen used to select engines/presets. </p>
 <p>The returned screen has the dynamic type [<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_selector_screen.html">EngineSelectorScreen</a>]() \preconditions [init]() has previously been called </p>
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00115">115</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00115">115</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
-<a id="af42a1ab096a4ec84d5f0a44428030bc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af42a1ab096a4ec84d5f0a44428030bc0">&#9670;&nbsp;</a></span>data_of_engines()</h2>
+<a id="a6e4ce2760cae7f26feaa8ddc85aeb691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4ce2760cae7f26feaa8ddc85aeb691">&#9670;&nbsp;</a></span>data_of_engines()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -640,7 +640,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const foonathan::array::flat_map&lt; std::string_view, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::data_of_engines </td>
+          <td class="memname">const foonathan::array::flat_map&lt; <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &gt; &amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html">otto::core::engine::EngineDispatcher</a>&lt; ET, Egs &gt;::data_of_engines </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -653,7 +653,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00122">122</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00122">122</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00128">128</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00128">128</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
@@ -696,7 +696,7 @@ template&lt;EngineType ET, typename... Egs&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00142">142</a> of file <a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine__dispatcher_8inl_source.html#l00142">142</a> of file <a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a>.</p>
 
 </div>
 </div>
@@ -729,7 +729,7 @@ template&lt;EngineType ET, typename... Engines&gt; </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
 <li>/home/travis/build/topisani/OTTO/src/core/engine/<a class="el" href="engine__dispatcher_8hpp_source.html">engine_dispatcher.hpp</a></li>
-<li>/home/travis/build/topisani/OTTO/src/core/engine/<a class="el" href="engine__dispatcher_8impl_8hpp_source.html">engine_dispatcher.impl.hpp</a></li>
+<li>/home/travis/build/topisani/OTTO/src/core/engine/<a class="el" href="engine__dispatcher_8inl_source.html">engine_dispatcher.inl</a></li>
 </ul>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->

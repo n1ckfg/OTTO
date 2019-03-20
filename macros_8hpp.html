@@ -253,6 +253,10 @@ Macros</h2></td></tr>
 <tr class="separator:a07e4f12a8a1eeb3a87b84aa3af5321c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8363d7e0358b0fd0fe4617c406e0a1c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a8363d7e0358b0fd0fe4617c406e0a1c1">FOR_EACH_LAST_SEP2</a>(action,  args, ...)</td></tr>
 <tr class="separator:a8363d7e0358b0fd0fe4617c406e0a1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5921be887bcc560cb25c1fd47e8595b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a5921be887bcc560cb25c1fd47e8595b4">_FIRST_ARG</a>(X, ...)&#160;&#160;&#160;X</td></tr>
+<tr class="separator:a5921be887bcc560cb25c1fd47e8595b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa08b14b9a94c3605c8d922420bc5863e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#aa08b14b9a94c3605c8d922420bc5863e">FIRST_ARG</a>(...)&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#a5921be887bcc560cb25c1fd47e8595b4">_FIRST_ARG</a>(__VA_ARGS__, NONE)</td></tr>
+<tr class="separator:aa08b14b9a94c3605c8d922420bc5863e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3afd5c30fbdad326d6ca545a41ab1fab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a3afd5c30fbdad326d6ca545a41ab1fab">EXTRACT</a>(...)&#160;&#160;&#160;EXTRACT __VA_ARGS__</td></tr>
 <tr class="separator:a3afd5c30fbdad326d6ca545a41ab1fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf1f24c1c890fcdaacae84034e8b7e6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#adf1f24c1c890fcdaacae84034e8b7e6e">NOTHING_EXTRACT</a></td></tr>
@@ -4132,6 +4136,56 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a5921be887bcc560cb25c1fd47e8595b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5921be887bcc560cb25c1fd47e8595b4">&#9670;&nbsp;</a></span>_FIRST_ARG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _FIRST_ARG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;X</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00151">151</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa08b14b9a94c3605c8d922420bc5863e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa08b14b9a94c3605c8d922420bc5863e">&#9670;&nbsp;</a></span>FIRST_ARG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FIRST_ARG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#a5921be887bcc560cb25c1fd47e8595b4">_FIRST_ARG</a>(__VA_ARGS__, NONE)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00152">152</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a3afd5c30fbdad326d6ca545a41ab1fab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3afd5c30fbdad326d6ca545a41ab1fab">&#9670;&nbsp;</a></span>EXTRACT</h2>
 
@@ -4148,7 +4202,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00152">152</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00155">155</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
 
 </div>
 </div>
@@ -4164,7 +4218,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00153">153</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00156">156</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
 
 </div>
 </div>
@@ -4194,7 +4248,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00154">154</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00157">157</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
 
 </div>
 </div>
@@ -4224,7 +4278,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00155">155</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00158">158</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
 
 </div>
 </div>
@@ -4244,7 +4298,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00156">156</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="macros_8hpp_source.html#l00159">159</a> of file <a class="el" href="macros_8hpp_source.html">macros.hpp</a>.</p>
 
 </div>
 </div>

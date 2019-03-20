@@ -83,7 +83,7 @@ struct otto::core::engine::EngineScreen&lt; Engine &gt;</h3>
 <p>A <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html" title="Represents a view that covers the entire screen.">ui::Screen</a> with a reference to the engine it belongs to. </p>
 <p>Screens for engines should inherit from this. They can then access the engine from the <code>engine</code> reference. </p>
 
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00232">232</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00243">243</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="engine_8hpp_source.html">engine.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -103,8 +103,8 @@ struct otto::core::engine::EngineScreen&lt; Engine &gt;</h3>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a101ee77dbbafe29e8f02ec63b5d4be1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_screen.html#a101ee77dbbafe29e8f02ec63b5d4be1f">EngineScreen</a> (<a class="el" href="structotto_1_1core_1_1engine_1_1_engine.html">Engine</a> *<a class="el" href="structotto_1_1core_1_1engine_1_1_engine_screen.html#a27cb876c705f3b054e38a3ff7f9cf6b1">engine</a>)</td></tr>
 <tr class="separator:a101ee77dbbafe29e8f02ec63b5d4be1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaf32cb23f6bf99c454b2ab72a58aae9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_screen.html#aeaf32cb23f6bf99c454b2ab72a58aae9">~EngineScreen</a> ()</td></tr>
-<tr class="separator:aeaf32cb23f6bf99c454b2ab72a58aae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae212bc19642f3b2e2d4ab94aeb16a0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_engine_screen.html#a0ae212bc19642f3b2e2d4ab94aeb16a0">~EngineScreen</a> ()=default</td></tr>
+<tr class="separator:a0ae212bc19642f3b2e2d4ab94aeb16a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1core_1_1ui_1_1_screen')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">otto::core::ui::Screen</a></td></tr>
 <tr class="memitem:adce968b280300fda0c51f7fe3b018729 inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#adce968b280300fda0c51f7fe3b018729">Screen</a> ()</td></tr>
 <tr class="separator:adce968b280300fda0c51f7fe3b018729 inherit pub_methods_structotto_1_1core_1_1ui_1_1_screen"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,12 +158,12 @@ template&lt;typename Engine &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00234">234</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00244">244</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aeaf32cb23f6bf99c454b2ab72a58aae9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaf32cb23f6bf99c454b2ab72a58aae9">&#9670;&nbsp;</a></span>~EngineScreen()</h2>
+<a id="a0ae212bc19642f3b2e2d4ab94aeb16a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ae212bc19642f3b2e2d4ab94aeb16a0">&#9670;&nbsp;</a></span>~EngineScreen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,12 +182,10 @@ template&lt;typename Engine &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00238">238</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
 </div>
 </div>
@@ -214,7 +212,7 @@ template&lt;typename Engine &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00241">241</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00248">248</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
 </div>
 </div>

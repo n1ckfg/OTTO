@@ -151,6 +151,9 @@
 <li>operator std::array&lt; AudioBufferHandle, 1 &gt;()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#a52fa8d44359b05fd81f4eb59b55a2dd5">otto::core::audio::AudioBufferHandle</a>
 </li>
+<li>operator std::string_view()
+: <a class="el" href="structotto_1_1util_1_1string__ref.html#a9f527c78b9bbfefd1f81b9c62a0dd346">otto::util::string_ref</a>
+</li>
 <li>operator string_type()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#a1af1e352192b4e47a6d06aef1c758a58">otto::filesystem::path</a>
 </li>
@@ -176,10 +179,11 @@
 </li>
 <li>operator()()
 : <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#a07e3c1377b47a33983200516ce5e10b7">otto::core::voices::VoiceManager&lt; PostT, NumberOfVoices &gt;</a>
+, <a class="el" href="structotto_1_1dsp_1_1_simple_pitch_shift.html#a68c9a3bdee0d419a911b14e00ca42d8f">otto::dsp::SimplePitchShift</a>
 , <a class="el" href="structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator_1_1_f_m_sine.html#a549fb3e862b80d40daa66e4eab1d853c">otto::engines::OTTOFMSynth::FMOperator::FMSine</a>
 , <a class="el" href="structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_f_m_operator.html#a20db9ba4fff6518c56b8316ba31c99ee">otto::engines::OTTOFMSynth::FMOperator</a>
-, <a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html#a543c6ba52b49a742769e5b3ea9dfda97">otto::engines::PotionSynth::DualWavePlayer</a>
-, <a class="el" href="classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html#a1e06be728fab3ed1a674a090f440e5fb">otto::engines::PotionSynth::PanSM</a>
+, <a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html#a65cc6db65df973b281fb419b9a4577c2">otto::engines::PotionSynth::DualWavePlayer</a>
+, <a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html#a1e06be728fab3ed1a674a090f440e5fb">otto::engines::PotionSynth::PanSM</a>
 , <a class="el" href="structotto_1_1engines_1_1_sampler.html#a7b0fa0f4a40082a11a06a673dbc3a376">otto::engines::Sampler</a>
 , <a class="el" href="structotto_1_1util_1_1audio_1_1_envelope_follower.html#acaa7e2c629cb90da3e19fb01db6b925a">otto::util::audio::EnvelopeFollower</a>
 </li>
@@ -225,7 +229,7 @@
 <li>operator--()
 : <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#ad446a0c8b87a014f062e2d2b15a09222">otto::filesystem::path::iterator</a>
 , <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#ae09ee384797ab1d0cbda6c3e3c173e63">otto::util::iterator::float_step_iterator&lt; I, V &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_value_type_00_01std_1_1bidbaeecc5756f3133701c6a682f3a28048.html#ae71a69b3ae0f2a8696cf152abdcbf418">otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_value_type_00_01std_1_1bidbaeecc5756f3133701c6a682f3a28048.html#aace83bab4046353f5ea27a80ecc6e3fd">otto::util::iterator::iterator_facade&lt; Derived, ValueType, std::bidirectional_iterator_tag, Reference, Pointer, Difference &gt;</a>
 </li>
 <li>operator-=()
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a56149d8615cf602d0de11e3ac35d7c7f">otto::util::audio::Section&lt; T &gt;</a>
@@ -233,8 +237,8 @@
 , <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html#a212052b17e8a87d313a3acd0723df5fc">otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</a>
 </li>
 <li>operator-&gt;()
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a04bf45b2c6e45f18f632d76a9cfcc235">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#ad266a77e313e7fa1fae31d07d357bebe">otto::core::midi::shared_vector&lt; T, Allocator &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ae3fb2d47e5a5526c7176a556ce450de9">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#a9fb38ee0e1a4979afbf38b09e8d3efe8">otto::core::midi::shared_vector&lt; T, Allocator &gt;</a>
 , <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#addd4f37e9a4f305860181eec385be30b">otto::filesystem::directory_iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#aaca6a5d9de142535a7f5d9f1e158880e">otto::filesystem::recursive_directory_iterator</a>
 , <a class="el" href="structotto_1_1services_1_1_service_storage.html#a7433bc5768162cdf76406317e774007d">otto::services::ServiceStorage&lt; Service &gt;</a>
@@ -247,7 +251,7 @@
 , <a class="el" href="structotto_1_1util_1_1math_1_1vec.html#a6c5877744b814b41df40943a01c70cfd">otto::util::math::vec</a>
 </li>
 <li>operator/=()
-: <a class="el" href="classotto_1_1filesystem_1_1path.html#af279846b2a557c93a41c3f0d76ec9da1">otto::filesystem::path</a>
+: <a class="el" href="classotto_1_1filesystem_1_1path.html#a91062120b1cb840ecfb37c3ea5825c5d">otto::filesystem::path</a>
 </li>
 <li>operator&lt;()
 : <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#ae642e4ea85d230f99947ad4c380f0ca5">otto::filesystem::directory_entry</a>
@@ -263,20 +267,20 @@
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#aaf90180372a1d312d4c20c65bd3912b0">otto::core::audio::AudioBufferHandle</a>
 , <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#add4ea15874eaf0926bd4f703e75aa292">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1_service.html#a7e99feabf0e6270be4b5b8a08971e305">otto::core::Service</a>
-, <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html#afb4f9582a8c35b5a9f242d0040a9a534">otto::core::ui::vg::Canvas</a>
+, <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_canvas.html#aa135a853520aaf9a1651bcbd5dbc1f7b">otto::core::ui::vg::Canvas</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html#a2b52e3a67e9fd18cf379da258d6ade4c">otto::core::ui::vg::Point</a>
-, <a class="el" href="structotto_1_1engines_1_1_sample_1_1iterator.html#a2bf7e63af461d596197b432f8dcf4ba9">otto::engines::Sample::iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#aa293da7e28c43af1467f86e410bf78a1">otto::filesystem::directory_entry</a>
 , <a class="el" href="classotto_1_1filesystem_1_1directory__iterator.html#a45bd5c4ccefebbcaf8fd9e3eb4e8ad17">otto::filesystem::directory_iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1file__status.html#ac42fe883b026e9adbb41a321b4d8282a">otto::filesystem::file_status</a>
-, <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#a149ea3d9cf9a18c516ad92e5f9bcd7a0">otto::filesystem::path::iterator</a>
+, <a class="el" href="classotto_1_1filesystem_1_1path_1_1iterator.html#a5cc41da67520c8bf51b527410ba2c847">otto::filesystem::path::iterator</a>
 , <a class="el" href="classotto_1_1filesystem_1_1path.html#a8e598df994f5fb33b2f8c7c94aa0744c">otto::filesystem::path</a>
-, <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#af0c90d52e38fa328301fb783f926dce2">otto::filesystem::recursive_directory_iterator</a>
-, <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html#a491792b84b8ea39b3ffa7eed23720a4c">otto::util::basic_variant_w_base&lt; Base, Variant &gt;</a>
+, <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#aa8097ec2ed49b5a56f348dda564d6dcf">otto::filesystem::recursive_directory_iterator</a>
+, <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html#a634e049b293c76e3104c3bbf8f8bbdac">otto::util::basic_variant_w_base&lt; Base, Variant &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1_byte_file.html#a8b9c9e3b3589b1e13f75083476d5cd8b">otto::util::ByteFile</a>
-, <a class="el" href="structotto_1_1util_1_1_connection.html#abda2b326e5b3ff0fa0dedca85a3033d3">otto::util::Connection&lt; Args &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1_connection.html#a9523ba408653e2da20f46e105d751bb0">otto::util::Connection&lt; Args &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#ae6dba7bdde07fcf165b4f9f303dd0aa1">otto::util::iterator::float_step_iterator&lt; I, V &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1math_1_1vec.html#a5fa665f404f8a6b4da4a522b9d92b8ee">otto::util::math::vec</a>
+, <a class="el" href="structotto_1_1util_1_1string__ref.html#ae8eee1502bfa983e2f718006145e6264">otto::util::string_ref</a>
 , <a class="el" href="class_s24.html#a2c5fc98b36a246a265348a88d159a7b0">S24</a>
 </li>
 <li>operator==()
@@ -287,7 +291,7 @@
 , <a class="el" href="classotto_1_1filesystem_1_1recursive__directory__iterator.html#aae3ee0194d7ed7a6f3154d7bd6c2ad6f">otto::filesystem::recursive_directory_iterator</a>
 , <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a062eb6d7d408b299787e652dc9ea76df">otto::util::audio::Section&lt; T &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html#a19709c60fcf2f62825f3cdd5bdba0e07">otto::util::basic_variant_w_base&lt; Base, Variant &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1bytes.html#a92117536f9e30076a9e6ab89ed2e035e">otto::util::bytes&lt; len &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1bytes.html#a1842b518776a00cbc4926d0c32d2fbf5">otto::util::bytes&lt; len &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#a350396b7c194260936acd4dc1b78dfcc">otto::util::iterator::float_step_iterator&lt; I, V &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade.html#a1cad0cda71de61bf2e1f73e27c4a9b39">otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1math_1_1vec.html#a8dbcccd35d8bc63ffe34446eed764558">otto::util::math::vec</a>
@@ -303,22 +307,22 @@
 , <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html#a2cb521715c2c90ff3c05f20acc69bc79">otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#a5132f1709f51fec2735f427bfd675fad">otto::core::audio::AudioBufferHandle</a>
+: <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#ab4beab2ba434b3010898e616b319cee4">otto::core::audio::AudioBufferHandle</a>
 , <a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html#adf66e3ea6c7087f13f69a0e6a1926041">otto::core::midi::shared_vector&lt; T, Allocator &gt;</a>
-, <a class="el" href="classotto_1_1util_1_1dyn__array.html#ae45f005da55ade5aabad9f71d47f7f07">otto::util::dyn_array&lt; T &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1dyn__array.html#aac083d6e8823da7ea07f191b8cd8bd5a">otto::util::dyn_array&lt; T &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1iterator_1_1iterator__facade_3_01_derived_00_01_va_00_01std_1_1random__acc06b66ccf61033e39eca548716d2264b6.html#a05d4928020dc82fed7dbcc6f9a2fb830">otto::util::iterator::iterator_facade&lt; Derived, Va, std::random_access_iterator_tag, Re, Po, Di &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1local__vector.html#a88143e48d53a7fc4a812b411a6bb44e1">otto::util::local_vector&lt; T, Capacity &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1ringbuffer.html#aef8d4f6f2c61516d18162851e9bf36bb">otto::util::ringbuffer&lt; T, N &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1wrapping__array.html#a51fe0bdb8c0a38e4ddaa828d316dde0f">otto::util::wrapping_array&lt; T, N &gt;</a>
 </li>
 <li>operator|()
-: <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a17c158078e7133b9a4472f091f5bca75">otto::board::ui::Modifiers</a>
+: <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html#a30ebe87a9399fbdc3284fed69ed1d465">otto::board::ui::Modifiers</a>
 </li>
 <li>OTTOFMSynth()
 : <a class="el" href="structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html#a91b2128aade3e448efc07e62779e69d1">otto::engines::OTTOFMSynth</a>
 </li>
 <li>outer()
-: <a class="el" href="structotto_1_1util_1_1atomic__swap.html#adfe10d4563ce7a05984f19c2aa483828">otto::util::atomic_swap&lt; T &gt;</a>
+: <a class="el" href="structotto_1_1util_1_1atomic__swap.html#ac3062c8cce0d33a7198d4ebb5fd82452">otto::util::atomic_swap&lt; T &gt;</a>
 </li>
 <li>overlaps()
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a6667971e13c3ff47d802aaaf1aa8864a">otto::util::audio::Section&lt; T &gt;</a>

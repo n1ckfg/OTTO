@@ -72,7 +72,6 @@
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt; Struct Template Reference</div>  </div>
@@ -83,7 +82,7 @@
 struct otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00025">25</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00026">26</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="property_8hpp_source.html">property.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -94,8 +93,7 @@ struct otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</h3
  <div class="center">
   <img src="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.png" usemap="#otto::core::props::PropertyImpl_3C_20T_2C_20tag_5Flist_3C_20Tags..._20_3E_20_3E_map" alt=""/>
   <map id="otto::core::props::PropertyImpl_3C_20T_2C_20tag_5Flist_3C_20Tags..._20_3E_20_3E_map" name="otto::core::props::PropertyImpl_3C_20T_2C_20tag_5Flist_3C_20Tags..._20_3E_20_3E_map">
-<area href="structotto_1_1core_1_1props_1_1property__base.html" title="Base class of all properties, leaves and branches both." alt="otto::core::props::property_base" shape="rect" coords="0,0,341,24"/>
-<area href="structotto_1_1core_1_1props_1_1mixin_1_1leaf.html" alt="otto::core::props::mixin::leaf&lt; Tag, ValueType, TagList &gt;" shape="rect" coords="351,0,692,24"/>
+<area href="structotto_1_1core_1_1props_1_1mixin_1_1leaf.html" alt="otto::core::props::mixin::leaf&lt; Tag, ValueType, TagList &gt;" shape="rect" coords="0,0,341,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -125,15 +123,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa9591819cfc718f83ae3088553f6172c"><td class="memTemplParams" colspan="2">template&lt;typename Tag , typename... Args&gt; </td></tr>
 <tr class="memitem:aa9591819cfc718f83ae3088553f6172c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#aa9591819cfc718f83ae3088553f6172c">init_with_tuple</a> (const <a class="el" href="structotto_1_1core_1_1props_1_1_tagged_tuple.html">TaggedTuple</a>&lt; Tag, Args... &gt; &amp;tt)</td></tr>
 <tr class="separator:aa9591819cfc718f83ae3088553f6172c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a641b7b6d6399af9df95b142b2afe40c3"><td class="memTemplParams" colspan="2">template&lt;typename TRef , typename... Args&gt; </td></tr>
-<tr class="memitem:a641b7b6d6399af9df95b142b2afe40c3"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a641b7b6d6399af9df95b142b2afe40c3">PropertyImpl</a> (<a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html">branch_base</a> *<a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">parent</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> const &amp;<a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">name</a>, TRef &amp;&amp;value, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a641b7b6d6399af9df95b142b2afe40c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a904556aa1f89870e64d87f047696fcb8"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a904556aa1f89870e64d87f047696fcb8"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a904556aa1f89870e64d87f047696fcb8">as</a> () -&gt; ::std::enable_if_t&lt; PropertyImpl::is&lt; Tag &gt;, <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt; Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a> &gt; &amp; &gt;</td></tr>
-<tr class="separator:a904556aa1f89870e64d87f047696fcb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17aea038b3469ff26e7477820f501cc3"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a17aea038b3469ff26e7477820f501cc3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a17aea038b3469ff26e7477820f501cc3">as</a> () const -&gt; ::std::enable_if_t&lt; PropertyImpl::is&lt; Tag &gt;, const <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt; Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a> &gt; &amp; &gt;</td></tr>
-<tr class="separator:a17aea038b3469ff26e7477820f501cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a149a9d4d8eff84086a3f0c41587b2daa"><td class="memTemplParams" colspan="2">template&lt;typename TRef , typename... Args&gt; </td></tr>
+<tr class="memitem:a149a9d4d8eff84086a3f0c41587b2daa"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a149a9d4d8eff84086a3f0c41587b2daa">PropertyImpl</a> (TRef &amp;&amp;value, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a149a9d4d8eff84086a3f0c41587b2daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07267ddd86925a1c46885e3c866464b1"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
+<tr class="memitem:a07267ddd86925a1c46885e3c866464b1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a07267ddd86925a1c46885e3c866464b1">as</a> () -&gt; ::std::enable_if_t&lt; PropertyImpl::template <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a845c6c96b8a96d199d785ddca541f9fa">is</a>&lt; Tag &gt;, <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt; Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a> &gt; &amp; &gt;</td></tr>
+<tr class="separator:a07267ddd86925a1c46885e3c866464b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2cd2c456f7d521c21be619909b70b1"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
+<tr class="memitem:acc2cd2c456f7d521c21be619909b70b1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#acc2cd2c456f7d521c21be619909b70b1">as</a> () const -&gt; ::std::enable_if_t&lt; PropertyImpl::template <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a845c6c96b8a96d199d785ddca541f9fa">is</a>&lt; Tag &gt;, const <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt; Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a> &gt; &amp; &gt;</td></tr>
+<tr class="separator:acc2cd2c456f7d521c21be619909b70b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af07ad30dc80284f04cb70874b5d3700a"><td class="memTemplParams" colspan="2">template&lt;typename Hook &gt; </td></tr>
 <tr class="memitem:af07ad30dc80284f04cb70874b5d3700a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a> &gt;::arg_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#af07ad30dc80284f04cb70874b5d3700a">run_hook</a> (const typename <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a45d9ef7918d0d8bb59d586bf58c0cdc5">hook</a>&lt; <a class="el" href="structotto_1_1core_1_1props_1_1_hook.html">Hook</a> &gt;::arg_type &amp;arg)</td></tr>
 <tr class="separator:af07ad30dc80284f04cb70874b5d3700a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,43 +152,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add4ea15874eaf0926bd4f703e75aa292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace93d9cbca419154771fa4ec1aa1ddf5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#ace93d9cbca419154771fa4ec1aa1ddf5">operator const value_type &amp;</a> () const</td></tr>
 <tr class="separator:ace93d9cbca419154771fa4ec1aa1ddf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structotto_1_1core_1_1props_1_1property__base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1core_1_1props_1_1property__base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1core_1_1props_1_1property__base.html">otto::core::props::property_base</a></td></tr>
-<tr class="memitem:add4a5e250add03e9acb340a9cd3df44c inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#add4a5e250add03e9acb340a9cd3df44c">property_base</a> (<a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html">branch_base</a> *<a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">parent</a>=nullptr, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> const &amp;<a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">name</a>=&quot;&quot;)</td></tr>
-<tr class="separator:add4a5e250add03e9acb340a9cd3df44c inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d140fe7f97fc1bc5fa27e2dc63c491 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a24d140fe7f97fc1bc5fa27e2dc63c491">~property_base</a> ()=default</td></tr>
-<tr class="separator:a24d140fe7f97fc1bc5fa27e2dc63c491 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ca0d8189160a1ffd0dbf28e0986eb4c inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a9ca0d8189160a1ffd0dbf28e0986eb4c">name</a> () const noexcept</td></tr>
-<tr class="separator:a9ca0d8189160a1ffd0dbf28e0986eb4c inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bb63a6e55cebe7add9a227e07b3f2ab inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html">branch_base</a> const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a0bb63a6e55cebe7add9a227e07b3f2ab">parent</a> () const noexcept</td></tr>
-<tr class="separator:a0bb63a6e55cebe7add9a227e07b3f2ab inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a600157f86843acb5164774020fdd32e9 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a600157f86843acb5164774020fdd32e9 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a600157f86843acb5164774020fdd32e9">is</a> () const noexcept</td></tr>
-<tr class="separator:a600157f86843acb5164774020fdd32e9 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fcb9b180f7daa50423ec4ffbfab04fc inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a4fcb9b180f7daa50423ec4ffbfab04fc inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1interface.html">mixin::interface</a>&lt; Tag &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a4fcb9b180f7daa50423ec4ffbfab04fc">as</a> ()</td></tr>
-<tr class="separator:a4fcb9b180f7daa50423ec4ffbfab04fc inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a651738d9f7b0c3670574bf3ce3b5cc53 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:a651738d9f7b0c3670574bf3ce3b5cc53 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1interface.html">mixin::interface</a>&lt; Tag &gt; const  &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a651738d9f7b0c3670574bf3ce3b5cc53">as</a> () const</td></tr>
-<tr class="separator:a651738d9f7b0c3670574bf3ce3b5cc53 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50ecc533694a28160b3b6a216420ddb1 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#a50ecc533694a28160b3b6a216420ddb1">is_branch</a> () const noexcept</td></tr>
-<tr class="separator:a50ecc533694a28160b3b6a216420ddb1 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb2787edc6e285d6f8d0941e133d13f0 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:afb2787edc6e285d6f8d0941e133d13f0 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1branch.html">mixin::branch</a>&lt; Tag &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#afb2787edc6e285d6f8d0941e133d13f0">as_branch</a> ()</td></tr>
-<tr class="separator:afb2787edc6e285d6f8d0941e133d13f0 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead5960b5ffb670fd17ff0e2b4af6112 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
-<tr class="memitem:aead5960b5ffb670fd17ff0e2b4af6112 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1mixin_1_1branch.html">mixin::branch</a>&lt; Tag &gt; const  &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1property__base.html#aead5960b5ffb670fd17ff0e2b4af6112">as_branch</a> () const</td></tr>
-<tr class="separator:aead5960b5ffb670fd17ff0e2b4af6112 inherit pub_methods_structotto_1_1core_1_1props_1_1property__base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a845c6c96b8a96d199d785ddca541f9fa"><td class="memTemplParams" colspan="2">template&lt;typename Tag &gt; </td></tr>
 <tr class="memitem:a845c6c96b8a96d199d785ddca541f9fa"><td class="memTemplItemLeft" align="right" valign="top">constexpr static bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a845c6c96b8a96d199d785ddca541f9fa">is</a> = ::<a class="el" href="namespaceotto_1_1core_1_1props.html#a7330b9284ac5dedef8d9244791dfed1b">otto::core::props::contains_tag_v</a>&lt;<a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>, Tag&gt;</td></tr>
 <tr class="separator:a845c6c96b8a96d199d785ddca541f9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:afe1c119bc828cd0fee13458846c123b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#afe1c119bc828cd0fee13458846c123b4">value_</a></td></tr>
-<tr class="separator:afe1c119bc828cd0fee13458846c123b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a713f3e5bd83a330b552bca24d51c34bc"></a>
@@ -265,7 +232,7 @@ template&lt;typename Hook &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00089">89</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00088">88</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -307,13 +274,13 @@ template&lt;typename Tag , typename T , typename TagList &gt; </div>
 
 <p>Get mixin type for type <code>T</code> and tag <code>Tag</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00234">234</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html#l00224">224</a> of file <a class="el" href="core_2props_2internal_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a641b7b6d6399af9df95b142b2afe40c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a641b7b6d6399af9df95b142b2afe40c3">&#9670;&nbsp;</a></span>PropertyImpl()</h2>
+<a id="a149a9d4d8eff84086a3f0c41587b2daa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a149a9d4d8eff84086a3f0c41587b2daa">&#9670;&nbsp;</a></span>PropertyImpl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,18 +292,6 @@ template&lt;typename TRef , typename... Args&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::<a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1props_1_1branch__base.html">branch_base</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">TRef &amp;&amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
@@ -407,12 +362,10 @@ template&lt;typename Tag , typename... Args&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00046">46</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="tag__list_8hpp_source.html#l00118">otto::core::props::TaggedTuple&lt; Tag, Args &gt;::args</a>.</p>
-
 </div>
 </div>
-<a id="a904556aa1f89870e64d87f047696fcb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a904556aa1f89870e64d87f047696fcb8">&#9670;&nbsp;</a></span>as() <span class="overload">[1/2]</span></h2>
+<a id="a07267ddd86925a1c46885e3c866464b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07267ddd86925a1c46885e3c866464b1">&#9670;&nbsp;</a></span>as() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,18 +378,18 @@ template&lt;typename Tag &gt; </div>
           <td class="memname">auto <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::as </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; ::std::enable_if_t&lt;PropertyImpl::is&lt;Tag&gt;, <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
+          <td> -&gt; ::std::enable_if_t&lt;PropertyImpl::template <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a845c6c96b8a96d199d785ddca541f9fa">is</a>&lt;Tag&gt;, <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
     </td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00075">75</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00074">74</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a17aea038b3469ff26e7477820f501cc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17aea038b3469ff26e7477820f501cc3">&#9670;&nbsp;</a></span>as() <span class="overload">[2/2]</span></h2>
+<a id="acc2cd2c456f7d521c21be619909b70b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc2cd2c456f7d521c21be619909b70b1">&#9670;&nbsp;</a></span>as() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -449,13 +402,13 @@ template&lt;typename Tag &gt; </div>
           <td class="memname">auto <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::as </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt; ::std::enable_if_t&lt;PropertyImpl::is&lt;Tag&gt;, const <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
+          <td> const -&gt; ::std::enable_if_t&lt;PropertyImpl::template <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a845c6c96b8a96d199d785ddca541f9fa">is</a>&lt;Tag&gt;, const <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#afe2fe8d4cdcfd19be12c0aca2e68dcb1">MixinTag::leaf</a>&lt;Tag, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a>, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&gt;&amp;&gt;
     </td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00082">82</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00081">81</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -479,7 +432,7 @@ template&lt;typename Hook &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00092">92</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00091">91</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -503,7 +456,7 @@ template&lt;typename Hook &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00098">98</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00097">97</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -526,7 +479,7 @@ template&lt;typename Hook &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00104">104</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00103">103</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -549,7 +502,7 @@ template&lt;typename Hook &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00110">110</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00109">109</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -570,7 +523,7 @@ template&lt;typename T , typename... Tags&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00115">115</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00114">114</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -592,7 +545,7 @@ template&lt;typename T , typename... Tags&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00120">120</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00119">119</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -614,7 +567,7 @@ template&lt;typename T , typename... Tags&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00126">126</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00125">125</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>
@@ -635,7 +588,7 @@ template&lt;typename T , typename... Tags&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00132">132</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00131">131</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="variant__w__base_8hpp_source.html#l00181">otto::std::get()</a>.</p>
 
@@ -666,33 +619,7 @@ template&lt;typename Tag &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00072">72</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afe1c119bc828cd0fee13458846c123b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe1c119bc828cd0fee13458846c123b4">&#9670;&nbsp;</a></span>value_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename... Tags&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a713f3e5bd83a330b552bca24d51c34bc">value_type</a> <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">otto::core::props::PropertyImpl</a>&lt; T, <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a41c23b18e35229a83e1fb1a8b3cc29b6">tag_list</a>&lt; Tags... &gt; &gt;::value_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00138">138</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="property_8hpp_source.html#l00071">71</a> of file <a class="el" href="property_8hpp_source.html">property.hpp</a>.</p>
 
 </div>
 </div>

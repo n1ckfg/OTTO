@@ -70,13 +70,12 @@
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">reflection.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MetaStuff/Meta.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="reflect_8hpp_source.html">util/reflect/reflect.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="macros_8hpp_source.html">util/macros.hpp</a>&quot;</code><br />
 </div>
 <p><a href="reflection_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -91,11 +90,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aaffa767268d6ccdd872c44f9a06499b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#aaffa767268d6ccdd872c44f9a06499b0">_REFLECT_STRUCT_ARGS1</a>(Type,  Name)&#160;&#160;&#160;::otto::reflect::member(#Name, &amp;Type::Name)</td></tr>
+<tr class="memitem:aaffa767268d6ccdd872c44f9a06499b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#aaffa767268d6ccdd872c44f9a06499b0">_REFLECT_STRUCT_ARGS1</a>(Type,  Name)&#160;&#160;&#160;::<a class="el" href="namespaceotto_1_1reflect.html#a2d18ef218e4dc90e9d6f1adaefa50917">otto::reflect::member</a>&lt;Type&gt;(#Name, &amp;Type::Name)</td></tr>
 <tr class="separator:aaffa767268d6ccdd872c44f9a06499b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a6da851f87a80314db8c7b3469fab3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#a1a6da851f87a80314db8c7b3469fab3f">_REFLECT_STRUCT_ADD_TYPE</a>(Type,  Name)&#160;&#160;&#160;&amp;Type::Name</td></tr>
 <tr class="separator:a1a6da851f87a80314db8c7b3469fab3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a657d564e3061cc0a29710b1f95210ec2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#a657d564e3061cc0a29710b1f95210ec2">_REFLECT_STRUCT_ARGS2</a>(Type,  NameString, ...)&#160;&#160;&#160;::otto::reflect::member(NameString, __VA_ARGS__)</td></tr>
+<tr class="memitem:a657d564e3061cc0a29710b1f95210ec2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#a657d564e3061cc0a29710b1f95210ec2">_REFLECT_STRUCT_ARGS2</a>(Type,  NameString, ...)&#160;&#160;&#160;::<a class="el" href="namespaceotto_1_1reflect.html#a2d18ef218e4dc90e9d6f1adaefa50917">otto::reflect::member</a>&lt;Type&gt;(NameString, __VA_ARGS__)</td></tr>
 <tr class="separator:a657d564e3061cc0a29710b1f95210ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1039bb518fe09ce74dce4bd3a30d01a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#a1039bb518fe09ce74dce4bd3a30d01a5">_REFLECT_STRUCT_ARGS_DISPATCH</a>(Type, ...)</td></tr>
 <tr class="separator:a1039bb518fe09ce74dce4bd3a30d01a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,15 +104,8 @@ Macros</h2></td></tr>
 <tr class="separator:ab47a32aab7e422d191e6cfdeffe20f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d11620d55ff716ec5f53f1646b3655f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#a9d11620d55ff716ec5f53f1646b3655f">DECL_REFLECTION</a>(Type, ...)</td></tr>
 <tr class="separator:a9d11620d55ff716ec5f53f1646b3655f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:afd020d552659db3e09ac955a134b8b21"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::void_t&lt;decltype(Class::reflect_members())&gt;&gt; </td></tr>
-<tr class="memitem:afd020d552659db3e09ac955a134b8b21"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#afd020d552659db3e09ac955a134b8b21">otto::reflect::register_members</a> ()</td></tr>
-<tr class="separator:afd020d552659db3e09ac955a134b8b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b150a9af654cce4a8a3e71b5a9653a6"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::void_t&lt;decltype(Class::reflect_members())&gt;&gt; </td></tr>
-<tr class="memitem:a4b150a9af654cce4a8a3e71b5a9653a6"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a4b150a9af654cce4a8a3e71b5a9653a6">otto::reflect::register_name</a> ()</td></tr>
-<tr class="separator:a4b150a9af654cce4a8a3e71b5a9653a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99aeace6914ae37b35df9ff7ce884af3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflection_8hpp.html#a99aeace6914ae37b35df9ff7ce884af3">DECL_REFLECTION_EMPTY</a>(Type)</td></tr>
+<tr class="separator:a99aeace6914ae37b35df9ff7ce884af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aaffa767268d6ccdd872c44f9a06499b0"></a>
@@ -137,7 +129,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;::otto::reflect::member(#Name, &amp;Type::Name)</td>
+          <td></td><td>&#160;&#160;&#160;::<a class="el" href="namespaceotto_1_1reflect.html#a2d18ef218e4dc90e9d6f1adaefa50917">otto::reflect::member</a>&lt;Type&gt;(#Name, &amp;Type::Name)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -203,7 +195,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;::otto::reflect::member(NameString, __VA_ARGS__)</td>
+          <td></td><td>&#160;&#160;&#160;::<a class="el" href="namespaceotto_1_1reflect.html#a2d18ef218e4dc90e9d6f1adaefa50917">otto::reflect::member</a>&lt;Type&gt;(NameString, __VA_ARGS__)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -297,7 +289,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code" href="namespaceotto_1_1reflect.html">otto::reflect</a> {                                                                        \</div><div class="line">    template&lt;&gt;                                                                                     \</div><div class="line">    constexpr <span class="keyword">auto</span> register_members&lt;Type&gt;()                                                        \</div><div class="line">    {                                                                                              \</div><div class="line">      return ::otto::reflect::members(                                                             \</div><div class="line">        <a class="code" href="macros_8hpp.html#a251328f0db2f287c7ee8c89d235736cd">FOR_EACH_LAST_SEP</a>(<a class="code" href="reflection_8hpp.html#a4d073b37d6e00e89e5eaf334a0eb0334">_REFLECT_STRUCT_ARGS</a>, (Type), __VA_ARGS__));                             \</div><div class="line">    }                                                                                              \</div><div class="line">    template&lt;&gt;                                                                                     \</div><div class="line">    constexpr std::string_view register_name&lt;Type&gt;()                                               \</div><div class="line">    {                                                                                              \</div><div class="line">      return #Type                                                                                 \</div><div class="line">    }                                                                                              \</div><div class="line">  }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">namespace </span><a class="code" href="namespaceotto_1_1reflect.html">otto::reflect</a> {                                                                        \</div><div class="line">    template&lt;&gt;                                                                                     \</div><div class="line">    constexpr <span class="keyword">auto</span> register_members&lt;Type&gt;()                                                        \</div><div class="line">    {                                                                                              <a class="code" href="namespaceotto_1_1reflect.html#a8af3ece014d1ab8e9dde60557a5ebd1a">\</a></div><div class="line"><a class="code" href="namespaceotto_1_1reflect.html#a8af3ece014d1ab8e9dde60557a5ebd1a">      return ::otto::reflect::members</a>(                                                             \</div><div class="line">        <a class="code" href="macros_8hpp.html#a251328f0db2f287c7ee8c89d235736cd">FOR_EACH_LAST_SEP</a>(<a class="code" href="reflection_8hpp.html#a4d073b37d6e00e89e5eaf334a0eb0334">_REFLECT_STRUCT_ARGS</a>, (Type), __VA_ARGS__));                             \</div><div class="line">    }                                                                                              \</div><div class="line">    template&lt;&gt;                                                                                     \</div><div class="line">    constexpr std::string_view register_name&lt;Type&gt;()                                               \</div><div class="line">    {                                                                                              \</div><div class="line">      return #Type                                                                                 \</div><div class="line">    }                                                                                              \</div><div class="line">  }</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="reflection_8hpp_source.html#l00017">17</a> of file <a class="el" href="reflection_8hpp_source.html">reflection.hpp</a>.</p>
 
 </div>
@@ -327,8 +319,28 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">friend</span> constexpr <span class="keyword">auto</span> otto::reflect::register_members&lt;Type&gt;();                                   \</div><div class="line">  static constexpr <span class="keyword">auto</span> reflect_members()                                                          \</div><div class="line">  {                                                                                                \</div><div class="line">    return ::otto::reflect::members(<a class="code" href="macros_8hpp.html#a251328f0db2f287c7ee8c89d235736cd">FOR_EACH_LAST_SEP</a>(<a class="code" href="reflection_8hpp.html#a4d073b37d6e00e89e5eaf334a0eb0334">_REFLECT_STRUCT_ARGS</a>, (Type), __VA_ARGS__)); \</div><div class="line">  }                                                                                                \</div><div class="line">  friend constexpr std::string_view otto::reflect::register_name&lt;Type&gt;();                        \</div><div class="line">  static constexpr std::string_view reflect_name()                                                 \</div><div class="line">  {                                                                                                \</div><div class="line">    return #Type;                                                                                  \</div><div class="line">  }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static</span> constexpr <span class="keyword">auto</span> reflect_members()                                                          \</div><div class="line">  {                                                                                                <a class="code" href="namespaceotto_1_1reflect.html#a8af3ece014d1ab8e9dde60557a5ebd1a">\</a></div><div class="line"><a class="code" href="namespaceotto_1_1reflect.html#a8af3ece014d1ab8e9dde60557a5ebd1a">    return ::otto::reflect::members</a>(<a class="code" href="macros_8hpp.html#a251328f0db2f287c7ee8c89d235736cd">FOR_EACH_LAST_SEP</a>(<a class="code" href="reflection_8hpp.html#a4d073b37d6e00e89e5eaf334a0eb0334">_REFLECT_STRUCT_ARGS</a>, (Type), __VA_ARGS__)); \</div><div class="line">  }                                                                                                \</div><div class="line">  static constexpr std::string_view reflect_name()                                                 \</div><div class="line">  {                                                                                                \</div><div class="line">    return #Type;                                                                                  \</div><div class="line">  }</div></div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="reflection_8hpp_source.html#l00032">32</a> of file <a class="el" href="reflection_8hpp_source.html">reflection.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a99aeace6914ae37b35df9ff7ce884af3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99aeace6914ae37b35df9ff7ce884af3">&#9670;&nbsp;</a></span>DECL_REFLECTION_EMPTY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DECL_REFLECTION_EMPTY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Type</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static</span> constexpr <span class="keyword">auto</span> reflect_members()                                                          \</div><div class="line">  {                                                                                                <a class="code" href="namespaceotto_1_1reflect.html#a8af3ece014d1ab8e9dde60557a5ebd1a">\</a></div><div class="line"><a class="code" href="namespaceotto_1_1reflect.html#a8af3ece014d1ab8e9dde60557a5ebd1a">    return ::otto::reflect::members</a>();                                                             \</div><div class="line">  }                                                                                                \</div><div class="line">  static constexpr std::string_view reflect_name()                                                 \</div><div class="line">  {                                                                                                \</div><div class="line">    return #Type;                                                                                  \</div><div class="line">  }</div></div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="reflection_8hpp_source.html#l00042">42</a> of file <a class="el" href="reflection_8hpp_source.html">reflection.hpp</a>.</p>
 
 </div>
 </div>

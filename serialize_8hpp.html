@@ -81,6 +81,8 @@
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;json.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="reflection_8hpp_source.html">util/reflection.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="string__conversions_8hpp_source.html">util/string_conversions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="serialize_8inl_source.html">serialize.inl</a>&quot;</code><br />
 </div>
 <p><a href="serialize_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -114,6 +116,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af1fe9400b71663b5971278e6067e037e"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
 <tr class="memitem:af1fe9400b71663b5971278e6067e037e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af1fe9400b71663b5971278e6067e037e">otto::util::serialize_basic</a> (const Class &amp;obj)</td></tr>
 <tr class="separator:af1fe9400b71663b5971278e6067e037e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62859eb86a5de06f61055dc91affc20"><td class="memTemplParams" colspan="2">template&lt;typename T , std::size_t N&gt; </td></tr>
+<tr class="memitem:ad62859eb86a5de06f61055dc91affc20"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ad62859eb86a5de06f61055dc91affc20">otto::util::serialize_basic</a> (const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; T, N &gt; &amp;obj)</td></tr>
+<tr class="separator:ad62859eb86a5de06f61055dc91affc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a8ebd6a97ce8612bfa373e6af43937a24">otto::util::serialize_basic</a> (const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;obj)</td></tr>
 <tr class="separator:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +131,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a33a918b8838e63b0e0220c3ae74d8418"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </td></tr>
 <tr class="memitem:a33a918b8838e63b0e0220c3ae74d8418"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a33a918b8838e63b0e0220c3ae74d8418">otto::util::deserialize</a> (Class &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
 <tr class="separator:a33a918b8838e63b0e0220c3ae74d8418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6622baa834eff1a27cd72e6543cc28b0"><td class="memTemplParams" colspan="2">template&lt;typename T , std::size_t N&gt; </td></tr>
+<tr class="memitem:a6622baa834eff1a27cd72e6543cc28b0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a6622baa834eff1a27cd72e6543cc28b0">otto::util::deserialize</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; T, N &gt; &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
+<tr class="separator:a6622baa834eff1a27cd72e6543cc28b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a73d94d898f71d00e5b1d8d298540ecc3">otto::util::deserialize</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
 <tr class="separator:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,7 +154,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="serialize_8hpp_source.html#l00011">11</a> of file <a class="el" href="serialize_8hpp_source.html">serialize.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="serialize_8hpp_source.html#l00012">12</a> of file <a class="el" href="serialize_8hpp_source.html">serialize.hpp</a>.</p>
 
 </div>
 </div>
@@ -179,7 +187,9 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="serializable_8hpp_source.html#l00035">otto::core::props::OTTO_PROPS_MIXIN_BRANCH()</a>, and <a class="el" href="serializable_8hpp_source.html#l00074">otto::core::props::OTTO_PROPS_MIXIN_LEAF()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00006">6</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="serialize_8inl_source.html#l00022">otto::util::serialize()</a>.</p>
 
 </div>
 </div>
@@ -211,7 +221,9 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="serializable_8hpp_source.html#l00035">otto::core::props::OTTO_PROPS_MIXIN_BRANCH()</a>, and <a class="el" href="serializable_8hpp_source.html#l00074">otto::core::props::OTTO_PROPS_MIXIN_LEAF()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00012">12</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="serialize_8inl_source.html#l00092">otto::util::deserialize()</a>.</p>
 
 </div>
 </div>

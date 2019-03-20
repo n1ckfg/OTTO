@@ -203,6 +203,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_sound_file.html">SoundFile</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A file handler for sound (wav, aiff) files.  <a href="classotto_1_1util_1_1_sound_file.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class is a non owning reference to a null terminated string.  <a href="structotto_1_1util_1_1string__ref.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_tape_file.html">TapeFile</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1thread.html">thread</a></td></tr>
@@ -224,6 +227,15 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a932699080f0c5778a1045ec61737e5b7"><td class="memTemplParams" colspan="2">template&lt;bool b, typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a932699080f0c5778a1045ec61737e5b7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a932699080f0c5778a1045ec61737e5b7">select_type_t</a> = typename <a class="el" href="namespaceotto_1_1util.html#structotto_1_1util_1_1select__type">select_type</a>&lt; b, T1, T2 &gt;::type</td></tr>
 <tr class="separator:a932699080f0c5778a1045ec61737e5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb800763429589e5bb51cdf1ef3cf7a4"><td class="memTemplParams" colspan="2">template&lt;typename Ret , typename... Args&gt; </td></tr>
+<tr class="memitem:abb800763429589e5bb51cdf1ef3cf7a4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#abb800763429589e5bb51cdf1ef3cf7a4">function_ptr</a> = Ret(*)(Args...)</td></tr>
+<tr class="separator:abb800763429589e5bb51cdf1ef3cf7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c62677a42b4ac337bfbf9ff79b3238d"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename Ret , typename... Args&gt; </td></tr>
+<tr class="memitem:a8c62677a42b4ac337bfbf9ff79b3238d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a8c62677a42b4ac337bfbf9ff79b3238d">member_func_ptr</a> = Ret(Class::*)(Args...)</td></tr>
+<tr class="separator:a8c62677a42b4ac337bfbf9ff79b3238d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac646c2a93a215644df8bbed84993f884"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename T &gt; </td></tr>
+<tr class="memitem:ac646c2a93a215644df8bbed84993f884"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ac646c2a93a215644df8bbed84993f884">member_ptr</a> = T Class::*</td></tr>
+<tr class="separator:ac646c2a93a215644df8bbed84993f884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4fc57a4ab642a604b4eb92be818455a"><td class="memTemplParams" colspan="2">template&lt;typename Base , typename... Types&gt; </td></tr>
 <tr class="memitem:af4fc57a4ab642a604b4eb92be818455a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af4fc57a4ab642a604b4eb92be818455a">variant_w_base</a> = <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">basic_variant_w_base</a>&lt; Base, std::variant&lt; Types... &gt; &gt;</td></tr>
 <tr class="separator:af4fc57a4ab642a604b4eb92be818455a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -255,6 +267,9 @@ Functions</h2></td></tr>
 <tr class="memitem:af1fe9400b71663b5971278e6067e037e"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
 <tr class="memitem:af1fe9400b71663b5971278e6067e037e"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af1fe9400b71663b5971278e6067e037e">serialize_basic</a> (const Class &amp;obj)</td></tr>
 <tr class="separator:af1fe9400b71663b5971278e6067e037e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62859eb86a5de06f61055dc91affc20"><td class="memTemplParams" colspan="2">template&lt;typename T , std::size_t N&gt; </td></tr>
+<tr class="memitem:ad62859eb86a5de06f61055dc91affc20"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ad62859eb86a5de06f61055dc91affc20">serialize_basic</a> (const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; T, N &gt; &amp;obj)</td></tr>
+<tr class="separator:ad62859eb86a5de06f61055dc91affc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a8ebd6a97ce8612bfa373e6af43937a24">serialize_basic</a> (const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;obj)</td></tr>
 <tr class="separator:a8ebd6a97ce8612bfa373e6af43937a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,12 +282,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a33a918b8838e63b0e0220c3ae74d8418"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </td></tr>
 <tr class="memitem:a33a918b8838e63b0e0220c3ae74d8418"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a33a918b8838e63b0e0220c3ae74d8418">deserialize</a> (Class &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
 <tr class="separator:a33a918b8838e63b0e0220c3ae74d8418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6622baa834eff1a27cd72e6543cc28b0"><td class="memTemplParams" colspan="2">template&lt;typename T , std::size_t N&gt; </td></tr>
+<tr class="memitem:a6622baa834eff1a27cd72e6543cc28b0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a6622baa834eff1a27cd72e6543cc28b0">deserialize</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; T, N &gt; &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
+<tr class="separator:a6622baa834eff1a27cd72e6543cc28b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a73d94d898f71d00e5b1d8d298540ecc3">deserialize</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; T &gt; &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
 <tr class="separator:a73d94d898f71d00e5b1d8d298540ecc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fda81fc8e3d860d8b9607b0fc933d19"><td class="memTemplParams" colspan="2">template&lt;typename K , typename V &gt; </td></tr>
 <tr class="memitem:a9fda81fc8e3d860d8b9607b0fc933d19"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a9fda81fc8e3d860d8b9607b0fc933d19">deserialize</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/container/unordered_map.html">std::unordered_map</a>&lt; K, V &gt; &amp;obj, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;object)</td></tr>
 <tr class="separator:a9fda81fc8e3d860d8b9607b0fc933d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a0685d3a06e82e54ec8e82977dcdcf"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:ad7a0685d3a06e82e54ec8e82977dcdcf"><td class="memTemplItemLeft" align="right" valign="top">Class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ad7a0685d3a06e82e54ec8e82977dcdcf">deserialize</a> (const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;obj)</td></tr>
+<tr class="separator:ad7a0685d3a06e82e54ec8e82977dcdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5d5fa1a6428bb37ea7a2c72eec1d201"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ae5d5fa1a6428bb37ea7a2c72eec1d201">to_lowercase</a> (std::string_view sv) noexcept</td></tr>
 <tr class="separator:ae5d5fa1a6428bb37ea7a2c72eec1d201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9630b1e249e1d81e7ee621e5d8090a07"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a9630b1e249e1d81e7ee621e5d8090a07">to_uppercase</a> (std::string_view sv) noexcept</td></tr>
@@ -329,6 +350,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a1f4547f2aa7a900f532b4c13241f0113"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a1f4547f2aa7a900f532b4c13241f0113"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; std::string_view, <a class="el" href="namespaceotto_1_1util.html#a43504517e4eca0124698827acf936de5">StringConvErr</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a1f4547f2aa7a900f532b4c13241f0113">from_string</a> (std::string_view sv) noexcept</td></tr>
 <tr class="separator:a1f4547f2aa7a900f532b4c13241f0113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5afd461ffe0448e452c612a9c892fdcb"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::ostream</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a5afd461ffe0448e452c612a9c892fdcb">operator&lt;&lt;</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::ostream</a> &amp;ostream, const <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> &amp;sr)</td></tr>
+<tr class="separator:a5afd461ffe0448e452c612a9c892fdcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f115b12c197ca7a123d8354206adea1"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a9f115b12c197ca7a123d8354206adea1">operator==</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> x, <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> y)</td></tr>
+<tr class="memdesc:a9f115b12c197ca7a123d8354206adea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operators.  <a href="#a9f115b12c197ca7a123d8354206adea1">More...</a><br /></td></tr>
+<tr class="separator:a9f115b12c197ca7a123d8354206adea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47ef2d4782d3c3b2c0c9f62df04108b"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ac47ef2d4782d3c3b2c0c9f62df04108b">operator!=</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> x, <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> y)</td></tr>
+<tr class="separator:ac47ef2d4782d3c3b2c0c9f62df04108b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e5dc92d4ab55e63c8edceff0a78896c"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a7e5dc92d4ab55e63c8edceff0a78896c">operator&lt;</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> x, <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> y)</td></tr>
+<tr class="separator:a7e5dc92d4ab55e63c8edceff0a78896c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a676f72955fc2dabfd0d99e1836e47"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a17a676f72955fc2dabfd0d99e1836e47">operator&lt;=</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> x, <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> y)</td></tr>
+<tr class="separator:a17a676f72955fc2dabfd0d99e1836e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979137954d09fcdfc7e8c2f2b4842ee4"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a979137954d09fcdfc7e8c2f2b4842ee4">operator&gt;</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> x, <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> y)</td></tr>
+<tr class="separator:a979137954d09fcdfc7e8c2f2b4842ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081883c17adfd8a1dd87f4f99c31860d"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a081883c17adfd8a1dd87f4f99c31860d">operator&gt;=</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> x, <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> y)</td></tr>
+<tr class="separator:a081883c17adfd8a1dd87f4f99c31860d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1712151106797da1cd0a9358124ba76"><td class="memTemplParams" colspan="2">template&lt;typename... Ls&gt; </td></tr>
 <tr class="memitem:af1712151106797da1cd0a9358124ba76"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af1712151106797da1cd0a9358124ba76">overloaded</a> (Ls...) -&gt; <a class="el" href="structotto_1_1util_1_1overloaded.html">overloaded</a>&lt; std::decay_t&lt; Ls &gt;... &gt;</td></tr>
 <tr class="separator:af1712151106797da1cd0a9358124ba76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -452,7 +488,7 @@ type</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00011">11</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00013">13</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -489,6 +525,60 @@ template&lt;bool b, typename T1 , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="util_2type__traits_8hpp_source.html#l00107">107</a> of file <a class="el" href="util_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="abb800763429589e5bb51cdf1ef3cf7a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb800763429589e5bb51cdf1ef3cf7a4">&#9670;&nbsp;</a></span>function_ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Ret , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1util.html#abb800763429589e5bb51cdf1ef3cf7a4">otto::util::function_ptr</a> = typedef Ret (*)(Args...)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00011">11</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8c62677a42b4ac337bfbf9ff79b3238d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c62677a42b4ac337bfbf9ff79b3238d">&#9670;&nbsp;</a></span>member_func_ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class , typename Ret , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1util.html#a8c62677a42b4ac337bfbf9ff79b3238d">otto::util::member_func_ptr</a> = typedef Ret (Class::*)(Args...)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00014">14</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac646c2a93a215644df8bbed84993f884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac646c2a93a215644df8bbed84993f884">&#9670;&nbsp;</a></span>member_ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1util.html#ac646c2a93a215644df8bbed84993f884">otto::util::member_ptr</a> = typedef T Class::*</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00017">17</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
 
 </div>
 </div>
@@ -535,7 +625,7 @@ template&lt;typename Base , typename... Types&gt; </div>
 <tr><td class="fieldname"><a id="a0639e7c42fc4497a3e1f3979d66fa67da4fb901c70a0fdc05b55d95985f3300b0"></a>out_of_range&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00010">10</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00012">12</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -577,7 +667,7 @@ template&lt;typename DataRef , typename... Args&gt; </div>
 </div>
 </div>
 <a id="a26e7e0ddf6372b37a03a891d62ed3632"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26e7e0ddf6372b37a03a891d62ed3632">&#9670;&nbsp;</a></span>operator==()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e7e0ddf6372b37a03a891d62ed3632">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -617,7 +707,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="a3fa3b06b03fc43b37605cd987da30f79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fa3b06b03fc43b37605cd987da30f79">&#9670;&nbsp;</a></span>operator!=()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fa3b06b03fc43b37605cd987da30f79">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,6 +764,12 @@ template&lt;typename Class , typename  = std::enable_if_t&lt;reflect::is_registe
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00022">22</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="member_8inl_source.html#l00049">otto::reflect::member()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="serialize_8inl_source.html#l00046">serialize_basic()</a>, and <a class="el" href="serialize_8inl_source.html#l00006">to_json()</a>.</p>
+
 </div>
 </div>
 <a id="a88bc038892030ac9a321e08f6ed934c8"></a>
@@ -694,10 +790,14 @@ template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_regist
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00033">33</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="serialize_8inl_source.html#l00039">serialize_basic()</a>.</p>
+
 </div>
 </div>
 <a id="af1fe9400b71663b5971278e6067e037e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1fe9400b71663b5971278e6067e037e">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af1fe9400b71663b5971278e6067e037e">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -714,10 +814,38 @@ template&lt;typename Class &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00039">39</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="serialize_8inl_source.html#l00033">serialize()</a>.</p>
+
+</div>
+</div>
+<a id="ad62859eb86a5de06f61055dc91affc20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62859eb86a5de06f61055dc91affc20">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , std::size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> otto::util::serialize_basic </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; T, N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00046">46</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="serialize_8inl_source.html#l00022">serialize()</a>.</p>
+
 </div>
 </div>
 <a id="a8ebd6a97ce8612bfa373e6af43937a24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ebd6a97ce8612bfa373e6af43937a24">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ebd6a97ce8612bfa373e6af43937a24">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -734,10 +862,14 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00059">59</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="serialize_8inl_source.html#l00022">serialize()</a>.</p>
+
 </div>
 </div>
 <a id="a73cfd44066775314204ab7f90f5e8654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73cfd44066775314204ab7f90f5e8654">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73cfd44066775314204ab7f90f5e8654">&#9670;&nbsp;</a></span>serialize_basic() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -754,10 +886,14 @@ template&lt;typename K , typename V &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00072">72</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="serialize_8inl_source.html#l00022">serialize()</a>, and <a class="el" href="namespaceotto_1_1util.html#a1238a4c6d1f5e954703485cd83e889f1">to_string</a>.</p>
+
 </div>
 </div>
 <a id="a676d2f68d58739739474f177d57ba571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a676d2f68d58739739474f177d57ba571">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a676d2f68d58739739474f177d57ba571">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -784,10 +920,16 @@ template&lt;typename Class , typename  = std::enable_if_t&lt;reflect::is_registe
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00092">92</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="member_8inl_source.html#l00049">otto::reflect::member()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="serialize_8inl_source.html#l00084">deserialize()</a>, and <a class="el" href="serialize_8inl_source.html#l00012">from_json()</a>.</p>
+
 </div>
 </div>
 <a id="a33a918b8838e63b0e0220c3ae74d8418"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33a918b8838e63b0e0220c3ae74d8418">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a918b8838e63b0e0220c3ae74d8418">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -814,10 +956,46 @@ template&lt;typename Class , typename  = std::enable_if_t&lt;!reflect::is_regist
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00124">124</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+</div>
+</div>
+<a id="a6622baa834eff1a27cd72e6543cc28b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6622baa834eff1a27cd72e6543cc28b0">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , std::size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::util::deserialize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; T, N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00130">130</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/container/array/at.html">std::array&lt; T &gt;::at()</a>, and <a class="el" href="serialize_8inl_source.html#l00092">deserialize()</a>.</p>
+
 </div>
 </div>
 <a id="a73d94d898f71d00e5b1d8d298540ecc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73d94d898f71d00e5b1d8d298540ecc3">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d94d898f71d00e5b1d8d298540ecc3">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -844,10 +1022,14 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00142">142</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/push_back.html">std::vector&lt; T &gt;::push_back()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector/reserve.html">std::vector&lt; T &gt;::reserve()</a>.</p>
+
 </div>
 </div>
 <a id="a9fda81fc8e3d860d8b9607b0fc933d19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fda81fc8e3d860d8b9607b0fc933d19">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fda81fc8e3d860d8b9607b0fc933d19">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -873,6 +1055,34 @@ template&lt;typename K , typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00152">152</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="namespaceotto_1_1filesystem.html#a36eed60f11af8e96cef30c6f1d1b4406">otto::filesystem::begin()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/container/unordered_map/emplace.html">std::unordered_map&lt; K, T &gt;::emplace()</a>.</p>
+
+</div>
+</div>
+<a id="ad7a0685d3a06e82e54ec8e82977dcdcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7a0685d3a06e82e54ec8e82977dcdcf">&#9670;&nbsp;</a></span>deserialize() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Class &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">Class otto::util::deserialize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00084">84</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="serialize_8inl_source.html#l00092">deserialize()</a>.</p>
 
 </div>
 </div>
@@ -900,11 +1110,11 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00061">61</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00063">63</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/back_inserter.html">std::back_inserter()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/reserve.html">std::string::reserve()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="string__conversions_8hpp_source.html#l00263">otto::otto::util::from_string()</a>, and <a class="el" href="engine__dispatcher_8impl_8hpp_source.html#l00056">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;::select()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="string__conversions_8hpp_source.html#l00265">otto::otto::util::from_string()</a>, and <a class="el" href="engine__dispatcher_8inl_source.html#l00056">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;::select()</a>.</p>
 
 </div>
 </div>
@@ -932,7 +1142,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00069">69</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00071">71</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/iterator/back_inserter.html">std::back_inserter()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/reserve.html">std::string::reserve()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/transform.html">std::transform()</a>.</p>
 
@@ -962,7 +1172,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00077">77</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00079">79</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -992,7 +1202,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00081">81</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00083">83</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1022,7 +1232,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00085">85</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00087">87</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1052,7 +1262,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00089">89</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00091">91</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1082,7 +1292,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00093">93</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00095">95</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1112,7 +1322,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00097">97</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00099">99</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1142,7 +1352,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00102">102</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00104">104</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1172,7 +1382,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00106">106</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00108">108</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1202,7 +1412,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00110">110</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00112">112</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/to_string.html">std::to_string()</a>.</p>
 
@@ -1232,7 +1442,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00115">115</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00117">117</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1260,7 +1470,7 @@ template&lt;typename K , typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00119">119</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00121">121</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1290,7 +1500,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1320,7 +1530,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1350,7 +1560,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1590,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1410,7 +1620,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1440,7 +1650,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1470,7 +1680,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1500,7 +1710,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1530,7 +1740,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
 </div>
 </div>
@@ -1560,9 +1770,271 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00125">125</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="string__conversions_8hpp_source.html#l00127">127</a> of file <a class="el" href="string__conversions_8hpp_source.html">string_conversions.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da1080ed39e08a161dc545804658700e33">invalid_input</a>, <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da4fb901c70a0fdc05b55d95985f3300b0">out_of_range</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtod()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtof()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtol.html">std::strtol()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtold()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtol.html">std::strtoll()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtoul.html">std::strtoul()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtoul.html">std::strtoull()</a>, and <a class="el" href="string__conversions_8hpp_source.html#l00061">to_lowercase()</a>.</p>
+<p class="reference">References <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da1080ed39e08a161dc545804658700e33">invalid_input</a>, <a class="el" href="namespaceotto_1_1util.html#a0639e7c42fc4497a3e1f3979d66fa67da4fb901c70a0fdc05b55d95985f3300b0">out_of_range</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtod()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtof()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtol.html">std::strtol()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtof.html">std::strtold()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtol.html">std::strtoll()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtoul.html">std::strtoul()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/string/byte/strtoul.html">std::strtoull()</a>, and <a class="el" href="string__conversions_8hpp_source.html#l00063">to_lowercase()</a>.</p>
+
+</div>
+</div>
+<a id="a5afd461ffe0448e452c612a9c892fdcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5afd461ffe0448e452c612a9c892fdcb">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::ostream</a>&amp; otto::util::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::ostream</a> &amp;&#160;</td>
+          <td class="paramname"><em>ostream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a> &amp;&#160;</td>
+          <td class="paramname"><em>sr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__ref_8hpp_source.html#l00137">137</a> of file <a class="el" href="string__ref_8hpp_source.html">string_ref.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="string__ref_8hpp_source.html#l00127">otto::util::string_ref::c_str()</a>.</p>
+
+</div>
+</div>
+<a id="a9f115b12c197ca7a123d8354206adea1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f115b12c197ca7a123d8354206adea1">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool otto::util::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Comparison operators. </p>
+
+<p class="definition">Definition at line <a class="el" href="string__ref_8hpp_source.html#l00142">142</a> of file <a class="el" href="string__ref_8hpp_source.html">string_ref.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac47ef2d4782d3c3b2c0c9f62df04108b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac47ef2d4782d3c3b2c0c9f62df04108b">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool otto::util::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__ref_8hpp_source.html#l00146">146</a> of file <a class="el" href="string__ref_8hpp_source.html">string_ref.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7e5dc92d4ab55e63c8edceff0a78896c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e5dc92d4ab55e63c8edceff0a78896c">&#9670;&nbsp;</a></span>operator&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool otto::util::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__ref_8hpp_source.html#l00150">150</a> of file <a class="el" href="string__ref_8hpp_source.html">string_ref.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a17a676f72955fc2dabfd0d99e1836e47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a676f72955fc2dabfd0d99e1836e47">&#9670;&nbsp;</a></span>operator&lt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool otto::util::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__ref_8hpp_source.html#l00154">154</a> of file <a class="el" href="string__ref_8hpp_source.html">string_ref.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a979137954d09fcdfc7e8c2f2b4842ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a979137954d09fcdfc7e8c2f2b4842ee4">&#9670;&nbsp;</a></span>operator&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool otto::util::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__ref_8hpp_source.html#l00158">158</a> of file <a class="el" href="string__ref_8hpp_source.html">string_ref.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a081883c17adfd8a1dd87f4f99c31860d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081883c17adfd8a1dd87f4f99c31860d">&#9670;&nbsp;</a></span>operator&gt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool otto::util::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">string_ref</a>&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="string__ref_8hpp_source.html#l00162">162</a> of file <a class="el" href="string__ref_8hpp_source.html">string_ref.hpp</a>.</p>
 
 </div>
 </div>
@@ -1617,11 +2089,11 @@ template&lt;typename Var , typename... Lambdas&gt; </div>
 <p>Pattern matching for std::variant. </p>
 <p>One of <code>Lambdas</code> is required to match </p>
 
-<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00028">28</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00037">37</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>, and <a class="el" href="variant__w__base_8hpp_source.html#l00174">otto::std::visit()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="utility_8hpp_source.html#l00044">partial_match()</a>, <a class="el" href="voice__manager_8impl_8hpp_source.html#l00158">otto::core::voices::VoiceManager&lt; Post, 6 &gt;::process()</a>, <a class="el" href="audio_2voice__manager_8hpp_source.html#l00242">otto::core::audio::VoiceManager&lt; N &gt;::process_after()</a>, and <a class="el" href="audio_2voice__manager_8hpp_source.html#l00219">otto::core::audio::VoiceManager&lt; N &gt;::process_before()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="utility_8hpp_source.html#l00053">partial_match()</a>, and <a class="el" href="voice__manager_8inl_source.html#l00160">otto::core::voices::VoiceManager&lt; Post, 6 &gt;::process()</a>.</p>
 
 </div>
 </div>
@@ -1656,9 +2128,9 @@ template&lt;typename Var , typename... Lambdas&gt; </div>
 <p>Pattern matching for std::variant. </p>
 <p>Does not require all states of <code>v</code> to be matched, and defaults to no action. </p>
 
-<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00044">44</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00053">53</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="utility_8hpp_source.html#l00028">match()</a>, and <a class="el" href="utility_8hpp_source.html#l00037">nullmatch</a>.</p>
+<p class="reference">References <a class="el" href="utility_8hpp_source.html#l00037">match()</a>, and <a class="el" href="utility_8hpp_source.html#l00046">nullmatch</a>.</p>
 
 </div>
 </div>
@@ -1692,7 +2164,7 @@ template&lt;typename Type , typename Ret , typename... Args&gt; </div>
 
 <p>Get a callable from a member pointer and an object. </p>
 
-<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00053">53</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00062">62</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
 
 </div>
 </div>
@@ -1724,7 +2196,7 @@ template&lt;typename Type , typename Ret , typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00057">57</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00066">66</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
 
 </div>
 </div>
@@ -1743,6 +2215,8 @@ template&lt;typename Type , typename Ret , typename... Args&gt; </div>
 
 <p>String representation of <code><a class="el" href="structotto_1_1util_1_1_json_file.html#a129b3faca1a0ec06367f52767ea75528">JsonFile::ErrorCode</a></code>. </p>
 <p>This is used by <code><a class="el" href="structotto_1_1util_1_1as__exception.html" title="A wrapper for throwing arbitrary data.">util::as_exception</a></code> to print the error message. </p>
+
+<p class="reference">Referenced by <a class="el" href="serialize_8inl_source.html#l00072">serialize_basic()</a>.</p>
 
 </div>
 </div>
@@ -1950,9 +2424,9 @@ template&lt;typename T , typename... Ts&gt; </div>
 
 <p>Match any type, do nothing with it. </p>
 
-<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00037">37</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.html#l00046">46</a> of file <a class="el" href="utility_8hpp_source.html">utility.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="utility_8hpp_source.html#l00044">partial_match()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="utility_8hpp_source.html#l00053">partial_match()</a>.</p>
 
 </div>
 </div>

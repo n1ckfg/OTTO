@@ -72,6 +72,8 @@
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="structotto_1_1engines_1_1_potion_synth-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::engines::PotionSynth Struct Reference</div>  </div>
@@ -79,7 +81,7 @@
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00021">21</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00025">25</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="potion_8hpp_source.html">potion.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -90,9 +92,11 @@
  <div class="center">
   <img src="structotto_1_1engines_1_1_potion_synth.png" usemap="#otto::engines::PotionSynth_map" alt=""/>
   <map id="otto::engines::PotionSynth_map" name="otto::engines::PotionSynth_map">
-<area href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1synth_01_4.html" alt="otto::core::engine::Engine&lt; EngineType::synth &gt;" shape="rect" coords="0,56,280,80"/>
-<area href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html" alt="otto::core::engine::EngineWithEnvelope" shape="rect" coords="290,56,570,80"/>
-<area href="structotto_1_1core_1_1engine_1_1_i_engine.html" title="Abstract base class for Engines." alt="otto::core::engine::IEngine" shape="rect" coords="0,0,280,24"/>
+<area href="structotto_1_1core_1_1engine_1_1_engine.html" title="CRTP Engine base class." alt="otto::core::engine::Engine&lt; ET, Derived &gt;" shape="rect" coords="162,168,476,192"/>
+<area href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html" alt="otto::core::engine::EngineWithEnvelope" shape="rect" coords="486,168,800,192"/>
+<area href="structotto_1_1util_1_1crtp.html" alt="otto::util::crtp&lt; Derived, EngineImpl&lt; ET, Derived &gt; &gt;" shape="rect" coords="0,56,314,80"/>
+<area href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html" title="An extended engine interface including the engine type." alt="otto::core::engine::ITypedEngine&lt; ET &gt;" shape="rect" coords="324,56,638,80"/>
+<area href="structotto_1_1core_1_1engine_1_1_i_engine.html" title="Abstract base class for Engines." alt="otto::core::engine::IEngine" shape="rect" coords="324,0,638,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -104,10 +108,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html">LFOOscProps</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html">PanSM</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equal-power 2-channel panner (Stereo-to-Mono)  <a href="classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html">PanSM</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equal-power 2-channel panner (Stereo-to-Mono)  <a href="structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_props.html">Props</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html">WaveProps</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -120,47 +126,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad9cc461bc19f87d58ee0271c940a52d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af01246055e342c547051950270d86dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#af01246055e342c547051950270d86dee">voices_screen</a> () override</td></tr>
 <tr class="separator:af01246055e342c547051950270d86dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1core_1_1engine_1_1_i_engine')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">otto::core::engine::IEngine</a></td></tr>
-<tr class="memitem:a9f4b4cfe66dec401636e571380d7d6ae inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a9f4b4cfe66dec401636e571380d7d6ae">IEngine</a> (std::string_view <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#afb8bd8ee608862faa112daedc7961e36">name</a>, <a class="el" href="structotto_1_1core_1_1props_1_1properties__base.html">props::properties_base</a> &amp;<a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a438e92ce21008f77c22fd695d92cd3cf">props</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &gt; <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a67d393d34b2f2e61568ab4fbb7c4ee53">screen</a>)</td></tr>
-<tr class="separator:a9f4b4cfe66dec401636e571380d7d6ae inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65df4332b4d6fd7ff6677586acd4e9c4 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a65df4332b4d6fd7ff6677586acd4e9c4">IEngine</a> ()=delete</td></tr>
-<tr class="separator:a65df4332b4d6fd7ff6677586acd4e9c4 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4140c99a20231a8bec727cfdc43fde7 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#ae4140c99a20231a8bec727cfdc43fde7">~IEngine</a> ()=default</td></tr>
-<tr class="separator:ae4140c99a20231a8bec727cfdc43fde7 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a187e5377087194bf471a27181f5dae61 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a187e5377087194bf471a27181f5dae61">on_enable</a> ()</td></tr>
-<tr class="memdesc:a187e5377087194bf471a27181f5dae61 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this module is enabled.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#a187e5377087194bf471a27181f5dae61">More...</a><br /></td></tr>
-<tr class="separator:a187e5377087194bf471a27181f5dae61 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e43011670d9aee35e756f5796facbdf inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a8e43011670d9aee35e756f5796facbdf">on_disable</a> ()</td></tr>
-<tr class="memdesc:a8e43011670d9aee35e756f5796facbdf inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this module is disabled.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#a8e43011670d9aee35e756f5796facbdf">More...</a><br /></td></tr>
-<tr class="separator:a8e43011670d9aee35e756f5796facbdf inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb8bd8ee608862faa112daedc7961e36 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#afb8bd8ee608862faa112daedc7961e36">name</a> () const noexcept</td></tr>
-<tr class="memdesc:afb8bd8ee608862faa112daedc7961e36 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of this module.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#afb8bd8ee608862faa112daedc7961e36">More...</a><br /></td></tr>
-<tr class="separator:afb8bd8ee608862faa112daedc7961e36 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d393d34b2f2e61568ab4fbb7c4ee53 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a67d393d34b2f2e61568ab4fbb7c4ee53">screen</a> () noexcept</td></tr>
-<tr class="separator:a67d393d34b2f2e61568ab4fbb7c4ee53 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee8ecb3bc404f484cebb6047f02e5ea inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#acee8ecb3bc404f484cebb6047f02e5ea">screen</a> () const noexcept</td></tr>
-<tr class="separator:acee8ecb3bc404f484cebb6047f02e5ea inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fa07701f2e348ce8cda1ddb7d7bd87a inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a1fa07701f2e348ce8cda1ddb7d7bd87a">current_preset</a> () const noexcept</td></tr>
-<tr class="memdesc:a1fa07701f2e348ce8cda1ddb7d7bd87a inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">The currently selected preset.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#a1fa07701f2e348ce8cda1ddb7d7bd87a">More...</a><br /></td></tr>
-<tr class="separator:a1fa07701f2e348ce8cda1ddb7d7bd87a inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabce2bc83300d768b49984507e38f7cb inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#aabce2bc83300d768b49984507e38f7cb">current_preset</a> (int new_val) noexcept</td></tr>
-<tr class="memdesc:aabce2bc83300d768b49984507e38f7cb inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current preset.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#aabce2bc83300d768b49984507e38f7cb">More...</a><br /></td></tr>
-<tr class="separator:aabce2bc83300d768b49984507e38f7cb inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b7d5227a5917222898cfdda43ccca54 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a1b7d5227a5917222898cfdda43ccca54">to_json</a> () const</td></tr>
-<tr class="memdesc:a1b7d5227a5917222898cfdda43ccca54 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the engine.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#a1b7d5227a5917222898cfdda43ccca54">More...</a><br /></td></tr>
-<tr class="separator:a1b7d5227a5917222898cfdda43ccca54 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ac4b7b5a3b38c442eb0b81dbb07e0fc inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a8ac4b7b5a3b38c442eb0b81dbb07e0fc">from_json</a> (const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;j)</td></tr>
-<tr class="memdesc:a8ac4b7b5a3b38c442eb0b81dbb07e0fc inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the engine.  <a href="structotto_1_1core_1_1engine_1_1_i_engine.html#a8ac4b7b5a3b38c442eb0b81dbb07e0fc">More...</a><br /></td></tr>
-<tr class="separator:a8ac4b7b5a3b38c442eb0b81dbb07e0fc inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a438e92ce21008f77c22fd695d92cd3cf inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1properties__base.html">props::properties_base</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a438e92ce21008f77c22fd695d92cd3cf">props</a> () noexcept</td></tr>
-<tr class="separator:a438e92ce21008f77c22fd695d92cd3cf inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c8e7a374358cd06e6661e104d71911 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1properties__base.html">props::properties_base</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a21c8e7a374358cd06e6661e104d71911">props</a> () const noexcept</td></tr>
-<tr class="separator:a21c8e7a374358cd06e6661e104d71911 inherit pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd968feb047c2d7c59cc6ed0430764b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a1fd968feb047c2d7c59cc6ed0430764b">DECL_REFLECTION</a> (<a class="el" href="structotto_1_1engines_1_1_potion_synth.html">PotionSynth</a>, <a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a1c5d3e08fb35af304ed3df271852a91a">props</a>,(&quot;voice_manager&quot;, &amp;PotionSynth::voice_mgr_))</td></tr>
+<tr class="separator:a1fd968feb047c2d7c59cc6ed0430764b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac60d8a76018764bbc9a7a93f07ea3dcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_props.html">otto::engines::PotionSynth::Props</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#ac60d8a76018764bbc9a7a93f07ea3dcb">props</a></td></tr>
-<tr class="separator:ac60d8a76018764bbc9a7a93f07ea3dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c5d3e08fb35af304ed3df271852a91a"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_props.html">otto::engines::PotionSynth::Props</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a1c5d3e08fb35af304ed3df271852a91a">props</a></td></tr>
+<tr class="separator:a1c5d3e08fb35af304ed3df271852a91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a3f9d98488f4da556520d3340a92e2748"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a3f9d98488f4da556520d3340a92e2748">name</a> = &quot;Potion&quot;</td></tr>
+<tr class="separator:a3f9d98488f4da556520d3340a92e2748"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:aa384a0d4899b0314fec082a438a7ac6a"><td class="memItemLeft" align="right" valign="top">struct&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#aa384a0d4899b0314fec082a438a7ac6a">PotionSynthScreen</a></td></tr>
+<tr class="separator:aa384a0d4899b0314fec082a438a7ac6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6d131d0e1e4a667092737276a67f10e7"></a>
@@ -232,7 +214,7 @@ Public Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html#adf333cf79730df7f499fd2751513ff66">otto::core::engine::EngineWithEnvelope</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00050">50</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00068">68</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
 
 </div>
 </div>
@@ -261,19 +243,102 @@ Public Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html#a5b0518c688684ce0539d5d713f3b3e8a">otto::core::engine::EngineWithEnvelope</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00054">54</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00073">73</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac60d8a76018764bbc9a7a93f07ea3dcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac60d8a76018764bbc9a7a93f07ea3dcb">&#9670;&nbsp;</a></span>props</h2>
+<a id="a1fd968feb047c2d7c59cc6ed0430764b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd968feb047c2d7c59cc6ed0430764b">&#9670;&nbsp;</a></span>DECL_REFLECTION()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_props.html">otto::engines::PotionSynth::Props</a>  otto::engines::PotionSynth::props</td>
+          <td class="memname">otto::engines::PotionSynth::DECL_REFLECTION </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html">PotionSynth</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a1c5d3e08fb35af304ed3df271852a91a">props</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">(&quot;voice_manager&quot;, &amp;PotionSynth::voice_mgr_)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="aa384a0d4899b0314fec082a438a7ac6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa384a0d4899b0314fec082a438a7ac6a">&#9670;&nbsp;</a></span>PotionSynthScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend struct PotionSynthScreen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00161">161</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3f9d98488f4da556520d3340a92e2748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f9d98488f4da556520d3340a92e2748">&#9670;&nbsp;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> otto::engines::PotionSynth::name = &quot;Potion&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00026">26</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1c5d3e08fb35af304ed3df271852a91a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c5d3e08fb35af304ed3df271852a91a">&#9670;&nbsp;</a></span>props</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_props.html">otto::engines::PotionSynth::Props</a>  otto::engines::PotionSynth::props</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -76,13 +76,14 @@
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="engine_8hpp_source.html">core/engine/engine.hpp</a>&quot;</code><br />
-<code>#include &quot;core/audio/faust.hpp&quot;</code><br />
-<code>#include &quot;<a class="el" href="voices_2voice__manager_8hpp_source.html">core/voices/voice_manager.hpp</a>&quot;</code><br />
-<code>#include &lt;Gamma/Oscillator.h&gt;</code><br />
-<code>#include &lt;Gamma/Envelope.h&gt;</code><br />
-<code>#include &lt;Gamma/SoundFile.h&gt;</code><br />
-<code>#include &lt;Gamma/Effects.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="voice__manager_8hpp_source.html">core/voices/voice_manager.hpp</a>&quot;</code><br />
 <code>#include &lt;AudioFile.h&gt;</code><br />
+<code>#include &lt;Gamma/Effects.h&gt;</code><br />
+<code>#include &lt;Gamma/Envelope.h&gt;</code><br />
+<code>#include &lt;Gamma/Oscillator.h&gt;</code><br />
+<code>#include &lt;Gamma/SoundFile.h&gt;</code><br />
+<code>#include &lt;Gamma/SamplePlayer.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="filesystem_8hpp_source.html">util/filesystem.hpp</a>&quot;</code><br />
 </div>
 <p><a href="potion_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -90,14 +91,16 @@
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html">otto::engines::PotionSynth</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html">otto::engines::PotionSynth::WaveProps</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_curve_osc_props.html">otto::engines::PotionSynth::CurveOscProps</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html">otto::engines::PotionSynth::LFOOscProps</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_props.html">otto::engines::PotionSynth::Props</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html">otto::engines::PotionSynth::PanSM</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equal-power 2-channel panner (Stereo-to-Mono)  <a href="classotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html">otto::engines::PotionSynth::PanSM</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equal-power 2-channel panner (Stereo-to-Mono)  <a href="structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html">otto::engines::PotionSynth::DualWavePlayer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
