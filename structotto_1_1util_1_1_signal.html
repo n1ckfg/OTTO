@@ -95,8 +95,8 @@ Public Types</h2></td></tr>
 <tr class="separator:ab11f42b56ba850a6f2c40746b61848ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdecfb712048f64ef54de88a3c81e68c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_signal.html#acdecfb712048f64ef54de88a3c81e68c">Function</a> = <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(Args...)&gt;</td></tr>
 <tr class="separator:acdecfb712048f64ef54de88a3c81e68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0defb7daeeed8a920d18d69a123c12e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_signal.html#aa0defb7daeeed8a920d18d69a123c12e">FuncIterator</a> = typename <a class="elRef" href="http://en.cppreference.com/w/cpp/container/list.html">std::list</a>&lt; <a class="el" href="structotto_1_1util_1_1_signal.html#acdecfb712048f64ef54de88a3c81e68c">Function</a> &gt;::iterator</td></tr>
-<tr class="separator:aa0defb7daeeed8a920d18d69a123c12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaefd24ce40ea1b1d60cb05f9aff28139"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_signal.html#aaefd24ce40ea1b1d60cb05f9aff28139">FuncIterator</a> = typename <a class="elRef" href="http://en.cppreference.com/w/cpp/container/forward_list.html">std::forward_list</a>&lt; <a class="el" href="structotto_1_1util_1_1_signal.html#acdecfb712048f64ef54de88a3c81e68c">Function</a> &gt;::iterator</td></tr>
+<tr class="separator:aaefd24ce40ea1b1d60cb05f9aff28139"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -178,8 +178,8 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="aa0defb7daeeed8a920d18d69a123c12e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0defb7daeeed8a920d18d69a123c12e">&#9670;&nbsp;</a></span>FuncIterator</h2>
+<a id="aaefd24ce40ea1b1d60cb05f9aff28139"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaefd24ce40ea1b1d60cb05f9aff28139">&#9670;&nbsp;</a></span>FuncIterator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,7 +187,7 @@ template&lt;typename... Args&gt; </div>
 template&lt;typename... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1util_1_1_signal.html">otto::util::Signal</a>&lt; Args &gt;::<a class="el" href="structotto_1_1util_1_1_signal.html#aa0defb7daeeed8a920d18d69a123c12e">FuncIterator</a> =  typename <a class="elRef" href="http://en.cppreference.com/w/cpp/container/list.html">std::list</a>&lt;<a class="el" href="structotto_1_1util_1_1_signal.html#acdecfb712048f64ef54de88a3c81e68c">Function</a>&gt;::iterator</td>
+          <td class="memname">using <a class="el" href="structotto_1_1util_1_1_signal.html">otto::util::Signal</a>&lt; Args &gt;::<a class="el" href="structotto_1_1util_1_1_signal.html#aaefd24ce40ea1b1d60cb05f9aff28139">FuncIterator</a> =  typename <a class="elRef" href="http://en.cppreference.com/w/cpp/container/forward_list.html">std::forward_list</a>&lt;<a class="el" href="structotto_1_1util_1_1_signal.html#acdecfb712048f64ef54de88a3c81e68c">Function</a>&gt;::iterator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -237,7 +237,7 @@ template&lt;typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00096">96</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00097">97</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>.</p>
 
@@ -325,11 +325,11 @@ template&lt;typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00116">116</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00118">118</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="signals_8hpp_source.html#l00026">otto::util::SlotRef&lt; Args &gt;::func_iter</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="signals_8hpp_source.html#l00136">otto::util::Connection&lt; Args &gt;::~Connection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="signals_8hpp_source.html#l00138">otto::util::Connection&lt; Args &gt;::~Connection()</a>.</p>
 
 </div>
 </div>
@@ -370,7 +370,7 @@ template&lt;typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00122">122</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00124">124</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +405,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00103">103</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00105">105</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
 
 </div>
 </div>
@@ -440,7 +440,7 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00110">110</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="signals_8hpp_source.html#l00112">112</a> of file <a class="el" href="signals_8hpp_source.html">signals.hpp</a>.</p>
 
 </div>
 </div>

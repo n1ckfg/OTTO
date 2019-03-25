@@ -87,11 +87,12 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__list.html">type_list&lt; Args &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1reflect_1_1__has__reflect__member.html">otto::reflect::_has_reflect_member&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:structotto_1_1reflect_1_1constructor__args"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#structotto_1_1reflect_1_1constructor__args">otto::reflect::constructor_args&lt; T &gt;</a></td></tr>
+<tr class="memitem:structotto_1_1reflect_1_1type__list"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reflection.html#structotto_1_1reflect_1_1type__list">otto::reflect::type_list&lt; Args &gt;</a></td></tr>
+<tr class="memdesc:structotto_1_1reflect_1_1type__list"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group__reflection.html#structotto_1_1reflect_1_1type__list" title="type_list is array of types">type_list</a> is array of types  <a href="group__reflection.html#structotto_1_1reflect_1_1type__list">More...</a><br /></td></tr>
+<tr class="separator:structotto_1_1reflect_1_1type__list"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:structotto_1_1reflect_1_1__has__reflect__member"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reflection.html#structotto_1_1reflect_1_1__has__reflect__member">otto::reflect::_has_reflect_member&lt; T &gt;</a></td></tr>
+<tr class="separator:structotto_1_1reflect_1_1__has__reflect__member"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:structotto_1_1reflect_1_1constructor__args"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__reflection.html#structotto_1_1reflect_1_1constructor__args">otto::reflect::constructor_args&lt; T &gt;</a></td></tr>
 <tr class="separator:structotto_1_1reflect_1_1constructor__args"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -104,79 +105,67 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ac783e7db3ffd4f480a80827f45b96c6c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ac783e7db3ffd4f480a80827f45b96c6c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#ac783e7db3ffd4f480a80827f45b96c6c">otto::reflect::constructor_arguments</a> = typename constructor_args&lt; T &gt;::types</td></tr>
-<tr class="separator:ac783e7db3ffd4f480a80827f45b96c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac783e7db3ffd4f480a80827f45b96c6c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gac783e7db3ffd4f480a80827f45b96c6c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gac783e7db3ffd4f480a80827f45b96c6c">otto::reflect::constructor_arguments</a> = typename constructor_args&lt; T &gt;::types</td></tr>
+<tr class="separator:gac783e7db3ffd4f480a80827f45b96c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8af3ece014d1ab8e9dde60557a5ebd1a"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:a8af3ece014d1ab8e9dde60557a5ebd1a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a8af3ece014d1ab8e9dde60557a5ebd1a">otto::reflect::members</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a8af3ece014d1ab8e9dde60557a5ebd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd020d552659db3e09ac955a134b8b21"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;_has_reflect_member&lt;Class&gt;::value&gt;&gt; </td></tr>
-<tr class="memitem:afd020d552659db3e09ac955a134b8b21"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#afd020d552659db3e09ac955a134b8b21">otto::reflect::register_members</a> ()</td></tr>
-<tr class="separator:afd020d552659db3e09ac955a134b8b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa38058baded91aa5bdb099337d3189a6"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;_has_reflect_member&lt;Class&gt;::value&gt;&gt; </td></tr>
-<tr class="memitem:aa38058baded91aa5bdb099337d3189a6"><td class="memTemplItemLeft" align="right" valign="top">constexpr util::string_ref&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#aa38058baded91aa5bdb099337d3189a6">otto::reflect::register_name</a> ()</td></tr>
-<tr class="separator:aa38058baded91aa5bdb099337d3189a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7d221b27c574622112d4df8c34dfc50"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
-<tr class="memitem:ac7d221b27c574622112d4df8c34dfc50"><td class="memTemplItemLeft" align="right" valign="top">constexpr util::string_ref&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#ac7d221b27c574622112d4df8c34dfc50">otto::reflect::get_name</a> ()</td></tr>
-<tr class="separator:ac7d221b27c574622112d4df8c34dfc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56f47f43a7e6ea4f7135f0be5495206c"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
-<tr class="memitem:a56f47f43a7e6ea4f7135f0be5495206c"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a56f47f43a7e6ea4f7135f0be5495206c">otto::reflect::get_member_count</a> ()</td></tr>
-<tr class="separator:a56f47f43a7e6ea4f7135f0be5495206c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a873163a9e3c78bf2806e565addd369c3"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
-<tr class="memitem:a873163a9e3c78bf2806e565addd369c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr const auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a873163a9e3c78bf2806e565addd369c3">otto::reflect::get_members</a> ()</td></tr>
-<tr class="separator:a873163a9e3c78bf2806e565addd369c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae208a664c4dc90af970aef9cd59b31a8"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
-<tr class="memitem:ae208a664c4dc90af970aef9cd59b31a8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#ae208a664c4dc90af970aef9cd59b31a8">otto::reflect::is_registered</a> ()</td></tr>
-<tr class="separator:ae208a664c4dc90af970aef9cd59b31a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3e5abbcf4a0c3b631f119aead074e21"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
-<tr class="memitem:aa3e5abbcf4a0c3b631f119aead074e21"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#aa3e5abbcf4a0c3b631f119aead074e21">otto::reflect::ctor_registered</a> ()</td></tr>
-<tr class="separator:aa3e5abbcf4a0c3b631f119aead074e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbe0272b10e594cc2cf3d267eab026e2"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
-<tr class="memitem:afbe0272b10e594cc2cf3d267eab026e2"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#afbe0272b10e594cc2cf3d267eab026e2">otto::reflect::has_member</a> (const char *name)</td></tr>
-<tr class="separator:afbe0272b10e594cc2cf3d267eab026e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b60cbff914214557cc41785f9f71112"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename F , typename  = std::enable_if_t&lt;is_registered&lt;Class&gt;()&gt;&gt; </td></tr>
-<tr class="memitem:a9b60cbff914214557cc41785f9f71112"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a9b60cbff914214557cc41785f9f71112">otto::reflect::for_all_members</a> (F &amp;&amp;f)</td></tr>
-<tr class="separator:a9b60cbff914214557cc41785f9f71112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19657485abbf707247f516491711c680"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename F , typename  = std::enable_if_t&lt;!is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </td></tr>
-<tr class="memitem:a19657485abbf707247f516491711c680"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a19657485abbf707247f516491711c680">otto::reflect::for_all_members</a> (F &amp;&amp;f)</td></tr>
-<tr class="separator:a19657485abbf707247f516491711c680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98baa8cb20f52a4784d1289dac8ad638"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename T , typename F &gt; </td></tr>
-<tr class="memitem:a98baa8cb20f52a4784d1289dac8ad638"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a98baa8cb20f52a4784d1289dac8ad638">otto::reflect::for_member</a> (const char *name, F &amp;&amp;f)</td></tr>
-<tr class="separator:a98baa8cb20f52a4784d1289dac8ad638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9f3456aecb4167339bd8c1a3dfc9029"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Class &gt; </td></tr>
-<tr class="memitem:ad9f3456aecb4167339bd8c1a3dfc9029"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#ad9f3456aecb4167339bd8c1a3dfc9029">otto::reflect::get_member_value</a> (Class &amp;obj, const char *name)</td></tr>
-<tr class="separator:ad9f3456aecb4167339bd8c1a3dfc9029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bfac6e18944065665a8203058fc4fe6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Class , typename V , typename  = std::enable_if_t&lt;std::is_constructible&lt;T, V&gt;::value&gt;&gt; </td></tr>
-<tr class="memitem:a9bfac6e18944065665a8203058fc4fe6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1reflect.html#a9bfac6e18944065665a8203058fc4fe6">otto::reflect::set_member_value</a> (Class &amp;obj, const char *name, V &amp;&amp;value)</td></tr>
-<tr class="separator:a9bfac6e18944065665a8203058fc4fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8af3ece014d1ab8e9dde60557a5ebd1a"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ga8af3ece014d1ab8e9dde60557a5ebd1a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#ga8af3ece014d1ab8e9dde60557a5ebd1a">otto::reflect::members</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ga8af3ece014d1ab8e9dde60557a5ebd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd020d552659db3e09ac955a134b8b21"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;_has_reflect_member&lt;Class&gt;::value&gt;&gt; </td></tr>
+<tr class="memitem:gafd020d552659db3e09ac955a134b8b21"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gafd020d552659db3e09ac955a134b8b21">otto::reflect::register_members</a> ()</td></tr>
+<tr class="memdesc:gafd020d552659db3e09ac955a134b8b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">function used for registration of classes by user  <a href="group__reflection.html#gafd020d552659db3e09ac955a134b8b21">More...</a><br /></td></tr>
+<tr class="separator:gafd020d552659db3e09ac955a134b8b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa38058baded91aa5bdb099337d3189a6"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;_has_reflect_member&lt;Class&gt;::value&gt;&gt; </td></tr>
+<tr class="memitem:gaa38058baded91aa5bdb099337d3189a6"><td class="memTemplItemLeft" align="right" valign="top">constexpr util::string_ref&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gaa38058baded91aa5bdb099337d3189a6">otto::reflect::register_name</a> ()</td></tr>
+<tr class="memdesc:gaa38058baded91aa5bdb099337d3189a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">function used for registration of class name by user  <a href="group__reflection.html#gaa38058baded91aa5bdb099337d3189a6">More...</a><br /></td></tr>
+<tr class="separator:gaa38058baded91aa5bdb099337d3189a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac7d221b27c574622112d4df8c34dfc50"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:gac7d221b27c574622112d4df8c34dfc50"><td class="memTemplItemLeft" align="right" valign="top">constexpr util::string_ref&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gac7d221b27c574622112d4df8c34dfc50">otto::reflect::get_name</a> ()</td></tr>
+<tr class="memdesc:gac7d221b27c574622112d4df8c34dfc50"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns set name for class  <a href="group__reflection.html#gac7d221b27c574622112d4df8c34dfc50">More...</a><br /></td></tr>
+<tr class="separator:gac7d221b27c574622112d4df8c34dfc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga56f47f43a7e6ea4f7135f0be5495206c"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:ga56f47f43a7e6ea4f7135f0be5495206c"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#ga56f47f43a7e6ea4f7135f0be5495206c">otto::reflect::get_member_count</a> ()</td></tr>
+<tr class="memdesc:ga56f47f43a7e6ea4f7135f0be5495206c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of registered members of the class  <a href="group__reflection.html#ga56f47f43a7e6ea4f7135f0be5495206c">More...</a><br /></td></tr>
+<tr class="separator:ga56f47f43a7e6ea4f7135f0be5495206c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga873163a9e3c78bf2806e565addd369c3"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:ga873163a9e3c78bf2806e565addd369c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr const auto &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#ga873163a9e3c78bf2806e565addd369c3">otto::reflect::get_members</a> ()</td></tr>
+<tr class="memdesc:ga873163a9e3c78bf2806e565addd369c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/tuple.html">std::tuple</a> of Members  <a href="group__reflection.html#ga873163a9e3c78bf2806e565addd369c3">More...</a><br /></td></tr>
+<tr class="separator:ga873163a9e3c78bf2806e565addd369c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae208a664c4dc90af970aef9cd59b31a8"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:gae208a664c4dc90af970aef9cd59b31a8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gae208a664c4dc90af970aef9cd59b31a8">otto::reflect::is_registered</a> ()</td></tr>
+<tr class="memdesc:gae208a664c4dc90af970aef9cd59b31a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if class has registerMembers&lt;T&gt; specialization (has been registered)  <a href="group__reflection.html#gae208a664c4dc90af970aef9cd59b31a8">More...</a><br /></td></tr>
+<tr class="separator:gae208a664c4dc90af970aef9cd59b31a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3e5abbcf4a0c3b631f119aead074e21"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:gaa3e5abbcf4a0c3b631f119aead074e21"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gaa3e5abbcf4a0c3b631f119aead074e21">otto::reflect::ctor_registered</a> ()</td></tr>
+<tr class="memdesc:gaa3e5abbcf4a0c3b631f119aead074e21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if Class has non-default ctor registered.  <a href="group__reflection.html#gaa3e5abbcf4a0c3b631f119aead074e21">More...</a><br /></td></tr>
+<tr class="separator:gaa3e5abbcf4a0c3b631f119aead074e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbe0272b10e594cc2cf3d267eab026e2"><td class="memTemplParams" colspan="2">template&lt;typename Class &gt; </td></tr>
+<tr class="memitem:gafbe0272b10e594cc2cf3d267eab026e2"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gafbe0272b10e594cc2cf3d267eab026e2">otto::reflect::has_member</a> (const char *name)</td></tr>
+<tr class="memdesc:gafbe0272b10e594cc2cf3d267eab026e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if class T has member.  <a href="group__reflection.html#gafbe0272b10e594cc2cf3d267eab026e2">More...</a><br /></td></tr>
+<tr class="separator:gafbe0272b10e594cc2cf3d267eab026e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9b60cbff914214557cc41785f9f71112"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename F , typename  = std::enable_if_t&lt;is_registered&lt;Class&gt;()&gt;&gt; </td></tr>
+<tr class="memitem:ga9b60cbff914214557cc41785f9f71112"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#ga9b60cbff914214557cc41785f9f71112">otto::reflect::for_all_members</a> (F &amp;&amp;f)</td></tr>
+<tr class="separator:ga9b60cbff914214557cc41785f9f71112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga19657485abbf707247f516491711c680"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename F , typename  = std::enable_if_t&lt;!is_registered&lt;Class&gt;()&gt;, typename  = void&gt; </td></tr>
+<tr class="memitem:ga19657485abbf707247f516491711c680"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#ga19657485abbf707247f516491711c680">otto::reflect::for_all_members</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:ga19657485abbf707247f516491711c680"><td class="mdescLeft">&#160;</td><td class="mdescRight">version for non-registered classes (to generate less template stuff)  <a href="group__reflection.html#ga19657485abbf707247f516491711c680">More...</a><br /></td></tr>
+<tr class="separator:ga19657485abbf707247f516491711c680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga98baa8cb20f52a4784d1289dac8ad638"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename T , typename F &gt; </td></tr>
+<tr class="memitem:ga98baa8cb20f52a4784d1289dac8ad638"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#ga98baa8cb20f52a4784d1289dac8ad638">otto::reflect::for_member</a> (const char *name, F &amp;&amp;f)</td></tr>
+<tr class="memdesc:ga98baa8cb20f52a4784d1289dac8ad638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do F for member named 'name' with type T. It's important to pass correct type of the member.  <a href="group__reflection.html#ga98baa8cb20f52a4784d1289dac8ad638">More...</a><br /></td></tr>
+<tr class="separator:ga98baa8cb20f52a4784d1289dac8ad638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9f3456aecb4167339bd8c1a3dfc9029"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Class &gt; </td></tr>
+<tr class="memitem:gad9f3456aecb4167339bd8c1a3dfc9029"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#gad9f3456aecb4167339bd8c1a3dfc9029">otto::reflect::get_member_value</a> (Class &amp;obj, const char *name)</td></tr>
+<tr class="memdesc:gad9f3456aecb4167339bd8c1a3dfc9029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get value of the member named 'name'.  <a href="group__reflection.html#gad9f3456aecb4167339bd8c1a3dfc9029">More...</a><br /></td></tr>
+<tr class="separator:gad9f3456aecb4167339bd8c1a3dfc9029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9bfac6e18944065665a8203058fc4fe6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename Class , typename V , typename  = std::enable_if_t&lt;std::is_constructible&lt;T, V&gt;::value&gt;&gt; </td></tr>
+<tr class="memitem:ga9bfac6e18944065665a8203058fc4fe6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__reflection.html#ga9bfac6e18944065665a8203058fc4fe6">otto::reflect::set_member_value</a> (Class &amp;obj, const char *name, V &amp;&amp;value)</td></tr>
+<tr class="memdesc:ga9bfac6e18944065665a8203058fc4fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set value of the member named 'name'.  <a href="group__reflection.html#ga9bfac6e18944065665a8203058fc4fe6">More...</a><br /></td></tr>
+<tr class="separator:ga9bfac6e18944065665a8203058fc4fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="structotto_1_1reflect_1_1constructor__args" id="structotto_1_1reflect_1_1constructor__args"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1reflect_1_1constructor__args">&#9670;&nbsp;</a></span>otto::reflect::constructor_args</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct otto::reflect::constructor_args</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="3">Class Members</th></tr>
-<tr><td class="fieldtype">
-<a id="afc267ca24836a3e8c3b56206f62bb6eb"></a>typedef <a class="el" href="structtype__list.html">type_list</a>&lt;&gt;</td>
-<td class="fieldname">
-types</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

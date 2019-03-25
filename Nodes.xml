@@ -6,22 +6,22 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
-        <Name>Screenshots:</Name>
+        <Name>The hardware</Name>
         <Path>index.html</Path>
         <Anchor>autotoc_md1</Anchor>
        </Node>
        <Node>
-        <Name>The hardware</Name>
+        <Name>Planned Features for v1.0</Name>
         <Path>index.html</Path>
         <Anchor>autotoc_md2</Anchor>
        </Node>
        <Node>
-        <Name>The software</Name>
+        <Name>Screenshots:</Name>
         <Path>index.html</Path>
         <Anchor>autotoc_md3</Anchor>
        </Node>
        <Node>
-        <Name>Roadmap</Name>
+        <Name>The software</Name>
         <Path>index.html</Path>
         <Anchor>autotoc_md4</Anchor>
        </Node>
@@ -372,6 +372,313 @@
             <Name>find_if</Name>
             <Path>group__container__algos.html</Path>
             <Anchor>gafd2199e8cd364fabb6a32702165efc09</Anchor>
+           </Node>
+          </Subnodes>
+         </Node>
+         <Node>
+          <Name>Reflection</Name>
+          <Path>group__reflection.html</Path>
+          <Subnodes>
+           <Node>
+            <Name>MemberAccessor</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member_accessor</Anchor>
+           </Node>
+           <Node>
+            <Name>MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>MemberAccessor</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>aff5d9d218419b71542d70e1887bb6eec</Anchor>
+             </Node>
+             <Node>
+              <Name>get_const</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>abb99d16a22d0a947d5e13fafca10a2b1</Anchor>
+             </Node>
+             <Node>
+              <Name>data</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>ad466e9426cfa69b1dcb0a5f363f65709</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>MemberAccessor</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a6cc8c8dad225eaf4dda17d1c2a13d101</Anchor>
+             </Node>
+             <Node>
+              <Name>get_const</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>aefb5078ece1cd427af2d890ad85292b9</Anchor>
+             </Node>
+             <Node>
+              <Name>set</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a37d37147dba265b52943f8a62866b692</Anchor>
+             </Node>
+             <Node>
+              <Name>data</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>adbea9324d0dce3017964f40d91374988</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>MemberAccessor</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>acccb3f7ac74e4b966c7424f7c6a52965</Anchor>
+             </Node>
+             <Node>
+              <Name>get</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a213d6a27b474a172baa8f3f1e6888c62</Anchor>
+             </Node>
+             <Node>
+              <Name>get_const</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a39696337eac128bcdac58f111cf305c9</Anchor>
+             </Node>
+             <Node>
+              <Name>data</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a70cbc34c5ae3ea787c4e3e90bca0bda8</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Member</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Accessor</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a26e594de22a8e20463bf079ea38a52db</Anchor>
+             </Node>
+             <Node>
+              <Name>class_type</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>af885981c8f62e968c2bf196981e76de7</Anchor>
+             </Node>
+             <Node>
+              <Name>member_type</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a0a68ba36e0149ca33c469e80d10c54de</Anchor>
+             </Node>
+             <Node>
+              <Name>type</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a30746e2378a14c647bc8fdcda4fdc9ca</Anchor>
+             </Node>
+             <Node>
+              <Name>Member</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a689e5f77b1dabda799ce73dee045a64c</Anchor>
+             </Node>
+             <Node>
+              <Name>get_name</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a8de0da07d6714cc4df64aedb50c4e5b7</Anchor>
+             </Node>
+             <Node>
+              <Name>get</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a1c2413e038e6c483a4d1bf5cef290ee1</Anchor>
+             </Node>
+             <Node>
+              <Name>get</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a8bb1ef29e6c2eaabb3f120005d0c4bbe</Anchor>
+             </Node>
+             <Node>
+              <Name>get_ref</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>aa51d0e5c8673263f5b1c63b40dbae349</Anchor>
+             </Node>
+             <Node>
+              <Name>set</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a7abd27067c4e7b1f1833e312f4de7b9f</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>type_list</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1type__list</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>type</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>aac059a4d1dd4604cd12651929f02228d</Anchor>
+             </Node>
+             <Node>
+              <Name>indices</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>a1f9edc3f968d9e3647e64f7eedc82d9f</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>_has_reflect_member</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1__has__reflect__member</Anchor>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>constructor_args</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1constructor__args</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>types</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>afc267ca24836a3e8c3b56206f62bb6eb</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>DECL_REFLECTION_OUTSIDE</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gab47a32aab7e422d191e6cfdeffe20f66</Anchor>
+           </Node>
+           <Node>
+            <Name>DECL_REFLECTION</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga9d11620d55ff716ec5f53f1646b3655f</Anchor>
+           </Node>
+           <Node>
+            <Name>DECL_REFLECTION_EMPTY</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga99aeace6914ae37b35df9ff7ce884af3</Anchor>
+           </Node>
+           <Node>
+            <Name>get_member_type</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gad0b646514e3e6b14f55064af1884b35c</Anchor>
+           </Node>
+           <Node>
+            <Name>constructor_arguments</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gac783e7db3ffd4f480a80827f45b96c6c</Anchor>
+           </Node>
+           <Node>
+            <Name>AccessorType</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga1ef8bd2167f023d60c21a45ee2344726</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>ReadOnly</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a131fb182a881796e7606ed6da27f1197</Anchor>
+             </Node>
+             <Node>
+              <Name>ReadWrite</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a70a2a84088d405a2e3f1e3accaa16723</Anchor>
+             </Node>
+             <Node>
+              <Name>MutableRef</Name>
+              <Path>group__reflection.html</Path>
+              <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a6d9a2cad46f2e9159490ff4c68fe095c</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>member</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
+           </Node>
+           <Node>
+            <Name>member</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga6d618090c7c6e4a5532b9776fee24e2f</Anchor>
+           </Node>
+           <Node>
+            <Name>members</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
+           </Node>
+           <Node>
+            <Name>register_members</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gafd020d552659db3e09ac955a134b8b21</Anchor>
+           </Node>
+           <Node>
+            <Name>register_name</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gaa38058baded91aa5bdb099337d3189a6</Anchor>
+           </Node>
+           <Node>
+            <Name>get_name</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gac7d221b27c574622112d4df8c34dfc50</Anchor>
+           </Node>
+           <Node>
+            <Name>get_member_count</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+           </Node>
+           <Node>
+            <Name>get_members</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga873163a9e3c78bf2806e565addd369c3</Anchor>
+           </Node>
+           <Node>
+            <Name>is_registered</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gae208a664c4dc90af970aef9cd59b31a8</Anchor>
+           </Node>
+           <Node>
+            <Name>ctor_registered</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gaa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+           </Node>
+           <Node>
+            <Name>has_member</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gafbe0272b10e594cc2cf3d267eab026e2</Anchor>
+           </Node>
+           <Node>
+            <Name>for_all_members</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga9b60cbff914214557cc41785f9f71112</Anchor>
+           </Node>
+           <Node>
+            <Name>for_all_members</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga19657485abbf707247f516491711c680</Anchor>
+           </Node>
+           <Node>
+            <Name>for_member</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga98baa8cb20f52a4784d1289dac8ad638</Anchor>
+           </Node>
+           <Node>
+            <Name>get_member_value</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>gad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+           </Node>
+           <Node>
+            <Name>set_member_value</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>ga9bfac6e18944065665a8203058fc4fe6</Anchor>
            </Node>
           </Subnodes>
          </Node>
@@ -2643,7 +2950,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>a7723e5d94f46f010cd6b363bf0acfe89</Anchor>
+                    <Anchor>a648a85ad98a73545429abc6adf90a6f1</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2655,7 +2962,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>a8e8c92db9c799caa2a5567251ce0356f</Anchor>
+                    <Anchor>ae9cf8cf7d051633f158fc972e9622cc0</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2667,7 +2974,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>aa8b2cca24bb78f34f69f74157146072f</Anchor>
+                    <Anchor>a16aae03f0b71572247bd7dcc7613fbac</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2679,7 +2986,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>ae49bc3f591022df2852445d502d37b2a</Anchor>
+                    <Anchor>a315424eb079d16f82c34ef82b3425adf</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -2691,7 +2998,7 @@
                    <Node>
                     <Name>type</Name>
                     <Path>namespaceotto_1_1core_1_1props.html</Path>
-                    <Anchor>acdba84f8d924fef8ac7988021cd7f1f4</Anchor>
+                    <Anchor>a5f0decb9c6ee902e6d1979083670e2e4</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -3974,17 +4281,17 @@
                      <Node>
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
+                      <Anchor>ac18b06982c4f8c88d4f405fb3aec1a22</Anchor>
                      </Node>
                      <Node>
                       <Name>octave</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>a463325705507a646fbd85bbf6114d45a</Anchor>
+                      <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
                      </Node>
                      <Node>
                       <Name>transpose</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>ad25e550f556573e69b62c74342a79031</Anchor>
+                      <Anchor>a3ee8f93ca09b67ac4bf24990f3180f1f</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -6985,7 +7292,8 @@
               <Subnodes>
                <Node>
                 <Name>_has_reflect_member</Name>
-                <Path>structotto_1_1reflect_1_1__has__reflect__member.html</Path>
+                <Path>group__reflection.html</Path>
+                <Anchor>structotto_1_1reflect_1_1__has__reflect__member</Anchor>
                 <Subnodes>
                 </Subnodes>
                </Node>
@@ -6999,147 +7307,168 @@
                </Node>
                <Node>
                 <Name>constructor_args</Name>
-                <Path>namespaceotto_1_1reflect.html</Path>
+                <Path>group__reflection.html</Path>
                 <Anchor>structotto_1_1reflect_1_1constructor__args</Anchor>
                 <Subnodes>
                  <Node>
                   <Name>types</Name>
-                  <Path>namespaceotto_1_1reflect.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>afc267ca24836a3e8c3b56206f62bb6eb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>Member</Name>
-                <Path>structotto_1_1reflect_1_1_member.html</Path>
+                <Path>group__reflection.html</Path>
+                <Anchor>structotto_1_1reflect_1_1_member</Anchor>
                 <Subnodes>
                  <Node>
                   <Name>Accessor</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a26e594de22a8e20463bf079ea38a52db</Anchor>
                  </Node>
                  <Node>
                   <Name>class_type</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>af885981c8f62e968c2bf196981e76de7</Anchor>
                  </Node>
                  <Node>
                   <Name>member_type</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a0a68ba36e0149ca33c469e80d10c54de</Anchor>
                  </Node>
                  <Node>
                   <Name>type</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a30746e2378a14c647bc8fdcda4fdc9ca</Anchor>
                  </Node>
                  <Node>
                   <Name>Member</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a689e5f77b1dabda799ce73dee045a64c</Anchor>
                  </Node>
                  <Node>
                   <Name>get_name</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a8de0da07d6714cc4df64aedb50c4e5b7</Anchor>
                  </Node>
                  <Node>
                   <Name>get</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a1c2413e038e6c483a4d1bf5cef290ee1</Anchor>
                  </Node>
                  <Node>
                   <Name>get</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a8bb1ef29e6c2eaabb3f120005d0c4bbe</Anchor>
                  </Node>
                  <Node>
                   <Name>get_ref</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>aa51d0e5c8673263f5b1c63b40dbae349</Anchor>
                  </Node>
                  <Node>
                   <Name>set</Name>
-                  <Path>structotto_1_1reflect_1_1_member.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a7abd27067c4e7b1f1833e312f4de7b9f</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>MemberAccessor</Name>
-                <Path>namespaceotto_1_1reflect.html</Path>
+                <Path>group__reflection.html</Path>
                 <Anchor>structotto_1_1reflect_1_1_member_accessor</Anchor>
                </Node>
                <Node>
                 <Name>MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Name>
-                <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
+                <Path>group__reflection.html</Path>
+                <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4</Anchor>
                 <Subnodes>
                  <Node>
                   <Name>MemberAccessor</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>acccb3f7ac74e4b966c7424f7c6a52965</Anchor>
                  </Node>
                  <Node>
                   <Name>get</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a213d6a27b474a172baa8f3f1e6888c62</Anchor>
                  </Node>
                  <Node>
                   <Name>get_const</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a39696337eac128bcdac58f111cf305c9</Anchor>
                  </Node>
                  <Node>
                   <Name>data</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a70cbc34c5ae3ea787c4e3e90bca0bda8</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Name>
-                <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
+                <Path>group__reflection.html</Path>
+                <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4</Anchor>
                 <Subnodes>
                  <Node>
                   <Name>MemberAccessor</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>aff5d9d218419b71542d70e1887bb6eec</Anchor>
                  </Node>
                  <Node>
                   <Name>get_const</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>abb99d16a22d0a947d5e13fafca10a2b1</Anchor>
                  </Node>
                  <Node>
                   <Name>data</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>ad466e9426cfa69b1dcb0a5f363f65709</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Name>
-                <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
+                <Path>group__reflection.html</Path>
+                <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4</Anchor>
                 <Subnodes>
                  <Node>
                   <Name>MemberAccessor</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a6cc8c8dad225eaf4dda17d1c2a13d101</Anchor>
                  </Node>
                  <Node>
                   <Name>get_const</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>aefb5078ece1cd427af2d890ad85292b9</Anchor>
                  </Node>
                  <Node>
                   <Name>set</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>a37d37147dba265b52943f8a62866b692</Anchor>
                  </Node>
                  <Node>
                   <Name>data</Name>
-                  <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
+                  <Path>group__reflection.html</Path>
                   <Anchor>adbea9324d0dce3017964f40d91374988</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>type_list</Name>
+                <Path>group__reflection.html</Path>
+                <Anchor>structotto_1_1reflect_1_1type__list</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>type</Name>
+                  <Path>group__reflection.html</Path>
+                  <Anchor>aac059a4d1dd4604cd12651929f02228d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>indices</Name>
+                  <Path>group__reflection.html</Path>
+                  <Anchor>a1f9edc3f968d9e3647e64f7eedc82d9f</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -10263,7 +10592,7 @@
                  <Node>
                   <Name>FuncIterator</Name>
                   <Path>structotto_1_1util_1_1_signal.html</Path>
-                  <Anchor>aa0defb7daeeed8a920d18d69a123c12e</Anchor>
+                  <Anchor>aaefd24ce40ea1b1d60cb05f9aff28139</Anchor>
                  </Node>
                  <Node>
                   <Name>connect</Name>
@@ -12535,22 +12864,6 @@
              </Node>
             </Subnodes>
            </Node>
-           <Node>
-            <Name>type_list</Name>
-            <Path>structtype__list.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>type</Name>
-              <Path>structtype__list.html</Path>
-              <Anchor>a3e1a6e85ad1d2fda6349ac3b32b9b923</Anchor>
-             </Node>
-             <Node>
-              <Name>indices</Name>
-              <Path>structtype__list.html</Path>
-              <Anchor>ac7f51a624e4bd54aa73820e1c32fe7e4</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
           </Subnodes>
          </Node>
          <Node>
@@ -12563,7 +12876,8 @@
           <Subnodes>
            <Node>
             <Name>otto::reflect::_has_reflect_member&lt; T &gt;</Name>
-            <Path>structotto_1_1reflect_1_1__has__reflect__member.html</Path>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1__has__reflect__member</Anchor>
            </Node>
            <Node>
             <Name>AccumPhase</Name>
@@ -12773,7 +13087,7 @@
            </Node>
            <Node>
             <Name>otto::reflect::constructor_args&lt; T &gt;</Name>
-            <Path>namespaceotto_1_1reflect.html</Path>
+            <Path>group__reflection.html</Path>
             <Anchor>structotto_1_1reflect_1_1constructor__args</Anchor>
            </Node>
            <Node>
@@ -13541,29 +13855,33 @@
            </Node>
            <Node>
             <Name>otto::reflect::Member&lt; Class, T, AT, AccessorData &gt;</Name>
-            <Path>structotto_1_1reflect_1_1_member.html</Path>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member</Anchor>
            </Node>
            <Node>
             <Name>otto::reflect::MemberAccessor&lt; Class, T, AT, Data &gt;</Name>
-            <Path>namespaceotto_1_1reflect.html</Path>
+            <Path>group__reflection.html</Path>
             <Anchor>structotto_1_1reflect_1_1_member_accessor</Anchor>
            </Node>
            <Node>
             <Name>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Name>
-            <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4</Anchor>
            </Node>
            <Node>
             <Name>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Name>
-            <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4</Anchor>
            </Node>
            <Node>
             <Name>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Name>
-            <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4</Anchor>
            </Node>
            <Node>
             <Name>otto::reflect::MemberAccessor&lt; Class, T, AT, AccessorData &gt;</Name>
             <Path>namespaceotto_1_1reflect.html</Path>
-            <Anchor>namespaceotto_1_1reflect</Anchor>
+            <Anchor>group__reflection</Anchor>
            </Node>
            <Node>
             <Name>otto::util::memory_pool&lt; T &gt;</Name>
@@ -13726,7 +14044,17 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
+            <Name>otto::core::props::PropertyImpl&lt; float, otto::core::props::no &gt;</Name>
+            <Path>namespaceotto_1_1core_1_1props.html</Path>
+            <Anchor>namespaceotto_1_1core_1_1props</Anchor>
+           </Node>
+           <Node>
             <Name>otto::core::props::PropertyImpl&lt; int &gt;</Name>
+            <Path>namespaceotto_1_1core_1_1props.html</Path>
+            <Anchor>namespaceotto_1_1core_1_1props</Anchor>
+           </Node>
+           <Node>
+            <Name>otto::core::props::PropertyImpl&lt; int, otto::core::props::no &gt;</Name>
             <Path>namespaceotto_1_1core_1_1props.html</Path>
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
@@ -13755,16 +14083,16 @@
             <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
            </Node>
            <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
+           </Node>
+           <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;::Props</Name>
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Sequencer::Props</Name>
             <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Chorus::Props</Name>
@@ -13795,16 +14123,16 @@
             <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
            </Node>
            <Node>
+            <Name>otto::engines::Master::Props</Name>
+            <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
+           </Node>
+           <Node>
             <Name>otto::engines::PotionSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::Master::Props</Name>
-            <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
@@ -14015,13 +14343,13 @@
             <Path>structotto_1_1dsp_1_1_simple_pitch_shift.html</Path>
            </Node>
            <Node>
+            <Name>otto::core::ui::vg::Size</Name>
+            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
+           </Node>
+           <Node>
             <Name>otto::board::ui::EGLConnection::Size</Name>
             <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
             <Anchor>structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_size</Anchor>
-           </Node>
-           <Node>
-            <Name>otto::core::ui::vg::Size</Name>
-            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
            </Node>
            <Node>
             <Name>otto::util::TapeFile::SliceArray</Name>
@@ -14162,16 +14490,17 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
            </Node>
            <Node>
-            <Name>type_list&lt; Args &gt;</Name>
-            <Path>structtype__list.html</Path>
+            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::reflect::type_list&lt; Args &gt;</Name>
+            <Path>group__reflection.html</Path>
+            <Anchor>structotto_1_1reflect_1_1type__list</Anchor>
            </Node>
            <Node>
             <Name>UIManager</Name>
@@ -14219,6 +14548,10 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::dsp::Window</Name>
+            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
+           </Node>
+           <Node>
             <Name>otto::glfw::Window</Name>
             <Path>structotto_1_1glfw_1_1_window.html</Path>
             <Subnodes>
@@ -14227,10 +14560,6 @@
               <Path>structotto_1_1glfw_1_1_n_v_g_window.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>otto::util::dsp::Window</Name>
-            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;</Name>
@@ -22156,7 +22485,7 @@
                        <Node>
                         <Name>type</Name>
                         <Path>namespaceotto_1_1core_1_1props.html</Path>
-                        <Anchor>a7723e5d94f46f010cd6b363bf0acfe89</Anchor>
+                        <Anchor>a648a85ad98a73545429abc6adf90a6f1</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -22562,22 +22891,6 @@
                     <Path>all_8hpp.html</Path>
                    </Node>
                    <Node>
-                    <Name>change_hook.hpp</Name>
-                    <Path>change__hook_8hpp.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>OTTO_PROPS_MIXIN</Name>
-                      <Path>change__hook_8hpp.html</Path>
-                      <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
-                      <Path>change__hook_8hpp.html</Path>
-                      <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>has_limits.hpp</Name>
                     <Path>has__limits_8hpp.html</Path>
                     <Subnodes>
@@ -22662,6 +22975,22 @@
                     </Subnodes>
                    </Node>
                    <Node>
+                    <Name>signal.hpp</Name>
+                    <Path>signal_8hpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>OTTO_PROPS_MIXIN</Name>
+                      <Path>signal_8hpp.html</Path>
+                      <Anchor>a3f6cb305ac6f9cdffdb405b972e0afea</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
+                      <Path>signal_8hpp.html</Path>
+                      <Anchor>aa4ee09bc72ad874f8253ebe4fe086560</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>steppable.hpp</Name>
                     <Path>steppable_8hpp.html</Path>
                     <Subnodes>
@@ -22712,7 +23041,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>a7723e5d94f46f010cd6b363bf0acfe89</Anchor>
+                      <Anchor>a648a85ad98a73545429abc6adf90a6f1</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -22724,7 +23053,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>acdba84f8d924fef8ac7988021cd7f1f4</Anchor>
+                      <Anchor>a5f0decb9c6ee902e6d1979083670e2e4</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -22736,7 +23065,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>a8e8c92db9c799caa2a5567251ce0356f</Anchor>
+                      <Anchor>ae9cf8cf7d051633f158fc972e9622cc0</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -22748,7 +23077,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>ae49bc3f591022df2852445d502d37b2a</Anchor>
+                      <Anchor>a315424eb079d16f82c34ef82b3425adf</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -22760,7 +23089,7 @@
                      <Node>
                       <Name>type</Name>
                       <Path>namespaceotto_1_1core_1_1props.html</Path>
-                      <Anchor>aa8b2cca24bb78f34f69f74157146072f</Anchor>
+                      <Anchor>a16aae03f0b71572247bd7dcc7613fbac</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -22775,6 +23104,11 @@
                       <Anchor>a3b0bf69d4bb55860a31a7549c0465db1</Anchor>
                      </Node>
                     </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>no_signal</Name>
+                    <Path>props_8hpp.html</Path>
+                    <Anchor>a8b8b8a9edda10ee9e78607d30527c9f4</Anchor>
                    </Node>
                    <Node>
                     <Name>Property</Name>
@@ -24316,17 +24650,17 @@
                      <Node>
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
+                      <Anchor>ac18b06982c4f8c88d4f405fb3aec1a22</Anchor>
                      </Node>
                      <Node>
                       <Name>octave</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>a463325705507a646fbd85bbf6114d45a</Anchor>
+                      <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
                      </Node>
                      <Node>
                       <Name>transpose</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>ad25e550f556573e69b62c74342a79031</Anchor>
+                      <Anchor>a3ee8f93ca09b67ac4bf24990f3180f1f</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -24419,22 +24753,22 @@
                    <Node>
                     <Name>PlayMode</Name>
                     <Path>voice__manager_8hpp.html</Path>
-                    <Anchor>ad98df4be4d302e5db45a6edea4c383f6</Anchor>
+                    <Anchor>a6e805aded3174642df42f029b020ce02</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>poly</Name>
                       <Path>voice__manager_8hpp.html</Path>
-                      <Anchor>ad98df4be4d302e5db45a6edea4c383f6ac505a69ec179afb91b357bbbd1b0e60d</Anchor>
+                      <Anchor>a6e805aded3174642df42f029b020ce02ac505a69ec179afb91b357bbbd1b0e60d</Anchor>
                      </Node>
                      <Node>
                       <Name>mono</Name>
                       <Path>voice__manager_8hpp.html</Path>
-                      <Anchor>ad98df4be4d302e5db45a6edea4c383f6a654db8a14a5f633b9ba85ec92dc51f7c</Anchor>
+                      <Anchor>a6e805aded3174642df42f029b020ce02a654db8a14a5f633b9ba85ec92dc51f7c</Anchor>
                      </Node>
                      <Node>
                       <Name>unison</Name>
                       <Path>voice__manager_8hpp.html</Path>
-                      <Anchor>ad98df4be4d302e5db45a6edea4c383f6a9770a912a024ff4a98ae47b1a6374383</Anchor>
+                      <Anchor>a6e805aded3174642df42f029b020ce02a9770a912a024ff4a98ae47b1a6374383</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -27370,175 +27704,41 @@
                   <Path>member_8hpp.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>MemberAccessor</Name>
-                    <Path>namespaceotto_1_1reflect.html</Path>
-                    <Anchor>structotto_1_1reflect_1_1_member_accessor</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Name>
-                    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>MemberAccessor</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-                      <Anchor>aff5d9d218419b71542d70e1887bb6eec</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get_const</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-                      <Anchor>abb99d16a22d0a947d5e13fafca10a2b1</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>data</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-                      <Anchor>ad466e9426cfa69b1dcb0a5f363f65709</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Name>
-                    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>MemberAccessor</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-                      <Anchor>a6cc8c8dad225eaf4dda17d1c2a13d101</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get_const</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-                      <Anchor>aefb5078ece1cd427af2d890ad85292b9</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>set</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-                      <Anchor>a37d37147dba265b52943f8a62866b692</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>data</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-                      <Anchor>adbea9324d0dce3017964f40d91374988</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Name>
-                    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>MemberAccessor</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-                      <Anchor>acccb3f7ac74e4b966c7424f7c6a52965</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-                      <Anchor>a213d6a27b474a172baa8f3f1e6888c62</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get_const</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-                      <Anchor>a39696337eac128bcdac58f111cf305c9</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>data</Name>
-                      <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-                      <Anchor>a70cbc34c5ae3ea787c4e3e90bca0bda8</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>Member</Name>
-                    <Path>structotto_1_1reflect_1_1_member.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>Accessor</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a26e594de22a8e20463bf079ea38a52db</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>class_type</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>af885981c8f62e968c2bf196981e76de7</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>member_type</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a0a68ba36e0149ca33c469e80d10c54de</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>type</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a30746e2378a14c647bc8fdcda4fdc9ca</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Member</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a689e5f77b1dabda799ce73dee045a64c</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get_name</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a8de0da07d6714cc4df64aedb50c4e5b7</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a1c2413e038e6c483a4d1bf5cef290ee1</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a8bb1ef29e6c2eaabb3f120005d0c4bbe</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>get_ref</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>aa51d0e5c8673263f5b1c63b40dbae349</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>set</Name>
-                      <Path>structotto_1_1reflect_1_1_member.html</Path>
-                      <Anchor>a7abd27067c4e7b1f1833e312f4de7b9f</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>get_member_type</Name>
                     <Path>member_8hpp.html</Path>
-                    <Anchor>ad0b646514e3e6b14f55064af1884b35c</Anchor>
+                    <Anchor>gad0b646514e3e6b14f55064af1884b35c</Anchor>
                    </Node>
                    <Node>
                     <Name>AccessorType</Name>
                     <Path>member_8hpp.html</Path>
-                    <Anchor>a1ef8bd2167f023d60c21a45ee2344726</Anchor>
+                    <Anchor>ga1ef8bd2167f023d60c21a45ee2344726</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>ReadOnly</Name>
                       <Path>member_8hpp.html</Path>
-                      <Anchor>a1ef8bd2167f023d60c21a45ee2344726a131fb182a881796e7606ed6da27f1197</Anchor>
+                      <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a131fb182a881796e7606ed6da27f1197</Anchor>
                      </Node>
                      <Node>
                       <Name>ReadWrite</Name>
                       <Path>member_8hpp.html</Path>
-                      <Anchor>a1ef8bd2167f023d60c21a45ee2344726a70a2a84088d405a2e3f1e3accaa16723</Anchor>
+                      <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a70a2a84088d405a2e3f1e3accaa16723</Anchor>
                      </Node>
                      <Node>
                       <Name>MutableRef</Name>
                       <Path>member_8hpp.html</Path>
-                      <Anchor>a1ef8bd2167f023d60c21a45ee2344726a6d9a2cad46f2e9159490ff4c68fe095c</Anchor>
+                      <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a6d9a2cad46f2e9159490ff4c68fe095c</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>member</Name>
                     <Path>member_8hpp.html</Path>
-                    <Anchor>a2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
+                    <Anchor>ga2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
                    </Node>
                    <Node>
                     <Name>member</Name>
                     <Path>member_8hpp.html</Path>
-                    <Anchor>a6d618090c7c6e4a5532b9776fee24e2f</Anchor>
+                    <Anchor>ga6d618090c7c6e4a5532b9776fee24e2f</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -27549,12 +27749,12 @@
                    <Node>
                     <Name>member</Name>
                     <Path>member_8inl.html</Path>
-                    <Anchor>a2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
+                    <Anchor>ga2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
                    </Node>
                    <Node>
                     <Name>member</Name>
                     <Path>member_8inl.html</Path>
-                    <Anchor>a6d618090c7c6e4a5532b9776fee24e2f</Anchor>
+                    <Anchor>ga6d618090c7c6e4a5532b9776fee24e2f</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -27563,113 +27763,79 @@
                   <Path>reflect_8hpp.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>type_list</Name>
-                    <Path>structtype__list.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>type</Name>
-                      <Path>structtype__list.html</Path>
-                      <Anchor>a3e1a6e85ad1d2fda6349ac3b32b9b923</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>indices</Name>
-                      <Path>structtype__list.html</Path>
-                      <Anchor>ac7f51a624e4bd54aa73820e1c32fe7e4</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>_has_reflect_member</Name>
-                    <Path>structotto_1_1reflect_1_1__has__reflect__member.html</Path>
-                    <Subnodes>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>constructor_args</Name>
-                    <Path>namespaceotto_1_1reflect.html</Path>
-                    <Anchor>structotto_1_1reflect_1_1constructor__args</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>types</Name>
-                      <Path>namespaceotto_1_1reflect.html</Path>
-                      <Anchor>afc267ca24836a3e8c3b56206f62bb6eb</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>constructor_arguments</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>ac783e7db3ffd4f480a80827f45b96c6c</Anchor>
+                    <Anchor>gac783e7db3ffd4f480a80827f45b96c6c</Anchor>
                    </Node>
                    <Node>
                     <Name>members</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>a8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
+                    <Anchor>ga8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
                    </Node>
                    <Node>
                     <Name>register_members</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>afd020d552659db3e09ac955a134b8b21</Anchor>
+                    <Anchor>gafd020d552659db3e09ac955a134b8b21</Anchor>
                    </Node>
                    <Node>
                     <Name>register_name</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>aa38058baded91aa5bdb099337d3189a6</Anchor>
+                    <Anchor>gaa38058baded91aa5bdb099337d3189a6</Anchor>
                    </Node>
                    <Node>
                     <Name>get_name</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>ac7d221b27c574622112d4df8c34dfc50</Anchor>
+                    <Anchor>gac7d221b27c574622112d4df8c34dfc50</Anchor>
                    </Node>
                    <Node>
                     <Name>get_member_count</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>a56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+                    <Anchor>ga56f47f43a7e6ea4f7135f0be5495206c</Anchor>
                    </Node>
                    <Node>
                     <Name>get_members</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>a873163a9e3c78bf2806e565addd369c3</Anchor>
+                    <Anchor>ga873163a9e3c78bf2806e565addd369c3</Anchor>
                    </Node>
                    <Node>
                     <Name>is_registered</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>ae208a664c4dc90af970aef9cd59b31a8</Anchor>
+                    <Anchor>gae208a664c4dc90af970aef9cd59b31a8</Anchor>
                    </Node>
                    <Node>
                     <Name>ctor_registered</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>aa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+                    <Anchor>gaa3e5abbcf4a0c3b631f119aead074e21</Anchor>
                    </Node>
                    <Node>
                     <Name>has_member</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>afbe0272b10e594cc2cf3d267eab026e2</Anchor>
+                    <Anchor>gafbe0272b10e594cc2cf3d267eab026e2</Anchor>
                    </Node>
                    <Node>
                     <Name>for_all_members</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>a9b60cbff914214557cc41785f9f71112</Anchor>
+                    <Anchor>ga9b60cbff914214557cc41785f9f71112</Anchor>
                    </Node>
                    <Node>
                     <Name>for_all_members</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>a19657485abbf707247f516491711c680</Anchor>
+                    <Anchor>ga19657485abbf707247f516491711c680</Anchor>
                    </Node>
                    <Node>
                     <Name>for_member</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>a98baa8cb20f52a4784d1289dac8ad638</Anchor>
+                    <Anchor>ga98baa8cb20f52a4784d1289dac8ad638</Anchor>
                    </Node>
                    <Node>
                     <Name>get_member_value</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>ad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+                    <Anchor>gad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
                    </Node>
                    <Node>
                     <Name>set_member_value</Name>
                     <Path>reflect_8hpp.html</Path>
-                    <Anchor>a9bfac6e18944065665a8203058fc4fe6</Anchor>
+                    <Anchor>ga9bfac6e18944065665a8203058fc4fe6</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -27688,62 +27854,62 @@
                    <Node>
                     <Name>members</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>a8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
+                    <Anchor>ga8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
                    </Node>
                    <Node>
                     <Name>get_name</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>ac7d221b27c574622112d4df8c34dfc50</Anchor>
+                    <Anchor>gac7d221b27c574622112d4df8c34dfc50</Anchor>
                    </Node>
                    <Node>
                     <Name>get_member_count</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>a56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+                    <Anchor>ga56f47f43a7e6ea4f7135f0be5495206c</Anchor>
                    </Node>
                    <Node>
                     <Name>get_members</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>a873163a9e3c78bf2806e565addd369c3</Anchor>
+                    <Anchor>ga873163a9e3c78bf2806e565addd369c3</Anchor>
                    </Node>
                    <Node>
                     <Name>is_registered</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>ae208a664c4dc90af970aef9cd59b31a8</Anchor>
+                    <Anchor>gae208a664c4dc90af970aef9cd59b31a8</Anchor>
                    </Node>
                    <Node>
                     <Name>ctor_registered</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>aa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+                    <Anchor>gaa3e5abbcf4a0c3b631f119aead074e21</Anchor>
                    </Node>
                    <Node>
                     <Name>has_member</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>afbe0272b10e594cc2cf3d267eab026e2</Anchor>
+                    <Anchor>gafbe0272b10e594cc2cf3d267eab026e2</Anchor>
                    </Node>
                    <Node>
                     <Name>for_all_members</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>a9b60cbff914214557cc41785f9f71112</Anchor>
+                    <Anchor>ga9b60cbff914214557cc41785f9f71112</Anchor>
                    </Node>
                    <Node>
                     <Name>for_all_members</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>a19657485abbf707247f516491711c680</Anchor>
+                    <Anchor>ga19657485abbf707247f516491711c680</Anchor>
                    </Node>
                    <Node>
                     <Name>for_member</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>a98baa8cb20f52a4784d1289dac8ad638</Anchor>
+                    <Anchor>ga98baa8cb20f52a4784d1289dac8ad638</Anchor>
                    </Node>
                    <Node>
                     <Name>get_member_value</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>ad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+                    <Anchor>gad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
                    </Node>
                    <Node>
                     <Name>set_member_value</Name>
                     <Path>reflect_8inl.html</Path>
-                    <Anchor>a9bfac6e18944065665a8203058fc4fe6</Anchor>
+                    <Anchor>ga9bfac6e18944065665a8203058fc4fe6</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -33505,18 +33671,18 @@
                  </Node>
                  <Node>
                   <Name>DECL_REFLECTION_OUTSIDE</Name>
-                  <Path>reflection_8hpp.html</Path>
-                  <Anchor>ab47a32aab7e422d191e6cfdeffe20f66</Anchor>
+                  <Path>group__reflection.html</Path>
+                  <Anchor>gab47a32aab7e422d191e6cfdeffe20f66</Anchor>
                  </Node>
                  <Node>
                   <Name>DECL_REFLECTION</Name>
-                  <Path>reflection_8hpp.html</Path>
-                  <Anchor>a9d11620d55ff716ec5f53f1646b3655f</Anchor>
+                  <Path>group__reflection.html</Path>
+                  <Anchor>ga9d11620d55ff716ec5f53f1646b3655f</Anchor>
                  </Node>
                  <Node>
                   <Name>DECL_REFLECTION_EMPTY</Name>
-                  <Path>reflection_8hpp.html</Path>
-                  <Anchor>a99aeace6914ae37b35df9ff7ce884af3</Anchor>
+                  <Path>group__reflection.html</Path>
+                  <Anchor>ga99aeace6914ae37b35df9ff7ce884af3</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -33943,7 +34109,7 @@
                    <Node>
                     <Name>FuncIterator</Name>
                     <Path>structotto_1_1util_1_1_signal.html</Path>
-                    <Anchor>aa0defb7daeeed8a920d18d69a123c12e</Anchor>
+                    <Anchor>aaefd24ce40ea1b1d60cb05f9aff28139</Anchor>
                    </Node>
                    <Node>
                     <Name>connect</Name>
@@ -34116,7 +34282,7 @@
                    <Node>
                     <Name>FuncIterator</Name>
                     <Path>structotto_1_1util_1_1_signal.html</Path>
-                    <Anchor>aa0defb7daeeed8a920d18d69a123c12e</Anchor>
+                    <Anchor>aaefd24ce40ea1b1d60cb05f9aff28139</Anchor>
                    </Node>
                    <Node>
                     <Name>connect</Name>

@@ -69,62 +69,34 @@
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a href="https://travis-ci.org/topisani/OTTO"><img src="https://travis-ci.org/topisani/OTTO.svg?branch=master" alt="Build Status" class="inline"/></a></p>
-<p>Making electronic music is awesome! But for most of us, it requires a lot of setup, a lot of moving a mouse around on a laptop that's probably not quite equipped to handle realtime audio processing. Don't you wish you had one single device, which was built to do it all for you, easily and on the fly?</p>
-<h3>Introducing the OTTO!</h3>
-<p>The OTTO is a complete hardware and software solution, with synths, a sampler, effects, sequencers, and studio modules. The interface is modal, easy to use, simple, but most of all, it encourages experimentation. The graphics are quirky, and the workflow is minimal.</p>
-<blockquote class="doxtable">
-<p>That sounds cool and all, but haven't I heard about this before? <br  />
- — <em>You</em> </p>
-</blockquote>
-<p>Yes, the OTTO is heavily inspired by the <a href="https://teenage.engineering/products/op-1">OP-1</a>, in fact it started off as a direct clone, but these days we try to take a different spin on an idea that is fundamentally the same.</p>
-<p>At this point it might be important to mention that the OTTO is not, and will never be, a commercially aimed product. It is open source by nature, in both hardware and software. If you want an OTTO, you're going to get your hands dirty, if not with the code, at least with the hardware.</p>
-<p>Now that proper introductions are made, we would like to invite you to our <a href="https://discord.gg/4cV9Ucz">discord server</a> where we hang out and discuss all things OTTO.</p>
+<p>The OTTO is a complete hardware and software solution, with synths, samplers, effects and a sequencer with an audio looper. The interface is modular, easy to use, simple, but most of all, it encourages experimentation. The graphics are quirky, and the workflow is minimal.</p>
+<p>We would like to invite you to our <b><a href="https://discord.gg/4cV9Ucz">discord server</a></b> where we hang out and discuss all things OTTO.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
-Screenshots:</h1>
-<p>We are currently working on redesigning the UI, but this is some of the ideas we are playing with:</p>
-<p><img src="https://camo.githubusercontent.com/a68ee81ff37e4a8d1415c3c09f74f2ae04631ae2/687474703a2f2f7076742e616c62657274736d2e69742f75692f4f74746f322d31312e706e67" alt="" width="640px" class="inline"/></p>
-<p><img src="https://image.ibb.co/nGgtbK/shoot.png" alt="" width="320px" class="inline"/> <img src="https://image.ibb.co/cpKziz/shoot.png" alt="" width="320px" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md2"></a>
 The hardware</h1>
-<p>The OTTO is basically going to be a Rpi3 (or other similar boards, we are looking into that), a screen, a DAC, 4 encoders and some 30+ buttons/keys. Some of us are currently building prototypes, and the formfactors and features vary greatly. Below this you see two OTTO hardware prototypes. Feature wise they are similar, but <a href="https://github.com/topisani/OTTO-proto-1">the first one</a> is hand-wired, lasercut, and uses arduino pro micros for handling the keys/encoders. <a href="https://github.com/cester-ino/OTTO-hardware">The second one</a> is 3D printed, uses a PCB with onboard microcontroler etc. <img src="https://github.com/topisani/OTTO-proto-1/raw/master/images/closed.jpeg" alt="" class="inline"/> <img src="https://github.com/cester-ino/OTTO-hardware/blob/cb988b7792a6fb47a434e5be7b6f8e89364f83bb/images/OTTOtac0_1.png" alt="" class="inline"/></p>
-<p>As you can see, the OTTO can be built very differently depending on your skills, your avaliable resources and tools, and your priorities. You can also have other features than these two, for example the DSP all supports velocity sensitive keys.</p>
-<p>You can find more info about the first prototype design on the "Otto Proto One" on <a href="https://github.com/topisani/OTTO-proto-1">this dedicated repo</a>, and @cester-ino's <a href="https://github.com/cester-ino/OTTO-hardware">over at his repo</a></p>
-<h1><a class="anchor" id="autotoc_md3"></a>
-The software</h1>
-<p>The software is written in (very) modern C++, and the goal is to be as modular and flexible as possible.</p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadLeft"></th><th class="markdownTableHeadNone">Technology   </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyLeft">Core  </td><td class="markdownTableBodyNone">C++ 17 (you will need a <em>very</em> new compiler.)   </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyLeft">Graphics  </td><td class="markdownTableBodyNone">C++ wrapper on top of <a href="https://github.com/memononen/nanovg">NanoVG</a>, with swappable backends, currently GLFW and EGL are available.   </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyLeft">Audio/MIDI  </td><td class="markdownTableBodyNone">Designed to be swappable, though currently the only one available is <a href="http://jackaudio.org">jack</a>.   </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyLeft">DSP  </td><td class="markdownTableBodyNone">C++ and <a href="http://faust.grame.fr">Faust</a> (compiled down to C++)   </td></tr>
-</table>
-<p>It is possible to run the software on the desktop, with <a href="https://github.com/topisani/OTTO/wiki/Keyboard-mapping">keybinds</a> emulating the physical buttons and encoders.</p>
-<p>For build instructions, check out <a href="https://github.com/topisani/OTTO/wiki/Compiling-and-Running">the wiki</a>.</p>
-<h3>Backbone</h3>
-<p>While OTTOs may differ on a lot, some things are fairly set in stone :</p>
+<p>The OTTO is basically going to be a Rpi3+, a screen, a DAC, 4 encoders and some 30+ buttons/keys. Some of us are currently building the next version of prototypes. We can (so far) show you some nice renders of that, which is currently being shipped to us. Next steps will be a few revisions and <em>a lot</em> of coding to get the existing software to work with the hardware, but then we'll be ready to share with all of you!</p>
+<p><a href="https://ibb.co/mBXmNnH"><img src="https://i.ibb.co/6Z12XK4/render1.png" alt="render1" width="100%" class="inline"/></a> <a href="https://ibb.co/17QcPHK"><img src="https://i.ibb.co/HB4ZbmY/render2.png" alt="render2" width="100%" class="inline"/></a></p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Planned Features for v1.0</h1>
 <ul>
-<li>A Raspberry Pi (or similar) at the core, running a minimal Linux distro.</li>
-<li>A &gt;= 320x240 RGB screen, preferably AMOLED.</li>
-<li>~30 hardware buttons, so nearly every feature has its own button.</li>
-<li>4 colour coded rotary encoders (full credits to the OP-1 for that idea), as the main controls. Each screen has a maximum of 4 variables which will be coloured corresponding to their encoder.</li>
+<li>A synth (with swappable engines) for live performance with midi effects (arpeggiator, etc.)</li>
+<li>2 FX slots. Synths and drums send to them as a FX bus.</li>
+<li>Synths and effects are swappable "engines".</li>
+<li>For drums, a sampler will run in parallel to the sequencer-synth chain.</li>
+<li>The drum sampler has 10 channels. These have a simple 1-bar, 16 step volca-style drum-sequencer, with each step corresponding to a white key on the musical keyboard on the prototype currently being built.</li>
+<li>An audio line input which has FX send and level</li>
+<li>A simple loop-station-style audio looper that can get audio from line in or synth. It has overdub and one level of Undo.</li>
+<li>8 save slots which save the state of the entire system. A save button lets you choose the slot to save in. Saves are only performed when you take the action.</li>
 </ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Screenshots:</h1>
+<p>The UI tries to walk the line between clear, concise and playful:</p>
+<p><img src="https://i.ibb.co/WvKQrc3/image.png" alt="OTTO Screenshots" border="0" width="100%" class="inline"/> <em>From top left to bottom right: FM Synth, ADSR Envelope, Reverb effect, Euclidian Sequencer</em></p>
 <h1><a class="anchor" id="autotoc_md4"></a>
-Roadmap</h1>
-<p>Currently, the OTTO consists mainly of a lot of backend, and some proof-of-concept interfaces. During the following months, we will work on punching out the core structure and interactions, along with adding synths, sequencers and effects.</p>
-<p>Other ideas for the future include:</p><ul>
-<li>A mobile app to run the graphics and serve as the screen, since good screens are hard to come by, and you probably already have a great one in your pocket.</li>
-<li>Support for optional hardware, like an FM radio, Bluetooth speakers, a joystick</li>
-</ul>
-<p>It should also be noted that the OTTO of course feeds on midi, and you should be able to hook up all sorts of controllers, with sync and control signals for the OTTO variables.</p>
+The software</h1>
+<p>The main software is written in modern C++, and the goal is to be as modular and flexible as possible. For build instructions, check out <a href="https://github.com/topisani/OTTO/wiki/Compiling-and-Running">the wiki</a>.</p>
 <h1><a class="anchor" id="autotoc_md5"></a>
 Getting Involved</h1>
-<p>We are a small, but steadily growing, group of people working in all sorts of areas, and we are always looking for contributors in whatever form, or just people who are interested in general. If you are not a developer, we could still really use some help with testing, documenting, hardware, samples and presets for engines, and more. And if I didn't mention it yet, the best place for you to get involved is our <a href="https://discord.gg/4cV9Ucz">discord server</a>. Seriously, it's where all the magic happens!</p>
+<p>We are a small, but steadily growing, group of people working in all sorts of areas, and we are always looking for contributors in whatever form, or just people who are interested in general. A good place to read more is on the <a href="https://github.com/topisani/OTTO/wiki">wiki</a> If you are not a developer, we could still really use some help with testing, documenting, hardware, samples and presets for engines, and more. And if I didn't mention it yet, the best place for you to get involved is our <a href="https://discord.gg/4cV9Ucz">discord server</a>. Seriously, it's where all the magic happens!</p>
 <p>If you're up for it, we'd love some help, for a lot of different things, like:</p><ul>
 <li>Software testing</li>
 <li>Writing documentation</li>
@@ -136,17 +108,14 @@ Getting Involved</h1>
 <li>Hardware bridging</li>
 <li>Distro setup (a custom linux distro for the Pi would be optimal)</li>
 </ul>
-<p>The DSP can be written seperately in <a href="http://faust.grame.fr">faust</a>, a functional language designed for audio processing that compiles to C++, so if you are up for writing some synths/effects, but not quite ready to take on the beast that is C++ yet, there is still hope.</p>
 <p>If you feel like joining the adventure, please check out the <a href="https://github.com/topisani/OTTO/wiki/Guidelines">guidelines</a>.</p>
 <h1><a class="anchor" id="autotoc_md6"></a>
 Credits</h1>
 <ul>
-<li>Audio Framework: <a href="http://jackaudio.org/">jack</a></li>
-<li>DSP Framework: <a href="http://faust.grame.fr/">faust</a></li>
+<li>DSP Framework: <a href="http://faust.grame.fr/">faust</a> and <a href="http://w2.mat.ucsb.edu/gamma/">Gamma</a></li>
 <li>Vector Graphics: <a href="https://github.com/memononen/nanovg">NanoVG</a> with <a href="https://github.com/Geequlim/NanoCanvas">NanoCanvas</a></li>
 <li><a href="http://fmtlib.net">fmtlib</a>, string formatting in C++</li>
-<li><a href="https://github.com/nlohmann/json/">json</a>, json for modern C++</li>
-<li><a href="https://github.com/mapbox/variant">mapbox/variant</a>, one of the best variant implementations out there </li>
+<li><a href="https://github.com/nlohmann/json/">json</a>, json for modern C++ </li>
 </ul>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

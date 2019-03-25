@@ -784,28 +784,6 @@
       <Scope>otto::core::props</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
-    <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
-    <DeclaredIn>change_hook.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::props</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1core_1_1props.html</Path>
-    <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
-    <DeclaredIn>change_hook.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OTTO_PROPS_MIXIN</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::props</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>aa9adccc10dabba474f6fb256cd4663e7</Anchor>
     <DeclaredIn>has_limits.hpp</DeclaredIn>
   </Token>
@@ -863,7 +841,7 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
-    <DeclaredIn>change_hook.hpp</DeclaredIn>
+    <DeclaredIn>set_hook.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -874,7 +852,29 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
-    <DeclaredIn>change_hook.hpp</DeclaredIn>
+    <DeclaredIn>set_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a3f6cb305ac6f9cdffdb405b972e0afea</Anchor>
+    <DeclaredIn>signal.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>aa4ee09bc72ad874f8253ebe4fe086560</Anchor>
+    <DeclaredIn>signal.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -934,6 +934,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>no_signal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a8b8b8a9edda10ee9e78607d30527c9f4</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Property</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -953,6 +964,7 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a042ce5ad7680f3af3e5cb20b6e22b7c0</Anchor>
+    <Abstract>Serialize a property to json.</Abstract>
     <DeclaredIn>props.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -964,6 +976,7 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a820d2072245752befc6cf8536d6cb17c</Anchor>
+    <Abstract>Deserialize a property from json.</Abstract>
     <DeclaredIn>props.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5253,8 +5266,8 @@
       <Type>tdef</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ad0b646514e3e6b14f55064af1884b35c</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gad0b646514e3e6b14f55064af1884b35c</Anchor>
     <Abstract>MemberType is Member&lt;T, Class&gt;</Abstract>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
@@ -5265,8 +5278,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5276,8 +5289,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a6d618090c7c6e4a5532b9776fee24e2f</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga6d618090c7c6e4a5532b9776fee24e2f</Anchor>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5287,8 +5300,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5298,8 +5311,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a6d618090c7c6e4a5532b9776fee24e2f</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga6d618090c7c6e4a5532b9776fee24e2f</Anchor>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5309,8 +5322,8 @@
       <Type>tdef</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ac783e7db3ffd4f480a80827f45b96c6c</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gac783e7db3ffd4f480a80827f45b96c6c</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5320,8 +5333,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5331,8 +5344,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>afd020d552659db3e09ac955a134b8b21</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gafd020d552659db3e09ac955a134b8b21</Anchor>
+    <Abstract>function used for registration of classes by user</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5342,8 +5356,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>aa38058baded91aa5bdb099337d3189a6</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gaa38058baded91aa5bdb099337d3189a6</Anchor>
+    <Abstract>function used for registration of class name by user</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5353,8 +5368,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ac7d221b27c574622112d4df8c34dfc50</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gac7d221b27c574622112d4df8c34dfc50</Anchor>
+    <Abstract>returns set name for class</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5364,8 +5380,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+    <Abstract>returns the number of registered members of the class</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5375,8 +5392,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a873163a9e3c78bf2806e565addd369c3</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga873163a9e3c78bf2806e565addd369c3</Anchor>
+    <Abstract>returns std::tuple of Members</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5386,8 +5404,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ae208a664c4dc90af970aef9cd59b31a8</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gae208a664c4dc90af970aef9cd59b31a8</Anchor>
+    <Abstract>Check if class has registerMembers&lt;T&gt; specialization (has been registered)</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5397,8 +5416,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>aa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gaa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+    <Abstract>Check if Class has non-default ctor registered.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5408,8 +5428,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>afbe0272b10e594cc2cf3d267eab026e2</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gafbe0272b10e594cc2cf3d267eab026e2</Anchor>
+    <Abstract>Check if class T has member.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5419,8 +5440,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a9b60cbff914214557cc41785f9f71112</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9b60cbff914214557cc41785f9f71112</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5430,8 +5451,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a19657485abbf707247f516491711c680</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga19657485abbf707247f516491711c680</Anchor>
+    <Abstract>version for non-registered classes (to generate less template stuff)</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5441,8 +5463,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a98baa8cb20f52a4784d1289dac8ad638</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga98baa8cb20f52a4784d1289dac8ad638</Anchor>
+    <Abstract>Do F for member named &apos;name&apos; with type T. It&apos;s important to pass correct type of the member.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5452,8 +5475,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+    <Abstract>Get value of the member named &apos;name&apos;.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5463,8 +5487,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a9bfac6e18944065665a8203058fc4fe6</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9bfac6e18944065665a8203058fc4fe6</Anchor>
+    <Abstract>Set value of the member named &apos;name&apos;.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5474,8 +5499,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5485,8 +5510,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ac7d221b27c574622112d4df8c34dfc50</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gac7d221b27c574622112d4df8c34dfc50</Anchor>
+    <Abstract>returns set name for class</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5496,8 +5522,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+    <Abstract>returns the number of registered members of the class</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5507,8 +5534,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a873163a9e3c78bf2806e565addd369c3</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga873163a9e3c78bf2806e565addd369c3</Anchor>
+    <Abstract>returns std::tuple of Members</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5518,8 +5546,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ae208a664c4dc90af970aef9cd59b31a8</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gae208a664c4dc90af970aef9cd59b31a8</Anchor>
+    <Abstract>Check if class has registerMembers&lt;T&gt; specialization (has been registered)</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5529,8 +5558,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>aa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gaa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+    <Abstract>Check if Class has non-default ctor registered.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5540,8 +5570,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>afbe0272b10e594cc2cf3d267eab026e2</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gafbe0272b10e594cc2cf3d267eab026e2</Anchor>
+    <Abstract>Check if class T has member.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5551,8 +5582,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a9b60cbff914214557cc41785f9f71112</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9b60cbff914214557cc41785f9f71112</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5562,8 +5593,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a19657485abbf707247f516491711c680</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga19657485abbf707247f516491711c680</Anchor>
+    <Abstract>version for non-registered classes (to generate less template stuff)</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5573,8 +5605,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a98baa8cb20f52a4784d1289dac8ad638</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga98baa8cb20f52a4784d1289dac8ad638</Anchor>
+    <Abstract>Do F for member named &apos;name&apos; with type T. It&apos;s important to pass correct type of the member.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5584,8 +5617,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+    <Abstract>Get value of the member named &apos;name&apos;.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5595,8 +5629,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a9bfac6e18944065665a8203058fc4fe6</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9bfac6e18944065665a8203058fc4fe6</Anchor>
+    <Abstract>Set value of the member named &apos;name&apos;.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5655,8 +5690,8 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>reflection_8hpp.html</Path>
-    <Anchor>ab47a32aab7e422d191e6cfdeffe20f66</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gab47a32aab7e422d191e6cfdeffe20f66</Anchor>
     <DeclaredIn>reflection.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5665,8 +5700,9 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>reflection_8hpp.html</Path>
-    <Anchor>a9d11620d55ff716ec5f53f1646b3655f</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9d11620d55ff716ec5f53f1646b3655f</Anchor>
+    <Abstract>Used inside a class to register its members.</Abstract>
     <DeclaredIn>reflection.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5675,8 +5711,8 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>reflection_8hpp.html</Path>
-    <Anchor>a99aeace6914ae37b35df9ff7ce884af3</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga99aeace6914ae37b35df9ff7ce884af3</Anchor>
     <DeclaredIn>reflection.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -7588,6 +7624,589 @@
     <Anchor>gafd2199e8cd364fabb6a32702165efc09</Anchor>
     <Abstract>Container based wrapper for std::find_if()</Abstract>
     <DeclaredIn>algorithm.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reflection</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Abstract>The OTTO reflection library is based on MetaStuff by Elias daler.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DECL_REFLECTION_OUTSIDE</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gab47a32aab7e422d191e6cfdeffe20f66</Anchor>
+    <DeclaredIn>reflection.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DECL_REFLECTION</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9d11620d55ff716ec5f53f1646b3655f</Anchor>
+    <Abstract>Used inside a class to register its members.</Abstract>
+    <DeclaredIn>reflection.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DECL_REFLECTION_EMPTY</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga99aeace6914ae37b35df9ff7ce884af3</Anchor>
+    <DeclaredIn>reflection.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_member_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gad0b646514e3e6b14f55064af1884b35c</Anchor>
+    <Abstract>MemberType is Member&lt;T, Class&gt;</Abstract>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>constructor_arguments</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gac783e7db3ffd4f480a80827f45b96c6c</Anchor>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga6d618090c7c6e4a5532b9776fee24e2f</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>members</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>register_members</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gafd020d552659db3e09ac955a134b8b21</Anchor>
+    <Abstract>function used for registration of classes by user</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>register_name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gaa38058baded91aa5bdb099337d3189a6</Anchor>
+    <Abstract>function used for registration of class name by user</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gac7d221b27c574622112d4df8c34dfc50</Anchor>
+    <Abstract>returns set name for class</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_member_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+    <Abstract>returns the number of registered members of the class</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_members</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga873163a9e3c78bf2806e565addd369c3</Anchor>
+    <Abstract>returns std::tuple of Members</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>is_registered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gae208a664c4dc90af970aef9cd59b31a8</Anchor>
+    <Abstract>Check if class has registerMembers&lt;T&gt; specialization (has been registered)</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ctor_registered</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gaa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+    <Abstract>Check if Class has non-default ctor registered.</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>has_member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gafbe0272b10e594cc2cf3d267eab026e2</Anchor>
+    <Abstract>Check if class T has member.</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>for_all_members</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9b60cbff914214557cc41785f9f71112</Anchor>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>for_all_members</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga19657485abbf707247f516491711c680</Anchor>
+    <Abstract>version for non-registered classes (to generate less template stuff)</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>for_member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga98baa8cb20f52a4784d1289dac8ad638</Anchor>
+    <Abstract>Do F for member named &apos;name&apos; with type T. It&apos;s important to pass correct type of the member.</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_member_value</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+    <Abstract>Get value of the member named &apos;name&apos;.</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set_member_value</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9bfac6e18944065665a8203058fc4fe6</Anchor>
+    <Abstract>Set value of the member named &apos;name&apos;.</Abstract>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MemberAccessor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>aff5d9d218419b71542d70e1887bb6eec</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_const</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>abb99d16a22d0a947d5e13fafca10a2b1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>ad466e9426cfa69b1dcb0a5f363f65709</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MemberAccessor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a6cc8c8dad225eaf4dda17d1c2a13d101</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_const</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>aefb5078ece1cd427af2d890ad85292b9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a37d37147dba265b52943f8a62866b692</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>adbea9324d0dce3017964f40d91374988</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MemberAccessor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>acccb3f7ac74e4b966c7424f7c6a52965</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a213d6a27b474a172baa8f3f1e6888c62</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_const</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a39696337eac128bcdac58f111cf305c9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a70cbc34c5ae3ea787c4e3e90bca0bda8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Accessor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a26e594de22a8e20463bf079ea38a52db</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>class_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>af885981c8f62e968c2bf196981e76de7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>member_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a0a68ba36e0149ca33c469e80d10c54de</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a30746e2378a14c647bc8fdcda4fdc9ca</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Member</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a689e5f77b1dabda799ce73dee045a64c</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a8de0da07d6714cc4df64aedb50c4e5b7</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a1c2413e038e6c483a4d1bf5cef290ee1</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a8bb1ef29e6c2eaabb3f120005d0c4bbe</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_ref</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>aa51d0e5c8673263f5b1c63b40dbae349</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a7abd27067c4e7b1f1833e312f4de7b9f</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>has_setter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>aebabccdeb8cd433fbe6e3671ce0c392a</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>can_get_ref</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::Member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a685301f56948009d8b1b41508357ee21</Anchor>
+    <DeclaredIn>member.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect::type_list</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>aac059a4d1dd4604cd12651929f02228d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>indices</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::reflect::type_list</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a1f9edc3f968d9e3647e64f7eedc82d9f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::type_list</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a7735656f1fe67dfb4d701df03733541e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>test</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::_has_reflect_member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a76a77b73624827962d62279b5800f8d2</Anchor>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>test</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::reflect::_has_reflect_member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a92a90d09acee51c18afec6622bb038ec</Anchor>
+    <DeclaredIn>reflect.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::reflect::_has_reflect_member</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>a7953c07ddda886de74f705235657dbf5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReadOnly</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a131fb182a881796e7606ed6da27f1197</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReadWrite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a70a2a84088d405a2e3f1e3accaa16723</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MutableRef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::reflect</Scope>
+    </TokenIdentifier>
+    <Path>group__reflection.html</Path>
+    <Anchor>gga1ef8bd2167f023d60c21a45ee2344726a6d9a2cad46f2e9159490ff4c68fe095c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11945,46 +12564,6 @@
     </TokenIdentifier>
     <Path>class_s24.html</Path>
     <Anchor>a6364edb04d6fea8fb4feff17bdee585b</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>type_list</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>type_list</Scope>
-    </TokenIdentifier>
-    <Path>structtype__list.html</Path>
-    <DeclaredIn>reflect.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>type</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>type_list</Scope>
-    </TokenIdentifier>
-    <Path>structtype__list.html</Path>
-    <Anchor>a3e1a6e85ad1d2fda6349ac3b32b9b923</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>indices</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>type_list</Scope>
-    </TokenIdentifier>
-    <Path>structtype__list.html</Path>
-    <Anchor>ac7f51a624e4bd54aa73820e1c32fe7e4</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>size</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>type_list</Scope>
-    </TokenIdentifier>
-    <Path>structtype__list.html</Path>
-    <Anchor>a2bfec79ec75df1a4bf993124ec99e2b3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22058,6 +22637,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>no_signal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a8b8b8a9edda10ee9e78607d30527c9f4</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Property</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -22089,28 +22679,6 @@
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>accbf232cc89992f3563124acd2e4b51b</Anchor>
     <DeclaredIn>tag_list.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OTTO_PROPS_MIXIN</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::props</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1core_1_1props.html</Path>
-    <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
-    <DeclaredIn>change_hook.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::props</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1core_1_1props.html</Path>
-    <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
-    <DeclaredIn>change_hook.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22167,6 +22735,50 @@
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a80b9a5211734ba7fa810802b28a39fef</Anchor>
     <DeclaredIn>pow2.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a4c2e2b0190e76104811cc30951cbc4d6</Anchor>
+    <DeclaredIn>set_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>ab4d17a42eb525eed5754feb8968834f7</Anchor>
+    <DeclaredIn>set_hook.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a3f6cb305ac6f9cdffdb405b972e0afea</Anchor>
+    <DeclaredIn>signal.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_PROPS_MIXIN_LEAF</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>aa4ee09bc72ad874f8253ebe4fe086560</Anchor>
+    <DeclaredIn>signal.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22233,6 +22845,7 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a042ce5ad7680f3af3e5cb20b6e22b7c0</Anchor>
+    <Abstract>Serialize a property to json.</Abstract>
     <DeclaredIn>props.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -22244,6 +22857,7 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1props.html</Path>
     <Anchor>a820d2072245752befc6cf8536d6cb17c</Anchor>
+    <Abstract>Deserialize a property from json.</Abstract>
     <DeclaredIn>props.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -26384,7 +26998,7 @@
       <Scope>otto::core::voices::details</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
-    <Anchor>ad98df4be4d302e5db45a6edea4c383f6ac505a69ec179afb91b357bbbd1b0e60d</Anchor>
+    <Anchor>a6e805aded3174642df42f029b020ce02ac505a69ec179afb91b357bbbd1b0e60d</Anchor>
     <Abstract>Multiple voices at once, each playing a note.</Abstract>
   </Token>
   <Token>
@@ -26395,7 +27009,7 @@
       <Scope>otto::core::voices::details</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
-    <Anchor>ad98df4be4d302e5db45a6edea4c383f6a654db8a14a5f633b9ba85ec92dc51f7c</Anchor>
+    <Anchor>a6e805aded3174642df42f029b020ce02a654db8a14a5f633b9ba85ec92dc51f7c</Anchor>
     <Abstract>Only a single voice in use, allways playing the latest note.</Abstract>
   </Token>
   <Token>
@@ -26406,7 +27020,7 @@
       <Scope>otto::core::voices::details</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1voices_1_1details.html</Path>
-    <Anchor>ad98df4be4d302e5db45a6edea4c383f6a9770a912a024ff4a98ae47b1a6374383</Anchor>
+    <Anchor>a6e805aded3174642df42f029b020ce02a9770a912a024ff4a98ae47b1a6374383</Anchor>
     <Abstract>All voices in use, all playing the latest note (posibly with detune)</Abstract>
   </Token>
   <Token>
@@ -26509,7 +27123,7 @@
       <Scope>otto::core::voices::details::SettingsProps</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-    <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
+    <Anchor>ac18b06982c4f8c88d4f405fb3aec1a22</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26519,7 +27133,7 @@
       <Scope>otto::core::voices::details::SettingsProps</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-    <Anchor>a463325705507a646fbd85bbf6114d45a</Anchor>
+    <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26529,7 +27143,7 @@
       <Scope>otto::core::voices::details::SettingsProps</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-    <Anchor>ad25e550f556573e69b62c74342a79031</Anchor>
+    <Anchor>a3ee8f93ca09b67ac4bf24990f3180f1f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34336,8 +34950,8 @@
       <Type>tdef</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ad0b646514e3e6b14f55064af1884b35c</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gad0b646514e3e6b14f55064af1884b35c</Anchor>
     <Abstract>MemberType is Member&lt;T, Class&gt;</Abstract>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
@@ -34348,8 +34962,8 @@
       <Type>tdef</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ac783e7db3ffd4f480a80827f45b96c6c</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gac783e7db3ffd4f480a80827f45b96c6c</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34359,8 +34973,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga2d18ef218e4dc90e9d6f1adaefa50917</Anchor>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34370,8 +34984,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a6d618090c7c6e4a5532b9776fee24e2f</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga6d618090c7c6e4a5532b9776fee24e2f</Anchor>
     <DeclaredIn>member.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34381,8 +34995,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga8af3ece014d1ab8e9dde60557a5ebd1a</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34392,8 +35006,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>afd020d552659db3e09ac955a134b8b21</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gafd020d552659db3e09ac955a134b8b21</Anchor>
+    <Abstract>function used for registration of classes by user</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34403,8 +35018,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>aa38058baded91aa5bdb099337d3189a6</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gaa38058baded91aa5bdb099337d3189a6</Anchor>
+    <Abstract>function used for registration of class name by user</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34414,8 +35030,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ac7d221b27c574622112d4df8c34dfc50</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gac7d221b27c574622112d4df8c34dfc50</Anchor>
+    <Abstract>returns set name for class</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34425,8 +35042,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga56f47f43a7e6ea4f7135f0be5495206c</Anchor>
+    <Abstract>returns the number of registered members of the class</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34436,8 +35054,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a873163a9e3c78bf2806e565addd369c3</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga873163a9e3c78bf2806e565addd369c3</Anchor>
+    <Abstract>returns std::tuple of Members</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34447,8 +35066,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ae208a664c4dc90af970aef9cd59b31a8</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gae208a664c4dc90af970aef9cd59b31a8</Anchor>
+    <Abstract>Check if class has registerMembers&lt;T&gt; specialization (has been registered)</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34458,8 +35078,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>aa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gaa3e5abbcf4a0c3b631f119aead074e21</Anchor>
+    <Abstract>Check if Class has non-default ctor registered.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34469,8 +35090,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>afbe0272b10e594cc2cf3d267eab026e2</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gafbe0272b10e594cc2cf3d267eab026e2</Anchor>
+    <Abstract>Check if class T has member.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34480,8 +35102,8 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a9b60cbff914214557cc41785f9f71112</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9b60cbff914214557cc41785f9f71112</Anchor>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34491,8 +35113,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a19657485abbf707247f516491711c680</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga19657485abbf707247f516491711c680</Anchor>
+    <Abstract>version for non-registered classes (to generate less template stuff)</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34502,8 +35125,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a98baa8cb20f52a4784d1289dac8ad638</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga98baa8cb20f52a4784d1289dac8ad638</Anchor>
+    <Abstract>Do F for member named &apos;name&apos; with type T. It&apos;s important to pass correct type of the member.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34513,8 +35137,9 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>ad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>gad9f3456aecb4167339bd8c1a3dfc9029</Anchor>
+    <Abstract>Get value of the member named &apos;name&apos;.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -34524,81 +35149,10 @@
       <Type>func</Type>
       <Scope>otto::reflect</Scope>
     </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a9bfac6e18944065665a8203058fc4fe6</Anchor>
+    <Path>group__reflection.html</Path>
+    <Anchor>ga9bfac6e18944065665a8203058fc4fe6</Anchor>
+    <Abstract>Set value of the member named &apos;name&apos;.</Abstract>
     <DeclaredIn>reflect.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReadOnly</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::reflect</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a1ef8bd2167f023d60c21a45ee2344726a131fb182a881796e7606ed6da27f1197</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReadWrite</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::reflect</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a1ef8bd2167f023d60c21a45ee2344726a70a2a84088d405a2e3f1e3accaa16723</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MutableRef</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::reflect</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1reflect.html</Path>
-    <Anchor>a1ef8bd2167f023d60c21a45ee2344726a6d9a2cad46f2e9159490ff4c68fe095c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::reflect::_has_reflect_member</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::reflect::_has_reflect_member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1__has__reflect__member.html</Path>
-    <DeclaredIn>reflect.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>test</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::_has_reflect_member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1__has__reflect__member.html</Path>
-    <Anchor>a76a77b73624827962d62279b5800f8d2</Anchor>
-    <DeclaredIn>reflect.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>test</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::_has_reflect_member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1__has__reflect__member.html</Path>
-    <Anchor>a92a90d09acee51c18afec6622bb038ec</Anchor>
-    <DeclaredIn>reflect.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>value</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::_has_reflect_member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1__has__reflect__member.html</Path>
-    <Anchor>a7953c07ddda886de74f705235657dbf5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34617,287 +35171,6 @@
       <Scope>otto::reflect::_is_registered&lt; T, std::void_t&lt; decltype(register_members&lt; T &gt;())&gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1reflect_1_1__is__registered_3_01_t_00_01std_1_1void__t_3_01decltype_07register__me2963081d24e277b8730166b432dec094.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::reflect::Member</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Accessor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a26e594de22a8e20463bf079ea38a52db</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>class_type</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>af885981c8f62e968c2bf196981e76de7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>member_type</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a0a68ba36e0149ca33c469e80d10c54de</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>type</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a30746e2378a14c647bc8fdcda4fdc9ca</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Member</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a689e5f77b1dabda799ce73dee045a64c</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get_name</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a8de0da07d6714cc4df64aedb50c4e5b7</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a1c2413e038e6c483a4d1bf5cef290ee1</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a8bb1ef29e6c2eaabb3f120005d0c4bbe</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get_ref</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>aa51d0e5c8673263f5b1c63b40dbae349</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a7abd27067c4e7b1f1833e312f4de7b9f</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>has_setter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>aebabccdeb8cd433fbe6e3671ce0c392a</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>can_get_ref</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::Member</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member.html</Path>
-    <Anchor>a685301f56948009d8b1b41508357ee21</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MemberAccessor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-    <Anchor>acccb3f7ac74e4b966c7424f7c6a52965</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-    <Anchor>a213d6a27b474a172baa8f3f1e6888c62</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get_const</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-    <Anchor>a39696337eac128bcdac58f111cf305c9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::MutableRef, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_mutable_ref_00_01_data_01_4.html</Path>
-    <Anchor>a70cbc34c5ae3ea787c4e3e90bca0bda8</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MemberAccessor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-    <Anchor>aff5d9d218419b71542d70e1887bb6eec</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get_const</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-    <Anchor>abb99d16a22d0a947d5e13fafca10a2b1</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadOnly, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_only_00_01_data_01_4.html</Path>
-    <Anchor>ad466e9426cfa69b1dcb0a5f363f65709</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MemberAccessor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-    <Anchor>a6cc8c8dad225eaf4dda17d1c2a13d101</Anchor>
-    <DeclaredIn>member.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>get_const</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-    <Anchor>aefb5078ece1cd427af2d890ad85292b9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-    <Anchor>a37d37147dba265b52943f8a62866b692</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::reflect::MemberAccessor&lt; Class, T, AccessorType::ReadWrite, Data &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1reflect_1_1_member_accessor_3_01_class_00_01_t_00_01_accessor_type_1_1_read_write_00_01_data_01_4.html</Path>
-    <Anchor>adbea9324d0dce3017964f40d91374988</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40763,7 +41036,7 @@
       <Scope>otto::util::Signal</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1_signal.html</Path>
-    <Anchor>aa0defb7daeeed8a920d18d69a123c12e</Anchor>
+    <Anchor>aaefd24ce40ea1b1d60cb05f9aff28139</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

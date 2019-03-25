@@ -160,6 +160,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a2ff584427c0d4e8c1cc7455d30d45777"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a> = <a class="el" href="namespaceotto_1_1meta.html#structotto_1_1meta_1_1list">meta::list</a>&lt; Tags... &gt;</td></tr>
 <tr class="memdesc:a2ff584427c0d4e8c1cc7455d30d45777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type used to list tags.  <a href="#a2ff584427c0d4e8c1cc7455d30d45777">More...</a><br /></td></tr>
 <tr class="separator:a2ff584427c0d4e8c1cc7455d30d45777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8b8a9edda10ee9e78607d30527c9f4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a8b8b8a9edda10ee9e78607d30527c9f4">no_signal</a> = <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1no">no</a>&lt; signal &gt;</td></tr>
+<tr class="separator:a8b8b8a9edda10ee9e78607d30527c9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e9a60e419d1b553ad93d0eafb0eabe8"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename... Tags&gt; </td></tr>
 <tr class="memitem:a2e9a60e419d1b553ad93d0eafb0eabe8"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a2e9a60e419d1b553ad93d0eafb0eabe8">Property</a> = <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a>&lt; ValueType, <a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e">meta::_t</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1get__tag__list">get_tag_list</a>&lt; ValueType, Tags... &gt; &gt;&gt;</td></tr>
 <tr class="memdesc:a2e9a60e419d1b553ad93d0eafb0eabe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">A property of type <code>ValueType</code> with mixins <code>Tags...</code>  <a href="#a2e9a60e419d1b553ad93d0eafb0eabe8">More...</a><br /></td></tr>
@@ -186,10 +188,6 @@ Functions</h2></td></tr>
 <tr class="memitem:accbf232cc89992f3563124acd2e4b51b"><td class="memTemplParams" colspan="2">template&lt;typename Tag , typename... Args&gt; </td></tr>
 <tr class="memitem:accbf232cc89992f3563124acd2e4b51b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#accbf232cc89992f3563124acd2e4b51b">make_initializer</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:accbf232cc89992f3563124acd2e4b51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c2e2b0190e76104811cc30951cbc4d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a4c2e2b0190e76104811cc30951cbc4d6">OTTO_PROPS_MIXIN</a> (change_hook)</td></tr>
-<tr class="separator:a4c2e2b0190e76104811cc30951cbc4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4d17a42eb525eed5754feb8968834f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#ab4d17a42eb525eed5754feb8968834f7">OTTO_PROPS_MIXIN_LEAF</a> (change_hook)</td></tr>
-<tr class="separator:ab4d17a42eb525eed5754feb8968834f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9adccc10dabba474f6fb256cd4663e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#aa9adccc10dabba474f6fb256cd4663e7">OTTO_PROPS_MIXIN</a> (has_limits)</td></tr>
 <tr class="separator:aa9adccc10dabba474f6fb256cd4663e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecf0360a7799e60e05fc7e8679158072"><td class="memTemplParams" colspan="2">template&lt;typename Min , typename Max &gt; </td></tr>
@@ -202,6 +200,14 @@ Functions</h2></td></tr>
 <tr class="separator:a2953cea7033af827e9beafe372cac82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80b9a5211734ba7fa810802b28a39fef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a80b9a5211734ba7fa810802b28a39fef">OTTO_PROPS_MIXIN</a> (exp_step)</td></tr>
 <tr class="separator:a80b9a5211734ba7fa810802b28a39fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2e2b0190e76104811cc30951cbc4d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a4c2e2b0190e76104811cc30951cbc4d6">OTTO_PROPS_MIXIN</a> (change_hook)</td></tr>
+<tr class="separator:a4c2e2b0190e76104811cc30951cbc4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4d17a42eb525eed5754feb8968834f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#ab4d17a42eb525eed5754feb8968834f7">OTTO_PROPS_MIXIN_LEAF</a> (change_hook)</td></tr>
+<tr class="separator:ab4d17a42eb525eed5754feb8968834f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f6cb305ac6f9cdffdb405b972e0afea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a3f6cb305ac6f9cdffdb405b972e0afea">OTTO_PROPS_MIXIN</a> (signal)</td></tr>
+<tr class="separator:a3f6cb305ac6f9cdffdb405b972e0afea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ee09bc72ad874f8253ebe4fe086560"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#aa4ee09bc72ad874f8253ebe4fe086560">OTTO_PROPS_MIXIN_LEAF</a> (signal)</td></tr>
+<tr class="separator:aa4ee09bc72ad874f8253ebe4fe086560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24176b76505954ab4660ce94c83da8a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a24176b76505954ab4660ce94c83da8a6">OTTO_PROPS_MIXIN</a> (steppable, HOOKS((on_step, value_type)))</td></tr>
 <tr class="separator:a24176b76505954ab4660ce94c83da8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab49bfc2e4c45896b9cb7088106d9629c"><td class="memTemplParams" colspan="2">template&lt;typename VT &gt; </td></tr>
@@ -216,9 +222,11 @@ Functions</h2></td></tr>
 <tr class="separator:a57922c329364982a9ae0c29b3c2a282b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename... Tags&gt; </td></tr>
 <tr class="memitem:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a042ce5ad7680f3af3e5cb20b6e22b7c0">serialize</a> (const <a class="el" href="namespaceotto_1_1core_1_1props.html#a2e9a60e419d1b553ad93d0eafb0eabe8">core::props::Property</a>&lt; ValueType, Tags... &gt; &amp;prop)</td></tr>
+<tr class="memdesc:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a property to json.  <a href="#a042ce5ad7680f3af3e5cb20b6e22b7c0">More...</a><br /></td></tr>
 <tr class="separator:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a820d2072245752befc6cf8536d6cb17c"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename... Tags&gt; </td></tr>
 <tr class="memitem:a820d2072245752befc6cf8536d6cb17c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a820d2072245752befc6cf8536d6cb17c">deserialize</a> (<a class="el" href="namespaceotto_1_1core_1_1props.html#a2e9a60e419d1b553ad93d0eafb0eabe8">core::props::Property</a>&lt; ValueType, Tags... &gt; &amp;prop, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>)</td></tr>
+<tr class="memdesc:a820d2072245752befc6cf8536d6cb17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a property from json.  <a href="#a820d2072245752befc6cf8536d6cb17c">More...</a><br /></td></tr>
 <tr class="separator:a820d2072245752befc6cf8536d6cb17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -297,7 +305,7 @@ type</td>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="a7723e5d94f46f010cd6b363bf0acfe89"></a>typedef conditional_t&lt; is_enum_v&lt; T &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; change_hook, has_limits, steppable &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; change_hook &gt; &gt;</td>
+<a id="a648a85ad98a73545429abc6adf90a6f1"></a>typedef conditional_t&lt; is_enum_v&lt; T &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal, has_limits, steppable &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal &gt; &gt;</td>
 <td class="fieldname">
 type</td>
 <td class="fielddoc">
@@ -320,7 +328,7 @@ type</td>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="a8e8c92db9c799caa2a5567251ce0356f"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; change_hook, steppable &gt;</td>
+<a id="ae9cf8cf7d051633f158fc972e9622cc0"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal, steppable &gt;</td>
 <td class="fieldname">
 type</td>
 <td class="fielddoc">
@@ -343,7 +351,7 @@ type</td>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="aa8b2cca24bb78f34f69f74157146072f"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; change_hook, has_limits, steppable &gt;</td>
+<a id="a16aae03f0b71572247bd7dcc7613fbac"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal, has_limits, steppable &gt;</td>
 <td class="fieldname">
 type</td>
 <td class="fielddoc">
@@ -366,7 +374,7 @@ type</td>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="ae49bc3f591022df2852445d502d37b2a"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; change_hook, has_limits, steppable &gt;</td>
+<a id="a315424eb079d16f82c34ef82b3425adf"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal, has_limits, steppable &gt;</td>
 <td class="fieldname">
 type</td>
 <td class="fielddoc">
@@ -389,7 +397,7 @@ type</td>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="acdba84f8d924fef8ac7988021cd7f1f4"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; change_hook, has_limits, steppable &gt;</td>
+<a id="a5f0decb9c6ee902e6d1979083670e2e4"></a>typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal, has_limits, steppable &gt;</td>
 <td class="fieldname">
 type</td>
 <td class="fielddoc">
@@ -643,6 +651,22 @@ template&lt;typename... Tags&gt; </div>
 
 </div>
 </div>
+<a id="a8b8b8a9edda10ee9e78607d30527c9f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8b8a9edda10ee9e78607d30527c9f4">&#9670;&nbsp;</a></span>no_signal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1props.html#a8b8b8a9edda10ee9e78607d30527c9f4">otto::core::props::no_signal</a> = typedef <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1no">no</a>&lt;signal&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="props_8hpp_source.html#l00053">53</a> of file <a class="el" href="props_8hpp_source.html">props.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a2e9a60e419d1b553ad93d0eafb0eabe8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e9a60e419d1b553ad93d0eafb0eabe8">&#9670;&nbsp;</a></span>Property</h2>
 
@@ -658,8 +682,10 @@ template&lt;typename ValueType , typename... Tags&gt; </div>
 </div><div class="memdoc">
 
 <p>A property of type <code>ValueType</code> with mixins <code>Tags...</code> </p>
+<p>Properties <br  />
+ </p>
 
-<p class="definition">Definition at line <a class="el" href="props_8hpp_source.html#l00055">55</a> of file <a class="el" href="props_8hpp_source.html">props.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="props_8hpp_source.html#l00059">59</a> of file <a class="el" href="props_8hpp_source.html">props.hpp</a>.</p>
 
 </div>
 </div>
@@ -766,48 +792,8 @@ template&lt;typename Tag , typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="a4c2e2b0190e76104811cc30951cbc4d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c2e2b0190e76104811cc30951cbc4d6">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">otto::core::props::OTTO_PROPS_MIXIN </td>
-          <td>(</td>
-          <td class="paramtype">change_hook&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab4d17a42eb525eed5754feb8968834f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4d17a42eb525eed5754feb8968834f7">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">otto::core::props::OTTO_PROPS_MIXIN_LEAF </td>
-          <td>(</td>
-          <td class="paramtype">change_hook&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="change__hook_8hpp_source.html#l00019">19</a> of file <a class="el" href="change__hook_8hpp_source.html">change_hook.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="variant__w__base_8hpp_source.html#l00181">otto::std::get()</a>, and <a class="el" href="mixin__macros_8hpp_source.html#l00014">OTTO_PROPS_MIXIN_DECLS</a>.</p>
-
-</div>
-</div>
 <a id="aa9adccc10dabba474f6fb256cd4663e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9adccc10dabba474f6fb256cd4663e7">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9adccc10dabba474f6fb256cd4663e7">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -859,7 +845,7 @@ template&lt;typename Min , typename Max &gt; </div>
 </div>
 </div>
 <a id="a8332994f51f22982376af2820cab502a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8332994f51f22982376af2820cab502a">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8332994f51f22982376af2820cab502a">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -881,7 +867,7 @@ template&lt;typename Min , typename Max &gt; </div>
 </div>
 </div>
 <a id="a2953cea7033af827e9beafe372cac82a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2953cea7033af827e9beafe372cac82a">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2953cea7033af827e9beafe372cac82a">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -913,7 +899,7 @@ template&lt;typename Min , typename Max &gt; </div>
 </div>
 </div>
 <a id="a80b9a5211734ba7fa810802b28a39fef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80b9a5211734ba7fa810802b28a39fef">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a80b9a5211734ba7fa810802b28a39fef">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -934,8 +920,88 @@ template&lt;typename Min , typename Max &gt; </div>
 
 </div>
 </div>
+<a id="a4c2e2b0190e76104811cc30951cbc4d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2e2b0190e76104811cc30951cbc4d6">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">otto::core::props::OTTO_PROPS_MIXIN </td>
+          <td>(</td>
+          <td class="paramtype">change_hook&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4d17a42eb525eed5754feb8968834f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4d17a42eb525eed5754feb8968834f7">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">otto::core::props::OTTO_PROPS_MIXIN_LEAF </td>
+          <td>(</td>
+          <td class="paramtype">change_hook&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="set__hook_8hpp_source.html#l00019">19</a> of file <a class="el" href="set__hook_8hpp_source.html">set_hook.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="mixin__macros_8hpp_source.html#l00014">OTTO_PROPS_MIXIN_DECLS</a>.</p>
+
+</div>
+</div>
+<a id="a3f6cb305ac6f9cdffdb405b972e0afea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f6cb305ac6f9cdffdb405b972e0afea">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">otto::core::props::OTTO_PROPS_MIXIN </td>
+          <td>(</td>
+          <td class="paramtype">signal&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4ee09bc72ad874f8253ebe4fe086560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4ee09bc72ad874f8253ebe4fe086560">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">otto::core::props::OTTO_PROPS_MIXIN_LEAF </td>
+          <td>(</td>
+          <td class="paramtype">signal&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="signal_8hpp_source.html#l00019">19</a> of file <a class="el" href="signal_8hpp_source.html">signal.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="variant__w__base_8hpp_source.html#l00181">otto::std::get()</a>, and <a class="el" href="mixin__macros_8hpp_source.html#l00014">OTTO_PROPS_MIXIN_DECLS</a>.</p>
+
+</div>
+</div>
 <a id="a24176b76505954ab4660ce94c83da8a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24176b76505954ab4660ce94c83da8a6">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a24176b76505954ab4660ce94c83da8a6">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -989,7 +1055,7 @@ template&lt;typename VT &gt; </div>
 </div>
 </div>
 <a id="a1d0ec1138b8d17b0865001486f56ab57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d0ec1138b8d17b0865001486f56ab57">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0ec1138b8d17b0865001486f56ab57">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1011,7 +1077,7 @@ template&lt;typename VT &gt; </div>
 </div>
 </div>
 <a id="ab97986a71bc9352488c6b7792f9408a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab97986a71bc9352488c6b7792f9408a5">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab97986a71bc9352488c6b7792f9408a5">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1039,7 +1105,7 @@ template&lt;typename VT &gt; </div>
 </div>
 </div>
 <a id="a57922c329364982a9ae0c29b3c2a282b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57922c329364982a9ae0c29b3c2a282b">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a57922c329364982a9ae0c29b3c2a282b">&#9670;&nbsp;</a></span>OTTO_PROPS_MIXIN_LEAF() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1078,7 +1144,9 @@ template&lt;typename ValueType , typename... Tags&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="props_8hpp_source.html#l00058">58</a> of file <a class="el" href="props_8hpp_source.html">props.hpp</a>.</p>
+<p>Serialize a property to json. </p>
+
+<p class="definition">Definition at line <a class="el" href="props_8hpp_source.html#l00063">63</a> of file <a class="el" href="props_8hpp_source.html">props.hpp</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1178,9 @@ template&lt;typename ValueType , typename... Tags&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="props_8hpp_source.html#l00065">65</a> of file <a class="el" href="props_8hpp_source.html">props.hpp</a>.</p>
+<p>Deserialize a property from json. </p>
+
+<p class="definition">Definition at line <a class="el" href="props_8hpp_source.html#l00071">71</a> of file <a class="el" href="props_8hpp_source.html">props.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/move.html">std::move()</a>.</p>
 
