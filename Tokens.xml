@@ -9362,6 +9362,126 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PanSM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Abstract>Equal-power 2-channel panner (Stereo-to-Mono)</Abstract>
+    <DeclaredIn>pan.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PanSM</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a4d5c07b07d75156d33ae3c757009feff</Anchor>
+    <DeclaredIn>pan.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>ad14d71ce10530ac680bdfad4b0db8fce</Anchor>
+    <Abstract>Filter sample (mono to stereo)</Abstract>
+    <DeclaredIn>pan.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a85f4df9d732b02720f87ed819bc33ef4</Anchor>
+    <Abstract>Filter sample (mono to stereo)</Abstract>
+    <DeclaredIn>pan.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pos</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a53220943b307e61fa0010e7369debad4</Anchor>
+    <Abstract>Set position (constant power law)</Abstract>
+    <DeclaredIn>pan.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>volume1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a1e41c1ce06de32caea675f8fedaaa7d8</Anchor>
+    <DeclaredIn>pan.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>volume2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a46d3f15d4f39ae0557017f385e63a55b</Anchor>
+    <DeclaredIn>pan.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>w1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a16a46e614a748de0ce0bb75c9bd61ca2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>w2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a2740c919b14a8ddefab38ff8089ef268</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vol1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>a16e91a6e30d79023da449f7d08130a00</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vol2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PanSM</Scope>
+    </TokenIdentifier>
+    <Path>struct_pan_s_m.html</Path>
+    <Anchor>aca028c7e9b2c9b2f01205ac689483e24</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RtApi</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -28383,6 +28503,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>pan_position</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::PotionSynth::CurveOscProps</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_curve_osc_props.html</Path>
+    <Anchor>ae0b388859d83c5c972f9d9a4059f8bf3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::engines::PotionSynth::DualWavePlayer</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -28423,26 +28553,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html</Path>
     <Anchor>a6fb6613e9fcaf43636114645f4fc1989</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>vol0</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::PotionSynth::DualWavePlayer</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html</Path>
-    <Anchor>a9a2179144d3a8603ef6647935f7eacb7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>vol1</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::PotionSynth::DualWavePlayer</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html</Path>
-    <Anchor>a17047cf38b64399616b24e11048f02be</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28497,81 +28607,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::PotionSynth::PanSM</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>otto::engines::PotionSynth::PanSM</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
-    <Abstract>Equal-power 2-channel panner (Stereo-to-Mono)</Abstract>
-    <DeclaredIn>potion.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>PanSM</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::PotionSynth::PanSM</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
-    <Anchor>ae8b6707d11c4817d6c46ae5e09ee0009</Anchor>
-    <DeclaredIn>potion.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator()</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::PotionSynth::PanSM</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
-    <Anchor>a1e06be728fab3ed1a674a090f440e5fb</Anchor>
-    <Abstract>Filter sample (mono to stereo)</Abstract>
-    <DeclaredIn>potion.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator()</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::PotionSynth::PanSM</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
-    <Anchor>ad0a18084a89c7f60e123663ff831d33e</Anchor>
-    <Abstract>Filter sample (mono to stereo)</Abstract>
-    <DeclaredIn>potion.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pos</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::PotionSynth::PanSM</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
-    <Anchor>a8fdf2efbb3e6842fdf99bd6c8d409e71</Anchor>
-    <Abstract>Set position (constant power law)</Abstract>
-    <DeclaredIn>potion.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>w1</Name>
+      <Name>pan_position</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::PotionSynth::PanSM</Scope>
+      <Scope>otto::engines::PotionSynth::LFOOscProps</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
-    <Anchor>a714f40d1feb58a29463d63695359b7e5</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>w2</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::PotionSynth::PanSM</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth_1_1_pan_s_m.html</Path>
-    <Anchor>ac4dc8a2cf05a5ab917470c5642c57c39</Anchor>
+    <Path>structotto_1_1engines_1_1_potion_synth_1_1_l_f_o_osc_props.html</Path>
+    <Anchor>aa0101fb878921f13df454f613c088ee1</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
