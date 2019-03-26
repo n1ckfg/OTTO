@@ -220,14 +220,14 @@ Functions</h2></td></tr>
 <tr class="separator:ab97986a71bc9352488c6b7792f9408a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57922c329364982a9ae0c29b3c2a282b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a57922c329364982a9ae0c29b3c2a282b">OTTO_PROPS_MIXIN_LEAF</a> (wrap)</td></tr>
 <tr class="separator:a57922c329364982a9ae0c29b3c2a282b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename... Tags&gt; </td></tr>
-<tr class="memitem:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a042ce5ad7680f3af3e5cb20b6e22b7c0">serialize</a> (const <a class="el" href="namespaceotto_1_1core_1_1props.html#a2e9a60e419d1b553ad93d0eafb0eabe8">core::props::Property</a>&lt; ValueType, Tags... &gt; &amp;prop)</td></tr>
-<tr class="memdesc:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a property to json.  <a href="#a042ce5ad7680f3af3e5cb20b6e22b7c0">More...</a><br /></td></tr>
-<tr class="separator:a042ce5ad7680f3af3e5cb20b6e22b7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a820d2072245752befc6cf8536d6cb17c"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename... Tags&gt; </td></tr>
-<tr class="memitem:a820d2072245752befc6cf8536d6cb17c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a820d2072245752befc6cf8536d6cb17c">deserialize</a> (<a class="el" href="namespaceotto_1_1core_1_1props.html#a2e9a60e419d1b553ad93d0eafb0eabe8">core::props::Property</a>&lt; ValueType, Tags... &gt; &amp;prop, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>)</td></tr>
-<tr class="memdesc:a820d2072245752befc6cf8536d6cb17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a property from json.  <a href="#a820d2072245752befc6cf8536d6cb17c">More...</a><br /></td></tr>
-<tr class="separator:a820d2072245752befc6cf8536d6cb17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359008d36e81bf08591a39d4335e1333"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename TagList &gt; </td></tr>
+<tr class="memitem:a359008d36e81bf08591a39d4335e1333"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a359008d36e81bf08591a39d4335e1333">serialize</a> (const <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a>&lt; ValueType, TagList &gt; &amp;prop)</td></tr>
+<tr class="memdesc:a359008d36e81bf08591a39d4335e1333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a property to json.  <a href="#a359008d36e81bf08591a39d4335e1333">More...</a><br /></td></tr>
+<tr class="separator:a359008d36e81bf08591a39d4335e1333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd1aa3ac0f2a6bbae073c41350ee000"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename TagList &gt; </td></tr>
+<tr class="memitem:a5fd1aa3ac0f2a6bbae073c41350ee000"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a5fd1aa3ac0f2a6bbae073c41350ee000">deserialize</a> (<a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a>&lt; ValueType, TagList &gt; &amp;prop, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>)</td></tr>
+<tr class="memdesc:a5fd1aa3ac0f2a6bbae073c41350ee000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a property from json.  <a href="#a5fd1aa3ac0f2a6bbae073c41350ee000">More...</a><br /></td></tr>
+<tr class="separator:a5fd1aa3ac0f2a6bbae073c41350ee000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1126,18 +1126,18 @@ template&lt;typename VT &gt; </div>
 
 </div>
 </div>
-<a id="a042ce5ad7680f3af3e5cb20b6e22b7c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042ce5ad7680f3af3e5cb20b6e22b7c0">&#9670;&nbsp;</a></span>serialize()</h2>
+<a id="a359008d36e81bf08591a39d4335e1333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a359008d36e81bf08591a39d4335e1333">&#9670;&nbsp;</a></span>serialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType , typename... Tags&gt; </div>
+template&lt;typename ValueType , typename TagList &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> otto::core::props::serialize </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceotto_1_1core_1_1props.html#a2e9a60e419d1b553ad93d0eafb0eabe8">core::props::Property</a>&lt; ValueType, Tags... &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a>&lt; ValueType, TagList &gt; &amp;&#160;</td>
           <td class="paramname"><em>prop</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1150,18 +1150,18 @@ template&lt;typename ValueType , typename... Tags&gt; </div>
 
 </div>
 </div>
-<a id="a820d2072245752befc6cf8536d6cb17c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a820d2072245752befc6cf8536d6cb17c">&#9670;&nbsp;</a></span>deserialize()</h2>
+<a id="a5fd1aa3ac0f2a6bbae073c41350ee000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd1aa3ac0f2a6bbae073c41350ee000">&#9670;&nbsp;</a></span>deserialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ValueType , typename... Tags&gt; </div>
+template&lt;typename ValueType , typename TagList &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void otto::core::props::deserialize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1props.html#a2e9a60e419d1b553ad93d0eafb0eabe8">core::props::Property</a>&lt; ValueType, Tags... &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceotto_1_1core_1_1props.html#structotto_1_1core_1_1props_1_1_property_impl">PropertyImpl</a>&lt; ValueType, TagList &gt; &amp;&#160;</td>
           <td class="paramname"><em>prop</em>, </td>
         </tr>
         <tr>
