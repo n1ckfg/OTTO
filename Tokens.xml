@@ -201,7 +201,7 @@
       <Scope>otto::core::midi</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1midi.html</Path>
-    <Anchor>a61e4142a5bfe368f40e220dd1288f1fc</Anchor>
+    <Anchor>acff092b1de24035854a1182bea0667f5</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -6735,7 +6735,7 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>af4fc57a4ab642a604b4eb92be818455a</Anchor>
+    <Anchor>a37545b787d96bb2bebb57fd0bbe5e3de</Anchor>
     <DeclaredIn>variant_w_base.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -12740,7 +12740,7 @@
       <Scope>otto::board::otto::services::UIManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1board_1_1otto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>ad20b50c3f573ecaf5f53575f9b633b03</Anchor>
+    <Anchor>a350720bf78b8ff023e9fba96923793a7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21560,7 +21560,7 @@
       <Scope>otto::core::midi</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1midi.html</Path>
-    <Anchor>a61e4142a5bfe368f40e220dd1288f1fc</Anchor>
+    <Anchor>acff092b1de24035854a1182bea0667f5</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -37262,7 +37262,7 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>af4fc57a4ab642a604b4eb92be818455a</Anchor>
+    <Anchor>a37545b787d96bb2bebb57fd0bbe5e3de</Anchor>
     <DeclaredIn>variant_w_base.hpp</DeclaredIn>
   </Token>
   <Token>
