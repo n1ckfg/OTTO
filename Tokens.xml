@@ -42263,17 +42263,17 @@
       <Type>cl</Type>
       <Scope>otto::util::TapeFile</Scope>
     </TokenIdentifier>
-    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+    <Path>structotto_1_1util_1_1_tape_file.html</Path>
     <DeclaredIn>tapefile.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>TapeFile</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
+      <Type>func</Type>
       <Scope>otto::util::TapeFile</Scope>
     </TokenIdentifier>
-    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+    <Path>structotto_1_1util_1_1_tape_file.html</Path>
     <Anchor>a5b7025d421d3f13c80e5223d60006f41</Anchor>
     <DeclaredIn>tapefile.hpp</DeclaredIn>
   </Token>
@@ -42281,10 +42281,10 @@
     <TokenIdentifier>
       <Name>~TapeFile</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
+      <Type>func</Type>
       <Scope>otto::util::TapeFile</Scope>
     </TokenIdentifier>
-    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+    <Path>structotto_1_1util_1_1_tape_file.html</Path>
     <Anchor>af7b53c957ab5e375e05c5f81aeec4b58</Anchor>
     <DeclaredIn>tapefile.hpp</DeclaredIn>
   </Token>
@@ -42687,7 +42687,7 @@
       <Type>data</Type>
       <Scope>otto::util::TapeFile</Scope>
     </TokenIdentifier>
-    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+    <Path>structotto_1_1util_1_1_tape_file.html</Path>
     <Anchor>a140a927638a5d068d9a2c6f1cfdfc9e3</Anchor>
   </Token>
   <Token>
@@ -42714,10 +42714,10 @@
     <TokenIdentifier>
       <Name>add_custom_chunks</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
+      <Type>func</Type>
       <Scope>otto::util::TapeFile</Scope>
     </TokenIdentifier>
-    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+    <Path>structotto_1_1util_1_1_tape_file.html</Path>
     <Anchor>a1f17abf9df28a045714ffa22f01a82a4</Anchor>
     <Abstract>When extending &lt;SoundFile&gt;, override this function.</Abstract>
     <DeclaredIn>tapefile.hpp</DeclaredIn>
@@ -42726,10 +42726,10 @@
     <TokenIdentifier>
       <Name>replace_custom_chunk</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
+      <Type>func</Type>
       <Scope>otto::util::TapeFile</Scope>
     </TokenIdentifier>
-    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+    <Path>structotto_1_1util_1_1_tape_file.html</Path>
     <Anchor>a73630e6851cd033b5cc89df3cf855581</Anchor>
     <Abstract>When extending &lt;SoundFile&gt;, override this function.</Abstract>
     <DeclaredIn>tapefile.hpp</DeclaredIn>

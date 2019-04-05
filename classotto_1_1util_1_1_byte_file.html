@@ -83,7 +83,7 @@
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>TODO: Documentation. </p>
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00100">100</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00130">130</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -95,7 +95,7 @@
   <img src="classotto_1_1util_1_1_byte_file.png" usemap="#otto::util::ByteFile_map" alt=""/>
   <map id="otto::util::ByteFile_map" name="otto::util::ByteFile_map">
 <area href="classotto_1_1util_1_1_sound_file.html" title="A file handler for sound (wav, aiff) files." alt="otto::util::SoundFile" shape="rect" coords="0,56,117,80"/>
-<area href="classotto_1_1util_1_1_tape_file.html" alt="otto::util::TapeFile" shape="rect" coords="0,112,117,136"/>
+<area href="structotto_1_1util_1_1_tape_file.html" alt="otto::util::TapeFile" shape="rect" coords="0,112,117,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -147,19 +147,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab6f806e1f47cd987f3c0340459a34340"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfb64810f41f9565a77c82b81f22e866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a5bde25c7f29ca76452c98e61ecfa435f">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#adfb64810f41f9565a77c82b81f22e866">size</a> ()</td></tr>
 <tr class="separator:adfb64810f41f9565a77c82b81f22e866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9925c4931f0f3ed30d7ded994da5ed9"><td class="memTemplParams" colspan="2">template&lt;typename OutIter , typename  = std::enable_if&lt;is_iterator_v&lt;OutIter, std::byte,                                  std::output_iterator_tag&gt;&gt;&gt; </td></tr>
+<tr class="memitem:ab9925c4931f0f3ed30d7ded994da5ed9"><td class="memTemplParams" colspan="2">template&lt;typename OutIter , typename  = std::enable_if&lt;is_iterator_v&lt;OutIter, std::byte, std::output_iterator_tag&gt;&gt;&gt; </td></tr>
 <tr class="memitem:ab9925c4931f0f3ed30d7ded994da5ed9"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; void, OutIter &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#ab9925c4931f0f3ed30d7ded994da5ed9">read_bytes</a> (OutIter, OutIter)</td></tr>
 <tr class="separator:ab9925c4931f0f3ed30d7ded994da5ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6150d22b46186efbdb1ac63a9445d811"><td class="memTemplParams" colspan="2">template&lt;typename OutIter , typename  = std::enable_if&lt;is_iterator_v&lt;OutIter, std::byte,                                  std::output_iterator_tag&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a6150d22b46186efbdb1ac63a9445d811"><td class="memTemplParams" colspan="2">template&lt;typename OutIter , typename  = std::enable_if&lt;is_iterator_v&lt;OutIter, std::byte, std::output_iterator_tag&gt;&gt;&gt; </td></tr>
 <tr class="memitem:a6150d22b46186efbdb1ac63a9445d811"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; void, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/fpos.html">std::streampos</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a6150d22b46186efbdb1ac63a9445d811">read_bytes</a> (OutIter, int)</td></tr>
 <tr class="separator:a6150d22b46186efbdb1ac63a9445d811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e6a73111be92c7e393f707f14451127"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
 <tr class="memitem:a6e6a73111be92c7e393f707f14451127"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; void, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/fpos.html">std::streampos</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a6e6a73111be92c7e393f707f14451127">read_bytes</a> (<a class="el" href="structotto_1_1util_1_1bytes.html">bytes</a>&lt; N &gt; &amp;)</td></tr>
 <tr class="separator:a6e6a73111be92c7e393f707f14451127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e9032873bf3ae520c0c1eff32bd8add"><td class="memTemplParams" colspan="2">template&lt;typename InIter , typename  = std::enable_if&lt;is_iterator_v&lt;InIter, std::byte,                                  std::input_iterator_tag&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a2e9032873bf3ae520c0c1eff32bd8add"><td class="memTemplParams" colspan="2">template&lt;typename InIter , typename  = std::enable_if&lt;is_iterator_v&lt;InIter, std::byte, std::input_iterator_tag&gt;&gt;&gt; </td></tr>
 <tr class="memitem:a2e9032873bf3ae520c0c1eff32bd8add"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a2e9032873bf3ae520c0c1eff32bd8add">write_bytes</a> (InIter, InIter)</td></tr>
 <tr class="separator:a2e9032873bf3ae520c0c1eff32bd8add"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e8286007fcfb4fa428c3dc8273c70fd"><td class="memTemplParams" colspan="2">template&lt;typename InIter , typename  = std::enable_if&lt;is_iterator_v&lt;InIter, std::byte,                                  std::input_iterator_tag&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a6e8286007fcfb4fa428c3dc8273c70fd"><td class="memTemplParams" colspan="2">template&lt;typename InIter , typename  = std::enable_if&lt;is_iterator_v&lt;InIter, std::byte, std::input_iterator_tag&gt;&gt;&gt; </td></tr>
 <tr class="memitem:a6e8286007fcfb4fa428c3dc8273c70fd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_byte_file.html#a6e8286007fcfb4fa428c3dc8273c70fd">write_bytes</a> (InIter, int)</td></tr>
 <tr class="separator:a6e8286007fcfb4fa428c3dc8273c70fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9b446a9e1918ea978b88768a8161dc0"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
@@ -197,7 +197,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00136">136</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00163">163</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
 </div>
 </div>
@@ -213,7 +213,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00137">137</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00164">164</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
 </div>
 </div>
@@ -408,7 +408,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00256">read_bytes()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00313">write_bytes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00281">read_bytes()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00342">write_bytes()</a>.</p>
 
 </div>
 </div>
@@ -517,7 +517,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00159">otto::util::ByteFile::Chunk::write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00186">otto::util::ByteFile::Chunk::write()</a>.</p>
 
 </div>
 </div>
@@ -536,7 +536,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00176">otto::util::ByteFile::Chunk::read()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00159">otto::util::ByteFile::Chunk::write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00204">otto::util::ByteFile::Chunk::read()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00186">otto::util::ByteFile::Chunk::write()</a>.</p>
 
 </div>
 </div>
@@ -585,11 +585,11 @@ template&lt;typename OutIter , typename &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00256">256</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00281">281</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/clear.html">std::fstream::clear()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/eof.html">std::fstream::eof()</a>, <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="el" href="bytefile_8hpp_source.html#l00248">fstream</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/gcount.html">std::fstream::gcount()</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/read.html">std::fstream::read()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/clear.html">std::fstream::clear()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/eof.html">std::fstream::eof()</a>, <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="el" href="bytefile_8hpp_source.html#l00273">fstream</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/gcount.html">std::fstream::gcount()</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/read.html">std::fstream::read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00176">otto::util::ByteFile::Chunk::read()</a>, and <a class="el" href="soundfile_8hpp_source.html#l00109">otto::util::SoundFile::read_samples()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00204">otto::util::ByteFile::Chunk::read()</a>, and <a class="el" href="soundfile_8hpp_source.html#l00109">otto::util::SoundFile::read_samples()</a>.</p>
 
 </div>
 </div>
@@ -621,9 +621,9 @@ template&lt;typename OutIter , typename &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00283">283</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00310">310</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/clear.html">std::fstream::clear()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/eof.html">std::fstream::eof()</a>, <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="el" href="bytefile_8hpp_source.html#l00248">fstream</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/generate_n.html">std::generate_n()</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/read.html">std::fstream::read()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/tellg.html">std::fstream::tellg()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/clear.html">std::fstream::clear()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/eof.html">std::fstream::eof()</a>, <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="el" href="bytefile_8hpp_source.html#l00273">fstream</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/generate_n.html">std::generate_n()</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/read.html">std::fstream::read()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/tellg.html">std::fstream::tellg()</a>.</p>
 
 </div>
 </div>
@@ -645,9 +645,9 @@ template&lt;std::size_t N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00303">303</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00331">331</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/clear.html">std::fstream::clear()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/eof.html">std::fstream::eof()</a>, <a class="el" href="bytefile_8hpp_source.html#l00248">fstream</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/read.html">std::fstream::read()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/tellg.html">std::fstream::tellg()</a>.</p>
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/clear.html">std::fstream::clear()</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ios/eof.html">std::fstream::eof()</a>, <a class="el" href="bytefile_8hpp_source.html#l00273">fstream</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/read.html">std::fstream::read()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_istream/tellg.html">std::fstream::tellg()</a>.</p>
 
 </div>
 </div>
@@ -679,11 +679,11 @@ template&lt;typename InIter , typename &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00313">313</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00342">342</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/for_each.html">std::for_each()</a>, <a class="el" href="bytefile_8hpp_source.html#l00248">fstream</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream/write.html">std::fstream::write()</a>.</p>
+<p class="reference">References <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/for_each.html">std::for_each()</a>, <a class="el" href="bytefile_8hpp_source.html#l00273">fstream</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream/write.html">std::fstream::write()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00159">otto::util::ByteFile::Chunk::write()</a>, and <a class="el" href="soundfile_8hpp_source.html#l00152">otto::util::SoundFile::write_samples()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00186">otto::util::ByteFile::Chunk::write()</a>, and <a class="el" href="soundfile_8hpp_source.html#l00152">otto::util::SoundFile::write_samples()</a>.</p>
 
 </div>
 </div>
@@ -715,9 +715,9 @@ template&lt;typename InIter , typename &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00324">324</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00354">354</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="el" href="bytefile_8hpp_source.html#l00248">fstream</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream/write.html">std::fstream::write()</a>.</p>
+<p class="reference">References <a class="el" href="structotto_1_1util_1_1_byte_file_1_1_error.html#ad400a0d63c808cdf42e1a1a1c68f067fa782eaee304653cf00978d5206fd1e813">otto::util::ByteFile::Error::FileNotOpen</a>, <a class="el" href="bytefile_8hpp_source.html#l00273">fstream</a>, <a class="el" href="classotto_1_1util_1_1_byte_file.html#adff53da555e81b093a7c197ec9417725">is_open()</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream/write.html">std::fstream::write()</a>.</p>
 
 </div>
 </div>
@@ -739,9 +739,9 @@ template&lt;std::size_t N&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00337">337</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00368">368</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="bytefile_8hpp_source.html#l00016">otto::util::bytes&lt; len &gt;::data</a>, <a class="el" href="bytefile_8hpp_source.html#l00248">fstream</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream/write.html">std::fstream::write()</a>.</p>
+<p class="reference">References <a class="el" href="bytefile_8hpp_source.html#l00017">otto::util::bytes&lt; len &gt;::data</a>, <a class="el" href="bytefile_8hpp_source.html#l00273">fstream</a>, and <a class="elRef" href="http://en.cppreference.com/w/cpp/io/basic_ostream/write.html">std::fstream::write()</a>.</p>
 
 </div>
 </div>
@@ -779,9 +779,9 @@ template&lt;typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00342">342</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00374">374</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="bytefile_8hpp_source.html#l00149">otto::util::ByteFile::Chunk::beginning()</a>, <a class="el" href="bytefile_8hpp_source.html#l00154">otto::util::ByteFile::Chunk::past_end()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00176">otto::util::ByteFile::Chunk::read()</a>.</p>
+<p class="reference">References <a class="el" href="bytefile_8hpp_source.html#l00176">otto::util::ByteFile::Chunk::beginning()</a>, <a class="el" href="bytefile_8hpp_source.html#l00181">otto::util::ByteFile::Chunk::past_end()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00204">otto::util::ByteFile::Chunk::read()</a>.</p>
 
 </div>
 </div>
@@ -835,7 +835,7 @@ template&lt;typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00188">188</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00217">217</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
 </div>
 </div>
@@ -859,9 +859,9 @@ template&lt;typename F &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00248">248</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="bytefile_8hpp_source.html#l00273">273</a> of file <a class="el" href="bytefile_8hpp_source.html">bytefile.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00256">read_bytes()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00313">write_bytes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="bytefile_8hpp_source.html#l00281">read_bytes()</a>, and <a class="el" href="bytefile_8hpp_source.html#l00342">write_bytes()</a>.</p>
 
 </div>
 </div>

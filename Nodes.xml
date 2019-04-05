@@ -10979,65 +10979,65 @@
                </Node>
                <Node>
                 <Name>TapeFile</Name>
-                <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                <Path>structotto_1_1util_1_1_tape_file.html</Path>
                 <Subnodes>
                  <Node>
                   <Name>SliceArray</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_array</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>array</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>ab902504a47236bc2c74070765e5606f7</Anchor>
                    </Node>
                    <Node>
                     <Name>count</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a4f5ac56598290b333315ad6609511ed5</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>SliceData</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_data</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>in</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>aad815815f451cb9e4ded3fe4d11234a3</Anchor>
                    </Node>
                    <Node>
                     <Name>out</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a21b31b2332337a09481079c33f5f3d3e</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>TapeFile</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>a5b7025d421d3f13c80e5223d60006f41</Anchor>
                  </Node>
                  <Node>
                   <Name>~TapeFile</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>af7b53c957ab5e375e05c5f81aeec4b58</Anchor>
                  </Node>
                  <Node>
                   <Name>add_custom_chunks</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>a1f17abf9df28a045714ffa22f01a82a4</Anchor>
                  </Node>
                  <Node>
                   <Name>replace_custom_chunk</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>a73630e6851cd033b5cc89df3cf855581</Anchor>
                  </Node>
                  <Node>
                   <Name>slices</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>a140a927638a5d068d9a2c6f1cfdfc9e3</Anchor>
                  </Node>
                 </Subnodes>
@@ -12988,7 +12988,7 @@
               <Subnodes>
                <Node>
                 <Name>otto::util::TapeFile</Name>
-                <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                <Path>structotto_1_1util_1_1_tape_file.html</Path>
                </Node>
               </Subnodes>
              </Node>
@@ -14373,12 +14373,12 @@
            </Node>
            <Node>
             <Name>otto::util::TapeFile::SliceArray</Name>
-            <Path>classotto_1_1util_1_1_tape_file.html</Path>
+            <Path>structotto_1_1util_1_1_tape_file.html</Path>
             <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_array</Anchor>
            </Node>
            <Node>
             <Name>otto::util::TapeFile::SliceData</Name>
-            <Path>classotto_1_1util_1_1_tape_file.html</Path>
+            <Path>structotto_1_1util_1_1_tape_file.html</Path>
             <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_data</Anchor>
            </Node>
            <Node>
@@ -35095,99 +35095,99 @@
                 <Subnodes>
                  <Node>
                   <Name>TapeFile</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>SliceArray</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_array</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>array</Name>
-                      <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                      <Path>structotto_1_1util_1_1_tape_file.html</Path>
                       <Anchor>ab902504a47236bc2c74070765e5606f7</Anchor>
                      </Node>
                      <Node>
                       <Name>count</Name>
-                      <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                      <Path>structotto_1_1util_1_1_tape_file.html</Path>
                       <Anchor>a4f5ac56598290b333315ad6609511ed5</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>SliceData</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_data</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>in</Name>
-                      <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                      <Path>structotto_1_1util_1_1_tape_file.html</Path>
                       <Anchor>aad815815f451cb9e4ded3fe4d11234a3</Anchor>
                      </Node>
                      <Node>
                       <Name>out</Name>
-                      <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                      <Path>structotto_1_1util_1_1_tape_file.html</Path>
                       <Anchor>a21b31b2332337a09481079c33f5f3d3e</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>TapeFile</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a5b7025d421d3f13c80e5223d60006f41</Anchor>
                    </Node>
                    <Node>
                     <Name>~TapeFile</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>af7b53c957ab5e375e05c5f81aeec4b58</Anchor>
                    </Node>
                    <Node>
                     <Name>add_custom_chunks</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a1f17abf9df28a045714ffa22f01a82a4</Anchor>
                    </Node>
                    <Node>
                     <Name>replace_custom_chunk</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a73630e6851cd033b5cc89df3cf855581</Anchor>
                    </Node>
                    <Node>
                     <Name>slices</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a140a927638a5d068d9a2c6f1cfdfc9e3</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>SliceData</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_data</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>in</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>aad815815f451cb9e4ded3fe4d11234a3</Anchor>
                    </Node>
                    <Node>
                     <Name>out</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a21b31b2332337a09481079c33f5f3d3e</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>SliceArray</Name>
-                  <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                  <Path>structotto_1_1util_1_1_tape_file.html</Path>
                   <Anchor>structotto_1_1util_1_1_tape_file_1_1_slice_array</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>array</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>ab902504a47236bc2c74070765e5606f7</Anchor>
                    </Node>
                    <Node>
                     <Name>count</Name>
-                    <Path>classotto_1_1util_1_1_tape_file.html</Path>
+                    <Path>structotto_1_1util_1_1_tape_file.html</Path>
                     <Anchor>a4f5ac56598290b333315ad6609511ed5</Anchor>
                    </Node>
                   </Subnodes>
