@@ -80,7 +80,7 @@
 struct otto::core::engine::ITypedEngine&lt; EngineType::synth &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00126">126</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00127">127</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="engine_8hpp_source.html">engine.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -99,6 +99,12 @@ struct otto::core::engine::ITypedEngine&lt; EngineType::synth &gt;</h3>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a09d76a6b25c636d7a42559a2b8fd31a3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html#a09d76a6b25c636d7a42559a2b8fd31a3">process</a> (<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt;)=0</td></tr>
 <tr class="separator:a09d76a6b25c636d7a42559a2b8fd31a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86edf24b8ee9a20fdac9d9447e361e2f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html">voices::IVoiceManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html#a86edf24b8ee9a20fdac9d9447e361e2f">voice_mgr</a> ()=0</td></tr>
+<tr class="separator:a86edf24b8ee9a20fdac9d9447e361e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6501d78167fadf0880045133a9e6b450"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html#a6501d78167fadf0880045133a9e6b450">envelope_screen</a> ()</td></tr>
+<tr class="separator:a6501d78167fadf0880045133a9e6b450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5ba43070dd6a315779ba53ec8f0ccb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html#a3b5ba43070dd6a315779ba53ec8f0ccb">voices_screen</a> ()</td></tr>
+<tr class="separator:a3b5ba43070dd6a315779ba53ec8f0ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5195528885173de408b6c24b1335172a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html#a5195528885173de408b6c24b1335172a">IEngine</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &gt; <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a67d393d34b2f2e61568ab4fbb7c4ee53">screen</a>)</td></tr>
 <tr class="separator:a5195528885173de408b6c24b1335172a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structotto_1_1core_1_1engine_1_1_i_engine"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1core_1_1engine_1_1_i_engine')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">otto::core::engine::IEngine</a></td></tr>
@@ -156,6 +162,85 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a86edf24b8ee9a20fdac9d9447e361e2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86edf24b8ee9a20fdac9d9447e361e2f">&#9670;&nbsp;</a></span>voice_mgr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html">voices::IVoiceManager</a>&amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html">otto::core::engine::ITypedEngine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3a3d401e8a794a88b7666f73faf9c99014">EngineType::synth</a> &gt;::voice_mgr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6501d78167fadf0880045133a9e6b450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6501d78167fadf0880045133a9e6b450">&#9670;&nbsp;</a></span>envelope_screen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a>&amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html">otto::core::engine::ITypedEngine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3a3d401e8a794a88b7666f73faf9c99014">EngineType::synth</a> &gt;::envelope_screen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00131">131</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3b5ba43070dd6a315779ba53ec8f0ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5ba43070dd6a315779ba53ec8f0ccb">&#9670;&nbsp;</a></span>voices_screen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a>&amp; <a class="el" href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html">otto::core::engine::ITypedEngine</a>&lt; <a class="el" href="namespaceotto_1_1core_1_1engine.html#a46a6572deaa916a3d887179d9d69d2c3a3d401e8a794a88b7666f73faf9c99014">EngineType::synth</a> &gt;::voices_screen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="engine_8hpp_source.html#l00135">135</a> of file <a class="el" href="engine_8hpp_source.html">engine.hpp</a>.</p>
 
 </div>
 </div>

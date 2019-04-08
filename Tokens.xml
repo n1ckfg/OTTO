@@ -20239,38 +20239,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::core::engine::EngineWithEnvelope</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>otto::core::engine::EngineWithEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1engine_1_1_engine_with_envelope.html</Path>
-    <DeclaredIn>engine.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>envelope_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::engine::EngineWithEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1engine_1_1_engine_with_envelope.html</Path>
-    <Anchor>adf333cf79730df7f499fd2751513ff66</Anchor>
-    <DeclaredIn>engine.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::engine::EngineWithEnvelope</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1engine_1_1_engine_with_envelope.html</Path>
-    <Anchor>a5b0518c688684ce0539d5d713f3b3e8a</Anchor>
-    <DeclaredIn>engine.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>otto::core::engine::IEngine</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -21008,6 +20976,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>voice_mgr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::ITypedEngine&lt; EngineType::synth &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+    <Anchor>a86edf24b8ee9a20fdac9d9447e361e2f</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::ITypedEngine&lt; EngineType::synth &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+    <Anchor>a6501d78167fadf0880045133a9e6b450</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voices_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::ITypedEngine&lt; EngineType::synth &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_i_typed_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+    <Anchor>a3b5ba43070dd6a315779ba53ec8f0ccb</Anchor>
+    <DeclaredIn>engine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IEngine</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -21500,6 +21501,17 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
     <Anchor>a728b6a2fdacba62389a3f80e23ba64c6</Anchor>
+    <DeclaredIn>nullengine.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voice_mgr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::engine::NullEngine&lt; EngineType::synth &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
+    <Anchor>a28b9bb0b59ec32a66bcbe1c4ef301296</Anchor>
     <DeclaredIn>nullengine.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -26581,6 +26593,90 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::core::voices::IVoiceManager</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PlayMode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>acb966100766dd03324aee087a2a47b43</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EnvelopeProps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>a9674587cf9346e786400d6250d516bbe</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SettingsProps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>ab2d3d477d27e90cdf1ad054885a4a572</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~IVoiceManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>a4e4c87f4ea561a7259a88c168a563a45</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voice_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>aa6a98e7c55dc5e62fbf0fcc52d02e58c</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>af34d45ef9af8e78b21a1184ae39de4b5</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>settings_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>a36a15ea2fb42f585f23688bf4298d64a</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::core::voices::PostBase</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -26618,6 +26714,17 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
     <Anchor>a741e197ad8d916b09503948037c5ee9a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::PostBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>aa7601eb53bb4274cae5918a9580aae76</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26670,6 +26777,17 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
     <Anchor>a3808ea38a8ac175aed979ada8f31ada9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::PreBase</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>ab95f48c032f59591211a38291cd8b6c8</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26944,6 +27062,47 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PlayMode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>acb966100766dd03324aee087a2a47b43</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EnvelopeProps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>a9674587cf9346e786400d6250d516bbe</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SettingsProps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>ab2d3d477d27e90cdf1ad054885a4a572</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voice_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::VoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+    <Anchor>a60228484fb765307634246fe8a6c9564</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>VoiceManager</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -26962,7 +27121,7 @@
       <Scope>otto::core::voices::VoiceManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-    <Anchor>a1a1364deff049354a60110531cfd0e08</Anchor>
+    <Anchor>a36bd5afebfa27d11dd66700084930e25</Anchor>
     <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -26973,7 +27132,7 @@
       <Scope>otto::core::voices::VoiceManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-    <Anchor>a12f07b090489b190f447cac783f96557</Anchor>
+    <Anchor>a1d1fd367543d6d38075aed9a4d801f98</Anchor>
     <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -27047,13 +27206,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>voice_count</Name>
+      <Name>~IVoiceManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::voices::IVoiceManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
+    <Anchor>a4e4c87f4ea561a7259a88c168a563a45</Anchor>
+    <DeclaredIn>voice_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voice_count_v</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>otto::core::voices::VoiceManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-    <Anchor>a9eec49f999d3405c6ef3adefd2cde51b</Anchor>
+    <Anchor>a048d425685d495c87eff8a51665b51bc</Anchor>
     <Abstract>The number of voices.</Abstract>
   </Token>
   <Token>
@@ -27733,24 +27903,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>envelope_screen</Name>
+      <Name>voice_mgr</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::engines::GossSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
-    <Anchor>ac8416b44dd83ef7431990701f8904bab</Anchor>
-    <DeclaredIn>goss.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::GossSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
-    <Anchor>a269589459449e37fd314908e818c5c6c</Anchor>
+    <Anchor>a0e3b7e9f34caf045175e0f82bb6d87b2</Anchor>
     <DeclaredIn>goss.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -27972,24 +28131,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>envelope_screen</Name>
+      <Name>voice_mgr</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::engines::OTTOFMSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a8a7f98be26bf233f3534667f53df9ca4</Anchor>
-    <DeclaredIn>ottofm.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::OTTOFMSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a87de4e30c8f3a472e6e8edb07e39fefb</Anchor>
+    <Anchor>aa3c4e598cac6d514d009b72f1f823ccd</Anchor>
     <DeclaredIn>ottofm.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28389,24 +28537,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>envelope_screen</Name>
+      <Name>voice_mgr</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
-    <Anchor>ad9cc461bc19f87d58ee0271c940a52d4</Anchor>
-    <DeclaredIn>potion.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::PotionSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
-    <Anchor>af01246055e342c547051950270d86dee</Anchor>
+    <Anchor>a6fc12dd191404fe7eee2b8624d6b2221</Anchor>
     <DeclaredIn>potion.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28771,24 +28908,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>envelope_screen</Name>
+      <Name>voice_mgr</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::engines::RhodesSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
-    <Anchor>a6abd96365738c7041604879bd5489296</Anchor>
-    <DeclaredIn>rhodes.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>voices_screen</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::engines::RhodesSynth</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
-    <Anchor>a300ff255f05a2c6a31b1d1ede0dc97f3</Anchor>
+    <Anchor>ad383a7e5fa08b2d82f0421bfe9289f4d</Anchor>
     <DeclaredIn>rhodes.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28950,6 +29076,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>voice_mgr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ac7c98149c2acc4849cacc43c58f70e2e</Anchor>
+    <DeclaredIn>gammasampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>envelope_screen</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -28992,6 +29129,117 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>VoiceManager</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ac592422267a70776815c95ed1d31b8d4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>load_file</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a2668cff99af7845395b324042c1b4094</Anchor>
+    <DeclaredIn>gammasampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sample</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>af72cd4fe5572eeb6635d9330dc8de2f7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>samplecontainer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>aa363f355b34e848b6563ff8027b05ac4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>samplefile</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a742b5f483fb13515096c004f6f770782</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>frames</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ab81ddef9b182cbab64f91a5801923897</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>note_on</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>af32b5ce44fdbc0d2f0ac5cdea56848dd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_lo_filter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>aafeb03507ddbe8823b139f73214b40c3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_hi_filter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ac57420dfba1f7ab0671bd4b4b9841121</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_voice_mgr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>ac456756df283dfdbd6258c6f92329f5d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_envelope_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sampler</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler.html</Path>
+    <Anchor>a19287707e34b83c199adbcaeef1547d1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SamplerScreen</Name>
       <APILanguage>cpp</APILanguage>
       <Type>ffunc</Type>
@@ -29009,6 +29257,139 @@
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sampler.html</Path>
     <Anchor>a06f14d73edec3172fb19fd095ccffec6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::Sampler::Post</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sampler::Post</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_post.html</Path>
+    <DeclaredIn>gammasampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Voice</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PostBase&lt; Post, Voice &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a904ffce414c521c6e195c616af4c1147</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pre</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PostBase&lt; Post, Voice &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>af4196b2d9f2c3cfb0b851eeaca1f538f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Props</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PostBase&lt; Post, Voice &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a741e197ad8d916b09503948037c5ee9a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::PostBase&lt; Post, Voice &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>aa7601eb53bb4274cae5918a9580aae76</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PostBase</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::PostBase&lt; Post, Voice &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>af8d0954271906d867e6c968df5d5f5ec</Anchor>
+    <Abstract>Constructor.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pre</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::PostBase&lt; Post, Voice &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a820e72d071d3e69647c8a7f74076e9b6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::PostBase&lt; Post, Voice &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_post_base.html</Path>
+    <Anchor>a0099d5294efaa6bf7ef82939e0c311e9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::Sampler::Pre</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sampler::Pre</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_pre.html</Path>
+    <DeclaredIn>gammasampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Props</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::PreBase&lt; Pre, Props &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>a3808ea38a8ac175aed979ada8f31ada9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::PreBase&lt; Pre, Props &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>ab95f48c032f59591211a38291cd8b6c8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PreBase</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::PreBase&lt; Pre, Props &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>a01f507424e815ee9dd710ff925cafd6c</Anchor>
+    <Abstract>Constructor.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::PreBase&lt; Pre, Props &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_pre_base.html</Path>
+    <Anchor>af4e80bc2b74760acb58ca6c53f976915</Anchor>
+    <Abstract>The engine properties.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -29130,6 +29511,164 @@
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
     <Anchor>a6e64d2e574268cd1975f866c013f5edc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::Sampler::Voice</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sampler::Voice</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_voice.html</Path>
+    <DeclaredIn>gammasampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::Sampler::Voice</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sampler_1_1_voice.html</Path>
+    <Anchor>a473dbbbb251e8c4c4eaf9ad87d279604</Anchor>
+    <DeclaredIn>gammasampler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VoiceBase</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a6b69ea920ea6a5ac8938eb0eedc27ad9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VoiceBase</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>afcdb7407ce51dd6573a858c9499173df</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_note_on</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a1ffe370baae060132c087688cdadf440</Anchor>
+    <Abstract>Implement a handler for note on events.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>on_note_off</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>ae130df8c35e7afa017320828dbdddf9a</Anchor>
+    <Abstract>Implement a handler for note off events.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>frequency</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a2d86cbe5c19a538f2b916d5f01107c81</Anchor>
+    <Abstract>Get the current frequency this voice should play.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>velocity</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a5b4bc430ebbb27ff711202645fc92674</Anchor>
+    <Abstract>Get the velocity value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>aftertouch</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a3501528580937563649db61f637027f8</Anchor>
+    <Abstract>Get the velocity value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>is_triggered</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a2e359e5d31f2e638ebb8f5da9af1843b</Anchor>
+    <Abstract>Is this voice currently triggered?</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>envelope</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>instm</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a347b6ad04dcd8abd2e68b8e8856013dd</Anchor>
+    <Abstract>The current envelope value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pre</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a92dd231931ab7a2702e1d5bc93fb3871</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Props</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a7166715b7a5d2cfba200e15cecbcc113</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pre</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a3a3a954102c96284c408019e820e4ee0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::voices::VoiceBase&lt; Voice, Pre &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+    <Anchor>a7484dc7bff77695f167d235df9ff948b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -93,7 +93,6 @@
   <img src="structotto_1_1engines_1_1_potion_synth.png" usemap="#otto::engines::PotionSynth_map" alt=""/>
   <map id="otto::engines::PotionSynth_map" name="otto::engines::PotionSynth_map">
 <area href="structotto_1_1core_1_1engine_1_1_engine.html" title="CRTP Engine base class." alt="otto::core::engine::Engine&lt; ET, Derived &gt;" shape="rect" coords="162,168,476,192"/>
-<area href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html" alt="otto::core::engine::EngineWithEnvelope" shape="rect" coords="486,168,800,192"/>
 <area href="structotto_1_1util_1_1crtp.html" alt="otto::util::crtp&lt; Derived, EngineImpl&lt; ET, Derived &gt; &gt;" shape="rect" coords="0,56,314,80"/>
 <area href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html" title="An extended engine interface including the engine type." alt="otto::core::engine::ITypedEngine&lt; ET &gt;" shape="rect" coords="324,56,638,80"/>
 <area href="structotto_1_1core_1_1engine_1_1_i_engine.html" title="Abstract base class for Engines." alt="otto::core::engine::IEngine" shape="rect" coords="324,0,638,24"/>
@@ -119,10 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6d131d0e1e4a667092737276a67f10e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeedb871a3408e6c9aa73a5cb61b8b7bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#aeedb871a3408e6c9aa73a5cb61b8b7bd">process</a> (<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt;) override</td></tr>
 <tr class="separator:aeedb871a3408e6c9aa73a5cb61b8b7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9cc461bc19f87d58ee0271c940a52d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#ad9cc461bc19f87d58ee0271c940a52d4">envelope_screen</a> () override</td></tr>
-<tr class="separator:ad9cc461bc19f87d58ee0271c940a52d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af01246055e342c547051950270d86dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#af01246055e342c547051950270d86dee">voices_screen</a> () override</td></tr>
-<tr class="separator:af01246055e342c547051950270d86dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc12dd191404fe7eee2b8624d6b2221"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html">voices::IVoiceManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a6fc12dd191404fe7eee2b8624d6b2221">voice_mgr</a> () override</td></tr>
+<tr class="separator:a6fc12dd191404fe7eee2b8624d6b2221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fd968feb047c2d7c59cc6ed0430764b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a1fd968feb047c2d7c59cc6ed0430764b">DECL_REFLECTION</a> (<a class="el" href="structotto_1_1engines_1_1_potion_synth.html">PotionSynth</a>, <a class="el" href="structotto_1_1engines_1_1_potion_synth.html#a1c5d3e08fb35af304ed3df271852a91a">props</a>,(&quot;voice_manager&quot;, &amp;PotionSynth::voice_mgr_))</td></tr>
 <tr class="separator:a1fd968feb047c2d7c59cc6ed0430764b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -186,8 +183,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ad9cc461bc19f87d58ee0271c940a52d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9cc461bc19f87d58ee0271c940a52d4">&#9670;&nbsp;</a></span>envelope_screen()</h2>
+<a id="a6fc12dd191404fe7eee2b8624d6b2221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc12dd191404fe7eee2b8624d6b2221">&#9670;&nbsp;</a></span>voice_mgr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -196,7 +193,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a>&amp; otto::engines::PotionSynth::envelope_screen </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html">voices::IVoiceManager</a>&amp; otto::engines::PotionSynth::voice_mgr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -204,43 +201,12 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html#adf333cf79730df7f499fd2751513ff66">otto::core::engine::EngineWithEnvelope</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00072">72</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
-
-</div>
-</div>
-<a id="af01246055e342c547051950270d86dee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af01246055e342c547051950270d86dee">&#9670;&nbsp;</a></span>voices_screen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a>&amp; otto::engines::PotionSynth::voices_screen </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html#a5b0518c688684ce0539d5d713f3b3e8a">otto::core::engine::EngineWithEnvelope</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00077">77</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
 
 </div>
 </div>
@@ -299,7 +265,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00125">125</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="potion_8hpp_source.html#l00120">120</a> of file <a class="el" href="potion_8hpp_source.html">potion.hpp</a>.</p>
 
 </div>
 </div>

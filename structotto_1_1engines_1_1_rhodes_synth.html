@@ -92,7 +92,6 @@
   <img src="structotto_1_1engines_1_1_rhodes_synth.png" usemap="#otto::engines::RhodesSynth_map" alt=""/>
   <map id="otto::engines::RhodesSynth_map" name="otto::engines::RhodesSynth_map">
 <area href="structotto_1_1core_1_1engine_1_1_engine.html" title="CRTP Engine base class." alt="otto::core::engine::Engine&lt; ET, Derived &gt;" shape="rect" coords="162,168,476,192"/>
-<area href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html" alt="otto::core::engine::EngineWithEnvelope" shape="rect" coords="486,168,800,192"/>
 <area href="structotto_1_1util_1_1crtp.html" alt="otto::util::crtp&lt; Derived, EngineImpl&lt; ET, Derived &gt; &gt;" shape="rect" coords="0,56,314,80"/>
 <area href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html" title="An extended engine interface including the engine type." alt="otto::core::engine::ITypedEngine&lt; ET &gt;" shape="rect" coords="324,56,638,80"/>
 <area href="structotto_1_1core_1_1engine_1_1_i_engine.html" title="Abstract base class for Engines." alt="otto::core::engine::IEngine" shape="rect" coords="324,0,638,24"/>
@@ -110,10 +109,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa421563d0e2ad6dd7b0fe1256b9332ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d825b0c0178046ef61f26c06f142431"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#a1d825b0c0178046ef61f26c06f142431">process</a> (<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt;) override</td></tr>
 <tr class="separator:a1d825b0c0178046ef61f26c06f142431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6abd96365738c7041604879bd5489296"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#a6abd96365738c7041604879bd5489296">envelope_screen</a> () override</td></tr>
-<tr class="separator:a6abd96365738c7041604879bd5489296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a300ff255f05a2c6a31b1d1ede0dc97f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#a300ff255f05a2c6a31b1d1ede0dc97f3">voices_screen</a> () override</td></tr>
-<tr class="separator:a300ff255f05a2c6a31b1d1ede0dc97f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad383a7e5fa08b2d82f0421bfe9289f4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html">voices::IVoiceManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#ad383a7e5fa08b2d82f0421bfe9289f4d">voice_mgr</a> () override</td></tr>
+<tr class="separator:ad383a7e5fa08b2d82f0421bfe9289f4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb3e24eb84abbdfc4044a6375f6f4356"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#afb3e24eb84abbdfc4044a6375f6f4356">DECL_REFLECTION</a> (<a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html">RhodesSynth</a>, <a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#a372d8e7a5ad49caf25a2e9275f3ec43d">props</a>,(&quot;voice_manager&quot;, &amp;RhodesSynth::voice_mgr_))</td></tr>
 <tr class="separator:afb3e24eb84abbdfc4044a6375f6f4356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -172,8 +169,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6abd96365738c7041604879bd5489296"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6abd96365738c7041604879bd5489296">&#9670;&nbsp;</a></span>envelope_screen()</h2>
+<a id="ad383a7e5fa08b2d82f0421bfe9289f4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad383a7e5fa08b2d82f0421bfe9289f4d">&#9670;&nbsp;</a></span>voice_mgr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +179,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a>&amp; otto::engines::RhodesSynth::envelope_screen </td>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html">voices::IVoiceManager</a>&amp; otto::engines::RhodesSynth::voice_mgr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -190,43 +187,12 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html#adf333cf79730df7f499fd2751513ff66">otto::core::engine::EngineWithEnvelope</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="rhodes_8hpp_source.html#l00031">31</a> of file <a class="el" href="rhodes_8hpp_source.html">rhodes.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a300ff255f05a2c6a31b1d1ede0dc97f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a300ff255f05a2c6a31b1d1ede0dc97f3">&#9670;&nbsp;</a></span>voices_screen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a>&amp; otto::engines::RhodesSynth::voices_screen </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_with_envelope.html#a5b0518c688684ce0539d5d713f3b3e8a">otto::core::engine::EngineWithEnvelope</a>.</p>
-
-<p class="definition">Definition at line <a class="el" href="rhodes_8hpp_source.html#l00036">36</a> of file <a class="el" href="rhodes_8hpp_source.html">rhodes.hpp</a>.</p>
 
 </div>
 </div>
