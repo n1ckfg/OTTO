@@ -141,6 +141,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3a42d90cad13969dec7eda6310b37888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ce5ee278340f65ae37fca5999078e1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#a36c35627be170892458106ef63f81180">Voice</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#a9ce5ee278340f65ae37fca5999078e1a">handle_midi_off</a> (const <a class="el" href="structotto_1_1core_1_1midi_1_1_note_off_event.html">midi::NoteOffEvent</a> &amp;) noexcept</td></tr>
 <tr class="separator:a9ce5ee278340f65ae37fca5999078e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeec23077d28657d66750512f910a1d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#aeeec23077d28657d66750512f910a1d7">handle_pitch_bend</a> (const <a class="el" href="structotto_1_1core_1_1midi_1_1_pitch_bend_event.html">midi::PitchBendEvent</a> &amp;) noexcept</td></tr>
+<tr class="separator:aeeec23077d28657d66750512f910a1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a752da05e8efc748ce030976f320a495c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#a752da05e8efc748ce030976f320a495c">handle_control_change</a> (const <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html">midi::ControlChangeEvent</a> &amp;) noexcept</td></tr>
+<tr class="separator:a752da05e8efc748ce030976f320a495c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2e19044d9b94fc9c5b373c11cb1a849"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#ad2e19044d9b94fc9c5b373c11cb1a849">process</a> (<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 1 &gt; data) noexcept</td></tr>
 <tr class="memdesc:ad2e19044d9b94fc9c5b373c11cb1a849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process audio, applying Preprocessing, each voice and then postprocessing.  <a href="#ad2e19044d9b94fc9c5b373c11cb1a849">More...</a><br /></td></tr>
 <tr class="separator:ad2e19044d9b94fc9c5b373c11cb1a849"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,7 +180,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
 
 <p>PostProcessor. </p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00193">193</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00196">196</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -194,7 +198,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00200">200</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00203">203</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -212,7 +216,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00201">201</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00204">204</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -230,7 +234,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00202">202</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00205">205</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -248,7 +252,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00216">216</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00219">219</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -266,7 +270,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00217">217</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00220">220</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -284,7 +288,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00218">218</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00221">221</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +321,7 @@ template&lt;typename V , int N&gt; </div>
 
 <p>Constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00088">88</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00096">96</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -349,7 +353,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html#aa6a98e7c55dc5e62fbf0fcc52d02e58c">otto::core::voices::IVoiceManager</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00207">207</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00210">210</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -380,7 +384,7 @@ template&lt;typename V , int N&gt; </div>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html#af34d45ef9af8e78b21a1184ae39de4b5">otto::core::voices::IVoiceManager</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00119">119</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00142">142</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -411,7 +415,7 @@ template&lt;typename V , int N&gt; </div>
 
 <p>Implements <a class="el" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html#a36a15ea2fb42f585f23688bf4298d64a">otto::core::voices::IVoiceManager</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00125">125</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00148">148</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -441,8 +445,10 @@ template&lt;typename V , int N&gt; </div>
 </div><div class="memdoc">
 
 <p>Process audio, applying Preprocessing, each voice and then postprocessing. </p>
+<p>Change frequency if applicable</p>
+<p>Get next sample</p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00131">131</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00154">154</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -472,7 +478,7 @@ template&lt;typename V , int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00142">142</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00169">169</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -502,7 +508,67 @@ template&lt;typename V , int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00153">153</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00180">180</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+
+</div>
+</div>
+<a id="aeeec23077d28657d66750512f910a1d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeec23077d28657d66750512f910a1d7">&#9670;&nbsp;</a></span>handle_pitch_bend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V , int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html">otto::core::voices::VoiceManager</a>&lt; V, N &gt;::handle_pitch_bend </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1midi_1_1_pitch_bend_event.html">midi::PitchBendEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>evt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00193">193</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+
+</div>
+</div>
+<a id="a752da05e8efc748ce030976f320a495c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a752da05e8efc748ce030976f320a495c">&#9670;&nbsp;</a></span>handle_control_change()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V , int N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html">otto::core::voices::VoiceManager</a>&lt; V, N &gt;::handle_control_change </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html">midi::ControlChangeEvent</a> &amp;&#160;</td>
+          <td class="paramname"><em>evt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00199">199</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -534,7 +600,7 @@ template&lt;typename V , int N&gt; </div>
 
 <p>Process audio, applying Preprocessing, each voice and then postprocessing. </p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00160">160</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00208">208</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -557,7 +623,7 @@ template&lt;typename V , int N&gt; </div>
 
 <p>Return list of voices. </p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00228">228</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00279">279</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
 </div>
 </div>
@@ -622,7 +688,7 @@ template&lt;typename PostT, int NumberOfVoices&gt; </div>
 
 <p>The number of voices. </p>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00205">205</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00208">208</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>

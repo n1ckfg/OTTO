@@ -89,19 +89,21 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">NoteOnEvent</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1_pitch_bend_event.html">PitchBendEvent</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1midi_1_1shared__vector.html">shared_vector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:acff092b1de24035854a1182bea0667f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1midi.html#acff092b1de24035854a1182bea0667f5">AnyMidiEvent</a> = util::variant&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html">MidiEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">NoteOnEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_off_event.html">NoteOffEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html">ControlChangeEvent</a> &gt;</td></tr>
-<tr class="separator:acff092b1de24035854a1182bea0667f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d21cab6ec1e13b053ed915ade364868"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a4d21cab6ec1e13b053ed915ade364868">AnyMidiEvent</a> = mpark::variant&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html">MidiEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">NoteOnEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_off_event.html">NoteOffEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html">ControlChangeEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_pitch_bend_event.html">PitchBendEvent</a> &gt;</td></tr>
+<tr class="separator:a4d21cab6ec1e13b053ed915ade364868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8683cd113470b39e3e4c5ff34a4b1223"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a8683cd113470b39e3e4c5ff34a4b1223">note_number</a> (std::string_view sv) noexcept</td></tr>
 <tr class="separator:a8683cd113470b39e3e4c5ff34a4b1223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34feba90f98d5cddb80785e8925ebc1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1core_1_1midi.html#acff092b1de24035854a1182bea0667f5">AnyMidiEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a34feba90f98d5cddb80785e8925ebc1e">from_bytes</a> (gsl::span&lt; unsigned char &gt; bytes, int time=0)</td></tr>
+<tr class="memitem:a34feba90f98d5cddb80785e8925ebc1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a4d21cab6ec1e13b053ed915ade364868">AnyMidiEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a34feba90f98d5cddb80785e8925ebc1e">from_bytes</a> (gsl::span&lt; unsigned char &gt; bytes, int time=0)</td></tr>
 <tr class="separator:a34feba90f98d5cddb80785e8925ebc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7119a76f5e022763052e9dfcf64c00eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a7119a76f5e022763052e9dfcf64c00eb">generateFreqTable</a> (double tuning=440)</td></tr>
 <tr class="separator:a7119a76f5e022763052e9dfcf64c00eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,19 +113,19 @@ Functions</h2></td></tr>
 <tr class="separator:a052b644db4e4e4e93c2b96460bbc2ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="acff092b1de24035854a1182bea0667f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acff092b1de24035854a1182bea0667f5">&#9670;&nbsp;</a></span>AnyMidiEvent</h2>
+<a id="a4d21cab6ec1e13b053ed915ade364868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d21cab6ec1e13b053ed915ade364868">&#9670;&nbsp;</a></span>AnyMidiEvent</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1midi.html#acff092b1de24035854a1182bea0667f5">otto::core::midi::AnyMidiEvent</a> = typedef util::variant&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html">MidiEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">NoteOnEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_off_event.html">NoteOffEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html">ControlChangeEvent</a>&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceotto_1_1core_1_1midi.html#a4d21cab6ec1e13b053ed915ade364868">otto::core::midi::AnyMidiEvent</a> = typedef mpark::variant&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html">MidiEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">NoteOnEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_note_off_event.html">NoteOffEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html">ControlChangeEvent</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_pitch_bend_event.html">PitchBendEvent</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00163">163</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00179">179</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
@@ -163,7 +165,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1midi.html#acff092b1de24035854a1182bea0667f5">AnyMidiEvent</a> otto::core::midi::from_bytes </td>
+          <td class="memname"><a class="el" href="namespaceotto_1_1core_1_1midi.html#a4d21cab6ec1e13b053ed915ade364868">AnyMidiEvent</a> otto::core::midi::from_bytes </td>
           <td>(</td>
           <td class="paramtype">gsl::span&lt; unsigned char &gt;&#160;</td>
           <td class="paramname"><em>bytes</em>, </td>
@@ -183,9 +185,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Per the MIDI specification, NoteOff events are also sent as NoteOn with velocity 0.</p>
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00165">165</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00181">181</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a8313cf6eab18c71c8129afef3cf7c3b1">otto::core::midi::MidiEvent::ControlChange</a>, <a class="el" href="midi_8hpp_source.html#l00064">otto::core::midi::MidiEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00124">otto::core::midi::NoteOnEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00137">otto::core::midi::NoteOffEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00154">otto::core::midi::ControlChangeEvent::from_bytes()</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a6138748b0dea7e54d0ab77709ab74ba1">otto::core::midi::MidiEvent::NoteOff</a>, and <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a392b06517dc40739343a9ef9533cad46">otto::core::midi::MidiEvent::NoteOn</a>.</p>
+<p class="reference">References <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a8313cf6eab18c71c8129afef3cf7c3b1">otto::core::midi::MidiEvent::ControlChange</a>, <a class="el" href="midi_8hpp_source.html#l00065">otto::core::midi::MidiEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00125">otto::core::midi::NoteOnEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00138">otto::core::midi::NoteOffEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00155">otto::core::midi::ControlChangeEvent::from_bytes()</a>, <a class="el" href="midi_8hpp_source.html#l00169">otto::core::midi::PitchBendEvent::from_bytes()</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a6138748b0dea7e54d0ab77709ab74ba1">otto::core::midi::MidiEvent::NoteOff</a>, <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276a392b06517dc40739343a9ef9533cad46">otto::core::midi::MidiEvent::NoteOn</a>, and <a class="el" href="structotto_1_1core_1_1midi_1_1_midi_event.html#ab9f3eb7867c8ec835c720f7684406276accc5c5aaa32fc84dc9fae9dc5b26e28e">otto::core::midi::MidiEvent::PitchBend</a>.</p>
 
 </div>
 </div>
@@ -205,7 +207,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00184">184</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00201">201</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
@@ -233,7 +235,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00191">191</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00208">208</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>
@@ -261,7 +263,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00196">196</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="midi_8hpp_source.html#l00213">213</a> of file <a class="el" href="midi_8hpp_source.html">midi.hpp</a>.</p>
 
 </div>
 </div>

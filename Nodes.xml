@@ -2509,6 +2509,11 @@
                       <Path>structotto_1_1core_1_1midi_1_1_midi_event.html</Path>
                       <Anchor>ab9f3eb7867c8ec835c720f7684406276a8313cf6eab18c71c8129afef3cf7c3b1</Anchor>
                      </Node>
+                     <Node>
+                      <Name>PitchBend</Name>
+                      <Path>structotto_1_1core_1_1midi_1_1_midi_event.html</Path>
+                      <Anchor>ab9f3eb7867c8ec835c720f7684406276accc5c5aaa32fc84dc9fae9dc5b26e28e</Anchor>
+                     </Node>
                     </Subnodes>
                    </Node>
                    <Node>
@@ -2598,6 +2603,22 @@
                     <Name>NoteOnEvent</Name>
                     <Path>structotto_1_1core_1_1midi_1_1_note_on_event.html</Path>
                     <Anchor>a965f9d43e7cc98a8e9994b1691b8394a</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>PitchBendEvent</Name>
+                  <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>PitchBendEvent</Name>
+                    <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+                    <Anchor>a7d471ee7452c308c1ae94a8f8a58cc80</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>value</Name>
+                    <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+                    <Anchor>ad363800ad19b404a886cf3b762cff4cf</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -4285,7 +4306,7 @@
                      <Node>
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>ac18b06982c4f8c88d4f405fb3aec1a22</Anchor>
+                      <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
                      </Node>
                      <Node>
                       <Name>octave</Name>
@@ -4449,6 +4470,11 @@
                     <Anchor>a2d86cbe5c19a538f2b916d5f01107c81</Anchor>
                    </Node>
                    <Node>
+                    <Name>frequency</Name>
+                    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+                    <Anchor>ab963add1d8d37d174fb6256e8856c728</Anchor>
+                   </Node>
+                   <Node>
                     <Name>velocity</Name>
                     <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
                     <Anchor>a5b4bc430ebbb27ff711202645fc92674</Anchor>
@@ -4558,6 +4584,16 @@
                     <Name>handle_midi_off</Name>
                     <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
                     <Anchor>a9ce5ee278340f65ae37fca5999078e1a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>handle_pitch_bend</Name>
+                    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+                    <Anchor>aeeec23077d28657d66750512f910a1d7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>handle_control_change</Name>
+                    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+                    <Anchor>a752da05e8efc748ce030976f320a495c</Anchor>
                    </Node>
                    <Node>
                     <Name>process</Name>
@@ -14072,6 +14108,10 @@
                </Node>
               </Subnodes>
              </Node>
+             <Node>
+              <Name>otto::core::midi::PitchBendEvent</Name>
+              <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -14189,11 +14229,6 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
-            <Name>otto::core::props::PropertyImpl&lt; float, otto::core::props::no &gt;</Name>
-            <Path>namespaceotto_1_1core_1_1props.html</Path>
-            <Anchor>namespaceotto_1_1core_1_1props</Anchor>
-           </Node>
-           <Node>
             <Name>otto::core::props::PropertyImpl&lt; int &gt;</Name>
             <Path>namespaceotto_1_1core_1_1props.html</Path>
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
@@ -14224,28 +14259,24 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
-            <Name>otto::engines::GossSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::Wormhole::Props</Name>
-            <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;::Props</Name>
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::Sequencer::Props</Name>
             <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
+            <Name>otto::engines::Wormhole::Props</Name>
+            <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Sends::Props</Name>
+            <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Chorus::Props</Name>
@@ -14256,20 +14287,16 @@
             <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Sends::Props</Name>
-            <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::Euclid::Props</Name>
             <Path>structotto_1_1engines_1_1_euclid_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Sampler::Props</Name>
-            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+            <Name>otto::engines::GossSynth::Props</Name>
+            <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::OTTOFMSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::PotionSynth::Props</Name>
@@ -14278,6 +14305,14 @@
            <Node>
             <Name>otto::engines::RhodesSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Sampler::Props</Name>
+            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::OTTOFMSynth::Props</Name>
+            <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
@@ -14488,13 +14523,13 @@
             <Path>structotto_1_1dsp_1_1_simple_pitch_shift.html</Path>
            </Node>
            <Node>
+            <Name>otto::core::ui::vg::Size</Name>
+            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
+           </Node>
+           <Node>
             <Name>otto::board::ui::EGLConnection::Size</Name>
             <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
             <Anchor>structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_size</Anchor>
-           </Node>
-           <Node>
-            <Name>otto::core::ui::vg::Size</Name>
-            <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
            </Node>
            <Node>
             <Name>otto::util::TapeFile::SliceArray</Name>
@@ -14685,10 +14720,6 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::dsp::Window</Name>
-            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
-           </Node>
-           <Node>
             <Name>otto::glfw::Window</Name>
             <Path>structotto_1_1glfw_1_1_window.html</Path>
             <Subnodes>
@@ -14697,6 +14728,10 @@
               <Path>structotto_1_1glfw_1_1_n_v_g_window.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>otto::util::dsp::Window</Name>
+            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;</Name>
@@ -20850,6 +20885,11 @@
                         <Path>structotto_1_1core_1_1midi_1_1_midi_event.html</Path>
                         <Anchor>ab9f3eb7867c8ec835c720f7684406276a8313cf6eab18c71c8129afef3cf7c3b1</Anchor>
                        </Node>
+                       <Node>
+                        <Name>PitchBend</Name>
+                        <Path>structotto_1_1core_1_1midi_1_1_midi_event.html</Path>
+                        <Anchor>ab9f3eb7867c8ec835c720f7684406276accc5c5aaa32fc84dc9fae9dc5b26e28e</Anchor>
+                       </Node>
                       </Subnodes>
                      </Node>
                      <Node>
@@ -20965,6 +21005,22 @@
                       <Name>value</Name>
                       <Path>structotto_1_1core_1_1midi_1_1_control_change_event.html</Path>
                       <Anchor>ac66ff01e45cb9f8c370a511678888ce7</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>PitchBendEvent</Name>
+                    <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>PitchBendEvent</Name>
+                      <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+                      <Anchor>a7d471ee7452c308c1ae94a8f8a58cc80</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>value</Name>
+                      <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+                      <Anchor>ad363800ad19b404a886cf3b762cff4cf</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -21112,7 +21168,7 @@
                    <Node>
                     <Name>AnyMidiEvent</Name>
                     <Path>midi_8hpp.html</Path>
-                    <Anchor>acff092b1de24035854a1182bea0667f5</Anchor>
+                    <Anchor>a4d21cab6ec1e13b053ed915ade364868</Anchor>
                    </Node>
                    <Node>
                     <Name>note_number</Name>
@@ -24599,6 +24655,16 @@
                       <Anchor>a9ce5ee278340f65ae37fca5999078e1a</Anchor>
                      </Node>
                      <Node>
+                      <Name>handle_pitch_bend</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+                      <Anchor>aeeec23077d28657d66750512f910a1d7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>handle_control_change</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+                      <Anchor>a752da05e8efc748ce030976f320a495c</Anchor>
+                     </Node>
+                     <Node>
                       <Name>process</Name>
                       <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
                       <Anchor>ad2e19044d9b94fc9c5b373c11cb1a849</Anchor>
@@ -24679,6 +24745,11 @@
                       <Name>frequency</Name>
                       <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
                       <Anchor>a2d86cbe5c19a538f2b916d5f01107c81</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>frequency</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+                      <Anchor>ab963add1d8d37d174fb6256e8856c728</Anchor>
                      </Node>
                      <Node>
                       <Name>velocity</Name>
@@ -24806,7 +24877,7 @@
                      <Node>
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>ac18b06982c4f8c88d4f405fb3aec1a22</Anchor>
+                      <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
                      </Node>
                      <Node>
                       <Name>octave</Name>
@@ -24934,6 +25005,16 @@
                       <Name>handle_midi_off</Name>
                       <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
                       <Anchor>a9ce5ee278340f65ae37fca5999078e1a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>handle_pitch_bend</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+                      <Anchor>aeeec23077d28657d66750512f910a1d7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>handle_control_change</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
+                      <Anchor>a752da05e8efc748ce030976f320a495c</Anchor>
                      </Node>
                      <Node>
                       <Name>process</Name>
