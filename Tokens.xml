@@ -21648,6 +21648,17 @@
       <Scope>otto::core::midi::ControlChangeEvent</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1midi_1_1_control_change_event.html</Path>
+    <Anchor>a5fda3ef83541a37249a9fedc03592697</Anchor>
+    <DeclaredIn>midi.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ControlChangeEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::midi::ControlChangeEvent</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1midi_1_1_control_change_event.html</Path>
     <Anchor>a70c71cd5ef9a0921c9ed050745f68de2</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
@@ -22438,6 +22449,17 @@
       <Scope>otto::core::midi::PitchBendEvent</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+    <DeclaredIn>midi.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PitchBendEvent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::midi::PitchBendEvent</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1midi_1_1_pitch_bend_event.html</Path>
+    <Anchor>ae9ffac9f1a0e91e745f8c6b2dd3c5371</Anchor>
     <DeclaredIn>midi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -45132,7 +45154,7 @@
       <Scope>otto::util::audio::Section</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1audio_1_1_section.html</Path>
-    <Anchor>a6667971e13c3ff47d802aaaf1aa8864a</Anchor>
+    <Anchor>a56310741715d0e72c874add57fe019c7</Anchor>
     <DeclaredIn>audio.hpp</DeclaredIn>
   </Token>
   <Token>
