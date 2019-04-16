@@ -88,6 +88,9 @@ Functions</h2></td></tr>
 <tr class="separator:ad7bab0f198c71c2a75c853cff8beaa26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77fcf53341a71ba0d636604335ce88fb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#a77fcf53341a71ba0d636604335ce88fb">round</a> (float f, int places)</td></tr>
 <tr class="separator:a77fcf53341a71ba0d636604335ce88fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f7bc6312f009076010fd94f8efe153a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5f7bc6312f009076010fd94f8efe153a"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#a5f7bc6312f009076010fd94f8efe153a">sgn</a> (T val)</td></tr>
+<tr class="separator:a5f7bc6312f009076010fd94f8efe153a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c4128f38834f42c7ede1c6777b83fcc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1c4128f38834f42c7ede1c6777b83fcc"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#a1c4128f38834f42c7ede1c6777b83fcc">modulo</a> (T a, T b)</td></tr>
 <tr class="memdesc:a1c4128f38834f42c7ede1c6777b83fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real modulo for negative <code>a</code> too.  <a href="#a1c4128f38834f42c7ede1c6777b83fcc">More...</a><br /></td></tr>
@@ -180,6 +183,28 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a5f7bc6312f009076010fd94f8efe153a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f7bc6312f009076010fd94f8efe153a">&#9670;&nbsp;</a></span>sgn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int otto::util::math::sgn </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00021">21</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a1c4128f38834f42c7ede1c6777b83fcc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c4128f38834f42c7ede1c6777b83fcc">&#9670;&nbsp;</a></span>modulo()</h2>
 
@@ -218,7 +243,7 @@ template&lt;typename T &gt; </div>
 
 <p>Real modulo for negative <code>a</code> too. </p>
 
-<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00022">22</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00027">27</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
 
 <p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/numeric/math/fmod.html">std::fmod()</a>.</p>
 
@@ -258,7 +283,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00074">74</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00079">79</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
 
 </div>
 </div>
@@ -296,7 +321,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00083">83</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00088">88</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
 
 </div>
 </div>
@@ -345,7 +370,7 @@ template&lt;int N&gt; </div>
 <p>Split a number into <code>N</code> values between 0 and 1, each representing a Nth part of the range <code>[min,max]</code> </p>
 <p>This is useful for UI especially, when you want to display a range of values by fading colours between N fixed points. See <code>draw_pitch</code> in <code>drum_sampler.cpp</code> for an example </p>
 
-<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00099">99</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00104">104</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
 
 </div>
 </div>

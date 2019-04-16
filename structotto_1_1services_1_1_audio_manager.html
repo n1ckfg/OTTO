@@ -71,6 +71,7 @@
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structotto_1_1services_1_1_audio_manager-members.html">List of all members</a>  </div>
@@ -146,6 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7e99feabf0e6270be4b5b8a08971e305 inherit pub_methods_structotto_1_1core_1_1_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a488428329c96c3584e971b2ef9a1db3e inherit pub_methods_structotto_1_1core_1_1_service"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1_service.html#a488428329c96c3584e971b2ef9a1db3e">operator=</a> (<a class="el" href="structotto_1_1core_1_1_service.html">Service</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a488428329c96c3584e971b2ef9a1db3e inherit pub_methods_structotto_1_1core_1_1_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af9b138088a8b6a944914e2fcbe49e480"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structotto_1_1services_1_1_audio_manager.html">AudioManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_audio_manager.html#af9b138088a8b6a944914e2fcbe49e480">current</a> () noexcept</td></tr>
+<tr class="memdesc:af9b138088a8b6a944914e2fcbe49e480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current instance of this service.  <a href="#af9b138088a8b6a944914e2fcbe49e480">More...</a><br /></td></tr>
+<tr class="separator:af9b138088a8b6a944914e2fcbe49e480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -295,7 +302,7 @@ pre_init</td>
 
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00034">34</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00068">_samplerate</a>.</p>
+<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00075">_samplerate</a>.</p>
 
 </div>
 </div>
@@ -326,7 +333,7 @@ pre_init</td>
 
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00037">37</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00069">_buffer_size</a>.</p>
+<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00076">_buffer_size</a>.</p>
 
 </div>
 </div>
@@ -359,7 +366,7 @@ pre_init</td>
 
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00044">44</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00070">_buffer_number</a>.</p>
+<p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00077">_buffer_number</a>.</p>
 
 </div>
 </div>
@@ -414,7 +421,7 @@ pre_init</td>
 </div><div class="memdoc">
 
 <p>Start audio processing. </p>
-<p>\postconditions <code><a class="el" href="structotto_1_1services_1_1_audio_manager.html#ae7044baa0550336f794759f8acc37e22" title="Check if audio should be processed.">running()</a> == true</code> </p>
+<p>Sets <code><a class="el" href="structotto_1_1services_1_1_audio_manager.html#ae7044baa0550336f794759f8acc37e22" title="Check if audio should be processed.">running()</a> = true</code> </p>
 
 </div>
 </div>
@@ -473,6 +480,38 @@ pre_init</td>
 
 </div>
 </div>
+<a id="af9b138088a8b6a944914e2fcbe49e480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b138088a8b6a944914e2fcbe49e480">&#9670;&nbsp;</a></span>current()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structotto_1_1services_1_1_audio_manager.html">AudioManager</a>&amp; otto::services::AudioManager::current </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current instance of this service. </p>
+<p>Alias to <code><a class="el" href="structotto_1_1services_1_1_application.html#afdb5a5219877750e5104232099a8f23a" title="The current Application.">Application::current()</a>.audio_manager</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00065">65</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="application_8hpp_source.html#l00107">otto::services::Application::audio_manager</a>, and <a class="el" href="structotto_1_1services_1_1_application.html#afdb5a5219877750e5104232099a8f23a">otto::services::Application::current()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4dbefbea318a69ae811a3db2822ed79d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4dbefbea318a69ae811a3db2822ed79d">&#9670;&nbsp;</a></span>events</h2>
@@ -508,7 +547,7 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00067">67</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00074">74</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -532,7 +571,7 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00068">68</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00075">75</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00034">samplerate()</a>.</p>
 
@@ -558,7 +597,7 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00069">69</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00076">76</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00037">buffer_size()</a>.</p>
 
@@ -584,7 +623,7 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00070">70</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00077">77</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00044">buffer_number()</a>.</p>
 
@@ -610,7 +649,7 @@ pre_init</td>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00071">71</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00078">78</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 </div>
 </div>

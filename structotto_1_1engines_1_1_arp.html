@@ -73,6 +73,7 @@
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structotto_1_1engines_1_1_arp-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::engines::Arp Struct Reference</div>  </div>
@@ -80,7 +81,7 @@
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00011">11</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00014">14</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="arp_8hpp_source.html">arp.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -91,8 +92,10 @@
  <div class="center">
   <img src="structotto_1_1engines_1_1_arp.png" usemap="#otto::engines::Arp_map" alt=""/>
   <map id="otto::engines::Arp_map" name="otto::engines::Arp_map">
-<area href="structotto_1_1core_1_1engine_1_1_engine_3_01_engine_type_1_1sequencer_01_4.html" alt="otto::core::engine::Engine&lt; EngineType::sequencer &gt;" shape="rect" coords="0,56,309,80"/>
-<area href="structotto_1_1core_1_1engine_1_1_any_engine.html" title="Abstract base class for Engines." alt="otto::core::engine::AnyEngine" shape="rect" coords="0,0,309,24"/>
+<area href="structotto_1_1core_1_1engine_1_1_engine.html" title="CRTP Engine base class." alt="otto::core::engine::Engine&lt; ET, Derived &gt;" shape="rect" coords="162,168,476,192"/>
+<area href="structotto_1_1util_1_1crtp.html" alt="otto::util::crtp&lt; Derived, EngineImpl&lt; ET, Derived &gt; &gt;" shape="rect" coords="0,56,314,80"/>
+<area href="structotto_1_1core_1_1engine_1_1_i_typed_engine.html" title="An extended engine interface including the engine type." alt="otto::core::engine::ITypedEngine&lt; ET &gt;" shape="rect" coords="324,56,638,80"/>
+<area href="structotto_1_1core_1_1engine_1_1_i_engine.html" title="Abstract base class for Engines." alt="otto::core::engine::IEngine" shape="rect" coords="324,0,638,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -103,11 +106,31 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a51a99f99c6f519a79bbcf7a0410a6aa2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2">Playmode</a> { <a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c">Playmode::up</a>, 
+<tr class="memitem:a51a99f99c6f519a79bbcf7a0410a6aa2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2">Playmode</a> { <br />
+&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c">Playmode::up</a>, 
 <a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a74e8333ad11685ff3bdae589c8f6e34d">Playmode::down</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a29812113feb36dfe3f321390a78eabb5">Playmode::n_modes</a>
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a3a9b45eefb93a69426b4ee20f480454e">Playmode::updown</a>, 
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2af1d5d1b11b020bc4a1c941d23afc753c">Playmode::downup</a>, 
+<br />
+&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2aa345f42b6d1f1f1da3855e7aeee74603">Playmode::updowninc</a>, 
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2ace5c642bd5f8afeee4498db7b881a62b">Playmode::downupinc</a>, 
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a3c78b35502b2693fefdfc51cba3a53a5">Playmode::manual</a>, 
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2ad277c74c6c67461c562bdc2051681029">Playmode::chord</a>
+<br />
  }</td></tr>
 <tr class="separator:a51a99f99c6f519a79bbcf7a0410a6aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8c4cfb84cae75f8fe6b282c3c35196"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196">OctaveMode</a> { <br />
+&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196ac00f0c4675b91fb8b918e4079a0b1bac">OctaveMode::standard</a>, 
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196aad4a94c7af136178084bdcfe5140f477">OctaveMode::octaveup</a>, 
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196a562d869e17551d7931e283fa3bcd5093">OctaveMode::octaveupunison</a>, 
+<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196a9e96ffeb0843ca57ad7d3bbabcbdb180">OctaveMode::fifthunison</a>, 
+<br />
+&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196a32c6acf9b91077c658f86a485a3cf9fd">OctaveMode::octaveupdown</a>
+<br />
+ }</td></tr>
+<tr class="separator:a8e8c4cfb84cae75f8fe6b282c3c35196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9df299d3cb0cc1652361e70a512ab85"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#ad9df299d3cb0cc1652361e70a512ab85">NoteArray</a> = foonathan::array::small_array&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">midi::NoteOnEvent</a>, 6 &gt;</td></tr>
+<tr class="separator:ad9df299d3cb0cc1652361e70a512ab85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -115,50 +138,38 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac7202415d5184ca54c61b8613985f3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ac634bc34c70ceb5d770cd2bf0a4c9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 0 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a7ac634bc34c70ceb5d770cd2bf0a4c9f">process</a> (<a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">audio::ProcessData</a>&lt; 0 &gt; data)</td></tr>
 <tr class="separator:a7ac634bc34c70ceb5d770cd2bf0a4c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1core_1_1engine_1_1_any_engine')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html">otto::core::engine::AnyEngine</a></td></tr>
-<tr class="memitem:a569a96572dde4ab647797d3f28a0cfe3 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a569a96572dde4ab647797d3f28a0cfe3">AnyEngine</a> (<a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> const &amp;<a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a6202ffd30ee96989d0f15395479251f2">name</a>, <a class="el" href="structotto_1_1core_1_1props_1_1properties__base.html">props::properties_base</a> &amp;<a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#aa058bc66a05123d08fc227f5f6383260">props</a>, <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &gt; <a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a1d47762e1c23e75f65bf6811cfff9fc7">screen</a>)</td></tr>
-<tr class="separator:a569a96572dde4ab647797d3f28a0cfe3 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a280e6a6f9adad749791ec8900af2cb92 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a280e6a6f9adad749791ec8900af2cb92">AnyEngine</a> ()=delete</td></tr>
-<tr class="separator:a280e6a6f9adad749791ec8900af2cb92 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb44c6fa9c04a201342ceec7d4681bfd inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#abb44c6fa9c04a201342ceec7d4681bfd">~AnyEngine</a> ()=default</td></tr>
-<tr class="separator:abb44c6fa9c04a201342ceec7d4681bfd inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a393f5280478e9262bdc621c9e27e6e0f inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a393f5280478e9262bdc621c9e27e6e0f">on_enable</a> ()</td></tr>
-<tr class="memdesc:a393f5280478e9262bdc621c9e27e6e0f inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this module is enabled.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#a393f5280478e9262bdc621c9e27e6e0f">More...</a><br /></td></tr>
-<tr class="separator:a393f5280478e9262bdc621c9e27e6e0f inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae526f7f9b6323f5e7e32c0cac2c32c81 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#ae526f7f9b6323f5e7e32c0cac2c32c81">on_disable</a> ()</td></tr>
-<tr class="memdesc:ae526f7f9b6323f5e7e32c0cac2c32c81 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this module is disabled.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#ae526f7f9b6323f5e7e32c0cac2c32c81">More...</a><br /></td></tr>
-<tr class="separator:ae526f7f9b6323f5e7e32c0cac2c32c81 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6202ffd30ee96989d0f15395479251f2 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a6202ffd30ee96989d0f15395479251f2">name</a> () const noexcept</td></tr>
-<tr class="memdesc:a6202ffd30ee96989d0f15395479251f2 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of this module.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#a6202ffd30ee96989d0f15395479251f2">More...</a><br /></td></tr>
-<tr class="separator:a6202ffd30ee96989d0f15395479251f2 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d47762e1c23e75f65bf6811cfff9fc7 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a1d47762e1c23e75f65bf6811cfff9fc7">screen</a> () noexcept</td></tr>
-<tr class="separator:a1d47762e1c23e75f65bf6811cfff9fc7 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a913081b4c17a0c953d8b4beaf3ee0e0b inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html">ui::Screen</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a913081b4c17a0c953d8b4beaf3ee0e0b">screen</a> () const noexcept</td></tr>
-<tr class="separator:a913081b4c17a0c953d8b4beaf3ee0e0b inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47357ecd836e5d2c275f53f216c07801 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a47357ecd836e5d2c275f53f216c07801">current_preset</a> () const noexcept</td></tr>
-<tr class="memdesc:a47357ecd836e5d2c275f53f216c07801 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">The currently selected preset.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#a47357ecd836e5d2c275f53f216c07801">More...</a><br /></td></tr>
-<tr class="separator:a47357ecd836e5d2c275f53f216c07801 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06eb08a2d296ab387bf22e1edbdcc407 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a06eb08a2d296ab387bf22e1edbdcc407">current_preset</a> (int new_val) noexcept</td></tr>
-<tr class="memdesc:a06eb08a2d296ab387bf22e1edbdcc407 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the current preset.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#a06eb08a2d296ab387bf22e1edbdcc407">More...</a><br /></td></tr>
-<tr class="separator:a06eb08a2d296ab387bf22e1edbdcc407 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c39faa6e1e6157a712804e81e6f8e50 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">nlohmann::json&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#a3c39faa6e1e6157a712804e81e6f8e50">to_json</a> () const</td></tr>
-<tr class="memdesc:a3c39faa6e1e6157a712804e81e6f8e50 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the engine.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#a3c39faa6e1e6157a712804e81e6f8e50">More...</a><br /></td></tr>
-<tr class="separator:a3c39faa6e1e6157a712804e81e6f8e50 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8cc58f1238000ad0388539304a46b68 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#ae8cc58f1238000ad0388539304a46b68">from_json</a> (const nlohmann::json &amp;j)</td></tr>
-<tr class="memdesc:ae8cc58f1238000ad0388539304a46b68 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize the engine.  <a href="structotto_1_1core_1_1engine_1_1_any_engine.html#ae8cc58f1238000ad0388539304a46b68">More...</a><br /></td></tr>
-<tr class="separator:ae8cc58f1238000ad0388539304a46b68 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa058bc66a05123d08fc227f5f6383260 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1properties__base.html">props::properties_base</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#aa058bc66a05123d08fc227f5f6383260">props</a> () noexcept</td></tr>
-<tr class="separator:aa058bc66a05123d08fc227f5f6383260 inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae020f2ea1fc4e58bc0780d1fadf0785a inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1props_1_1properties__base.html">props::properties_base</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1engine_1_1_any_engine.html#ae020f2ea1fc4e58bc0780d1fadf0785a">props</a> () const noexcept</td></tr>
-<tr class="separator:ae020f2ea1fc4e58bc0780d1fadf0785a inherit pub_methods_structotto_1_1core_1_1engine_1_1_any_engine"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa199d12e4e4bff16670bd349b67c970c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#aa199d12e4e4bff16670bd349b67c970c">sort_notes</a> ()</td></tr>
+<tr class="separator:aa199d12e4e4bff16670bd349b67c970c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1d136c5dfc77209ae69b2a21bd97ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">midi::NoteOnEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#adc1d136c5dfc77209ae69b2a21bd97ce">transpose_note</a> (<a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">midi::NoteOnEvent</a>, int)</td></tr>
+<tr class="separator:adc1d136c5dfc77209ae69b2a21bd97ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a89525a390b8537688f178a29d4782d8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1engines_1_1_arp_1_1_props.html">otto::engines::Arp::Props</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a89525a390b8537688f178a29d4782d8d">props</a></td></tr>
-<tr class="separator:a89525a390b8537688f178a29d4782d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab5614b0d8a027c8f810713bd1cb13dc"><td class="memItemLeft" align="right" valign="top"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#aab5614b0d8a027c8f810713bd1cb13dc">notes</a> = {21, 21, 22, 24}</td></tr>
-<tr class="separator:aab5614b0d8a027c8f810713bd1cb13dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a267fb1b772bde8d1736af9c06fb29585"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structotto_1_1engines_1_1_arp_1_1_props.html">otto::engines::Arp::Props</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a267fb1b772bde8d1736af9c06fb29585">props</a></td></tr>
+<tr class="separator:a267fb1b772bde8d1736af9c06fb29585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a12b4982626da9e22d3f257a7419fe982"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a12b4982626da9e22d3f257a7419fe982">name</a> = &quot;Arp&quot;</td></tr>
+<tr class="separator:a12b4982626da9e22d3f257a7419fe982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ad9df299d3cb0cc1652361e70a512ab85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9df299d3cb0cc1652361e70a512ab85">&#9670;&nbsp;</a></span>NoteArray</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1engines_1_1_arp.html#ad9df299d3cb0cc1652361e70a512ab85">otto::engines::Arp::NoteArray</a> =  foonathan::array::small_array&lt;<a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">midi::NoteOnEvent</a>, 6&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00017">17</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a51a99f99c6f519a79bbcf7a0410a6aa2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51a99f99c6f519a79bbcf7a0410a6aa2">&#9670;&nbsp;</a></span>Playmode</h2>
@@ -182,10 +193,46 @@ Public Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c"></a>up&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a74e8333ad11685ff3bdae589c8f6e34d"></a>down&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a29812113feb36dfe3f321390a78eabb5"></a>n_modes&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a3a9b45eefb93a69426b4ee20f480454e"></a>updown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2af1d5d1b11b020bc4a1c941d23afc753c"></a>downup&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2aa345f42b6d1f1f1da3855e7aeee74603"></a>updowninc&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2ace5c642bd5f8afeee4498db7b881a62b"></a>downupinc&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a3c78b35502b2693fefdfc51cba3a53a5"></a>manual&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2ad277c74c6c67461c562bdc2051681029"></a>chord&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00012">12</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00019">19</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8e8c4cfb84cae75f8fe6b282c3c35196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8c4cfb84cae75f8fe6b282c3c35196">&#9670;&nbsp;</a></span>OctaveMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196">otto::engines::Arp::OctaveMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196ac00f0c4675b91fb8b918e4079a0b1bac"></a>standard&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196aad4a94c7af136178084bdcfe5140f477"></a>octaveup&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196a562d869e17551d7931e283fa3bcd5093"></a>octaveupunison&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196a9e96ffeb0843ca57ad7d3bbabcbdb180"></a>fifthunison&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196a32c6acf9b91077c658f86a485a3cf9fd"></a>octaveupdown&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00030">30</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
 
 </div>
 </div>
@@ -226,34 +273,87 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa199d12e4e4bff16670bd349b67c970c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa199d12e4e4bff16670bd349b67c970c">&#9670;&nbsp;</a></span>sort_notes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::engines::Arp::sort_notes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc1d136c5dfc77209ae69b2a21bd97ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1d136c5dfc77209ae69b2a21bd97ce">&#9670;&nbsp;</a></span>transpose_note()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">midi::NoteOnEvent</a> otto::engines::Arp::transpose_note </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">midi::NoteOnEvent</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a89525a390b8537688f178a29d4782d8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89525a390b8537688f178a29d4782d8d">&#9670;&nbsp;</a></span>props</h2>
+<a id="a12b4982626da9e22d3f257a7419fe982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12b4982626da9e22d3f257a7419fe982">&#9670;&nbsp;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> otto::engines::Arp::name = &quot;Arp&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00015">15</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a267fb1b772bde8d1736af9c06fb29585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a267fb1b772bde8d1736af9c06fb29585">&#9670;&nbsp;</a></span>props</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="structotto_1_1engines_1_1_arp_1_1_props.html">otto::engines::Arp::Props</a>  otto::engines::Arp::props</td>
+          <td class="memname">struct <a class="el" href="structotto_1_1engines_1_1_arp_1_1_props.html">otto::engines::Arp::Props</a>  otto::engines::Arp::props</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="aab5614b0d8a027c8f810713bd1cb13dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab5614b0d8a027c8f810713bd1cb13dc">&#9670;&nbsp;</a></span>notes</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" doxygen="/home/travis/build/topisani/OTTO/doxygen/cppref.xml:http://en.cppreference.com/w/" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;int&gt; otto::engines::Arp::notes = {21, 21, 22, 24}</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00032">32</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
 
 </div>
 </div>

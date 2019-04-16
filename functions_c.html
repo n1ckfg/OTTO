@@ -189,6 +189,10 @@
 <li>clip()
 : <a class="el" href="structotto_1_1util_1_1audio_1_1_graph.html#ab0b067d4efe56939f2d0a4ec7edb50ef">otto::util::audio::Graph</a>
 </li>
+<li>clock_manager
+: <a class="el" href="structotto_1_1services_1_1_application.html#afe9a81f13c963ffa7b744469bdb686da">otto::services::Application</a>
+, <a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html#a4ed77f4143b43a4fc56fe5eb5b87c05b">otto::services::ClockManager::Client</a>
+</li>
 <li>closePort()
 : <a class="el" href="class_midi_api.html#a1410af774a6bcdf85726eb69b94bc918">MidiApi</a>
 , <a class="el" href="class_rt_midi.html#a36125c4fa16550345b57f4a4927f5b4a">RtMidi</a>
@@ -220,7 +224,7 @@
 : <a class="el" href="structotto_1_1util_1_1_signal.html#ae67ba40d70f276fdd6528a5440d5d085">otto::util::Signal&lt; Args &gt;</a>
 </li>
 <li>connect_member()
-: <a class="el" href="structotto_1_1util_1_1_signal.html#a8674d110637e4d91d811b8a6702da663">otto::util::Signal&lt; Args &gt;</a>
+: <a class="el" href="structotto_1_1util_1_1_signal.html#a02c6680542b66c21aa563eda31c49645">otto::util::Signal&lt; Args &gt;</a>
 </li>
 <li>connected_
 : <a class="el" href="class_midi_api.html#a2caa246b04594b5ae84bacccb2a648aa">MidiApi</a>
@@ -271,7 +275,7 @@
 : <a class="el" href="struct_midi_in_api_1_1_rt_midi_in_data.html#a60c8fc25d8838784d0d1904f31e80ab5">MidiInApi::RtMidiInData</a>
 </li>
 <li>ControlChangeEvent()
-: <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html#a5fda3ef83541a37249a9fedc03592697">otto::core::midi::ControlChangeEvent</a>
+: <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html#a70c71cd5ef9a0921c9ed050745f68de2">otto::core::midi::ControlChangeEvent</a>
 </li>
 <li>controler
 : <a class="el" href="structotto_1_1core_1_1midi_1_1_control_change_event.html#ab820d1c1263b8ca4022f79813cac807d">otto::core::midi::ControlChangeEvent</a>
@@ -292,7 +296,8 @@
 : <a class="el" href="structotto_1_1util_1_1string__ref.html#ac8b457c2162dd7adb23839bbb2b7a760">otto::util::string_ref</a>
 </li>
 <li>create_default()
-: <a class="el" href="structotto_1_1services_1_1_engine_manager.html#ad054e2c726295c97321f8d1a3e9d108d">otto::services::EngineManager</a>
+: <a class="el" href="structotto_1_1services_1_1_clock_manager.html#af649cb667175c9fa26d752aa2a1398b2">otto::services::ClockManager</a>
+, <a class="el" href="structotto_1_1services_1_1_engine_manager.html#ad054e2c726295c97321f8d1a3e9d108d">otto::services::EngineManager</a>
 , <a class="el" href="structotto_1_1services_1_1_state_manager.html#a98ab9a5cd451f23dfaa774ecddfd6d94">otto::services::StateManager</a>
 </li>
 <li>create_preset()
@@ -308,9 +313,11 @@
 : <a class="el" href="structotto_1_1util_1_1iterator_1_1adjacent__pair__iterator.html#a013b97296294d3f4e1beb40d533f2853">otto::util::iterator::adjacent_pair_iterator&lt; Iter &gt;</a>
 </li>
 <li>current()
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#ab261cd7bd01a3111fc02e08734b80eed">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a681d94f5e15ec03f7979d986d9775897">otto::core::engine::IEngineDispatcher</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a15a220fd10b6ad744f61878dfc02504b">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a42d607ff5380601f90d0b874da19f8e1">otto::core::engine::IEngineDispatcher</a>
 , <a class="el" href="structotto_1_1services_1_1_application.html#afdb5a5219877750e5104232099a8f23a">otto::services::Application</a>
+, <a class="el" href="structotto_1_1services_1_1_audio_manager.html#af9b138088a8b6a944914e2fcbe49e480">otto::services::AudioManager</a>
+, <a class="el" href="structotto_1_1services_1_1_clock_manager.html#aa2a1085aafe81d978da53d1a42c15e50">otto::services::ClockManager</a>
 </li>
 <li>current_channel()
 : <a class="el" href="structotto_1_1engines_1_1_euclid.html#a376e866fb07fb6105beb2d261f2217eb">otto::engines::Euclid</a>
@@ -324,10 +331,13 @@
 : <a class="el" href="structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_operator_props.html#a405a3848843fa9f219c66c4bdbc38e58">otto::engines::OTTOFMSynth::OperatorProps</a>
 </li>
 <li>current_preset()
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a1fa07701f2e348ce8cda1ddb7d7bd87a">otto::core::engine::IEngine</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#aabce2bc83300d768b49984507e38f7cb">otto::core::engine::IEngine</a>
 </li>
 <li>current_screen()
 : <a class="el" href="structotto_1_1board_1_1otto_1_1services_1_1_u_i_manager.html#ae7033ce16df5b1810789534ce0b4ef31">otto::board::otto::services::UIManager</a>
+</li>
+<li>current_time()
+: <a class="el" href="structotto_1_1services_1_1_clock_manager.html#a7ddb64db84fab4c00ca65f9ff621010d">otto::services::ClockManager</a>
 </li>
 <li>cursor_pos()
 : <a class="el" href="structotto_1_1glfw_1_1_window.html#aae9e9b259d47d39231943ce93cb82613">otto::glfw::Window</a>
