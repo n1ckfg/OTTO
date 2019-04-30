@@ -175,28 +175,6 @@ namespace otto::util {
       return first;
     }
 
-    template<class Rng, class Size, class F>
-    constexpr std::size_t indexed_for_n(Rng&& rng, Size n, F&& f)
-    {
-      return indexed_for_n(std::begin(rng), std::end(rng), n, std::forward<F>(f));
-    }
-
-    template<typename Iter1, typename Iter2, typename F>
-    constexpr void for_both(Iter1&& f1, Iter1&& l1, Iter2&& f2, Iter2&& l2, F&& f)
-    {
-      Iter1 i1 = std::forward<Iter1>(f1);
-      Iter2 i2 = std::forward<Iter2>(f2);
-      for (; i1 != l1 && i2 != l2; i1++, i2++) {
-        std::invoke(f, *i1, *i2);
-      }
-    }
-
-    template<typename Rng1, typename Rng2, typename F>
-    constexpr void for_both(Rng1&& r1, Rng2&& r2, F&& f)
-    {
-      for_both(std::begin(r1), std::end(r1), std::begin(r2), std::end(r2), std::forward<F>(f));
-    }
-
     /// \defgroup container_algos Container Standard Algorithms
     ///
     /// These are the standard library algorithms wrapped in container-based interfaces, instead of
@@ -871,7 +849,37 @@ namespace otto::util {
       return std::find_if(begin(cont), end(cont), std::forward<UnaryPredicate>(f));
     }
 
+    template<typename Cont1, typename Cont2>
+    constexpr bool lexicographical_compare(Cont1&& c1, Cont2&& c2)
+    {
+      using std::begin;
+      using std::end;
+      return std::lexicographical_compare(begin(c1), end(c1), begin(c2), end(c2));
+    }
 
+    template<typename Cont1, typename Cont2, typename Compare>
+    constexpr bool lexicographical_compare(Cont1&& c1, Cont2&& c2, Compare&& comp)
+    {
+      using std::begin;
+      using std::end;
+      return std::lexicographical_compare(begin(c1), end(c1), begin(c2), end(c2), std::forward<Compare>(comp));
+    }
+
+    template<typename Cont1, typename Cont2>
+    constexpr bool equal(Cont1&& c1, Cont2&& c2)
+    {
+      using std::begin;
+      using std::end;
+      return std::equal(begin(c1), end(c1), begin(c2), end(c2));
+    }
+
+    template<typename Cont1, typename Cont2, typename Compare>
+    constexpr bool equal(Cont1&& c1, Cont2&& c2, Compare&& comp)
+    {
+      using std::begin;
+      using std::end;
+      return std::equal(begin(c1), end(c1), begin(c2), end(c2), std::forward<Compare>(comp));
+    }
     /// \}
     ///
   } // namespace algorithm

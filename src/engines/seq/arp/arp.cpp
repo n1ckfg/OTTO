@@ -1,7 +1,8 @@
 #include "arp.hpp"
 
-#include "core/ui/vector_graphics.hpp"
 #include <algorithm>
+
+#include "core/ui/vector_graphics.hpp"
 
 namespace otto::engines {
 
@@ -105,7 +106,7 @@ namespace otto::engines {
       // Resort notes. Wait until this point to make sure that off events have been sent
       if (has_changed_) {
         sort_notes();
-        iter = util::view::circular(props.output_stack_).begin();
+        iter = util::circular_iterator(props.output_stack_);
         has_changed_ = false;
         //Flag to recalculate on the graphics thread
         props.graphics_outdated = true;

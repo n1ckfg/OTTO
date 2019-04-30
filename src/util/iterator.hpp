@@ -148,13 +148,13 @@ namespace otto::util {
 
       // Increment (Any)
 
-      Derived& operator++()
+      constexpr Derived& operator++()
       {
         derived().advance(1);
         return derived();
       }
 
-      Derived operator++(int)
+      constexpr Derived operator++(int)
       {
         auto old = derived();
         derived().advance(1);
@@ -162,44 +162,44 @@ namespace otto::util {
       }
 
       // Dereference (Any)
-      decltype(auto) operator*()
+      constexpr decltype(auto) operator*()
       {
         return derived().dereference();
       }
 
-      decltype(auto) operator*() const
+      constexpr decltype(auto) operator*() const
       {
         return derived().dereference();
       }
 
-      decltype(auto) operator-> ()
+      constexpr decltype(auto) operator-> ()
       {
         return derived().dereference();
       }
 
-      decltype(auto) operator-> () const
+      constexpr decltype(auto) operator-> () const
       {
         return derived().dereference();
       }
 
       // Comparison (Any)
-      bool operator==(const Derived& r) const
+      constexpr bool operator==(const Derived& r) const
       {
         return derived().equal(r);
       }
 
-      bool operator!=(const Derived& r) const
+      constexpr bool operator!=(const Derived& r) const
       {
         return !derived().equal(r);
       }
 
     private:
-      Derived& derived()
+      constexpr Derived& derived()
       {
         return static_cast<Derived&>(*this);
       }
 
-      const Derived& derived() const
+      constexpr const Derived& derived() const
       {
         return static_cast<const Derived&>(*this);
       }
@@ -243,13 +243,13 @@ namespace otto::util {
 
       // Decrement (Bidirectional)
 
-      Derived& operator--()
+      constexpr Derived& operator--()
       {
         derived().advance(-1);
         return derived();
       }
 
-      Derived operator--(int)
+      constexpr Derived operator--(int)
       {
         auto old = derived();
         derived().advance(-1);
@@ -257,12 +257,12 @@ namespace otto::util {
       }
 
     private:
-      Derived& derived()
+      constexpr Derived& derived()
       {
         return static_cast<Derived&>(*this);
       }
 
-      const Derived& derived() const
+      constexpr const Derived& derived() const
       {
         return static_cast<const Derived&>(*this);
       }
@@ -291,56 +291,56 @@ namespace otto::util {
 
       // Arithmetics (Random access)
 
-      Derived operator+(difference_type d) const
+      constexpr Derived operator+(difference_type d) const
       {
         Derived res{derived()};
         res.derived().advance(d);
         return res;
       }
 
-      Derived operator-(difference_type d) const
+      constexpr Derived operator-(difference_type d) const
       {
         Derived res{derived()};
         res.derived().advance(-d);
         return res;
       }
 
-      difference_type operator-(const Derived& d) const
+      constexpr difference_type operator-(const Derived& d) const
       {
         return derived().difference(d);
       }
 
       // Inequality (Random access)
 
-      bool operator<(const Derived& d) const
+      constexpr bool operator<(const Derived& d) const
       {
         return derived().difference(d) < 0;
       }
 
-      bool operator>(const Derived& d) const
+      constexpr bool operator>(const Derived& d) const
       {
         return derived().difference(d) > 0;
       }
 
-      bool operator<=(const Derived& d) const
+      constexpr bool operator<=(const Derived& d) const
       {
         return derived().difference(d) <= 0;
       }
 
-      bool operator>=(const Derived& d) const
+      constexpr bool operator>=(const Derived& d) const
       {
         return derived().difference(d) >= 0;
       }
 
       // Compound assignment (Random access)
 
-      Derived& operator+=(difference_type d)
+      constexpr Derived& operator+=(difference_type d)
       {
         derived().advance(d);
         return derived();
       }
 
-      Derived& operator-=(difference_type d)
+      constexpr Derived& operator-=(difference_type d)
       {
         derived().advance(-d);
         return derived();
@@ -348,18 +348,18 @@ namespace otto::util {
 
       // Offset dereference (Random access)
 
-      reference operator[](difference_type d)
+      constexpr reference operator[](difference_type d)
       {
         return *(*this + d);
       }
 
     private:
-      Derived& derived()
+      constexpr Derived& derived()
       {
         return static_cast<Derived&>(*this);
       }
 
-      const Derived& derived() const
+      constexpr const Derived& derived() const
       {
         return static_cast<const Derived&>(*this);
       }
@@ -375,14 +375,14 @@ namespace otto::util {
     struct sequence {
       using iterator = std::common_type_t<BIter, EIter>;
 
-      sequence(BIter f, EIter l) : first{f}, last{l} {}
+      constexpr sequence(BIter f, EIter l) : first{f}, last{l} {}
 
-      BIter begin()
+      constexpr BIter begin() const
       {
         return first;
       }
 
-      EIter end()
+      constexpr EIter end() const
       {
         return last;
       }
@@ -440,32 +440,32 @@ namespace otto::util {
        */
 
       /// Construct an iterator, pointing to `ptr`
-      float_step_iterator(const wrapped_type& iter, float step = 1.f) : step{step}, iter{iter} {}
+      constexpr float_step_iterator(const wrapped_type& iter, float step = 1.f) : step{step}, iter{iter} {}
 
       /// Copy constructor
-      float_step_iterator(const float_step_iterator& r)
+      constexpr float_step_iterator(const float_step_iterator& r)
         : step{r.step}, _error{r._error}, iter{r.iter}
       {}
 
       /// Move constructor
-      float_step_iterator(float_step_iterator&& r)
+      constexpr float_step_iterator(float_step_iterator&& r)
         : step{std::move(r.step)}, _error{std::move(r._error)}, iter{std::move(r.iter)}
       {}
 
       // Default assignment operator
-      float_step_iterator& operator=(const float_step_iterator&) = default;
-      float_step_iterator& operator=(float_step_iterator&&) = default;
+      constexpr float_step_iterator& operator=(const float_step_iterator&) = default;
+      constexpr float_step_iterator& operator=(float_step_iterator&&) = default;
 
       /* Iterator operators */
 
       /// Dereference the iterator
       ///
       /// Propagates to the dereference operator of <ptr>
-      decltype(auto) operator*()
+      constexpr decltype(auto) operator*()
       {
         return *iter;
       }
-      decltype(auto) operator*() const
+      constexpr decltype(auto) operator*() const
       {
         return *iter;
       }
@@ -474,7 +474,7 @@ namespace otto::util {
       ///
       /// Requires members <ptr> and <_error> to be equal.
       /// Ignores <step>, as it has no effect on the dereferenced value.
-      bool operator==(const float_step_iterator& r) const
+      constexpr bool operator==(const float_step_iterator& r) const
       {
         return iter == r.iter && _error == r._error;
       }
@@ -482,7 +482,7 @@ namespace otto::util {
       /// Compare inequal
       ///
       /// Implemented as if by `!(*this == r)`
-      bool operator!=(const float_step_iterator& r) const
+      constexpr bool operator!=(const float_step_iterator& r) const
       {
         return !(*this == r);
       }
@@ -491,7 +491,7 @@ namespace otto::util {
       ///
       /// Only avaliable if `wrapped_type` is less than comparable to itself.
       /// If the two wrapped instances are equal, the error values are compared.
-      auto operator<(const float_step_iterator& r) const
+      constexpr auto operator<(const float_step_iterator& r) const
         -> decltype(std::declval<wrapped_type>() < std::declval<wrapped_type>())
       {
         return iter < r.iter || (iter == r.iter && _error < r._error);
@@ -501,7 +501,7 @@ namespace otto::util {
       ///
       /// Only avaliable if `wrapped_type` is greater than comparable to itself.
       /// If the two wrapped instances are equal, the error values are compared.
-      auto operator>(const float_step_iterator& r) const
+      constexpr auto operator>(const float_step_iterator& r) const
         -> decltype(std::declval<wrapped_type>() > std::declval<wrapped_type>())
       {
         return iter > r.iter || (iter == r.iter && _error > r._error);
@@ -511,7 +511,7 @@ namespace otto::util {
       ///
       /// Only avaliable if `wrapped_type` is less than comparable to itself.
       /// If the two wrapped instances are equal, the error values are compared.
-      auto operator<=(const float_step_iterator& r) const
+      constexpr auto operator<=(const float_step_iterator& r) const
         -> decltype(std::declval<wrapped_type>() < std::declval<wrapped_type>())
       {
         return iter < r.iter || (iter == r.iter && _error <= r._error);
@@ -521,7 +521,7 @@ namespace otto::util {
       ///
       /// Only avaliable if `wrapped_type` is greater than comparable to itself.
       /// If the two wrapped instances are equal, the error values are compared.
-      auto operator>=(const float_step_iterator& r) const
+      constexpr auto operator>=(const float_step_iterator& r) const
         -> decltype(std::declval<wrapped_type>() > std::declval<wrapped_type>())
       {
         return iter > r.iter || (iter == r.iter && _error >= r._error);
@@ -530,7 +530,7 @@ namespace otto::util {
       /// Get the number of iterations to get from `rhs` to this
       ///
       /// Takes the error values into account.
-      std::ptrdiff_t operator-(const float_step_iterator& rhs) const
+      constexpr std::ptrdiff_t operator-(const float_step_iterator& rhs) const
       {
         return (float(iter - rhs.iter) + (_error - rhs._error)) / step;
       }
@@ -541,9 +541,9 @@ namespace otto::util {
       /// the remainder in `error`.
       ///
       /// \returns A reference to this
-      float_step_iterator& operator+=(difference_type n)
+      constexpr float_step_iterator& operator+=(difference_type n)
       {
-        float intPart;
+        float intPart = 0;
         _error = std::modf(_error + step * n, &intPart);
         if (_error < 0) {
           intPart -= 1;
@@ -553,7 +553,7 @@ namespace otto::util {
         return *this;
       }
 
-      float_step_iterator operator+(difference_type d)
+      constexpr float_step_iterator operator+(difference_type d)
       {
         auto res = *this;
         res += d;
@@ -564,7 +564,7 @@ namespace otto::util {
       ///
       /// \effects Same as `*this += 1`
       /// \returns A reference to this
-      float_step_iterator& operator++()
+      constexpr float_step_iterator& operator++()
       {
         *this += 1;
         return *this;
@@ -574,7 +574,7 @@ namespace otto::util {
       ///
       /// \effects Same as `*this += 1`
       /// \returns A copy of this pre increment
-      float_step_iterator operator++(int)
+      constexpr float_step_iterator operator++(int)
       {
         auto tmp = *this;
         operator++();
@@ -587,14 +587,14 @@ namespace otto::util {
       /// \returns A reference to this
       /// \requires `wrapped_type` shall be at least a Bidirectional Iterator, or
       /// this function will not exist.
-      auto operator-=(difference_type n)
+      constexpr auto operator-=(difference_type n)
         -> std::enable_if_t<std::is_base_of_v<std::bidirectional_iterator_tag, iterator_category>,
                             float_step_iterator&>
       {
         return *this += -n;
       }
 
-      auto operator-(difference_type d)
+      constexpr auto operator-(difference_type d)
         -> std::enable_if_t<std::is_base_of_v<std::bidirectional_iterator_tag, iterator_category>,
                             float_step_iterator>
       {
@@ -610,7 +610,7 @@ namespace otto::util {
       /// \returns A reference to this
       /// \requires `wrapped_type` shall be at least a Bidirectional Iterator, or
       /// this function will not exist.
-      auto operator--()
+      constexpr auto operator--()
         -> std::enable_if_t<std::is_base_of_v<std::bidirectional_iterator_tag, iterator_category>,
                             float_step_iterator&>
       {
@@ -623,7 +623,7 @@ namespace otto::util {
       /// \returns A copy of this pre increment
       /// \requires `wrapped_type` shall be at least a Bidirectional Iterator, or
       /// this function will not exist.
-      auto operator--(int)
+      constexpr auto operator--(int)
         -> std::enable_if_t<std::is_base_of_v<std::bidirectional_iterator_tag, iterator_category>,
                             float_step_iterator&>
       {
@@ -635,7 +635,7 @@ namespace otto::util {
       /* Member functions */
 
       /// Get a copy of the underlying pointer.
-      wrapped_type data() const
+      constexpr wrapped_type data() const
       {
         return iter;
       }
@@ -646,7 +646,7 @@ namespace otto::util {
       /// Otherwise it is in the range `[0, 1)`, signifying the
       /// fractional part of the real index. I.e.
       /// `ptr + error() == real_index`.
-      float error() const
+      constexpr float error() const
       {
         return _error;
       }
@@ -654,7 +654,7 @@ namespace otto::util {
       /// The real numeric difference between this and `rhs`.
       ///
       /// Only avaliable if `wrapped_type` is random access.
-      auto difference(const float_step_iterator& rhs) -> std::enable_if_t<
+      constexpr auto difference(const float_step_iterator& rhs) -> std::enable_if_t<
         std::is_same_v<typename std::iterator_traits<wrapped_type>::iterator_category,
                        std::random_access_iterator_tag>,
         float>
@@ -693,14 +693,44 @@ namespace otto::util {
 
     /// Create a float_step_iterator
     template<typename I, typename V = typename detail::value_type<std::decay_t<I>>::type>
-    auto float_step(I&& iter, float step = 1)
+    constexpr auto float_step(I&& iter, float step = 1)
     {
       return float_step_iterator<std::decay_t<I>, V>{std::forward<I>(iter), step};
     }
 
-    /// Generating iterator
+    /// Iterator wrapper that dereferences the result of the dereference.
+    /// 
+    /// Can be used to iterate through the values of an array of pointers or other iterators.
+    template<typename Wrapped>
+    struct double_dereference_iterator
+      : iterator_facade<double_dereference_iterator<Wrapped>,
+                        std::decay_t<decltype(*std::declval<detail::value_type_t<Wrapped>>())>,
+                        detail::iterator_category_t<Wrapped>,
+                        decltype(*std::declval<detail::reference_t<Wrapped>>())> {
+      double_dereference_iterator(Wrapped iter) : iter(std::move(iter)) {}
 
-    namespace detail {} // namespace detail
+      constexpr void advance(int n)
+      {
+        std::advance(iter, n);
+      }
+
+      constexpr decltype(auto) dereference()
+      {
+        return **iter;
+      }
+
+      constexpr bool equal(const double_dereference_iterator& o) const
+      {
+        return iter == o.iter;
+      }
+
+      constexpr auto difference(const double_dereference_iterator& o) const
+      {
+        return iter - o.iter;
+      }
+
+      Wrapped iter;
+    };
 
 
     ///
@@ -716,21 +746,21 @@ namespace otto::util {
       using value_type = util::invoke_result_t<Generator>;
       using iterator_category = std::input_iterator_tag;
 
-      generating_iterator(Generator generator) : generator{std::move(generator)} {}
+      constexpr generating_iterator(Generator generator) : generator{std::move(generator)} {}
 
-      void advance(int n)
+      constexpr void advance(int n)
       {
         for (int i = 0; i < n; i++) {
           val = std::invoke(generator);
         }
       }
 
-      value_type& dereference()
+      constexpr value_type& dereference()
       {
         return val;
       }
 
-      bool equal(const generating_iterator& o) const
+      constexpr bool equal(const generating_iterator& o) const
       {
         return o.val == val;
       }
@@ -744,7 +774,7 @@ namespace otto::util {
     /// Create a generating iterator
     ///
     template<typename Generator>
-    generating_iterator<Generator> generator(Generator&& gen)
+    constexpr generating_iterator<Generator> generator(Generator&& gen)
     {
       return generating_iterator<Generator>(std::forward<Generator>(gen));
     }
@@ -769,7 +799,7 @@ namespace otto::util {
                         std::tuple<detail::reference_t<Iterators>...>> {
     private:
       template<std::size_t N, typename Tuple>
-      static bool tuple_equals_impl(const Tuple& t1, const Tuple& t2)
+      constexpr static bool tuple_equals_impl(const Tuple& t1, const Tuple& t2)
       {
         if constexpr (N < std::tuple_size_v<Tuple>) {
           auto res = std::get<N>(t1) == std::get<N>(t2);
@@ -780,7 +810,7 @@ namespace otto::util {
       }
 
       template<std::size_t N, typename Tuple>
-      static void tuple_advnc_impl(Tuple& t, int n)
+      constexpr static void tuple_advnc_impl(Tuple& t, int n)
       {
         if constexpr (N < std::tuple_size_v<Tuple>) {
           std::advance(std::get<N>(t), n);
@@ -789,7 +819,7 @@ namespace otto::util {
       }
 
       template<std::size_t N, typename Tuple, typename Tuple2 = std::tuple<>>
-      static auto tuple_deref_impl(const Tuple& iters, Tuple2&& t2 = {})
+      constexpr static auto tuple_deref_impl(const Tuple& iters, Tuple2&& t2 = {})
       {
         if constexpr (N < std::tuple_size_v<Tuple>) {
           return tuple_deref_impl<N + 1>(
@@ -806,26 +836,26 @@ namespace otto::util {
       using reference = std::tuple<detail::reference_t<Iterators>...>;
       using iterator_category = std::common_type_t<detail::iterator_category_t<Iterators>...>;
 
-      zipped_iterator(Iterators... iterators) : iterators{std::move(iterators)...} {}
+      constexpr zipped_iterator(Iterators... iterators) : iterators{std::move(iterators)...} {}
 
-      zipped_iterator(std::tuple<Iterators...> iterators) : iterators{iterators} {}
+      constexpr zipped_iterator(std::tuple<Iterators...> iterators) : iterators{iterators} {}
 
-      void advance(int n)
+      constexpr void advance(int n)
       {
         tuple_advnc_impl<0>(iterators, n);
       }
 
-      reference dereference()
+      constexpr reference dereference()
       {
         return tuple_deref_impl<0>(iterators);
       }
 
-      reference dereference() const
+      constexpr reference dereference() const
       {
         return tuple_deref_impl<0>(iterators);
       }
 
-      bool equal(const zipped_iterator& o) const
+      constexpr bool equal(const zipped_iterator& o) const
       {
         return tuple_equals_impl<0>(iterators, o.iterators);
       }
@@ -835,31 +865,31 @@ namespace otto::util {
 
     /// Create a zipped iterator from iterators
     template<typename... Iterators>
-    zipped_iterator<Iterators...> zip_iters(Iterators... iters)
+    constexpr zipped_iterator<Iterators...> zip_iters(Iterators... iters)
     {
       return zipped_iterator<Iterators...>(iters...);
     }
 
     template<typename... Ranges>
     struct ZippedRange {
-      ZippedRange(Ranges&&... ranges) : first{std::begin(ranges)...}, last{std::end(ranges)...} {}
+      constexpr ZippedRange(Ranges&&... ranges) : first{std::begin(ranges)...}, last{std::end(ranges)...} {}
 
-      auto begin()
+      constexpr auto begin()
       {
         return first;
       }
 
-      auto begin() const
+      constexpr auto begin() const
       {
         return first;
       }
 
-      auto end()
+      constexpr auto end()
       {
         return last;
       }
 
-      auto end() const
+      constexpr auto end() const
       {
         return last;
       }
@@ -879,7 +909,7 @@ namespace otto::util {
     /// }
     /// ```
     template<typename... Ranges>
-    auto zip(Ranges&&... ranges)
+    constexpr auto zip(Ranges&&... ranges)
     {
       return ZippedRange<Ranges...>(std::forward<Ranges>(ranges)...);
     }
@@ -899,20 +929,20 @@ namespace otto::util {
       using reference = std::pair<detail::reference_t<Iter>, detail::reference_t<Iter>>;
       using iterator_category = typename detail::iterator_category<Iter>::type;
 
-      adjacent_pair_iterator(Iter iter) : prev{iter}, cur{std::next(iter)} {}
+      constexpr adjacent_pair_iterator(Iter iter) : prev{iter}, cur{std::next(iter)} {}
 
-      void advance(int n)
+      constexpr void advance(int n)
       {
         std::advance(cur, n);
         std::advance(prev, n);
       }
 
-      reference dereference()
+      constexpr reference dereference()
       {
         return {*prev, *cur};
       }
 
-      bool equal(const adjacent_pair_iterator& o) const
+      constexpr bool equal(const adjacent_pair_iterator& o) const
       {
         return cur == o.cur;
       }
@@ -925,7 +955,7 @@ namespace otto::util {
     struct AdjacentRange {
       using iterator = adjacent_pair_iterator<typename std::decay_t<Range>::iterator>;
 
-      AdjacentRange(Range& range) : first{std::begin(range)}, last{std::end(range)}
+      constexpr AdjacentRange(Range& range) : first{std::begin(range)}, last{std::end(range)}
       {
         if (first != last) {
           // No pair starting with last element
@@ -933,7 +963,7 @@ namespace otto::util {
         }
       }
 
-      AdjacentRange(Range&& range) : first{std::begin(range)}, last{std::end(range)}
+      constexpr AdjacentRange(Range&& range) : first{std::begin(range)}, last{std::end(range)}
       {
         if (first != last) {
           // No pair starting with last element
@@ -942,12 +972,12 @@ namespace otto::util {
       }
 
 
-      auto begin()
+      constexpr auto begin()
       {
         return first;
       }
 
-      auto end()
+      constexpr auto end()
       {
         return last;
       }
@@ -957,13 +987,13 @@ namespace otto::util {
     };
 
     template<typename Range>
-    auto adjacent_pairs(Range& rng)
+    constexpr auto adjacent_pairs(Range& rng)
     {
       return AdjacentRange{rng};
     }
 
     template<typename BIter, typename EIter>
-    auto adjacent_pairs(BIter f, EIter l)
+    constexpr auto adjacent_pairs(BIter f, EIter l)
     {
       return AdjacentRange{util::sequence(f, l)};
     }
@@ -978,30 +1008,39 @@ namespace otto::util {
           std::decay_t<util::invoke_result_t<Callable, detail::reference_t<WrappedIter>>>,
           detail::iterator_category_t<WrappedIter>,
           util::invoke_result_t<Callable, detail::reference_t<WrappedIter>>> {
-      transform_iterator(WrappedIter iter, Callable callable)
+      constexpr transform_iterator(WrappedIter iter, Callable callable)
         : iter(std::move(iter)), callable{std::make_shared<Callable>(std::move(callable))}
       {}
 
-      transform_iterator(WrappedIter iter, transform_iterator other)
+      constexpr transform_iterator(WrappedIter iter, transform_iterator other)
         : iter(std::move(iter)), callable{other.callable}
       {}
 
-      void advance(int n)
+      constexpr void advance(int n)
       {
         std::advance(iter, 1);
       }
 
-      decltype(auto) dereference()
+      constexpr decltype(auto) dereference()
       {
         return std::invoke(*callable, *iter);
       }
 
-      bool equal(const transform_iterator& o) const
+      constexpr decltype(auto) dereference() const
+      {
+        if constexpr (std::is_const_v<detail::reference_t<WrappedIter>>) {
+          return std::invoke(*callable, *iter);
+        } else {
+          throw "SHOULD BE UNREACHABLE";
+        }
+      }
+
+      constexpr bool equal(const transform_iterator& o) const
       {
         return iter == o.iter;
       }
 
-      auto difference(const transform_iterator& o) const
+      constexpr auto difference(const transform_iterator& o) const
       {
         return iter - o.iter;
       }
@@ -1021,7 +1060,7 @@ namespace otto::util {
       static_assert(std::is_same_v<std::decay_t<decltype(*std::declval<WrappedIter>())>,
                                    detail::value_type_t<WrappedIter>>);
 
-      filter_iterator(WrappedIter iter, WrappedIter last, Predicate callable)
+      constexpr filter_iterator(WrappedIter iter, WrappedIter last, Predicate callable)
         : iter(std::move(iter)),
           last(last),
           callable{std::make_shared<Predicate>(std::move(callable))}
@@ -1029,20 +1068,20 @@ namespace otto::util {
         nextvalid();
       }
 
-      filter_iterator(WrappedIter iter, WrappedIter last, filter_iterator other)
+      constexpr filter_iterator(WrappedIter iter, WrappedIter last, filter_iterator other)
         : iter(std::move(iter)), last(last), callable{other.callable}
       {
         nextvalid();
       }
 
-      void nextvalid()
+      constexpr void nextvalid()
       {
         while (iter != last && !std::invoke(*callable, *iter)) {
           ++iter;
         }
       }
 
-      void advance(int n)
+      constexpr void advance(int n)
       {
         for (int i = 0; i < n; i++) {
           while (++iter != last && !std::invoke(*callable, *iter))
@@ -1050,17 +1089,17 @@ namespace otto::util {
         }
       }
 
-      decltype(auto) dereference()
+      constexpr decltype(auto) dereference()
       {
         return *iter;
       }
 
-      bool equal(const filter_iterator& o) const
+      constexpr bool equal(const filter_iterator& o) const
       {
         return iter == o.iter;
       }
 
-      auto difference(const filter_iterator& o) const
+      constexpr auto difference(const filter_iterator& o) const
       {
         return iter - o.iter;
       }
@@ -1081,11 +1120,16 @@ namespace otto::util {
       static_assert(std::is_same_v<std::decay_t<decltype(*std::declval<WrappedIter>())>,
                                    detail::value_type_t<WrappedIter>>);
 
-      circular_iterator(WrappedIter iter, WrappedIter first, WrappedIter last)
+      template<typename Range>
+      constexpr circular_iterator(Range&& rng)
+        : iter(std::begin(rng)), first(std::begin(rng)), last(std::end(rng))
+      {}
+
+      constexpr circular_iterator(WrappedIter iter, WrappedIter first, WrappedIter last)
         : iter(std::move(iter)), first(std::move(first)), last(std::move(last))
       {}
 
-      void advance(int n)
+      constexpr void advance(int n)
       {
         for (int i = 0; i < std::abs(n); i++) {
           if (n > 0) {
@@ -1098,17 +1142,17 @@ namespace otto::util {
         }
       }
 
-      decltype(auto) dereference()
+      constexpr decltype(auto) dereference()
       {
         return *iter;
       }
 
-      bool equal(const circular_iterator& o) const
+      constexpr bool equal(const circular_iterator& o) const
       {
         return iter == o.iter;
       }
 
-      auto difference(const circular_iterator& o) const
+      constexpr auto difference(const circular_iterator& o) const
       {
         return iter - o.iter;
       }
@@ -1117,13 +1161,15 @@ namespace otto::util {
       WrappedIter first, last;
     };
 
+    template<typename Range>
+    circular_iterator(Range&& rng) -> circular_iterator<std::decay_t<decltype(std::begin(rng))>>;
 
   } // namespace iterator
 
   namespace view {
 
     template<typename Range, typename Callable>
-    auto transform(Range&& r, Callable&& c)
+    constexpr auto transform(Range&& r, Callable&& c)
     {
       using std::begin, std::end;
       using transformiter = transform_iterator<decltype(begin(r)), std::decay_t<Callable>>;
@@ -1133,7 +1179,7 @@ namespace otto::util {
     }
 
     template<typename Range, typename Predicate>
-    auto filter(Range&& r, Predicate&& c)
+    constexpr auto filter(Range&& r, Predicate&& c)
     {
       using std::begin, std::end;
       using filteriter = filter_iterator<decltype(begin(r)), std::decay_t<Predicate>>;
@@ -1143,7 +1189,7 @@ namespace otto::util {
     }
 
     template<typename Range>
-    auto circular(Range&& r)
+    constexpr auto circular(Range&& r)
     {
       using std::begin, std::end;
       using CircIter = circular_iterator<decltype(begin(r))>;

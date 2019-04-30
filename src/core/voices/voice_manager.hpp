@@ -65,10 +65,10 @@ namespace otto::core::voices {
     VoiceBase(const VoiceBase&) = delete;
 
     /// Implement a handler for note on events
-    virtual void on_note_on() noexcept;
+    void on_note_on() noexcept;
 
     /// Implement a handler for note off events
-    virtual void on_note_off() noexcept;
+    void on_note_off() noexcept;
 
     /// Get the current frequency this voice should play
     ///
@@ -235,7 +235,10 @@ namespace otto::core::voices {
     void handle_control_change(const midi::ControlChangeEvent&) noexcept;
 
     /// Process audio, applying Preprocessing, each voice and then postprocessing
-    audio::ProcessData<1> process(audio::ProcessData<1> data) noexcept;
+    /// 
+    /// Marked `gnu::flatten` and `gnu::always_inline` to force inlining.
+    [[gnu::flatten, gnu::always_inline]]
+    inline audio::ProcessData<1> process(audio::ProcessData<1> data) noexcept;
 
     /// Return list of voices
     std::array<Voice, voice_count_v>& voices();

@@ -3,6 +3,7 @@
 #include <magic_enum.hpp>
 #include <foonathan/array/small_array.hpp>
 
+#include "util/view.hpp"
 #include "core/engine/engine.hpp"
 
 namespace otto::engines {
@@ -63,7 +64,7 @@ namespace otto::engines {
     bool running_ = false;
 
     std::vector<midi::NoteOnEvent> held_notes_;
-    decltype(util::view::circular(props.output_stack_).begin()) iter = util::view::circular(props.output_stack_).begin();
+    decltype(util::circular_iterator(props.output_stack_)) iter = util::circular_iterator(props.output_stack_);
   };
 
 

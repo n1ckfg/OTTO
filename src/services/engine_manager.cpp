@@ -9,8 +9,8 @@
 #include "engines/fx/wormhole/wormhole.hpp"
 #include "engines/misc/master/master.hpp"
 #include "engines/misc/sends/sends.hpp"
-#include "engines/seq/euclid/euclid.hpp"
 #include "engines/seq/arp/arp.hpp"
+#include "engines/seq/euclid/euclid.hpp"
 #include "engines/synths/OTTOFM/ottofm.hpp"
 #include "engines/synths/potion/potion.hpp"
 #include "engines/synths/rhodes/rhodes.hpp"
@@ -94,24 +94,23 @@ namespace otto::services {
 
     ui_manager.register_key_handler(ui::Key::envelope, [&](ui::Key k) {
       auto& owner = synth.current();
-        if (ui_manager.is_pressed(ui::Key::shift)) {
-          ui_manager.display(owner.voices_screen());
-        } else {
-          ui_manager.select_engine("Synth");
-          ui_manager.display(owner.envelope_screen());
+      if (ui_manager.is_pressed(ui::Key::shift)) {
+        ui_manager.display(owner.voices_screen());
+      } else {
+        ui_manager.select_engine("Synth");
+        ui_manager.display(owner.envelope_screen());
       }
     });
 
-    ui_manager.register_key_handler(ui::Key::voices, [&](ui::Key k) {
-      ui_manager.display(synth.current().voices_screen());
-    });
+    ui_manager.register_key_handler(
+      ui::Key::voices, [&](ui::Key k) { ui_manager.display(synth.current().voices_screen()); });
 
     ui_manager.register_key_handler(ui::Key::oct_up, [&](ui::Key k) {
       synth.current().voices_screen().keypress(ui::Key::oct_up);
     });
 
     ui_manager.register_key_handler(ui::Key::oct_down, [&](ui::Key k) {
-        synth.current().voices_screen().keypress(ui::Key::oct_down);
+      synth.current().voices_screen().keypress(ui::Key::oct_down);
     });
 
     ui_manager.register_key_handler(ui::Key::fx1, [&](ui::Key k) {
@@ -199,12 +198,13 @@ namespace otto::services {
     }
     auto fx1_out = effect1->process(audio::ProcessData<1>(fx1_bus));
     auto fx2_out = effect2->process(audio::ProcessData<1>(fx2_bus));
-    for (auto&& [snth, fx1L, fx1R, fx2L, fx2R] :
-         util::zip(synth_out.audio, fx1_out.audio[0], fx1_out.audio[1], fx2_out.audio[0],
-                   fx2_out.audio[1])) {
-      fx1L += fx2L + snth * synth_send.props.dry * (1 - synth_send.props.dry_pan);
-      fx1R += fx2R + snth * synth_send.props.dry * (1 + synth_send.props.dry_pan);
-    }
+    // for (auto&& [snth, fx1, fx2] :
+    //      util::zip(synth_out.audio, zip_audio(fx1_out.audio[0], fx1_out.audio[1]),
+    //                zip_audio(fx2_out.audio[0], fx2_out.audio[1]))) {
+    //   fx1 +=
+    //     fx2 + audio::AudioFrame<2>({1 - synth_send.props.dry_pan, 1 + synth_send.props.dry_pan}) *
+    //             snth * synth_send.props.dry;
+    // }
     synth_out.audio.release();
     fx2_out.audio[0].release();
     fx2_out.audio[1].release();

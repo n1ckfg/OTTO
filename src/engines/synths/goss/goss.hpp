@@ -66,6 +66,7 @@ namespace otto::engines {
 
       Voice(Pre&) noexcept;
 
+      [[gnu::always_inline]]
       float operator()() noexcept;
 
       void on_note_on() noexcept;
