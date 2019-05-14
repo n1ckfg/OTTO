@@ -198,13 +198,10 @@ namespace otto::services {
     }
     auto fx1_out = effect1->process(audio::ProcessData<1>(fx1_bus));
     auto fx2_out = effect2->process(audio::ProcessData<1>(fx2_bus));
-    // for (auto&& [snth, fx1, fx2] :
-    //      util::zip(synth_out.audio, zip_audio(fx1_out.audio[0], fx1_out.audio[1]),
-    //                zip_audio(fx2_out.audio[0], fx2_out.audio[1]))) {
-    //   fx1 +=
-    //     fx2 + audio::AudioFrame<2>({1 - synth_send.props.dry_pan, 1 + synth_send.props.dry_pan}) *
-    //             snth * synth_send.props.dry;
-    // }
+    for (auto&& [snth, fx1, fx2] : util::zip(synth_out.audio, fx1_out, fx2_out)) {
+      fx1 += fx2 + audio::frame(1 - synth_send.props.dry_pan, 1 + synth_send.props.dry_pan) * snth *
+                     synth_send.props.dry;
+    }
     synth_out.audio.release();
     fx2_out.audio[0].release();
     fx2_out.audio[1].release();

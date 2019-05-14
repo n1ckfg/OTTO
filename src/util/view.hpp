@@ -77,10 +77,10 @@ namespace otto::util {
 
     constexpr auto circular() const;
 
-    constexpr auto find() const;
+    constexpr auto find() const -> tl::optional<value_type>;
 
     template<typename Predicate>
-    constexpr auto find_if(Predicate&& p) const;
+    constexpr auto find_if(Predicate&& p) const -> tl::optional<value_type>;
 
     std::vector<value_type> collect() const;
 
@@ -111,6 +111,26 @@ namespace otto::util {
   template<typename ContRef>
   View(ContRef&& cont)
     ->View<std::decay_t<decltype(std::begin(cont))>, std::decay_t<decltype(std::end(cont))>>;
+
+  /// Create a ZippedRange from ranges
+  ///
+  /// Its very useful with structured bindings and `for` loops, letting you iterate
+  /// over multiple containers at once:
+  /// ```
+  /// for (auto&& [r1, r2] : util::zip(range1, range2)) {
+  ///   ...
+  /// }
+  /// ```
+  template<typename... Ranges>
+  constexpr auto zip(Ranges&&... ranges)
+  {
+    return make_view(zip_iters(std::begin(ranges)...), zip_iters(std::end(ranges)...));
+  }
+
+  /// Define with a `static Cont collect(Iter b, Iter e)` to collect two iterators into the
+  /// container `Cont`
+  template<typename Cont>
+  struct collector;
 
 } // namespace otto::util
 

@@ -2,6 +2,36 @@
 
 namespace otto::util {
 
+  // COLLECTORS //
+
+  template<typename T>
+  struct collector<std::vector<T>> {
+    template<typename BIter, typename EIter>
+    static std::vector<T> collect(BIter b, EIter e)
+    {
+      return std::vector<T>{b, e};
+    }
+  };
+
+  template<typename T, std::size_t N>
+  struct collector<std::array<T, N>> {
+    template<typename BIter, typename EIter>
+    static std::array<T, N> collect(BIter b, EIter e)
+    {
+      std::array<T, N> res;
+      int i = 0;
+      for (; i < N && b != e; b++, i++) {
+        res[i] = *b;
+      }
+      // TODO: Throw exception instead? or do other error handling?
+      assert(i == N);
+      assert(b == e);
+      return res;
+    }
+  };
+
+  // VIEW //
+
   template<typename BeginIter, typename EndIter>
   constexpr auto make_view(BeginIter&& b, EndIter&& e)
   {
@@ -71,7 +101,7 @@ namespace otto::util {
     using transformiter = transform_iterator<B, std::decay_t<FuncRef>>;
     auto first = transformiter(begin(), std::forward<FuncRef>(f));
     auto last = transformiter(end(), first);
-    return make_view(std::move(first), std::end(last));
+    return make_view(std::move(first), std::move(last));
   }
 
   template<typename B, typename E>
@@ -94,20 +124,20 @@ namespace otto::util {
   }
 
   template<typename B, typename E>
-  constexpr auto View<B, E>::find() const
+  constexpr auto View<B, E>::find() const -> tl::optional<value_type>
   {
     auto found = std::find(begin(), end());
     if (found == end()) return tl::nullopt;
-    return tl::make_optional(found);
+    return tl::make_optional(*found);
   }
 
   template<typename B, typename E>
   template<typename Predicate>
-  constexpr auto View<B, E>::find_if(Predicate&& p) const
+  constexpr auto View<B, E>::find_if(Predicate&& p) const -> tl::optional<value_type>
   {
     auto found = std::find_if(begin(), end(), std::forward<Predicate>(p));
     if (found == end()) return tl::nullopt;
-    return tl::make_optional(found);
+    return tl::make_optional(*found);
   }
 
   template<typename B, typename E>
@@ -120,7 +150,7 @@ namespace otto::util {
   template<typename Cont>
   constexpr Cont View<B, E>::collect() const
   {
-    return Cont{begin(), end()};
+    return collector<Cont>::collect(begin(), end());
   }
 
   template<typename B, typename E>
@@ -164,7 +194,8 @@ namespace otto::util {
   template<typename B, typename E>
   constexpr auto View<B, E>::indexed(int start_val) const
   {
-    return make_view(generator([n = start_val]() mutable { return n++; }), nulliter<int>).zip(*this);
+    return make_view(generator([n = start_val]() mutable { return n++; }), nulliter<int>)
+      .zip(*this);
   }
 
 

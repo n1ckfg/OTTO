@@ -23,6 +23,7 @@
 
 #include "core/audio/midi.hpp"
 
+#include "core/audio/audio_frame.hpp"
 #include "util/audio.hpp"
 
 namespace otto::core::audio {
@@ -173,6 +174,55 @@ namespace otto::core::audio {
     int* _reference_count;
   };
 
+  template<std::size_t N>
+  struct AudioBufferHandleArray {
+  private:
+    static constexpr auto zip_wrapper = [](auto&&... args) -> decltype(auto) { return zip_audio(args...); };
+  public:
+    using iterator = std::decay_t<decltype(std::apply(zip_wrapper, std::declval<std::array<AudioBufferHandle, N>&>()).begin())>;
+
+    AudioBufferHandleArray(std::array<AudioBufferHandle, N> array) noexcept : array_(array) {}
+
+    static constexpr std::size_t size() noexcept
+    {
+      return N;
+    }
+
+    iterator begin() noexcept
+    {
+      return std::apply(zip_wrapper, array_).begin();
+    }
+    iterator end() noexcept
+    {
+      return std::apply(zip_wrapper, array_).end();
+    }
+
+    AudioBufferHandle& operator[](std::size_t i) noexcept
+    {
+      assert(i < size());
+      return array_[i];
+    }
+
+    const AudioBufferHandle& operator[](std::size_t i) const noexcept
+    {
+      assert(i < size());
+      return array_[i];
+    }
+
+    operator std::array<AudioBufferHandle, N>&() noexcept
+    {
+      return array_;
+    }
+
+    operator const std::array<AudioBufferHandle, N>&() const noexcept
+    {
+      return array_;
+    }
+
+  private:
+    std::array<AudioBufferHandle, N> array_;
+  };
+
   struct AudioBufferPool {
     static constexpr int number_of_buffers = 8;
     AudioBufferPool(std::size_t buffer_size) : buffer_size(buffer_size)
@@ -208,13 +258,13 @@ namespace otto::core::audio {
     }
 
     template<int NN>
-    std::array<AudioBufferHandle, NN> allocate_multi() noexcept
+    AudioBufferHandleArray<NN> allocate_multi() noexcept
     {
       return util::generate_array<NN>([this](int) { return allocate(); });
     }
 
     template<int NN>
-    std::array<AudioBufferHandle, NN> allocate_multi_clear() noexcept
+    AudioBufferHandleArray<NN> allocate_multi_clear() noexcept
     {
       return util::generate_array<NN>([this](int) { return allocate_clear(); });
     }
@@ -244,8 +294,9 @@ namespace otto::core::audio {
   template<int N>
   struct ProcessData {
     static constexpr int channels = N;
+    using iterator = typename AudioBufferHandleArray<N>::iterator;
 
-    std::array<AudioBufferHandle, channels> audio;
+    AudioBufferHandleArray<N> audio;
     midi::shared_vector<midi::AnyMidiEvent> midi;
     long nframes;
 
@@ -265,6 +316,9 @@ namespace otto::core::audio {
     template<std::size_t NN>
     ProcessData<NN> redirect(const std::array<AudioBufferHandle, NN>& buf);
 
+    template<std::size_t NN>
+    ProcessData<NN> redirect(const AudioBufferHandleArray<NN>& buf);
+
     ProcessData<1> redirect(const AudioBufferHandle& buf);
 
     /// Get only a slice of the audio.
@@ -277,9 +331,16 @@ namespace otto::core::audio {
     ProcessData slice(int idx, int length = -1);
 
     std::array<float*, channels> raw_audio_buffers();
-  };
 
-  using TestType = std::vector<struct Tag>;
+    iterator begin() noexcept
+    {
+      return audio.begin();
+    }
+    iterator end() noexcept
+    {
+      return audio.end();
+    }
+  };
 
   /// Non-owning package of data passed to audio processors
   template<>
@@ -293,6 +354,8 @@ namespace otto::core::audio {
 
     template<std::size_t NN>
     ProcessData<NN> redirect(const std::array<AudioBufferHandle, NN>& buf);
+    template<std::size_t NN>
+    ProcessData<NN> redirect(const AudioBufferHandleArray<NN>& buf);
     ProcessData<1> redirect(const AudioBufferHandle& buf);
 
     std::array<float*, 0> raw_audio_buffers();
@@ -329,6 +392,8 @@ namespace otto::core::audio {
 
     template<std::size_t NN>
     ProcessData<NN> redirect(const std::array<AudioBufferHandle, NN>& buf);
+    template<std::size_t NN>
+    ProcessData<NN> redirect(const AudioBufferHandleArray<NN>& buf);
     ProcessData<1> redirect(const AudioBufferHandle& buf);
 
     /// Get only a slice of the audio.
@@ -341,167 +406,16 @@ namespace otto::core::audio {
     ProcessData slice(int idx, int length = -1);
 
     std::array<float*, channels> raw_audio_buffers();
+
+    auto begin() noexcept
+    {
+      return audio.begin();
+    }
+    auto end() noexcept
+    {
+      return audio.end();
+    }
   };
-
-  template<int N>
-  struct AudioFrame {
-    using iterator = typename std::array<float, N>::iterator;
-    using const_iterator = typename std::array<float, N>::const_iterator;
-
-    static constexpr int channels = N;
-
-    AudioFrame() noexcept = default;
-    AudioFrame(std::array<float, N> il) : data_(std::move(il)) {}
-
-    template<typename Func, typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float>>>
-    AudioFrame<N>& transform_in_place(Func&& f) noexcept;
-    template<typename Func,
-             typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float, float>>>
-    AudioFrame<N>& transform_in_place(AudioFrame<N> af, Func&& f) noexcept;
-
-    template<typename Func, typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float>>>
-    AudioFrame<N> transform(Func&& f) const noexcept;
-    template<typename Func,
-             typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float, float>>>
-    AudioFrame<N> transform(AudioFrame<N> af, Func&& f) const noexcept;
-
-    // iterators
-    iterator begin() noexcept;
-    iterator end() noexcept;
-    const_iterator begin() const noexcept;
-    const_iterator end() const noexcept;
-
-    // accessors
-
-    float& operator[](int i) noexcept;
-    const float& operator[](int i) const noexcept;
-
-    AudioFrame<N> operator+(float f) const noexcept;
-    AudioFrame<N> operator+(AudioFrame<N> af) const noexcept;
-    AudioFrame<N> operator-(float f) const noexcept;
-    AudioFrame<N> operator-(AudioFrame<N> af) const;
-    AudioFrame<N> operator*(float f) const noexcept;
-    AudioFrame<N> operator*(AudioFrame<N> af) const noexcept;
-    AudioFrame<N> operator/(float f) const noexcept;
-    AudioFrame<N> operator/(AudioFrame<N> af) const noexcept;
-
-    friend AudioFrame<N> operator+(float f, const AudioFrame<N>&) noexcept;
-    friend AudioFrame<N> operator-(float f, const AudioFrame<N>&) noexcept;
-    friend AudioFrame<N> operator*(float f, const AudioFrame<N>&) noexcept;
-    friend AudioFrame<N> operator/(float f, const AudioFrame<N>&) noexcept;
-
-    AudioFrame<N>& operator+=(float f) noexcept;
-    AudioFrame<N>& operator+=(AudioFrame<N> af) noexcept;
-    AudioFrame<N>& operator-=(float f) noexcept;
-    AudioFrame<N>& operator-=(AudioFrame<N> af) noexcept;
-    AudioFrame<N>& operator*=(float f) noexcept;
-    AudioFrame<N>& operator*=(AudioFrame<N> af) noexcept;
-    AudioFrame<N>& operator/=(float f) noexcept;
-    AudioFrame<N>& operator/=(AudioFrame<N> af) noexcept;
-
-    bool operator==(const AudioFrame<N>& af) const noexcept;
-    bool operator!=(const AudioFrame<N>& af) const noexcept;
-    bool operator<(const AudioFrame<N>& af) const noexcept;
-    bool operator>(const AudioFrame<N>& af) const noexcept;
-    bool operator<=(const AudioFrame<N>& af) const noexcept;
-    bool operator>=(const AudioFrame<N>& af) const noexcept;
-
-  private:
-    std::array<float, channels> data_;
-  };
-
-  template<int N>
-  AudioFrame(std::array<float, N>)->AudioFrame<N>;
-
-  template<int N>
-  struct AudioFrameRef {
-    using iterator = util::double_dereference_iterator<typename std::array<float*, N>::iterator>;
-    using const_iterator =
-      util::double_dereference_iterator<typename std::array<float*, N>::const_iterator>;
-
-    static constexpr int channels = N;
-
-    AudioFrameRef(std::array<float*, N> il) : data_(std::move(il)) {}
-
-    template<typename Func, typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float>>>
-    AudioFrameRef<N>& transform_in_place(Func&& f) noexcept;
-    template<typename Func,
-             typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float, float>>>
-    AudioFrameRef<N>& transform_in_place(AudioFrame<N> af, Func&& f) noexcept;
-
-    template<typename Func, typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float>>>
-    AudioFrame<N> transform(Func&& f) const noexcept;
-    template<typename Func,
-             typename = std::enable_if_t<util::is_invocable_r_v<float, Func, float, float>>>
-    AudioFrame<N> transform(AudioFrame<N> af, Func&& f) const noexcept;
-
-    // iterators
-    iterator begin() noexcept;
-    iterator end() noexcept;
-    const_iterator begin() const noexcept;
-    const_iterator end() const noexcept;
-
-    // accessors
-
-    float& operator[](int i) noexcept;
-    const float& operator[](int i) const noexcept;
-
-    AudioFrame<N> operator+(float f) const noexcept;
-    AudioFrame<N> operator+(AudioFrame<N> af) const noexcept;
-    AudioFrame<N> operator-(float f) const noexcept;
-    AudioFrame<N> operator-(AudioFrame<N> af) const;
-    AudioFrame<N> operator*(float f) const noexcept;
-    AudioFrame<N> operator*(AudioFrame<N> af) const noexcept;
-    AudioFrame<N> operator/(float f) const noexcept;
-    AudioFrame<N> operator/(AudioFrame<N> af) const noexcept;
-
-    friend AudioFrame<N> operator+(float f, const AudioFrameRef<N>&) noexcept;
-    friend AudioFrame<N> operator-(float f, const AudioFrameRef<N>&) noexcept;
-    friend AudioFrame<N> operator*(float f, const AudioFrameRef<N>&) noexcept;
-    friend AudioFrame<N> operator/(float f, const AudioFrameRef<N>&) noexcept;
-
-    AudioFrameRef<N>& operator+=(float f) noexcept;
-    AudioFrameRef<N>& operator+=(AudioFrame<N> af) noexcept;
-    AudioFrameRef<N>& operator-=(float f) noexcept;
-    AudioFrameRef<N>& operator-=(AudioFrame<N> af) noexcept;
-    AudioFrameRef<N>& operator*=(float f) noexcept;
-    AudioFrameRef<N>& operator*=(AudioFrame<N> af) noexcept;
-    AudioFrameRef<N>& operator/=(float f) noexcept;
-    AudioFrameRef<N>& operator/=(AudioFrame<N> af) noexcept;
-
-    bool operator==(const AudioFrame<N>& af) const noexcept;
-    bool operator!=(const AudioFrame<N>& af) const noexcept;
-    bool operator<(const AudioFrame<N>& af) const noexcept;
-    bool operator>(const AudioFrame<N>& af) const noexcept;
-    bool operator<=(const AudioFrame<N>& af) const noexcept;
-    bool operator>=(const AudioFrame<N>& af) const noexcept;
-
-    operator AudioFrame<N>() const noexcept;
-
-  private:
-    std::array<float*, channels> data_;
-  };
-
-  template<int N>
-  AudioFrameRef(std::array<float*, N>)->AudioFrameRef<N>;
-
-  template<typename... Args>
-  AudioFrame<sizeof...(Args)> frame(Args... args) noexcept
-  {
-    return AudioFrame<sizeof...(Args)>({static_cast<float>(args)...});
-  }
-
-  template<typename... Args>
-  AudioFrame<sizeof...(Args)> frame_ref(Args... args) noexcept
-  {
-    return AudioFrameRef<sizeof...(Args)>({&static_cast<float&>(args)...});
-  }
-
-  /// Zip audio buffers (any containers of floats).
-  ///
-  /// The resulting range contains {@ref AudioFrame}s.
-  template<typename... ContainerRefs>
-  auto zip_audio(ContainerRefs&&... crfs) noexcept;
 
 } // namespace otto::core::audio
 

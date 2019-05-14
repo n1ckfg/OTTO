@@ -3,6 +3,7 @@
 #include <array>
 
 #include "util/iterator.hpp"
+#include "util/view.hpp"
 
 namespace otto::util {
 

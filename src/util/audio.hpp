@@ -20,23 +20,6 @@ namespace otto::util::audio {
   }
 
   /*
-   * A frame of audio, with nChannels channels
-   */
-  template<int nChannels = 4, typename SampleType = float>
-  using AudioFrame = std::array<SampleType, nChannels>;
-
-  /// Add all elements in r2 and rs to their respective elements in r1.
-  template<typename Rng1, typename Rng2, typename... Rngs>
-  void add_all(Rng1&& r1, Rng2&& r2, Rngs&&... rs)
-  {
-    auto sum = [](auto const&... e) -> decltype(auto) { return (e + ...); };
-    for (auto&& [ir1, irs] :
-         util::zip(r1, util::zip(std::forward<Rng2>(r2), std::forward<Rngs>(rs)...))) {
-      ir1 += std::apply(sum, irs);
-    }
-  }
-
-  /*
    * A simple average, used to get a 1-dimensional graph of audio
    */
   struct Graph {

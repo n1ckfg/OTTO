@@ -440,7 +440,9 @@ namespace otto::util {
        */
 
       /// Construct an iterator, pointing to `ptr`
-      constexpr float_step_iterator(const wrapped_type& iter, float step = 1.f) : step{step}, iter{iter} {}
+      constexpr float_step_iterator(const wrapped_type& iter, float step = 1.f)
+        : step{step}, iter{iter}
+      {}
 
       /// Copy constructor
       constexpr float_step_iterator(const float_step_iterator& r)
@@ -699,7 +701,7 @@ namespace otto::util {
     }
 
     /// Iterator wrapper that dereferences the result of the dereference.
-    /// 
+    ///
     /// Can be used to iterate through the values of an array of pointers or other iterators.
     template<typename Wrapped>
     struct double_dereference_iterator
@@ -870,51 +872,6 @@ namespace otto::util {
       return zipped_iterator<Iterators...>(iters...);
     }
 
-    template<typename... Ranges>
-    struct ZippedRange {
-      constexpr ZippedRange(Ranges&&... ranges) : first{std::begin(ranges)...}, last{std::end(ranges)...} {}
-
-      constexpr auto begin()
-      {
-        return first;
-      }
-
-      constexpr auto begin() const
-      {
-        return first;
-      }
-
-      constexpr auto end()
-      {
-        return last;
-      }
-
-      constexpr auto end() const
-      {
-        return last;
-      }
-
-      zipped_iterator<std::decay_t<decltype(std::begin(std::declval<Ranges>()))>...> first;
-
-      zipped_iterator<std::decay_t<decltype(std::end(std::declval<Ranges>()))>...> last;
-    };
-
-    /// Create a ZippedRange from ranges
-    ///
-    /// Its very useful with structured bindings and `for` loops, letting you iterate
-    /// over multiple containers at once:
-    /// ```
-    /// for (auto&& [r1, r2] : util::zip(range1, range2)) {
-    ///   ...
-    /// }
-    /// ```
-    template<typename... Ranges>
-    constexpr auto zip(Ranges&&... ranges)
-    {
-      return ZippedRange<Ranges...>(std::forward<Ranges>(ranges)...);
-    }
-
-
     /****************************************************************************/
     /* ADJACENT PAIR ITERATORS                                                  */
     /****************************************************************************/
@@ -1021,19 +978,17 @@ namespace otto::util {
         std::advance(iter, 1);
       }
 
-      constexpr decltype(auto) dereference()
+      constexpr util::invoke_result_t<Callable, detail::reference_t<WrappedIter>> dereference()
       {
         return std::invoke(*callable, *iter);
       }
 
-      constexpr decltype(auto) dereference() const
-      {
-        if constexpr (std::is_const_v<detail::reference_t<WrappedIter>>) {
-          return std::invoke(*callable, *iter);
-        } else {
-          throw "SHOULD BE UNREACHABLE";
-        }
-      }
+//      constexpr auto dereference() const
+//        -> std::enable_if_t<std::is_const_v<detail::reference_t<WrappedIter>>,
+//                            util::invoke_result_t<Callable, detail::reference_t<WrappedIter>>>
+//      {
+//        return std::invoke(*callable, *iter);
+//      }
 
       constexpr bool equal(const transform_iterator& o) const
       {
@@ -1120,6 +1075,13 @@ namespace otto::util {
       static_assert(std::is_same_v<std::decay_t<decltype(*std::declval<WrappedIter>())>,
                                    detail::value_type_t<WrappedIter>>);
 
+      constexpr circular_iterator(circular_iterator&) noexcept = default;
+      constexpr circular_iterator(const circular_iterator&) noexcept = default;
+      constexpr circular_iterator(circular_iterator&&) noexcept = default;
+
+      circular_iterator& operator=(const circular_iterator&) noexcept = default;
+      circular_iterator& operator=(circular_iterator&&) noexcept = default;
+
       template<typename Range>
       constexpr circular_iterator(Range&& rng)
         : iter(std::begin(rng)), first(std::begin(rng)), last(std::end(rng))
@@ -1162,7 +1124,7 @@ namespace otto::util {
     };
 
     template<typename Range>
-    circular_iterator(Range&& rng) -> circular_iterator<std::decay_t<decltype(std::begin(rng))>>;
+    circular_iterator(Range&& rng)->circular_iterator<std::decay_t<decltype(std::begin(rng))>>;
 
   } // namespace iterator
 
