@@ -93,7 +93,7 @@ Functions</h2></td></tr>
 <tr class="separator:a5f7bc6312f009076010fd94f8efe153a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c4128f38834f42c7ede1c6777b83fcc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a1c4128f38834f42c7ede1c6777b83fcc"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#a1c4128f38834f42c7ede1c6777b83fcc">modulo</a> (T a, T b)</td></tr>
-<tr class="memdesc:a1c4128f38834f42c7ede1c6777b83fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real modulo for negative <code>a</code> too.  <a href="#a1c4128f38834f42c7ede1c6777b83fcc">More...</a><br /></td></tr>
+<tr class="memdesc:a1c4128f38834f42c7ede1c6777b83fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real modulo for negative <code>a</code> too.  <a href="namespaceotto_1_1util_1_1math.html#a1c4128f38834f42c7ede1c6777b83fcc">More...</a><br /></td></tr>
 <tr class="separator:a1c4128f38834f42c7ede1c6777b83fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a441f8b0f423ab933b18137c2b7869849"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#a441f8b0f423ab933b18137c2b7869849">operator*</a> (<a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/numeric/valarray">std::valarray</a>&lt; <a class="el" href="structotto_1_1util_1_1math_1_1vec.html">vec</a> &gt; const &amp;rhs, float lhs) noexcept</td></tr>
 <tr class="separator:a441f8b0f423ab933b18137c2b7869849"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -101,8 +101,12 @@ Functions</h2></td></tr>
 <tr class="separator:a94128954402cbb6f0e2c8d6aa5555772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9150be8c0801f4306df5b3a59aba0a4"><td class="memTemplParams" colspan="2">template&lt;int N&gt; </td></tr>
 <tr class="memitem:aa9150be8c0801f4306df5b3a59aba0a4"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; float, N &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#aa9150be8c0801f4306df5b3a59aba0a4">split_values</a> (float f, float min, float max)</td></tr>
-<tr class="memdesc:aa9150be8c0801f4306df5b3a59aba0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a number into <code>N</code> values between 0 and 1, each representing a Nth part of the range <code>[min,max]</code>  <a href="#aa9150be8c0801f4306df5b3a59aba0a4">More...</a><br /></td></tr>
+<tr class="memdesc:aa9150be8c0801f4306df5b3a59aba0a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a number into <code>N</code> values between 0 and 1, each representing a Nth part of the range <code>[min,max]</code>  <a href="namespaceotto_1_1util_1_1math.html#aa9150be8c0801f4306df5b3a59aba0a4">More...</a><br /></td></tr>
 <tr class="separator:aa9150be8c0801f4306df5b3a59aba0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e4a4c54665f905c7f8562449f5c4749"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#a7e4a4c54665f905c7f8562449f5c4749">vox_fasttanh2</a> (const double x)</td></tr>
+<tr class="separator:a7e4a4c54665f905c7f8562449f5c4749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8836f1257102b52180a8e619cf3d82"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1math.html#a4d8836f1257102b52180a8e619cf3d82">fasttanh3</a> (const float x)</td></tr>
+<tr class="separator:a4d8836f1257102b52180a8e619cf3d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad7bab0f198c71c2a75c853cff8beaa26"></a>
@@ -371,6 +375,46 @@ template&lt;int N&gt; </div>
 <p>This is useful for UI especially, when you want to display a range of values by fading colours between N fixed points. See <code>draw_pitch</code> in <code>drum_sampler.cpp</code> for an example </p>
 
 <p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00104">104</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a7e4a4c54665f905c7f8562449f5c4749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e4a4c54665f905c7f8562449f5c4749">&#9670;&nbsp;</a></span>vox_fasttanh2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double otto::util::math::vox_fasttanh2 </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00115">115</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4d8836f1257102b52180a8e619cf3d82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8836f1257102b52180a8e619cf3d82">&#9670;&nbsp;</a></span>fasttanh3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float otto::util::math::fasttanh3 </td>
+          <td>(</td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="math_8hpp_source.html#l00126">126</a> of file <a class="el" href="math_8hpp_source.html">math.hpp</a>.</p>
 
 </div>
 </div>

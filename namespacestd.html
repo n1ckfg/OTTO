@@ -2135,7 +2135,88 @@ Functions</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="http://en.cppreference.com/w/cpp/algorithm/inner_product.html">inner_product</a> (T... args)</td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967d3356027d2bfa8258dd01e7c5f47d"><td class="memTemplParams" colspan="2">template&lt;class Visitor , class Base , class Variant &gt; </td></tr>
+<tr class="memitem:a967d3356027d2bfa8258dd01e7c5f47d"><td class="memTemplItemLeft" align="right" valign="top">constexpr decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestd.html#a967d3356027d2bfa8258dd01e7c5f47d">visit</a> (Visitor &amp;&amp;vis, <a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">otto::util::basic_variant_w_base</a>&lt; Base, Variant &gt; &amp;var)</td></tr>
+<tr class="separator:a967d3356027d2bfa8258dd01e7c5f47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade2a791b18d7c0749f7471b53712e835"><td class="memTemplParams" colspan="2">template&lt;class T , class Base , class Variant &gt; </td></tr>
+<tr class="memitem:ade2a791b18d7c0749f7471b53712e835"><td class="memTemplItemLeft" align="right" valign="top">constexpr decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacestd.html#ade2a791b18d7c0749f7471b53712e835">get</a> (<a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">otto::util::basic_variant_w_base</a>&lt; Base, Variant &gt; &amp;var)</td></tr>
+<tr class="separator:ade2a791b18d7c0749f7471b53712e835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a967d3356027d2bfa8258dd01e7c5f47d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967d3356027d2bfa8258dd01e7c5f47d">&#9670;&nbsp;</a></span>visit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Visitor , class Base , class Variant &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr decltype(auto) std::visit </td>
+          <td>(</td>
+          <td class="paramtype">Visitor &amp;&amp;&#160;</td>
+          <td class="paramname"><em>vis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">otto::util::basic_variant_w_base</a>&lt; Base, Variant &gt; &amp;&#160;</td>
+          <td class="paramname"><em>var</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="variant__w__base_8hpp_source.html#l00175">175</a> of file <a class="el" href="variant__w__base_8hpp_source.html">variant_w_base.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="utility_8hpp_source.html#l00037">otto::util::match()</a>.</p>
+
+</div>
+</div>
+<a id="ade2a791b18d7c0749f7471b53712e835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade2a791b18d7c0749f7471b53712e835">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Base , class Variant &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr decltype(auto) std::get </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classotto_1_1util_1_1basic__variant__w__base.html">otto::util::basic_variant_w_base</a>&lt; Base, Variant &gt; &amp;&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="variant__w__base_8hpp_source.html#l00182">182</a> of file <a class="el" href="variant__w__base_8hpp_source.html">variant_w_base.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="property_8hpp_source.html#l00131">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;::operator const value_type &amp;()</a>, and <a class="el" href="signal_8hpp_source.html#l00019">otto::core::props::OTTO_PROPS_MIXIN_LEAF()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

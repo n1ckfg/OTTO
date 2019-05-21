@@ -77,13 +77,12 @@
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This namespace contains custom iterator types and general helper classes for working with containers. </p>
-<dl class="section attention"><dt>Attention</dt><dd><code><a class="el" href="namespaceotto_1_1util_1_1iterator.html" title="This namespace contains custom iterator types and general helper classes for working with containers.">otto::util::iterator</a></code> is an inline namespace, meaning all members can and should be accessed directly from the <code><a class="el" href="namespaceotto_1_1otto_1_1util.html">otto::util</a></code> namespace i.e. as <code>util::float_step(...)</code>, not <code>util::iterator::float_step(...)</code>. It is only a separate namespace for clarification of documentation and name resolution. </dd></dl>
+<div class="textblock"><p>This namespace contains custom iterator types and general helper classes for working with containers</p>
+<dl class="section attention"><dt>Attention</dt><dd><code><a class="el" href="namespaceotto_1_1util_1_1iterator.html">otto::util::iterator</a></code> is an inline namespace, meaning all members can and should be accessed directly from the <code><a class="el" href="namespaceotto_1_1util.html">otto::util</a></code> namespace i.e. as <code>util::float_step(...)</code>, not <code>util::iterator::float_step(...)</code>. It is only a separate namespace for clarification of documentation and name resolution. </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceotto_1_1util_1_1iterator_1_1view"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1iterator_1_1view.html">view</a></td></tr>
-<tr class="memdesc:namespaceotto_1_1util_1_1iterator_1_1view"><td class="mdescLeft">&#160;</td><td class="mdescRight">This namespace contains lazily evaluated "views" into containers. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -99,7 +98,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter iterator.  <a href="structotto_1_1util_1_1iterator_1_1filter__iterator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html">float_step_iterator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An iterator wrapper to iterate with a non-integer ratio.  <a href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1iterator_1_1generating__iterator.html">generating_iterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generating iterator.  <a href="structotto_1_1util_1_1iterator_1_1generating__iterator.html#details">More...</a><br /></td></tr>
@@ -130,19 +128,19 @@ Functions</h2></td></tr>
 <tr class="separator:ac5dfdbe3a9c1dac7890482fd9b886dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0402f1d4cf3cacc3ecaf21059759aa58"><td class="memTemplParams" colspan="2">template&lt;typename I , typename V  = typename detail::value_type&lt;std::decay_t&lt;I&gt;&gt;::type&gt; </td></tr>
 <tr class="memitem:a0402f1d4cf3cacc3ecaf21059759aa58"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1iterator.html#a0402f1d4cf3cacc3ecaf21059759aa58">float_step</a> (I &amp;&amp;iter, float step=1)</td></tr>
-<tr class="memdesc:a0402f1d4cf3cacc3ecaf21059759aa58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html" title="An iterator wrapper to iterate with a non-integer ratio.">float_step_iterator</a>.  <a href="#a0402f1d4cf3cacc3ecaf21059759aa58">More...</a><br /></td></tr>
+<tr class="memdesc:a0402f1d4cf3cacc3ecaf21059759aa58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html">float_step_iterator</a>.  <a href="namespaceotto_1_1util_1_1iterator.html#a0402f1d4cf3cacc3ecaf21059759aa58">More...</a><br /></td></tr>
 <tr class="separator:a0402f1d4cf3cacc3ecaf21059759aa58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e66a15dd7c857a6cb0ec8c2cde568dd"><td class="memTemplParams" colspan="2">template&lt;typename Generator &gt; </td></tr>
 <tr class="memitem:a5e66a15dd7c857a6cb0ec8c2cde568dd"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1iterator_1_1generating__iterator.html">generating_iterator</a>&lt; Generator &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1iterator.html#a5e66a15dd7c857a6cb0ec8c2cde568dd">generator</a> (Generator &amp;&amp;gen)</td></tr>
-<tr class="memdesc:a5e66a15dd7c857a6cb0ec8c2cde568dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a generating iterator.  <a href="#a5e66a15dd7c857a6cb0ec8c2cde568dd">More...</a><br /></td></tr>
+<tr class="memdesc:a5e66a15dd7c857a6cb0ec8c2cde568dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a generating iterator.  <a href="namespaceotto_1_1util_1_1iterator.html#a5e66a15dd7c857a6cb0ec8c2cde568dd">More...</a><br /></td></tr>
 <tr class="separator:a5e66a15dd7c857a6cb0ec8c2cde568dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f214bed4d115d995e9d1c6140d08715"><td class="memTemplParams" colspan="2">template&lt;typename... Iterators&gt; </td></tr>
 <tr class="memitem:a9f214bed4d115d995e9d1c6140d08715"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1iterator_1_1zipped__iterator.html">zipped_iterator</a>&lt; Iterators... &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1iterator.html#a9f214bed4d115d995e9d1c6140d08715">zip_iters</a> (Iterators... iters)</td></tr>
-<tr class="memdesc:a9f214bed4d115d995e9d1c6140d08715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a zipped iterator from iterators.  <a href="#a9f214bed4d115d995e9d1c6140d08715">More...</a><br /></td></tr>
+<tr class="memdesc:a9f214bed4d115d995e9d1c6140d08715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a zipped iterator from iterators.  <a href="namespaceotto_1_1util_1_1iterator.html#a9f214bed4d115d995e9d1c6140d08715">More...</a><br /></td></tr>
 <tr class="separator:a9f214bed4d115d995e9d1c6140d08715"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79f3b9d2823ae6ba79156ed5bb4084a8"><td class="memTemplParams" colspan="2">template&lt;typename... Ranges&gt; </td></tr>
 <tr class="memitem:a79f3b9d2823ae6ba79156ed5bb4084a8"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8">zip</a> (Ranges &amp;&amp;... ranges)</td></tr>
-<tr class="memdesc:a79f3b9d2823ae6ba79156ed5bb4084a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="structotto_1_1util_1_1iterator_1_1_zipped_range.html">ZippedRange</a> from ranges.  <a href="#a79f3b9d2823ae6ba79156ed5bb4084a8">More...</a><br /></td></tr>
+<tr class="memdesc:a79f3b9d2823ae6ba79156ed5bb4084a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="structotto_1_1util_1_1iterator_1_1_zipped_range.html">ZippedRange</a> from ranges.  <a href="namespaceotto_1_1util_1_1iterator.html#a79f3b9d2823ae6ba79156ed5bb4084a8">More...</a><br /></td></tr>
 <tr class="separator:a79f3b9d2823ae6ba79156ed5bb4084a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a680338a92dede259c280cc21ffaf528a"><td class="memTemplParams" colspan="2">template&lt;typename Range &gt; </td></tr>
 <tr class="memitem:a680338a92dede259c280cc21ffaf528a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util_1_1iterator.html#a680338a92dede259c280cc21ffaf528a">adjacent_pairs</a> (Range &amp;rng)</td></tr>
@@ -210,7 +208,7 @@ template&lt;typename I , typename V  = typename detail::value_type&lt;std::decay
       </table>
 </div><div class="memdoc">
 
-<p>Create a <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html" title="An iterator wrapper to iterate with a non-integer ratio.">float_step_iterator</a>. </p>
+<p>Create a <a class="el" href="classotto_1_1util_1_1iterator_1_1float__step__iterator.html">float_step_iterator</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="iterator_8hpp_source.html#l00696">696</a> of file <a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>.</p>
 
