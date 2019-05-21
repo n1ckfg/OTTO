@@ -126,6 +126,9 @@
 <li>screenDatasize
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#aa14ce3ac70f19c589d5b91ef3b79cbe1">otto::board::ui::EGLConnection::EGLData</a>
 </li>
+<li>ScreenSelector
+: <a class="el" href="structotto_1_1services_1_1_u_i_manager.html#a835b4049b34fdfc81678fe0e2df0a399">otto::services::UIManager</a>
+</li>
 <li>second
 : <a class="el" href="namespaceotto_1_1meta.html#a0019f7c77d98604c07fec4a05709f6ea">otto::meta::pair&lt; First, Second &gt;</a>
 </li>
@@ -134,14 +137,8 @@
 </li>
 <li>select()
 : <a class="el" href="structotto_1_1core_1_1engine_1_1_engine_dispatcher.html#a10917310d22ca4b8713e30d4af3147db">otto::core::engine::EngineDispatcher&lt; ET, Engines &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#a9b48adf458c45d48fc47c22d22bb8e7d">otto::core::engine::IEngineDispatcher</a>
+, <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine_dispatcher.html#ac41aa166ec9c9af3354c8a3fc12fe114">otto::core::engine::IEngineDispatcher</a>
 , <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#ab254ca9024a8ba7b475a6dda3a63d67e">otto::core::ui::SelectorWidget</a>
-</li>
-<li>select_engine()
-: <a class="el" href="structotto_1_1services_1_1_u_i_manager.html#a303c472abaa4e535ae209232746ea305">otto::services::UIManager</a>
-</li>
-<li>selected_engine_name()
-: <a class="el" href="structotto_1_1services_1_1_u_i_manager.html#a6404e6470b5789aa4547ad0903192012">otto::services::UIManager</a>
 </li>
 <li>selected_item()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#a1bddd0f5f0d24f048811d76c594b8e5f">otto::core::ui::SelectorWidget</a>
@@ -175,6 +172,9 @@
 <li>SequencerScreen
 : <a class="el" href="structotto_1_1engines_1_1_sequencer.html#a58f3d0ceb2d75dd455f78b66496e2a58">otto::engines::Sequencer</a>
 </li>
+<li>Serial()
+: <a class="el" href="structotto_1_1util_1_1_serial.html#aee3e1e8d279f8306aef10561f498dd2f">otto::util::Serial</a>
+</li>
 <li>Service()
 : <a class="el" href="structotto_1_1core_1_1_service.html#ae5c0f4d23d16f0ef33f57f506af9b5f4">otto::core::Service</a>
 </li>
@@ -195,12 +195,19 @@
 <li>set_buffer_size()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html#abb2724d231a7da9310af1b22c824f1c8">otto::core::audio::AudioBufferPool</a>
 </li>
+<li>set_color()
+: <a class="el" href="structotto_1_1services_1_1_controller.html#a69ee091ec9a5361e5c7d0e1f6883bdbc">otto::services::Controller</a>
+, <a class="el" href="structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html#ab1de90579d7b0a696a0349f1f719b912">otto::services::PrOTTO1SerialController</a>
+</li>
 <li>set_current()
 : <a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html#a8f3859ef4c6f4b5515ef14562c5756a5">otto::services::ClockManager::Client</a>
 , <a class="el" href="structotto_1_1services_1_1_clock_manager.html#a6dc18dacc5c683ceedc3bb3690f44a36">otto::services::ClockManager</a>
 </li>
 <li>set_range()
 : <a class="el" href="structotto_1_1util_1_1dsp_1_1_log_slider.html#ae828053e3e446157bd7836ac7bb1cfec">otto::util::dsp::LogSlider</a>
+</li>
+<li>set_state()
+: <a class="el" href="structotto_1_1services_1_1_u_i_manager.html#a7377fcf99d711302445e93c5e26d3a27">otto::services::UIManager</a>
 </li>
 <li>set_thread_name()
 : <a class="el" href="structotto_1_1services_1_1_log_manager.html#a03df5ee408802f0f9c9db47e24947965">otto::services::LogManager</a>
@@ -253,6 +260,9 @@
 <li>should_close()
 : <a class="el" href="structotto_1_1glfw_1_1_window.html#a970c41abe50de898b27ce2c5cd0ca0ed">otto::glfw::Window</a>
 </li>
+<li>should_run()
+: <a class="el" href="structotto_1_1util_1_1sleeper__thread.html#ae18bb525396d18d53cd66e5e7c759c98">otto::util::sleeper_thread</a>
+</li>
 <li>showWarnings()
 : <a class="el" href="class_rt_api.html#a3c28d90eda75287192b012eba92718ec">RtApi</a>
 , <a class="el" href="class_rt_audio.html#af0752ee51cce3dd90a3bd009f9fdbe77">RtAudio</a>
@@ -265,10 +275,12 @@
 </li>
 <li>Signal
 : <a class="el" href="structotto_1_1util_1_1_connection.html#ae380b80256a1fb0bcace2912d197767c">otto::util::Connection&lt; Args &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1_slot_ref.html#af340c3c147cf95e3e686e26b95f85c8d">otto::util::SlotRef&lt; Args &gt;</a>
 </li>
 <li>signal
 : <a class="el" href="structotto_1_1util_1_1_slot_ref.html#a1b186c6cd388fc2c7a563b4976a47efd">otto::util::SlotRef&lt; Args &gt;</a>
+</li>
+<li>Signal
+: <a class="el" href="structotto_1_1util_1_1_slot_ref.html#af340c3c147cf95e3e686e26b95f85c8d">otto::util::SlotRef&lt; Args &gt;</a>
 </li>
 <li>SimplePitchShift()
 : <a class="el" href="structotto_1_1dsp_1_1_simple_pitch_shift.html#ac8a5a70f7514e63199582a5307f8d816">otto::dsp::SimplePitchShift</a>
@@ -292,6 +304,7 @@
 , <a class="el" href="group__reflection.html#a7735656f1fe67dfb4d701df03733541e">otto::reflect::type_list&lt; Args &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1audio_1_1_section.html#a1745fc20facaed7f61d17946591a2fe4">otto::util::audio::Section&lt; T &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1dyn__array.html#a3ac8c4ee4849f08610e4ab692d83a333">otto::util::dyn_array&lt; T &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1enum__map.html#a3e566edba36e75b1a3b922150379cd74">otto::util::enum_map&lt; Enum, T &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1local__vector.html#a8648e441ec34e9164be803d2628b24b2">otto::util::local_vector&lt; T, Capacity &gt;</a>
 , <a class="el" href="structotto_1_1util_1_1memory__pool.html#af9536db943431b79ee2edded9c79c911">otto::util::memory_pool&lt; T &gt;</a>
 , <a class="el" href="classotto_1_1util_1_1ringbuffer.html#ae4a88fd52aade11b6a92d92177cd7972">otto::util::ringbuffer&lt; T, N &gt;</a>
@@ -300,6 +313,15 @@
 </li>
 <li>size_type
 : <a class="el" href="structotto_1_1util_1_1pool__allocator.html#ac4c9471dfe73e43c924b4497f5f6a3ab">otto::util::pool_allocator&lt; T &gt;</a>
+</li>
+<li>sleep_for()
+: <a class="el" href="structotto_1_1util_1_1sleeper__thread.html#a9567a80c68c1546e70d0d0570b7bb05a">otto::util::sleeper_thread</a>
+</li>
+<li>sleep_until()
+: <a class="el" href="structotto_1_1util_1_1sleeper__thread.html#a6a6968dc917f88e39fd4d843f7386d6a">otto::util::sleeper_thread</a>
+</li>
+<li>sleeper_thread()
+: <a class="el" href="structotto_1_1util_1_1sleeper__thread.html#a61ab4ac95b18975a2e4fca0cd3710e24">otto::util::sleeper_thread</a>
 </li>
 <li>slice()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#a3cc2fb62a48d18ec3b8ed073610e457d">otto::core::audio::AudioBufferHandle</a>
@@ -338,13 +360,14 @@
 </li>
 <li>state
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#a0143e368ce150625434a8027b6090aa1">otto::board::ui::EGLConnection</a>
+, <a class="el" href="structotto_1_1services_1_1_u_i_manager.html#a484d923fc992396499e50b44274e90db">otto::services::UIManager</a>
 , <a class="el" href="struct_rt_api_1_1_rt_api_stream.html#accf19137332f916e96dd35f0f4259697">RtApi::RtApiStream</a>
 </li>
 <li>state_manager
 : <a class="el" href="structotto_1_1services_1_1_application.html#a6cabe4d04710e183836428b76379cc12">otto::services::Application</a>
 </li>
 <li>status()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#ae280ad8ec57f71c0b8a809f7ba4ed107">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a358356fb455b41f125bf4ea77bb14c45">otto::filesystem::directory_entry</a>
 </li>
 <li>stem()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#a1e26a39d3eb5c943d9bdcfba3b8d9ff5">otto::filesystem::path</a>
@@ -404,7 +427,7 @@
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ae3808e5cd4f330e331e30bcabd9f20ce">otto::filesystem::path</a>
 </li>
 <li>string_ref()
-: <a class="el" href="structotto_1_1util_1_1string__ref.html#a3e0dfed8dfaa2ad3e305cc103e8a2c3a">otto::util::string_ref</a>
+: <a class="el" href="structotto_1_1util_1_1string__ref.html#ae836444926e0aa7c64074059565a552e">otto::util::string_ref</a>
 </li>
 <li>string_type
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#aca9c8f8cca393da29692262ab57bdbf2">otto::filesystem::path</a>
@@ -443,7 +466,7 @@
 </li>
 <li>swap()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ada80d229a4e936955c5e4c4c4eebeb62">otto::filesystem::path</a>
-, <a class="el" href="structotto_1_1util_1_1atomic__swap.html#aca95110170370db146100c4115ec5c90">otto::util::atomic_swap&lt; T &gt;</a>
+, <a class="el" href="structotto_1_1util_1_1double__buffered.html#acd5ac488a20bb5795a2e2b4b024b3e3a">otto::util::double_buffered&lt; T, AfterSwap &gt;</a>
 </li>
 <li>swap_buffers()
 : <a class="el" href="structotto_1_1glfw_1_1_window.html#a5153fd478fb1c620a868dba5bbd17163">otto::glfw::Window</a>
@@ -456,7 +479,7 @@
 , <a class="el" href="structotto_1_1util_1_1math_1_1vec.html#aed183fca42aa702728abda5560482f1e">otto::util::math::vec</a>
 </li>
 <li>symlink_status()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#ac821f0d21314c8894bd8a1a173b07689">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a93c34d247a5a6553ff6bbecd784e4e1f">otto::filesystem::directory_entry</a>
 </li>
 <li>SYSTEM_ERROR
 : <a class="el" href="class_rt_audio_error.html#a85bdee746d5ba80d655ac98ded21d073ae255cae361eab840707fe48630ce5a17">RtAudioError</a>

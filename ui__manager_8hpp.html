@@ -71,14 +71,16 @@
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">ui_manager.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;json.hpp&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<div class="textblock"><code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;json.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="locked_8hpp_source.html">util/locked.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="enum_8hpp_source.html">util/enum.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="engine_8hpp_source.html">core/engine/engine.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="service_8hpp_source.html">core/service.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="screen_8hpp_source.html">core/ui/screen.hpp</a>&quot;</code><br />
@@ -90,70 +92,88 @@
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_u_i_manager.html">otto::services::UIManager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:structotto_1_1services_1_1_u_i_manager_1_1_key_press"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_u_i_manager.html#structotto_1_1services_1_1_u_i_manager_1_1_key_press">otto::services::UIManager::KeyPress</a></td></tr>
-<tr class="separator:structotto_1_1services_1_1_u_i_manager_1_1_key_press"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:structotto_1_1services_1_1_u_i_manager_1_1_key_release"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_u_i_manager.html#structotto_1_1services_1_1_u_i_manager_1_1_key_release">otto::services::UIManager::KeyRelease</a></td></tr>
-<tr class="separator:structotto_1_1services_1_1_u_i_manager_1_1_key_release"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:structotto_1_1services_1_1_u_i_manager_1_1_state"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_u_i_manager.html#structotto_1_1services_1_1_u_i_manager_1_1_state">otto::services::UIManager::State</a></td></tr>
+<tr class="memdesc:structotto_1_1services_1_1_u_i_manager_1_1_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">The UI state.  <a href="structotto_1_1services_1_1_u_i_manager.html#structotto_1_1services_1_1_u_i_manager_1_1_state">More...</a><br /></td></tr>
+<tr class="separator:structotto_1_1services_1_1_u_i_manager_1_1_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceotto"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto.html">otto</a></td></tr>
 <tr class="memdesc:namespaceotto"><td class="mdescLeft">&#160;</td><td class="mdescRight">The property system. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceotto_1_1board"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1board.html">otto::board</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceotto_1_1board_1_1ui"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1board_1_1ui.html">otto::board::ui</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceotto_1_1services"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html">otto::services</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a70a2f5dff576eea37a8eb2a02204a6f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1board_1_1ui.html#a70a2f5dff576eea37a8eb2a02204a6f6">otto::board::ui::handle_keyevent</a> (Action, Modifiers, Key)</td></tr>
-<tr class="memdesc:a70a2f5dff576eea37a8eb2a02204a6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind keys by implementing this function.  <a href="namespaceotto_1_1board_1_1ui.html#a70a2f5dff576eea37a8eb2a02204a6f6">More...</a><br /></td></tr>
-<tr class="separator:a70a2f5dff576eea37a8eb2a02204a6f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e52f4dd0116b6cc52c46e58f45c2220"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a7e52f4dd0116b6cc52c46e58f45c2220">otto::services::BETTER_ENUM</a> (ChannelEnum, <a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/integer">std::uint8_t</a>, sampler0=0, sampler1=1, sampler2=2, sampler3=3, sampler4=4, sampler5=5, sampler6=6, sampler7=7, sampler8=8, sampler9=9, internal, external) BETTER_ENUM(ScreenEnum</td></tr>
+<tr class="separator:a7e52f4dd0116b6cc52c46e58f45c2220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ad5dde9acae6827c38030a4679e79ae2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#ad5dde9acae6827c38030a4679e79ae2e">otto::services::sends</a></td></tr>
+<tr class="separator:ad5dde9acae6827c38030a4679e79ae2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe095bfe4c8523ac8b45ba8b7ab353d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a6fe095bfe4c8523ac8b45ba8b7ab353d">otto::services::routing</a></td></tr>
+<tr class="separator:a6fe095bfe4c8523ac8b45ba8b7ab353d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8863a9e3fc96bc0d8441eafa7389953c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a8863a9e3fc96bc0d8441eafa7389953c">otto::services::fx1</a></td></tr>
+<tr class="separator:a8863a9e3fc96bc0d8441eafa7389953c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e451be3b87a2f5e8ae84c1fedd8f20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#af5e451be3b87a2f5e8ae84c1fedd8f20">otto::services::fx1_selector</a></td></tr>
+<tr class="separator:af5e451be3b87a2f5e8ae84c1fedd8f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02fc6e414ce54735336e1522b124f763"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a02fc6e414ce54735336e1522b124f763">otto::services::fx2</a></td></tr>
+<tr class="separator:a02fc6e414ce54735336e1522b124f763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6942493ec8dc5336655ea1248272f69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#ab6942493ec8dc5336655ea1248272f69">otto::services::fx2_selector</a></td></tr>
+<tr class="separator:ab6942493ec8dc5336655ea1248272f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21487a87ae8369f8f919cee60bee859d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a21487a87ae8369f8f919cee60bee859d">otto::services::looper</a></td></tr>
+<tr class="separator:a21487a87ae8369f8f919cee60bee859d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5376222dffd6237a072003fffbb69c3d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a5376222dffd6237a072003fffbb69c3d">otto::services::arp</a></td></tr>
+<tr class="separator:a5376222dffd6237a072003fffbb69c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb16bfabb66a63df2f35b1f105b4b1a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#aeb16bfabb66a63df2f35b1f105b4b1a5">otto::services::arp_selector</a></td></tr>
+<tr class="separator:aeb16bfabb66a63df2f35b1f105b4b1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51972df46a4e2fa79853c842c491e031"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a51972df46a4e2fa79853c842c491e031">otto::services::voices</a></td></tr>
+<tr class="separator:a51972df46a4e2fa79853c842c491e031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77d9d1018ad23de12f9f631bb2d2e21e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a77d9d1018ad23de12f9f631bb2d2e21e">otto::services::master</a></td></tr>
+<tr class="separator:a77d9d1018ad23de12f9f631bb2d2e21e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41980d2c4f700686a2024eef0cffd05d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a41980d2c4f700686a2024eef0cffd05d">otto::services::sequencer</a></td></tr>
+<tr class="separator:a41980d2c4f700686a2024eef0cffd05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61897441e040238f74ec2067cc392999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a61897441e040238f74ec2067cc392999">otto::services::sampler</a></td></tr>
+<tr class="separator:a61897441e040238f74ec2067cc392999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7c20e83fddc66addac9fc9d751fef91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#af7c20e83fddc66addac9fc9d751fef91">otto::services::synth</a></td></tr>
+<tr class="separator:af7c20e83fddc66addac9fc9d751fef91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa87e8c364d24f8eb72d014559dc2e93"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#afa87e8c364d24f8eb72d014559dc2e93">otto::services::synth_selector</a></td></tr>
+<tr class="separator:afa87e8c364d24f8eb72d014559dc2e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a220494c28a21712914902a9e9b253329"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a220494c28a21712914902a9e9b253329">otto::services::envelope</a></td></tr>
+<tr class="separator:a220494c28a21712914902a9e9b253329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ed43b409452bc7e096a12c444b5ab85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a8ed43b409452bc7e096a12c444b5ab85">otto::services::settings</a></td></tr>
+<tr class="separator:a8ed43b409452bc7e096a12c444b5ab85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7edc53c5dc42d963fb27393f30c65fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#ad7edc53c5dc42d963fb27393f30c65fa">otto::services::external</a></td></tr>
+<tr class="separator:ad7edc53c5dc42d963fb27393f30c65fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9652ad5409eb5763e26e96711dc55c30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1services.html#a9652ad5409eb5763e26e96711dc55c30">otto::services::twist1</a></td></tr>
+<tr class="separator:a9652ad5409eb5763e26e96711dc55c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="structotto_1_1services_1_1_u_i_manager_1_1_key_press" id="structotto_1_1services_1_1_u_i_manager_1_1_key_press"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1services_1_1_u_i_manager_1_1_key_press">&#9670;&nbsp;</a></span>otto::services::UIManager::KeyPress</h2>
+<a name="structotto_1_1services_1_1_u_i_manager_1_1_state" id="structotto_1_1services_1_1_u_i_manager_1_1_state"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1services_1_1_u_i_manager_1_1_state">&#9670;&nbsp;</a></span>otto::services::UIManager::State</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct otto::services::UIManager::KeyPress</td>
+          <td class="memname">struct otto::services::UIManager::State</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="a406efaf7620d255d0d04ca11c370862e"></a>Key</td>
+<a id="a3ac1230e52e48088bc746fdcf942a4d1"></a>ChannelEnum</td>
 <td class="fieldname">
-key</td>
+active_channel</td>
 <td class="fielddoc">
 </td></tr>
-</table>
-
-</div>
-</div>
-<a name="structotto_1_1services_1_1_u_i_manager_1_1_key_release" id="structotto_1_1services_1_1_u_i_manager_1_1_key_release"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1services_1_1_u_i_manager_1_1_key_release">&#9670;&nbsp;</a></span>otto::services::UIManager::KeyRelease</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct otto::services::UIManager::KeyRelease</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="afbf1d326ac771b3d8f20cfe8df877043"></a>Key</td>
+<a id="af255ff4015be47de75cf25360d303096"></a>ScreenEnum</td>
 <td class="fieldname">
-key</td>
+current_screen</td>
 <td class="fielddoc">
 </td></tr>
 </table>

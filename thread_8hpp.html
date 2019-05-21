@@ -70,7 +70,9 @@
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">thread.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -80,6 +82,8 @@
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 <code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;ctime&gt;</code><br />
 </div>
 <p><a href="thread_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -89,14 +93,34 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1triggered__thread.html">otto::util::triggered_thread</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1sleeper__thread.html">otto::util::sleeper_thread</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceotto"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto.html">otto</a></td></tr>
 <tr class="memdesc:namespaceotto"><td class="mdescLeft">&#160;</td><td class="mdescRight">The property system. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceotto_1_1chrono"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1chrono.html">otto::chrono</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceotto_1_1util"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html">otto::util</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a7ebec16657e053fbd5a0a92bcca78dcc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1chrono.html#a7ebec16657e053fbd5a0a92bcca78dcc">otto::chrono::clock</a> = <a class="elRef" href="http://en.cppreference.com/w/cpp/chrono/system_clock.html">std::chrono::system_clock</a></td></tr>
+<tr class="separator:a7ebec16657e053fbd5a0a92bcca78dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9830ec3f50f2426e66a27b0ff63a4892"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1chrono.html#a9830ec3f50f2426e66a27b0ff63a4892">otto::chrono::duration</a> = clock::duration</td></tr>
+<tr class="separator:a9830ec3f50f2426e66a27b0ff63a4892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01463d53071b1d33713c5b385df57b3f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1chrono.html#a01463d53071b1d33713c5b385df57b3f">otto::chrono::time_point</a> = <a class="elRef" href="http://en.cppreference.com/w/cpp/chrono/time_point.html">std::chrono::time_point</a>&lt; clock, <a class="elRef" href="http://en.cppreference.com/w/cpp/chrono/duration.html">duration</a> &gt;</td></tr>
+<tr class="separator:a01463d53071b1d33713c5b385df57b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a08e9a8e2eeb40b6722f9086eae72f383"><td class="memItemLeft" align="right" valign="top">struct timespec&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1chrono.html#a08e9a8e2eeb40b6722f9086eae72f383">otto::chrono::to_timespec</a> (<a class="elRef" href="http://en.cppreference.com/w/cpp/chrono/time_point.html">time_point</a> t) noexcept</td></tr>
+<tr class="separator:a08e9a8e2eeb40b6722f9086eae72f383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a156224c5dd4e331dafb315029573a566"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/chrono/time_point.html">time_point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1chrono.html#a156224c5dd4e331dafb315029573a566">otto::chrono::to_time_point</a> (struct timespec t) noexcept</td></tr>
+<tr class="separator:a156224c5dd4e331dafb315029573a566"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->

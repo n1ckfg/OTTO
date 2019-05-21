@@ -343,6 +343,11 @@
             <Path>group__container__algos.html</Path>
             <Anchor>gafd2199e8cd364fabb6a32702165efc09</Anchor>
            </Node>
+           <Node>
+            <Name>equal</Name>
+            <Path>group__container__algos.html</Path>
+            <Anchor>ga4f915b220cc45a65cd9593e7ed5ebae7</Anchor>
+           </Node>
           </Subnodes>
          </Node>
          <Node>
@@ -675,6 +680,10 @@
                 <Path>namespaceotto_1_1board_1_1ui.html</Path>
                </Node>
               </Subnodes>
+             </Node>
+             <Node>
+              <Name>chrono</Name>
+              <Path>namespaceotto_1_1chrono.html</Path>
              </Node>
              <Node>
               <Name>core</Name>
@@ -1919,9 +1928,9 @@
                     <Anchor>a5f45481407c1874a6700c5b56bec69ea</Anchor>
                    </Node>
                    <Node>
-                    <Name>rotary</Name>
+                    <Name>encoder</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_selector_screen.html</Path>
-                    <Anchor>a9b7ae1ff5d5cb8173076695d9b602a2c</Anchor>
+                    <Anchor>a4f1dcadf46d4823a7db26945e51dbd9d</Anchor>
                    </Node>
                    <Node>
                     <Name>keypress</Name>
@@ -3883,23 +3892,6 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>RotaryEvent</Name>
-                  <Path>namespaceotto_1_1core_1_1ui.html</Path>
-                  <Anchor>structotto_1_1core_1_1ui_1_1_rotary_event</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>rotary</Name>
-                    <Path>namespaceotto_1_1core_1_1ui.html</Path>
-                    <Anchor>a8008def2a1f06884e0a8c097ebe43807</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>clicks</Name>
-                    <Path>namespaceotto_1_1core_1_1ui.html</Path>
-                    <Anchor>af74626c5a4b54336eb434a5a22cef0b8</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
                   <Name>Screen</Name>
                   <Path>structotto_1_1core_1_1ui_1_1_screen.html</Path>
                   <Subnodes>
@@ -3924,9 +3916,9 @@
                     <Anchor>a3b03452100b3b653fe2e7b644622789d</Anchor>
                    </Node>
                    <Node>
-                    <Name>rotary</Name>
+                    <Name>encoder</Name>
                     <Path>structotto_1_1core_1_1ui_1_1_screen.html</Path>
-                    <Anchor>a8c56f8a233f936cf51ab1f78a387994c</Anchor>
+                    <Anchor>aca33d9d48ded06c2cd8f8d5ebc1034c7</Anchor>
                    </Node>
                    <Node>
                     <Name>on_show</Name>
@@ -7595,7 +7587,7 @@
                  <Node>
                   <Name>Application</Name>
                   <Path>structotto_1_1services_1_1_application.html</Path>
-                  <Anchor>ad29bffebd1f549f3ce09514edec693a5</Anchor>
+                  <Anchor>a50c452bc21a1dfa378580cbda7574f0b</Anchor>
                  </Node>
                  <Node>
                   <Name>~Application</Name>
@@ -7656,6 +7648,11 @@
                   <Name>ui_manager</Name>
                   <Path>structotto_1_1services_1_1_application.html</Path>
                   <Anchor>a9dcd81580aa1463540f12fe80558392f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>controller</Name>
+                  <Path>structotto_1_1services_1_1_application.html</Path>
+                  <Anchor>ac89f51f1e44e0652b1bba41349a776c8</Anchor>
                  </Node>
                  <Node>
                   <Name>engine_manager</Name>
@@ -7754,7 +7751,7 @@
                  <Node>
                   <Name>midi_bufs</Name>
                   <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                  <Anchor>a4e763e117940e08b3ac76e209a47b5b2</Anchor>
+                  <Anchor>add58ed14b892d937b193a6ececc1267d</Anchor>
                  </Node>
                  <Node>
                   <Name>_samplerate</Name>
@@ -7893,6 +7890,77 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>Controller</Name>
+                <Path>structotto_1_1services_1_1_controller.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>KeyHandler</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>aabae71a1371f1943e2755c1a294472ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Event</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a79f3767875ac2ef94f5a2054c39f7c78</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>EventBag</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>af257b77f1845ce105d134c6a2d76b3c5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>flush_events</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>ad736bc5c5aea4e0e3f844e1d396be478</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>set_color</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a69ee091ec9a5361e5c7d0e1f6883bdbc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>flush_leds</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a6683a63d3e1babebeeb50f765ffc3190</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear_leds</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a8e6acdf48686c30f5e9b23310a81effb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>is_pressed</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>af932795ef00566ed2d47573572750c2e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>register_key_handler</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a23761f456c9fb49876e8d89089de1180</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>keypress</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a7d46bf36f29913fe08c001b99c041aa7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>keyrelease</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a2c8b29c086b297ed1be3ef6ebe3a0a6a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>encoder</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>a3bf3eaa794d173b81e9bbc9393004a3d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>void ::otto::board::ui::handle_keyevent</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Anchor>ae71e3af96d8cb24d726e57a7dbd7e068</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>DebugUI</Name>
                 <Path>structotto_1_1services_1_1_debug_u_i.html</Path>
                </Node>
@@ -7998,6 +8066,86 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>KeyEvent</Name>
+                <Path>structotto_1_1services_1_1_key_event.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>key</Name>
+                  <Path>structotto_1_1services_1_1_key_event.html</Path>
+                  <Anchor>a60f0fff02e54ffc45fc7718b38d8575e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>KeyPressEvent</Name>
+                <Path>structotto_1_1services_1_1_key_press_event.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>KeyPressEvent</Name>
+                  <Path>structotto_1_1services_1_1_key_press_event.html</Path>
+                  <Anchor>a60d552747cc7f3f787a5884676299949</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>KeyReleaseEvent</Name>
+                <Path>structotto_1_1services_1_1_key_release_event.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>KeyReleaseEvent</Name>
+                  <Path>structotto_1_1services_1_1_key_release_event.html</Path>
+                  <Anchor>aaf08bcc7975e66e8b140e90a8aa8057a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>LED</Name>
+                <Path>structotto_1_1services_1_1_l_e_d.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>LED</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d.html</Path>
+                  <Anchor>a07d56bc6a31c71210d2fe273404dc4e1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>key</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d.html</Path>
+                  <Anchor>ae951ac3f0c15c584c4260b7b019f3186</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>LEDColor</Name>
+                <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>LEDColor</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>a5ffadb6109d1a9beaac8db61ee2cd368</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>LEDColor</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>aeea08b355b4d2c66d95c785280c3de89</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>ac085930bf607d3966686a1617a817e40</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>g</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>a773fce60430cf6dbcd8f84d5857574f8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>b</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>afecc6dc168bb154b767a58bb8096bd93</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>LogManager</Name>
                 <Path>structotto_1_1services_1_1_log_manager.html</Path>
                 <Subnodes>
@@ -8078,6 +8226,32 @@
                   <Name>create_preset</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
                   <Anchor>a17f75ec2373a2b853a9bdc97bfcc4077</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>PrOTTO1SerialController</Name>
+                <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>PrOTTO1SerialController</Name>
+                  <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                  <Anchor>a10f930c3c1c0ca82187dec3c3c80d6d9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>set_color</Name>
+                  <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                  <Anchor>ab1de90579d7b0a696a0349f1f719b912</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>flush_leds</Name>
+                  <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                  <Anchor>a299d1e69b8e3409a399aa6dfa0d6e543</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear_leds</Name>
+                  <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                  <Anchor>a6505a8def51089904b0ea32ce3f64f48</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -8236,38 +8410,26 @@
                 <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>KeyPress</Name>
+                  <Name>State</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_press</Anchor>
+                  <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_state</Anchor>
                   <Subnodes>
                    <Node>
-                    <Name>key</Name>
+                    <Name>active_channel</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a406efaf7620d255d0d04ca11c370862e</Anchor>
+                    <Anchor>a3ac1230e52e48088bc746fdcf942a4d1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>current_screen</Name>
+                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+                    <Anchor>af255ff4015be47de75cf25360d303096</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>KeyRelease</Name>
+                  <Name>ScreenSelector</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_release</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>key</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>afbf1d326ac771b3d8f20cfe8df877043</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>KeyEvent</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>af20ec4330b9cd8f821012ae7f38042e4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>KeyHandler</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a20cba3393d1c44d6d17047a52db24d62</Anchor>
+                  <Anchor>a835b4049b34fdfc81678fe0e2df0a399</Anchor>
                  </Node>
                  <Node>
                   <Name>UIManager</Name>
@@ -8280,39 +8442,24 @@
                   <Anchor>ab5a3ee7f15c8d77c49155d3b6415cd0b</Anchor>
                  </Node>
                  <Node>
-                  <Name>is_pressed</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a8196548577dd3076168dd5ae3ac2efaf</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>register_key_handler</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a9f18359edf47578b8a54d5a1888cb6de</Anchor>
-                 </Node>
-                 <Node>
                   <Name>display</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>select_engine</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a303c472abaa4e535ae209232746ea305</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>select_engine</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a6629fe07bcb7485518c0edc7d7e5ef39</Anchor>
+                  <Anchor>ace4075d0682cb2bc96644cb95c68488a</Anchor>
                  </Node>
                  <Node>
                   <Name>current_screen</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>aa9c2a861eaf30e18dd490a26212a45d4</Anchor>
+                  <Anchor>a7d428653b3ab0067dda4348b3a7834de</Anchor>
                  </Node>
                  <Node>
-                  <Name>selected_engine_name</Name>
+                  <Name>state</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a6404e6470b5789aa4547ad0903192012</Anchor>
+                  <Anchor>a484d923fc992396499e50b44274e90db</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>register_screen_selector</Name>
+                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+                  <Anchor>a8f496c20670a603069d1d1f4d6dbe7cf</Anchor>
                  </Node>
                  <Node>
                   <Name>draw_frame</Name>
@@ -8320,29 +8467,14 @@
                   <Anchor>a6e95e87432ca6e9997d7fa42b05e2f0d</Anchor>
                  </Node>
                  <Node>
-                  <Name>keypress</Name>
+                  <Name>display</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a5fefa6b565335b7faa5eb1620dd6930c</Anchor>
+                  <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
                  </Node>
                  <Node>
-                  <Name>keyrelease</Name>
+                  <Name>set_state</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a43e5bd4453c2447d2d6d2c8ed190473a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>rotary</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a6ede1c2ea9c359bae6b6b21d403d3b3f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>flush_events</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a763f13a05cfb5f8ebc275f1bd4d0c313</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>void ::otto::board::ui::handle_keyevent</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a7b8805a579e52611e0c9b182e19c36c0</Anchor>
+                  <Anchor>a7377fcf99d711302445e93c5e26d3a27</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -9548,57 +9680,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>atomic_swap</Name>
-                <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>atomic_swap</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>ab81063d0d5e0b4f9007f13a118559b21</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>atomic_swap</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>ab7bb4307fe61011fd2abfeabbacc1dc1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>atomic_swap</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>a16d04b2e91de0d62303bd5785b553198</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>atomic_swap</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>acd948c7ccd3697672543e345f9a19896</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>inner</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>afe32087568ecd6b2b5a3b5283e7134cb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>inner</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>ad49a1c3f5c81ce79cdebc794cdcdebec</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>outer</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>adfe10d4563ce7a05984f19c2aa483828</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>outer</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>ac3062c8cce0d33a7198d4ebb5fd82452</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>swap</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                  <Anchor>aca95110170370db146100c4115ec5c90</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>basic_variant_w_base</Name>
                 <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
                 <Subnodes>
@@ -9710,6 +9791,12 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>BetterEnum</Name>
+                <Path>classotto_1_1util_1_1_better_enum.html</Path>
+                <Subnodes>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>cache_base</Name>
                 <Path>structotto_1_1util_1_1cache__base.html</Path>
                 <Subnodes>
@@ -9758,6 +9845,28 @@
                   <Name>cached</Name>
                   <Path>structotto_1_1util_1_1cached.html</Path>
                   <Anchor>a4f218a1f6941c3d5d88fae8696bc972f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>clear_inner</Name>
+                <Path>structotto_1_1util_1_1clear__inner.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>operator()</Name>
+                  <Path>structotto_1_1util_1_1clear__inner.html</Path>
+                  <Anchor>a730b6eee755a925a5f4b8d684806c496</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>clear_outer</Name>
+                <Path>structotto_1_1util_1_1clear__outer.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>operator()</Name>
+                  <Path>structotto_1_1util_1_1clear__outer.html</Path>
+                  <Anchor>ac6d728d5af62b6bad79830735d4e2115</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -9831,6 +9940,67 @@
                <Node>
                 <Name>declval&lt; T2 &gt;())&gt; &gt;</Name>
                 <Path>structotto_1_1util_1_1is__greater__than__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01dec709e976437fcf0f49d61980809342e1d.html</Path>
+               </Node>
+               <Node>
+                <Name>double_buffered</Name>
+                <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>double_buffered</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>ad061f3bdb2f8abd0cec9252ce0177b06</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>double_buffered</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>ae63c2e5bb4d32637d83928be8ea96d28</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>double_buffered</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>aed3367d3574d66b1ac6bd2fe9aac4e24</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>double_buffered</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>a1c34e5503f48ca2a3ac8690150ef377e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>inner</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>a6c8667185cc039a0d44313b4349d6571</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>inner</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>adae0d0aabdf6538aa7258557ea0ddc4f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>outer</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>a8ca89f7bdeb83c1c3a8d03bc01dd4d21</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>outer</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>af459171d738396b26ac8dd81bc1585d8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>outer_locked</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>a275a2121a793e0af583637e73aa9f704</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>outer_locked</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>a8fd4d34932f6672fe331909d51337375</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>swap</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Anchor>acd5ac488a20bb5795a2e2b4b024b3e3a</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>dyn_array</Name>
@@ -9919,6 +10089,102 @@
                   <Name>type</Name>
                   <Path>namespaceotto_1_1util.html</Path>
                   <Anchor>a926f19b88eee820c9ddee0aad41d6a7e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>enum_map</Name>
+                <Path>structotto_1_1util_1_1enum__map.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>value_type</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>adae477240ecd1160ea60e79c936c2bb5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>iterator</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a066cd5154e79cd79a70a2e4364d8b260</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>const_iterator</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a29250688757c349916d013b56ae7e800</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>begin</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a8602ef3d22fdbac178054c41f476bb1d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>begin</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a0f3131cdc75b1845045ae881ebfd6178</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>end</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a19655b9ac17b85a1a829d110400a2d67</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>end</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>ad8ddfc85cbcafbe8b3b18666ff3b5f8d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>front</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a81a5757a71c847346fc8d340121e93b7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>front</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a9c0d13be43c344cddae2ed7aca9e5a51</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>back</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a8141c6da1c21abad5196f42cd1709216</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>back</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>ab13ad7936a4d2b39b440aef1f1f1b1e2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a5aacb80249530ee921f1d4005e2fd559</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>ad4baa6b784e8b3a9758380883eb46322</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>at</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>ac11ab148ec4eff8caa07cde34d316e05</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>at</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a3eebe7897489951015dcd397db2c805f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>data</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a19c25528ccb25424561c6a1f3491d46c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>data</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>a29c96f331711d226801a995fbaecb040</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>_data</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Anchor>ace777d3eb78fbeceaa302b5741d6446c</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -10504,6 +10770,84 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>Serial</Name>
+                <Path>structotto_1_1util_1_1_serial.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>exception</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a1bc64a65806d5c985040274c45ee893e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ErrorCode</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>ac5d6b80a1932d6a9a80f7705484e736c</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>empty_buffer</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>ac5d6b80a1932d6a9a80f7705484e736ca07df8e3ab6108b2fc6aebe4fe023400a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>error</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>ac5d6b80a1932d6a9a80f7705484e736cacb5e100e5a9a3e7f6d1fd97512215282</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Serial</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>aee3e1e8d279f8306aef10561f498dd2f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Serial</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a1211b3ca1a278c3f59e8a968460dffdb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>write</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>add0f79fd972842c767985b85190edd8d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a13b19b38b148b0fc109940a76fbfd4ff</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a7fccbc24abe129d4ec0b283f5bf73945</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a446ed8866fe029b2028b8ce672cb4e1d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read_single</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a7582e33726ada2513ae2ddbf1b24d281</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read_line</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a4eb68806a7bbc2721478c009933a2d5b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>path</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>a030ff22f6b560d3448ca38fd50a0c216</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>file_descriptor</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Anchor>af102033fceea6a0ec9f842e2a8847fac</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>Signal</Name>
                 <Path>structotto_1_1util_1_1_signal.html</Path>
                 <Subnodes>
@@ -10571,6 +10915,57 @@
                   <Name>connect_member</Name>
                   <Path>structotto_1_1util_1_1_signal.html</Path>
                   <Anchor>af6f86d3f825bf6c22e9a76ca66d2d3c6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>sleeper_thread</Name>
+                <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>sleeper_thread</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>a61ab4ac95b18975a2e4fca0cd3710e24</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~sleeper_thread</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>a85e96eae440dcdc0f8b1937db1855bb8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>trigger</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>a669eea5a4cb162f42f08ebc73cbd27b8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>join</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>af534f525a2f1ab457bc4d9838a3463f1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>should_run</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>ae18bb525396d18d53cd66e5e7c759c98</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sleep_for</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>a9567a80c68c1546e70d0d0570b7bb05a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sleep_until</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>a6a6968dc917f88e39fd4d843f7386d6a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>wake_up</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>a90c705e0c57e1453d94b2468646ad5be</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>running</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Anchor>a9333bb85fbca3aadf2d42e680b0d7931</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -10918,6 +11313,39 @@
                   <Anchor>a32ae1eeec4989172970e11cb82c1c090</Anchor>
                  </Node>
                 </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>assert_module</Name>
+              <Path>structotto_1_1assert__module.html</Path>
+              <Subnodes>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>std</Name>
+            <Path>namespacestd.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>hash&lt; otto::services::Key &gt;</Name>
+              <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>argument_type</Name>
+                <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+                <Anchor>a60c07021ec25547acc69bcc0d8278d7f</Anchor>
+               </Node>
+               <Node>
+                <Name>result_type</Name>
+                <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+                <Anchor>a5a0c8c40a126c2982ffee6864db0a1de</Anchor>
+               </Node>
+               <Node>
+                <Name>operator()</Name>
+                <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+                <Anchor>a265440e05370b394007391ad9541fceb</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -12729,22 +13157,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::util::atomic_swap&lt; T &gt;</Name>
-            <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::util::atomic_swap&lt; otto::core::midi::shared_vector&lt; core::midi::AnyMidiEvent &gt; &gt;</Name>
-            <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::util::atomic_swap&lt; std::vector&lt; KeyEvent &gt; &gt;</Name>
-            <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::util::atomic_swap&lt; std::vector&lt; otto::core::ui::RotaryEvent &gt; &gt;</Name>
-            <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::audio::audio_frame_channels&lt; T &gt;</Name>
             <Path>namespaceotto_1_1core_1_1audio.html</Path>
             <Anchor>structotto_1_1core_1_1audio_1_1audio__frame__channels</Anchor>
@@ -12768,6 +13180,10 @@
            <Node>
             <Name>otto::util::basic_variant_w_base&lt; ITypedEngine, Engines... &gt;</Name>
             <Path>classotto_1_1util_1_1basic__variant__w__base.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::BetterEnum</Name>
+            <Path>classotto_1_1util_1_1_better_enum.html</Path>
            </Node>
            <Node>
             <Name>otto::core::ui::vg::Box</Name>
@@ -12809,6 +13225,14 @@
            <Node>
             <Name>otto::engines::Euclid::Channel</Name>
             <Path>structotto_1_1engines_1_1_euclid_1_1_channel.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::clear_inner</Name>
+            <Path>structotto_1_1util_1_1clear__inner.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::clear_outer</Name>
+            <Path>structotto_1_1util_1_1clear__outer.html</Path>
            </Node>
            <Node>
             <Name>otto::services::ClockManager::Client</Name>
@@ -13102,6 +13526,26 @@
             <Path>classotto_1_1filesystem_1_1directory__iterator.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::double_buffered&lt; T, AfterSwap &gt;</Name>
+            <Path>structotto_1_1util_1_1double__buffered.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::double_buffered&lt; EventBag, otto::util::clear_inner &gt;</Name>
+            <Path>structotto_1_1util_1_1double__buffered.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::double_buffered&lt; otto::core::midi::shared_vector&lt; core::midi::AnyMidiEvent &gt; &gt;</Name>
+            <Path>structotto_1_1util_1_1double__buffered.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::double_buffered&lt; std::vector &gt;</Name>
+            <Path>structotto_1_1util_1_1double__buffered.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::double_buffered&lt; std::vector&lt; std::uint8_t &gt;, otto::util::clear_outer &gt;</Name>
+            <Path>structotto_1_1util_1_1double__buffered.html</Path>
+           </Node>
+           <Node>
             <Name>otto::core::ui::vg::Drawable</Name>
             <Path>structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html</Path>
             <Subnodes>
@@ -13184,6 +13628,14 @@
             <Name>otto::util::enum_decay&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;</Name>
             <Path>namespaceotto_1_1util.html</Path>
             <Anchor>structotto_1_1util_1_1enum__decay_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum__v_3_01_t_01_4_01_4_01_4</Anchor>
+           </Node>
+           <Node>
+            <Name>otto::util::enum_map&lt; Enum, T &gt;</Name>
+            <Path>structotto_1_1util_1_1enum__map.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::enum_map&lt; ScreenEnum, std::function &gt;</Name>
+            <Path>structotto_1_1util_1_1enum__map.html</Path>
            </Node>
            <Node>
             <Name>otto::util::audio::EnvelopeFollower</Name>
@@ -13350,6 +13802,10 @@
             <Path>structotto_1_1meta_1_1has__one_3_01list_3_01_types_8_8_8_01_4_00_01_p_01_4.html</Path>
            </Node>
            <Node>
+            <Name>std::hash&lt; otto::services::Key &gt;</Name>
+            <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+           </Node>
+           <Node>
             <Name>otto::meta::head&lt; List &gt;</Name>
             <Path>namespaceotto_1_1meta.html</Path>
             <Anchor>structotto_1_1meta_1_1head</Anchor>
@@ -13482,10 +13938,6 @@
             <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;</Name>
-            <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-           </Node>
-           <Node>
             <Name>iterator_facade</Name>
             <Path></Path>
             <Subnodes>
@@ -13494,6 +13946,10 @@
               <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;</Name>
+            <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
            </Node>
            <Node>
             <Name>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Name>
@@ -13608,14 +14064,18 @@
             <Path>structotto_1_1util_1_1_json_file.html</Path>
            </Node>
            <Node>
-            <Name>otto::services::UIManager::KeyPress</Name>
-            <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-            <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_press</Anchor>
-           </Node>
-           <Node>
-            <Name>otto::services::UIManager::KeyRelease</Name>
-            <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-            <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_release</Anchor>
+            <Name>otto::services::KeyEvent</Name>
+            <Path>structotto_1_1services_1_1_key_event.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>otto::services::KeyPressEvent</Name>
+              <Path>structotto_1_1services_1_1_key_press_event.html</Path>
+             </Node>
+             <Node>
+              <Name>otto::services::KeyReleaseEvent</Name>
+              <Path>structotto_1_1services_1_1_key_release_event.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>otto::core::props::mixin::leaf&lt; Tag, ValueType, TagList &gt;</Name>
@@ -13626,6 +14086,14 @@
               <Path>structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>otto::services::LED</Name>
+            <Path>structotto_1_1services_1_1_l_e_d.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::services::LEDColor</Name>
+            <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::PotionSynth::LFOOscProps</Name>
@@ -13887,8 +14355,16 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
-            <Name>otto::engines::Master::Props</Name>
-            <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
+            <Name>otto::engines::Sampler::Props</Name>
+            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Sends::Props</Name>
+            <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;::Props</Name>
@@ -13899,10 +14375,6 @@
             <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::Chorus::Props</Name>
             <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
            </Node>
@@ -13911,16 +14383,16 @@
             <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Sends::Props</Name>
-            <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::Arp::Props</Name>
-            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
+            <Name>otto::engines::Master::Props</Name>
+            <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Euclid::Props</Name>
             <Path>structotto_1_1engines_1_1_euclid_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::GossSynth::Props</Name>
+            <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::OTTOFMSynth::Props</Name>
@@ -13931,20 +14403,16 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::GossSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::RhodesSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Sampler::Props</Name>
-            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+            <Name>otto::engines::Arp::Props</Name>
+            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
@@ -13983,11 +14451,6 @@
             <Name>otto::core::props::mixin::required_tags&lt; Tag &gt;</Name>
             <Path>namespaceotto_1_1core_1_1props_1_1mixin.html</Path>
             <Anchor>structotto_1_1core_1_1props_1_1mixin_1_1required__tags</Anchor>
-           </Node>
-           <Node>
-            <Name>otto::core::ui::RotaryEvent</Name>
-            <Path>namespaceotto_1_1core_1_1ui.html</Path>
-            <Anchor>structotto_1_1core_1_1ui_1_1_rotary_event</Anchor>
            </Node>
            <Node>
             <Name>otto::board::ui::RpiFBCP</Name>
@@ -14063,6 +14526,10 @@
             <Path>structotto_1_1util_1_1iterator_1_1sequence.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::Serial</Name>
+            <Path>structotto_1_1util_1_1_serial.html</Path>
+           </Node>
+           <Node>
             <Name>otto::core::Service</Name>
             <Path>structotto_1_1core_1_1_service.html</Path>
             <Subnodes>
@@ -14079,6 +14546,16 @@
              <Node>
               <Name>otto::services::ClockManager</Name>
               <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+             </Node>
+             <Node>
+              <Name>otto::services::Controller</Name>
+              <Path>structotto_1_1services_1_1_controller.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::services::PrOTTO1SerialController</Name>
+                <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>otto::services::DebugUI</Name>
@@ -14129,6 +14606,10 @@
             <Path>structotto_1_1services_1_1_service_storage.html</Path>
            </Node>
            <Node>
+            <Name>otto::services::ServiceStorage&lt; otto::services::Controller &gt;</Name>
+            <Path>structotto_1_1services_1_1_service_storage.html</Path>
+           </Node>
+           <Node>
             <Name>otto::services::ServiceStorage&lt; otto::services::EngineManager &gt;</Name>
             <Path>structotto_1_1services_1_1_service_storage.html</Path>
            </Node>
@@ -14147,6 +14628,16 @@
            <Node>
             <Name>otto::services::ServiceStorage&lt; otto::services::UIManager &gt;</Name>
             <Path>structotto_1_1services_1_1_service_storage.html</Path>
+           </Node>
+           <Node>
+            <Name>set_level</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>otto::assert_module</Name>
+              <Path>structotto_1_1assert__module.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>otto::core::voices::details::SettingsProps</Name>
@@ -14173,13 +14664,17 @@
             <Path>structotto_1_1dsp_1_1_simple_pitch_shift.html</Path>
            </Node>
            <Node>
+            <Name>otto::board::ui::EGLConnection::Size</Name>
+            <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
+            <Anchor>structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_size</Anchor>
+           </Node>
+           <Node>
             <Name>otto::core::ui::vg::Size</Name>
             <Path>structotto_1_1core_1_1ui_1_1vg_1_1_size.html</Path>
            </Node>
            <Node>
-            <Name>otto::board::ui::EGLConnection::Size</Name>
-            <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
-            <Anchor>structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_size</Anchor>
+            <Name>otto::util::sleeper_thread</Name>
+            <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
            </Node>
            <Node>
             <Name>otto::util::SlotRef&lt; Args &gt;</Name>
@@ -14202,6 +14697,11 @@
             <Name>otto::filesystem::space_info</Name>
             <Path>namespaceotto_1_1filesystem.html</Path>
             <Anchor>structotto_1_1filesystem_1_1space__info</Anchor>
+           </Node>
+           <Node>
+            <Name>otto::services::UIManager::State</Name>
+            <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+            <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_state</Anchor>
            </Node>
            <Node>
             <Name>RtAudio::StreamOptions</Name>
@@ -14320,12 +14820,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
            </Node>
            <Node>
             <Name>otto::reflect::type_list&lt; Args &gt;</Name>
@@ -14356,6 +14856,10 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::dsp::Window</Name>
+            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
+           </Node>
+           <Node>
             <Name>otto::glfw::Window</Name>
             <Path>structotto_1_1glfw_1_1_window.html</Path>
             <Subnodes>
@@ -14364,10 +14868,6 @@
               <Path>structotto_1_1glfw_1_1_n_v_g_window.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>otto::util::dsp::Window</Name>
-            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;</Name>
@@ -14756,6 +15256,84 @@
            <Node>
             <Name>Typedefs</Name>
             <Path>functions_type.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>a</Name>
+              <Path>functions_type.html</Path>
+             </Node>
+             <Node>
+              <Name>b</Name>
+              <Path>functions_type_b.html</Path>
+             </Node>
+             <Node>
+              <Name>c</Name>
+              <Path>functions_type_c.html</Path>
+             </Node>
+             <Node>
+              <Name>d</Name>
+              <Path>functions_type_d.html</Path>
+             </Node>
+             <Node>
+              <Name>e</Name>
+              <Path>functions_type_e.html</Path>
+             </Node>
+             <Node>
+              <Name>f</Name>
+              <Path>functions_type_f.html</Path>
+             </Node>
+             <Node>
+              <Name>h</Name>
+              <Path>functions_type_h.html</Path>
+             </Node>
+             <Node>
+              <Name>i</Name>
+              <Path>functions_type_i.html</Path>
+             </Node>
+             <Node>
+              <Name>k</Name>
+              <Path>functions_type_k.html</Path>
+             </Node>
+             <Node>
+              <Name>l</Name>
+              <Path>functions_type_l.html</Path>
+             </Node>
+             <Node>
+              <Name>m</Name>
+              <Path>functions_type_m.html</Path>
+             </Node>
+             <Node>
+              <Name>n</Name>
+              <Path>functions_type_n.html</Path>
+             </Node>
+             <Node>
+              <Name>o</Name>
+              <Path>functions_type_o.html</Path>
+             </Node>
+             <Node>
+              <Name>p</Name>
+              <Path>functions_type_p.html</Path>
+             </Node>
+             <Node>
+              <Name>r</Name>
+              <Path>functions_type_r.html</Path>
+             </Node>
+             <Node>
+              <Name>s</Name>
+              <Path>functions_type_s.html</Path>
+             </Node>
+             <Node>
+              <Name>t</Name>
+              <Path>functions_type_t.html</Path>
+             </Node>
+             <Node>
+              <Name>v</Name>
+              <Path>functions_type_v.html</Path>
+             </Node>
+             <Node>
+              <Name>w</Name>
+              <Path>functions_type_w.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>Enumerations</Name>
@@ -17031,6 +17609,67 @@
                         <Name>RtMidiErrorCallback</Name>
                         <Path>_rt_midi_8h.html</Path>
                         <Anchor>a57641d3490f722c3efb9ee1c640e36bb</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>controller</Name>
+                <Path>dir_5b08b09adb89916b001a52fd25713fb6.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>protto1-serial</Name>
+                  <Path>dir_213994320e71cbe2cebd5ddf4fa7b7b3.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>include</Name>
+                    <Path>dir_3f67fcea767761ff3be92af1f5449cef.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>board</Name>
+                      <Path>dir_aec4fa3786215cdefacddafd2992866c.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>controller.hpp</Name>
+                        <Path>boards_2parts_2controller_2protto1-serial_2include_2board_2controller_8hpp.html</Path>
+                        <Subnodes>
+                         <Node>
+                          <Name>PrOTTO1SerialController</Name>
+                          <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                          <Subnodes>
+                           <Node>
+                            <Name>PrOTTO1SerialController</Name>
+                            <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                            <Anchor>a10f930c3c1c0ca82187dec3c3c80d6d9</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>set_color</Name>
+                            <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                            <Anchor>ab1de90579d7b0a696a0349f1f719b912</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>flush_leds</Name>
+                            <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                            <Anchor>a299d1e69b8e3409a399aa6dfa0d6e543</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>clear_leds</Name>
+                            <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+                            <Anchor>a6505a8def51089904b0ea32ce3f64f48</Anchor>
+                           </Node>
+                          </Subnodes>
+                         </Node>
+                         <Node>
+                          <Name>BytesView</Name>
+                          <Path>boards_2parts_2controller_2protto1-serial_2include_2board_2controller_8hpp.html</Path>
+                          <Anchor>a523b4d8e10953628215fa1c0f3a45ce5</Anchor>
+                         </Node>
+                        </Subnodes>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -21663,9 +22302,9 @@
                       <Anchor>a5f45481407c1874a6700c5b56bec69ea</Anchor>
                      </Node>
                      <Node>
-                      <Name>rotary</Name>
+                      <Name>encoder</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_selector_screen.html</Path>
-                      <Anchor>a9b7ae1ff5d5cb8173076695d9b602a2c</Anchor>
+                      <Anchor>a4f1dcadf46d4823a7db26945e51dbd9d</Anchor>
                      </Node>
                      <Node>
                       <Name>keypress</Name>
@@ -23840,23 +24479,6 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>RotaryEvent</Name>
-                    <Path>namespaceotto_1_1core_1_1ui.html</Path>
-                    <Anchor>structotto_1_1core_1_1ui_1_1_rotary_event</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>rotary</Name>
-                      <Path>namespaceotto_1_1core_1_1ui.html</Path>
-                      <Anchor>a8008def2a1f06884e0a8c097ebe43807</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>clicks</Name>
-                      <Path>namespaceotto_1_1core_1_1ui.html</Path>
-                      <Anchor>af74626c5a4b54336eb434a5a22cef0b8</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>Screen</Name>
                     <Path>structotto_1_1core_1_1ui_1_1_screen.html</Path>
                     <Subnodes>
@@ -23881,9 +24503,9 @@
                       <Anchor>a3b03452100b3b653fe2e7b644622789d</Anchor>
                      </Node>
                      <Node>
-                      <Name>rotary</Name>
+                      <Name>encoder</Name>
                       <Path>structotto_1_1core_1_1ui_1_1_screen.html</Path>
-                      <Anchor>a8c56f8a233f936cf51ab1f78a387994c</Anchor>
+                      <Anchor>aca33d9d48ded06c2cd8f8d5ebc1034c7</Anchor>
                      </Node>
                      <Node>
                       <Name>on_show</Name>
@@ -23898,143 +24520,19 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>PressedKeys</Name>
-                    <Path>screen_8hpp.html</Path>
-                    <Anchor>a105d991054cee88cb9f749ce0dd699d5</Anchor>
-                   </Node>
-                   <Node>
                     <Name>Key</Name>
                     <Path>screen_8hpp.html</Path>
-                    <Anchor>a306d8d976c3fabbc9d75769c9e3f498f</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>none</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa334c4a4c42fdb79d7ebc3e73b517e6f8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>red_click</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa4c6d3e26b6e06df89ba044ae148abdfc</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>blue_click</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa4b992b614cd81f7054178e1ae2f5d939</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>yellow_click</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fac82f29a11454740d8ad400ef780c6bfd</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>green_click</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa9181bd4a7502403c06048e90392a6210</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>shift</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa2ab64f4ee279e5baf7ab7059b15e6d12</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>oct_up</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498faf9f4ed5ad492fba29b1bb5da83b5bdfe</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>oct_down</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa2fab1ad63b1f722de41718385e1aeed8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>play</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498faa3b34c0871dc2fd51eec5559b68f709d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>quit</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fadbd73c2b545209688ed794c0d5413d5a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>arpeggiator</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fae17e8471674cb49f9a467bd4f6429ceb</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>fx1</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fac6b8736b8889356ca5db1272e8b03935</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>fx2</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498faa8483a60f13bca565bcaca36456b54cd</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>synth</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa3d401e8a794a88b7666f73faf9c99014</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>envelope</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa299a866d8c08b377de29454b49d2817a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>voices</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498faac163f065d2b3ecd5fc2f8e6365b367e</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>sequencer</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa4aba196e572bb81e0036cfd9b9992781</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>master</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498faeb0a191797624dd3a48fa681d3061212</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>send</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fa2541d938b0a58946090d7abdde0d3890</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>n_keys</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a306d8d976c3fabbc9d75769c9e3f498fab107da34afaae2265f26f92e945fff55</Anchor>
-                     </Node>
-                    </Subnodes>
+                    <Anchor>af3208582204dd814f91c08482fd91329</Anchor>
                    </Node>
                    <Node>
-                    <Name>Rotary</Name>
+                    <Name>Encoder</Name>
                     <Path>screen_8hpp.html</Path>
-                    <Anchor>a27cb2d0b416fb86e21356476a8010938</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>blue</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a27cb2d0b416fb86e21356476a8010938a48d6215903dff56238e52e8891380c8f</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>green</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a27cb2d0b416fb86e21356476a8010938a9f27410725ab8cc8854a2769c7a516b8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>yellow</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a27cb2d0b416fb86e21356476a8010938ad487dd0b55dfcacdd920ccbdaeafa351</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>red</Name>
-                      <Path>screen_8hpp.html</Path>
-                      <Anchor>a27cb2d0b416fb86e21356476a8010938abda9643ac6601722a28f238714274da4</Anchor>
-                     </Node>
-                    </Subnodes>
+                    <Anchor>a393d151cb4c539524095630405293d6f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>EncoderEvent</Name>
+                    <Path>screen_8hpp.html</Path>
+                    <Anchor>a604f9f9bed62337e162b56878cda6d4e</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -26925,7 +27423,7 @@
                    <Node>
                     <Name>Application</Name>
                     <Path>structotto_1_1services_1_1_application.html</Path>
-                    <Anchor>ad29bffebd1f549f3ce09514edec693a5</Anchor>
+                    <Anchor>a50c452bc21a1dfa378580cbda7574f0b</Anchor>
                    </Node>
                    <Node>
                     <Name>~Application</Name>
@@ -26986,6 +27484,11 @@
                     <Name>ui_manager</Name>
                     <Path>structotto_1_1services_1_1_application.html</Path>
                     <Anchor>a9dcd81580aa1463540f12fe80558392f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>controller</Name>
+                    <Path>structotto_1_1services_1_1_application.html</Path>
+                    <Anchor>ac89f51f1e44e0652b1bba41349a776c8</Anchor>
                    </Node>
                    <Node>
                     <Name>engine_manager</Name>
@@ -27096,7 +27599,7 @@
                    <Node>
                     <Name>midi_bufs</Name>
                     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-                    <Anchor>a4e763e117940e08b3ac76e209a47b5b2</Anchor>
+                    <Anchor>add58ed14b892d937b193a6ececc1267d</Anchor>
                    </Node>
                    <Node>
                     <Name>_samplerate</Name>
@@ -27286,6 +27789,214 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>controller.hpp</Name>
+                <Path>src_2services_2controller_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>KeyEvent</Name>
+                  <Path>structotto_1_1services_1_1_key_event.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>key</Name>
+                    <Path>structotto_1_1services_1_1_key_event.html</Path>
+                    <Anchor>a60f0fff02e54ffc45fc7718b38d8575e</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>KeyPressEvent</Name>
+                  <Path>structotto_1_1services_1_1_key_press_event.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>KeyPressEvent</Name>
+                    <Path>structotto_1_1services_1_1_key_press_event.html</Path>
+                    <Anchor>a60d552747cc7f3f787a5884676299949</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>KeyReleaseEvent</Name>
+                  <Path>structotto_1_1services_1_1_key_release_event.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>KeyReleaseEvent</Name>
+                    <Path>structotto_1_1services_1_1_key_release_event.html</Path>
+                    <Anchor>aaf08bcc7975e66e8b140e90a8aa8057a</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>LED</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>LED</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d.html</Path>
+                    <Anchor>a07d56bc6a31c71210d2fe273404dc4e1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>key</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d.html</Path>
+                    <Anchor>ae951ac3f0c15c584c4260b7b019f3186</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>LEDColor</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>LEDColor</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>a5ffadb6109d1a9beaac8db61ee2cd368</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>LEDColor</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>aeea08b355b4d2c66d95c785280c3de89</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>r</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>ac085930bf607d3966686a1617a817e40</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>g</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>a773fce60430cf6dbcd8f84d5857574f8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>b</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>afecc6dc168bb154b767a58bb8096bd93</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Controller</Name>
+                  <Path>structotto_1_1services_1_1_controller.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>KeyHandler</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>aabae71a1371f1943e2755c1a294472ef</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Event</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a79f3767875ac2ef94f5a2054c39f7c78</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>EventBag</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>af257b77f1845ce105d134c6a2d76b3c5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>flush_events</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>ad736bc5c5aea4e0e3f844e1d396be478</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>set_color</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a69ee091ec9a5361e5c7d0e1f6883bdbc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>flush_leds</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a6683a63d3e1babebeeb50f765ffc3190</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>clear_leds</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a8e6acdf48686c30f5e9b23310a81effb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>is_pressed</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>af932795ef00566ed2d47573572750c2e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>register_key_handler</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a23761f456c9fb49876e8d89089de1180</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>keypress</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a7d46bf36f29913fe08c001b99c041aa7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>keyrelease</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a2c8b29c086b297ed1be3ef6ebe3a0a6a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>encoder</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>a3bf3eaa794d173b81e9bbc9393004a3d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>void ::otto::board::ui::handle_keyevent</Name>
+                    <Path>structotto_1_1services_1_1_controller.html</Path>
+                    <Anchor>ae71e3af96d8cb24d726e57a7dbd7e068</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>hash&lt; otto::services::Key &gt;</Name>
+                  <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>argument_type</Name>
+                    <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+                    <Anchor>a60c07021ec25547acc69bcc0d8278d7f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>result_type</Name>
+                    <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+                    <Anchor>a5a0c8c40a126c2982ffee6864db0a1de</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator()</Name>
+                    <Path>structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html</Path>
+                    <Anchor>a265440e05370b394007391ad9541fceb</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>handle_keyevent</Name>
+                  <Path>src_2services_2controller_8hpp.html</Path>
+                  <Anchor>a70a2f5dff576eea37a8eb2a02204a6f6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>BETTER_ENUM</Name>
+                  <Path>src_2services_2controller_8hpp.html</Path>
+                  <Anchor>a380179c83bc740a075e938ebeeb873ee</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>blue</Name>
+                  <Path>src_2services_2controller_8hpp.html</Path>
+                  <Anchor>aeb12f6822e73789043ac63e2848bcc59</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>green</Name>
+                  <Path>src_2services_2controller_8hpp.html</Path>
+                  <Anchor>a11ec96c755e48324adc48241166d11bb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>yellow</Name>
+                  <Path>src_2services_2controller_8hpp.html</Path>
+                  <Anchor>ae1403977f3af09dc23e84467a4e73771</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>red</Name>
+                  <Path>src_2services_2controller_8hpp.html</Path>
+                  <Anchor>adcf8a8e66b095a1f0eba78812b80a968</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>debug_ui.hpp</Name>
                 <Path>debug__ui_8hpp.html</Path>
                 <Subnodes>
@@ -27388,6 +28099,12 @@
                     <Path>structotto_1_1services_1_1_log_manager.html</Path>
                     <Anchor>a03df5ee408802f0f9c9db47e24947965</Anchor>
                    </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>assert_module</Name>
+                  <Path>structotto_1_1assert__module.html</Path>
+                  <Subnodes>
                   </Subnodes>
                  </Node>
                  <Node>
@@ -27514,6 +28231,16 @@
                   <Name>DLOGF_SCOPE</Name>
                   <Path>log__manager_8hpp.html</Path>
                   <Anchor>a480bbeb7830deaa55ae965f6f44d3549</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OTTO_ASSERT</Name>
+                  <Path>log__manager_8hpp.html</Path>
+                  <Anchor>afbc58575fd0c938002c53f3aac5e9291</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OTTO_UNREACHABLE</Name>
+                  <Path>log__manager_8hpp.html</Path>
+                  <Anchor>a38be534f45c0dfa43f1bad7c418aac50</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -27696,38 +28423,26 @@
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>KeyPress</Name>
+                    <Name>State</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_press</Anchor>
+                    <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_state</Anchor>
                     <Subnodes>
                      <Node>
-                      <Name>key</Name>
+                      <Name>active_channel</Name>
                       <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                      <Anchor>a406efaf7620d255d0d04ca11c370862e</Anchor>
+                      <Anchor>a3ac1230e52e48088bc746fdcf942a4d1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>current_screen</Name>
+                      <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+                      <Anchor>af255ff4015be47de75cf25360d303096</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>KeyRelease</Name>
+                    <Name>ScreenSelector</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_release</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>key</Name>
-                      <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                      <Anchor>afbf1d326ac771b3d8f20cfe8df877043</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>KeyEvent</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>af20ec4330b9cd8f821012ae7f38042e4</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>KeyHandler</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a20cba3393d1c44d6d17047a52db24d62</Anchor>
+                    <Anchor>a835b4049b34fdfc81678fe0e2df0a399</Anchor>
                    </Node>
                    <Node>
                     <Name>UIManager</Name>
@@ -27740,39 +28455,24 @@
                     <Anchor>ab5a3ee7f15c8d77c49155d3b6415cd0b</Anchor>
                    </Node>
                    <Node>
-                    <Name>is_pressed</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a8196548577dd3076168dd5ae3ac2efaf</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>register_key_handler</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a9f18359edf47578b8a54d5a1888cb6de</Anchor>
-                   </Node>
-                   <Node>
                     <Name>display</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>select_engine</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a303c472abaa4e535ae209232746ea305</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>select_engine</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a6629fe07bcb7485518c0edc7d7e5ef39</Anchor>
+                    <Anchor>ace4075d0682cb2bc96644cb95c68488a</Anchor>
                    </Node>
                    <Node>
                     <Name>current_screen</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>aa9c2a861eaf30e18dd490a26212a45d4</Anchor>
+                    <Anchor>a7d428653b3ab0067dda4348b3a7834de</Anchor>
                    </Node>
                    <Node>
-                    <Name>selected_engine_name</Name>
+                    <Name>state</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a6404e6470b5789aa4547ad0903192012</Anchor>
+                    <Anchor>a484d923fc992396499e50b44274e90db</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>register_screen_selector</Name>
+                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+                    <Anchor>a8f496c20670a603069d1d1f4d6dbe7cf</Anchor>
                    </Node>
                    <Node>
                     <Name>draw_frame</Name>
@@ -27780,60 +28480,133 @@
                     <Anchor>a6e95e87432ca6e9997d7fa42b05e2f0d</Anchor>
                    </Node>
                    <Node>
-                    <Name>keypress</Name>
+                    <Name>display</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a5fefa6b565335b7faa5eb1620dd6930c</Anchor>
+                    <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
                    </Node>
                    <Node>
-                    <Name>keyrelease</Name>
+                    <Name>set_state</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a43e5bd4453c2447d2d6d2c8ed190473a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>rotary</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a6ede1c2ea9c359bae6b6b21d403d3b3f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>flush_events</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a763f13a05cfb5f8ebc275f1bd4d0c313</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>void ::otto::board::ui::handle_keyevent</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a7b8805a579e52611e0c9b182e19c36c0</Anchor>
+                    <Anchor>a7377fcf99d711302445e93c5e26d3a27</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>KeyPress</Name>
+                  <Name>State</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_press</Anchor>
+                  <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_state</Anchor>
                   <Subnodes>
                    <Node>
-                    <Name>key</Name>
+                    <Name>active_channel</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a406efaf7620d255d0d04ca11c370862e</Anchor>
+                    <Anchor>a3ac1230e52e48088bc746fdcf942a4d1</Anchor>
                    </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>KeyRelease</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>structotto_1_1services_1_1_u_i_manager_1_1_key_release</Anchor>
-                  <Subnodes>
                    <Node>
-                    <Name>key</Name>
+                    <Name>current_screen</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>afbf1d326ac771b3d8f20cfe8df877043</Anchor>
+                    <Anchor>af255ff4015be47de75cf25360d303096</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>handle_keyevent</Name>
+                  <Name>BETTER_ENUM</Name>
                   <Path>ui__manager_8hpp.html</Path>
-                  <Anchor>a70a2f5dff576eea37a8eb2a02204a6f6</Anchor>
+                  <Anchor>a7e52f4dd0116b6cc52c46e58f45c2220</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sends</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>ad5dde9acae6827c38030a4679e79ae2e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>routing</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a6fe095bfe4c8523ac8b45ba8b7ab353d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fx1</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a8863a9e3fc96bc0d8441eafa7389953c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fx1_selector</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>af5e451be3b87a2f5e8ae84c1fedd8f20</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fx2</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a02fc6e414ce54735336e1522b124f763</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>fx2_selector</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>ab6942493ec8dc5336655ea1248272f69</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>looper</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a21487a87ae8369f8f919cee60bee859d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>arp</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a5376222dffd6237a072003fffbb69c3d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>arp_selector</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>aeb16bfabb66a63df2f35b1f105b4b1a5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>voices</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a51972df46a4e2fa79853c842c491e031</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>master</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a77d9d1018ad23de12f9f631bb2d2e21e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sequencer</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a41980d2c4f700686a2024eef0cffd05d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>sampler</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a61897441e040238f74ec2067cc392999</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>synth</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>af7c20e83fddc66addac9fc9d751fef91</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>synth_selector</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>afa87e8c364d24f8eb72d014559dc2e93</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>envelope</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a220494c28a21712914902a9e9b253329</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>settings</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a8ed43b409452bc7e096a12c444b5ab85</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>external</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>ad7edc53c5dc42d963fb27393f30c65fa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>twist1</Name>
+                  <Path>ui__manager_8hpp.html</Path>
+                  <Anchor>a9652ad5409eb5763e26e96711dc55c30</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -28768,6 +29541,11 @@
                   <Path>algorithm_8hpp.html</Path>
                   <Anchor>gafd2199e8cd364fabb6a32702165efc09</Anchor>
                  </Node>
+                 <Node>
+                  <Name>equal</Name>
+                  <Path>algorithm_8hpp.html</Path>
+                  <Anchor>ga4f915b220cc45a65cd9593e7ed5ebae7</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -29103,6 +29881,108 @@
                     <Name>clear</Name>
                     <Path>classotto_1_1util_1_1dyn__array.html</Path>
                     <Anchor>a2a722f2010b55b7c77d4299374c318fa</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>enum.hpp</Name>
+                <Path>enum_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>enum_map</Name>
+                  <Path>structotto_1_1util_1_1enum__map.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>value_type</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>adae477240ecd1160ea60e79c936c2bb5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>iterator</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a066cd5154e79cd79a70a2e4364d8b260</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>const_iterator</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a29250688757c349916d013b56ae7e800</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>begin</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a8602ef3d22fdbac178054c41f476bb1d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>begin</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a0f3131cdc75b1845045ae881ebfd6178</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>end</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a19655b9ac17b85a1a829d110400a2d67</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>end</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>ad8ddfc85cbcafbe8b3b18666ff3b5f8d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>front</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a81a5757a71c847346fc8d340121e93b7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>front</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a9c0d13be43c344cddae2ed7aca9e5a51</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>back</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a8141c6da1c21abad5196f42cd1709216</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>back</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>ab13ad7936a4d2b39b440aef1f1f1b1e2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator[]</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a5aacb80249530ee921f1d4005e2fd559</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator[]</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>ad4baa6b784e8b3a9758380883eb46322</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>at</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>ac11ab148ec4eff8caa07cde34d316e05</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>at</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a3eebe7897489951015dcd397db2c805f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>data</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a19c25528ccb25424561c6a1f3491d46c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>data</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>a29c96f331711d226801a995fbaecb040</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_data</Name>
+                    <Path>structotto_1_1util_1_1enum__map.html</Path>
+                    <Anchor>ace777d3eb78fbeceaa302b5741d6446c</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -32137,7 +33017,7 @@
                  <Node>
                   <Name>to_string</Name>
                   <Path>jsonfile_8hpp.html</Path>
-                  <Anchor>a64522cdad4374a4355e5a9156ed448e7</Anchor>
+                  <Anchor>a90db961ecca6a907885a86859a455774</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -32264,53 +33144,85 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>atomic_swap</Name>
-                  <Path>structotto_1_1util_1_1atomic__swap.html</Path>
+                  <Name>clear_inner</Name>
+                  <Path>structotto_1_1util_1_1clear__inner.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>atomic_swap</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>ab81063d0d5e0b4f9007f13a118559b21</Anchor>
+                    <Name>operator()</Name>
+                    <Path>structotto_1_1util_1_1clear__inner.html</Path>
+                    <Anchor>a730b6eee755a925a5f4b8d684806c496</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>clear_outer</Name>
+                  <Path>structotto_1_1util_1_1clear__outer.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>operator()</Name>
+                    <Path>structotto_1_1util_1_1clear__outer.html</Path>
+                    <Anchor>ac6d728d5af62b6bad79830735d4e2115</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>double_buffered</Name>
+                  <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>double_buffered</Name>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>ad061f3bdb2f8abd0cec9252ce0177b06</Anchor>
                    </Node>
                    <Node>
-                    <Name>atomic_swap</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>ab7bb4307fe61011fd2abfeabbacc1dc1</Anchor>
+                    <Name>double_buffered</Name>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>ae63c2e5bb4d32637d83928be8ea96d28</Anchor>
                    </Node>
                    <Node>
-                    <Name>atomic_swap</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>a16d04b2e91de0d62303bd5785b553198</Anchor>
+                    <Name>double_buffered</Name>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>aed3367d3574d66b1ac6bd2fe9aac4e24</Anchor>
                    </Node>
                    <Node>
-                    <Name>atomic_swap</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>acd948c7ccd3697672543e345f9a19896</Anchor>
+                    <Name>double_buffered</Name>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>a1c34e5503f48ca2a3ac8690150ef377e</Anchor>
                    </Node>
                    <Node>
                     <Name>inner</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>afe32087568ecd6b2b5a3b5283e7134cb</Anchor>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>a6c8667185cc039a0d44313b4349d6571</Anchor>
                    </Node>
                    <Node>
                     <Name>inner</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>ad49a1c3f5c81ce79cdebc794cdcdebec</Anchor>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>adae0d0aabdf6538aa7258557ea0ddc4f</Anchor>
                    </Node>
                    <Node>
                     <Name>outer</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>adfe10d4563ce7a05984f19c2aa483828</Anchor>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>a8ca89f7bdeb83c1c3a8d03bc01dd4d21</Anchor>
                    </Node>
                    <Node>
                     <Name>outer</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>ac3062c8cce0d33a7198d4ebb5fd82452</Anchor>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>af459171d738396b26ac8dd81bc1585d8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>outer_locked</Name>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>a275a2121a793e0af583637e73aa9f704</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>outer_locked</Name>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>a8fd4d34932f6672fe331909d51337375</Anchor>
                    </Node>
                    <Node>
                     <Name>swap</Name>
-                    <Path>structotto_1_1util_1_1atomic__swap.html</Path>
-                    <Anchor>aca95110170370db146100c4115ec5c90</Anchor>
+                    <Path>structotto_1_1util_1_1double__buffered.html</Path>
+                    <Anchor>acd5ac488a20bb5795a2e2b4b024b3e3a</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -33891,6 +34803,100 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>serial.hpp</Name>
+                <Path>serial_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Serial</Name>
+                  <Path>structotto_1_1util_1_1_serial.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>exception</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a1bc64a65806d5c985040274c45ee893e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ErrorCode</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>ac5d6b80a1932d6a9a80f7705484e736c</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>empty_buffer</Name>
+                      <Path>structotto_1_1util_1_1_serial.html</Path>
+                      <Anchor>ac5d6b80a1932d6a9a80f7705484e736ca07df8e3ab6108b2fc6aebe4fe023400a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>error</Name>
+                      <Path>structotto_1_1util_1_1_serial.html</Path>
+                      <Anchor>ac5d6b80a1932d6a9a80f7705484e736cacb5e100e5a9a3e7f6d1fd97512215282</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Serial</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>aee3e1e8d279f8306aef10561f498dd2f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~Serial</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a1211b3ca1a278c3f59e8a968460dffdb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>write</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>add0f79fd972842c767985b85190edd8d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a13b19b38b148b0fc109940a76fbfd4ff</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a7fccbc24abe129d4ec0b283f5bf73945</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a446ed8866fe029b2028b8ce672cb4e1d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read_single</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a7582e33726ada2513ae2ddbf1b24d281</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read_line</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a4eb68806a7bbc2721478c009933a2d5b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>path</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>a030ff22f6b560d3448ca38fd50a0c216</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>file_descriptor</Name>
+                    <Path>structotto_1_1util_1_1_serial.html</Path>
+                    <Anchor>af102033fceea6a0ec9f842e2a8847fac</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ConstBytesView</Name>
+                  <Path>serial_8hpp.html</Path>
+                  <Anchor>afbe9b531e97eb461c056b19d20ddb8e0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>BytesView</Name>
+                  <Path>serial_8hpp.html</Path>
+                  <Anchor>aaa47bed3ea97a5e1333f19bcf1da7ca5</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>serialize.hpp</Name>
                 <Path>serialize_8hpp.html</Path>
                 <Subnodes>
@@ -33898,16 +34904,6 @@
                   <Name>json</Name>
                   <Path>serialize_8hpp.html</Path>
                   <Anchor>ab701e3ac61a85b337ec5c1abaad6742d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>to_json</Name>
-                  <Path>serialize_8hpp.html</Path>
-                  <Anchor>a61662432972fdfc4eb9b0c004a06ab09</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>from_json</Name>
-                  <Path>serialize_8hpp.html</Path>
-                  <Anchor>af3fda831e199f46082301e2c13b7b1b8</Anchor>
                  </Node>
                  <Node>
                   <Name>serialize</Name>
@@ -33970,16 +34966,6 @@
                 <Name>serialize.inl</Name>
                 <Path>serialize_8inl.html</Path>
                 <Subnodes>
-                 <Node>
-                  <Name>to_json</Name>
-                  <Path>serialize_8inl.html</Path>
-                  <Anchor>a61662432972fdfc4eb9b0c004a06ab09</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>from_json</Name>
-                  <Path>serialize_8inl.html</Path>
-                  <Anchor>af3fda831e199f46082301e2c13b7b1b8</Anchor>
-                 </Node>
                  <Node>
                   <Name>serialize</Name>
                   <Path>serialize_8inl.html</Path>
@@ -34510,6 +35496,11 @@
                   <Anchor>ad7d143880cd45f44c1957cf605df1271</Anchor>
                  </Node>
                  <Node>
+                  <Name>to_string</Name>
+                  <Path>string__conversions_8hpp.html</Path>
+                  <Anchor>a06cedbf29b3c961b7e653e59f763893d</Anchor>
+                 </Node>
+                 <Node>
                   <Name>from_string</Name>
                   <Path>string__conversions_8hpp.html</Path>
                   <Anchor>a5f3f85aade954ac68d4cc18b87677443</Anchor>
@@ -34759,6 +35750,82 @@
                    </Node>
                   </Subnodes>
                  </Node>
+                 <Node>
+                  <Name>sleeper_thread</Name>
+                  <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>sleeper_thread</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>a61ab4ac95b18975a2e4fca0cd3710e24</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~sleeper_thread</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>a85e96eae440dcdc0f8b1937db1855bb8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>trigger</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>a669eea5a4cb162f42f08ebc73cbd27b8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>join</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>af534f525a2f1ab457bc4d9838a3463f1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>should_run</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>ae18bb525396d18d53cd66e5e7c759c98</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>sleep_for</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>a9567a80c68c1546e70d0d0570b7bb05a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>sleep_until</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>a6a6968dc917f88e39fd4d843f7386d6a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>wake_up</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>a90c705e0c57e1453d94b2468646ad5be</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>running</Name>
+                    <Path>structotto_1_1util_1_1sleeper__thread.html</Path>
+                    <Anchor>a9333bb85fbca3aadf2d42e680b0d7931</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>clock</Name>
+                  <Path>thread_8hpp.html</Path>
+                  <Anchor>a7ebec16657e053fbd5a0a92bcca78dcc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>duration</Name>
+                  <Path>thread_8hpp.html</Path>
+                  <Anchor>a9830ec3f50f2426e66a27b0ff63a4892</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>time_point</Name>
+                  <Path>thread_8hpp.html</Path>
+                  <Anchor>a01463d53071b1d33713c5b385df57b3f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_timespec</Name>
+                  <Path>thread_8hpp.html</Path>
+                  <Anchor>a08e9a8e2eeb40b6722f9086eae72f383</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>to_time_point</Name>
+                  <Path>thread_8hpp.html</Path>
+                  <Anchor>a156224c5dd4e331dafb315029573a566</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -34780,6 +35847,12 @@
                  <Node>
                   <Name>is_number_or_enum&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
                   <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum_30d0225463fadc2dcb5710ef4d26d890.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>BetterEnum</Name>
+                  <Path>classotto_1_1util_1_1_better_enum.html</Path>
+                  <Subnodes>
+                  </Subnodes>
                  </Node>
                  <Node>
                   <Name>is_equal_comparable</Name>
@@ -34921,12 +35994,7 @@
                  <Node>
                   <Name>underlying</Name>
                   <Path>util_2type__traits_8hpp.html</Path>
-                  <Anchor>a0e244efa1e892e04c8b9efd41fb6500b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>underlying</Name>
-                  <Path>util_2type__traits_8hpp.html</Path>
-                  <Anchor>a23ca4dd576ebc7dc6311ed3a40812283</Anchor>
+                  <Anchor>ab9c75d232cd2ca793522044e5ad55ff6</Anchor>
                  </Node>
                  <Node>
                   <Name>for_each</Name>
@@ -35249,10 +36317,6 @@
            <Node>
             <Name>All</Name>
             <Path>globals.html</Path>
-           </Node>
-           <Node>
-            <Name>Functions</Name>
-            <Path>globals_func.html</Path>
            </Node>
            <Node>
             <Name>Variables</Name>
