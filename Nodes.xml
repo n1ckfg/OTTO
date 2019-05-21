@@ -10081,6 +10081,18 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>enum_decay&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt; &gt; &gt;</Name>
+                <Path>namespaceotto_1_1util.html</Path>
+                <Anchor>structotto_1_1util_1_1enum__decay_3_01_t_00_01std_1_1enable__if__t_3_01_better_enum_1_1is_3_01_t_01_4_01_4_01_4</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>type</Name>
+                  <Path>namespaceotto_1_1util.html</Path>
+                  <Anchor>a28d68982915f07ae9b23f170bb8b4c65</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>enum_decay&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;</Name>
                 <Path>namespaceotto_1_1util.html</Path>
                 <Anchor>structotto_1_1util_1_1enum__decay_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum__v_3_01_t_01_4_01_4_01_4</Anchor>
@@ -10285,8 +10297,8 @@
                 <Path>structotto_1_1util_1_1is__number__or__enum.html</Path>
                </Node>
                <Node>
-                <Name>is_number_or_enum&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
-                <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum_30d0225463fadc2dcb5710ef4d26d890.html</Path>
+                <Name>is_number_or_enum&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt;||std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
+                <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01_better_enum_1_100d50977aad846e5bcf9a7dbcabb728d.html</Path>
                </Node>
                <Node>
                 <Name>is_one_of</Name>
@@ -13625,6 +13637,11 @@
             <Anchor>structotto_1_1util_1_1enum__decay</Anchor>
            </Node>
            <Node>
+            <Name>otto::util::enum_decay&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt; &gt; &gt;</Name>
+            <Path>namespaceotto_1_1util.html</Path>
+            <Anchor>structotto_1_1util_1_1enum__decay_3_01_t_00_01std_1_1enable__if__t_3_01_better_enum_1_1is_3_01_t_01_4_01_4_01_4</Anchor>
+           </Node>
+           <Node>
             <Name>otto::util::enum_decay&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt; &gt; &gt;</Name>
             <Path>namespaceotto_1_1util.html</Path>
             <Anchor>structotto_1_1util_1_1enum__decay_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum__v_3_01_t_01_4_01_4_01_4</Anchor>
@@ -14363,16 +14380,20 @@
             <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;::Props</Name>
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Sequencer::Props</Name>
             <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Arp::Props</Name>
+            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Chorus::Props</Name>
@@ -14403,16 +14424,12 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
            </Node>
            <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
+           </Node>
+           <Node>
             <Name>otto::engines::RhodesSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::Arp::Props</Name>
-            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
@@ -14814,18 +14831,18 @@
               <Path>structotto_1_1util_1_1is__number_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__arithmetic__v_397650e91c2e7a780e772a1c8fdbf73d5.html</Path>
              </Node>
              <Node>
-              <Name>otto::util::is_number_or_enum&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
-              <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum_30d0225463fadc2dcb5710ef4d26d890.html</Path>
+              <Name>otto::util::is_number_or_enum&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt;||std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
+              <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01_better_enum_1_100d50977aad846e5bcf9a7dbcabb728d.html</Path>
              </Node>
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
            </Node>
            <Node>
             <Name>otto::reflect::type_list&lt; Args &gt;</Name>
@@ -35841,18 +35858,18 @@
                   <Path>structotto_1_1util_1_1is__number_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__arithmetic__v_397650e91c2e7a780e772a1c8fdbf73d5.html</Path>
                  </Node>
                  <Node>
-                  <Name>is_number_or_enum</Name>
-                  <Path>structotto_1_1util_1_1is__number__or__enum.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>is_number_or_enum&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
-                  <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum_30d0225463fadc2dcb5710ef4d26d890.html</Path>
-                 </Node>
-                 <Node>
                   <Name>BetterEnum</Name>
                   <Path>classotto_1_1util_1_1_better_enum.html</Path>
                   <Subnodes>
                   </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>is_number_or_enum</Name>
+                  <Path>structotto_1_1util_1_1is__number__or__enum.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>is_number_or_enum&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt;||std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
+                  <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01_better_enum_1_100d50977aad846e5bcf9a7dbcabb728d.html</Path>
                  </Node>
                  <Node>
                   <Name>is_equal_comparable</Name>
@@ -35911,6 +35928,18 @@
                     <Name>type</Name>
                     <Path>namespaceotto_1_1util.html</Path>
                     <Anchor>a926f19b88eee820c9ddee0aad41d6a7e</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>enum_decay&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt; &gt; &gt;</Name>
+                  <Path>namespaceotto_1_1util.html</Path>
+                  <Anchor>structotto_1_1util_1_1enum__decay_3_01_t_00_01std_1_1enable__if__t_3_01_better_enum_1_1is_3_01_t_01_4_01_4_01_4</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>type</Name>
+                    <Path>namespaceotto_1_1util.html</Path>
+                    <Anchor>a28d68982915f07ae9b23f170bb8b4c65</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>

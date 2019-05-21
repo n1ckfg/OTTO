@@ -42872,12 +42872,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::util::is_number_or_enum&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
+      <Name>otto::util::is_number_or_enum&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt;||std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
-      <Scope>otto::util::is_number_or_enum&lt; T, std::enable_if_t&lt; std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Scope>
+      <Scope>otto::util::is_number_or_enum&lt; T, std::enable_if_t&lt; BetterEnum::is&lt; T &gt;||std::is_enum_v&lt; T &gt;||is_number_v&lt; T &gt; &gt; &gt;</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01std_1_1is__enum_30d0225463fadc2dcb5710ef4d26d890.html</Path>
+    <Path>structotto_1_1util_1_1is__number__or__enum_3_01_t_00_01std_1_1enable__if__t_3_01_better_enum_1_100d50977aad846e5bcf9a7dbcabb728d.html</Path>
     <DeclaredIn>type_traits.hpp</DeclaredIn>
   </Token>
   <Token>
