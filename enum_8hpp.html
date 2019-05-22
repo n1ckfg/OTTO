@@ -70,7 +70,8 @@
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">enum.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -94,7 +95,85 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceotto_1_1util"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html">otto::util</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa9abf623531d65c71aa3033098865985"><td class="memTemplParams" colspan="2">template&lt;typename Enum &gt; </td></tr>
+<tr class="memitem:aa9abf623531d65c71aa3033098865985"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="enum_8hpp.html#aa9abf623531d65c71aa3033098865985">serialize</a> (const Enum &amp;e) -&gt; std::enable_if_t&lt; <a class="el" href="classotto_1_1util_1_1_better_enum.html#a28d43b4aed522feea94ca4ed5d371a9b">otto::util::BetterEnum::is</a>&lt; Enum &gt;, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &gt;</td></tr>
+<tr class="memdesc:aa9abf623531d65c71aa3033098865985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize a BetterEnum to json.  <a href="enum_8hpp.html#aa9abf623531d65c71aa3033098865985">More...</a><br /></td></tr>
+<tr class="separator:aa9abf623531d65c71aa3033098865985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58d143207426b2741074438d5cea77fd"><td class="memTemplParams" colspan="2">template&lt;typename Enum &gt; </td></tr>
+<tr class="memitem:a58d143207426b2741074438d5cea77fd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="enum_8hpp.html#a58d143207426b2741074438d5cea77fd">deserialize</a> (Enum &amp;p, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;j) -&gt; std::enable_if_t&lt; <a class="el" href="classotto_1_1util_1_1_better_enum.html#a28d43b4aed522feea94ca4ed5d371a9b">otto::util::BetterEnum::is</a>&lt; Enum &gt;, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &gt;</td></tr>
+<tr class="memdesc:a58d143207426b2741074438d5cea77fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a BetterEnum from json.  <a href="enum_8hpp.html#a58d143207426b2741074438d5cea77fd">More...</a><br /></td></tr>
+<tr class="separator:a58d143207426b2741074438d5cea77fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aa9abf623531d65c71aa3033098865985"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9abf623531d65c71aa3033098865985">&#9670;&nbsp;</a></span>serialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Enum &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto serialize </td>
+          <td>(</td>
+          <td class="paramtype">const Enum &amp;&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;<a class="el" href="classotto_1_1util_1_1_better_enum.html#a28d43b4aed522feea94ca4ed5d371a9b">otto::util::BetterEnum::is</a>&lt;Enum&gt;, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&gt;
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Serialize a BetterEnum to json. </p>
+
+<p class="definition">Definition at line <a class="el" href="enum_8hpp_source.html#l00098">98</a> of file <a class="el" href="enum_8hpp_source.html">enum.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="props_8hpp_source.html#l00063">otto::core::props::serialize()</a>, and <a class="el" href="serialize_8inl_source.html#l00152">to_json()</a>.</p>
+
+</div>
+</div>
+<a id="a58d143207426b2741074438d5cea77fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d143207426b2741074438d5cea77fd">&#9670;&nbsp;</a></span>deserialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Enum &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto deserialize </td>
+          <td>(</td>
+          <td class="paramtype">Enum &amp;&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; std::enable_if_t&lt;<a class="el" href="classotto_1_1util_1_1_better_enum.html#a28d43b4aed522feea94ca4ed5d371a9b">otto::util::BetterEnum::is</a>&lt;Enum&gt;, <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a>&gt;
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deserialize a BetterEnum from json. </p>
+
+<p class="definition">Definition at line <a class="el" href="enum_8hpp_source.html#l00106">106</a> of file <a class="el" href="enum_8hpp_source.html">enum.hpp</a>.</p>
+
+<p class="reference">References <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string/c_str.html">std::string::c_str()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="props_8hpp_source.html#l00071">otto::core::props::deserialize()</a>, and <a class="el" href="serialize_8inl_source.html#l00157">from_json()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

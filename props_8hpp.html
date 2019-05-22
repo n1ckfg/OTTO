@@ -129,6 +129,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a5fd1aa3ac0f2a6bbae073c41350ee000"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a5fd1aa3ac0f2a6bbae073c41350ee000">otto::core::props::deserialize</a> (PropertyImpl&lt; ValueType, TagList &gt; &amp;prop, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>)</td></tr>
 <tr class="memdesc:a5fd1aa3ac0f2a6bbae073c41350ee000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deserialize a property from json.  <a href="namespaceotto_1_1core_1_1props.html#a5fd1aa3ac0f2a6bbae073c41350ee000">More...</a><br /></td></tr>
 <tr class="separator:a5fd1aa3ac0f2a6bbae073c41350ee000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908533241fdf5a9defbf07c332d3b284"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename TagList &gt; </td></tr>
+<tr class="memitem:a908533241fdf5a9defbf07c332d3b284"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a908533241fdf5a9defbf07c332d3b284">otto::core::props::to_json</a> (<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, PropertyImpl&lt; ValueType, TagList &gt; &amp;t)</td></tr>
+<tr class="separator:a908533241fdf5a9defbf07c332d3b284"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c5cfee1c486fea377a187e28427b2a"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename TagList &gt; </td></tr>
+<tr class="memitem:a14c5cfee1c486fea377a187e28427b2a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a14c5cfee1c486fea377a187e28427b2a">otto::core::props::to_json</a> (<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, const PropertyImpl&lt; ValueType, TagList &gt; &amp;t)</td></tr>
+<tr class="separator:a14c5cfee1c486fea377a187e28427b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a598d240e862a8ed911198a7567a43406"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename TagList &gt; </td></tr>
+<tr class="memitem:a598d240e862a8ed911198a7567a43406"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a598d240e862a8ed911198a7567a43406">otto::core::props::to_json</a> (<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, PropertyImpl&lt; ValueType, TagList &gt; &amp;&amp;t)</td></tr>
+<tr class="separator:a598d240e862a8ed911198a7567a43406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d7fabc88179d7350152c4c1be25b79"><td class="memTemplParams" colspan="2">template&lt;typename ValueType , typename TagList &gt; </td></tr>
+<tr class="memitem:a99d7fabc88179d7350152c4c1be25b79"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1props.html#a99d7fabc88179d7350152c4c1be25b79">otto::core::props::from_json</a> (const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, PropertyImpl&lt; ValueType, TagList &gt; &amp;t)</td></tr>
+<tr class="separator:a99d7fabc88179d7350152c4c1be25b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="structotto_1_1core_1_1props_1_1default__mixins" id="structotto_1_1core_1_1props_1_1default__mixins"></a>
@@ -145,7 +157,7 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="3">Class Members</th></tr>
 <tr><td class="fieldtype">
-<a id="a648a85ad98a73545429abc6adf90a6f1"></a>typedef conditional_t&lt; is_enum_v&lt; T &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal, has_limits, steppable &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal &gt; &gt;</td>
+<a id="a4d5c3d79ecf1a4b48a6949d750c2386b"></a>typedef conditional_t&lt; is_enum_v&lt; T &gt;||is&lt; T &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal, has_limits, steppable &gt;, <a class="el" href="namespaceotto_1_1core_1_1props.html#a2ff584427c0d4e8c1cc7455d30d45777">tag_list</a>&lt; signal &gt; &gt;</td>
 <td class="fieldname">
 type</td>
 <td class="fielddoc">

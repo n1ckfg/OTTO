@@ -992,6 +992,50 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a908533241fdf5a9defbf07c332d3b284</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a14c5cfee1c486fea377a187e28427b2a</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a598d240e862a8ed911198a7567a43406</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a99d7fabc88179d7350152c4c1be25b79</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Winding</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -1702,6 +1746,17 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1services.html</Path>
     <Anchor>a7e52f4dd0116b6cc52c46e58f45c2220</Anchor>
+    <DeclaredIn>ui_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BETTER_ENUM</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1services.html</Path>
+    <Anchor>a886a89b1740a0cd13185e57b7db8fc5d</Anchor>
     <DeclaredIn>ui_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2911,6 +2966,28 @@
     <Anchor>aa8d5563a26179fd0b53a98c383425499</Anchor>
     <Abstract>Add all elements in r2 and rs to their respective elements in r1.</Abstract>
     <DeclaredIn>audio.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>serialize</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>enum_8hpp.html</Path>
+    <Anchor>aa9abf623531d65c71aa3033098865985</Anchor>
+    <Abstract>Serialize a BetterEnum to json.</Abstract>
+    <DeclaredIn>enum.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deserialize</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>enum_8hpp.html</Path>
+    <Anchor>a58d143207426b2741074438d5cea77fd</Anchor>
+    <Abstract>Deserialize a BetterEnum from json.</Abstract>
+    <DeclaredIn>enum.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6121,6 +6198,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>serialize_8hpp.html</Path>
+    <Anchor>a4400a040e0c5d8390d62f0c7d54b46f0</Anchor>
+    <DeclaredIn>serialize.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_json</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>serialize_8hpp.html</Path>
+    <Anchor>aaf93acff32a4ab4f0253dd8efdc208ce</Anchor>
+    <DeclaredIn>serialize.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>serialize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -6371,6 +6468,26 @@
     <Path>namespaceotto_1_1util.html</Path>
     <Anchor>a9fda81fc8e3d860d8b9607b0fc933d19</Anchor>
     <DeclaredIn>serialize.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>serialize_8inl.html</Path>
+    <Anchor>a4400a040e0c5d8390d62f0c7d54b46f0</Anchor>
+    <DeclaredIn>serialize.inl</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_json</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>serialize_8inl.html</Path>
+    <Anchor>aaf93acff32a4ab4f0253dd8efdc208ce</Anchor>
+    <DeclaredIn>serialize.inl</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -23206,6 +23323,50 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a908533241fdf5a9defbf07c332d3b284</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a14c5cfee1c486fea377a187e28427b2a</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a598d240e862a8ed911198a7567a43406</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::props</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1props.html</Path>
+    <Anchor>a99d7fabc88179d7350152c4c1be25b79</Anchor>
+    <DeclaredIn>props.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>contains_tag_v</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -35736,6 +35897,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>BETTER_ENUM</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1services.html</Path>
+    <Anchor>a886a89b1740a0cd13185e57b7db8fc5d</Anchor>
+    <DeclaredIn>ui_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>blue</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -39460,6 +39632,58 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::services::UIManager::State</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::services::UIManager::State</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+    <Abstract>The UI state.</Abstract>
+    <DeclaredIn>ui_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DECL_REFLECTION</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::UIManager::State</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+    <Anchor>a5e9030953a0d70081a4317c561735ce5</Anchor>
+    <DeclaredIn>ui_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>active_channel</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::UIManager::State</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+    <Anchor>aeee50cd6c1e9834fce37a796ae983eda</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current_screen</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::UIManager::State</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+    <Anchor>a055e4be9bd0280fe7726f0cd6e3a2942</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>key_mode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::UIManager::State</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+    <Anchor>a67c5132c558e71445479aa53db1299bb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::test</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -42225,7 +42449,7 @@
       <Scope>otto::util::double_buffered</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1double__buffered.html</Path>
-    <Anchor>a275a2121a793e0af583637e73aa9f704</Anchor>
+    <Anchor>a44a463eb44fdabc6ecf052725da469de</Anchor>
     <DeclaredIn>locked.hpp</DeclaredIn>
   </Token>
   <Token>

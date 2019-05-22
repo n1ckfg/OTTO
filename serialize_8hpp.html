@@ -101,6 +101,12 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a4400a040e0c5d8390d62f0c7d54b46f0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4400a040e0c5d8390d62f0c7d54b46f0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="serialize_8hpp.html#a4400a040e0c5d8390d62f0c7d54b46f0">to_json</a> (<a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, T &amp;&amp;t)</td></tr>
+<tr class="separator:a4400a040e0c5d8390d62f0c7d54b46f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf93acff32a4ab4f0253dd8efdc208ce"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aaf93acff32a4ab4f0253dd8efdc208ce"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="serialize_8hpp.html#aaf93acff32a4ab4f0253dd8efdc208ce">from_json</a> (const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, T &amp;t)</td></tr>
+<tr class="separator:aaf93acff32a4ab4f0253dd8efdc208ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11ba4701974f4b2d5e01b560212d12b8"><td class="memTemplParams" colspan="2">template&lt;typename Class , typename  = std::enable_if_t&lt;reflect::is_registered&lt;Class&gt;()&gt;&gt; </td></tr>
 <tr class="memitem:a11ba4701974f4b2d5e01b560212d12b8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a11ba4701974f4b2d5e01b560212d12b8">otto::util::serialize</a> (const Class &amp;obj)</td></tr>
 <tr class="separator:a11ba4701974f4b2d5e01b560212d12b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +155,75 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="serialize_8hpp_source.html#l00012">12</a> of file <a class="el" href="serialize_8hpp_source.html">serialize.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a4400a040e0c5d8390d62f0c7d54b46f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4400a040e0c5d8390d62f0c7d54b46f0">&#9670;&nbsp;</a></span>to_json()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void to_json </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00152">152</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_8hpp_source.html#l00098">serialize()</a>.</p>
+
+</div>
+</div>
+<a id="aaf93acff32a4ab4f0253dd8efdc208ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf93acff32a4ab4f0253dd8efdc208ce">&#9670;&nbsp;</a></span>from_json()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void from_json </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="serialize_8inl_source.html#l00157">157</a> of file <a class="el" href="serialize_8inl_source.html">serialize.inl</a>.</p>
+
+<p class="reference">References <a class="el" href="enum_8hpp_source.html#l00106">deserialize()</a>.</p>
 
 </div>
 </div>
