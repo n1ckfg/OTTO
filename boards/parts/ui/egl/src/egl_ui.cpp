@@ -73,12 +73,8 @@ namespace otto::services {
     float fps;
     duration<double> lastFrameTime;
 
-    std::thread kbd_thread = std::thread([this] { read_keyboard(); });
-
     while (Application::current().running()) {
       t0 = clock::now();
-
-      flush_events();
 
       // Update and render
       egl.beginFrame();
@@ -113,7 +109,5 @@ namespace otto::services {
     nvgDeleteGLES2(nvg);
 
     egl.exit();
-
-    kbd_thread.join();
   }
 } // namespace otto::services
