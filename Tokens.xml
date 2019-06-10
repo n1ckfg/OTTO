@@ -13240,6 +13240,338 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>otto::board::Emulator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <DeclaredIn>emulator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KeyHandler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>aabae71a1371f1943e2755c1a294472ef</Anchor>
+    <Abstract>Function type for key handlers.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Event</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a79f3767875ac2ef94f5a2054c39f7c78</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EventBag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>af257b77f1845ce105d134c6a2d76b3c5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>draw</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>a7e0223fd9fe207382229df2f2f607bf1</Anchor>
+    <Abstract>Draw this widget to the context.</Abstract>
+    <DeclaredIn>emulator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set_color</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>a337641c483d48dba43d70bf9f98625d5</Anchor>
+    <DeclaredIn>emulator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flush_leds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>afe50585d985a4fba2eb14a2cb6e32c42</Anchor>
+    <DeclaredIn>emulator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clear_leds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>a41f0497c8fefcf11bbe04ce5ab276f54</Anchor>
+    <DeclaredIn>emulator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>handle_click</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>ac411c959817460c9ec56802ac6279977</Anchor>
+    <DeclaredIn>emulator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>handle_scroll</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>ab9c4ad6d8ccb79f6ce93a5638783a54e</Anchor>
+    <DeclaredIn>emulator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Drawable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::ui::vg::Drawable</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html</Path>
+    <Anchor>a0e9277a01c2ff64a1cb0de66b34e8f6d</Anchor>
+    <DeclaredIn>canvas.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Drawable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::ui::vg::Drawable</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html</Path>
+    <Anchor>aa93d69e884b15b84ab6f27fb2e39e1e0</Anchor>
+    <DeclaredIn>canvas.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flush_events</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>ad736bc5c5aea4e0e3f844e1d396be478</Anchor>
+    <Abstract>Actually executes the key and encoder events.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>is_pressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>af932795ef00566ed2d47573572750c2e</Anchor>
+    <Abstract>Check if a key is currently pressed.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>register_key_handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a23761f456c9fb49876e8d89089de1180</Anchor>
+    <Abstract>Register a key handler.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>ae5c0f4d23d16f0ef33f57f506af9b5f4</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>acfd3a623101302483a3a5d2935c28f9d</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>af94912d23f484d7244c875400c96f21f</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>a90aacddc2a6f4c485307dc258ff11580</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>a7e99feabf0e6270be4b5b8a08971e305</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>a488428329c96c3584e971b2ef9a1db3e</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>a73a7bd5bfc1f45d2aace95cd55249feb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_dummy</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a5af3848e546f901a7abb79fe5ab45e6a</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a906fe938e4215a3c9ffc334c9a3f3959</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>keypress</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a7d46bf36f29913fe08c001b99c041aa7</Anchor>
+    <Abstract>Dispatches to the event handler for the current screen, and handles global keys.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>keyrelease</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a2c8b29c086b297ed1be3ef6ebe3a0a6a</Anchor>
+    <Abstract>Dispatches to the event handler for the current screen, and handles global keys.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>encoder</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a3bf3eaa794d173b81e9bbc9393004a3d</Anchor>
+    <Abstract>Send encoder event.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>void ::otto::board::ui::handle_keyevent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>ae71e3af96d8cb24d726e57a7dbd7e068</Anchor>
+    <Abstract>Temporary solution.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>down</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>a1338f7edc52105cd17b13eb453e8b33fa74e8333ad11685ff3bdae589c8f6e34d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>up</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::board::Emulator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1board_1_1_emulator.html</Path>
+    <Anchor>a1338f7edc52105cd17b13eb453e8b33fa46c48bec0d282018b9d167eef7711b2c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::board::ui</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -18423,6 +18755,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>left</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::board::ui</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1board_1_1ui.html</Path>
+    <Anchor>a6b0da8072dd83adb8e2f793c47553619a811882fecd5c7618d7099ebbd39ea254</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>middle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::board::ui</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1board_1_1ui.html</Path>
+    <Anchor>a6b0da8072dd83adb8e2f793c47553619a4a548addbfb239bbd12f5afe11a4b6dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>right</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::board::ui</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1board_1_1ui.html</Path>
+    <Anchor>a6b0da8072dd83adb8e2f793c47553619a7c4f29407893c334a6cb7a87bf045c0d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>otto::board::ui::EGLConnection</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -20031,19 +20393,7 @@
       <Scope>otto::core::engine::EngineDispatcher</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-    <Anchor>a34251e6ab205f0dbd3cf11841f75b9ed</Anchor>
-    <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>init</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::engine::EngineDispatcher</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-    <Anchor>a632970095815fd82648b78d139dc52cc</Anchor>
-    <Abstract>Construct all registered engines.</Abstract>
+    <Anchor>a2771d58e65280c5fd7cc82966284804d</Anchor>
     <DeclaredIn>engine_dispatcher.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -24070,16 +24420,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::core::props::mixin::hook&lt; void &gt;</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::core::props::mixin::hook&lt; void &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4.html</Path>
-    <DeclaredIn>type_traits.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>otto::core::props::mixin::hook&lt; void &gt;::type</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -27581,7 +27921,7 @@
       <Scope>otto::core::voices::details::SettingsProps</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-    <Anchor>a68dbc158fb90f3cff0340caff3f65d27</Anchor>
+    <Anchor>a978a74d76709c18f80f1a0519b443dfe</Anchor>
     <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -27603,16 +27943,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
     <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>octave</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::core::voices::details::SettingsProps</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-    <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34694,6 +35024,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>set_window_size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::glfw::Window</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1glfw_1_1_window.html</Path>
+    <Anchor>a01eb36062a779d24957a3c7ab504678e</Anchor>
+    <DeclaredIn>glfw_ui_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>should_close</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -34749,6 +35090,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>mouse_button_callback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::glfw::Window</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1glfw_1_1_window.html</Path>
+    <Anchor>a1f63efa8bbdd4dce9fbc550c55c324e7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>key_callback</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -34766,6 +35117,16 @@
     </TokenIdentifier>
     <Path>structotto_1_1glfw_1_1_window.html</Path>
     <Anchor>a5346dec46764991e43d928eee36305a5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scroll_callback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::glfw::Window</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1glfw_1_1_window.html</Path>
+    <Anchor>a0acd7000db901bb24f24835643f299c4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34867,6 +35228,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>set_window_size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::glfw::Window</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1glfw_1_1_window.html</Path>
+    <Anchor>a01eb36062a779d24957a3c7ab504678e</Anchor>
+    <DeclaredIn>glfw_ui_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>should_close</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -34922,6 +35294,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>mouse_button_callback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::glfw::Window</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1glfw_1_1_window.html</Path>
+    <Anchor>a1f63efa8bbdd4dce9fbc550c55c324e7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>key_callback</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -34939,6 +35321,16 @@
     </TokenIdentifier>
     <Path>structotto_1_1glfw_1_1_window.html</Path>
     <Anchor>a5346dec46764991e43d928eee36305a5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>scroll_callback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::glfw::Window</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1glfw_1_1_window.html</Path>
+    <Anchor>a0acd7000db901bb24f24835643f299c4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -37454,18 +37846,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::UIManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a484d923fc992396499e50b44274e90db</Anchor>
-    <Abstract>The current UI state.</Abstract>
-    <DeclaredIn>ui_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>register_screen_selector</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -37564,6 +37944,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::UIManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+    <Anchor>a76c060799459711801fa88736eda2ddf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>draw_frame</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -37584,17 +37974,6 @@
     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
     <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
     <Abstract>Display a screen.</Abstract>
-    <DeclaredIn>ui_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set_state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::UIManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a7377fcf99d711302445e93c5e26d3a27</Anchor>
     <DeclaredIn>ui_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -37835,18 +38214,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::UIManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a484d923fc992396499e50b44274e90db</Anchor>
-    <Abstract>The current UI state.</Abstract>
-    <DeclaredIn>ui_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>register_screen_selector</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -37945,6 +38312,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::UIManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+    <Anchor>a76c060799459711801fa88736eda2ddf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>draw_frame</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -37965,17 +38342,6 @@
     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
     <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
     <Abstract>Display a screen.</Abstract>
-    <DeclaredIn>ui_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set_state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::UIManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a7377fcf99d711302445e93c5e26d3a27</Anchor>
     <DeclaredIn>ui_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -38142,6 +38508,17 @@
       <Scope>otto::services::LEDColor</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LEDColor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::LEDColor</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+    <Anchor>a62fe1be1a246f1b23fbda7bc9c8ef35e</Anchor>
     <DeclaredIn>controller.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -38723,6 +39100,17 @@
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
     <Anchor>ac8bdaef8fc5cd0dbed0f7cc918b8415e</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_or_emulator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::PrOTTO1SerialController</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
+    <Anchor>a445793be87c55596eca0b1fd835b0bdb</Anchor>
     <DeclaredIn>controller.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39497,18 +39885,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::UIManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a484d923fc992396499e50b44274e90db</Anchor>
-    <Abstract>The current UI state.</Abstract>
-    <DeclaredIn>ui_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>register_screen_selector</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -39597,6 +39973,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::UIManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
+    <Anchor>a76c060799459711801fa88736eda2ddf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>draw_frame</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -39621,17 +40007,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>set_state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::UIManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a7377fcf99d711302445e93c5e26d3a27</Anchor>
-    <DeclaredIn>ui_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>otto::services::UIManager::State</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -39649,7 +40024,7 @@
       <Scope>otto::services::UIManager::State</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
-    <Anchor>a5e9030953a0d70081a4317c561735ce5</Anchor>
+    <Anchor>aea97a6663b4e36d4d90c068703775d56</Anchor>
     <DeclaredIn>ui_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39681,6 +40056,16 @@
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
     <Anchor>a67c5132c558e71445479aa53db1299bb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>octave</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::UIManager::State</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+    <Anchor>a66169d2b86fc6fed4412d9e112b19ae2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

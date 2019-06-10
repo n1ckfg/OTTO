@@ -79,7 +79,7 @@
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00018">18</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00019">19</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -112,6 +112,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a10c8bf59ecd115d8b2517f6fac52f1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63eb44d7aef16d6669a7acf030f9576b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#a63eb44d7aef16d6669a7acf030f9576b">set_window_size_limits</a> (int min_x, int min_y, int max_x, int max_y)</td></tr>
 <tr class="separator:a63eb44d7aef16d6669a7acf030f9576b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01eb36062a779d24957a3c7ab504678e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#a01eb36062a779d24957a3c7ab504678e">set_window_size</a> (int x, int y)</td></tr>
+<tr class="separator:a01eb36062a779d24957a3c7ab504678e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a970c41abe50de898b27ce2c5cd0ca0ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#a970c41abe50de898b27ce2c5cd0ca0ed">should_close</a> ()</td></tr>
 <tr class="separator:a970c41abe50de898b27ce2c5cd0ca0ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae9e9b259d47d39231943ce93cb82613"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1_point.html">vg::Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#aae9e9b259d47d39231943ce93cb82613">cursor_pos</a> ()</td></tr>
@@ -128,10 +130,14 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:add5056e5dced6cf0a704ba9f9a5d350a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(Action, <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>, Key)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#add5056e5dced6cf0a704ba9f9a5d350a">key_callback</a></td></tr>
+<tr class="memitem:a1f63efa8bbdd4dce9fbc550c55c324e7"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(Button, Action, <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#a1f63efa8bbdd4dce9fbc550c55c324e7">mouse_button_callback</a> = nullptr</td></tr>
+<tr class="separator:a1f63efa8bbdd4dce9fbc550c55c324e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add5056e5dced6cf0a704ba9f9a5d350a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(Action, <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>, Key)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#add5056e5dced6cf0a704ba9f9a5d350a">key_callback</a> = nullptr</td></tr>
 <tr class="separator:add5056e5dced6cf0a704ba9f9a5d350a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5346dec46764991e43d928eee36305a5"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(char)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#a5346dec46764991e43d928eee36305a5">char_callback</a></td></tr>
+<tr class="memitem:a5346dec46764991e43d928eee36305a5"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(char)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#a5346dec46764991e43d928eee36305a5">char_callback</a> = nullptr</td></tr>
 <tr class="separator:a5346dec46764991e43d928eee36305a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acd7000db901bb24f24835643f299c4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt; void(double x, double y)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1glfw_1_1_window.html#a0acd7000db901bb24f24835643f299c4">scroll_callback</a> = nullptr</td></tr>
+<tr class="separator:a0acd7000db901bb24f24835643f299c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af5aaa0b3423bf7eaa4302094d72b8802"></a>
@@ -356,6 +362,34 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a01eb36062a779d24957a3c7ab504678e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01eb36062a779d24957a3c7ab504678e">&#9670;&nbsp;</a></span>set_window_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::glfw::Window::set_window_size </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a970c41abe50de898b27ce2c5cd0ca0ed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a970c41abe50de898b27ce2c5cd0ca0ed">&#9670;&nbsp;</a></span>should_close()</h2>
 
@@ -425,6 +459,22 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1f63efa8bbdd4dce9fbc550c55c324e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f63efa8bbdd4dce9fbc550c55c324e7">&#9670;&nbsp;</a></span>mouse_button_callback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(Button, Action, <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>)&gt; otto::glfw::Window::mouse_button_callback = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00040">40</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
+
+</div>
+</div>
 <a id="add5056e5dced6cf0a704ba9f9a5d350a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add5056e5dced6cf0a704ba9f9a5d350a">&#9670;&nbsp;</a></span>key_callback</h2>
 
@@ -432,12 +482,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(Action, <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>, Key)&gt; otto::glfw::Window::key_callback</td>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(Action, <a class="el" href="structotto_1_1board_1_1ui_1_1_modifiers.html">Modifiers</a>, Key)&gt; otto::glfw::Window::key_callback = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00038">38</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00041">41</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -448,12 +498,28 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(char)&gt; otto::glfw::Window::char_callback</td>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(char)&gt; otto::glfw::Window::char_callback = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00039">39</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00042">42</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0acd7000db901bb24f24835643f299c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0acd7000db901bb24f24835643f299c4">&#9670;&nbsp;</a></span>scroll_callback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/utility/functional/function.html">std::function</a>&lt;void(double x, double y)&gt; otto::glfw::Window::scroll_callback = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="glfw__ui__manager_8hpp_source.html#l00043">43</a> of file <a class="el" href="glfw__ui__manager_8hpp_source.html">glfw_ui_manager.hpp</a>.</p>
 
 </div>
 </div>

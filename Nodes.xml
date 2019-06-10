@@ -1403,6 +1403,59 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>Emulator</Name>
+                <Path>structotto_1_1board_1_1_emulator.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ClickAction</Name>
+                  <Path>structotto_1_1board_1_1_emulator.html</Path>
+                  <Anchor>a1338f7edc52105cd17b13eb453e8b33f</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>down</Name>
+                    <Path>structotto_1_1board_1_1_emulator.html</Path>
+                    <Anchor>a1338f7edc52105cd17b13eb453e8b33fa74e8333ad11685ff3bdae589c8f6e34d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>up</Name>
+                    <Path>structotto_1_1board_1_1_emulator.html</Path>
+                    <Anchor>a1338f7edc52105cd17b13eb453e8b33fa46c48bec0d282018b9d167eef7711b2c</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>draw</Name>
+                  <Path>structotto_1_1board_1_1_emulator.html</Path>
+                  <Anchor>a7e0223fd9fe207382229df2f2f607bf1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>set_color</Name>
+                  <Path>structotto_1_1board_1_1_emulator.html</Path>
+                  <Anchor>a337641c483d48dba43d70bf9f98625d5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>flush_leds</Name>
+                  <Path>structotto_1_1board_1_1_emulator.html</Path>
+                  <Anchor>afe50585d985a4fba2eb14a2cb6e32c42</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear_leds</Name>
+                  <Path>structotto_1_1board_1_1_emulator.html</Path>
+                  <Anchor>a41f0497c8fefcf11bbe04ce5ab276f54</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>handle_click</Name>
+                  <Path>structotto_1_1board_1_1_emulator.html</Path>
+                  <Anchor>ac411c959817460c9ec56802ac6279977</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>handle_scroll</Name>
+                  <Path>structotto_1_1board_1_1_emulator.html</Path>
+                  <Anchor>ab9c4ad6d8ccb79f6ce93a5638783a54e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -1828,12 +1881,7 @@
                    <Node>
                     <Name>EngineDispatcher</Name>
                     <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a34251e6ab205f0dbd3cf11841f75b9ed</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>init</Name>
-                    <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                    <Anchor>a632970095815fd82648b78d139dc52cc</Anchor>
+                    <Anchor>a2771d58e65280c5fd7cc82966284804d</Anchor>
                    </Node>
                    <Node>
                     <Name>current</Name>
@@ -2670,7 +2718,8 @@
                    </Node>
                    <Node>
                     <Name>hook&lt; void &gt;</Name>
-                    <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4.html</Path>
+                    <Path>namespaceotto_1_1core_1_1props_1_1mixin.html</Path>
+                    <Anchor>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>type</Name>
@@ -4104,7 +4153,7 @@
                      <Node>
                       <Name>DECL_REFLECTION</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>a68dbc158fb90f3cff0340caff3f65d27</Anchor>
+                      <Anchor>a978a74d76709c18f80f1a0519b443dfe</Anchor>
                      </Node>
                      <Node>
                       <Name>play_mode</Name>
@@ -4115,11 +4164,6 @@
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
                       <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>octave</Name>
-                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
                      </Node>
                      <Node>
                       <Name>transpose</Name>
@@ -6897,6 +6941,11 @@
                   <Anchor>a63eb44d7aef16d6669a7acf030f9576b</Anchor>
                  </Node>
                  <Node>
+                  <Name>set_window_size</Name>
+                  <Path>structotto_1_1glfw_1_1_window.html</Path>
+                  <Anchor>a01eb36062a779d24957a3c7ab504678e</Anchor>
+                 </Node>
+                 <Node>
                   <Name>should_close</Name>
                   <Path>structotto_1_1glfw_1_1_window.html</Path>
                   <Anchor>a970c41abe50de898b27ce2c5cd0ca0ed</Anchor>
@@ -6917,6 +6966,11 @@
                   <Anchor>a0468194447694d888a60e6a8b651c587</Anchor>
                  </Node>
                  <Node>
+                  <Name>mouse_button_callback</Name>
+                  <Path>structotto_1_1glfw_1_1_window.html</Path>
+                  <Anchor>a1f63efa8bbdd4dce9fbc550c55c324e7</Anchor>
+                 </Node>
+                 <Node>
                   <Name>key_callback</Name>
                   <Path>structotto_1_1glfw_1_1_window.html</Path>
                   <Anchor>add5056e5dced6cf0a704ba9f9a5d350a</Anchor>
@@ -6925,6 +6979,11 @@
                   <Name>char_callback</Name>
                   <Path>structotto_1_1glfw_1_1_window.html</Path>
                   <Anchor>a5346dec46764991e43d928eee36305a5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>scroll_callback</Name>
+                  <Path>structotto_1_1glfw_1_1_window.html</Path>
+                  <Anchor>a0acd7000db901bb24f24835643f299c4</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -8121,6 +8180,11 @@
                  <Node>
                   <Name>LEDColor</Name>
                   <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>a62fe1be1a246f1b23fbda7bc9c8ef35e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>LEDColor</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
                   <Anchor>a5ffadb6109d1a9beaac8db61ee2cd368</Anchor>
                  </Node>
                  <Node>
@@ -8416,7 +8480,7 @@
                    <Node>
                     <Name>DECL_REFLECTION</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
-                    <Anchor>a5e9030953a0d70081a4317c561735ce5</Anchor>
+                    <Anchor>aea97a6663b4e36d4d90c068703775d56</Anchor>
                    </Node>
                    <Node>
                     <Name>active_channel</Name>
@@ -8432,6 +8496,11 @@
                     <Name>key_mode</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
                     <Anchor>a67c5132c558e71445479aa53db1299bb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>octave</Name>
+                    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+                    <Anchor>a66169d2b86fc6fed4412d9e112b19ae2</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -8461,11 +8530,6 @@
                   <Anchor>a7d428653b3ab0067dda4348b3a7834de</Anchor>
                  </Node>
                  <Node>
-                  <Name>state</Name>
-                  <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a484d923fc992396499e50b44274e90db</Anchor>
-                 </Node>
-                 <Node>
                   <Name>register_screen_selector</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
                   <Anchor>a8f496c20670a603069d1d1f4d6dbe7cf</Anchor>
@@ -8481,9 +8545,9 @@
                   <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
                  </Node>
                  <Node>
-                  <Name>set_state</Name>
+                  <Name>state</Name>
                   <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                  <Anchor>a7377fcf99d711302445e93c5e26d3a27</Anchor>
+                  <Anchor>a76c060799459711801fa88736eda2ddf</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -13571,6 +13635,10 @@
             <Path>structotto_1_1core_1_1ui_1_1vg_1_1_drawable.html</Path>
             <Subnodes>
              <Node>
+              <Name>otto::board::Emulator</Name>
+              <Path>structotto_1_1board_1_1_emulator.html</Path>
+             </Node>
+             <Node>
               <Name>otto::core::ui::Screen</Name>
               <Path>structotto_1_1core_1_1ui_1_1_screen.html</Path>
               <Subnodes>
@@ -13661,6 +13729,10 @@
            </Node>
            <Node>
             <Name>otto::util::enum_map&lt; ScreenEnum, std::function &gt;</Name>
+            <Path>structotto_1_1util_1_1enum__map.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::util::enum_map&lt; services::Key, otto::services::LEDColor &gt;</Name>
             <Path>structotto_1_1util_1_1enum__map.html</Path>
            </Node>
            <Node>
@@ -13855,6 +13927,10 @@
             <Path>namespaceotto_1_1core_1_1props_1_1mixin.html</Path>
             <Subnodes>
              <Node>
+              <Name>otto::core::props::common::hooks::after_set</Name>
+              <Path>structotto_1_1core_1_1props_1_1common_1_1hooks_1_1after__set.html</Path>
+             </Node>
+             <Node>
               <Name>otto::core::props::common::hooks::on_set</Name>
               <Path>structotto_1_1core_1_1props_1_1common_1_1hooks_1_1on__set.html</Path>
              </Node>
@@ -13867,13 +13943,8 @@
            </Node>
            <Node>
             <Name>otto::core::props::mixin::hook&lt; void &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>otto::core::props::common::hooks::after_set</Name>
-              <Path>structotto_1_1core_1_1props_1_1common_1_1hooks_1_1after__set.html</Path>
-             </Node>
-            </Subnodes>
+            <Path>namespaceotto_1_1core_1_1props_1_1mixin.html</Path>
+            <Anchor>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4</Anchor>
            </Node>
            <Node>
             <Name>otto::core::props::common::hooks</Name>
@@ -13964,6 +14035,10 @@
             <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;</Name>
+            <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
+           </Node>
+           <Node>
             <Name>iterator_facade</Name>
             <Path></Path>
             <Subnodes>
@@ -13972,10 +14047,6 @@
               <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;</Name>
-            <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
            </Node>
            <Node>
             <Name>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Name>
@@ -14396,20 +14467,24 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
+           </Node>
+           <Node>
             <Name>otto::engines::Sends::Props</Name>
             <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;::Props</Name>
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
+            <Name>otto::engines::Sequencer::Props</Name>
+            <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Chorus::Props</Name>
@@ -14434,10 +14509,6 @@
            <Node>
             <Name>otto::engines::GossSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::Sequencer::Props</Name>
-            <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::OTTOFMSynth::Props</Name>
@@ -14592,6 +14663,10 @@
               <Name>otto::services::Controller</Name>
               <Path>structotto_1_1services_1_1_controller.html</Path>
               <Subnodes>
+               <Node>
+                <Name>otto::board::Emulator</Name>
+                <Path>structotto_1_1board_1_1_emulator.html</Path>
+               </Node>
                <Node>
                 <Name>otto::services::PrOTTO1SerialController</Name>
                 <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
@@ -14860,12 +14935,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
            </Node>
            <Node>
             <Name>otto::reflect::type_list&lt; Args &gt;</Name>
@@ -17663,6 +17738,83 @@
                 <Path>dir_5b08b09adb89916b001a52fd25713fb6.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>emulator</Name>
+                  <Path>dir_20ed3831e8f1d17f45ef06d034754852.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>include</Name>
+                    <Path>dir_9c8a88c61c6e338267b8568d36549611.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>board</Name>
+                      <Path>dir_8bf4aa2390a253ab505195f7f638f7fc.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>emulator.hpp</Name>
+                        <Path>emulator_8hpp.html</Path>
+                        <Subnodes>
+                         <Node>
+                          <Name>Emulator</Name>
+                          <Path>structotto_1_1board_1_1_emulator.html</Path>
+                          <Subnodes>
+                           <Node>
+                            <Name>ClickAction</Name>
+                            <Path>structotto_1_1board_1_1_emulator.html</Path>
+                            <Anchor>a1338f7edc52105cd17b13eb453e8b33f</Anchor>
+                            <Subnodes>
+                             <Node>
+                              <Name>down</Name>
+                              <Path>structotto_1_1board_1_1_emulator.html</Path>
+                              <Anchor>a1338f7edc52105cd17b13eb453e8b33fa74e8333ad11685ff3bdae589c8f6e34d</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>up</Name>
+                              <Path>structotto_1_1board_1_1_emulator.html</Path>
+                              <Anchor>a1338f7edc52105cd17b13eb453e8b33fa46c48bec0d282018b9d167eef7711b2c</Anchor>
+                             </Node>
+                            </Subnodes>
+                           </Node>
+                           <Node>
+                            <Name>draw</Name>
+                            <Path>structotto_1_1board_1_1_emulator.html</Path>
+                            <Anchor>a7e0223fd9fe207382229df2f2f607bf1</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>set_color</Name>
+                            <Path>structotto_1_1board_1_1_emulator.html</Path>
+                            <Anchor>a337641c483d48dba43d70bf9f98625d5</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>flush_leds</Name>
+                            <Path>structotto_1_1board_1_1_emulator.html</Path>
+                            <Anchor>afe50585d985a4fba2eb14a2cb6e32c42</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>clear_leds</Name>
+                            <Path>structotto_1_1board_1_1_emulator.html</Path>
+                            <Anchor>a41f0497c8fefcf11bbe04ce5ab276f54</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>handle_click</Name>
+                            <Path>structotto_1_1board_1_1_emulator.html</Path>
+                            <Anchor>ac411c959817460c9ec56802ac6279977</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>handle_scroll</Name>
+                            <Path>structotto_1_1board_1_1_emulator.html</Path>
+                            <Anchor>ab9c4ad6d8ccb79f6ce93a5638783a54e</Anchor>
+                           </Node>
+                          </Subnodes>
+                         </Node>
+                        </Subnodes>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
                   <Name>protto1-serial</Name>
                   <Path>dir_213994320e71cbe2cebd5ddf4fa7b7b3.html</Path>
                   <Subnodes>
@@ -19637,6 +19789,11 @@
                               <Anchor>a63eb44d7aef16d6669a7acf030f9576b</Anchor>
                              </Node>
                              <Node>
+                              <Name>set_window_size</Name>
+                              <Path>structotto_1_1glfw_1_1_window.html</Path>
+                              <Anchor>a01eb36062a779d24957a3c7ab504678e</Anchor>
+                             </Node>
+                             <Node>
                               <Name>should_close</Name>
                               <Path>structotto_1_1glfw_1_1_window.html</Path>
                               <Anchor>a970c41abe50de898b27ce2c5cd0ca0ed</Anchor>
@@ -19657,6 +19814,11 @@
                               <Anchor>a0468194447694d888a60e6a8b651c587</Anchor>
                              </Node>
                              <Node>
+                              <Name>mouse_button_callback</Name>
+                              <Path>structotto_1_1glfw_1_1_window.html</Path>
+                              <Anchor>a1f63efa8bbdd4dce9fbc550c55c324e7</Anchor>
+                             </Node>
+                             <Node>
                               <Name>key_callback</Name>
                               <Path>structotto_1_1glfw_1_1_window.html</Path>
                               <Anchor>add5056e5dced6cf0a704ba9f9a5d350a</Anchor>
@@ -19665,6 +19827,11 @@
                               <Name>char_callback</Name>
                               <Path>structotto_1_1glfw_1_1_window.html</Path>
                               <Anchor>a5346dec46764991e43d928eee36305a5</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>scroll_callback</Name>
+                              <Path>structotto_1_1glfw_1_1_window.html</Path>
+                              <Anchor>a0acd7000db901bb24f24835643f299c4</Anchor>
                              </Node>
                             </Subnodes>
                            </Node>
@@ -21129,6 +21296,28 @@
                             </Subnodes>
                            </Node>
                            <Node>
+                            <Name>Button</Name>
+                            <Path>glfw_2include_2board_2ui_2keys_8hpp.html</Path>
+                            <Anchor>a6b0da8072dd83adb8e2f793c47553619</Anchor>
+                            <Subnodes>
+                             <Node>
+                              <Name>left</Name>
+                              <Path>glfw_2include_2board_2ui_2keys_8hpp.html</Path>
+                              <Anchor>a6b0da8072dd83adb8e2f793c47553619a811882fecd5c7618d7099ebbd39ea254</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>middle</Name>
+                              <Path>glfw_2include_2board_2ui_2keys_8hpp.html</Path>
+                              <Anchor>a6b0da8072dd83adb8e2f793c47553619a4a548addbfb239bbd12f5afe11a4b6dc</Anchor>
+                             </Node>
+                             <Node>
+                              <Name>right</Name>
+                              <Path>glfw_2include_2board_2ui_2keys_8hpp.html</Path>
+                              <Anchor>a6b0da8072dd83adb8e2f793c47553619a7c4f29407893c334a6cb7a87bf045c0d</Anchor>
+                             </Node>
+                            </Subnodes>
+                           </Node>
+                           <Node>
                             <Name>handle_keyevent</Name>
                             <Path>glfw_2include_2board_2ui_2keys_8hpp.html</Path>
                             <Anchor>a70a2f5dff576eea37a8eb2a02204a6f6</Anchor>
@@ -22253,12 +22442,7 @@
                      <Node>
                       <Name>EngineDispatcher</Name>
                       <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a34251e6ab205f0dbd3cf11841f75b9ed</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>init</Name>
-                      <Path>structotto_1_1core_1_1engine_1_1_engine_dispatcher.html</Path>
-                      <Anchor>a632970095815fd82648b78d139dc52cc</Anchor>
+                      <Anchor>a2771d58e65280c5fd7cc82966284804d</Anchor>
                      </Node>
                      <Node>
                       <Name>current</Name>
@@ -23248,7 +23432,8 @@
                      </Node>
                      <Node>
                       <Name>hook&lt; void &gt;</Name>
-                      <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4.html</Path>
+                      <Path>namespaceotto_1_1core_1_1props_1_1mixin.html</Path>
+                      <Anchor>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4</Anchor>
                       <Subnodes>
                        <Node>
                         <Name>type</Name>
@@ -25071,7 +25256,7 @@
                      <Node>
                       <Name>DECL_REFLECTION</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>a68dbc158fb90f3cff0340caff3f65d27</Anchor>
+                      <Anchor>a978a74d76709c18f80f1a0519b443dfe</Anchor>
                      </Node>
                      <Node>
                       <Name>play_mode</Name>
@@ -25082,11 +25267,6 @@
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
                       <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>octave</Name>
-                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
                      </Node>
                      <Node>
                       <Name>transpose</Name>
@@ -27908,6 +28088,11 @@
                    <Node>
                     <Name>LEDColor</Name>
                     <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>a62fe1be1a246f1b23fbda7bc9c8ef35e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>LEDColor</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
                     <Anchor>a5ffadb6109d1a9beaac8db61ee2cd368</Anchor>
                    </Node>
                    <Node>
@@ -28489,7 +28674,7 @@
                      <Node>
                       <Name>DECL_REFLECTION</Name>
                       <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
-                      <Anchor>a5e9030953a0d70081a4317c561735ce5</Anchor>
+                      <Anchor>aea97a6663b4e36d4d90c068703775d56</Anchor>
                      </Node>
                      <Node>
                       <Name>active_channel</Name>
@@ -28505,6 +28690,11 @@
                       <Name>key_mode</Name>
                       <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
                       <Anchor>a67c5132c558e71445479aa53db1299bb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>octave</Name>
+                      <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+                      <Anchor>a66169d2b86fc6fed4412d9e112b19ae2</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -28534,11 +28724,6 @@
                     <Anchor>a7d428653b3ab0067dda4348b3a7834de</Anchor>
                    </Node>
                    <Node>
-                    <Name>state</Name>
-                    <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a484d923fc992396499e50b44274e90db</Anchor>
-                   </Node>
-                   <Node>
                     <Name>register_screen_selector</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
                     <Anchor>a8f496c20670a603069d1d1f4d6dbe7cf</Anchor>
@@ -28554,9 +28739,9 @@
                     <Anchor>a72730cdd7783c3e62c330d0031671365</Anchor>
                    </Node>
                    <Node>
-                    <Name>set_state</Name>
+                    <Name>state</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-                    <Anchor>a7377fcf99d711302445e93c5e26d3a27</Anchor>
+                    <Anchor>a76c060799459711801fa88736eda2ddf</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -28567,7 +28752,7 @@
                    <Node>
                     <Name>DECL_REFLECTION</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
-                    <Anchor>a5e9030953a0d70081a4317c561735ce5</Anchor>
+                    <Anchor>aea97a6663b4e36d4d90c068703775d56</Anchor>
                    </Node>
                    <Node>
                     <Name>active_channel</Name>
@@ -28583,6 +28768,11 @@
                     <Name>key_mode</Name>
                     <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
                     <Anchor>a67c5132c558e71445479aa53db1299bb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>octave</Name>
+                    <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+                    <Anchor>a66169d2b86fc6fed4412d9e112b19ae2</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
