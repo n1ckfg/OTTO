@@ -85,8 +85,8 @@ Macros</h2></td></tr>
 <tr class="separator:ab60dd6824121b7afaa4f36896df77ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5060912afb5f7b003be7c677e4fe3fd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a5060912afb5f7b003be7c677e4fe3fd8">FIELD_GETTER</a>(name)&#160;&#160;&#160;[] (auto&amp; obj) { return obj.name; }</td></tr>
 <tr class="separator:a5060912afb5f7b003be7c677e4fe3fd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc2886733af981cb1932d1e29d55b9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#accc2886733af981cb1932d1e29d55b9d">GET_MACRO_1</a>(_1,  NAME)&#160;&#160;&#160;NAME</td></tr>
-<tr class="separator:accc2886733af981cb1932d1e29d55b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5719f8dc9716299add5484503145036"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#ab5719f8dc9716299add5484503145036">GET_MACRO_1</a>(_1,  NAME, ...)&#160;&#160;&#160;NAME</td></tr>
+<tr class="separator:ab5719f8dc9716299add5484503145036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a5cec0e54a7087aa0dddc779c611fd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a1a5cec0e54a7087aa0dddc779c611fd7">GET_MACRO_2</a>(_1,  _2,  NAME, ...)&#160;&#160;&#160;NAME</td></tr>
 <tr class="separator:a1a5cec0e54a7087aa0dddc779c611fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3771fc9fbdf58aeda68bbf9b314ccdf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a3771fc9fbdf58aeda68bbf9b314ccdf9">GET_MACRO_3</a>(_1,  _2,  _3,  NAME, ...)&#160;&#160;&#160;NAME</td></tr>
@@ -312,8 +312,8 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="accc2886733af981cb1932d1e29d55b9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accc2886733af981cb1932d1e29d55b9d">&#9670;&nbsp;</a></span>GET_MACRO_1</h2>
+<a id="ab5719f8dc9716299add5484503145036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5719f8dc9716299add5484503145036">&#9670;&nbsp;</a></span>GET_MACRO_1</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,7 +328,13 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">NAME&#160;</td>
+          <td class="paramname">NAME, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

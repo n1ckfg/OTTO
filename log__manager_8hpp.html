@@ -175,10 +175,16 @@ Macros</h2></td></tr>
 <tr class="memitem:a480bbeb7830deaa55ae965f6f44d3549"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#a480bbeb7830deaa55ae965f6f44d3549">DLOGF_SCOPE</a>(...)&#160;&#160;&#160;DLOG_SCOPE_F(FATAL, __VA_ARGS__)</td></tr>
 <tr class="memdesc:a480bbeb7830deaa55ae965f6f44d3549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shorthand to the loguru macro DLOG_SCOPE_F(FATAL, ...)  <a href="log__manager_8hpp.html#a480bbeb7830deaa55ae965f6f44d3549">More...</a><br /></td></tr>
 <tr class="separator:a480bbeb7830deaa55ae965f6f44d3549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbc58575fd0c938002c53f3aac5e9291"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#afbc58575fd0c938002c53f3aac5e9291">OTTO_ASSERT</a>(Expr, ...)&#160;&#160;&#160;DEBUG_ASSERT(Expr, ::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__)</td></tr>
-<tr class="separator:afbc58575fd0c938002c53f3aac5e9291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38be534f45c0dfa43f1bad7c418aac50"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#a38be534f45c0dfa43f1bad7c418aac50">OTTO_UNREACHABLE</a>(...)&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__)</td></tr>
-<tr class="separator:a38be534f45c0dfa43f1bad7c418aac50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b79ad70784fff4e155951a3c0177118"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#a7b79ad70784fff4e155951a3c0177118">OTTO_ASSERT_NM</a>(Expr)&#160;&#160;&#160;DEBUG_ASSERT(Expr, ::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{})</td></tr>
+<tr class="separator:a7b79ad70784fff4e155951a3c0177118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d00f2180ab27e64068968e3a29e61ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#a0d00f2180ab27e64068968e3a29e61ec">OTTO_ASSERT_M</a>(Expr, ...)&#160;&#160;&#160;DEBUG_ASSERT(Expr, ::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__)</td></tr>
+<tr class="separator:a0d00f2180ab27e64068968e3a29e61ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7466216179a30b92890c2a5ca956664"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#ad7466216179a30b92890c2a5ca956664">OTTO_ASSERT</a>(...)&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a>(<a class="el" href="macros_8hpp.html#a4077410c35cbe6660c134814ca218d41">SWITCH_FOR_VARARGS_1</a>(<a class="el" href="log__manager_8hpp.html#a7b79ad70784fff4e155951a3c0177118">OTTO_ASSERT_NM</a>, <a class="el" href="log__manager_8hpp.html#a0d00f2180ab27e64068968e3a29e61ec">OTTO_ASSERT_M</a>, __VA_ARGS__))</td></tr>
+<tr class="separator:ad7466216179a30b92890c2a5ca956664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8557934c41a376689f91c40f5a759728"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#a8557934c41a376689f91c40f5a759728">OTTO_UNREACHABLE</a>&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{})</td></tr>
+<tr class="separator:a8557934c41a376689f91c40f5a759728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a59c7bd93e7f8797f02cb129c0e0cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#aa6a59c7bd93e7f8797f02cb129c0e0cc">OTTO_UNREACHABLE_M</a>(...)&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__)</td></tr>
+<tr class="separator:aa6a59c7bd93e7f8797f02cb129c0e0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a4f1de6b27697b27fb9943755b6edcc4b"></a>
@@ -725,14 +731,34 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="afbc58575fd0c938002c53f3aac5e9291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbc58575fd0c938002c53f3aac5e9291">&#9670;&nbsp;</a></span>OTTO_ASSERT</h2>
+<a id="a7b79ad70784fff4e155951a3c0177118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b79ad70784fff4e155951a3c0177118">&#9670;&nbsp;</a></span>OTTO_ASSERT_NM</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OTTO_ASSERT</td>
+          <td class="memname">#define OTTO_ASSERT_NM</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Expr</td><td>)</td>
+          <td>&#160;&#160;&#160;DEBUG_ASSERT(Expr, ::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{})</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00116">116</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0d00f2180ab27e64068968e3a29e61ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d00f2180ab27e64068968e3a29e61ec">&#9670;&nbsp;</a></span>OTTO_ASSERT_M</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OTTO_ASSERT_M</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">Expr, </td>
@@ -751,18 +777,54 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00116">116</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00117">117</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a38be534f45c0dfa43f1bad7c418aac50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38be534f45c0dfa43f1bad7c418aac50">&#9670;&nbsp;</a></span>OTTO_UNREACHABLE</h2>
+<a id="ad7466216179a30b92890c2a5ca956664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7466216179a30b92890c2a5ca956664">&#9670;&nbsp;</a></span>OTTO_ASSERT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OTTO_UNREACHABLE</td>
+          <td class="memname">#define OTTO_ASSERT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a>(<a class="el" href="macros_8hpp.html#a4077410c35cbe6660c134814ca218d41">SWITCH_FOR_VARARGS_1</a>(<a class="el" href="log__manager_8hpp.html#a7b79ad70784fff4e155951a3c0177118">OTTO_ASSERT_NM</a>, <a class="el" href="log__manager_8hpp.html#a0d00f2180ab27e64068968e3a29e61ec">OTTO_ASSERT_M</a>, __VA_ARGS__))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00118">118</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8557934c41a376689f91c40f5a759728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8557934c41a376689f91c40f5a759728">&#9670;&nbsp;</a></span>OTTO_UNREACHABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OTTO_UNREACHABLE&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{})</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00120">120</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa6a59c7bd93e7f8797f02cb129c0e0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a59c7bd93e7f8797f02cb129c0e0cc">&#9670;&nbsp;</a></span>OTTO_UNREACHABLE_M</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OTTO_UNREACHABLE_M</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
@@ -771,7 +833,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00117">117</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00121">121</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
 
 </div>
 </div>

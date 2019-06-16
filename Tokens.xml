@@ -1708,12 +1708,32 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>OTTO_ASSERT_NM</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>log__manager_8hpp.html</Path>
+    <Anchor>a7b79ad70784fff4e155951a3c0177118</Anchor>
+    <DeclaredIn>log_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_ASSERT_M</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>log__manager_8hpp.html</Path>
+    <Anchor>a0d00f2180ab27e64068968e3a29e61ec</Anchor>
+    <DeclaredIn>log_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OTTO_ASSERT</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>log__manager_8hpp.html</Path>
-    <Anchor>afbc58575fd0c938002c53f3aac5e9291</Anchor>
+    <Anchor>ad7466216179a30b92890c2a5ca956664</Anchor>
     <DeclaredIn>log_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1723,7 +1743,17 @@
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>log__manager_8hpp.html</Path>
-    <Anchor>a38be534f45c0dfa43f1bad7c418aac50</Anchor>
+    <Anchor>a8557934c41a376689f91c40f5a759728</Anchor>
+    <DeclaredIn>log_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OTTO_UNREACHABLE_M</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>log__manager_8hpp.html</Path>
+    <Anchor>aa6a59c7bd93e7f8797f02cb129c0e0cc</Anchor>
     <DeclaredIn>log_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -4386,7 +4416,7 @@
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>macros_8hpp.html</Path>
-    <Anchor>accc2886733af981cb1932d1e29d55b9d</Anchor>
+    <Anchor>ab5719f8dc9716299add5484503145036</Anchor>
     <DeclaredIn>macros.hpp</DeclaredIn>
   </Token>
   <Token>
