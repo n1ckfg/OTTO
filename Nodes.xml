@@ -4586,88 +4586,19 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>NoteArray</Name>
-                  <Path>structotto_1_1engines_1_1_arp.html</Path>
-                  <Anchor>ad9df299d3cb0cc1652361e70a512ab85</Anchor>
-                 </Node>
-                 <Node>
                   <Name>Playmode</Name>
                   <Path>structotto_1_1engines_1_1_arp.html</Path>
-                  <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>up</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>down</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a74e8333ad11685ff3bdae589c8f6e34d</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>updown</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a3a9b45eefb93a69426b4ee20f480454e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>downup</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2af1d5d1b11b020bc4a1c941d23afc753c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>updowninc</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2aa345f42b6d1f1f1da3855e7aeee74603</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>downupinc</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2ace5c642bd5f8afeee4498db7b881a62b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>manual</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a3c78b35502b2693fefdfc51cba3a53a5</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>chord</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2ad277c74c6c67461c562bdc2051681029</Anchor>
-                   </Node>
-                  </Subnodes>
+                  <Anchor>a67ef225e1ff7e38fdec098e59c1bdc42</Anchor>
                  </Node>
                  <Node>
                   <Name>OctaveMode</Name>
                   <Path>structotto_1_1engines_1_1_arp.html</Path>
-                  <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>standard</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196ac00f0c4675b91fb8b918e4079a0b1bac</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>octaveup</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196aad4a94c7af136178084bdcfe5140f477</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>octaveupunison</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196a562d869e17551d7931e283fa3bcd5093</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>fifthunison</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196a9e96ffeb0843ca57ad7d3bbabcbdb180</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>octaveupdown</Name>
-                    <Path>structotto_1_1engines_1_1_arp.html</Path>
-                    <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196a32c6acf9b91077c658f86a485a3cf9fd</Anchor>
-                   </Node>
-                  </Subnodes>
+                  <Anchor>a9f47a2cd25519fd138046bc8549e8b91</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>NoteArray</Name>
+                  <Path>structotto_1_1engines_1_1_arp.html</Path>
+                  <Anchor>ad9df299d3cb0cc1652361e70a512ab85</Anchor>
                  </Node>
                  <Node>
                   <Name>Arp</Name>
@@ -8190,7 +8121,27 @@
                  <Node>
                   <Name>LEDColor</Name>
                   <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
-                  <Anchor>aeea08b355b4d2c66d95c785280c3de89</Anchor>
+                  <Anchor>ac4b77aa9122af319a1ddbda63b07c753</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>mix</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>a27e8c66e41e335c328875b8158dfea00</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator*</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>ae04a4a7b65b6d7ab99e6dd24d110ed71</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator/</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>a812234a51c2c9fba60fcc1608dabd3e8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator+</Name>
+                  <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                  <Anchor>aaa73deccab7a0b817029b2e55612d3a6</Anchor>
                  </Node>
                  <Node>
                   <Name>r</Name>
@@ -10066,7 +10017,7 @@
                  <Node>
                   <Name>outer_locked</Name>
                   <Path>structotto_1_1util_1_1double__buffered.html</Path>
-                  <Anchor>a8fd4d34932f6672fe331909d51337375</Anchor>
+                  <Anchor>a6c9565d015971513fb57172510dac113</Anchor>
                  </Node>
                  <Node>
                   <Name>swap</Name>
@@ -25418,26 +25369,9 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>PlayMode</Name>
+                    <Name>BETTER_ENUM</Name>
                     <Path>voice__manager_8hpp.html</Path>
-                    <Anchor>a6e805aded3174642df42f029b020ce02</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>poly</Name>
-                      <Path>voice__manager_8hpp.html</Path>
-                      <Anchor>a6e805aded3174642df42f029b020ce02ac505a69ec179afb91b357bbbd1b0e60d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>mono</Name>
-                      <Path>voice__manager_8hpp.html</Path>
-                      <Anchor>a6e805aded3174642df42f029b020ce02a654db8a14a5f633b9ba85ec92dc51f7c</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>unison</Name>
-                      <Path>voice__manager_8hpp.html</Path>
-                      <Anchor>a6e805aded3174642df42f029b020ce02a9770a912a024ff4a98ae47b1a6374383</Anchor>
-                     </Node>
-                    </Subnodes>
+                    <Anchor>a3913b93befbba32d17f597c5fd58f78d</Anchor>
                    </Node>
                    <Node>
                     <Name>make_envelope_screen</Name>
@@ -25449,23 +25383,11 @@
                     <Path>voice__manager_8hpp.html</Path>
                     <Anchor>afa313dc0407f4922429572c420336740</Anchor>
                    </Node>
-                   <Node>
-                    <Name>to_string</Name>
-                    <Path>voice__manager_8hpp.html</Path>
-                    <Anchor>a5efaa602e0fe41cc7228e31b7ace3a00</Anchor>
-                   </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>voice_manager.inl</Name>
                   <Path>voice__manager_8inl.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>to_string</Name>
-                    <Path>voice__manager_8inl.html</Path>
-                    <Anchor>a368b87919e831e2b327714fdb987ddb4</Anchor>
-                   </Node>
-                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -25947,88 +25869,19 @@
                         </Subnodes>
                        </Node>
                        <Node>
-                        <Name>NoteArray</Name>
-                        <Path>structotto_1_1engines_1_1_arp.html</Path>
-                        <Anchor>ad9df299d3cb0cc1652361e70a512ab85</Anchor>
-                       </Node>
-                       <Node>
                         <Name>Playmode</Name>
                         <Path>structotto_1_1engines_1_1_arp.html</Path>
-                        <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2</Anchor>
-                        <Subnodes>
-                         <Node>
-                          <Name>up</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>down</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a74e8333ad11685ff3bdae589c8f6e34d</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>updown</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a3a9b45eefb93a69426b4ee20f480454e</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>downup</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2af1d5d1b11b020bc4a1c941d23afc753c</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>updowninc</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2aa345f42b6d1f1f1da3855e7aeee74603</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>downupinc</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2ace5c642bd5f8afeee4498db7b881a62b</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>manual</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2a3c78b35502b2693fefdfc51cba3a53a5</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>chord</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a51a99f99c6f519a79bbcf7a0410a6aa2ad277c74c6c67461c562bdc2051681029</Anchor>
-                         </Node>
-                        </Subnodes>
+                        <Anchor>a67ef225e1ff7e38fdec098e59c1bdc42</Anchor>
                        </Node>
                        <Node>
                         <Name>OctaveMode</Name>
                         <Path>structotto_1_1engines_1_1_arp.html</Path>
-                        <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196</Anchor>
-                        <Subnodes>
-                         <Node>
-                          <Name>standard</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196ac00f0c4675b91fb8b918e4079a0b1bac</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>octaveup</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196aad4a94c7af136178084bdcfe5140f477</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>octaveupunison</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196a562d869e17551d7931e283fa3bcd5093</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>fifthunison</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196a9e96ffeb0843ca57ad7d3bbabcbdb180</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>octaveupdown</Name>
-                          <Path>structotto_1_1engines_1_1_arp.html</Path>
-                          <Anchor>a8e8c4cfb84cae75f8fe6b282c3c35196a32c6acf9b91077c658f86a485a3cf9fd</Anchor>
-                         </Node>
-                        </Subnodes>
+                        <Anchor>a9f47a2cd25519fd138046bc8549e8b91</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>NoteArray</Name>
+                        <Path>structotto_1_1engines_1_1_arp.html</Path>
+                        <Anchor>ad9df299d3cb0cc1652361e70a512ab85</Anchor>
                        </Node>
                        <Node>
                         <Name>Arp</Name>
@@ -28098,7 +27951,27 @@
                    <Node>
                     <Name>LEDColor</Name>
                     <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
-                    <Anchor>aeea08b355b4d2c66d95c785280c3de89</Anchor>
+                    <Anchor>ac4b77aa9122af319a1ddbda63b07c753</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>mix</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>a27e8c66e41e335c328875b8158dfea00</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator*</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>ae04a4a7b65b6d7ab99e6dd24d110ed71</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator/</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>a812234a51c2c9fba60fcc1608dabd3e8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator+</Name>
+                    <Path>structotto_1_1services_1_1_l_e_d_color.html</Path>
+                    <Anchor>aaa73deccab7a0b817029b2e55612d3a6</Anchor>
                    </Node>
                    <Node>
                     <Name>r</Name>
@@ -33300,7 +33173,7 @@
                  <Node>
                   <Name>to_string</Name>
                   <Path>jsonfile_8hpp.html</Path>
-                  <Anchor>a90db961ecca6a907885a86859a455774</Anchor>
+                  <Anchor>a41bc6de4e300c2dbf015515c72010e3d</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -33500,7 +33373,7 @@
                    <Node>
                     <Name>outer_locked</Name>
                     <Path>structotto_1_1util_1_1double__buffered.html</Path>
-                    <Anchor>a8fd4d34932f6672fe331909d51337375</Anchor>
+                    <Anchor>a6c9565d015971513fb57172510dac113</Anchor>
                    </Node>
                    <Node>
                     <Name>swap</Name>
@@ -35746,7 +35619,7 @@
                  <Node>
                   <Name>to_string</Name>
                   <Path>string__conversions_8hpp.html</Path>
-                  <Anchor>ab79444a8857e78a41ba9b8ecc1fc6a54</Anchor>
+                  <Anchor>aaa892bbc02c5fb552ebd2c45bb4c7e97</Anchor>
                  </Node>
                  <Node>
                   <Name>from_string</Name>
@@ -35797,11 +35670,6 @@
                   <Name>from_string</Name>
                   <Path>string__conversions_8hpp.html</Path>
                   <Anchor>ad7d143880cd45f44c1957cf605df1271</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>to_string</Name>
-                  <Path>string__conversions_8hpp.html</Path>
-                  <Anchor>a06cedbf29b3c961b7e653e59f763893d</Anchor>
                  </Node>
                  <Node>
                   <Name>from_string</Name>

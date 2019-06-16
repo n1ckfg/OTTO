@@ -76,7 +76,7 @@
 <div class="textblock"><p>The property system. </p>
 <p>OTTO Metaprogramming utilities.</p>
 <p>Reverb Engine.</p>
-<p>The property system is used for serialization, faust linking, encoder-stepping and more of variables, mainly on engines.</p>
+<p>The property system is used for serialization, encoder-stepping and more of variables, mainly on engines.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The implementation of this relies on a lot of template metaprogramming and generally complicated C++. You don't need to know how it works, but I'll try to explain how to use it.</dd></dl>
 <h2>Metafunctions</h2>
 <p>A metafunction is a struct that takes template arguments, and its "return" value is either a <code>static constexpr const</code> member variable named <code>value</code> or a memeber type named <code>type</code>. These can be accessed using the <code><a class="el" href="namespaceotto_1_1meta.html#ab257af9ebd8978bc06cc0cf91407331e" title="Get return type from metafunction.">meta::_t</a>&lt;Func&gt;</code> or <code><a class="el" href="namespaceotto_1_1meta.html#abaac0f815996fa7d60333a899156a3c1" title="Get return value from metafunction.">meta::_v</a>&lt;Func&gt;</code> shorthand metavariables.</p>

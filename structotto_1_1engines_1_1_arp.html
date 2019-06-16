@@ -81,7 +81,7 @@
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00014">14</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00036">36</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="arp_8hpp_source.html">arp.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -106,29 +106,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a51a99f99c6f519a79bbcf7a0410a6aa2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2">Playmode</a> { <br />
-&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c">Playmode::up</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a74e8333ad11685ff3bdae589c8f6e34d">Playmode::down</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a3a9b45eefb93a69426b4ee20f480454e">Playmode::updown</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2af1d5d1b11b020bc4a1c941d23afc753c">Playmode::downup</a>, 
-<br />
-&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2aa345f42b6d1f1f1da3855e7aeee74603">Playmode::updowninc</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2ace5c642bd5f8afeee4498db7b881a62b">Playmode::downupinc</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2a3c78b35502b2693fefdfc51cba3a53a5">Playmode::manual</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2ad277c74c6c67461c562bdc2051681029">Playmode::chord</a>
-<br />
- }</td></tr>
-<tr class="separator:a51a99f99c6f519a79bbcf7a0410a6aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e8c4cfb84cae75f8fe6b282c3c35196"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196">OctaveMode</a> { <br />
-&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196ac00f0c4675b91fb8b918e4079a0b1bac">OctaveMode::standard</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196aad4a94c7af136178084bdcfe5140f477">OctaveMode::octaveup</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196a562d869e17551d7931e283fa3bcd5093">OctaveMode::octaveupunison</a>, 
-<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196a9e96ffeb0843ca57ad7d3bbabcbdb180">OctaveMode::fifthunison</a>, 
-<br />
-&#160;&#160;<a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196a32c6acf9b91077c658f86a485a3cf9fd">OctaveMode::octaveupdown</a>
-<br />
- }</td></tr>
-<tr class="separator:a8e8c4cfb84cae75f8fe6b282c3c35196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ef225e1ff7e38fdec098e59c1bdc42"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a67ef225e1ff7e38fdec098e59c1bdc42">Playmode</a> = detail::ArpPlaymode</td></tr>
+<tr class="separator:a67ef225e1ff7e38fdec098e59c1bdc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f47a2cd25519fd138046bc8549e8b91"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#a9f47a2cd25519fd138046bc8549e8b91">OctaveMode</a> = detail::ArpOctaveMode</td></tr>
+<tr class="separator:a9f47a2cd25519fd138046bc8549e8b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9df299d3cb0cc1652361e70a512ab85"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1engines_1_1_arp.html#ad9df299d3cb0cc1652361e70a512ab85">NoteArray</a> = foonathan::array::small_array&lt; <a class="el" href="structotto_1_1core_1_1midi_1_1_note_on_event.html">midi::NoteOnEvent</a>, 6 &gt;</td></tr>
 <tr class="separator:ad9df299d3cb0cc1652361e70a512ab85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -154,6 +135,38 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a12b4982626da9e22d3f257a7419fe982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a67ef225e1ff7e38fdec098e59c1bdc42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ef225e1ff7e38fdec098e59c1bdc42">&#9670;&nbsp;</a></span>Playmode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1engines_1_1_arp.html#a67ef225e1ff7e38fdec098e59c1bdc42">otto::engines::Arp::Playmode</a> =  detail::ArpPlaymode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00039">39</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9f47a2cd25519fd138046bc8549e8b91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f47a2cd25519fd138046bc8549e8b91">&#9670;&nbsp;</a></span>OctaveMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1engines_1_1_arp.html#a9f47a2cd25519fd138046bc8549e8b91">otto::engines::Arp::OctaveMode</a> =  detail::ArpOctaveMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00040">40</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ad9df299d3cb0cc1652361e70a512ab85"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9df299d3cb0cc1652361e70a512ab85">&#9670;&nbsp;</a></span>NoteArray</h2>
 
@@ -166,73 +179,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00017">17</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a51a99f99c6f519a79bbcf7a0410a6aa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51a99f99c6f519a79bbcf7a0410a6aa2">&#9670;&nbsp;</a></span>Playmode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="structotto_1_1engines_1_1_arp.html#a51a99f99c6f519a79bbcf7a0410a6aa2">otto::engines::Arp::Playmode</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a46c48bec0d282018b9d167eef7711b2c"></a>up&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a74e8333ad11685ff3bdae589c8f6e34d"></a>down&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a3a9b45eefb93a69426b4ee20f480454e"></a>updown&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2af1d5d1b11b020bc4a1c941d23afc753c"></a>downup&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2aa345f42b6d1f1f1da3855e7aeee74603"></a>updowninc&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2ace5c642bd5f8afeee4498db7b881a62b"></a>downupinc&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2a3c78b35502b2693fefdfc51cba3a53a5"></a>manual&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a99f99c6f519a79bbcf7a0410a6aa2ad277c74c6c67461c562bdc2051681029"></a>chord&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00019">19</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8e8c4cfb84cae75f8fe6b282c3c35196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e8c4cfb84cae75f8fe6b282c3c35196">&#9670;&nbsp;</a></span>OctaveMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="structotto_1_1engines_1_1_arp.html#a8e8c4cfb84cae75f8fe6b282c3c35196">otto::engines::Arp::OctaveMode</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196ac00f0c4675b91fb8b918e4079a0b1bac"></a>standard&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196aad4a94c7af136178084bdcfe5140f477"></a>octaveup&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196a562d869e17551d7931e283fa3bcd5093"></a>octaveupunison&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196a9e96ffeb0843ca57ad7d3bbabcbdb180"></a>fifthunison&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8e8c4cfb84cae75f8fe6b282c3c35196a32c6acf9b91077c658f86a485a3cf9fd"></a>octaveupdown&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00030">30</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00041">41</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
 
 </div>
 </div>
@@ -339,7 +286,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00015">15</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="arp_8hpp_source.html#l00037">37</a> of file <a class="el" href="arp_8hpp_source.html">arp.hpp</a>.</p>
 
 </div>
 </div>

@@ -87,6 +87,9 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a28d43b4aed522feea94ca4ed5d371a9b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a28d43b4aed522feea94ca4ed5d371a9b"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_better_enum.html#a28d43b4aed522feea94ca4ed5d371a9b">is</a> = decltype(_is(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;()))::value</td></tr>
 <tr class="separator:a28d43b4aed522feea94ca4ed5d371a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4a63e319f270e474d31a70689741b7"><td class="memTemplParams" colspan="2">template&lt;typename T , typename E &gt; </td></tr>
+<tr class="memitem:a9f4a63e319f270e474d31a70689741b7"><td class="memTemplItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classotto_1_1util_1_1_better_enum.html#a9f4a63e319f270e474d31a70689741b7">is_enumerated</a> = decltype(_is_enumerated(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;(), <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;E&gt;()))::value</td></tr>
+<tr class="separator:a9f4a63e319f270e474d31a70689741b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a28d43b4aed522feea94ca4ed5d371a9b"></a>
@@ -111,7 +114,33 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="util_2type__traits_8hpp_source.html#l00027">27</a> of file <a class="el" href="util_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="util_2type__traits_8hpp_source.html#l00032">32</a> of file <a class="el" href="util_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9f4a63e319f270e474d31a70689741b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f4a63e319f270e474d31a70689741b7">&#9670;&nbsp;</a></span>is_enumerated</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename E &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto otto::util::BetterEnum::is_enumerated = decltype(_is_enumerated(<a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;T&gt;(), <a class="elRef" href="http://en.cppreference.com/w/cpp/utility/declval.html">std::declval</a>&lt;E&gt;()))::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="util_2type__traits_8hpp_source.html#l00035">35</a> of file <a class="el" href="util_2type__traits_8hpp_source.html">type_traits.hpp</a>.</p>
 
 </div>
 </div>

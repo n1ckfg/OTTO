@@ -81,7 +81,6 @@
 <code>#include &lt;cstdlib&gt;</code><br />
 <code>#include &lt;string_view&gt;</code><br />
 <code>#include &lt;tl/expected.hpp&gt;</code><br />
-<code>#include &lt;magic_enum.hpp&gt;</code><br />
 <code>#include &lt;better_enum.hpp&gt;</code><br />
 <code>#include &lt;tl/optional.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="exception_8hpp_source.html">util/exception.hpp</a>&quot;</code><br />
@@ -142,9 +141,9 @@ Functions</h2></td></tr>
 <tr class="separator:a90f7544768578e3d45100421fe7ef58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9edfd56c37a69f3c50ea37381e7eac87"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a9edfd56c37a69f3c50ea37381e7eac87">otto::util::to_string</a> (const <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;v) noexcept</td></tr>
 <tr class="separator:a9edfd56c37a69f3c50ea37381e7eac87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab79444a8857e78a41ba9b8ecc1fc6a54"><td class="memTemplParams" colspan="2">template&lt;typename T , typename  = std::enable_if_t&lt;std::is_enum_v&lt;T&gt; || BetterEnum::is&lt;T&gt;&gt;&gt; </td></tr>
-<tr class="memitem:ab79444a8857e78a41ba9b8ecc1fc6a54"><td class="memTemplItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ab79444a8857e78a41ba9b8ecc1fc6a54">otto::util::to_string</a> (T e) noexcept</td></tr>
-<tr class="separator:ab79444a8857e78a41ba9b8ecc1fc6a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa892bbc02c5fb552ebd2c45bb4c7e97"><td class="memTemplParams" colspan="2">template&lt;typename T , typename  = std::enable_if_t&lt;BetterEnum::is&lt;T&gt;&gt;&gt; </td></tr>
+<tr class="memitem:aaa892bbc02c5fb552ebd2c45bb4c7e97"><td class="memTemplItemLeft" align="right" valign="top">constexpr util::string_ref&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#aaa892bbc02c5fb552ebd2c45bb4c7e97">otto::util::to_string</a> (T e) noexcept</td></tr>
+<tr class="separator:aaa892bbc02c5fb552ebd2c45bb4c7e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa8f4c94876fe2bb02adb04441c07f2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:afaa8f4c94876fe2bb02adb04441c07f2"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; T, StringConvErr &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#afaa8f4c94876fe2bb02adb04441c07f2">otto::util::from_string</a> (std::string_view) noexcept</td></tr>
 <tr class="separator:afaa8f4c94876fe2bb02adb04441c07f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,9 +174,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ad7d143880cd45f44c1957cf605df1271"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:ad7d143880cd45f44c1957cf605df1271"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; std::string_view, StringConvErr &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ad7d143880cd45f44c1957cf605df1271">otto::util::from_string</a> (std::string_view sv) noexcept</td></tr>
 <tr class="separator:ad7d143880cd45f44c1957cf605df1271"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06cedbf29b3c961b7e653e59f763893d"><td class="memTemplParams" colspan="2">template&lt;typename T , typename EnableIfTisEnum &gt; </td></tr>
-<tr class="memitem:a06cedbf29b3c961b7e653e59f763893d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a06cedbf29b3c961b7e653e59f763893d">otto::util::to_string</a> (T e) noexcept</td></tr>
-<tr class="separator:a06cedbf29b3c961b7e653e59f763893d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f3f85aade954ac68d4cc18b87677443"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:a5f3f85aade954ac68d4cc18b87677443"><td class="memTemplItemLeft" align="right" valign="top">tl::expected&lt; int, StringConvErr &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#a5f3f85aade954ac68d4cc18b87677443">otto::util::from_string</a> (std::string_view sv) noexcept</td></tr>
 <tr class="separator:a5f3f85aade954ac68d4cc18b87677443"><td class="memSeparator" colspan="2">&#160;</td></tr>
