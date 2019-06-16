@@ -181,9 +181,9 @@ Macros</h2></td></tr>
 <tr class="separator:a0d00f2180ab27e64068968e3a29e61ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7466216179a30b92890c2a5ca956664"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#ad7466216179a30b92890c2a5ca956664">OTTO_ASSERT</a>(...)&#160;&#160;&#160;<a class="el" href="macros_8hpp.html#aa35fecfa6a93ec3fdb4a3776f873be27">EXPAND</a>(<a class="el" href="macros_8hpp.html#a4077410c35cbe6660c134814ca218d41">SWITCH_FOR_VARARGS_1</a>(<a class="el" href="log__manager_8hpp.html#a7b79ad70784fff4e155951a3c0177118">OTTO_ASSERT_NM</a>, <a class="el" href="log__manager_8hpp.html#a0d00f2180ab27e64068968e3a29e61ec">OTTO_ASSERT_M</a>, __VA_ARGS__))</td></tr>
 <tr class="separator:ad7466216179a30b92890c2a5ca956664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8557934c41a376689f91c40f5a759728"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#a8557934c41a376689f91c40f5a759728">OTTO_UNREACHABLE</a>&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{})</td></tr>
+<tr class="memitem:a8557934c41a376689f91c40f5a759728"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#a8557934c41a376689f91c40f5a759728">OTTO_UNREACHABLE</a>&#160;&#160;&#160;(DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}), DEBUG_ASSERT_MARK_UNREACHABLE)</td></tr>
 <tr class="separator:a8557934c41a376689f91c40f5a759728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6a59c7bd93e7f8797f02cb129c0e0cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#aa6a59c7bd93e7f8797f02cb129c0e0cc">OTTO_UNREACHABLE_M</a>(...)&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__)</td></tr>
+<tr class="memitem:aa6a59c7bd93e7f8797f02cb129c0e0cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="log__manager_8hpp.html#aa6a59c7bd93e7f8797f02cb129c0e0cc">OTTO_UNREACHABLE_M</a>(...)&#160;&#160;&#160;(DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__), DEBUG_ASSERT_MARK_UNREACHABLE)</td></tr>
 <tr class="separator:aa6a59c7bd93e7f8797f02cb129c0e0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -808,7 +808,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OTTO_UNREACHABLE&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{})</td>
+          <td class="memname">#define OTTO_UNREACHABLE&#160;&#160;&#160;(DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}), DEBUG_ASSERT_MARK_UNREACHABLE)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -828,12 +828,12 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__)</td>
+          <td>&#160;&#160;&#160;(DEBUG_UNREACHABLE(::<a class="el" href="structotto_1_1assert__module.html">otto::assert_module</a>{}, __VA_ARGS__), DEBUG_ASSERT_MARK_UNREACHABLE)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00121">121</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="log__manager_8hpp_source.html#l00122">122</a> of file <a class="el" href="log__manager_8hpp_source.html">log_manager.hpp</a>.</p>
 
 </div>
 </div>
