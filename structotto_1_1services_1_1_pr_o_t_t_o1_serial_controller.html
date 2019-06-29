@@ -127,14 +127,16 @@ MCU -&gt; RPI Messages</h1>
 Encoding of Colors</h1>
 <p>Colors are simply encoded as 3-byte sequences in RGB order.</p>
 <h3>Example</h3>
-<div class="fragment"><div class="line">0xFA34D2 -&gt; R = 0xFA, G = 0x34, B = 0xD2</div></div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
+<div class="fragment"><div class="line">0xFA34D2 -&gt; R = 0xFA, G = 0x34, B = 0xD2</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 Encoding of Steps</h1>
 <p>Encoder steps are encoded as signed single bytes.</p>
 <h1><a class="anchor" id="autotoc_md4"></a>
 Encoding of Keys/LEDs</h1>
 <p>Leftmost two bits denote group (enc = 0, funcs = 1, channels = 3, seq = 4), and the remaining 6 bits denote the number (as taken from the FuncKey, ChannelKey SeqKey Encoder enums).</p>
 <h3>Example</h3>
-<div class="fragment"><div class="line">0b01000011 -&gt; Channel 3</div></div><!-- fragment --><h1><a class="anchor" id="autotoc_md5"></a>
+<div class="fragment"><div class="line">0b01000011 -&gt; Channel 3</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md5"></a>
 Encoding of Key dump</h1>
 <p>??? </p>
 

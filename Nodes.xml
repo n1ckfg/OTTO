@@ -6,6 +6,36 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
+        <Name>The hardware</Name>
+        <Path>index.html</Path>
+        <Anchor>autotoc_md7</Anchor>
+       </Node>
+       <Node>
+        <Name>Planned Features for v1.0</Name>
+        <Path>index.html</Path>
+        <Anchor>autotoc_md8</Anchor>
+       </Node>
+       <Node>
+        <Name>Screenshots:</Name>
+        <Path>index.html</Path>
+        <Anchor>autotoc_md9</Anchor>
+       </Node>
+       <Node>
+        <Name>The software</Name>
+        <Path>index.html</Path>
+        <Anchor>autotoc_md10</Anchor>
+       </Node>
+       <Node>
+        <Name>Getting Involved</Name>
+        <Path>index.html</Path>
+        <Anchor>autotoc_md11</Anchor>
+       </Node>
+       <Node>
+        <Name>Credits</Name>
+        <Path>index.html</Path>
+        <Anchor>autotoc_md12</Anchor>
+       </Node>
+       <Node>
         <Name>Modules</Name>
         <Path>modules.html</Path>
         <Subnodes>
@@ -10286,7 +10316,7 @@
                </Node>
                <Node>
                 <Name>is_equal_comparable&lt; T1, T2, std::void_t&lt; decltype(std::declval&lt; T1 &gt;()==std::declval&lt; T2 &gt;())&gt; &gt;</Name>
-                <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_078632bd2951442870b337322b14e8b6ba.html</Path>
+                <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_07a9c5c8a1498150fe11c38cc588bb3828.html</Path>
                </Node>
                <Node>
                 <Name>is_greater_than_comparable</Name>
@@ -10611,19 +10641,9 @@
                   <Anchor>a276a7825d20728ce6f969edd48e71b89</Anchor>
                  </Node>
                  <Node>
-                  <Name>const_pointer</Name>
-                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
-                  <Anchor>affa6e3d9cf44fc3f543ff1881430c7a5</Anchor>
-                 </Node>
-                 <Node>
                   <Name>reference</Name>
                   <Path>structotto_1_1util_1_1pool__allocator.html</Path>
                   <Anchor>a0b25a67df5e45935e5f72dc5305af5ba</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>const_reference</Name>
-                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
-                  <Anchor>a62fa51ee9f7c040137db26067ecb9292</Anchor>
                  </Node>
                  <Node>
                   <Name>size_type</Name>
@@ -10689,6 +10709,16 @@
                   <Name>deallocate</Name>
                   <Path>structotto_1_1util_1_1pool__allocator.html</Path>
                   <Anchor>a3f87c59f63b14cb4555fa6e75c3f2d13</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>const_pointer</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>a50666f88d643d7c5a7b22ae1f52eda27</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>const_reference</Name>
+                  <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                  <Anchor>af240e5b5de69ea9c85484c72212e9aba</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -14857,7 +14887,7 @@
              </Node>
              <Node>
               <Name>otto::util::is_equal_comparable&lt; T1, T2, std::void_t&lt; decltype(std::declval&lt; T1 &gt;()==std::declval&lt; T2 &gt;())&gt; &gt;</Name>
-              <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_078632bd2951442870b337322b14e8b6ba.html</Path>
+              <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_07a9c5c8a1498150fe11c38cc588bb3828.html</Path>
              </Node>
              <Node>
               <Name>otto::util::is_greater_than_comparable&lt; T1, T1 &gt;</Name>
@@ -34577,19 +34607,9 @@
                     <Anchor>a276a7825d20728ce6f969edd48e71b89</Anchor>
                    </Node>
                    <Node>
-                    <Name>const_pointer</Name>
-                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
-                    <Anchor>affa6e3d9cf44fc3f543ff1881430c7a5</Anchor>
-                   </Node>
-                   <Node>
                     <Name>reference</Name>
                     <Path>structotto_1_1util_1_1pool__allocator.html</Path>
                     <Anchor>a0b25a67df5e45935e5f72dc5305af5ba</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>const_reference</Name>
-                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
-                    <Anchor>a62fa51ee9f7c040137db26067ecb9292</Anchor>
                    </Node>
                    <Node>
                     <Name>size_type</Name>
@@ -34655,6 +34675,16 @@
                     <Name>deallocate</Name>
                     <Path>structotto_1_1util_1_1pool__allocator.html</Path>
                     <Anchor>a3f87c59f63b14cb4555fa6e75c3f2d13</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>const_pointer</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>a50666f88d643d7c5a7b22ae1f52eda27</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>const_reference</Name>
+                    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+                    <Anchor>af240e5b5de69ea9c85484c72212e9aba</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -36046,7 +36076,7 @@
                  </Node>
                  <Node>
                   <Name>is_equal_comparable&lt; T1, T2, std::void_t&lt; decltype(std::declval&lt; T1 &gt;()==std::declval&lt; T2 &gt;())&gt; &gt;</Name>
-                  <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_078632bd2951442870b337322b14e8b6ba.html</Path>
+                  <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_07a9c5c8a1498150fe11c38cc588bb3828.html</Path>
                  </Node>
                  <Node>
                   <Name>is_equal_comparable&lt; T1, T1 &gt;</Name>
@@ -36309,7 +36339,7 @@
                  <Node>
                   <Name>nullmatch</Name>
                   <Path>utility_8hpp.html</Path>
-                  <Anchor>a4baea16cf53d44dc3b55cb4a06883624</Anchor>
+                  <Anchor>af8f23c1f04b89e67a7a3bcf84409e1a2</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

@@ -7059,7 +7059,7 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>a4baea16cf53d44dc3b55cb4a06883624</Anchor>
+    <Anchor>af8f23c1f04b89e67a7a3bcf84409e1a2</Anchor>
     <Abstract>Match any type, do nothing with it.</Abstract>
     <DeclaredIn>utility.hpp</DeclaredIn>
   </Token>
@@ -7167,6 +7167,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__container__algos.html</Path>
+    <Abstract>These are the standard library algorithms wrapped in container-based interfaces, instead of iterator ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7977,6 +7978,7 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>group__reflection.html</Path>
+    <Abstract>The OTTO reflection library is based on MetaStuff by Elias daler.</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -41806,7 +41808,7 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>a4baea16cf53d44dc3b55cb4a06883624</Anchor>
+    <Anchor>af8f23c1f04b89e67a7a3bcf84409e1a2</Anchor>
     <Abstract>Match any type, do nothing with it.</Abstract>
     <DeclaredIn>utility.hpp</DeclaredIn>
   </Token>
@@ -43289,7 +43291,7 @@
       <Type>tmplt</Type>
       <Scope>otto::util::is_equal_comparable&lt; T1, T2, std::void_t&lt; decltype(std::declval&lt; T1 &gt;()==std::declval&lt; T2 &gt;())&gt; &gt;</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_078632bd2951442870b337322b14e8b6ba.html</Path>
+    <Path>structotto_1_1util_1_1is__equal__comparable_3_01_t1_00_01_t2_00_01std_1_1void__t_3_01decltype_07a9c5c8a1498150fe11c38cc588bb3828.html</Path>
     <DeclaredIn>type_traits.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -43963,16 +43965,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>const_pointer</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::pool_allocator</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
-    <Anchor>affa6e3d9cf44fc3f543ff1881430c7a5</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>reference</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -43980,16 +43972,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1pool__allocator.html</Path>
     <Anchor>a0b25a67df5e45935e5f72dc5305af5ba</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>const_reference</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util::pool_allocator</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
-    <Anchor>a62fa51ee9f7c040137db26067ecb9292</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44131,6 +44113,26 @@
     <Path>structotto_1_1util_1_1pool__allocator.html</Path>
     <Anchor>a3f87c59f63b14cb4555fa6e75c3f2d13</Anchor>
     <DeclaredIn>pool_allocator.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>const_pointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::pool_allocator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+    <Anchor>a50666f88d643d7c5a7b22ae1f52eda27</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>const_reference</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::util::pool_allocator</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1pool__allocator.html</Path>
+    <Anchor>af240e5b5de69ea9c85484c72212e9aba</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45217,7 +45219,7 @@
       <Scope>otto::util::string_ref</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1string__ref.html</Path>
-    <Anchor>aa413c74d2c8b42ec8f75bf93aa13f87f</Anchor>
+    <Anchor>a61200c5003606f9360029bffc9308578</Anchor>
     <Abstract>constants</Abstract>
   </Token>
   <Token>

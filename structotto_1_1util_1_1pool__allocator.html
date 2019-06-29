@@ -72,6 +72,7 @@
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structotto_1_1util_1_1pool__allocator-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">otto::util::pool_allocator&lt; T &gt; Struct Template Reference</div>  </div>
@@ -97,12 +98,8 @@ Public Types</h2></td></tr>
 <tr class="separator:a5e4d47a8d9bf1c389d49fc038a58ffcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a276a7825d20728ce6f969edd48e71b89"><td class="memItemLeft" align="right" valign="top">typedef T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a276a7825d20728ce6f969edd48e71b89">pointer</a></td></tr>
 <tr class="separator:a276a7825d20728ce6f969edd48e71b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affa6e3d9cf44fc3f543ff1881430c7a5"><td class="memItemLeft" align="right" valign="top">typedef const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#affa6e3d9cf44fc3f543ff1881430c7a5">const_pointer</a></td></tr>
-<tr class="separator:affa6e3d9cf44fc3f543ff1881430c7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b25a67df5e45935e5f72dc5305af5ba"><td class="memItemLeft" align="right" valign="top">typedef T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a0b25a67df5e45935e5f72dc5305af5ba">reference</a></td></tr>
 <tr class="separator:a0b25a67df5e45935e5f72dc5305af5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62fa51ee9f7c040137db26067ecb9292"><td class="memItemLeft" align="right" valign="top">typedef const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a62fa51ee9f7c040137db26067ecb9292">const_reference</a></td></tr>
-<tr class="separator:a62fa51ee9f7c040137db26067ecb9292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4c9471dfe73e43c924b4497f5f6a3ab"><td class="memItemLeft" align="right" valign="top">typedef <a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#ac4c9471dfe73e43c924b4497f5f6a3ab">size_type</a></td></tr>
 <tr class="separator:ac4c9471dfe73e43c924b4497f5f6a3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0581fcf46ba2359b53732b10bc1d1d2"><td class="memItemLeft" align="right" valign="top">typedef <a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/ptrdiff_t">std::ptrdiff_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#ab0581fcf46ba2359b53732b10bc1d1d2">difference_type</a></td></tr>
@@ -112,7 +109,7 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a02466cb7d9637881786e897640a14bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a276a7825d20728ce6f969edd48e71b89">pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a02466cb7d9637881786e897640a14bca">address</a> (<a class="el" href="structotto_1_1util_1_1pool__allocator.html#a0b25a67df5e45935e5f72dc5305af5ba">reference</a> value) const</td></tr>
 <tr class="separator:a02466cb7d9637881786e897640a14bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1214e2bfef84533ee51600f20b939148"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#affa6e3d9cf44fc3f543ff1881430c7a5">const_pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a1214e2bfef84533ee51600f20b939148">address</a> (<a class="el" href="structotto_1_1util_1_1pool__allocator.html#a62fa51ee9f7c040137db26067ecb9292">const_reference</a> value) const</td></tr>
+<tr class="memitem:a1214e2bfef84533ee51600f20b939148"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a50666f88d643d7c5a7b22ae1f52eda27">const_pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a1214e2bfef84533ee51600f20b939148">address</a> (<a class="el" href="structotto_1_1util_1_1pool__allocator.html#af240e5b5de69ea9c85484c72212e9aba">const_reference</a> value) const</td></tr>
 <tr class="separator:a1214e2bfef84533ee51600f20b939148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63041e30a52f49f8ad127c325c4a69be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a63041e30a52f49f8ad127c325c4a69be">pool_allocator</a> () noexcept=default</td></tr>
 <tr class="separator:a63041e30a52f49f8ad127c325c4a69be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,6 +130,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a07e12b6b52b92e65599a111fc2d211ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f87c59f63b14cb4555fa6e75c3f2d13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a3f87c59f63b14cb4555fa6e75c3f2d13">deallocate</a> (<a class="el" href="structotto_1_1util_1_1pool__allocator.html#a276a7825d20728ce6f969edd48e71b89">pointer</a> p, <a class="el" href="structotto_1_1util_1_1pool__allocator.html#ac4c9471dfe73e43c924b4497f5f6a3ab">size_type</a> num)</td></tr>
 <tr class="separator:a3f87c59f63b14cb4555fa6e75c3f2d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a50666f88d643d7c5a7b22ae1f52eda27"><td class="memItemLeft" align="right" valign="top">const typedef T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a50666f88d643d7c5a7b22ae1f52eda27">const_pointer</a></td></tr>
+<tr class="separator:a50666f88d643d7c5a7b22ae1f52eda27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af240e5b5de69ea9c85484c72212e9aba"><td class="memItemLeft" align="right" valign="top">const typedef T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#af240e5b5de69ea9c85484c72212e9aba">const_reference</a></td></tr>
+<tr class="separator:af240e5b5de69ea9c85484c72212e9aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Class Documentation</h2>
 <a name="structotto_1_1util_1_1pool__allocator_1_1rebind" id="structotto_1_1util_1_1pool__allocator_1_1rebind"></a>
@@ -195,24 +199,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="affa6e3d9cf44fc3f543ff1881430c7a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affa6e3d9cf44fc3f543ff1881430c7a5">&#9670;&nbsp;</a></span>const_pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef const T* <a class="el" href="structotto_1_1util_1_1pool__allocator.html">otto::util::pool_allocator</a>&lt; T &gt;::<a class="el" href="structotto_1_1util_1_1pool__allocator.html#affa6e3d9cf44fc3f543ff1881430c7a5">const_pointer</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00039">39</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a0b25a67df5e45935e5f72dc5305af5ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b25a67df5e45935e5f72dc5305af5ba">&#9670;&nbsp;</a></span>reference</h2>
 
@@ -228,24 +214,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00040">40</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a62fa51ee9f7c040137db26067ecb9292"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62fa51ee9f7c040137db26067ecb9292">&#9670;&nbsp;</a></span>const_reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef const T&amp; <a class="el" href="structotto_1_1util_1_1pool__allocator.html">otto::util::pool_allocator</a>&lt; T &gt;::<a class="el" href="structotto_1_1util_1_1pool__allocator.html#a62fa51ee9f7c040137db26067ecb9292">const_reference</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00041">41</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
 
 </div>
 </div>
@@ -432,9 +400,9 @@ template&lt;typename T &gt; </div>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#affa6e3d9cf44fc3f543ff1881430c7a5">const_pointer</a> <a class="el" href="structotto_1_1util_1_1pool__allocator.html">otto::util::pool_allocator</a>&lt; T &gt;::address </td>
+          <td class="memname"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a50666f88d643d7c5a7b22ae1f52eda27">const_pointer</a> <a class="el" href="structotto_1_1util_1_1pool__allocator.html">otto::util::pool_allocator</a>&lt; T &gt;::address </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#a62fa51ee9f7c040137db26067ecb9292">const_reference</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structotto_1_1util_1_1pool__allocator.html#af240e5b5de69ea9c85484c72212e9aba">const_reference</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -591,6 +559,43 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00100">100</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a50666f88d643d7c5a7b22ae1f52eda27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50666f88d643d7c5a7b22ae1f52eda27">&#9670;&nbsp;</a></span>const_pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const typedef T* <a class="el" href="structotto_1_1util_1_1pool__allocator.html">otto::util::pool_allocator</a>&lt; T &gt;::const_pointer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00039">39</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af240e5b5de69ea9c85484c72212e9aba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af240e5b5de69ea9c85484c72212e9aba">&#9670;&nbsp;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">const typedef T&amp; <a class="el" href="structotto_1_1util_1_1pool__allocator.html">otto::util::pool_allocator</a>&lt; T &gt;::const_reference</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="pool__allocator_8hpp_source.html#l00041">41</a> of file <a class="el" href="pool__allocator_8hpp_source.html">pool_allocator.hpp</a>.</p>
 
 </div>
 </div>
