@@ -92,8 +92,9 @@
  <div class="center">
   <img src="structotto_1_1services_1_1_audio_manager.png" usemap="#otto::services::AudioManager_map" alt=""/>
   <map id="otto::services::AudioManager_map" name="otto::services::AudioManager_map">
-<area href="structotto_1_1core_1_1_service.html" alt="otto::core::Service" shape="rect" coords="0,0,224,24"/>
-<area href="structotto_1_1services_1_1_r_t_audio_audio_manager.html" alt="otto::services::RTAudioAudioManager" shape="rect" coords="0,112,224,136"/>
+<area href="structotto_1_1core_1_1_service.html" alt="otto::core::Service" shape="rect" coords="126,0,368,24"/>
+<area href="structotto_1_1services_1_1_r_t_audio_audio_manager.html" alt="otto::services::RTAudioAudioManager" shape="rect" coords="0,112,242,136"/>
+<area href="structotto_1_1services_1_1test_1_1_dummy_audio_manager.html" alt="otto::services::test::DummyAudioManager" shape="rect" coords="252,112,494,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -244,6 +245,8 @@ pre_init</td>
 <p>Use this to get audio buffers. </p>
 <p>There are currently a maximum of 4 avaliable, so make sure to release them when you're done with them! </p>
 
+<p class="reference">Referenced by <a class="el" href="dummy__services_8hpp_source.html#l00129">otto::services::test::DummyAudioManager::set_bs_sr()</a>.</p>
+
 </div>
 </div>
 <a id="ae6f502ea0b5c714ea289acd5bfcb72cd"></a>
@@ -334,6 +337,8 @@ pre_init</td>
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00037">37</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="audio__manager_8hpp_source.html#l00076">_buffer_size</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="dummy__services_8hpp_source.html#l00129">otto::services::test::DummyAudioManager::set_bs_sr()</a>.</p>
 
 </div>
 </div>
@@ -451,6 +456,8 @@ pre_init</td>
 <p>Check if audio should be processed. </p>
 <dl class="section return"><dt>Returns</dt><dd><code>true</code> if <a class="el" href="structotto_1_1services_1_1_audio_manager.html#ae0f0d0392c52601c8ab4aecf4a800790" title="Start audio processing.">start()</a> has been called </dd></dl>
 
+<p class="reference">Referenced by <a class="el" href="dummy__services_8hpp_source.html#l00097">otto::services::test::DummyAudioManager::process()</a>.</p>
+
 </div>
 </div>
 <a id="a66eecc20d593bec6fb290304203f0ade"></a>
@@ -549,6 +556,8 @@ pre_init</td>
 
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00074">74</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="dummy__services_8hpp_source.html#l00097">otto::services::test::DummyAudioManager::process()</a>.</p>
+
 </div>
 </div>
 <a id="a0c5f1a2bb33436edf77895b4a92abe5f"></a>
@@ -599,7 +608,7 @@ pre_init</td>
 
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00076">76</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00037">buffer_size()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00037">buffer_size()</a>, <a class="el" href="dummy__services_8hpp_source.html#l00097">otto::services::test::DummyAudioManager::process()</a>, and <a class="el" href="dummy__services_8hpp_source.html#l00129">otto::services::test::DummyAudioManager::set_bs_sr()</a>.</p>
 
 </div>
 </div>
@@ -625,7 +634,7 @@ pre_init</td>
 
 <p class="definition">Definition at line <a class="el" href="audio__manager_8hpp_source.html#l00077">77</a> of file <a class="el" href="audio__manager_8hpp_source.html">audio_manager.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00044">buffer_number()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="audio__manager_8hpp_source.html#l00044">buffer_number()</a>, and <a class="el" href="dummy__services_8hpp_source.html#l00097">otto::services::test::DummyAudioManager::process()</a>.</p>
 
 </div>
 </div>

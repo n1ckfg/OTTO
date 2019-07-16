@@ -101,19 +101,18 @@
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> handle_message(<a class="code" href="namespaceotto_1_1services.html#a523b4d8e10953628215fa1c0f3a45ce5">BytesView</a>);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> queue_message(<a class="code" href="namespaceotto_1_1services.html#a523b4d8e10953628215fa1c0f3a45ce5">BytesView</a>);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> insert_key_event(Command cmd, <a class="code" href="namespaceotto_1_1board_1_1ui.html#afe5ddb4db985e3786da601effd992256" title="Linux keys.">Key</a> key);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> insert_key_or_midi(Command cmd, <a class="code" href="namespaceotto_1_1services.html#a523b4d8e10953628215fa1c0f3a45ce5">BytesView</a> args, <span class="keywordtype">bool</span> do_send_midi);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="structotto_1_1util_1_1_serial.html" title="Serial port communication.">util::Serial</a> serial = {<span class="stringliteral">&quot;/dev/ttyACM0&quot;</span>, 10, 1};</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="structotto_1_1util_1_1double__buffered.html" title="Inner and outer buffers swapped atomically.">util::double_buffered&lt;EventBag, util::clear_inner&gt;</a> events_;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="structotto_1_1util_1_1double__buffered.html" title="Inner and outer buffers swapped atomically.">util::double_buffered&lt;std::vector&lt;std::uint8_t&gt;</a>, <a class="code" href="structotto_1_1util_1_1clear__outer.html">util::clear_outer</a>&gt; write_buffer_;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="structotto_1_1util_1_1thread.html">util::thread</a> read_thread;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">bool</span> send_midi_ = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  };</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;} <span class="comment">// namespace otto::services</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">// kak: other_file=../../src/controller.cpp</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> handle_keyevent(Command cmd, <a class="code" href="namespaceotto_1_1services.html#a523b4d8e10953628215fa1c0f3a45ce5">BytesView</a> args, <span class="keywordtype">bool</span> do_send_midi);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="structotto_1_1util_1_1_serial.html" title="Serial port communication.">util::Serial</a> serial = {<span class="stringliteral">&quot;/dev/ttyACM0&quot;</span>, 10, 1};</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="structotto_1_1util_1_1double__buffered.html" title="Inner and outer buffers swapped atomically.">util::double_buffered&lt;EventBag, util::clear_inner&gt;</a> events_;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="structotto_1_1util_1_1double__buffered.html" title="Inner and outer buffers swapped atomically.">util::double_buffered&lt;std::vector&lt;std::uint8_t&gt;</a>, <a class="code" href="structotto_1_1util_1_1clear__outer.html">util::clear_outer</a>&gt; write_buffer_;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="structotto_1_1util_1_1thread.html">util::thread</a> read_thread;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">bool</span> send_midi_ = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  };</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;} <span class="comment">// namespace otto::services</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">// kak: other_file=../../src/controller.cpp</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

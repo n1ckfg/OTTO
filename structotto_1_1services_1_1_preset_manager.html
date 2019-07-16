@@ -69,12 +69,12 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="structotto_1_1services_1_1_preset_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">otto::services::PresetManager Struct Reference</div>  </div>
+<div class="title">otto::services::PresetManager Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -90,7 +90,8 @@
  <div class="center">
   <img src="structotto_1_1services_1_1_preset_manager.png" usemap="#otto::services::PresetManager_map" alt=""/>
   <map id="otto::services::PresetManager_map" name="otto::services::PresetManager_map">
-<area href="structotto_1_1core_1_1_service.html" alt="otto::core::Service" shape="rect" coords="0,0,179,24"/>
+<area href="structotto_1_1core_1_1_service.html" alt="otto::core::Service" shape="rect" coords="0,0,245,24"/>
+<area href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html" alt="otto::services::test::DummyPresetManager" shape="rect" coords="0,112,245,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -107,29 +108,23 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8949aa228cf712733188ff5bfd74e41b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a8949aa228cf712733188ff5bfd74e41b">PresetManager</a> ()</td></tr>
-<tr class="memdesc:a8949aa228cf712733188ff5bfd74e41b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize preset manager.  <a href="structotto_1_1services_1_1_preset_manager.html#a8949aa228cf712733188ff5bfd74e41b">More...</a><br /></td></tr>
-<tr class="separator:a8949aa228cf712733188ff5bfd74e41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56c0e5794ee345cbd8994f3e3336e769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a56c0e5794ee345cbd8994f3e3336e769">load_preset_files</a> ()</td></tr>
-<tr class="memdesc:a56c0e5794ee345cbd8994f3e3336e769"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Re)load preset files  <a href="structotto_1_1services_1_1_preset_manager.html#a56c0e5794ee345cbd8994f3e3336e769">More...</a><br /></td></tr>
-<tr class="separator:a56c0e5794ee345cbd8994f3e3336e769"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad5bfa8000f40b90680d6e49c0ce2b5b"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#aad5bfa8000f40b90680d6e49c0ce2b5b">preset_names</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name)</td></tr>
-<tr class="memdesc:aad5bfa8000f40b90680d6e49c0ce2b5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the names of presets for an engine.  <a href="structotto_1_1services_1_1_preset_manager.html#aad5bfa8000f40b90680d6e49c0ce2b5b">More...</a><br /></td></tr>
-<tr class="separator:aad5bfa8000f40b90680d6e49c0ce2b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbaccc67d9892a5bb57c95486c724786"><td class="memItemLeft" align="right" valign="top">const <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#abbaccc67d9892a5bb57c95486c724786">name_of_idx</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name, int idx)</td></tr>
-<tr class="memdesc:abbaccc67d9892a5bb57c95486c724786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of preset with indx <code>idx</code>  <a href="structotto_1_1services_1_1_preset_manager.html#abbaccc67d9892a5bb57c95486c724786">More...</a><br /></td></tr>
-<tr class="separator:abbaccc67d9892a5bb57c95486c724786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a362e86cdf24b97b591352f01e2dfdbaf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a362e86cdf24b97b591352f01e2dfdbaf">idx_of_name</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name, std::string_view name)</td></tr>
-<tr class="memdesc:a362e86cdf24b97b591352f01e2dfdbaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of preset with name <code>name</code>  <a href="structotto_1_1services_1_1_preset_manager.html#a362e86cdf24b97b591352f01e2dfdbaf">More...</a><br /></td></tr>
-<tr class="separator:a362e86cdf24b97b591352f01e2dfdbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52e13b411eb15ef9dbe77e541cc2fb9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a52e13b411eb15ef9dbe77e541cc2fb9c">apply_preset</a> (<a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">core::engine::IEngine</a> &amp;engine, std::string_view name, bool no_enable_callback=false)</td></tr>
-<tr class="memdesc:a52e13b411eb15ef9dbe77e541cc2fb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply preset to engine.  <a href="structotto_1_1services_1_1_preset_manager.html#a52e13b411eb15ef9dbe77e541cc2fb9c">More...</a><br /></td></tr>
-<tr class="separator:a52e13b411eb15ef9dbe77e541cc2fb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f2fc6aab9b4fa393436673bc85f8501"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a3f2fc6aab9b4fa393436673bc85f8501">apply_preset</a> (<a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">core::engine::IEngine</a> &amp;engine, int idx, bool no_enable_callback=false)</td></tr>
-<tr class="memdesc:a3f2fc6aab9b4fa393436673bc85f8501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply preset to engine.  <a href="structotto_1_1services_1_1_preset_manager.html#a3f2fc6aab9b4fa393436673bc85f8501">More...</a><br /></td></tr>
-<tr class="separator:a3f2fc6aab9b4fa393436673bc85f8501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17f75ec2373a2b853a9bdc97bfcc4077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a17f75ec2373a2b853a9bdc97bfcc4077">create_preset</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name, std::string_view preset_name, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;preset_data)</td></tr>
-<tr class="separator:a17f75ec2373a2b853a9bdc97bfcc4077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a9fbdb8cd108a2b8853f2c58bd436b8"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a1a9fbdb8cd108a2b8853f2c58bd436b8">preset_names</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name)=0</td></tr>
+<tr class="memdesc:a1a9fbdb8cd108a2b8853f2c58bd436b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the names of presets for an engine.  <a href="structotto_1_1services_1_1_preset_manager.html#a1a9fbdb8cd108a2b8853f2c58bd436b8">More...</a><br /></td></tr>
+<tr class="separator:a1a9fbdb8cd108a2b8853f2c58bd436b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c39e55fb490782f9e54df8d6022a043"><td class="memItemLeft" align="right" valign="top">virtual const <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a7c39e55fb490782f9e54df8d6022a043">name_of_idx</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name, int idx)=0</td></tr>
+<tr class="memdesc:a7c39e55fb490782f9e54df8d6022a043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of preset with indx <code>idx</code>  <a href="structotto_1_1services_1_1_preset_manager.html#a7c39e55fb490782f9e54df8d6022a043">More...</a><br /></td></tr>
+<tr class="separator:a7c39e55fb490782f9e54df8d6022a043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d1dbd73625dc84361f23ec6b17c268"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a24d1dbd73625dc84361f23ec6b17c268">idx_of_name</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name, std::string_view name)=0</td></tr>
+<tr class="memdesc:a24d1dbd73625dc84361f23ec6b17c268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of preset with name <code>name</code>  <a href="structotto_1_1services_1_1_preset_manager.html#a24d1dbd73625dc84361f23ec6b17c268">More...</a><br /></td></tr>
+<tr class="separator:a24d1dbd73625dc84361f23ec6b17c268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a737100b5554591c4ee1563a1b10cae9d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a737100b5554591c4ee1563a1b10cae9d">apply_preset</a> (<a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">core::engine::IEngine</a> &amp;engine, std::string_view name, bool no_enable_callback=false)=0</td></tr>
+<tr class="memdesc:a737100b5554591c4ee1563a1b10cae9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply preset to engine.  <a href="structotto_1_1services_1_1_preset_manager.html#a737100b5554591c4ee1563a1b10cae9d">More...</a><br /></td></tr>
+<tr class="separator:a737100b5554591c4ee1563a1b10cae9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafb95d212568a3f1be0e2927193b4894"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#aafb95d212568a3f1be0e2927193b4894">apply_preset</a> (<a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">core::engine::IEngine</a> &amp;engine, int idx, bool no_enable_callback=false)=0</td></tr>
+<tr class="memdesc:aafb95d212568a3f1be0e2927193b4894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply preset to engine.  <a href="structotto_1_1services_1_1_preset_manager.html#aafb95d212568a3f1be0e2927193b4894">More...</a><br /></td></tr>
+<tr class="separator:aafb95d212568a3f1be0e2927193b4894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a152ab1f7fd8bce8b9024d7c94c878"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a84a152ab1f7fd8bce8b9024d7c94c878">create_preset</a> (<a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a> engine_name, std::string_view preset_name, const <a class="el" href="serialize_8hpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> &amp;preset_data)=0</td></tr>
+<tr class="separator:a84a152ab1f7fd8bce8b9024d7c94c878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structotto_1_1core_1_1_service"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1core_1_1_service')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1core_1_1_service.html">otto::core::Service</a></td></tr>
 <tr class="memitem:ae5c0f4d23d16f0ef33f57f506af9b5f4 inherit pub_methods_structotto_1_1core_1_1_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1_service.html#ae5c0f4d23d16f0ef33f57f506af9b5f4">Service</a> ()=default</td></tr>
 <tr class="separator:ae5c0f4d23d16f0ef33f57f506af9b5f4 inherit pub_methods_structotto_1_1core_1_1_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +138,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7e99feabf0e6270be4b5b8a08971e305 inherit pub_methods_structotto_1_1core_1_1_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a488428329c96c3584e971b2ef9a1db3e inherit pub_methods_structotto_1_1core_1_1_service"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1_service.html#a488428329c96c3584e971b2ef9a1db3e">operator=</a> (<a class="el" href="structotto_1_1core_1_1_service.html">Service</a> &amp;&amp;)=delete</td></tr>
 <tr class="separator:a488428329c96c3584e971b2ef9a1db3e inherit pub_methods_structotto_1_1core_1_1_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:afc1579904c350250878b65eed4dc6a01"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1services_1_1_preset_manager.html">PresetManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_preset_manager.html#afc1579904c350250878b65eed4dc6a01">create_default</a> ()</td></tr>
+<tr class="separator:afc1579904c350250878b65eed4dc6a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a4af8fcdda281b02c0960b3098480e5e6"></a>
@@ -194,68 +194,29 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8949aa228cf712733188ff5bfd74e41b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8949aa228cf712733188ff5bfd74e41b">&#9670;&nbsp;</a></span>PresetManager()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">otto::services::PresetManager::PresetManager </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialize preset manager. </p>
-<p>\effects <code><a class="el" href="structotto_1_1services_1_1_preset_manager.html#a56c0e5794ee345cbd8994f3e3336e769" title="(Re)load preset files">load_preset_files()</a></code> </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a56c0e5794ee345cbd8994f3e3336e769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56c0e5794ee345cbd8994f3e3336e769">&#9670;&nbsp;</a></span>load_preset_files()</h2>
+<a id="a1a9fbdb8cd108a2b8853f2c58bd436b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a9fbdb8cd108a2b8853f2c58bd436b8">&#9670;&nbsp;</a></span>preset_names()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void otto::services::PresetManager::load_preset_files </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>(Re)load preset files </p>
-<p>Invoked by init. Call to reload all preset files.</p>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname"></td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aad5bfa8000f40b90680d6e49c0ce2b5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad5bfa8000f40b90680d6e49c0ce2b5b">&#9670;&nbsp;</a></span>preset_names()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&gt;&amp; otto::services::PresetManager::preset_names </td>
+          <td class="memname">virtual const <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&gt;&amp; otto::services::PresetManager::preset_names </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>&#160;</td>
           <td class="paramname"><em>engine_name</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get the names of presets for an engine. </p>
@@ -267,16 +228,21 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html#a4030a6d8f2cbe43d7b7447c4f144d817">otto::services::test::DummyPresetManager</a>.</p>
+
 </div>
 </div>
-<a id="abbaccc67d9892a5bb57c95486c724786"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbaccc67d9892a5bb57c95486c724786">&#9670;&nbsp;</a></span>name_of_idx()</h2>
+<a id="a7c39e55fb490782f9e54df8d6022a043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c39e55fb490782f9e54df8d6022a043">&#9670;&nbsp;</a></span>name_of_idx()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&amp; otto::services::PresetManager::name_of_idx </td>
+          <td class="memname">virtual const <a class="elRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html">std::string</a>&amp; otto::services::PresetManager::name_of_idx </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>&#160;</td>
           <td class="paramname"><em>engine_name</em>, </td>
@@ -293,6 +259,11 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get the name of preset with indx <code>idx</code> </p>
@@ -303,16 +274,21 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html#a74ae863cec8a197286df011dbe0e06c2">otto::services::test::DummyPresetManager</a>.</p>
+
 </div>
 </div>
-<a id="a362e86cdf24b97b591352f01e2dfdbaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a362e86cdf24b97b591352f01e2dfdbaf">&#9670;&nbsp;</a></span>idx_of_name()</h2>
+<a id="a24d1dbd73625dc84361f23ec6b17c268"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d1dbd73625dc84361f23ec6b17c268">&#9670;&nbsp;</a></span>idx_of_name()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int otto::services::PresetManager::idx_of_name </td>
+          <td class="memname">virtual int otto::services::PresetManager::idx_of_name </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>&#160;</td>
           <td class="paramname"><em>engine_name</em>, </td>
@@ -329,6 +305,11 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get the index of preset with name <code>name</code> </p>
@@ -339,16 +320,21 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html#a88900366207cf87b45c1064983fb80c7">otto::services::test::DummyPresetManager</a>.</p>
+
 </div>
 </div>
-<a id="a52e13b411eb15ef9dbe77e541cc2fb9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52e13b411eb15ef9dbe77e541cc2fb9c">&#9670;&nbsp;</a></span>apply_preset() <span class="overload">[1/2]</span></h2>
+<a id="a737100b5554591c4ee1563a1b10cae9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a737100b5554591c4ee1563a1b10cae9d">&#9670;&nbsp;</a></span>apply_preset() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void otto::services::PresetManager::apply_preset </td>
+          <td class="memname">virtual void otto::services::PresetManager::apply_preset </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">core::engine::IEngine</a> &amp;&#160;</td>
           <td class="paramname"><em>engine</em>, </td>
@@ -371,6 +357,11 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Apply preset to engine. </p>
@@ -382,16 +373,21 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html#a4edeeb99b8d08505311cf4acaec1a143">otto::services::test::DummyPresetManager</a>.</p>
+
 </div>
 </div>
-<a id="a3f2fc6aab9b4fa393436673bc85f8501"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f2fc6aab9b4fa393436673bc85f8501">&#9670;&nbsp;</a></span>apply_preset() <span class="overload">[2/2]</span></h2>
+<a id="aafb95d212568a3f1be0e2927193b4894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafb95d212568a3f1be0e2927193b4894">&#9670;&nbsp;</a></span>apply_preset() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void otto::services::PresetManager::apply_preset </td>
+          <td class="memname">virtual void otto::services::PresetManager::apply_preset </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html">core::engine::IEngine</a> &amp;&#160;</td>
           <td class="paramname"><em>engine</em>, </td>
@@ -414,6 +410,11 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Apply preset to engine. </p>
@@ -425,16 +426,21 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
+<p>Implemented in <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html#a1400e85e14941cf5073911f4a41e585a">otto::services::test::DummyPresetManager</a>.</p>
+
 </div>
 </div>
-<a id="a17f75ec2373a2b853a9bdc97bfcc4077"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17f75ec2373a2b853a9bdc97bfcc4077">&#9670;&nbsp;</a></span>create_preset()</h2>
+<a id="a84a152ab1f7fd8bce8b9024d7c94c878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a152ab1f7fd8bce8b9024d7c94c878">&#9670;&nbsp;</a></span>create_preset()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void otto::services::PresetManager::create_preset </td>
+          <td class="memname">virtual void otto::services::PresetManager::create_preset </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structotto_1_1util_1_1string__ref.html">util::string_ref</a>&#160;</td>
           <td class="paramname"><em>engine_name</em>, </td>
@@ -457,6 +463,38 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html#a0efec423b8174304c58fb0ec6a92dd90">otto::services::test::DummyPresetManager</a>.</p>
+
+</div>
+</div>
+<a id="afc1579904c350250878b65eed4dc6a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1579904c350250878b65eed4dc6a01">&#9670;&nbsp;</a></span>create_default()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="elRef" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt;<a class="el" href="structotto_1_1services_1_1_preset_manager.html">PresetManager</a>&gt; otto::services::PresetManager::create_default </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

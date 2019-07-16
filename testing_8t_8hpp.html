@@ -80,7 +80,6 @@
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;fmt/format.h&gt;</code><br />
-<code>#include &lt;catch.hpp&gt;</code><br />
 <code>#include &lt;chrono&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;random.hpp&gt;</code><br />
@@ -88,6 +87,7 @@
 <code>#include &quot;<a class="el" href="algorithm_8hpp_source.html">util/algorithm.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="filesystem_8hpp_source.html">util/filesystem.hpp</a>&quot;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;catch.hpp&gt;</code><br />
 </div>
 <p><a href="testing_8t_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -106,15 +106,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a958e5d56419f8afe7e7fe1600731d75f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="testing_8t_8hpp.html#a958e5d56419f8afe7e7fe1600731d75f">OBENCH_SECTION</a>(name)</td></tr>
-<tr class="memdesc:a958e5d56419f8afe7e7fe1600731d75f"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Catch2 section of benchmarks.  <a href="testing_8t_8hpp.html#a958e5d56419f8afe7e7fe1600731d75f">More...</a><br /></td></tr>
-<tr class="separator:a958e5d56419f8afe7e7fe1600731d75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a476f35107513a4887d58c3ed211c9da2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="testing_8t_8hpp.html#a476f35107513a4887d58c3ed211c9da2">OBENCH</a>(...)</td></tr>
-<tr class="memdesc:a476f35107513a4887d58c3ed211c9da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run a benchmark for the following block.  <a href="testing_8t_8hpp.html#a476f35107513a4887d58c3ed211c9da2">More...</a><br /></td></tr>
-<tr class="separator:a476f35107513a4887d58c3ed211c9da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01009e2076164f05b81efd612c111461"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="testing_8t_8hpp.html#a01009e2076164f05b81efd612c111461">OBENCH_SKIP</a></td></tr>
-<tr class="memdesc:a01009e2076164f05b81efd612c111461"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the current benchmark while executing the follow block.  <a href="testing_8t_8hpp.html#a01009e2076164f05b81efd612c111461">More...</a><br /></td></tr>
-<tr class="separator:a01009e2076164f05b81efd612c111461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a227915957ab16187389713b5f20dca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="testing_8t_8hpp.html#a4a227915957ab16187389713b5f20dca">CATCH_CONFIG_ENABLE_BENCHMARKING</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a4a227915957ab16187389713b5f20dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -132,110 +125,19 @@ Variables</h2></td></tr>
 <tr class="separator:a89c901510b31c020980c020bbbad7fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a958e5d56419f8afe7e7fe1600731d75f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a958e5d56419f8afe7e7fe1600731d75f">&#9670;&nbsp;</a></span>OBENCH_SECTION</h2>
+<a id="a4a227915957ab16187389713b5f20dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a227915957ab16187389713b5f20dca">&#9670;&nbsp;</a></span>CATCH_CONFIG_ENABLE_BENCHMARKING</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define OBENCH_SECTION</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name</td><td>)</td>
-          <td></td>
+          <td class="memname">#define CATCH_CONFIG_ENABLE_BENCHMARKING&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>A Catch2 section of benchmarks. </p>
-<p><code>OBENCH</code> is a small addition to Catch2, adding nested and more powerful microbenchmmarks. Benchmarks are created using the macro <a class="el" href="testing_8t_8hpp.html#a476f35107513a4887d58c3ed211c9da2">OBENCH</a> inside a <code>OBENCH_SECTION</code>.</p>
-<dl class="section user"><dt>Example</dt><dd><p class="startdd"></p>
-<p class="interdd">Here is a benchmark section measuring our <a class="el" href="namespaceotto_1_1util_1_1algorithm.html#aff24d7be3d83d17e63bb8694ca373bb2">util::string_replace()</a> vs <a class="elRef" href="http://en.cppreference.com/w/cpp/regex/regex_replace.html">std::regex_replace()</a>.</p>
-<div class="fragment"><div class="line"><a class="code" href="testing_8t_8hpp.html#a958e5d56419f8afe7e7fe1600731d75f" title="A Catch2 section of benchmarks.">OBENCH_SECTION</a> (<span class="stringliteral">&quot;string_replace vs regex::replace&quot;</span>) {</div>
-<div class="line">  <a class="codeRef" href="http://en.cppreference.com/w/cpp/string/basic_string.html" title="STL class.">std::string</a> local;</div>
-<div class="line">  <a class="codeRef" href="http://en.cppreference.com/w/cpp/regex/basic_regex.html">std::regex</a> regex;</div>
-<div class="line">  <a class="code" href="testing_8t_8hpp.html#a476f35107513a4887d58c3ed211c9da2" title="Run a benchmark for the following block.">OBENCH</a> (<span class="stringliteral">&quot;string_replace&quot;</span>, 1000) {</div>
-<div class="line">    <a class="code" href="testing_8t_8hpp.html#a01009e2076164f05b81efd612c111461" title="Pause the current benchmark while executing the follow block.">OBENCH_SKIP</a> {</div>
-<div class="line">      local = long_str;</div>
-<div class="line">    }</div>
-<div class="line">    <a class="code" href="namespaceotto_1_1util_1_1algorithm.html#aff24d7be3d83d17e63bb8694ca373bb2" title="Find/Replace.">string_replace</a>(local, <span class="stringliteral">&quot;string&quot;</span>, <span class="stringliteral">&quot;another string&quot;</span>);</div>
-<div class="line">  }</div>
-<div class="line">  <a class="code" href="testing_8t_8hpp.html#a476f35107513a4887d58c3ed211c9da2" title="Run a benchmark for the following block.">OBENCH</a> (<span class="stringliteral">&quot;regex_replace&quot;</span>, 1000) {</div>
-<div class="line">    <a class="code" href="testing_8t_8hpp.html#a01009e2076164f05b81efd612c111461" title="Pause the current benchmark while executing the follow block.">OBENCH_SKIP</a> {</div>
-<div class="line">      local = long_str;</div>
-<div class="line">    }</div>
-<div class="line">    <a class="code" href="testing_8t_8hpp.html#a476f35107513a4887d58c3ed211c9da2" title="Run a benchmark for the following block.">OBENCH</a> (<span class="stringliteral">&quot;construct regex&quot;</span>) {</div>
-<div class="line">      regex = <a class="codeRef" href="http://en.cppreference.com/w/cpp/regex/basic_regex.html">std::regex</a>(<span class="stringliteral">&quot;string&quot;</span>);</div>
-<div class="line">    }</div>
-<div class="line">    <a class="code" href="testing_8t_8hpp.html#a476f35107513a4887d58c3ed211c9da2" title="Run a benchmark for the following block.">OBENCH</a> (<span class="stringliteral">&quot;replace&quot;</span>) {</div>
-<div class="line">      <a class="codeRef" href="http://en.cppreference.com/w/cpp/regex/regex_replace.html">std::regex_replace</a>(local, regex, <span class="stringliteral">&quot;another string&quot;</span>);</div>
-<div class="line">    }</div>
-<div class="line">  }</div>
-<div class="line">}</div>
-</div><!-- fragment --><p class="interdd">The above benchmarks are reported to the terminal like this:</p>
-<div class="fragment"><div class="line">─ OBENCH ─ string_replace vs regex::replace ── ──────── min ── ──────── max ── ──────── avg ──</div>
-<div class="line"> string_replace                                        1743 ns        14799 ns         1926 ns</div>
-<div class="line"> regex_replace                                        96349 ns       172518 ns       106355 ns</div>
-<div class="line"> ├ construct regex                                     8998 ns        45579 ns        10267 ns</div>
-<div class="line"> └ replace                                            84227 ns       158643 ns        92788 ns</div>
-<div class="line">────────────────────────────────────────────── ─────────────── ─────────────── ───────────────</div>
-</div><!-- fragment --> </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>the name of the section </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="testing_8t_8hpp_source.html#l00306">306</a> of file <a class="el" href="testing_8t_8hpp_source.html">testing.t.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a476f35107513a4887d58c3ed211c9da2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a476f35107513a4887d58c3ed211c9da2">&#9670;&nbsp;</a></span>OBENCH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OBENCH</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Run a benchmark for the following block. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>the name of the benchmark. </td></tr>
-    <tr><td class="paramname">count</td><td>Optional. If this argument is included, the benchmark will be run in a loop <code>count</code> times. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="testing_8t_8hpp_source.html#l00317">317</a> of file <a class="el" href="testing_8t_8hpp_source.html">testing.t.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a01009e2076164f05b81efd612c111461"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01009e2076164f05b81efd612c111461">&#9670;&nbsp;</a></span>OBENCH_SKIP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OBENCH_SKIP</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Pause the current benchmark while executing the follow block. </p>
-
-<p class="definition">Definition at line <a class="el" href="testing_8t_8hpp_source.html#l00325">325</a> of file <a class="el" href="testing_8t_8hpp_source.html">testing.t.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="testing_8t_8hpp_source.html#l00015">15</a> of file <a class="el" href="testing_8t_8hpp_source.html">testing.t.hpp</a>.</p>
 
 </div>
 </div>
@@ -252,7 +154,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="testing_8t_8hpp_source.html#l00015">15</a> of file <a class="el" href="testing_8t_8hpp_source.html">testing.t.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="testing_8t_8hpp_source.html#l00018">18</a> of file <a class="el" href="testing_8t_8hpp_source.html">testing.t.hpp</a>.</p>
 
 </div>
 </div>

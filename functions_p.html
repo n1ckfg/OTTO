@@ -211,10 +211,8 @@
 : <a class="el" href="structotto_1_1services_1_1_application.html#a2890fae4e15e3d43769e132fafd0198f">otto::services::Application</a>
 </li>
 <li>preset_names()
-: <a class="el" href="structotto_1_1services_1_1_preset_manager.html#aad5bfa8000f40b90680d6e49c0ce2b5b">otto::services::PresetManager</a>
-</li>
-<li>PresetManager()
-: <a class="el" href="structotto_1_1services_1_1_preset_manager.html#a8949aa228cf712733188ff5bfd74e41b">otto::services::PresetManager</a>
+: <a class="el" href="structotto_1_1services_1_1_preset_manager.html#a1a9fbdb8cd108a2b8853f2c58bd436b8">otto::services::PresetManager</a>
+, <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_preset_manager.html#a4030a6d8f2cbe43d7b7447c4f144d817">otto::services::test::DummyPresetManager</a>
 </li>
 <li>prev()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1_selector_widget.html#ad26cf86d526b3cc5bffea05d2fe9c9fe">otto::core::ui::SelectorWidget</a>
@@ -259,11 +257,13 @@
 , <a class="el" href="structotto_1_1engines_1_1_wormhole.html#a02ba5a8a4a018736591a7cb7ea4f37c5">otto::engines::Wormhole</a>
 , <a class="el" href="structotto_1_1services_1_1_engine_manager.html#a562b32c59caa8385ea9cd8b03884efd1">otto::services::EngineManager</a>
 , <a class="el" href="structotto_1_1services_1_1_r_t_audio_audio_manager.html#a8421a9b3b3cbf7e0f8256c1108efaae4">otto::services::RTAudioAudioManager</a>
+, <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_audio_manager.html#ac28a9dc22123e4d090e7ab91085204b1">otto::services::test::DummyAudioManager</a>
+, <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_engine_manager.html#a0d3804a3e155bbc374b510ee3ae0cd5f">otto::services::test::DummyEngineManager</a>
 </li>
 <li>ProcessData()
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#ade63145bdc6b146f8587493e19934ebf">otto::core::audio::ProcessData&lt; N &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#a750e6dc57cf154b3e4bc8565a719deac">otto::core::audio::ProcessData&lt; N &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html#a0d5ab2b4c29e73e68b10f61dd1a98078">otto::core::audio::ProcessData&lt; 0 &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html#a60bbc8dc97b7668bfb6c787519cc0791">otto::core::audio::ProcessData&lt; 1 &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html#a51bee366f233c93be4ea09e2cbdd0f54">otto::core::audio::ProcessData&lt; 1 &gt;</a>
 </li>
 <li>PropertyImpl()
 : <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a149a9d4d8eff84086a3f0c41587b2daa">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</a>
@@ -279,15 +279,19 @@
 </li>
 <li>Props
 : <a class="el" href="structotto_1_1core_1_1voices_1_1_post_base.html#a741e197ad8d916b09503948037c5ee9a">otto::core::voices::PostBase&lt; DerivedT, VoiceT &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1voices_1_1_pre_base.html#a3808ea38a8ac175aed979ada8f31ada9">otto::core::voices::PreBase&lt; DerivedT, PropsT &gt;</a>
 </li>
 <li>props
 : <a class="el" href="structotto_1_1core_1_1voices_1_1_pre_base.html#af4e80bc2b74760acb58ca6c53f976915">otto::core::voices::PreBase&lt; DerivedT, PropsT &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a7484dc7bff77695f167d235df9ff948b">otto::core::voices::VoiceBase&lt; DerivedT, PreT &gt;</a>
 </li>
 <li>Props
-: <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a7166715b7a5d2cfba200e15cecbcc113">otto::core::voices::VoiceBase&lt; DerivedT, PreT &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#a1a6a8d12359cffacc4e54026d8daea2c">otto::core::voices::VoiceManager&lt; PostT, NumberOfVoices &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1voices_1_1_pre_base.html#a3808ea38a8ac175aed979ada8f31ada9">otto::core::voices::PreBase&lt; DerivedT, PropsT &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a7166715b7a5d2cfba200e15cecbcc113">otto::core::voices::VoiceBase&lt; DerivedT, PreT &gt;</a>
+</li>
+<li>props
+: <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a7484dc7bff77695f167d235df9ff948b">otto::core::voices::VoiceBase&lt; DerivedT, PreT &gt;</a>
+</li>
+<li>Props
+: <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#a1a6a8d12359cffacc4e54026d8daea2c">otto::core::voices::VoiceManager&lt; PostT, NumberOfVoices &gt;</a>
 </li>
 <li>props
 : <a class="el" href="structotto_1_1engines_1_1_arp.html#a267fb1b772bde8d1736af9c06fb29585">otto::engines::Arp</a>

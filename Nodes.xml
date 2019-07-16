@@ -698,6 +698,10 @@
           <Path>namespaces.html</Path>
           <Subnodes>
            <Node>
+            <Name>Catch</Name>
+            <Path>namespace_catch.html</Path>
+           </Node>
+           <Node>
             <Name>otto</Name>
             <Path>namespaceotto.html</Path>
             <Subnodes>
@@ -824,6 +828,12 @@
              <Node>
               <Name>services</Name>
               <Path>namespaceotto_1_1services.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>test</Name>
+                <Path>namespaceotto_1_1services_1_1test.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>test</Name>
@@ -1105,6 +1115,53 @@
           <Name>Class List</Name>
           <Path>annotated.html</Path>
           <Subnodes>
+           <Node>
+            <Name>Catch</Name>
+            <Path>namespace_catch.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>BenchmarkCSVReporter</Name>
+              <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>BenchmarkCSVReporter</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Anchor>ad596287ce3a46271467f5586f7ec541b</Anchor>
+               </Node>
+               <Node>
+                <Name>assertionStarting</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Anchor>af76c3283d2d6604e9cdd9a6bdd689cc1</Anchor>
+               </Node>
+               <Node>
+                <Name>assertionEnded</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Anchor>a646c5e4844239f14afb7b1f5e8943f98</Anchor>
+               </Node>
+               <Node>
+                <Name>benchmarkPreparing</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Anchor>a151c27b6336340b88b07c974a36efdd5</Anchor>
+               </Node>
+               <Node>
+                <Name>benchmarkStarting</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Anchor>a30e9012e2f1ccb398acf72d4e31f1973</Anchor>
+               </Node>
+               <Node>
+                <Name>benchmarkEnded</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Anchor>a11bd54f4253c3b0d6b10bd95285e0f78</Anchor>
+               </Node>
+               <Node>
+                <Name>benchmarkFailed</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Anchor>aa862ab6b8051aac66bef82cc37798302</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
            <Node>
             <Name>otto</Name>
             <Path>namespaceotto.html</Path>
@@ -7537,6 +7594,148 @@
               <Path>namespaceotto_1_1services.html</Path>
               <Subnodes>
                <Node>
+                <Name>test</Name>
+                <Path>namespaceotto_1_1services_1_1test.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>DummyAudioManager</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>DummyAudioManager</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                    <Anchor>ad444530ae32dee0449c716daddb66c57</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>process</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                    <Anchor>ac28a9dc22123e4d090e7ab91085204b1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>set_bs_sr</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                    <Anchor>acfb92f53b8d61211cce2f1e260c7987d</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>DummyController</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>set_color</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                    <Anchor>acd26ad4d85d01c1ff68726ca2e940db1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>flush_leds</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                    <Anchor>a41a45e7fb0ff9ca4f0771eba2ed7a7e0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>clear_leds</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                    <Anchor>ad2464f037742fd514198e835d47610ce</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>DummyEngineManager</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_engine_manager.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>start</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_engine_manager.html</Path>
+                    <Anchor>aa552c52d0d494762ce706e6e833294ff</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>process</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_engine_manager.html</Path>
+                    <Anchor>a0d3804a3e155bbc374b510ee3ae0cd5f</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>DummyPresetManager</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>preset_names</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                    <Anchor>a4030a6d8f2cbe43d7b7447c4f144d817</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>name_of_idx</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                    <Anchor>a74ae863cec8a197286df011dbe0e06c2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>idx_of_name</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                    <Anchor>a88900366207cf87b45c1064983fb80c7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>apply_preset</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                    <Anchor>a4edeeb99b8d08505311cf4acaec1a143</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>apply_preset</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                    <Anchor>a1400e85e14941cf5073911f4a41e585a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>create_preset</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                    <Anchor>a0efec423b8174304c58fb0ec6a92dd90</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>DummyStateManager</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>load</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                    <Anchor>ac26d356e60d29ed836e16ea5aedd5881</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>save</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                    <Anchor>ab8b45c009dc512b407d31589a4315960</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>attach</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                    <Anchor>a7f67be19948b5c0e00cb186fc365478f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>detach</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                    <Anchor>a3bdbb238711a849470d01769f63c4224</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>DummyUIManager</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_u_i_manager.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>DummyUIManager</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_u_i_manager.html</Path>
+                    <Anchor>af8a1d6cde6a5cb623a7980f464c8ac4b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>main_ui_loop</Name>
+                    <Path>structotto_1_1services_1_1test_1_1_dummy_u_i_manager.html</Path>
+                    <Anchor>a6ffd9ec0856ffcdcad3bfe633049a648</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>Application</Name>
                 <Path>structotto_1_1services_1_1_application.html</Path>
                 <Subnodes>
@@ -8041,11 +8240,6 @@
                   <Path>structotto_1_1services_1_1_engine_manager.html</Path>
                   <Anchor>a562b32c59caa8385ea9cd8b03884efd1</Anchor>
                  </Node>
-                 <Node>
-                  <Name>by_name</Name>
-                  <Path>structotto_1_1services_1_1_engine_manager.html</Path>
-                  <Anchor>a34489f2cb3c4523008c9661a48217471</Anchor>
-                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -8197,7 +8391,7 @@
                  <Node>
                   <Name>LogManager</Name>
                   <Path>structotto_1_1services_1_1_log_manager.html</Path>
-                  <Anchor>a10b334e17b21e8c31ed466203d818890</Anchor>
+                  <Anchor>ad530e8471075be215f2450083e74df1f</Anchor>
                  </Node>
                  <Node>
                   <Name>set_thread_name</Name>
@@ -8233,44 +8427,34 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>PresetManager</Name>
-                  <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a8949aa228cf712733188ff5bfd74e41b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>load_preset_files</Name>
-                  <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a56c0e5794ee345cbd8994f3e3336e769</Anchor>
-                 </Node>
-                 <Node>
                   <Name>preset_names</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>aad5bfa8000f40b90680d6e49c0ce2b5b</Anchor>
+                  <Anchor>a1a9fbdb8cd108a2b8853f2c58bd436b8</Anchor>
                  </Node>
                  <Node>
                   <Name>name_of_idx</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>abbaccc67d9892a5bb57c95486c724786</Anchor>
+                  <Anchor>a7c39e55fb490782f9e54df8d6022a043</Anchor>
                  </Node>
                  <Node>
                   <Name>idx_of_name</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a362e86cdf24b97b591352f01e2dfdbaf</Anchor>
+                  <Anchor>a24d1dbd73625dc84361f23ec6b17c268</Anchor>
                  </Node>
                  <Node>
                   <Name>apply_preset</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a52e13b411eb15ef9dbe77e541cc2fb9c</Anchor>
+                  <Anchor>a737100b5554591c4ee1563a1b10cae9d</Anchor>
                  </Node>
                  <Node>
                   <Name>apply_preset</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a3f2fc6aab9b4fa393436673bc85f8501</Anchor>
+                  <Anchor>aafb95d212568a3f1be0e2927193b4894</Anchor>
                  </Node>
                  <Node>
                   <Name>create_preset</Name>
                   <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                  <Anchor>a17f75ec2373a2b853a9bdc97bfcc4077</Anchor>
+                  <Anchor>a84a152ab1f7fd8bce8b9024d7c94c878</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -14016,10 +14200,6 @@
             <Path>classotto_1_1filesystem_1_1path_1_1iterator.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;</Name>
-            <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
-           </Node>
-           <Node>
             <Name>iterator_facade</Name>
             <Path></Path>
             <Subnodes>
@@ -14028,6 +14208,10 @@
               <Path>structotto_1_1util_1_1wrapping__array_1_1iterator__impl.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>otto::util::iterator::iterator_facade&lt; Derived, ValueType, Category, Reference, Pointer, Difference &gt;</Name>
+            <Path>structotto_1_1util_1_1iterator_1_1iterator__facade.html</Path>
            </Node>
            <Node>
             <Name>otto::util::iterator::iterator_facade&lt; adjacent_pair_iterator&lt; Iter &gt;, std::pair&lt; detail::value_type_t&lt; Iter &gt;, detail::value_type_t&lt; Iter &gt; &gt;, detail::iterator_category_t&lt; Iter &gt;, std::pair&lt; detail::reference_t&lt; Iter &gt;, detail::reference_t&lt; Iter &gt; &gt; &gt;</Name>
@@ -14448,8 +14632,8 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
+            <Name>otto::engines::Sampler::Props</Name>
+            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Sends::Props</Name>
@@ -14462,6 +14646,10 @@
            <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;::Props</Name>
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Sequencer::Props</Name>
@@ -14496,16 +14684,12 @@
             <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::PotionSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::RhodesSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Sampler::Props</Name>
-            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
+            <Name>otto::engines::PotionSynth::Props</Name>
+            <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
@@ -14634,6 +14818,10 @@
                 <Name>otto::services::RTAudioAudioManager</Name>
                 <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
                </Node>
+               <Node>
+                <Name>otto::services::test::DummyAudioManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -14652,6 +14840,10 @@
                 <Name>otto::services::PrOTTO1SerialController</Name>
                 <Path>structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html</Path>
                </Node>
+               <Node>
+                <Name>otto::services::test::DummyController</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -14661,6 +14853,12 @@
              <Node>
               <Name>otto::services::EngineManager</Name>
               <Path>structotto_1_1services_1_1_engine_manager.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::services::test::DummyEngineManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_engine_manager.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>otto::services::LogManager</Name>
@@ -14669,10 +14867,22 @@
              <Node>
               <Name>otto::services::PresetManager</Name>
               <Path>structotto_1_1services_1_1_preset_manager.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::services::test::DummyPresetManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>otto::services::StateManager</Name>
               <Path>structotto_1_1services_1_1_state_manager.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>otto::services::test::DummyStateManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+               </Node>
+              </Subnodes>
              </Node>
              <Node>
               <Name>otto::services::UIManager</Name>
@@ -14685,6 +14895,10 @@
                <Node>
                 <Name>otto::services::GLFWUIManager</Name>
                 <Path>structotto_1_1services_1_1_g_l_f_w_u_i_manager.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::services::test::DummyUIManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_u_i_manager.html</Path>
                </Node>
               </Subnodes>
              </Node>
@@ -14798,6 +15012,16 @@
            <Node>
             <Name>otto::services::UIManager::State</Name>
             <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
+           </Node>
+           <Node>
+            <Name>StreamingReporterBase</Name>
+            <Path></Path>
+            <Subnodes>
+             <Node>
+              <Name>Catch::BenchmarkCSVReporter</Name>
+              <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>RtAudio::StreamOptions</Name>
@@ -14916,12 +15140,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
            </Node>
            <Node>
             <Name>otto::reflect::type_list&lt; Args &gt;</Name>
@@ -14952,6 +15176,10 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html</Path>
            </Node>
            <Node>
+            <Name>otto::util::dsp::Window</Name>
+            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
+           </Node>
+           <Node>
             <Name>otto::glfw::Window</Name>
             <Path>structotto_1_1glfw_1_1_window.html</Path>
             <Subnodes>
@@ -14960,10 +15188,6 @@
               <Path>structotto_1_1glfw_1_1_n_v_g_window.html</Path>
              </Node>
             </Subnodes>
-           </Node>
-           <Node>
-            <Name>otto::util::dsp::Window</Name>
-            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;</Name>
@@ -28220,11 +28444,6 @@
                     <Path>structotto_1_1services_1_1_engine_manager.html</Path>
                     <Anchor>a562b32c59caa8385ea9cd8b03884efd1</Anchor>
                    </Node>
-                   <Node>
-                    <Name>by_name</Name>
-                    <Path>structotto_1_1services_1_1_engine_manager.html</Path>
-                    <Anchor>a34489f2cb3c4523008c9661a48217471</Anchor>
-                   </Node>
                   </Subnodes>
                  </Node>
                 </Subnodes>
@@ -28240,7 +28459,7 @@
                    <Node>
                     <Name>LogManager</Name>
                     <Path>structotto_1_1services_1_1_log_manager.html</Path>
-                    <Anchor>a10b334e17b21e8c31ed466203d818890</Anchor>
+                    <Anchor>ad530e8471075be215f2450083e74df1f</Anchor>
                    </Node>
                    <Node>
                     <Name>set_thread_name</Name>
@@ -28438,44 +28657,34 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>PresetManager</Name>
-                    <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a8949aa228cf712733188ff5bfd74e41b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>load_preset_files</Name>
-                    <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a56c0e5794ee345cbd8994f3e3336e769</Anchor>
-                   </Node>
-                   <Node>
                     <Name>preset_names</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>aad5bfa8000f40b90680d6e49c0ce2b5b</Anchor>
+                    <Anchor>a1a9fbdb8cd108a2b8853f2c58bd436b8</Anchor>
                    </Node>
                    <Node>
                     <Name>name_of_idx</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>abbaccc67d9892a5bb57c95486c724786</Anchor>
+                    <Anchor>a7c39e55fb490782f9e54df8d6022a043</Anchor>
                    </Node>
                    <Node>
                     <Name>idx_of_name</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a362e86cdf24b97b591352f01e2dfdbaf</Anchor>
+                    <Anchor>a24d1dbd73625dc84361f23ec6b17c268</Anchor>
                    </Node>
                    <Node>
                     <Name>apply_preset</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a52e13b411eb15ef9dbe77e541cc2fb9c</Anchor>
+                    <Anchor>a737100b5554591c4ee1563a1b10cae9d</Anchor>
                    </Node>
                    <Node>
                     <Name>apply_preset</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a3f2fc6aab9b4fa393436673bc85f8501</Anchor>
+                    <Anchor>aafb95d212568a3f1be0e2927193b4894</Anchor>
                    </Node>
                    <Node>
                     <Name>create_preset</Name>
                     <Path>structotto_1_1services_1_1_preset_manager.html</Path>
-                    <Anchor>a17f75ec2373a2b853a9bdc97bfcc4077</Anchor>
+                    <Anchor>a84a152ab1f7fd8bce8b9024d7c94c878</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -36488,6 +36697,210 @@
             <Path>dir_13e138d54eb8818da29c3992edef070a.html</Path>
             <Subnodes>
              <Node>
+              <Name>benchmark_csv_reporter.hpp</Name>
+              <Path>benchmark__csv__reporter_8hpp.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>BenchmarkCSVReporter</Name>
+                <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>BenchmarkCSVReporter</Name>
+                  <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                  <Anchor>ad596287ce3a46271467f5586f7ec541b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>assertionStarting</Name>
+                  <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                  <Anchor>af76c3283d2d6604e9cdd9a6bdd689cc1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>assertionEnded</Name>
+                  <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                  <Anchor>a646c5e4844239f14afb7b1f5e8943f98</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>benchmarkPreparing</Name>
+                  <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                  <Anchor>a151c27b6336340b88b07c974a36efdd5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>benchmarkStarting</Name>
+                  <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                  <Anchor>a30e9012e2f1ccb398acf72d4e31f1973</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>benchmarkEnded</Name>
+                  <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                  <Anchor>a11bd54f4253c3b0d6b10bd95285e0f78</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>benchmarkFailed</Name>
+                  <Path>struct_catch_1_1_benchmark_c_s_v_reporter.html</Path>
+                  <Anchor>aa862ab6b8051aac66bef82cc37798302</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CATCH_REGISTER_REPORTER</Name>
+                <Path>benchmark__csv__reporter_8hpp.html</Path>
+                <Anchor>ad5ab84137965378ec97ba7dd7989fd7a</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>dummy_services.hpp</Name>
+              <Path>dummy__services_8hpp.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>DummyStateManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>load</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                  <Anchor>ac26d356e60d29ed836e16ea5aedd5881</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>save</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                  <Anchor>ab8b45c009dc512b407d31589a4315960</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>attach</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                  <Anchor>a7f67be19948b5c0e00cb186fc365478f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>detach</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_state_manager.html</Path>
+                  <Anchor>a3bdbb238711a849470d01769f63c4224</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DummyPresetManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>preset_names</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                  <Anchor>a4030a6d8f2cbe43d7b7447c4f144d817</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name_of_idx</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                  <Anchor>a74ae863cec8a197286df011dbe0e06c2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>idx_of_name</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                  <Anchor>a88900366207cf87b45c1064983fb80c7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>apply_preset</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                  <Anchor>a4edeeb99b8d08505311cf4acaec1a143</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>apply_preset</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                  <Anchor>a1400e85e14941cf5073911f4a41e585a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>create_preset</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_preset_manager.html</Path>
+                  <Anchor>a0efec423b8174304c58fb0ec6a92dd90</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DummyUIManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_u_i_manager.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>DummyUIManager</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_u_i_manager.html</Path>
+                  <Anchor>af8a1d6cde6a5cb623a7980f464c8ac4b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>main_ui_loop</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_u_i_manager.html</Path>
+                  <Anchor>a6ffd9ec0856ffcdcad3bfe633049a648</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DummyController</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>set_color</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                  <Anchor>acd26ad4d85d01c1ff68726ca2e940db1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>flush_leds</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                  <Anchor>a41a45e7fb0ff9ca4f0771eba2ed7a7e0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear_leds</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_controller.html</Path>
+                  <Anchor>ad2464f037742fd514198e835d47610ce</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DummyEngineManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_engine_manager.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>start</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_engine_manager.html</Path>
+                  <Anchor>aa552c52d0d494762ce706e6e833294ff</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>process</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_engine_manager.html</Path>
+                  <Anchor>a0d3804a3e155bbc374b510ee3ae0cd5f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DummyAudioManager</Name>
+                <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>DummyAudioManager</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                  <Anchor>ad444530ae32dee0449c716daddb66c57</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>process</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                  <Anchor>ac28a9dc22123e4d090e7ab91085204b1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>set_bs_sr</Name>
+                  <Path>structotto_1_1services_1_1test_1_1_dummy_audio_manager.html</Path>
+                  <Anchor>acfb92f53b8d61211cce2f1e260c7987d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>make_dummy_application</Name>
+                <Path>dummy__services_8hpp.html</Path>
+                <Anchor>a0caa923fc93d1a803e3452bd80bc8379</Anchor>
+               </Node>
+               <Node>
+                <Name>make_dummy_application_default_engines</Name>
+                <Path>dummy__services_8hpp.html</Path>
+                <Anchor>a73f997ec427efdb4891912fa95e1eb21</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>testing.t.hpp</Name>
               <Path>testing_8t_8hpp.html</Path>
               <Subnodes>
@@ -36503,19 +36916,9 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>OBENCH_SECTION</Name>
+                <Name>CATCH_CONFIG_ENABLE_BENCHMARKING</Name>
                 <Path>testing_8t_8hpp.html</Path>
-                <Anchor>a958e5d56419f8afe7e7fe1600731d75f</Anchor>
-               </Node>
-               <Node>
-                <Name>OBENCH</Name>
-                <Path>testing_8t_8hpp.html</Path>
-                <Anchor>a476f35107513a4887d58c3ed211c9da2</Anchor>
-               </Node>
-               <Node>
-                <Name>OBENCH_SKIP</Name>
-                <Path>testing_8t_8hpp.html</Path>
-                <Anchor>a01009e2076164f05b81efd612c111461</Anchor>
+                <Anchor>a4a227915957ab16187389713b5f20dca</Anchor>
                </Node>
                <Node>
                 <Name>Random</Name>
