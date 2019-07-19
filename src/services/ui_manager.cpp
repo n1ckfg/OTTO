@@ -8,48 +8,69 @@
 
 namespace otto::services {
 
+  LED led_for_screen(ScreenEnum screen)
+  {
+    switch (screen) {
+      case ScreenEnum::sends: return LED(Key::sends);
+      case ScreenEnum::routing: return LED(Key::routing);
+      case ScreenEnum::fx1: return LED(Key::fx1);
+      case ScreenEnum::fx1_selector: return LED(Key::fx1);
+      case ScreenEnum::fx2: return LED(Key::fx2);
+      case ScreenEnum::fx2_selector: return LED(Key::fx2);
+      case ScreenEnum::looper: return LED(Key::looper);
+      case ScreenEnum::arp: return LED(Key::arp);
+      case ScreenEnum::arp_selector: return LED(Key::arp);
+      case ScreenEnum::voices: return LED(Key::envelope);
+      case ScreenEnum::master: return LED(Key::master);
+      case ScreenEnum::sequencer: return LED(Key::sequencer);
+      case ScreenEnum::sampler: return LED(Key::sampler);
+      case ScreenEnum::synth: return LED(Key::synth);
+      case ScreenEnum::synth_selector: return LED(Key::synth);
+      case ScreenEnum::envelope: return LED(Key::envelope);
+      case ScreenEnum::settings: return LED(Key::settings);
+      case ScreenEnum::external: return LED(Key::external);
+      case ScreenEnum::twist1: return LED(Key::twist1);
+      case ScreenEnum::twist2: return LED(Key::twist2);
+    }
+    OTTO_UNREACHABLE;
+  }
+
   using namespace core::ui;
-
-  bool UIManager::is_pressed(Key k) noexcept
+  void UIManager::display(ScreenEnum screen)
   {
-    return keys[static_cast<unsigned>(k)];
-  }
-
-  void UIManager::select_engine(const std::string& engine_name)
-  {
-    _selected_engine_name = engine_name;
-
-    auto engine = Application::current().engine_manager->by_name(engine_name);
-    if (!engine) {
-      engine = Application::current().engine_manager->by_name(initial_engine);
-    }
-    if (engine != nullptr) {
-      display(engine->screen());
-      _selected_engine_name = engine_name;
-    }
-  }
-
-  void UIManager::select_engine(core::engine::AnyEngine& engine)
-  {
-    display(engine.screen());
-    _selected_engine_name = engine.name();
-  }
-
-  const std::string& UIManager::selected_engine_name()
-  {
-    return _selected_engine_name;
+    state.current_screen = screen;
   }
 
   UIManager::UIManager()
   {
-    auto load = [this](const nlohmann::json& j) {
-      if (j.is_object()) {
-        _selected_engine_name = j["SelectedEngine"];
+    state.current_screen.on_change().connect([&](auto new_val) {
+      display(screen_selectors_[new_val]());
+      for (auto scrn : ScreenEnum::_values()) {
+        Controller::current().set_color(led_for_screen(scrn), scrn == new_val ? LEDColor::White : LEDColor::Black);
       }
-      select_engine(_selected_engine_name);
-    };
+    });
 
-    auto save = [this]() { return nlohmann::json({{"SelectedEngine", _selected_engine_name}}); };
+    state.octave.on_change().connect([&](auto octave) {
+      LEDColor c = [&] {
+        switch (std::abs(octave)) {
+          case 1: return LEDColor::Blue;
+          case 2: return LEDColor::Green;
+          case 3: return LEDColor::Yellow;
+          case 4: return LEDColor::Red;
+          default: return LEDColor::Black;
+        };
+      }();
+      Controller::current().set_color(LED{Key::plus}, octave > 0 ? c : LEDColor::Black);
+      Controller::current().set_color(LED{Key::minus}, octave < 0 ? c : LEDColor::Black);
+    });
+
+    Application::current().events.post_init.subscribe([&] {
+      Controller::current().register_key_handler(Key::plus, [&](auto&&) { state.octave.step(1); });
+      Controller::current().register_key_handler(Key::minus, [&](auto&&) { state.octave.step(-1); });
+    });
+
+    auto load = [this](const nlohmann::json& j) { util::deserialize(state, j); };
+    auto save = [this] { return util::serialize(state); };
 
     Application::current().state_manager->attach("UI", load, save);
   }
@@ -61,32 +82,14 @@ namespace otto::services {
     cur_screen->on_show();
   }
 
-  core::ui::Screen* UIManager::current_screen()
+  core::ui::Screen& UIManager::current_screen()
   {
-    return cur_screen;
+    return *cur_screen;
   }
 
-  void UIManager::register_key_handler(Key k, KeyHandler press_handler, KeyHandler release_handler)
+  void UIManager::register_screen_selector(ScreenEnum se, ScreenSelector ss)
   {
-    key_handlers.emplace(k, std::pair{std::move(press_handler), std::move(release_handler)});
-  }
-
-  bool UIManager::handle_global(Key key, bool is_press)
-  {
-    if (key == Key::quit) {
-      Application::current().exit(Application::ErrorCode::user_exit);
-      return true;
-    }
-
-    auto [first, last] = key_handlers.equal_range(key);
-    if (first == last) return false;
-
-    for (auto&& [key, funcs] : util::sequence(first, last)) {
-      auto& func = is_press ? funcs.first : funcs.second;
-      if (func) func(key);
-    }
-
-    return true;
+    screen_selectors_[se] = ss;
   }
 
   void UIManager::draw_frame(vg::Canvas& ctx)
@@ -94,9 +97,7 @@ namespace otto::services {
     ctx.lineWidth(6);
     ctx.lineCap(vg::Canvas::LineCap::ROUND);
     ctx.lineJoin(vg::Canvas::Canvas::LineJoin::ROUND);
-    ctx.group([&] {
-      cur_screen->draw(ctx);
-    });
+    ctx.group([&] { cur_screen->draw(ctx); });
 
     ctx.group([&] {
       ctx.beginPath();
@@ -106,44 +107,8 @@ namespace otto::services {
       ctx.fillText(cpu_time, {290, 230});
     });
 
+    Controller::current().flush_leds();
     _frame_count++;
   }
 
-  void UIManager::keypress(Key key)
-  {
-    key_events.outer().push_back(KeyPress{key});
-  }
-
-  void UIManager::rotary(RotaryEvent ev)
-  {
-    rotary_events.outer().push_back(ev);
-  }
-
-  void UIManager::keyrelease(Key key)
-  {
-    key_events.outer().push_back(KeyRelease{key});
-  }
-
-  void UIManager::flush_events()
-  {
-    key_events.swap();
-    for (auto& event : key_events.inner()) {
-      util::match(event,
-                  [this](KeyPress ev) {
-                    keys[static_cast<unsigned>(ev.key)] = true;
-                    if (handle_global(ev.key)) return;
-                    cur_screen->keypress(ev.key);
-                  },
-                  [this](KeyRelease& ev) {
-                    keys[static_cast<unsigned>(ev.key)] = false;
-                    if (handle_global(ev.key, false)) return;
-                    cur_screen->keyrelease(ev.key);
-                  });
-    }
-
-    rotary_events.swap();
-    for (auto& event : rotary_events.inner()) {
-      cur_screen->rotary(event);
-    }
-  }
 } // namespace otto::services

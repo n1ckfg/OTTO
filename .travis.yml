@@ -47,23 +47,21 @@ matrix:
         - BUILD_TYPE=Release
         - USE_LIBCXX=0
         - DEPLOY_DOCS=OFF
-
-    - name: "Linux, GCC, Debug"
-      os: linux
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - g++-7
-            - gdb-minimal
-            - libasound-dev
-      env:
-        - CC=gcc-7 CXX=g++-7
-        - BUILD_TYPE=Debug
-        - USE_LIBCXX=0
-        - DEPLOY_DOCS=OFF
-
+    - name: "Linux, GCC, Debug"	
+      os: linux	
+      addons:	
+        apt:	
+          sources:	
+            - ubuntu-toolchain-r-test	
+          packages:	
+            - g++-7	
+            - gdb-minimal	
+            - libasound-dev	
+      env:	
+        - CC=gcc-7 CXX=g++-7	
+        - BUILD_TYPE=Debug	
+        - USE_LIBCXX=0	
+        - DEPLOY_DOCS=OFF	
     - name: "OSX, Clang, Debug, libc++"
       os: osx
       osx_image: xcode9.1
@@ -72,6 +70,7 @@ matrix:
         - MATRIX_EVAL="brew update; brew install gdb llvm"
         - LDFLAGS="-L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib"
         - PATH="/usr/local/opt/llvm/bin:$PATH"
+        - CXXFLAGS="-I/usr/local/opt/llvm/include -I/usr/local/opt/llvm/include/c++/v1/"
         - USE_LIBCXX=1
         - DEPLOY_DOCS=OFF
 
@@ -166,7 +165,7 @@ install:
 before_script:
   - cd "${TRAVIS_BUILD_DIR}"
   - mkdir build && cd build
-  - export CXXFLAGS="$CXXFLAGS -Werror -Wno-missing-braces"
+  - export CXXFLAGS="$CXXFLAGS -Werror -Wno-missing-braces -Wno-narrowing"
   - cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DOTTO_USE_LIBCXX=$USE_LIBCXX -DOTTO_BUILD_DOCS=$DEPLOY_DOCS -DOTTO_BOARD=dummy $CMAKE_OPTIONS
 
 script:

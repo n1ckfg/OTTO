@@ -2,31 +2,41 @@
 
 #include "core/engine/engine.hpp"
 
-#include "core/audio/faust.hpp"
+#include <Gamma/Effects.h>
+#include <Gamma/Filter.h>
+#include "core/voices/voice_manager.hpp"
 
 namespace otto::engines {
 
-    using namespace core;
-    using namespace core::engine;
-    using namespace props;
+  using namespace core;
+  using namespace core::engine;
+  using namespace props;
 
-    struct Chorus : EffectEngine {
+  struct Chorus : EffectEngine<Chorus> {
+    static constexpr util::string_ref name = "Chorus";
 
-        struct Props : Properties<> {
+    struct Props {
+      Property<float> delay = {0.0001, limits(0.0001, 0.0086), step_size(0.0001)};
+      Property<float> depth = {0.0001, limits(0.0001, 0.008), step_size(0.0001)};
+      Property<float> feedback = {0.1, limits(0, 0.9), step_size(0.01)};
+      Property<float> rate = {0, limits(0, 2), step_size(0.1)};
 
-            Property<float> delay       = {this, "delay",     0,  has_limits::init(0, 1),    steppable::init(0.01)};
-            Property<float> rate        = {this, "rate", 0,  has_limits::init(0, 0.8), steppable::init(0.01)};
-            Property<float> deviation   = {this, "deviation",  1,  has_limits::init(0, 1),    steppable::init(0.01)};
-            Property<float> depth       = {this, "depth",  1, has_limits::init(0, 1),   steppable::init(0.01)};
+      float phase_value = 0;
 
-        } props;
+      DECL_REFLECTION(Props, delay, depth, feedback, rate);
+    } props;
 
-        Chorus();
+    Chorus();
 
-        audio::ProcessData<2> process(audio::ProcessData<1>) override;
+    audio::ProcessData<2> process(audio::ProcessData<1>) override;
 
-    private:
-        audio::FaustWrapper<1, 2> faust_;
-    };
+  private:
+    gam::Chorus<> chorus;
+    gam::OnePole<> lpf;
+    gam::AccumPhase<> phase;
+
+
+
+  };
 
 } // namespace otto::engines

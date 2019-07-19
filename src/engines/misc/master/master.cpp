@@ -5,8 +5,6 @@
 #include "util/iterator.hpp"
 #include "util/utility.hpp"
 
-#include "master.faust.hpp"
-
 namespace otto::engines {
 
   using namespace ui;
@@ -14,14 +12,13 @@ namespace otto::engines {
 
   struct MasterScreen : EngineScreen<Master> {
     void draw(Canvas& ctx) override;
-    void rotary(RotaryEvent e) override;
+    void encoder(EncoderEvent e) override;
 
     using EngineScreen<Master>::EngineScreen;
   };
 
   Master::Master()
-    : Engine("Master", props, std::make_unique<MasterScreen>(this)),
-      faust_(std::make_unique<faust_master>(), props)
+    : MiscEngine<Master>(std::make_unique<MasterScreen>(this))
   {}
 
 
@@ -33,15 +30,15 @@ namespace otto::engines {
     for (auto&& r : data.audio[1]) {
       r *= props.volume * props.volume * 0.80;
     }
-    return faust_.process(data);
+    return data;
   }
 
   // SCREEN //
 
-  void MasterScreen::rotary(ui::RotaryEvent ev)
+  void MasterScreen::encoder(ui::EncoderEvent ev)
   {
     auto& props = engine.props;
-    props.volume.step(ev.clicks);
+    props.volume.step(ev.steps);
   }
 
   void MasterScreen::draw(ui::vg::Canvas& ctx)

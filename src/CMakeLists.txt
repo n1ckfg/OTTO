@@ -5,7 +5,7 @@ file(GLOB_RECURSE sources ${OTTO_SOURCE_DIR}/src/*.cpp)
 
 find_package (Threads)
 # Library
-add_library(otto ${sources} engines/fx/chorus/chorus.cpp core/engine/sequencer.hpp core/engine/sequencer.cpp)
+add_library(otto ${sources})
 target_link_libraries(otto PUBLIC ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_DL_LIBS})
 target_include_directories(otto PUBLIC ./)
 
@@ -29,8 +29,9 @@ target_link_libraries(otto PUBLIC external)
 target_link_libraries(otto PUBLIC nanocanvas)
 target_link_libraries(otto PUBLIC GSL)
 target_link_libraries(otto PUBLIC fmt)
-target_link_libraries(otto PUBLIC range-v3)
 target_link_libraries(otto PUBLIC gamma)
+target_link_libraries(otto PUBLIC foonathan_array)
+target_link_libraries(otto PUBLIC foonathan_type_safe)
 
 # Enable warnings for local code
 if(MSVC)
@@ -40,7 +41,7 @@ if(MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4")
   endif()
 elseif(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-long-long -Wpedantic -Wno-c++14-compat -Wno-psabi -Wno-unknown-pragmas -Wno-vla")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-long-long -Wno-pedantic -Wno-c++14-compat -Wno-psabi -Wno-unknown-pragmas -Wno-vla -Wno-sign-compare")
 elseif(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-long-long -Wpedantic \
 -Wno-c++11-compat -Wno-c++98-compat -Wno-c++14-compat -Wc++17-compat \

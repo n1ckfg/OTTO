@@ -44,11 +44,6 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/fmt)
 execute_process(COMMAND git submodule update --init -- GSL WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/GSL)
 
-# Ranges V3
-execute_process(COMMAND git submodule update --init -- range-v3 WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-add_library(range-v3 INTERFACE)
-target_include_directories(range-v3 SYSTEM INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/range-v3/include)
-
 # Gamma
 execute_process(COMMAND git submodule update --init -- Gamma WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 execute_process(COMMAND mkdir -p "${CMAKE_CURRENT_BINARY_DIR}/include")
@@ -65,3 +60,10 @@ target_include_directories(gamma SYSTEM PUBLIC "${CMAKE_CURRENT_BINARY_DIR}/incl
 execute_process(COMMAND git submodule update --init -- foonathan_array WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 add_library(foonathan_array INTERFACE)
 target_include_directories(foonathan_array SYSTEM INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/foonathan_array/include")
+
+# foonathan/array
+execute_process(COMMAND git submodule update --init -- foonathan_type_safe WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+execute_process(COMMAND git submodule update --init -- external/debug_assert WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/foonathan_type_safe)
+add_library(foonathan_type_safe INTERFACE)
+target_include_directories(foonathan_type_safe SYSTEM INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/foonathan_type_safe/include")
+target_include_directories(foonathan_type_safe SYSTEM INTERFACE "${CMAKE_CURRENT_SOURCE_DIR}/foonathan_type_safe/external/debug_assert")

@@ -9,10 +9,10 @@
 /// ```
 ///
 /// This method _must_ not be called from anywhere other than the main
-/// audio system and it's deligates.
+/// audio system and its delegates.
 ///
 /// If another thread needs access to any of this data, e.g. the audio/midi
-/// data, They need an audio processor to read it and store it. It is up to the
+/// data, they need an audio processor to read it and store it. It is up to the
 /// engine in question to handle thread safety.
 
 #pragma once
@@ -44,6 +44,7 @@ namespace otto::core::audio {
   /// A handle to an audio buffer
   struct AudioBufferHandle {
     using iterator = float*;
+    using pointer = float*;
     using const_iterator = const float*;
 
     AudioBufferHandle(float* data, std::size_t length, int& reference_count) noexcept
@@ -278,6 +279,8 @@ namespace otto::core::audio {
     std::array<float*, channels> raw_audio_buffers();
   };
 
+  using TestType = std::vector<struct Tag>;
+
   /// Non-owning package of data passed to audio processors
   template<>
   struct ProcessData<0> {
@@ -343,6 +346,6 @@ namespace otto::core::audio {
 
 } // namespace otto::core::audio
 
-// kak: other_file=processor.impl.hpp
+// kak: other_file=processor.inl
 
-#include "processor.impl.hpp"
+#include "processor.inl"

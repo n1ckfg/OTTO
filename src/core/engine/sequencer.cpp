@@ -6,9 +6,9 @@
 #include "util/iterator.hpp"
 #include "util/utility.hpp"
 
-#include "core/audio/voice_manager.hpp"
 #include "services/log_manager.hpp"
 #include "services/state_manager.hpp"
+#include "services/audio_manager.hpp"
 
 namespace otto::engines {
 
@@ -22,10 +22,10 @@ namespace otto::engines {
 
     void draw(Canvas& ctx) override;
     bool keypress(Key key) override;
-    void rotary(RotaryEvent e) override;
+    void encoder(EncoderEvent e) override;
   };
 
-  Sequencer::Sequencer() : MiscEngine("Sequencer", props, std::make_unique<SequencerScreen>(this))
+  Sequencer::Sequencer() : MiscEngine<Sequencer>(std::make_unique<SequencerScreen>(this))
   {}
 
   std::pair<bool, int> get_sequencer_number(int key)
@@ -111,13 +111,13 @@ namespace otto::engines {
     return true;
   }
 
-  void SequencerScreen::rotary(ui::RotaryEvent ev)
+  void SequencerScreen::encoder(ui::EncoderEvent ev)
   {
-    switch (ev.rotary) {
-    case Rotary::blue: [[fallthrough]];
-    case Rotary::green: [[fallthrough]];
-    case Rotary::yellow: [[fallthrough]];
-    case Rotary::red: break;
+    switch (ev.encoder) {
+    case Encoder::blue: [[fallthrough]];
+    case Encoder::green: [[fallthrough]];
+    case Encoder::yellow: [[fallthrough]];
+    case Encoder::red: break;
     }
   }
 
@@ -147,4 +147,4 @@ namespace otto::engines {
       }
     }
   }
-}; // namespace otto::engines
+} // namespace otto::engines
