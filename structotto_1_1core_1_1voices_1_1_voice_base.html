@@ -97,7 +97,7 @@ struct otto::core::voices::VoiceBase&lt; DerivedT, PreT &gt;</h3>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00056">56</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00059">59</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -132,7 +132,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae130df8c35e7afa017320828dbdddf9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement a handler for note off events.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#ae130df8c35e7afa017320828dbdddf9a">More...</a><br /></td></tr>
 <tr class="separator:ae130df8c35e7afa017320828dbdddf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d86cbe5c19a538f2b916d5f01107c81"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a2d86cbe5c19a538f2b916d5f01107c81">frequency</a> () noexcept</td></tr>
-<tr class="memdesc:a2d86cbe5c19a538f2b916d5f01107c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current frequency this voice should play.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#a2d86cbe5c19a538f2b916d5f01107c81">More...</a><br /></td></tr>
+<tr class="memdesc:a2d86cbe5c19a538f2b916d5f01107c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current frequency this voice should play Needs to be applied separately for each sample to handle for example glide.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#a2d86cbe5c19a538f2b916d5f01107c81">More...</a><br /></td></tr>
 <tr class="separator:a2d86cbe5c19a538f2b916d5f01107c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab963add1d8d37d174fb6256e8856c728"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#ab963add1d8d37d174fb6256e8856c728">frequency</a> (float) noexcept</td></tr>
 <tr class="memdesc:ab963add1d8d37d174fb6256e8856c728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the current frequency.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#ab963add1d8d37d174fb6256e8856c728">More...</a><br /></td></tr>
@@ -143,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3501528580937563649db61f637027f8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a3501528580937563649db61f637027f8">aftertouch</a> () noexcept</td></tr>
 <tr class="memdesc:a3501528580937563649db61f637027f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the aftertouch value.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#a3501528580937563649db61f637027f8">More...</a><br /></td></tr>
 <tr class="separator:a3501528580937563649db61f637027f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e03a5474cf494c20cff4691b3dca4a1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a2e03a5474cf494c20cff4691b3dca4a1">volume</a> () noexcept</td></tr>
+<tr class="memdesc:a2e03a5474cf494c20cff4691b3dca4a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the volume (typically 1, but might be different for sub-octaves)  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#a2e03a5474cf494c20cff4691b3dca4a1">More...</a><br /></td></tr>
+<tr class="separator:a2e03a5474cf494c20cff4691b3dca4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e359e5d31f2e638ebb8f5da9af1843b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a2e359e5d31f2e638ebb8f5da9af1843b">is_triggered</a> () noexcept</td></tr>
 <tr class="memdesc:a2e359e5d31f2e638ebb8f5da9af1843b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is this voice currently triggered?  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#a2e359e5d31f2e638ebb8f5da9af1843b">More...</a><br /></td></tr>
 <tr class="separator:a2e359e5d31f2e638ebb8f5da9af1843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +181,7 @@ template&lt;typename DerivedT, typename PreT&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00057">57</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00060">60</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -196,7 +199,7 @@ template&lt;typename DerivedT, typename PreT&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00063">63</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00066">66</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -347,8 +350,7 @@ template&lt;typename D , typename P &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Get the current frequency this voice should play. </p>
-<p>Needs to be applied separately for each sample to handle for example glide. </p>
+<p>Get the current frequency this voice should play Needs to be applied separately for each sample to handle for example glide. </p>
 
 <p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00033">33</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
@@ -448,6 +450,35 @@ template&lt;typename D , typename P &gt; </div>
 
 </div>
 </div>
+<a id="a2e03a5474cf494c20cff4691b3dca4a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e03a5474cf494c20cff4691b3dca4a1">&#9670;&nbsp;</a></span>volume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename DerivedT, typename PreT&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html">otto::core::voices::VoiceBase</a>&lt; DerivedT, PreT &gt;::volume </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the volume (typically 1, but might be different for sub-octaves) </p>
+
+</div>
+</div>
 <a id="a2e359e5d31f2e638ebb8f5da9af1843b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e359e5d31f2e638ebb8f5da9af1843b">&#9670;&nbsp;</a></span>is_triggered()</h2>
 
@@ -536,7 +567,7 @@ template&lt;typename T , int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00101">101</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00106">106</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -555,7 +586,7 @@ template&lt;typename DerivedT, typename PreT&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00096">96</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00101">101</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -573,7 +604,7 @@ template&lt;typename DerivedT, typename PreT&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00097">97</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00102">102</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>

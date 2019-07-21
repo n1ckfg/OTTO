@@ -4240,7 +4240,7 @@
                      <Node>
                       <Name>DECL_REFLECTION</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>a978a74d76709c18f80f1a0519b443dfe</Anchor>
+                      <Anchor>a7e4b9efc922db858680ef00d5ae69203</Anchor>
                      </Node>
                      <Node>
                       <Name>play_mode</Name>
@@ -4248,9 +4248,44 @@
                       <Anchor>aa249d4dd24cb09337f9c641f7c76dce0</Anchor>
                      </Node>
                      <Node>
+                      <Name>rand</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>ae7b660bc0fe50e617180e858e51f61ae</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sub</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a690a362e8b113a342dca0a7e44659b05</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>detune</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>af897afa1384804ccea0f0160ffec2721</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>interval</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a7429b9f3261cc8b1b076e3de72b87146</Anchor>
+                     </Node>
+                     <Node>
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
                       <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>legato</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a1693f8d779b55c7795d1213f57815e33</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>retrig</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a49e1fc4516f621a046e1356a686dbbcb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>octave</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
                      </Node>
                      <Node>
                       <Name>transpose</Name>
@@ -4424,6 +4459,11 @@
                     <Anchor>a3501528580937563649db61f637027f8</Anchor>
                    </Node>
                    <Node>
+                    <Name>volume</Name>
+                    <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+                    <Anchor>a2e03a5474cf494c20cff4691b3dca4a1</Anchor>
+                   </Node>
+                   <Node>
                     <Name>is_triggered</Name>
                     <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
                     <Anchor>a2e359e5d31f2e638ebb8f5da9af1843b</Anchor>
@@ -4513,16 +4553,6 @@
                     <Name>operator()</Name>
                     <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
                     <Anchor>a07e3c1377b47a33983200516ce5e10b7</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>handle_midi_on</Name>
-                    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-                    <Anchor>a3a42d90cad13969dec7eda6310b37888</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>handle_midi_off</Name>
-                    <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-                    <Anchor>a9ce5ee278340f65ae37fca5999078e1a</Anchor>
                    </Node>
                    <Node>
                     <Name>handle_pitch_bend</Name>
@@ -10728,6 +10758,36 @@
                   <Path>structotto_1_1util_1_1local__vector.html</Path>
                   <Anchor>a88143e48d53a7fc4a812b411a6bb44e1</Anchor>
                  </Node>
+                 <Node>
+                  <Name>operator[]</Name>
+                  <Path>structotto_1_1util_1_1local__vector.html</Path>
+                  <Anchor>a681e05a380fc976d47588b4e82e572af</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>push_back</Name>
+                  <Path>structotto_1_1util_1_1local__vector.html</Path>
+                  <Anchor>ad873326647717bd1c638cddbc5e572c5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>pop_back</Name>
+                  <Path>structotto_1_1util_1_1local__vector.html</Path>
+                  <Anchor>a1c131e77522d61e3edb6556c6976c14c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear</Name>
+                  <Path>structotto_1_1util_1_1local__vector.html</Path>
+                  <Anchor>a8aa5458155462bb29eef5b25023641be</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>data</Name>
+                  <Path>structotto_1_1util_1_1local__vector.html</Path>
+                  <Anchor>a0ebc6d134ee357385c5672c99342d03c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>data</Name>
+                  <Path>structotto_1_1util_1_1local__vector.html</Path>
+                  <Anchor>adb204d14eebef611a7100d9a2cb9a48a</Anchor>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -11602,6 +11662,72 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>ADSR_lite</Name>
+            <Path>class_a_d_s_r__lite.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>ADSR_lite</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a6408c74cf1ca09ddf6c41b5377b2775a</Anchor>
+             </Node>
+             <Node>
+              <Name>attack</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a68787283ead3093a6e004ace7b7920a8</Anchor>
+             </Node>
+             <Node>
+              <Name>decay</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>aad6fdcddba0e50c9205d0eccd6b33a89</Anchor>
+             </Node>
+             <Node>
+              <Name>sustain</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a461c4b53c93db21667ce738fa8e167bf</Anchor>
+             </Node>
+             <Node>
+              <Name>release</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>aaf9eeea7c376ab01b25ccf2dd967650c</Anchor>
+             </Node>
+             <Node>
+              <Name>amp</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a1e29d089bb7f93bab1e2c04ef3c1bd01</Anchor>
+             </Node>
+             <Node>
+              <Name>attack</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a60cf1068921605a99a5a1b31263d2a59</Anchor>
+             </Node>
+             <Node>
+              <Name>decay</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a33a3f900fe538316caafbe8be9801632</Anchor>
+             </Node>
+             <Node>
+              <Name>sustain</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>abe02824b141be4081bc550e32979f433</Anchor>
+             </Node>
+             <Node>
+              <Name>release</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a50e7308ae2fc60134fa5a9839ee04030</Anchor>
+             </Node>
+             <Node>
+              <Name>amp</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>a19a36e8e2f839e86ca998239bd03a188</Anchor>
+             </Node>
+             <Node>
+              <Name>setLen</Name>
+              <Path>class_a_d_s_r__lite.html</Path>
+              <Anchor>aec336e52a75c587c7bebfb1593244fd8</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>CallbackInfo</Name>
             <Path>struct_callback_info.html</Path>
             <Subnodes>
@@ -11654,6 +11780,322 @@
               <Name>priority</Name>
               <Path>struct_callback_info.html</Path>
               <Anchor>aaad5c346c8fac1b7cfc9754977654607</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Env_lite</Name>
+            <Path>class_env__lite.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>Env_lite</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a63e0c3a31fa8692e75f933c3c1608a13</Anchor>
+             </Node>
+             <Node>
+              <Name>Env_lite</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>af4d50af7639d4a917d4b4c330712c9d9</Anchor>
+             </Node>
+             <Node>
+              <Name>Env_lite</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a34096d1fd626b6b1cafe9bf032ec934d</Anchor>
+             </Node>
+             <Node>
+              <Name>Env_lite</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aec9c099cb2f7b4b5d0580aa6b30f4f6d</Anchor>
+             </Node>
+             <Node>
+              <Name>size</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a3fb4490cdbc927defe1af131f798adb6</Anchor>
+             </Node>
+             <Node>
+              <Name>position</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ae451bf83f8476a552b1da30852929925</Anchor>
+             </Node>
+             <Node>
+              <Name>sustainPoint</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aa130d95c593c9ce08a451714a790b741</Anchor>
+             </Node>
+             <Node>
+              <Name>stage</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a356ac1b6d33a1432eb3971c7041041ed</Anchor>
+             </Node>
+             <Node>
+              <Name>value</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>acf03643c7460daead88b3099b5feab9c</Anchor>
+             </Node>
+             <Node>
+              <Name>done</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a0baf321e57ca84401740097cb60dff2e</Anchor>
+             </Node>
+             <Node>
+              <Name>released</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ad9f14b1aefe74280eeb9234091df20ae</Anchor>
+             </Node>
+             <Node>
+              <Name>sustained</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a612eb7b695db511b4d44c0eae46e67e1</Anchor>
+             </Node>
+             <Node>
+              <Name>operator()</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a714b65826cdc73c2e4f73807308f8aa0</Anchor>
+             </Node>
+             <Node>
+              <Name>release</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>af3f17f554fa911fdf3684e3eb986449d</Anchor>
+             </Node>
+             <Node>
+              <Name>loop</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a9cbb830ff00c3f669a5da9ae0192737a</Anchor>
+             </Node>
+             <Node>
+              <Name>sustainPoint</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a83b7c292047640d5949511e4e0a94783</Anchor>
+             </Node>
+             <Node>
+              <Name>sustainDisable</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a8630fb0c2c43200658c602fe45fe3366</Anchor>
+             </Node>
+             <Node>
+              <Name>reset</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a06ed15af355e3233bc9a00b7922bdc31</Anchor>
+             </Node>
+             <Node>
+              <Name>resetSoft</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>abc4688c4566559f1873d9c8adf7a3db7</Anchor>
+             </Node>
+             <Node>
+              <Name>finish</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ab6b95eb004888a7dd3aa1d7284bf6cf0</Anchor>
+             </Node>
+             <Node>
+              <Name>lengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a3ac4cb6f24ffe0b9d87abc898f06b056</Anchor>
+             </Node>
+             <Node>
+              <Name>lengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ad8f18a310a4e9911f8ef98c7249ef03f</Anchor>
+             </Node>
+             <Node>
+              <Name>lengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aa362f8dae241a757c842f12491329892</Anchor>
+             </Node>
+             <Node>
+              <Name>lengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aaf08a3d463b307b72090a7c93871781a</Anchor>
+             </Node>
+             <Node>
+              <Name>lengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a98c65d2c83d4d5d3546c7b498a5a634b</Anchor>
+             </Node>
+             <Node>
+              <Name>lengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a32bc7719f9e355af684b65b061d01f1d</Anchor>
+             </Node>
+             <Node>
+              <Name>lengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a23c17d678233ca56e3bdee2eff9f5150</Anchor>
+             </Node>
+             <Node>
+              <Name>totalLength</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a54ebf15efb61afdaf8db8513dc9048b0</Anchor>
+             </Node>
+             <Node>
+              <Name>totalLength</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a2046543fa3fb40e972f111bbbc054cc5</Anchor>
+             </Node>
+             <Node>
+              <Name>totalLength</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a89da1a8fde62bc48812091a032882b70</Anchor>
+             </Node>
+             <Node>
+              <Name>curves</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a0830eb74b0c57eabcf93dd289ba4529b</Anchor>
+             </Node>
+             <Node>
+              <Name>curves</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aee2b694d8bbecf131a9d000592785f29</Anchor>
+             </Node>
+             <Node>
+              <Name>curve</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aad7f8c6fe73ddd525393f73f97e78cda</Anchor>
+             </Node>
+             <Node>
+              <Name>curves</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>af90d0e7e138c366dac7279a16a673113</Anchor>
+             </Node>
+             <Node>
+              <Name>curves</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a1a5bb051550777a8d3dc23949a8dcf8c</Anchor>
+             </Node>
+             <Node>
+              <Name>curves</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a58b5f2fda1383ce3e93ad3badf342b54</Anchor>
+             </Node>
+             <Node>
+              <Name>curves</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a1779c120778a7ab5c2accb99a2b4da0a</Anchor>
+             </Node>
+             <Node>
+              <Name>segment</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aab1fb175e96b96c47be0039c1a5f6c77</Anchor>
+             </Node>
+             <Node>
+              <Name>segments</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a91feb59e42ab7f914bd9b1c6f1632635</Anchor>
+             </Node>
+             <Node>
+              <Name>segments</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ad6bf2adc40d347681f940c3b16901800</Anchor>
+             </Node>
+             <Node>
+              <Name>segments</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>acba75c17cc38c71ce006196202845171</Anchor>
+             </Node>
+             <Node>
+              <Name>segments</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a504333536e8c277a26c33edd141a3f2a</Anchor>
+             </Node>
+             <Node>
+              <Name>levels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ac43bf5cab13792659c10e5481d2ae9f0</Anchor>
+             </Node>
+             <Node>
+              <Name>levels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a440cdfb1ed12bd2b521ad1970a9f5628</Anchor>
+             </Node>
+             <Node>
+              <Name>levels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a2caebc510c3fafc75fee3e65708ed96f</Anchor>
+             </Node>
+             <Node>
+              <Name>levels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a1b001d32cb3affd1f3f946ede2adcfe1</Anchor>
+             </Node>
+             <Node>
+              <Name>levels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a67317acf3a4f679c4011e3d8993c732b</Anchor>
+             </Node>
+             <Node>
+              <Name>levels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ad62c1de2d3d407d7c31cd768fa191d6d</Anchor>
+             </Node>
+             <Node>
+              <Name>levels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>aaac23d2521b7b5f2099fcd871e6f98c6</Anchor>
+             </Node>
+             <Node>
+              <Name>maxLevel</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a70b0c591c80316877cde290981473a1f</Anchor>
+             </Node>
+             <Node>
+              <Name>setVoice</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>afa030fc91b5018a3eb26c82909e192e2</Anchor>
+             </Node>
+             <Node>
+              <Name>setLen</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a0e3ff5e7458368bf6e699b5b486099c7</Anchor>
+             </Node>
+             <Node>
+              <Name>mCurve</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ad51b1379a6a75bf487d81d4059d1f52e</Anchor>
+             </Node>
+             <Node>
+              <Name>mLengths</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ae3a3aa614c4effcd67c417d88e1de803</Anchor>
+             </Node>
+             <Node>
+              <Name>mCurves</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ae3a8b99980b64d7409d88a8bf1fa79e2</Anchor>
+             </Node>
+             <Node>
+              <Name>mLevels</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a206f919135b850c0c334fc933206dade</Anchor>
+             </Node>
+             <Node>
+              <Name>mPos</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a4fcfe6c1e603d3d05561ee9658d50bb7</Anchor>
+             </Node>
+             <Node>
+              <Name>mLen</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a1505f911d9fa1c35a3c79b3564f2afb9</Anchor>
+             </Node>
+             <Node>
+              <Name>mStage</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a2e6e0f59db41affe12f03e9aade9553a</Anchor>
+             </Node>
+             <Node>
+              <Name>mSustain</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>ac3a1563978b5229c74d29f85ac868878</Anchor>
+             </Node>
+             <Node>
+              <Name>mLoop</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a6c53b5368b3dc66e869369ffd2ac98c8</Anchor>
+             </Node>
+             <Node>
+              <Name>voice_</Name>
+              <Path>class_env__lite.html</Path>
+              <Anchor>a021596d798d3ad278d64ad63bceaeba7</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -13296,6 +13738,11 @@
               <Anchor>ac5f5245d02fc86b7c9ebc06fb45e0b91</Anchor>
              </Node>
              <Node>
+              <Name>finish</Name>
+              <Path>class_seg_exp_bypass.html</Path>
+              <Anchor>a6b1ff3caf4c0c5b90c814a17826879a9</Anchor>
+             </Node>
+             <Node>
               <Name>operator()</Name>
               <Path>class_seg_exp_bypass.html</Path>
               <Anchor>a9232fe8a0b64437bb21f2bb8b37cc6f5</Anchor>
@@ -13304,6 +13751,11 @@
               <Name>operator=</Name>
               <Path>class_seg_exp_bypass.html</Path>
               <Anchor>a0a775fc64b5d6adc490d3160ede1f0d0</Anchor>
+             </Node>
+             <Node>
+              <Name>getEnd</Name>
+              <Path>class_seg_exp_bypass.html</Path>
+              <Anchor>a8f0848caa7965f31a0e838a2613adb27</Anchor>
              </Node>
              <Node>
               <Name>curve</Name>
@@ -14632,28 +15084,24 @@
             <Anchor>namespaceotto_1_1core_1_1props</Anchor>
            </Node>
            <Node>
-            <Name>otto::engines::Sampler::Props</Name>
-            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::Sends::Props</Name>
-            <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
+            <Name>otto::engines::Master::Props</Name>
+            <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;::Props</Name>
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::Sequencer::Props</Name>
             <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Arp::Props</Name>
+            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Chorus::Props</Name>
@@ -14664,16 +15112,20 @@
             <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Master::Props</Name>
-            <Path>structotto_1_1engines_1_1_master_1_1_props.html</Path>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Arp::Props</Name>
-            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
+            <Name>otto::engines::Sends::Props</Name>
+            <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Euclid::Props</Name>
             <Path>structotto_1_1engines_1_1_euclid_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Sampler::Props</Name>
+            <Path>structotto_1_1engines_1_1_sampler_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::GossSynth::Props</Name>
@@ -14684,12 +15136,12 @@
             <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::RhodesSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::PotionSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::RhodesSynth::Props</Name>
+            <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
@@ -15060,6 +15512,20 @@
             <Path></Path>
             <Subnodes>
              <Node>
+              <Name>Env_lite&lt; N, Tv, Tp, Td &gt;</Name>
+              <Path>class_env__lite.html</Path>
+             </Node>
+             <Node>
+              <Name>Env_lite&lt; 3, Tv, Tp, Td &gt;</Name>
+              <Path>class_env__lite.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>ADSR_lite&lt; Tv, Tp, Td &gt;</Name>
+                <Path>class_a_d_s_r__lite.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>SegExpBypass&lt; T, Td &gt;</Name>
               <Path>class_seg_exp_bypass.html</Path>
              </Node>
@@ -15140,12 +15606,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
            </Node>
            <Node>
             <Name>otto::reflect::type_list&lt; Args &gt;</Name>
@@ -15176,10 +15642,6 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::dsp::Window</Name>
-            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
-           </Node>
-           <Node>
             <Name>otto::glfw::Window</Name>
             <Path>structotto_1_1glfw_1_1_window.html</Path>
             <Subnodes>
@@ -15188,6 +15650,10 @@
               <Path>structotto_1_1glfw_1_1_n_v_g_window.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>otto::util::dsp::Window</Name>
+            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;</Name>
@@ -25239,16 +25705,6 @@
                       <Anchor>a07e3c1377b47a33983200516ce5e10b7</Anchor>
                      </Node>
                      <Node>
-                      <Name>handle_midi_on</Name>
-                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-                      <Anchor>a3a42d90cad13969dec7eda6310b37888</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>handle_midi_off</Name>
-                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-                      <Anchor>a9ce5ee278340f65ae37fca5999078e1a</Anchor>
-                     </Node>
-                     <Node>
                       <Name>handle_pitch_bend</Name>
                       <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
                       <Anchor>aeeec23077d28657d66750512f910a1d7</Anchor>
@@ -25356,6 +25812,11 @@
                       <Anchor>a3501528580937563649db61f637027f8</Anchor>
                      </Node>
                      <Node>
+                      <Name>volume</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
+                      <Anchor>a2e03a5474cf494c20cff4691b3dca4a1</Anchor>
+                     </Node>
+                     <Node>
                       <Name>is_triggered</Name>
                       <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
                       <Anchor>a2e359e5d31f2e638ebb8f5da9af1843b</Anchor>
@@ -25461,7 +25922,7 @@
                      <Node>
                       <Name>DECL_REFLECTION</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
-                      <Anchor>a978a74d76709c18f80f1a0519b443dfe</Anchor>
+                      <Anchor>a7e4b9efc922db858680ef00d5ae69203</Anchor>
                      </Node>
                      <Node>
                       <Name>play_mode</Name>
@@ -25469,9 +25930,44 @@
                       <Anchor>aa249d4dd24cb09337f9c641f7c76dce0</Anchor>
                      </Node>
                      <Node>
+                      <Name>rand</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>ae7b660bc0fe50e617180e858e51f61ae</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sub</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a690a362e8b113a342dca0a7e44659b05</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>detune</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>af897afa1384804ccea0f0160ffec2721</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>interval</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a7429b9f3261cc8b1b076e3de72b87146</Anchor>
+                     </Node>
+                     <Node>
                       <Name>portamento</Name>
                       <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
                       <Anchor>adecfee3a31f501a7b4767598f82b50e5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>legato</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a1693f8d779b55c7795d1213f57815e33</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>retrig</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>a49e1fc4516f621a046e1356a686dbbcb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>octave</Name>
+                      <Path>structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html</Path>
+                      <Anchor>aff1294d911cf3ca555dccd47d0b1b3fc</Anchor>
                      </Node>
                      <Node>
                       <Name>transpose</Name>
@@ -25586,16 +26082,6 @@
                       <Anchor>a07e3c1377b47a33983200516ce5e10b7</Anchor>
                      </Node>
                      <Node>
-                      <Name>handle_midi_on</Name>
-                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-                      <Anchor>a3a42d90cad13969dec7eda6310b37888</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>handle_midi_off</Name>
-                      <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
-                      <Anchor>a9ce5ee278340f65ae37fca5999078e1a</Anchor>
-                     </Node>
-                     <Node>
                       <Name>handle_pitch_bend</Name>
                       <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
                       <Anchor>aeeec23077d28657d66750512f910a1d7</Anchor>
@@ -25625,7 +26111,12 @@
                    <Node>
                     <Name>BETTER_ENUM</Name>
                     <Path>voice__manager_8hpp.html</Path>
-                    <Anchor>a3913b93befbba32d17f597c5fd58f78d</Anchor>
+                    <Anchor>a4a3f17d6605c1350f17aa37697f20f28</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>aux_setting</Name>
+                    <Path>voice__manager_8hpp.html</Path>
+                    <Anchor>a91c9864d470263807d4b877520203d81</Anchor>
                    </Node>
                    <Node>
                     <Name>make_envelope_screen</Name>
@@ -25637,11 +26128,23 @@
                     <Path>voice__manager_8hpp.html</Path>
                     <Anchor>afa313dc0407f4922429572c420336740</Anchor>
                    </Node>
+                   <Node>
+                    <Name>to_string</Name>
+                    <Path>voice__manager_8hpp.html</Path>
+                    <Anchor>a5efaa602e0fe41cc7228e31b7ace3a00</Anchor>
+                   </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>voice_manager.inl</Name>
                   <Path>voice__manager_8inl.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>aux_setting</Name>
+                    <Path>voice__manager_8inl.html</Path>
+                    <Anchor>a91c9864d470263807d4b877520203d81</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -29021,6 +29524,405 @@
                 <Path>dir_ba415044076d8fd14797c16d08b6c161.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>ADSR_lite.hpp</Name>
+                  <Path>_a_d_s_r__lite_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Env_lite</Name>
+                    <Path>class_env__lite.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Env_lite</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a63e0c3a31fa8692e75f933c3c1608a13</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Env_lite</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>af4d50af7639d4a917d4b4c330712c9d9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Env_lite</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a34096d1fd626b6b1cafe9bf032ec934d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Env_lite</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aec9c099cb2f7b4b5d0580aa6b30f4f6d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>size</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a3fb4490cdbc927defe1af131f798adb6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>position</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ae451bf83f8476a552b1da30852929925</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sustainPoint</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aa130d95c593c9ce08a451714a790b741</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>stage</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a356ac1b6d33a1432eb3971c7041041ed</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>value</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>acf03643c7460daead88b3099b5feab9c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>done</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a0baf321e57ca84401740097cb60dff2e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>released</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ad9f14b1aefe74280eeb9234091df20ae</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sustained</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a612eb7b695db511b4d44c0eae46e67e1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>operator()</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a714b65826cdc73c2e4f73807308f8aa0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>release</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>af3f17f554fa911fdf3684e3eb986449d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>loop</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a9cbb830ff00c3f669a5da9ae0192737a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sustainPoint</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a83b7c292047640d5949511e4e0a94783</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sustainDisable</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a8630fb0c2c43200658c602fe45fe3366</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>reset</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a06ed15af355e3233bc9a00b7922bdc31</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>resetSoft</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>abc4688c4566559f1873d9c8adf7a3db7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>finish</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ab6b95eb004888a7dd3aa1d7284bf6cf0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>lengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a3ac4cb6f24ffe0b9d87abc898f06b056</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>lengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ad8f18a310a4e9911f8ef98c7249ef03f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>lengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aa362f8dae241a757c842f12491329892</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>lengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aaf08a3d463b307b72090a7c93871781a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>lengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a98c65d2c83d4d5d3546c7b498a5a634b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>lengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a32bc7719f9e355af684b65b061d01f1d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>lengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a23c17d678233ca56e3bdee2eff9f5150</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>totalLength</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a54ebf15efb61afdaf8db8513dc9048b0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>totalLength</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a2046543fa3fb40e972f111bbbc054cc5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>totalLength</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a89da1a8fde62bc48812091a032882b70</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>curves</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a0830eb74b0c57eabcf93dd289ba4529b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>curves</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aee2b694d8bbecf131a9d000592785f29</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>curve</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aad7f8c6fe73ddd525393f73f97e78cda</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>curves</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>af90d0e7e138c366dac7279a16a673113</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>curves</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a1a5bb051550777a8d3dc23949a8dcf8c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>curves</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a58b5f2fda1383ce3e93ad3badf342b54</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>curves</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a1779c120778a7ab5c2accb99a2b4da0a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>segment</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aab1fb175e96b96c47be0039c1a5f6c77</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>segments</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a91feb59e42ab7f914bd9b1c6f1632635</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>segments</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ad6bf2adc40d347681f940c3b16901800</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>segments</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>acba75c17cc38c71ce006196202845171</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>segments</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a504333536e8c277a26c33edd141a3f2a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>levels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ac43bf5cab13792659c10e5481d2ae9f0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>levels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a440cdfb1ed12bd2b521ad1970a9f5628</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>levels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a2caebc510c3fafc75fee3e65708ed96f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>levels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a1b001d32cb3affd1f3f946ede2adcfe1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>levels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a67317acf3a4f679c4011e3d8993c732b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>levels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ad62c1de2d3d407d7c31cd768fa191d6d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>levels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>aaac23d2521b7b5f2099fcd871e6f98c6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>maxLevel</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a70b0c591c80316877cde290981473a1f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setVoice</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>afa030fc91b5018a3eb26c82909e192e2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setLen</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a0e3ff5e7458368bf6e699b5b486099c7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mCurve</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ad51b1379a6a75bf487d81d4059d1f52e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mLengths</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ae3a3aa614c4effcd67c417d88e1de803</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mCurves</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ae3a8b99980b64d7409d88a8bf1fa79e2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mLevels</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a206f919135b850c0c334fc933206dade</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mPos</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a4fcfe6c1e603d3d05561ee9658d50bb7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mLen</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a1505f911d9fa1c35a3c79b3564f2afb9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mStage</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a2e6e0f59db41affe12f03e9aade9553a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mSustain</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>ac3a1563978b5229c74d29f85ac868878</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>mLoop</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a6c53b5368b3dc66e869369ffd2ac98c8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>voice_</Name>
+                      <Path>class_env__lite.html</Path>
+                      <Anchor>a021596d798d3ad278d64ad63bceaeba7</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>ADSR_lite</Name>
+                    <Path>class_a_d_s_r__lite.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>ADSR_lite</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a6408c74cf1ca09ddf6c41b5377b2775a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>attack</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a68787283ead3093a6e004ace7b7920a8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>decay</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>aad6fdcddba0e50c9205d0eccd6b33a89</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sustain</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a461c4b53c93db21667ce738fa8e167bf</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>release</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>aaf9eeea7c376ab01b25ccf2dd967650c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>amp</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a1e29d089bb7f93bab1e2c04ef3c1bd01</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>attack</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a60cf1068921605a99a5a1b31263d2a59</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>decay</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a33a3f900fe538316caafbe8be9801632</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>sustain</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>abe02824b141be4081bc550e32979f433</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>release</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a50e7308ae2fc60134fa5a9839ee04030</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>amp</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>a19a36e8e2f839e86ca998239bd03a188</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>setLen</Name>
+                      <Path>class_a_d_s_r__lite.html</Path>
+                      <Anchor>aec336e52a75c587c7bebfb1593244fd8</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>dsp.hpp</Name>
+                  <Path>dsp_8hpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>semitone_to_detune</Name>
+                    <Path>dsp_8hpp.html</Path>
+                    <Anchor>a7ddddab55d0ff83ed7b1ced4c169009c</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
                   <Name>log_slider.hpp</Name>
                   <Path>log__slider_8hpp.html</Path>
                   <Subnodes>
@@ -29056,6 +29958,10 @@
                     </Subnodes>
                    </Node>
                   </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>OscillatorBank.hpp</Name>
+                  <Path>_oscillator_bank_8hpp.html</Path>
                  </Node>
                  <Node>
                   <Name>pan.hpp</Name>
@@ -29138,6 +30044,11 @@
                       <Anchor>ac5f5245d02fc86b7c9ebc06fb45e0b91</Anchor>
                      </Node>
                      <Node>
+                      <Name>finish</Name>
+                      <Path>class_seg_exp_bypass.html</Path>
+                      <Anchor>a6b1ff3caf4c0c5b90c814a17826879a9</Anchor>
+                     </Node>
+                     <Node>
                       <Name>operator()</Name>
                       <Path>class_seg_exp_bypass.html</Path>
                       <Anchor>a9232fe8a0b64437bb21f2bb8b37cc6f5</Anchor>
@@ -29146,6 +30057,11 @@
                       <Name>operator=</Name>
                       <Path>class_seg_exp_bypass.html</Path>
                       <Anchor>a0a775fc64b5d6adc490d3160ede1f0d0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>getEnd</Name>
+                      <Path>class_seg_exp_bypass.html</Path>
+                      <Anchor>a8f0848caa7965f31a0e838a2613adb27</Anchor>
                      </Node>
                      <Node>
                       <Name>curve</Name>
@@ -33508,6 +34424,36 @@
                     <Name>operator[]</Name>
                     <Path>structotto_1_1util_1_1local__vector.html</Path>
                     <Anchor>a88143e48d53a7fc4a812b411a6bb44e1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator[]</Name>
+                    <Path>structotto_1_1util_1_1local__vector.html</Path>
+                    <Anchor>a681e05a380fc976d47588b4e82e572af</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>push_back</Name>
+                    <Path>structotto_1_1util_1_1local__vector.html</Path>
+                    <Anchor>ad873326647717bd1c638cddbc5e572c5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>pop_back</Name>
+                    <Path>structotto_1_1util_1_1local__vector.html</Path>
+                    <Anchor>a1c131e77522d61e3edb6556c6976c14c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>clear</Name>
+                    <Path>structotto_1_1util_1_1local__vector.html</Path>
+                    <Anchor>a8aa5458155462bb29eef5b25023641be</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>data</Name>
+                    <Path>structotto_1_1util_1_1local__vector.html</Path>
+                    <Anchor>a0ebc6d134ee357385c5672c99342d03c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>data</Name>
+                    <Path>structotto_1_1util_1_1local__vector.html</Path>
+                    <Anchor>adb204d14eebef611a7100d9a2cb9a48a</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>

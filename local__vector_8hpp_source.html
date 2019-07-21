@@ -143,11 +143,44 @@
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="keywordflow">return</span> _data[idx];</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="codeRef" href="http://en.cppreference.com/w/cpp/container/array.html" title="STL class.">std::array</a>&lt;<a class="code" href="structotto_1_1util_1_1local__vector.html#afec8f8b0664ee4481ffdbaa1ebf71c87">value_type</a>, <a class="code" href="structotto_1_1util_1_1local__vector.html#a43fa8d71d6f677fce21dd8591609ad3c">capacity</a>()&gt; _data;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> _size;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  };</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;} <span class="comment">// namespace otto::util</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="structotto_1_1util_1_1local__vector.html#a681e05a380fc976d47588b4e82e572af">   72</a></span>&#160;    <a class="code" href="structotto_1_1util_1_1local__vector.html#afec8f8b0664ee4481ffdbaa1ebf71c87">value_type</a>&amp; <a class="code" href="structotto_1_1util_1_1local__vector.html#a681e05a380fc976d47588b4e82e572af">operator[]</a>(<a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> idx)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      <span class="keywordflow">return</span> _data[idx];</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="structotto_1_1util_1_1local__vector.html#ad873326647717bd1c638cddbc5e572c5">   77</a></span>&#160;    <a class="code" href="structotto_1_1util_1_1local__vector.html#afec8f8b0664ee4481ffdbaa1ebf71c87">value_type</a>&amp; <a class="code" href="structotto_1_1util_1_1local__vector.html#ad873326647717bd1c638cddbc5e572c5">push_back</a>(<a class="code" href="structotto_1_1util_1_1local__vector.html#afec8f8b0664ee4481ffdbaa1ebf71c87">value_type</a> v)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      _data[_size] = v;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      _size += 1;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="structotto_1_1util_1_1local__vector.html#af5d417e025845679158ed5c742275463">back</a>();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="structotto_1_1util_1_1local__vector.html#a1c131e77522d61e3edb6556c6976c14c">   84</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1util_1_1local__vector.html#a1c131e77522d61e3edb6556c6976c14c">pop_back</a>()</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      _size -= 1;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="structotto_1_1util_1_1local__vector.html#a8aa5458155462bb29eef5b25023641be">   89</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1util_1_1local__vector.html#a8aa5458155462bb29eef5b25023641be">clear</a>()</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      _size = 0;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="structotto_1_1util_1_1local__vector.html#a0ebc6d134ee357385c5672c99342d03c">   94</a></span>&#160;    <a class="code" href="structotto_1_1util_1_1local__vector.html#afec8f8b0664ee4481ffdbaa1ebf71c87">value_type</a>* <a class="code" href="structotto_1_1util_1_1local__vector.html#a0ebc6d134ee357385c5672c99342d03c">data</a>()</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      <span class="keywordflow">return</span> _data.<a class="codeRef" href="http://en.cppreference.com/w/cpp/container/array/data.html">data</a>();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="structotto_1_1util_1_1local__vector.html#adb204d14eebef611a7100d9a2cb9a48a">   99</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="structotto_1_1util_1_1local__vector.html#afec8f8b0664ee4481ffdbaa1ebf71c87">value_type</a>* <a class="code" href="structotto_1_1util_1_1local__vector.html#adb204d14eebef611a7100d9a2cb9a48a">data</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordflow">return</span> _data.<a class="codeRef" href="http://en.cppreference.com/w/cpp/container/array/data.html">data</a>();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="codeRef" href="http://en.cppreference.com/w/cpp/container/array.html" title="STL class.">std::array</a>&lt;<a class="code" href="structotto_1_1util_1_1local__vector.html#afec8f8b0664ee4481ffdbaa1ebf71c87">value_type</a>, <a class="code" href="structotto_1_1util_1_1local__vector.html#a43fa8d71d6f677fce21dd8591609ad3c">capacity</a>()&gt; _data;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/size_t">std::size_t</a> _size;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  };</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;} <span class="comment">// namespace otto::util</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

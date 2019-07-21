@@ -74,6 +74,9 @@
 <li>radius_range
 : <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a64987f6c330bc2f11b45bad231334f21">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
 </li>
+<li>rand
+: <a class="el" href="structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html#ae7b660bc0fe50e617180e858e51f61ae">otto::core::voices::details::SettingsProps</a>
+</li>
 <li>Range
 : <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a5ca681c9508eb57ba4b9c415d210f6d1">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
 </li>
@@ -96,7 +99,7 @@
 </li>
 <li>read()
 : <a class="el" href="structotto_1_1util_1_1_json_file.html#a5cc74bf7e4d1152e90157d71ea5c12c5">otto::util::JsonFile</a>
-, <a class="el" href="structotto_1_1util_1_1_serial.html#a446ed8866fe029b2028b8ce672cb4e1d">otto::util::Serial</a>
+, <a class="el" href="structotto_1_1util_1_1_serial.html#a7fccbc24abe129d4ec0b283f5bf73945">otto::util::Serial</a>
 </li>
 <li>read_line()
 : <a class="el" href="structotto_1_1util_1_1_serial.html#a4eb68806a7bbc2721478c009933a2d5b">otto::util::Serial</a>
@@ -122,7 +125,7 @@
 </li>
 <li>redirect()
 : <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html#aea60442fc6040f3aa38f2d025b7035ba">otto::core::audio::ProcessData&lt; N &gt;</a>
-, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html#a00b3cb62261fed2831c36eb0f5bec85a">otto::core::audio::ProcessData&lt; 0 &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html#ad9cb5130ce343ea79cd37aaa015b0915">otto::core::audio::ProcessData&lt; 0 &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html#adbd927f76a37459c4d413fc720588839">otto::core::audio::ProcessData&lt; 1 &gt;</a>
 </li>
 <li>reference
@@ -152,8 +155,13 @@
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#aa3a70ec4ef5378bf4832168c6fe1a3d8">otto::filesystem::path</a>
 </li>
 <li>release()
-: <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#a06c840ed89b77b105008e867ed917c1e">otto::core::audio::AudioBufferHandle</a>
+: <a class="el" href="class_a_d_s_r__lite.html#aaf9eeea7c376ab01b25ccf2dd967650c">ADSR_lite&lt; Tv, Tp, Td &gt;</a>
+, <a class="el" href="class_env__lite.html#af3f17f554fa911fdf3684e3eb986449d">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
+, <a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#a06c840ed89b77b105008e867ed917c1e">otto::core::audio::AudioBufferHandle</a>
 , <a class="el" href="structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html#a66c2e16ca0f0daead0c223f787ffd77e">otto::core::voices::details::EnvelopeProps</a>
+</li>
+<li>released()
+: <a class="el" href="class_env__lite.html#ad9f14b1aefe74280eeb9234091df20ae">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
 </li>
 <li>remove_filename()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#a385bbbbddd8e1a1dfbb32398c0fa29d6">otto::filesystem::path</a>
@@ -175,8 +183,12 @@
 : <a class="el" href="structotto_1_1core_1_1props_1_1_mixin_tag.html#a9471c67efa73b0c9d6685292f623543e">otto::core::props::MixinTag</a>
 </li>
 <li>reset()
-: <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#ab032966e083321a06674ca65ff421537">otto::util::dsp::Window</a>
+: <a class="el" href="class_env__lite.html#a06ed15af355e3233bc9a00b7922bdc31">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
+, <a class="el" href="classotto_1_1util_1_1dsp_1_1_window.html#ab032966e083321a06674ca65ff421537">otto::util::dsp::Window</a>
 , <a class="el" href="class_seg_exp_bypass.html#a3390a0018ecf1db4f826c151caad1b4e">SegExpBypass&lt; T, Td &gt;</a>
+</li>
+<li>resetSoft()
+: <a class="el" href="class_env__lite.html#abc4688c4566559f1873d9c8adf7a3db7">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
 </li>
 <li>resize()
 : <a class="el" href="classotto_1_1util_1_1dyn__array.html#a2c08d1fa4d849927cafe60d3bf3ae05b">otto::util::dyn_array&lt; T &gt;</a>
@@ -189,6 +201,9 @@
 </li>
 <li>result_type
 : <a class="el" href="structstd_1_1hash_3_01otto_1_1services_1_1_key_01_4.html#a5a0c8c40a126c2982ffee6864db0a1de">std::hash&lt; otto::services::Key &gt;</a>
+</li>
+<li>retrig
+: <a class="el" href="structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html#a49e1fc4516f621a046e1356a686dbbcb">otto::core::voices::details::SettingsProps</a>
 </li>
 <li>RhodesSynth()
 : <a class="el" href="structotto_1_1engines_1_1_rhodes_synth.html#aa421563d0e2ad6dd7b0fe1256b9332ed">otto::engines::RhodesSynth</a>
@@ -278,7 +293,7 @@
 : <a class="el" href="class_rt_midi_out.html#a702f27f4dc386a7779c28f42c30a1064">RtMidiOut</a>
 </li>
 <li>run_hook()
-: <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a65402a7cdfc545c9837a0baab2581252">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1props_1_1_property_impl_3_01_t_00_01tag__list_3_01_tags_8_8_8_01_4_01_4.html#a2f1d674ea0c85c8a39e71f90852f694e">otto::core::props::PropertyImpl&lt; T, tag_list&lt; Tags... &gt; &gt;</a>
 </li>
 <li>running
 : <a class="el" href="structotto_1_1engines_1_1_euclid.html#ab093c0fc05dbc8a478fa7ccf2302916f">otto::engines::Euclid</a>
