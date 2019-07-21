@@ -142,51 +142,143 @@ namespace otto::engines {
 
     //shift = Application::current().ui_manager->is_pressed(ui::Key::shift);
 
-    ctx.font(Fonts::Norm, 35);
+    // ctx.font(Fonts::Norm, 35);
 
     constexpr float x_pad = 30;
     constexpr float y_pad = 50;
     constexpr float space = (height - 2.f * y_pad) / 3.f;
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Blue);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Aggro", {x_pad, y_pad});
+    // aggroProp - shorthand for aggro, cleaner code.
+    float aggro = engine.props.aggro * 30;
+    float skew = engine.props.lfo_depth;
+    // skewing
+    float skew_left_3 = skew * 8;
+    float skew_left_2 = skew_left_3 * 2;
+    float skew_left_1 = skew_left_2 * 2;
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Blue);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1}", engine.props.aggro), {width - x_pad, y_pad});
+    // 1
+    ctx.group([&] {
+      ctx.beginPath();
+      ctx.moveTo(105, {(125 + aggro) - skew_left_1});
+      ctx.lineTo(105, {(125 + aggro) - skew_left_1});
+      ctx.arc(85, {(115 - aggro) - skew_left_1}, 20, 0, 1 * M_PI, true);
+      ctx.lineTo(65, {(125 + aggro) - skew_left_1});
+      ctx.arc(85, {(125 + aggro) - skew_left_1}, 20, 1 * M_PI, 0 * M_PI, true);
+      ctx.lineWidth(6.0);
+      ctx.strokeStyle(Colours::Blue);
+      ctx.closePath();
+      ctx.stroke();
+    });
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Green);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Asym", {x_pad, y_pad + space});
+    // 2
+    ctx.group([&] {
+      ctx.beginPath();
+      ctx.moveTo(135, {(125 + aggro) - skew_left_2});
+      ctx.lineTo(135, {(125 + aggro) - skew_left_2});
+      ctx.arc(115, {(115 - aggro) - skew_left_2}, 20, 0, 1 * M_PI, true);
+      ctx.lineTo(95, {(125 + aggro) - skew_left_2});
+      ctx.arc(115, {(125 + aggro) - skew_left_2}, 20, 1 * M_PI, 0 * M_PI, true);
+      ctx.lineWidth(6.0);
+      ctx.strokeStyle(Colours::Blue);
+      ctx.closePath();
+      ctx.stroke();
+    });
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Green);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.asymmetry), {width - x_pad, y_pad + space});
+    // 3
+    ctx.group([&] {
+      ctx.beginPath();
+      ctx.moveTo(165, {(125 + aggro) - skew_left_3});
+      ctx.lineTo(165, {(125 + aggro) - skew_left_3});
+      ctx.arc(145, {(115 - aggro) - skew_left_3}, 20, 0, 1 * M_PI, true);
+      ctx.lineTo(125, {(125 + aggro) - skew_left_3});
+      ctx.arc(145, {(125 + aggro) - skew_left_3}, 20, 1 * M_PI, 0 * M_PI, true);
+      ctx.lineWidth(6.0);
+      ctx.strokeStyle(Colours::Blue);
+      ctx.closePath();
+      ctx.stroke();
+    });
+    
+    // 4
+    ctx.group([&] {
+      ctx.beginPath();
+      ctx.moveTo(195, {(125 + aggro) + skew_left_3});
+      ctx.lineTo(195, {(125 + aggro) + skew_left_3});
+      ctx.arc(175, {(115 - aggro) + skew_left_3}, 20, 0, 1 * M_PI, true);
+      ctx.lineTo(155, {(125 + aggro) + skew_left_3});
+      ctx.arc(175, {(125 + aggro) + skew_left_3}, 20, 1 * M_PI, 0 * M_PI, true);
+      ctx.lineWidth(6.0);
+      ctx.strokeStyle(Colours::Blue);
+      ctx.closePath();
+      ctx.stroke();
+    });
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Yellow);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Speed", {x_pad, y_pad + 2 * space});
+    // 5
+    ctx.group([&] {
+      ctx.beginPath();
+      ctx.moveTo(225, {(125 + aggro) + skew_left_2});
+      ctx.lineTo(225, {(125 + aggro) + skew_left_2});
+      ctx.arc(205, {(115 - aggro) + skew_left_2}, 20, 0, 1 * M_PI, true);
+      ctx.lineTo(185, {(125 + aggro) + skew_left_2});
+      ctx.arc(205, {(125 + aggro) + skew_left_2}, 20, 1 * M_PI, 0 * M_PI, true);
+      ctx.lineWidth(6.0);
+      ctx.strokeStyle(Colours::Blue);
+      ctx.closePath();
+      ctx.stroke();
+    });
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Yellow);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.lfo_speed), {width - x_pad, y_pad + 2 * space});
+    // 6
+    ctx.group([&] {
+      ctx.beginPath();
+      ctx.moveTo(255, {(125 + aggro) + skew_left_1});
+      ctx.lineTo(255, {(125 + aggro) + skew_left_1});
+      ctx.arc(235, {(115 - aggro) + skew_left_1}, 20, 0, 1 * M_PI, true);
+      ctx.lineTo(215, {(125 + aggro) + skew_left_1});
+      ctx.arc(235, {(125 + aggro) + skew_left_1}, 20, 1 * M_PI, 0 * M_PI, true);
+      ctx.lineWidth(6.0);
+      ctx.strokeStyle(Colours::Blue);
+      ctx.closePath();
+      ctx.stroke();
+    });
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Red);
-    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Depth", {x_pad, y_pad + 3 * space});
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Blue);
+    // ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
+    // ctx.fillText("Aggro", {x_pad, y_pad});
 
-    ctx.beginPath();
-    ctx.fillStyle(Colours::Red);
-    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.lfo_depth), {width - x_pad, y_pad + 3 * space});
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Blue);
+    // ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
+    // ctx.fillText(fmt::format("{:1}", engine.props.aggro), {width - x_pad, y_pad});
+
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Green);
+    // ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
+    // ctx.fillText("Asym", {x_pad, y_pad + space});
+
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Green);
+    // ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
+    // ctx.fillText(fmt::format("{:1.2}", engine.props.asymmetry), {width - x_pad, y_pad + space});
+
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Yellow);
+    // ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
+    // ctx.fillText("Speed", {x_pad, y_pad + 2 * space});
+
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Yellow);
+    // ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
+    // ctx.fillText(fmt::format("{:1.2}", engine.props.lfo_speed), {width - x_pad, y_pad + 2 * space});
+
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Red);
+    // ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
+    // ctx.fillText("Depth", {x_pad, y_pad + 3 * space});
+
+    // ctx.beginPath();
+    // ctx.fillStyle(Colours::Red);
+    // ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
+    // ctx.fillText(fmt::format("{:1.2}", engine.props.lfo_depth), {width - x_pad, y_pad + 3 * space});
 
     ///
   }
