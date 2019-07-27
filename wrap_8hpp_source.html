@@ -90,16 +90,14 @@
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">void</span> on_hook(hook&lt;has_limits::hooks::on_exceeded&gt; &amp; hook)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;      <span class="keyword">auto</span>&amp; hl = this-&gt;as&lt;has_limits&gt;();</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      <span class="keywordflow">if</span> (hook.value() &lt; hl.min) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        hook.value() =</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;          hl.max - ((hl.min - (is&lt;steppable&gt;() ? as&lt;steppable&gt;().step_size : 1)) - hook.value());</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (hook.value() &gt; hl.max) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        hook.value() =</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;          hl.min + (hook.value() - (hl.max + (is&lt;steppable&gt;() ? as&lt;steppable&gt;().step_size : 1)));</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  };</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;} <span class="comment">// namespace otto::core::props</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;      <span class="keyword">auto</span> length = hl.max - hl.min;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      <span class="keywordflow">if</span> (hook.value() &lt; hl.min || hook.value() &gt; hl.max) {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        hook.value() = hl.min + (((hook.value() - hl.min) % length + length) % length);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="comment">// hl.min + (hook.value() - (hl.max + step_size));</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;      }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  };</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;} <span class="comment">// namespace otto::core::props</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
