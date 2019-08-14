@@ -171,27 +171,30 @@
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keyword">struct </span>Voice : <a class="code" href="structotto_1_1core_1_1voices_1_1_voice_base.html" title="Base class for voices.">voices::VoiceBase</a>&lt;Voice, Pre&gt; {</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      gam::LFO&lt;&gt; lfo;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      gam::Decay&lt;&gt; curve;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      <a class="code" href="structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html">DualWavePlayer</a> curve_osc;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <a class="code" href="structotto_1_1engines_1_1_potion_synth_1_1_dual_wave_player.html">DualWavePlayer</a> lfo_osc;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="keywordtype">float</span> lfo_pan;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      Voice(Pre&amp;) noexcept;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="keywordtype">float</span> operator()() noexcept;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <span class="keywordtype">void</span> on_note_on() noexcept;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    };</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    struct Post : voices::PostBase&lt;Post, Voice&gt; {</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      Post(Pre&amp;) noexcept;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="comment">// Smoothing filter to eliminate pops when resetting the lfo.</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      <span class="comment">// Cost is 2 multiplications and 1 addition per sample.</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      gam::OnePole&lt;&gt; lfo_smoother{20};</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      gam::AD&lt;&gt; curve{0.001, 0.2, -2, -4};</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      DualWavePlayer curve_osc;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      DualWavePlayer lfo_osc;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="keywordtype">float</span> lfo_pan;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      Voice(Pre&amp;) noexcept;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      <span class="keywordtype">float</span> operator()() noexcept;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="keywordtype">void</span> on_note_on(<span class="keywordtype">float</span> freq_target) noexcept;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    };</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="keywordtype">float</span> operator()(<span class="keywordtype">float</span>) noexcept;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    };</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    struct Post : voices::PostBase&lt;Post, Voice&gt; {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      Post(Pre&amp;) noexcept;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="structotto_1_1core_1_1voices_1_1_voice_manager.html">voices::VoiceManager&lt;Post, 6&gt;</a> voice_mgr_;</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="structotto_1_1engines_1_1_potion_synth.html#aa384a0d4899b0314fec082a438a7ac6a">  120</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">struct </span>PotionSynthScreen;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  };</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;} <span class="comment">// namespace otto::engines</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordtype">float</span> operator()(<span class="keywordtype">float</span>) noexcept;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    };</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    voices::VoiceManager&lt;Post, 6&gt; voice_mgr_;</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="structotto_1_1engines_1_1_potion_synth.html#aa384a0d4899b0314fec082a438a7ac6a">  123</a></span>&#160;    <span class="keyword">friend</span> <span class="keyword">struct </span>PotionSynthScreen;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  };</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;} <span class="comment">// namespace otto::engines</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

@@ -195,6 +195,106 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::clock</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock.html</Path>
+    <Anchor>aa99f84b1279607863795145177fae0ee</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>whole</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>aa145d2dca2a83edb0885afd938cabfd5</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>half</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>ab9147a415a3e911157c22f48b2d8b625</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>quarter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a37478fe16e64941bb1ea6581c38b0d15</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>eighth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>ad2a1ad1dc22690ed921b6b9677c6ff36</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sixteenth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>ab892c3df856b998559c44de14856b49c</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>thirtysecond</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a2741b843df35966d7aed8a4d5b6f40d0</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sixtyfourth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a648c982efe234bc7db4bff42662640ac</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>beat</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a26cf74005bda686f5542d0835acbef38</Anchor>
+    <Abstract>Alias to quarter.</Abstract>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>AnyMidiEvent</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -1553,13 +1653,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>num_taps</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
+      <Name>TM1</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
     </TokenIdentifier>
-    <Path>wormhole_8hpp.html</Path>
-    <Anchor>a890985673218ff1e1457cc15f0dd577a</Anchor>
-    <DeclaredIn>wormhole.hpp</DeclaredIn>
+    <Path>util_2dsp_2chorus_8hpp.html</Path>
+    <Anchor>a45d77da8f46c837a6c6e19922b0bb020</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TM2</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>util_2dsp_2chorus_8hpp.html</Path>
+    <Anchor>a96dcd8d8ab6c7f4b823d7f8e0fa5a3c4</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -5606,6 +5716,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>fastatan</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::math</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1util_1_1math.html</Path>
+    <Anchor>afe433d25621fce772ec95401ce7642b1</Anchor>
+    <DeclaredIn>math.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>OTTO_META_ASSERT_EQUAL</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -9644,6 +9765,438 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>BiquadSoftReset</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Abstract>2-pole/2-zero IIR filter with soft reset</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BiquadSoftReset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>ac2ae04b7422a5b2262f5afa99ed0aeea</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>a</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a7e12241265687cc3af31ec38374177dc</Anchor>
+    <Abstract>Get array of 3 feedforward coefficients.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>b</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>abf51e5152f52b7c78e1233f93a3e7ba7</Anchor>
+    <Abstract>Get array of 3 feedback coefficients (first element, b0, is not used)</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>a</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>aedbd476a3c1901b9230eaa39dbe52811</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>b</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a191bff54bf40cd788bd9c4a7ed7b305f</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>coef</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a2f6fe95d3cbe59e9afd5d84160e38d62</Anchor>
+    <Abstract>Set feedforward (a) and feedback (b) coefficients directly.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>freq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a6454331efb1b0ca83cce32c1f6779dce</Anchor>
+    <Abstract>Set center frequency.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>res</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a1d52428b5e26217e7827e08cb38fe547</Anchor>
+    <Abstract>Set resonance (Q)</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>level</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a8c2971c7ddee8dd5d2f869b04e1da547</Anchor>
+    <Abstract>Set level (PEAKING, LOW_SHELF, HIGH_SHELF types only)</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>afe080c3a3c438d044426f3ef3f3609c6</Anchor>
+    <Abstract>Set filter center frequency and resonance.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a40228b19900e259458eb0b44ae00bb52</Anchor>
+    <Abstract>Set all filter params.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>ab992dfa710d48066275633bafd1b664f</Anchor>
+    <Abstract>Set type of filter.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>zero</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>ab870b11ca5a34f774642503ded8474e4</Anchor>
+    <Abstract>Zero internal delays. Softly.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>smoothOutput</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a2a5bf7290af15dd7182166ec35ab6c00</Anchor>
+    <Abstract>Manual smoothing of the output.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>smoothTime</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>af8d76d7ad0dc9272017b448c0dddc377</Anchor>
+    <Abstract>Set smoothing time.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a82e3ddeeb8872fcd90085d9b94024cf4</Anchor>
+    <Abstract>Filter next sample.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nextBP</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>afbe41185735ebe0a4502f5b71e4116f0</Anchor>
+    <Abstract>Optimized for band-pass types.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>freq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a60dca5cd13c3a1a63b850bd743814bf4</Anchor>
+    <Abstract>Get center frequency.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>res</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a01709aa304106dc25646a9d51c07a7ce</Anchor>
+    <Abstract>Get resonance (Q)</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>level</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a06d992a0cb01b7fb2bee16cb93ef8d13</Anchor>
+    <Abstract>Get level.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>ae23cb9ba3bf0f7ec82242903d2c1bb80</Anchor>
+    <Abstract>Get filter type.</Abstract>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onDomainChange</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a120880d49e3187ac3c0711faca0daa43</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>resRecip</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a965fb86eeec0668332d24948bea4bf43</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mA</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a83e1cf3860843a0f3cfcac8d3c047003</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mB</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>afccdc71f48d03ef11cc918cb81ca4fe1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>d1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>aa7bc20bcaae1f5b05cd6c5c66bfb4205</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>d2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a527c3d11702e2a631f3a8d548e11264e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mFreq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>afad3faf680b5efe57f67af3de06646fd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mResRecip</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>afb7cee488fa7cb515665bb199e949f13</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mLevel</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a0d68f8e6c584e9686a1a789c9be754b1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mType</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>aa880e6f6ad627029e36f251f812730e3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mReal</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>ae4a4bb63f76d504aae26e9f1ae6b9f4c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mImag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a9463ac9820534db0955d5ff182aee61b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mAlpha</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>ab7cc48cfe30755a7490939c40909b1bc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mBeta</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a3dbe145b3515661ea402ec88b4a6625a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mFrqToRad</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>abcee4ed328621a9c81715d6346365080</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>o0</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>ae35d87d4acd231db0a3b620aed04b6a2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>smooth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>BiquadSoftReset</Scope>
+    </TokenIdentifier>
+    <Path>class_biquad_soft_reset.html</Path>
+    <Anchor>a3b1c7d432dff9768d9bfa8961ffe66df</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CallbackInfo</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -9752,6 +10305,472 @@
     </TokenIdentifier>
     <Path>struct_callback_info.html</Path>
     <Anchor>aaad5c346c8fac1b7cfc9754977654607</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChorusComb</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Abstract>Variable length delay-line with feedback and/or feedforward.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChorusComb</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a0f4325355e11a42e9705daa370a46785</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>decay</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>aa5871c706e491af52adef92c10e45406</Anchor>
+    <Abstract>Set number of units for response to decay to end value.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allPass</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>abd19a1f5649834d5cfb26efe88398725</Anchor>
+    <Abstract>Sets feedback to argument and feedforward to argument negated.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fbk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a915655b17ae18e0ad038ac97dd7fd948</Anchor>
+    <Abstract>Set feedback amount, in (-1, 1)</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ffd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a5a0696b4ccfb029b0b609893f035c041</Anchor>
+    <Abstract>Set feedforward amount [-1, 1].</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>feeds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a9f427df273e2ff9da5b0b3d60e300ff6</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>af643a341562d812bd0bf3a9128c57177</Anchor>
+    <Abstract>Set several parameters.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set_delays</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a8334ab24cd2e04699fcc6d5bf50afe1a</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>ae1585b677169660567df97dcf324bb98</Anchor>
+    <Abstract>Returns next filtered value.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>norm</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a8c78a230b937ae2c5dfb94f32d436e1f</Anchor>
+    <Abstract>Get unity gain scale factor.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>normFbk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a8f6a1a603a309a644a4d97c6eb994b71</Anchor>
+    <Abstract>Get unity gain scale factor due to feedback.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>normFfd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a202befa0ed23481052f995e59ed2d907</Anchor>
+    <Abstract>Get unity gain scale factor due to feedforward.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ffd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a916f1e27558adff1e9616d384734400b</Anchor>
+    <Abstract>Get feedforward amount.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fbk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a5763e7be9c9f93b68575e3add3b11dea</Anchor>
+    <Abstract>Get feedback amount.</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mFFD</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>adb1684350bb63270968a5557a0cb7606</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mFBK</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusComb</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_comb.html</Path>
+    <Anchor>a03b779345b7303e130634bdc7aaea90d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChorusEffect</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChorusEffect</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a57f360cc05ec13eadb53e5f23b038c92</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxDelay</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a978c76da5949486fc2daffb0d6798abf</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fbk</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a997955f170f877c57f2e0119feab0c0f</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ffd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>ae9ae3e78e7bc83c9a23406e822d68faf</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>freq1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a36a2592a9e6cf3a5b30f9deba03eeb14</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>freq2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a80862d4d232aabdf7fcf3e54802e75aa</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>depth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>ab7c4da997503e7f60782848008aff702</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>center</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a70fcdf141616780e30dfabb9e7b57473</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>center</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a547c90931baac651e65e110ccae81a8c</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>aef8913fe6413d0b5fdf261b64d2150e9</Anchor>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a292018457ee400aafa0e25d9be890633</Anchor>
+    <Abstract>Filter sample (mono-stereo)</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>modulate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a0ab18e4da9acb8b3bb00af0cce610369</Anchor>
+    <Abstract>Perform delay modulation step (must manually step play heads after use!)</Abstract>
+    <DeclaredIn>chorus.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>comb</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>ac0f1ed5eb38b1e3601576b56190dd614</Anchor>
+    <Abstract>Multitap comb filter.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mod1A</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a4fd4c64532bf7b1b279a4ba96d027a35</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mod1B</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>acd2c2ca5d97a211c0258a6b27c6dcaa8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mod1C</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a4fffc7d4913b85de948191a2a450f284</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mod2A</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>af3948ff74292911b57e06bcf47ab1dd3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mod2B</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a5498b4c15727ab897f95fa283d93caeb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mod2C</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>ChorusEffect</Scope>
+    </TokenIdentifier>
+    <Path>class_chorus_effect.html</Path>
+    <Anchor>a6bdb83fd040a2c90e15e7af3c73d5faa</Anchor>
+    <Abstract>Modulators.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DelayedLambda</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>DelayedLambda</Scope>
+    </TokenIdentifier>
+    <Path>class_delayed_lambda.html</Path>
+    <DeclaredIn>DelayedLambda.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DelayedLambda</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>DelayedLambda</Scope>
+    </TokenIdentifier>
+    <Path>class_delayed_lambda.html</Path>
+    <Anchor>a51fac33ea0c17db7ea4d44754e798be7</Anchor>
+    <DeclaredIn>DelayedLambda.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>DelayedLambda</Scope>
+    </TokenIdentifier>
+    <Path>class_delayed_lambda.html</Path>
+    <Anchor>ab2fcf624d5e3fcf6375875e97312a954</Anchor>
+    <DeclaredIn>DelayedLambda.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>DelayedLambda</Scope>
+    </TokenIdentifier>
+    <Path>class_delayed_lambda.html</Path>
+    <Anchor>a9b150bc173d7749301da3f84d708acb6</Anchor>
+    <DeclaredIn>DelayedLambda.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>finish</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>DelayedLambda</Scope>
+    </TokenIdentifier>
+    <Path>class_delayed_lambda.html</Path>
+    <Anchor>a73faf453142cada88f1f53d167349123</Anchor>
+    <DeclaredIn>DelayedLambda.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -11520,6 +12539,60 @@
     </TokenIdentifier>
     <Path>class_midi_api.html</Path>
     <Anchor>a25be898d4cfd92d8221d5b2aeaffe051</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PanFromConstant</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>PanFromConstant</Scope>
+    </TokenIdentifier>
+    <Path>class_pan_from_constant.html</Path>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PanFromConstant</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PanFromConstant</Scope>
+    </TokenIdentifier>
+    <Path>class_pan_from_constant.html</Path>
+    <Anchor>aaad1408a3a0ff9af99dbfc12726488fe</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>period</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PanFromConstant</Scope>
+    </TokenIdentifier>
+    <Path>class_pan_from_constant.html</Path>
+    <Anchor>a0d55afe01cfbb439fca3a1c5c5bee7e8</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PanFromConstant</Scope>
+    </TokenIdentifier>
+    <Path>class_pan_from_constant.html</Path>
+    <Anchor>ab54c634cc91144393e742cc8852fe7a9</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PanFromConstant</Scope>
+    </TokenIdentifier>
+    <Path>class_pan_from_constant.html</Path>
+    <Anchor>a4e6daa218e60a98508c4594e09e9800c</Anchor>
+    <DeclaredIn>BiquadSoftReset.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21375,7 +22448,7 @@
       <Scope>otto::core::audio::audio_frame_channels&lt; std::array&lt; float, N &gt; &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1audio__frame__channels_3_01std_1_1array_3_01float_00_01_n_01_4_01_4.html</Path>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21396,7 +22469,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Abstract>A handle to an audio buffer.</Abstract>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21437,7 +22510,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>ad8a727ab1fe991a1e596fd3aed6bf1aa</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21448,7 +22521,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a04dfa435c2c65b09b4be64fc6f2b1b1d</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21459,7 +22532,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>adbb86cc350827940c0052a806198d93c</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21470,7 +22543,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a7f902b9eb36e6032b51acb4f48aeaf84</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21481,7 +22554,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>aaf90180372a1d312d4c20c65bd3912b0</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21492,7 +22565,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a782fcc0cad65095def42f9ac02eb6daa</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21503,7 +22576,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a1c793618d945da1528aafbe67e766723</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21514,7 +22587,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a5bad7f448768a5f3ef1166e0c5082287</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21525,7 +22598,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>abea8eaeac4152fa3033eb698b8cbe878</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21536,7 +22609,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a455745a136183c330005a3654402ea77</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21547,7 +22620,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>ab1ed4199cc17fb33a8f55a5891e88dd7</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21558,7 +22631,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a3bb827d91a9f2e0b45a164a847cbae81</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21569,7 +22642,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a4b67e0337c437704f5c2350096dea6e1</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21580,7 +22653,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>ab4beab2ba434b3010898e616b319cee4</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21591,7 +22664,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a5132f1709f51fec2735f427bfd675fad</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21602,7 +22675,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a06c840ed89b77b105008e867ed917c1e</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21613,7 +22686,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a3292998e52151d7deb33230d81aae3b8</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21625,7 +22698,7 @@
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a3cc2fb62a48d18ec3b8ed073610e457d</Anchor>
     <Abstract>Get only a slice of the audio.</Abstract>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21636,7 +22709,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>acf07484dc09e6d7c78d0ec34983472bc</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21647,7 +22720,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html</Path>
     <Anchor>a52fa8d44359b05fd81f4eb59b55a2dd5</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21657,7 +22730,7 @@
       <Scope>otto::core::audio::AudioBufferPool</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21668,7 +22741,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
     <Anchor>a35f19587213662f5e1c178f9d505105e</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21679,7 +22752,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
     <Anchor>a192b160b36182204540b53cf791839b4</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21690,7 +22763,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
     <Anchor>a5f16f3e0bb0688de99206e3788e489ce</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21701,7 +22774,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
     <Anchor>a89daa0a5afd19706c0c09e245a25f32c</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21712,7 +22785,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
     <Anchor>a9aefce147c187d38b3cbeb43704bb68f</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21723,7 +22796,7 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html</Path>
     <Anchor>abb2724d231a7da9310af1b22c824f1c8</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
+    <DeclaredIn>audio_buffer_pool.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21754,29 +22827,7 @@
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a750e6dc57cf154b3e4bc8565a719deac</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ProcessData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a478197c536f8d2fdafa8c24bcba4cd4f</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ProcessData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>ade63145bdc6b146f8587493e19934ebf</Anchor>
+    <Anchor>ac701dff3ba5fa056d41b622bb6edc482</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -21803,24 +22854,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>redirect</Name>
+      <Name>with</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>aea60442fc6040f3aa38f2d025b7035ba</Anchor>
+    <Anchor>a22b11076e2c889f5d8eda38b759bcee7</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>redirect</Name>
+      <Name>with</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
-    <Anchor>a86ccb275c0c5c94682f9406a41517a9d</Anchor>
+    <Anchor>a493452ce1c3cfff8d4717311135548ef</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -21868,6 +22919,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>clock</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data.html</Path>
+    <Anchor>a75e2fc0c58296e522a6a34f79ade7c11</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>nframes</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -21905,29 +22966,40 @@
       <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>a5f74980e96cb9c75428354b04eb0a06c</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
     <Anchor>a0d5ab2b4c29e73e68b10f61dd1a98078</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>redirect</Name>
+      <Name>with</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
-    <Anchor>a00b3cb62261fed2831c36eb0f5bec85a</Anchor>
+    <Anchor>af5ebb401cfd041afc29a3941f6863ca0</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>redirect</Name>
+      <Name>with</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
-    <Anchor>ad9cb5130ce343ea79cd37aaa015b0915</Anchor>
+    <Anchor>a2fcd0ef2df2533667cd101c7b7415def</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -21950,6 +23022,16 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
     <Anchor>a86aaf85f3e84126e91abf3381a41cce7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clock</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 0 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_010_01_4.html</Path>
+    <Anchor>aa9e1032e042b9a64a356e892557a11db</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21990,7 +23072,7 @@
       <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>aa053bdd27c3d22026a3f3c3cd36be420</Anchor>
+    <Anchor>a264e6e017966652c88e702fc4f796504</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -22001,51 +23083,7 @@
       <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>a51849f5571e175b989e36a7cb3d0ebc5</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ProcessData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>af0dd54b6141e0e2bcb5c64a46d6abbb3</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ProcessData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>a51bee366f233c93be4ea09e2cbdd0f54</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ProcessData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>a4d6531af34e2b06cfa0c68123adf4642</Anchor>
-    <DeclaredIn>processor.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ProcessData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>a60bbc8dc97b7668bfb6c787519cc0791</Anchor>
+    <Anchor>a28a56796b5317bce215e13980da00375</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -22072,24 +23110,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>redirect</Name>
+      <Name>with</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>adbd927f76a37459c4d413fc720588839</Anchor>
+    <Anchor>a4ddf219fe8df7a411706a52087af1d23</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>redirect</Name>
+      <Name>with</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
-    <Anchor>a172962abd1435e7d93767538672c67cc</Anchor>
+    <Anchor>a1b854d76d63362d469636dfff3e23f59</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -22134,6 +23172,16 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
     <Anchor>a979d35a57e6fad6ea27f2aa4c8360765</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clock</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::audio::ProcessData&lt; 1 &gt;</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1audio_1_1_process_data_3_011_01_4.html</Path>
+    <Anchor>a79bbf50cc30a1e3aec4c6b948ff6b48b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22297,6 +23345,268 @@
     <Path>structotto_1_1core_1_1audio_1_1_waveform_view.html</Path>
     <Anchor>a30a88ca440fcb70eef3333759aec383b</Anchor>
     <DeclaredIn>waveform.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::clock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>otto::core::clock</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::core::clock</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock.html</Path>
+    <Anchor>aa99f84b1279607863795145177fae0ee</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::clock::ClockCounter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::core::clock::ClockCounter</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_counter.html</Path>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockCounter</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_counter.html</Path>
+    <Anchor>a1e3298b6b0440acfb126cbc18116f640</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>step</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockCounter</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_counter.html</Path>
+    <Anchor>a4d9d3b8d65478b7f9383915c5ea83abb</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>jump</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockCounter</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_counter.html</Path>
+    <Anchor>afcc61dd56de498b8df381ac661433675</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockCounter</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_counter.html</Path>
+    <Anchor>aef67f854c822a2b6e66b6113599fe013</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::clock::ClockRange</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator Time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <Anchor>a69bb06441e19be4778bfb52df9947268</Anchor>
+    <Abstract>The lowest time in this range.</Abstract>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>time</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <Anchor>a591cb04b65516fc21d3517f02abbe99c</Anchor>
+    <Abstract>The lowest time in this range.</Abstract>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>contains_multiple</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <Anchor>a73305a465bc550c3ae55a68b881944a8</Anchor>
+    <Abstract>Check whether this range contains a multiple of n.</Abstract>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>count_multiple</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <Anchor>a1da219551d6be6659dcd34c77f05a809</Anchor>
+    <Abstract>Counts the number of times this range contains a multiple of n.</Abstract>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>position_of_multiple</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <Anchor>a75cc1269d8ab01f7e07e6c9f757e9ca8</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>begin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <Anchor>afd99b031e3834fc80c96490777496d56</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::ClockRange</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1clock_1_1_clock_range.html</Path>
+    <Anchor>a02ed98fe2d2f772e931427807d088f50</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::core::clock::notes</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Abstract>Constants for manipulating time in beats.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>whole</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>aa145d2dca2a83edb0885afd938cabfd5</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>half</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>ab9147a415a3e911157c22f48b2d8b625</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>quarter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a37478fe16e64941bb1ea6581c38b0d15</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>eighth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>ad2a1ad1dc22690ed921b6b9677c6ff36</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sixteenth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>ab892c3df856b998559c44de14856b49c</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>thirtysecond</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a2741b843df35966d7aed8a4d5b6f40d0</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sixtyfourth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a648c982efe234bc7db4bff42662640ac</Anchor>
+    <DeclaredIn>clock.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>beat</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::core::clock::notes</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1clock_1_1notes.html</Path>
+    <Anchor>a26cf74005bda686f5542d0835acbef38</Anchor>
+    <Abstract>Alias to quarter.</Abstract>
+    <DeclaredIn>clock.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28651,8 +29961,8 @@
       <Scope>otto::core::voices::VoiceBase</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1_voice_base.html</Path>
-    <Anchor>a1ffe370baae060132c087688cdadf440</Anchor>
-    <Abstract>Implement a handler for note on events.</Abstract>
+    <Anchor>a69c76ce09b41251ca9d1858ae08b7262</Anchor>
+    <Abstract>Implement a handler for note on events freq_target is the arget frequency.</Abstract>
     <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -29903,6 +31213,194 @@
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_euclid_1_1_props.html</Path>
     <Anchor>ada7ff45a11e77111c30151265e6be3b8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::ExampleFX</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::ExampleFX</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
+    <DeclaredIn>fx_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ExampleFX</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleFX</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
+    <Anchor>a02bcf50962cd3e7e972132802ac4f274</Anchor>
+    <DeclaredIn>fx_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>process</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleFX</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
+    <Anchor>ad8eec14a253a0836c7689fb03ed60657</Anchor>
+    <DeclaredIn>fx_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::ExampleFX</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
+    <Anchor>aa962c833f0f38cf0a9cd48052e558e0c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::ExampleFX</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
+    <Anchor>ac632234caa6ab29fd25e5b263dfb3b41</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::ExampleFX::Props</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::ExampleFX::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
+    <DeclaredIn>fx_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DECL_REFLECTION</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleFX::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
+    <Anchor>aeb715354c7321f39c35afd7ab5a00463</Anchor>
+    <DeclaredIn>fx_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flt_freq</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::ExampleFX::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
+    <Anchor>a7ed1f5b73980d457d49c39a35e8312e1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::ExampleSynth</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::ExampleSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth.html</Path>
+    <DeclaredIn>synth_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ExampleSynth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth.html</Path>
+    <Anchor>ad0c88c443669f5569237724b31047daf</Anchor>
+    <DeclaredIn>synth_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>process</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth.html</Path>
+    <Anchor>acc0c5199276a9d3d8ebaa00d8abd362f</Anchor>
+    <DeclaredIn>synth_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>voice_mgr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth.html</Path>
+    <Anchor>a4ca00e4693ac77dd5e77da67937fb14e</Anchor>
+    <DeclaredIn>synth_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DECL_REFLECTION</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth.html</Path>
+    <Anchor>af035931fe3f094b82f0dfbffa055095b</Anchor>
+    <DeclaredIn>synth_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>props</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::ExampleSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth.html</Path>
+    <Anchor>a466457e096e12f9d710fed9973f113dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::ExampleSynth</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth.html</Path>
+    <Anchor>aa14712a7748f31abfd070f7d57215ad8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::engines::ExampleSynth::Props</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::engines::ExampleSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
+    <DeclaredIn>synth_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DECL_REFLECTION</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::engines::ExampleSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
+    <Anchor>aeb9318d72cfececbb1d4faa9bdeab12a</Anchor>
+    <DeclaredIn>synth_example.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>level</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::ExampleSynth::Props</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
+    <Anchor>ac5fd208294845acebe331d57343939f4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -41936,24 +43434,65 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ClockCounter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::ClockManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+    <Anchor>acfce8ef877a7b076cede1846e9f24161</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ClockRange</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::ClockManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+    <Anchor>a205a691dbd9822feec085b006a3ce71b</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Time</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
       <Scope>otto::services::ClockManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>aed62c2367552283fed4d78559c43a506</Anchor>
+    <Anchor>ac0bd3366430683c14ec960e7be0f3792</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>current_time</Name>
+      <Name>ClockManager</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::services::ClockManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a7ddb64db84fab4c00ca65f9ff621010d</Anchor>
-    <Abstract>Get the current time.</Abstract>
+    <Anchor>aeda96b6bd397b8437166a214a0c2f944</Anchor>
+    <DeclaredIn>clock_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bpm</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::ClockManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+    <Anchor>af770107eaeb0f9bdb7289097cd3d2c4b</Anchor>
+    <DeclaredIn>clock_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>samples_pr_beat</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::ClockManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+    <Anchor>a5e6fc12b55af157f636b035e06b1c2ab</Anchor>
     <DeclaredIn>clock_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -41964,32 +43503,62 @@
       <Scope>otto::services::ClockManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a57d6e03402162f0dc8baba99469c7fa5</Anchor>
-    <Abstract>Whether the clock is running.</Abstract>
+    <Anchor>aec0febe3290183a6bf45995bc8a5ed3d</Anchor>
     <DeclaredIn>clock_manager.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>request_client</Name>
+      <Name>set_bpm</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::services::ClockManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>ae54ab9216764ddcf74f96e9eee72ccf4</Anchor>
-    <Abstract>Request a client to manage the clock.</Abstract>
+    <Anchor>a0c37cd6984e700ea760e574c52c92f2c</Anchor>
     <DeclaredIn>clock_manager.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>active_source</Name>
+      <Name>start</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>otto::services::ClockManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a5b0dec2db76ea982c8b435b9a556a232</Anchor>
-    <Abstract>The source that last started the clock.</Abstract>
+    <Anchor>a6993b56c4e9e612580fb761e1529dbaa</Anchor>
+    <DeclaredIn>clock_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::ClockManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+    <Anchor>a27ee651fda26876bea8a8cef2ba58755</Anchor>
+    <DeclaredIn>clock_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::ClockManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+    <Anchor>a58cb8c92a7b3b529378570c5371c5bd8</Anchor>
+    <DeclaredIn>clock_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>step_frames</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::ClockManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
+    <Anchor>af07da65f536e461f6a9467e3c132c8ab</Anchor>
     <DeclaredIn>clock_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42066,8 +43635,7 @@
       <Scope>otto::services::ClockManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>af649cb667175c9fa26d752aa2a1398b2</Anchor>
-    <Abstract>Create an instance of the default clock manager.</Abstract>
+    <Anchor>a97e3eb203e14b28cde4311ea0d8bcab7</Anchor>
     <DeclaredIn>clock_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -42079,174 +43647,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_clock_manager.html</Path>
     <Anchor>aa2a1085aafe81d978da53d1a42c15e50</Anchor>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>start</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>add2aecb1f5aa51a8b1eef4a27a5fa1b8</Anchor>
-    <Abstract>Start the clock, implementation.</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>stop</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a431124622cc6ab423516dc4e25a4cf75</Anchor>
-    <Abstract>Stop the clock, implementation.</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set_bpm</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a75c230380da04e47e0c52d9cedf1d666</Anchor>
-    <Abstract>Set the bpm, implementation.</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set_current</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a6dc18dacc5c683ceedc3bb3690f44a36</Anchor>
-    <Abstract>Set current time, implementation.</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_client_exists</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a2ab4e07b78487bd1f2dee1cf1ffe1e9a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_active_source</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>a40da751ef22b4a39d611ed85c264115a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>internal</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>ac15ec869f19b94ed61c92f5eac4e72dbad1efad72dc5b17dc66a46767c32fff40</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>midi</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>ac15ec869f19b94ed61c92f5eac4e72dbaa5f4ed7e858bf18cc1f2c0e35e7301e7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>sync</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>otto::services::ClockManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager.html</Path>
-    <Anchor>ac15ec869f19b94ed61c92f5eac4e72dba63ad9d34f3503826e5f649ae6b7ac92c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>otto::services::ClockManager::Client</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>otto::services::ClockManager::Client</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager_1_1_client.html</Path>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>start</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager::Client</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager_1_1_client.html</Path>
-    <Anchor>a4a4ea84a0596b92480380e7b936537dd</Anchor>
-    <Abstract>Start the clock, and set the value of ClockManager::source()</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>stop</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager::Client</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager_1_1_client.html</Path>
-    <Anchor>a2be7f018adbbbe7f2047f5a6aa8be144</Anchor>
-    <Abstract>Stop the clock.</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set_bpm</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager::Client</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager_1_1_client.html</Path>
-    <Anchor>afc697368eca33270b2c980ab6bfd1b8f</Anchor>
-    <Abstract>Set the bpm.</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>set_current</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager::Client</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager_1_1_client.html</Path>
-    <Anchor>a8f3859ef4c6f4b5515ef14562c5756a5</Anchor>
-    <Abstract>Set current time.</Abstract>
-    <DeclaredIn>clock_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>clock_manager</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::ClockManager::Client</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_clock_manager_1_1_client.html</Path>
-    <Anchor>a4ed77f4143b43a4fc56fe5eb5b87c05b</Anchor>
-    <Abstract>The clock manager this client is attached to.</Abstract>
     <DeclaredIn>clock_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -58575,6 +59975,17 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1util_1_1math.html</Path>
     <Anchor>a4d8836f1257102b52180a8e619cf3d82</Anchor>
+    <DeclaredIn>math.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fastatan</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::math</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1util_1_1math.html</Path>
+    <Anchor>afe433d25621fce772ec95401ce7642b1</Anchor>
     <DeclaredIn>math.hpp</DeclaredIn>
   </Token>
   <Token>

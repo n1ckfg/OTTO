@@ -125,9 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6b69ea920ea6a5ac8938eb0eedc27ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcdb7407ce51dd6573a858c9499173df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#afcdb7407ce51dd6573a858c9499173df">VoiceBase</a> (const <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html">VoiceBase</a> &amp;)=delete</td></tr>
 <tr class="separator:afcdb7407ce51dd6573a858c9499173df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ffe370baae060132c087688cdadf440"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a1ffe370baae060132c087688cdadf440">on_note_on</a> () noexcept</td></tr>
-<tr class="memdesc:a1ffe370baae060132c087688cdadf440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement a handler for note on events.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#a1ffe370baae060132c087688cdadf440">More...</a><br /></td></tr>
-<tr class="separator:a1ffe370baae060132c087688cdadf440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c76ce09b41251ca9d1858ae08b7262"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#a69c76ce09b41251ca9d1858ae08b7262">on_note_on</a> (float freq_target) noexcept</td></tr>
+<tr class="memdesc:a69c76ce09b41251ca9d1858ae08b7262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement a handler for note on events freq_target is the arget frequency.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#a69c76ce09b41251ca9d1858ae08b7262">More...</a><br /></td></tr>
+<tr class="separator:a69c76ce09b41251ca9d1858ae08b7262"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae130df8c35e7afa017320828dbdddf9a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html#ae130df8c35e7afa017320828dbdddf9a">on_note_off</a> () noexcept</td></tr>
 <tr class="memdesc:ae130df8c35e7afa017320828dbdddf9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement a handler for note off events.  <a href="structotto_1_1core_1_1voices_1_1_voice_base.html#ae130df8c35e7afa017320828dbdddf9a">More...</a><br /></td></tr>
 <tr class="separator:ae130df8c35e7afa017320828dbdddf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -263,8 +263,8 @@ template&lt;typename DerivedT, typename PreT&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1ffe370baae060132c087688cdadf440"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ffe370baae060132c087688cdadf440">&#9670;&nbsp;</a></span>on_note_on()</h2>
+<a id="a69c76ce09b41251ca9d1858ae08b7262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c76ce09b41251ca9d1858ae08b7262">&#9670;&nbsp;</a></span>on_note_on()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +277,8 @@ template&lt;typename D , typename P &gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="structotto_1_1core_1_1voices_1_1_voice_base.html">otto::core::voices::VoiceBase</a>&lt; D, P &gt;::on_note_on </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>freq_target</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -288,7 +289,8 @@ template&lt;typename D , typename P &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implement a handler for note on events. </p>
+<p>Implement a handler for note on events freq_target is the arget frequency. </p>
+<p>This allows frequency-specific calculations to be done even when there is portamento. </p>
 
 <p class="definition">Definition at line <a class="el" href="voice__manager_8inl_source.html#l00025">25</a> of file <a class="el" href="voice__manager_8inl_source.html">voice_manager.inl</a>.</p>
 
@@ -567,7 +569,7 @@ template&lt;typename T , int N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00106">106</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00108">108</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -586,7 +588,7 @@ template&lt;typename DerivedT, typename PreT&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00101">101</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00103">103</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>
@@ -604,7 +606,7 @@ template&lt;typename DerivedT, typename PreT&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00102">102</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voice__manager_8hpp_source.html#l00104">104</a> of file <a class="el" href="voice__manager_8hpp_source.html">voice_manager.hpp</a>.</p>
 
 </div>
 </div>

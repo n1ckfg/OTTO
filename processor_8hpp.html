@@ -86,6 +86,8 @@
 </div><div class="textblock"><code>#include &lt;exception&gt;</code><br />
 <code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;gsl/span&gt;</code><br />
+<code>#include &quot;<a class="el" href="audio__buffer__pool_8hpp_source.html">core/audio/audio_buffer_pool.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="clock_8hpp_source.html">core/audio/clock.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="midi_8hpp_source.html">core/audio/midi.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="audio_8hpp_source.html">util/audio.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="processor_8inl_source.html">processor.inl</a>&quot;</code><br />
@@ -94,18 +96,6 @@
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:structotto_1_1core_1_1audio_1_1is__audio__processor"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1is__audio__processor">otto::core::audio::is_audio_processor&lt;... &gt;</a></td></tr>
-<tr class="memdesc:structotto_1_1core_1_1audio_1_1is__audio__processor"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a type qualifies as an &lt;AudioProcessor&gt;  <a href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1is__audio__processor">More...</a><br /></td></tr>
-<tr class="separator:structotto_1_1core_1_1audio_1_1is__audio__processor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:structotto_1_1core_1_1audio_1_1audio__frame__channels"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1audio.html#structotto_1_1core_1_1audio_1_1audio__frame__channels">otto::core::audio::audio_frame_channels&lt; T &gt;</a></td></tr>
-<tr class="separator:structotto_1_1core_1_1audio_1_1audio__frame__channels"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1audio__frame__channels_3_01std_1_1array_3_01float_00_01_n_01_4_01_4.html">otto::core::audio::audio_frame_channels&lt; std::array&lt; float, N &gt; &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html">otto::core::audio::AudioBufferHandle</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A handle to an audio buffer.  <a href="structotto_1_1core_1_1audio_1_1_audio_buffer_handle.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_audio_buffer_pool.html">otto::core::audio::AudioBufferPool</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1audio_1_1_process_data.html">otto::core::audio::ProcessData&lt; N &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-owning package of data passed to audio processors.  <a href="structotto_1_1core_1_1audio_1_1_process_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,35 +121,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae467b8196ac23ea0944037e76dd4bacb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1core_1_1audio.html#ae467b8196ac23ea0944037e76dd4bacb">otto::core::audio::TestType</a> = <a class="elRef" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt; struct Tag &gt;</td></tr>
 <tr class="separator:ae467b8196ac23ea0944037e76dd4bacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/><h2 class="groupheader">Class Documentation</h2>
-<a name="structotto_1_1core_1_1audio_1_1is__audio__processor" id="structotto_1_1core_1_1audio_1_1is__audio__processor"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1core_1_1audio_1_1is__audio__processor">&#9670;&nbsp;</a></span>otto::core::audio::is_audio_processor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct otto::core::audio::is_audio_processor</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a name="structotto_1_1core_1_1audio_1_1audio__frame__channels" id="structotto_1_1core_1_1audio_1_1audio__frame__channels"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#structotto_1_1core_1_1audio_1_1audio__frame__channels">&#9670;&nbsp;</a></span>otto::core::audio::audio_frame_channels</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct otto::core::audio::audio_frame_channels</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

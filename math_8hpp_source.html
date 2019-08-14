@@ -139,7 +139,15 @@
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">float</span> bx = ((28 * x2 + 3150.f) * x2 + 62370) * x2 + 135135;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> ax / bx;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;} <span class="comment">// namespace otto::util::math</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="namespaceotto_1_1util_1_1math.html#afe433d25621fce772ec95401ce7642b1">   76</a></span>&#160;  <span class="keyword">inline</span> <span class="keywordtype">float</span> <a class="code" href="namespaceotto_1_1util_1_1math.html#afe433d25621fce772ec95401ce7642b1">fastatan</a>( <span class="keyword">const</span> <span class="keywordtype">float</span> x)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">float</span> a1 = (M_PI / 4.f) * x;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">float</span> a2 = 0.273f * x * (1.f - std::abs(x));</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">return</span> a1 + a2;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}<span class="comment">// namespace otto::util::math</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->

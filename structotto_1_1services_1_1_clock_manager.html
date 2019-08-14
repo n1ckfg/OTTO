@@ -69,15 +69,12 @@
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="structotto_1_1services_1_1_clock_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">otto::services::ClockManager Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">otto::services::ClockManager Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -99,36 +96,35 @@
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html">Client</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac15ec869f19b94ed61c92f5eac4e72db"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a> { <a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72dbad1efad72dc5b17dc66a46767c32fff40">Source::internal</a>, 
-<a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72dbaa5f4ed7e858bf18cc1f2c0e35e7301e7">Source::midi</a>, 
-<a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72dba63ad9d34f3503826e5f649ae6b7ac92c">Source::sync</a>
- }</td></tr>
-<tr class="memdesc:ac15ec869f19b94ed61c92f5eac4e72db"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source currently controling the clock.  <a href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">More...</a><br /></td></tr>
-<tr class="separator:ac15ec869f19b94ed61c92f5eac4e72db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed62c2367552283fed4d78559c43a506"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#aed62c2367552283fed4d78559c43a506">Time</a> = type_safe::strong_typedef&lt; struct TimeTag, float &gt;</td></tr>
-<tr class="separator:aed62c2367552283fed4d78559c43a506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfce8ef877a7b076cede1846e9f24161"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#acfce8ef877a7b076cede1846e9f24161">ClockCounter</a> = <a class="el" href="structotto_1_1core_1_1clock_1_1_clock_counter.html">core::clock::ClockCounter</a></td></tr>
+<tr class="separator:acfce8ef877a7b076cede1846e9f24161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205a691dbd9822feec085b006a3ce71b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">ClockRange</a> = <a class="el" href="structotto_1_1core_1_1clock_1_1_clock_range.html">core::clock::ClockRange</a></td></tr>
+<tr class="separator:a205a691dbd9822feec085b006a3ce71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0bd3366430683c14ec960e7be0f3792"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac0bd3366430683c14ec960e7be0f3792">Time</a> = <a class="el" href="namespaceotto_1_1core_1_1clock.html#aa99f84b1279607863795145177fae0ee">core::clock::Time</a></td></tr>
+<tr class="separator:ac0bd3366430683c14ec960e7be0f3792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7ddb64db84fab4c00ca65f9ff621010d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="structotto_1_1services_1_1_clock_manager.html#aed62c2367552283fed4d78559c43a506">Time</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a7ddb64db84fab4c00ca65f9ff621010d">current_time</a> ()=0</td></tr>
-<tr class="memdesc:a7ddb64db84fab4c00ca65f9ff621010d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current time.  <a href="structotto_1_1services_1_1_clock_manager.html#a7ddb64db84fab4c00ca65f9ff621010d">More...</a><br /></td></tr>
-<tr class="separator:a7ddb64db84fab4c00ca65f9ff621010d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57d6e03402162f0dc8baba99469c7fa5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a57d6e03402162f0dc8baba99469c7fa5">running</a> ()=0</td></tr>
-<tr class="memdesc:a57d6e03402162f0dc8baba99469c7fa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the clock is running.  <a href="structotto_1_1services_1_1_clock_manager.html#a57d6e03402162f0dc8baba99469c7fa5">More...</a><br /></td></tr>
-<tr class="separator:a57d6e03402162f0dc8baba99469c7fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae54ab9216764ddcf74f96e9eee72ccf4"><td class="memItemLeft" align="right" valign="top">tl::optional&lt; <a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html">Client</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ae54ab9216764ddcf74f96e9eee72ccf4">request_client</a> (<a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a> s)</td></tr>
-<tr class="memdesc:ae54ab9216764ddcf74f96e9eee72ccf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request a client to manage the clock.  <a href="structotto_1_1services_1_1_clock_manager.html#ae54ab9216764ddcf74f96e9eee72ccf4">More...</a><br /></td></tr>
-<tr class="separator:ae54ab9216764ddcf74f96e9eee72ccf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b0dec2db76ea982c8b435b9a556a232"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a5b0dec2db76ea982c8b435b9a556a232">active_source</a> () const noexcept</td></tr>
-<tr class="memdesc:a5b0dec2db76ea982c8b435b9a556a232"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source that last started the clock.  <a href="structotto_1_1services_1_1_clock_manager.html#a5b0dec2db76ea982c8b435b9a556a232">More...</a><br /></td></tr>
-<tr class="separator:a5b0dec2db76ea982c8b435b9a556a232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeda96b6bd397b8437166a214a0c2f944"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#aeda96b6bd397b8437166a214a0c2f944">ClockManager</a> () noexcept</td></tr>
+<tr class="separator:aeda96b6bd397b8437166a214a0c2f944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af770107eaeb0f9bdb7289097cd3d2c4b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#af770107eaeb0f9bdb7289097cd3d2c4b">bpm</a> () const noexcept</td></tr>
+<tr class="separator:af770107eaeb0f9bdb7289097cd3d2c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e6fc12b55af157f636b035e06b1c2ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a5e6fc12b55af157f636b035e06b1c2ab">samples_pr_beat</a> () const noexcept</td></tr>
+<tr class="separator:a5e6fc12b55af157f636b035e06b1c2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec0febe3290183a6bf45995bc8a5ed3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#aec0febe3290183a6bf45995bc8a5ed3d">running</a> () const noexcept</td></tr>
+<tr class="separator:aec0febe3290183a6bf45995bc8a5ed3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c37cd6984e700ea760e574c52c92f2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a0c37cd6984e700ea760e574c52c92f2c">set_bpm</a> (float <a class="el" href="structotto_1_1services_1_1_clock_manager.html#af770107eaeb0f9bdb7289097cd3d2c4b">bpm</a>) noexcept</td></tr>
+<tr class="separator:a0c37cd6984e700ea760e574c52c92f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6993b56c4e9e612580fb761e1529dbaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a6993b56c4e9e612580fb761e1529dbaa">start</a> () noexcept</td></tr>
+<tr class="separator:a6993b56c4e9e612580fb761e1529dbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ee651fda26876bea8a8cef2ba58755"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a27ee651fda26876bea8a8cef2ba58755">stop</a> (bool <a class="el" href="structotto_1_1services_1_1_clock_manager.html#a58cb8c92a7b3b529378570c5371c5bd8">reset</a>=true) noexcept</td></tr>
+<tr class="separator:a27ee651fda26876bea8a8cef2ba58755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58cb8c92a7b3b529378570c5371c5bd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a58cb8c92a7b3b529378570c5371c5bd8">reset</a> () noexcept</td></tr>
+<tr class="separator:a58cb8c92a7b3b529378570c5371c5bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af07da65f536e461f6a9467e3c132c8ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">ClockRange</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#af07da65f536e461f6a9467e3c132c8ab">step_frames</a> (int nframes)</td></tr>
+<tr class="separator:af07da65f536e461f6a9467e3c132c8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structotto_1_1core_1_1_service"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structotto_1_1core_1_1_service')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structotto_1_1core_1_1_service.html">otto::core::Service</a></td></tr>
 <tr class="memitem:ae5c0f4d23d16f0ef33f57f506af9b5f4 inherit pub_methods_structotto_1_1core_1_1_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1core_1_1_service.html#ae5c0f4d23d16f0ef33f57f506af9b5f4">Service</a> ()=default</td></tr>
 <tr class="separator:ae5c0f4d23d16f0ef33f57f506af9b5f4 inherit pub_methods_structotto_1_1core_1_1_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,43 +141,20 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af649cb667175c9fa26d752aa2a1398b2"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1services_1_1_clock_manager.html">ClockManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#af649cb667175c9fa26d752aa2a1398b2">create_default</a> ()</td></tr>
-<tr class="memdesc:af649cb667175c9fa26d752aa2a1398b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an instance of the default clock manager.  <a href="structotto_1_1services_1_1_clock_manager.html#af649cb667175c9fa26d752aa2a1398b2">More...</a><br /></td></tr>
-<tr class="separator:af649cb667175c9fa26d752aa2a1398b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97e3eb203e14b28cde4311ea0d8bcab7"><td class="memItemLeft" align="right" valign="top">static <a class="elRef" href="http://en.cppreference.com/w/cpp/memory/unique_ptr.html">std::unique_ptr</a>&lt; <a class="el" href="structotto_1_1services_1_1_clock_manager.html">ClockManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a97e3eb203e14b28cde4311ea0d8bcab7">create_default</a> () noexcept</td></tr>
+<tr class="separator:a97e3eb203e14b28cde4311ea0d8bcab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2a1085aafe81d978da53d1a42c15e50"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structotto_1_1services_1_1_clock_manager.html">ClockManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#aa2a1085aafe81d978da53d1a42c15e50">current</a> () noexcept</td></tr>
 <tr class="separator:aa2a1085aafe81d978da53d1a42c15e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:add2aecb1f5aa51a8b1eef4a27a5fa1b8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#add2aecb1f5aa51a8b1eef4a27a5fa1b8">start</a> (<a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a>)=0</td></tr>
-<tr class="memdesc:add2aecb1f5aa51a8b1eef4a27a5fa1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the clock, implementation.  <a href="structotto_1_1services_1_1_clock_manager.html#add2aecb1f5aa51a8b1eef4a27a5fa1b8">More...</a><br /></td></tr>
-<tr class="separator:add2aecb1f5aa51a8b1eef4a27a5fa1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a431124622cc6ab423516dc4e25a4cf75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a431124622cc6ab423516dc4e25a4cf75">stop</a> ()=0</td></tr>
-<tr class="memdesc:a431124622cc6ab423516dc4e25a4cf75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the clock, implementation.  <a href="structotto_1_1services_1_1_clock_manager.html#a431124622cc6ab423516dc4e25a4cf75">More...</a><br /></td></tr>
-<tr class="separator:a431124622cc6ab423516dc4e25a4cf75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75c230380da04e47e0c52d9cedf1d666"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a75c230380da04e47e0c52d9cedf1d666">set_bpm</a> ()=0</td></tr>
-<tr class="memdesc:a75c230380da04e47e0c52d9cedf1d666"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the bpm, implementation.  <a href="structotto_1_1services_1_1_clock_manager.html#a75c230380da04e47e0c52d9cedf1d666">More...</a><br /></td></tr>
-<tr class="separator:a75c230380da04e47e0c52d9cedf1d666"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dc18dacc5c683ceedc3bb3690f44a36"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a6dc18dacc5c683ceedc3bb3690f44a36">set_current</a> (<a class="el" href="structotto_1_1services_1_1_clock_manager.html#aed62c2367552283fed4d78559c43a506">Time</a>)=0</td></tr>
-<tr class="memdesc:a6dc18dacc5c683ceedc3bb3690f44a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current time, implementation.  <a href="structotto_1_1services_1_1_clock_manager.html#a6dc18dacc5c683ceedc3bb3690f44a36">More...</a><br /></td></tr>
-<tr class="separator:a6dc18dacc5c683ceedc3bb3690f44a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a2ab4e07b78487bd1f2dee1cf1ffe1e9a"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; bool, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a2ab4e07b78487bd1f2dee1cf1ffe1e9a">_client_exists</a></td></tr>
-<tr class="separator:a2ab4e07b78487bd1f2dee1cf1ffe1e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40da751ef22b4a39d611ed85c264115a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a40da751ef22b4a39d611ed85c264115a">_active_source</a> = <a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72dbad1efad72dc5b17dc66a46767c32fff40">Source::internal</a></td></tr>
-<tr class="separator:a40da751ef22b4a39d611ed85c264115a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="aed62c2367552283fed4d78559c43a506"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed62c2367552283fed4d78559c43a506">&#9670;&nbsp;</a></span>Time</h2>
+<a id="acfce8ef877a7b076cede1846e9f24161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfce8ef877a7b076cede1846e9f24161">&#9670;&nbsp;</a></span>ClockCounter</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structotto_1_1services_1_1_clock_manager.html#aed62c2367552283fed4d78559c43a506">otto::services::ClockManager::Time</a> =  type_safe::strong_typedef&lt;struct TimeTag, float&gt;</td>
+          <td class="memname">using <a class="el" href="structotto_1_1services_1_1_clock_manager.html#acfce8ef877a7b076cede1846e9f24161">otto::services::ClockManager::ClockCounter</a> =  <a class="el" href="structotto_1_1core_1_1clock_1_1_clock_counter.html">core::clock::ClockCounter</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -190,41 +163,41 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="ac15ec869f19b94ed61c92f5eac4e72db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac15ec869f19b94ed61c92f5eac4e72db">&#9670;&nbsp;</a></span>Source</h2>
+<a id="a205a691dbd9822feec085b006a3ce71b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a205a691dbd9822feec085b006a3ce71b">&#9670;&nbsp;</a></span>ClockRange</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">otto::services::ClockManager::Source</a></td>
+          <td class="memname">using <a class="el" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">otto::services::ClockManager::ClockRange</a> =  <a class="el" href="structotto_1_1core_1_1clock_1_1_clock_range.html">core::clock::ClockRange</a></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>The source currently controling the clock. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac15ec869f19b94ed61c92f5eac4e72dbad1efad72dc5b17dc66a46767c32fff40"></a>internal&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac15ec869f19b94ed61c92f5eac4e72dbaa5f4ed7e858bf18cc1f2c0e35e7301e7"></a>midi&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac15ec869f19b94ed61c92f5eac4e72dba63ad9d34f3503826e5f649ae6b7ac92c"></a>sync&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00021">21</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00019">19</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7ddb64db84fab4c00ca65f9ff621010d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ddb64db84fab4c00ca65f9ff621010d">&#9670;&nbsp;</a></span>current_time()</h2>
+<a id="ac0bd3366430683c14ec960e7be0f3792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bd3366430683c14ec960e7be0f3792">&#9670;&nbsp;</a></span>Time</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac0bd3366430683c14ec960e7be0f3792">otto::services::ClockManager::Time</a> =  <a class="el" href="namespaceotto_1_1core_1_1clock.html#aa99f84b1279607863795145177fae0ee">core::clock::Time</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00020">20</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeda96b6bd397b8437166a214a0c2f944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeda96b6bd397b8437166a214a0c2f944">&#9670;&nbsp;</a></span>ClockManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,86 +206,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="structotto_1_1services_1_1_clock_manager.html#aed62c2367552283fed4d78559c43a506">Time</a> otto::services::ClockManager::current_time </td>
+          <td class="memname">otto::services::ClockManager::ClockManager </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get the current time. </p>
-
-</div>
-</div>
-<a id="a57d6e03402162f0dc8baba99469c7fa5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57d6e03402162f0dc8baba99469c7fa5">&#9670;&nbsp;</a></span>running()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool otto::services::ClockManager::running </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Whether the clock is running. </p>
-
-</div>
-</div>
-<a id="ae54ab9216764ddcf74f96e9eee72ccf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae54ab9216764ddcf74f96e9eee72ccf4">&#9670;&nbsp;</a></span>request_client()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">tl::optional&lt;<a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html">Client</a>&gt; otto::services::ClockManager::request_client </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a>&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Request a client to manage the clock. </p>
-<p>Multiple clients can exist, but only one for each source type.</p>
-<dl class="section return"><dt>Returns</dt><dd>tl::nullopt if a client for the specified source has already been requested. Otherwise, a new client. </dd></dl>
-
-</div>
-</div>
-<a id="a5b0dec2db76ea982c8b435b9a556a232"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b0dec2db76ea982c8b435b9a556a232">&#9670;&nbsp;</a></span>active_source()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a> otto::services::ClockManager::active_source </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
         </tr>
       </table>
   </td>
@@ -322,12 +219,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The source that last started the clock. </p>
-
 </div>
 </div>
-<a id="af649cb667175c9fa26d752aa2a1398b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af649cb667175c9fa26d752aa2a1398b2">&#9670;&nbsp;</a></span>create_default()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a97e3eb203e14b28cde4311ea0d8bcab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97e3eb203e14b28cde4311ea0d8bcab7">&#9670;&nbsp;</a></span>create_default()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,12 +240,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Create an instance of the default clock manager. </p>
+<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00026">26</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="dummy__services_8hpp_source.html#l00142">otto::services::test::make_dummy_application()</a>, and <a class="el" href="dummy__services_8hpp_source.html#l00156">otto::services::test::make_dummy_application_default_engines()</a>.</p>
 
@@ -378,14 +274,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00047">47</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00031">31</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="application_8hpp_source.html#l00110">otto::services::Application::clock_manager</a>, and <a class="el" href="structotto_1_1services_1_1_application.html#afdb5a5219877750e5104232099a8f23a">otto::services::Application::current()</a>.</p>
 
 </div>
 </div>
-<a id="add2aecb1f5aa51a8b1eef4a27a5fa1b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add2aecb1f5aa51a8b1eef4a27a5fa1b8">&#9670;&nbsp;</a></span>start()</h2>
+<a id="af770107eaeb0f9bdb7289097cd3d2c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af770107eaeb0f9bdb7289097cd3d2c4b">&#9670;&nbsp;</a></span>bpm()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,27 +290,124 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void otto::services::ClockManager::start </td>
+          <td class="memname">float otto::services::ClockManager::bpm </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e6fc12b55af157f636b035e06b1c2ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e6fc12b55af157f636b035e06b1c2ab">&#9670;&nbsp;</a></span>samples_pr_beat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int otto::services::ClockManager::samples_pr_beat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec0febe3290183a6bf45995bc8a5ed3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec0febe3290183a6bf45995bc8a5ed3d">&#9670;&nbsp;</a></span>running()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otto::services::ClockManager::running </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c37cd6984e700ea760e574c52c92f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c37cd6984e700ea760e574c52c92f2c">&#9670;&nbsp;</a></span>set_bpm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::services::ClockManager::set_bpm </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>bpm</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6993b56c4e9e612580fb761e1529dbaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6993b56c4e9e612580fb761e1529dbaa">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::services::ClockManager::start </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Start the clock, implementation. </p>
-<p>Called by <a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html#a4a4ea84a0596b92480380e7b936537dd">Client::start</a> </p>
-
 </div>
 </div>
-<a id="a431124622cc6ab423516dc4e25a4cf75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a431124622cc6ab423516dc4e25a4cf75">&#9670;&nbsp;</a></span>stop()</h2>
+<a id="a27ee651fda26876bea8a8cef2ba58755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ee651fda26876bea8a8cef2ba58755">&#9670;&nbsp;</a></span>stop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -423,7 +416,33 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void otto::services::ClockManager::stop </td>
+          <td class="memname">void otto::services::ClockManager::stop </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58cb8c92a7b3b529378570c5371c5bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58cb8c92a7b3b529378570c5371c5bd8">&#9670;&nbsp;</a></span>reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void otto::services::ClockManager::reset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -431,119 +450,28 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Stop the clock, implementation. </p>
-<p>Called by <a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html#a4a4ea84a0596b92480380e7b936537dd">Client::start</a> </p>
-
 </div>
 </div>
-<a id="a75c230380da04e47e0c52d9cedf1d666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75c230380da04e47e0c52d9cedf1d666">&#9670;&nbsp;</a></span>set_bpm()</h2>
+<a id="af07da65f536e461f6a9467e3c132c8ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07da65f536e461f6a9467e3c132c8ab">&#9670;&nbsp;</a></span>step_frames()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void otto::services::ClockManager::set_bpm </td>
+          <td class="memname"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">ClockRange</a> otto::services::ClockManager::step_frames </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nframes</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Set the bpm, implementation. </p>
-<p>Called by <a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html#afc697368eca33270b2c980ab6bfd1b8f">Client::set_bpm</a> </p>
-
-</div>
-</div>
-<a id="a6dc18dacc5c683ceedc3bb3690f44a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dc18dacc5c683ceedc3bb3690f44a36">&#9670;&nbsp;</a></span>set_current()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void otto::services::ClockManager::set_current </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#aed62c2367552283fed4d78559c43a506">Time</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set current time, implementation. </p>
-<p>Called by <a class="el" href="structotto_1_1services_1_1_clock_manager_1_1_client.html#a8f3859ef4c6f4b5515ef14562c5756a5">Client::set_current</a> </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2ab4e07b78487bd1f2dee1cf1ffe1e9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ab4e07b78487bd1f2dee1cf1ffe1e9a">&#9670;&nbsp;</a></span>_client_exists</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="elRef" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt;bool, 3&gt; otto::services::ClockManager::_client_exists</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00072">72</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a40da751ef22b4a39d611ed85c264115a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40da751ef22b4a39d611ed85c264115a">&#9670;&nbsp;</a></span>_active_source</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72db">Source</a> otto::services::ClockManager::_active_source = <a class="el" href="structotto_1_1services_1_1_clock_manager.html#ac15ec869f19b94ed61c92f5eac4e72dbad1efad72dc5b17dc66a46767c32fff40">Source::internal</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="clock__manager_8hpp_source.html#l00073">73</a> of file <a class="el" href="clock__manager_8hpp_source.html">clock_manager.hpp</a>.</p>
 
 </div>
 </div>
