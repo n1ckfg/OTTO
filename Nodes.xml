@@ -4575,90 +4575,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>ExampleFX</Name>
-                <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Props</Name>
-                  <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>DECL_REFLECTION</Name>
-                    <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                    <Anchor>aeb715354c7321f39c35afd7ab5a00463</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>flt_freq</Name>
-                    <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                    <Anchor>a7ed1f5b73980d457d49c39a35e8312e1</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>ExampleFX</Name>
-                  <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                  <Anchor>a02bcf50962cd3e7e972132802ac4f274</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>process</Name>
-                  <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                  <Anchor>ad8eec14a253a0836c7689fb03ed60657</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>props</Name>
-                  <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                  <Anchor>aa962c833f0f38cf0a9cd48052e558e0c</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>ExampleSynth</Name>
-                <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>Props</Name>
-                  <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>DECL_REFLECTION</Name>
-                    <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                    <Anchor>aeb9318d72cfececbb1d4faa9bdeab12a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>level</Name>
-                    <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                    <Anchor>ac5fd208294845acebe331d57343939f4</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>ExampleSynth</Name>
-                  <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                  <Anchor>ad0c88c443669f5569237724b31047daf</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>process</Name>
-                  <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                  <Anchor>acc0c5199276a9d3d8ebaa00d8abd362f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>voice_mgr</Name>
-                  <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                  <Anchor>a4ca00e4693ac77dd5e77da67937fb14e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>DECL_REFLECTION</Name>
-                  <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                  <Anchor>af035931fe3f094b82f0dfbffa055095b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>props</Name>
-                  <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                  <Anchor>a466457e096e12f9d710fed9973f113dc</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>GossSynth</Name>
                 <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
                 <Subnodes>
@@ -16610,14 +16526,6 @@
                   <Path>structotto_1_1engines_1_1_euclid.html</Path>
                  </Node>
                  <Node>
-                  <Name>otto::engines::ExampleFX</Name>
-                  <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                 </Node>
-                 <Node>
-                  <Name>otto::engines::ExampleSynth</Name>
-                  <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                 </Node>
-                 <Node>
                   <Name>otto::engines::GossSynth</Name>
                   <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
                  </Node>
@@ -17661,6 +17569,14 @@
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
            </Node>
            <Node>
+            <Name>otto::engines::GossSynth::Props</Name>
+            <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Arp::Props</Name>
+            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
+           </Node>
+           <Node>
             <Name>otto::engines::OTTOFMSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth_1_1_props.html</Path>
            </Node>
@@ -17675,14 +17591,6 @@
            <Node>
             <Name>otto::engines::Chorus::Props</Name>
             <Path>structotto_1_1engines_1_1_chorus_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::Sequencer::Props</Name>
-            <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::ExampleFX::Props</Name>
-            <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Wormhole::Props</Name>
@@ -17701,28 +17609,20 @@
             <Path>structotto_1_1engines_1_1_sends_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Arp::Props</Name>
-            <Path>structotto_1_1engines_1_1_arp_1_1_props.html</Path>
+            <Name>otto::engines::Sequencer::Props</Name>
+            <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Euclid::Props</Name>
             <Path>structotto_1_1engines_1_1_euclid_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::ExampleSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::GossSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
+            <Name>otto::engines::PotionSynth::Props</Name>
+            <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::RhodesSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_rhodes_synth_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::engines::PotionSynth::Props</Name>
-            <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::util::pool_allocator&lt; T &gt;::rebind&lt; U &gt;</Name>
@@ -18075,13 +17975,13 @@
             <Path>structotto_1_1dsp_1_1_simple_pitch_shift.html</Path>
            </Node>
            <Node>
+            <Name>otto::nvg::Size</Name>
+            <Path>structotto_1_1nvg_1_1_size.html</Path>
+           </Node>
+           <Node>
             <Name>otto::board::ui::EGLConnection::Size</Name>
             <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
             <Anchor>structotto_1_1board_1_1ui_1_1_e_g_l_connection_1_1_size</Anchor>
-           </Node>
-           <Node>
-            <Name>otto::nvg::Size</Name>
-            <Path>structotto_1_1nvg_1_1_size.html</Path>
            </Node>
            <Node>
             <Name>otto::util::sleeper_thread</Name>
@@ -18114,12 +18014,12 @@
             <Path>structotto_1_1services_1_1_u_i_manager_1_1_state.html</Path>
            </Node>
            <Node>
-            <Name>otto::engines::Sequencer::PolySequence::Step</Name>
-            <Path>structotto_1_1engines_1_1_sequencer_1_1_poly_sequence_1_1_step.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::Sequencer::MonoSequence::Step</Name>
             <Path>structotto_1_1engines_1_1_sequencer_1_1_mono_sequence_1_1_step.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::engines::Sequencer::PolySequence::Step</Name>
+            <Path>structotto_1_1engines_1_1_sequencer_1_1_poly_sequence_1_1_step.html</Path>
            </Node>
            <Node>
             <Name>StreamingReporterBase</Name>
@@ -18340,10 +18240,6 @@
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_wave_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::util::dsp::Window</Name>
-            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
-           </Node>
-           <Node>
             <Name>otto::glfw::Window</Name>
             <Path>structotto_1_1glfw_1_1_window.html</Path>
             <Subnodes>
@@ -18352,6 +18248,10 @@
               <Path>structotto_1_1glfw_1_1_n_v_g_window.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>otto::util::dsp::Window</Name>
+            <Path>classotto_1_1util_1_1dsp_1_1_window.html</Path>
            </Node>
            <Node>
             <Name>otto::util::wrapping_array&lt; T, N &gt;</Name>
@@ -30261,71 +30161,6 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>example</Name>
-                  <Path>dir_94f4d76d72dd3c283e9edd6f91366b4a.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>fx_example.hpp</Name>
-                    <Path>fx__example_8hpp.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>ExampleFX</Name>
-                      <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>Props</Name>
-                        <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                        <Subnodes>
-                         <Node>
-                          <Name>DECL_REFLECTION</Name>
-                          <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                          <Anchor>aeb715354c7321f39c35afd7ab5a00463</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>flt_freq</Name>
-                          <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                          <Anchor>a7ed1f5b73980d457d49c39a35e8312e1</Anchor>
-                         </Node>
-                        </Subnodes>
-                       </Node>
-                       <Node>
-                        <Name>ExampleFX</Name>
-                        <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                        <Anchor>a02bcf50962cd3e7e972132802ac4f274</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>process</Name>
-                        <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                        <Anchor>ad8eec14a253a0836c7689fb03ed60657</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>props</Name>
-                        <Path>structotto_1_1engines_1_1_example_f_x.html</Path>
-                        <Anchor>aa962c833f0f38cf0a9cd48052e558e0c</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
-                      <Name>Props</Name>
-                      <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>DECL_REFLECTION</Name>
-                        <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                        <Anchor>aeb715354c7321f39c35afd7ab5a00463</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>flt_freq</Name>
-                        <Path>structotto_1_1engines_1_1_example_f_x_1_1_props.html</Path>
-                        <Anchor>a7ed1f5b73980d457d49c39a35e8312e1</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
                   <Name>wormhole</Name>
                   <Path>dir_173478328afa97f8e2842cae76e35c00.html</Path>
                   <Subnodes>
@@ -31662,81 +31497,6 @@
                 <Name>synths</Name>
                 <Path>dir_158d8c6d8cd1a4333a36cb265ec3fef6.html</Path>
                 <Subnodes>
-                 <Node>
-                  <Name>example</Name>
-                  <Path>dir_1a11bfcc7be39e097aacd4be1f7dfdc0.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>synth_example.hpp</Name>
-                    <Path>synth__example_8hpp.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>ExampleSynth</Name>
-                      <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>Props</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                        <Subnodes>
-                         <Node>
-                          <Name>DECL_REFLECTION</Name>
-                          <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                          <Anchor>aeb9318d72cfececbb1d4faa9bdeab12a</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>level</Name>
-                          <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                          <Anchor>ac5fd208294845acebe331d57343939f4</Anchor>
-                         </Node>
-                        </Subnodes>
-                       </Node>
-                       <Node>
-                        <Name>ExampleSynth</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                        <Anchor>ad0c88c443669f5569237724b31047daf</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>process</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                        <Anchor>acc0c5199276a9d3d8ebaa00d8abd362f</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>voice_mgr</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                        <Anchor>a4ca00e4693ac77dd5e77da67937fb14e</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>DECL_REFLECTION</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                        <Anchor>af035931fe3f094b82f0dfbffa055095b</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>props</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth.html</Path>
-                        <Anchor>a466457e096e12f9d710fed9973f113dc</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
-                      <Name>Props</Name>
-                      <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                      <Subnodes>
-                       <Node>
-                        <Name>DECL_REFLECTION</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                        <Anchor>aeb9318d72cfececbb1d4faa9bdeab12a</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>level</Name>
-                        <Path>structotto_1_1engines_1_1_example_synth_1_1_props.html</Path>
-                        <Anchor>ac5fd208294845acebe331d57343939f4</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                  </Subnodes>
-                 </Node>
                  <Node>
                   <Name>goss</Name>
                   <Path>dir_1bac752a002810aadbc2889c5bc2208d.html</Path>
