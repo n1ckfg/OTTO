@@ -372,6 +372,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>validate_audio</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1audio.html</Path>
+    <Anchor>a288024bf9f10afd8f97bc5842d407bb2</Anchor>
+    <DeclaredIn>processor.inl</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SynthEngine</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -22439,6 +22450,17 @@
     <Path>namespaceotto_1_1core_1_1audio.html</Path>
     <Anchor>ae467b8196ac23ea0944037e76dd4bacb</Anchor>
     <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>validate_audio</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1audio.html</Path>
+    <Anchor>a288024bf9f10afd8f97bc5842d407bb2</Anchor>
+    <DeclaredIn>processor.inl</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

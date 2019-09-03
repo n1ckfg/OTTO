@@ -25464,6 +25464,13 @@
                  <Node>
                   <Name>processor.inl</Name>
                   <Path>processor_8inl.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>validate_audio</Name>
+                    <Path>processor_8inl.html</Path>
+                    <Anchor>a288024bf9f10afd8f97bc5842d407bb2</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                  <Node>
                   <Name>waveform.hpp</Name>
