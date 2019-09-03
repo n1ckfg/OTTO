@@ -81,7 +81,7 @@
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef NDEBUG</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; frm : audio) {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;      <span class="keywordflow">if</span> (frm == NAN) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;      <span class="keywordflow">if</span> (<a class="codeRef" href="http://en.cppreference.com/w/cpp/numeric/math/isnan.html">std::isnan</a>(frm)) {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="log__manager_8hpp.html#ae02538a80ad5fc009caec73487d11a8d" title="Shorthand to the loguru macro LOG_F(ERROR, ...)">LOGE</a>(<span class="stringliteral">&quot;ProcessData was constructed with a frame containing NAN&quot;</span>);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;      } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (frm == INFINITY) {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="log__manager_8hpp.html#ae02538a80ad5fc009caec73487d11a8d" title="Shorthand to the loguru macro LOG_F(ERROR, ...)">LOGE</a>(<span class="stringliteral">&quot;ProcessData was constructed with a frame containing INFINITY&quot;</span>);</div>

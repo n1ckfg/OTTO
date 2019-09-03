@@ -379,7 +379,18 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1audio.html</Path>
     <Anchor>a288024bf9f10afd8f97bc5842d407bb2</Anchor>
-    <DeclaredIn>processor.inl</DeclaredIn>
+    <DeclaredIn>processor.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>validate_audio</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::audio</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1core_1_1audio.html</Path>
+    <Anchor>a288024bf9f10afd8f97bc5842d407bb2</Anchor>
+    <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22460,7 +22471,7 @@
     </TokenIdentifier>
     <Path>namespaceotto_1_1core_1_1audio.html</Path>
     <Anchor>a288024bf9f10afd8f97bc5842d407bb2</Anchor>
-    <DeclaredIn>processor.inl</DeclaredIn>
+    <DeclaredIn>processor.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -33013,18 +33024,18 @@
       <Scope>otto::engines::Sequencer::MonoSequence::Step</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sequencer_1_1_mono_sequence_1_1_step.html</Path>
-    <Anchor>a6a2563e05af33001f3545efa517c71dc</Anchor>
+    <Anchor>a39212cf4f56c9851cf26b00dba8d5b62</Anchor>
     <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>note</Name>
+      <Name>trig</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>otto::engines::Sequencer::MonoSequence::Step</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sequencer_1_1_mono_sequence_1_1_step.html</Path>
-    <Anchor>a575becf3e277bf9ad6dff640b72ef7ae</Anchor>
+    <Anchor>af4461179f9e248cca772ddbbed9fe68a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -33158,48 +33169,18 @@
       <Scope>otto::engines::Sequencer::Props</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-    <Anchor>afb2567971b5aa02a6687b9fe4d3c8bfb</Anchor>
+    <Anchor>a749c710e778e2ef30945018755ebdba1</Anchor>
     <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>group0</Name>
+      <Name>sampler_seqs</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>otto::engines::Sequencer::Props</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-    <Anchor>a0f8b969ee4f408d55746e0153ad0dfb2</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>group1</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::Sequencer::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-    <Anchor>ab5412b061bef2157f072b88713ced93d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>group2</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::Sequencer::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-    <Anchor>aa171b9edebea90641d261611b1d1a1b3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>group3</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::Sequencer::Props</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_props.html</Path>
-    <Anchor>ada1cb8ea8a01aafc03832a089a3923ec</Anchor>
+    <Anchor>af7810d570c6a11596e530eba7af3d4bf</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -33233,12 +33214,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>otto::engines::Sequencer::SamplerGroup</Name>
+      <Name>otto::engines::Sequencer::SamplerSequence</Name>
       <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>otto::engines::Sequencer::SamplerGroup</Scope>
+      <Type>cl</Type>
+      <Scope>otto::engines::Sequencer::SamplerSequence</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html</Path>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_sequence.html</Path>
     <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -33246,10 +33227,10 @@
       <Name>DECL_REFLECTION</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::Sequencer::SamplerGroup</Scope>
+      <Scope>otto::engines::Sequencer::SamplerSequence</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html</Path>
-    <Anchor>aad7fbd7e70cf49e65243bec8a41c3b0f</Anchor>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_sequence.html</Path>
+    <Anchor>afc12a9606c5a0fec2570c64e69a2899f</Anchor>
     <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -33257,41 +33238,52 @@
       <Name>process</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>otto::engines::Sequencer::SamplerGroup</Scope>
+      <Scope>otto::engines::Sequencer::SamplerSequence</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html</Path>
-    <Anchor>ad486d61269b928c75b642e790b7b550f</Anchor>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_sequence.html</Path>
+    <Anchor>a3bf0b11813476f50d2043e94466a0873</Anchor>
     <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>samplers</Name>
+      <Name>DECL_REFLECTION</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>otto::engines::Sequencer::SamplerGroup</Scope>
+      <Type>func</Type>
+      <Scope>otto::engines::Sequencer::MonoSequence</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html</Path>
-    <Anchor>a1fad59fda8690c8729e71a36b324e3fe</Anchor>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_mono_sequence.html</Path>
+    <Anchor>a6a7c2e059e72388d565ccd3648e54821</Anchor>
+    <DeclaredIn>sequencer.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>seq</Name>
+      <Name>sampler</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::Sequencer::SamplerGroup</Scope>
+      <Scope>otto::engines::Sequencer::SamplerSequence</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html</Path>
-    <Anchor>ab6e4227aaac0d9e4509984ea0722e9ac</Anchor>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_sequence.html</Path>
+    <Anchor>a53d6c065effacd40de248cf08dc63e71</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>mutes</Name>
+      <Name>muted</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>otto::engines::Sequencer::SamplerGroup</Scope>
+      <Scope>otto::engines::Sequencer::SamplerSequence</Scope>
     </TokenIdentifier>
-    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html</Path>
-    <Anchor>a565acebddda8ec643c415609a0388605</Anchor>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_sampler_sequence.html</Path>
+    <Anchor>a0bac1ea59749f1e20e95086d0603a02d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>steps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::engines::Sequencer::MonoSequence</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1engines_1_1_sequencer_1_1_mono_sequence.html</Path>
+    <Anchor>a1566d2d4a421ab373e60951ffdeef3b7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45366,6 +45358,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>add_args</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::RTAudioAudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
+    <Anchor>a57826f928538bcd8847b06884a31475f</Anchor>
+    <DeclaredIn>audio_driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>log_devices</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::RTAudioAudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
+    <Anchor>a8490239a0e3fd897eda9179fa42f596a</Anchor>
+    <DeclaredIn>audio_driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>AudioManager</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -45552,6 +45566,29 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>current</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::RTAudioAudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
+    <Anchor>a49ac1d60247cc33469d08b67c70902ba</Anchor>
+    <DeclaredIn>audio_driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::AudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
+    <Anchor>af9b138088a8b6a944914e2fcbe49e480</Anchor>
+    <Abstract>Get the current instance of this service.</Abstract>
+    <DeclaredIn>audio_manager.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>process</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -45625,6 +45662,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>device_in_</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::RTAudioAudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
+    <Anchor>aee51212f36869bb495cc640f962b53e3</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>device_out_</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::RTAudioAudioManager</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_r_t_audio_audio_manager.html</Path>
+    <Anchor>a8a1937d4b4edaa5ab8873165ac4d5780</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>midi_bufs</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -45672,18 +45729,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
     <Anchor>a466df1b2e521f693beefc354fbba6520</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>current</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::services::AudioManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-    <Anchor>af9b138088a8b6a944914e2fcbe49e480</Anchor>
-    <Abstract>Get the current instance of this service.</Abstract>
-    <DeclaredIn>audio_manager.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

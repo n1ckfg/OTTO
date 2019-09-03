@@ -150,11 +150,11 @@
 , <a class="el" href="structotto_1_1engines_1_1_sampler_1_1_props.html#a5a89720fd846efba4bbd45eac58b1c09">otto::engines::Sampler::Props</a>
 , <a class="el" href="structotto_1_1engines_1_1_sends_1_1_props.html#adc931f06e5615b5c3873d48dbaba5310">otto::engines::Sends::Props</a>
 , <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_mono_sequence.html#a6a7c2e059e72388d565ccd3648e54821">otto::engines::Sequencer::MonoSequence</a>
-, <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_mono_sequence_1_1_step.html#a6a2563e05af33001f3545efa517c71dc">otto::engines::Sequencer::MonoSequence::Step</a>
+, <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_mono_sequence_1_1_step.html#a39212cf4f56c9851cf26b00dba8d5b62">otto::engines::Sequencer::MonoSequence::Step</a>
 , <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_poly_sequence.html#a2df658e9a0abe82ea583206aaa644399">otto::engines::Sequencer::PolySequence</a>
 , <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_poly_sequence_1_1_step.html#a0018e812651edd36d212f304f20440e8">otto::engines::Sequencer::PolySequence::Step</a>
-, <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_props.html#afb2567971b5aa02a6687b9fe4d3c8bfb">otto::engines::Sequencer::Props</a>
-, <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html#aad7fbd7e70cf49e65243bec8a41c3b0f">otto::engines::Sequencer::SamplerGroup&lt; N &gt;</a>
+, <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_props.html#a749c710e778e2ef30945018755ebdba1">otto::engines::Sequencer::Props</a>
+, <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_sampler_sequence.html#afc12a9606c5a0fec2570c64e69a2899f">otto::engines::Sequencer::SamplerSequence</a>
 , <a class="el" href="structotto_1_1engines_1_1_wormhole_1_1_props.html#a607a3c2d0c96b0c69ebb6ccdd062a105">otto::engines::Wormhole::Props</a>
 , <a class="el" href="structotto_1_1services_1_1_u_i_manager_1_1_state.html#aea97a6663b4e36d4d90c068703775d56">otto::services::UIManager::State</a>
 , <a class="el" href="structotto_1_1util_1_1selectable.html#a86750f0813063f1e240642265ec20a8e">otto::util::selectable&lt; Cont &gt;</a>
@@ -204,6 +204,12 @@
 <li>device
 : <a class="el" href="struct_rt_api_1_1_rt_api_stream.html#a38633b94968f0bde718b6124f91649c4">RtApi::RtApiStream</a>
 </li>
+<li>device_in_
+: <a class="el" href="structotto_1_1services_1_1_r_t_audio_audio_manager.html#aee51212f36869bb495cc640f962b53e3">otto::services::RTAudioAudioManager</a>
+</li>
+<li>device_out_
+: <a class="el" href="structotto_1_1services_1_1_r_t_audio_audio_manager.html#a8a1937d4b4edaa5ab8873165ac4d5780">otto::services::RTAudioAudioManager</a>
+</li>
 <li>deviceBuffer
 : <a class="el" href="struct_rt_api_1_1_rt_api_stream.html#a253293c901cfb48e3d7a7abb76ea80b7">RtApi::RtApiStream</a>
 </li>
@@ -252,7 +258,7 @@
 , <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1icons_1_1_note.html#a08a2df2e6f00fbb239035886a227581c">otto::core::ui::vg::icons::Note</a>
 </li>
 <li>directory_entry()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a1c142a9cbd6897dfd9990ca809db1d06">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#aac9547e0e4522c30051259af0c1b1fac">otto::filesystem::directory_entry</a>
 </li>
 <li>directory_iterator
 : <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a5be6256bef252bb8713f9b7c81d2fa6c">otto::filesystem::directory_entry</a>
@@ -308,7 +314,7 @@
 : <a class="el" href="structotto_1_1util_1_1double__buffered.html#aed3367d3574d66b1ac6bd2fe9aac4e24">otto::util::double_buffered&lt; T, AfterSwap &gt;</a>
 </li>
 <li>double_iterator()
-: <a class="el" href="structotto_1_1util_1_1double__iterator.html#a3d0ee6bc33b40a2ee39cffa8fbb9a9a7">otto::util::double_iterator&lt; Iter &gt;</a>
+: <a class="el" href="structotto_1_1util_1_1double__iterator.html#a2dd2e8a530e28917694f2c1ee1b2612e">otto::util::double_iterator&lt; Iter &gt;</a>
 </li>
 <li>Down
 : <a class="el" href="structotto_1_1core_1_1ui_1_1vg_1_1icons_1_1_arrow.html#a8df354bf6a6b0041a291e5beec4ec769a3a479e3c5d220ddd3c0bd527e0d66cc9">otto::core::ui::vg::icons::Arrow</a>
@@ -328,7 +334,7 @@
 : <a class="el" href="structotto_1_1services_1_1_u_i_manager.html#a6e95e87432ca6e9997d7fa42b05e2f0d">otto::services::UIManager</a>
 </li>
 <li>draw_range()
-: <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#a67e761916e7c619c3de7740fac844c67">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
+: <a class="el" href="structotto_1_1core_1_1ui_1_1widgets_1_1_waveform.html#ab6ff52231f37d0a1f1b0c1c5b8f0bdaa">otto::core::ui::widgets::Waveform&lt; Container &gt;</a>
 </li>
 <li>draw_size
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#ae586678c3ec2d4f17099f46e003655c2">otto::board::ui::EGLConnection</a>

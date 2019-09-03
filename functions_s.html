@@ -85,8 +85,14 @@
 <li>Sampler()
 : <a class="el" href="structotto_1_1engines_1_1_sampler.html#ac158e8c354982a3387743bc7595d918d">otto::engines::Sampler</a>
 </li>
+<li>sampler
+: <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_sampler_sequence.html#a53d6c065effacd40de248cf08dc63e71">otto::engines::Sequencer::SamplerSequence</a>
+</li>
 <li>sampler_screen()
 : <a class="el" href="structotto_1_1engines_1_1_sequencer.html#a4e20fd9ec84f4bbc1ec8e9a13a6abd77">otto::engines::Sequencer</a>
+</li>
+<li>sampler_seqs
+: <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_props.html#af7810d570c6a11596e530eba7af3d4bf">otto::engines::Sequencer::Props</a>
 </li>
 <li>samplerate
 : <a class="el" href="structotto_1_1engines_1_1_sampler_1_1_props.html#a5e9a6351cd690bef4f9c121fc463b380">otto::engines::Sampler::Props</a>
@@ -104,9 +110,6 @@
 </li>
 <li>SamplerEnvelopeScreen
 : <a class="el" href="structotto_1_1engines_1_1_sampler.html#a06f14d73edec3172fb19fd095ccffec6">otto::engines::Sampler</a>
-</li>
-<li>samplers
-: <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html#a1fad59fda8690c8729e71a36b324e3fe">otto::engines::Sequencer::SamplerGroup&lt; N &gt;</a>
 </li>
 <li>SamplerScreen
 : <a class="el" href="structotto_1_1engines_1_1_sampler.html#a4b658f77bde19f54cbf90cea244f5f66">otto::engines::Sampler</a>
@@ -133,7 +136,7 @@
 : <a class="el" href="structotto_1_1nvg_1_1_paint.html#aabe73e479d4d940ba8f674c97673d83b">otto::nvg::Paint</a>
 </li>
 <li>screen()
-: <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#acee8ecb3bc404f484cebb6047f02e5ea">otto::core::engine::IEngine</a>
+: <a class="el" href="structotto_1_1core_1_1engine_1_1_i_engine.html#a67d393d34b2f2e61568ab4fbb7c4ee53">otto::core::engine::IEngine</a>
 </li>
 <li>Screen()
 : <a class="el" href="structotto_1_1core_1_1ui_1_1_screen.html#adce968b280300fda0c51f7fe3b018729">otto::core::ui::Screen</a>
@@ -195,13 +198,10 @@
 </li>
 <li>sendMessage()
 : <a class="el" href="class_midi_out_api.html#a2f246831dae3ade64a8f09f902fe60ec">MidiOutApi</a>
-, <a class="el" href="class_rt_midi_out.html#a1e71b6498da083e9c0e46084d3521679">RtMidiOut</a>
+, <a class="el" href="class_rt_midi_out.html#a19c7049a840a0181a0ddd4b14e99c651">RtMidiOut</a>
 </li>
 <li>Sends()
 : <a class="el" href="structotto_1_1engines_1_1_sends.html#a85e8c4eeda665746d6bad8fcdc67f245">otto::engines::Sends</a>
-</li>
-<li>seq
-: <a class="el" href="structotto_1_1engines_1_1_sequencer_1_1_sampler_group.html#ab6e4227aaac0d9e4509984ea0722e9ac">otto::engines::Sequencer::SamplerGroup&lt; N &gt;</a>
 </li>
 <li>SeqScreen
 : <a class="el" href="structotto_1_1engines_1_1_sequencer.html#a6f321640b1de570f13a88957e3f0220c">otto::engines::Sequencer</a>
@@ -545,7 +545,7 @@
 : <a class="el" href="structotto_1_1nvg_1_1_canvas.html#a808627c42a7bfcfb6875ae487ea44d44">otto::nvg::Canvas</a>
 </li>
 <li>strokeStyle()
-: <a class="el" href="structotto_1_1nvg_1_1_canvas.html#a4f52f76c8f0d8ab35de15d80eb95ab6c">otto::nvg::Canvas</a>
+: <a class="el" href="structotto_1_1nvg_1_1_canvas.html#aae5589b8d8329cbccc5c571d9e8e2081">otto::nvg::Canvas</a>
 </li>
 <li>sub
 : <a class="el" href="structotto_1_1core_1_1voices_1_1details_1_1_settings_props.html#a690a362e8b113a342dca0a7e44659b05">otto::core::voices::details::SettingsProps</a>
@@ -576,7 +576,7 @@
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#aee419c7831f49f0083b48829b1eeadd2">otto::board::ui::EGLConnection::EGLState</a>
 </li>
 <li>sustain()
-: <a class="el" href="class_a_d_s_r__lite.html#a461c4b53c93db21667ce738fa8e167bf">ADSR_lite&lt; Tv, Tp, Td &gt;</a>
+: <a class="el" href="class_a_d_s_r__lite.html#abe02824b141be4081bc550e32979f433">ADSR_lite&lt; Tv, Tp, Td &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html#af51163e3437dba522ab851011b912dca">otto::core::voices::details::EnvelopeProps</a>
 </li>
 <li>sustainDisable()
@@ -586,7 +586,7 @@
 : <a class="el" href="class_env__lite.html#a612eb7b695db511b4d44c0eae46e67e1">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
 </li>
 <li>sustainPoint()
-: <a class="el" href="class_env__lite.html#aa130d95c593c9ce08a451714a790b741">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
+: <a class="el" href="class_env__lite.html#a83b7c292047640d5949511e4e0a94783">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
 </li>
 <li>swap()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ada80d229a4e936955c5e4c4c4eebeb62">otto::filesystem::path</a>

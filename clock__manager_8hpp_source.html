@@ -80,54 +80,55 @@
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="clock_8hpp.html">core/audio/clock.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="service_8hpp.html">core/service.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="application_8hpp.html">services/application.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceotto_1_1services.html">otto::services</a> {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html">   17</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structotto_1_1services_1_1_clock_manager.html" title="The service managing the clock.">ClockManager</a> : <a class="code" href="structotto_1_1core_1_1_service.html">core::Service</a> {</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#acfce8ef877a7b076cede1846e9f24161">   18</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_counter.html">ClockCounter</a> = <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_counter.html">core::clock::ClockCounter</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">   19</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_range.html">ClockRange</a> = <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_range.html">core::clock::ClockRange</a>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#ac0bd3366430683c14ec960e7be0f3792">   20</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#ac0bd3366430683c14ec960e7be0f3792">Time</a> = <a class="code" href="namespaceotto_1_1core_1_1clock.html#aa99f84b1279607863795145177fae0ee">core::clock::Time</a>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">// Initialization //</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="structotto_1_1services_1_1_clock_manager.html#aeda96b6bd397b8437166a214a0c2f944">ClockManager</a>() noexcept;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#a97e3eb203e14b28cde4311ea0d8bcab7">   26</a></span>&#160;    static <a class="code" href="namespacestd.html" title="STL namespace.">std</a>::unique_ptr&lt;<a class="code" href="structotto_1_1services_1_1_clock_manager.html" title="The service managing the clock.">ClockManager</a>&gt; <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a97e3eb203e14b28cde4311ea0d8bcab7">create_default</a>() noexcept</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;      <span class="keywordflow">return</span> std::make_unique&lt;ClockManager&gt;();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#aa2a1085aafe81d978da53d1a42c15e50">   31</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html" title="The service managing the clock.">ClockManager</a>&amp; <a class="code" href="structotto_1_1services_1_1_clock_manager.html#aa2a1085aafe81d978da53d1a42c15e50">current</a>() noexcept {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="keywordflow">return</span> *<a class="code" href="structotto_1_1services_1_1_application.html#afdb5a5219877750e5104232099a8f23a" title="The current Application.">Application::current</a>().<a class="code" href="structotto_1_1services_1_1_application.html#afe9a81f13c963ffa7b744469bdb686da">clock_manager</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// Member funcs //</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// Accessors //</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#af770107eaeb0f9bdb7289097cd3d2c4b">bpm</a>() const noexcept;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a5e6fc12b55af157f636b035e06b1c2ab">samples_pr_beat</a>() const noexcept;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#aec0febe3290183a6bf45995bc8a5ed3d">running</a>() const noexcept;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// Modifiers //</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a0c37cd6984e700ea760e574c52c92f2c">set_bpm</a>(<span class="keywordtype">float</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#af770107eaeb0f9bdb7289097cd3d2c4b">bpm</a>) noexcept;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a6993b56c4e9e612580fb761e1529dbaa">start</a>() noexcept;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a27ee651fda26876bea8a8cef2ba58755">stop</a>(<span class="keywordtype">bool</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a58cb8c92a7b3b529378570c5371c5bd8">reset</a> = true) noexcept;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a58cb8c92a7b3b529378570c5371c5bd8">reset</a>() noexcept;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">ClockRange</a> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#af07da65f536e461f6a9467e3c132c8ab">step_frames</a>(<span class="keywordtype">int</span> nframes);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  private:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">bool</span> running_ = false;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">float</span> bpm_ = 0;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">int</span> samples_pr_beat_ = 0;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="structotto_1_1services_1_1_clock_manager.html#acfce8ef877a7b076cede1846e9f24161">ClockCounter</a> counter_;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  };</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="props_8hpp.html">core/props/props.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="application_8hpp.html">services/application.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceotto_1_1services.html">otto::services</a> {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html">   18</a></span>&#160;  <span class="keyword">struct </span><a class="code" href="structotto_1_1services_1_1_clock_manager.html" title="The service managing the clock.">ClockManager</a> : <a class="code" href="structotto_1_1core_1_1_service.html">core::Service</a> {</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#acfce8ef877a7b076cede1846e9f24161">   19</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_counter.html">ClockCounter</a> = <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_counter.html">core::clock::ClockCounter</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">   20</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_range.html">ClockRange</a> = <a class="code" href="structotto_1_1core_1_1clock_1_1_clock_range.html">core::clock::ClockRange</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#ac0bd3366430683c14ec960e7be0f3792">   21</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#ac0bd3366430683c14ec960e7be0f3792">Time</a> = <a class="code" href="namespaceotto_1_1core_1_1clock.html#aa99f84b1279607863795145177fae0ee">core::clock::Time</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">// Initialization //</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="structotto_1_1services_1_1_clock_manager.html#aeda96b6bd397b8437166a214a0c2f944">ClockManager</a>() noexcept;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#a97e3eb203e14b28cde4311ea0d8bcab7">   27</a></span>&#160;    static <a class="code" href="namespacestd.html" title="STL namespace.">std</a>::unique_ptr&lt;<a class="code" href="structotto_1_1services_1_1_clock_manager.html" title="The service managing the clock.">ClockManager</a>&gt; <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a97e3eb203e14b28cde4311ea0d8bcab7">create_default</a>() noexcept</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keywordflow">return</span> std::make_unique&lt;ClockManager&gt;();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structotto_1_1services_1_1_clock_manager.html#aa2a1085aafe81d978da53d1a42c15e50">   32</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html" title="The service managing the clock.">ClockManager</a>&amp; <a class="code" href="structotto_1_1services_1_1_clock_manager.html#aa2a1085aafe81d978da53d1a42c15e50">current</a>() noexcept {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keywordflow">return</span> *<a class="code" href="structotto_1_1services_1_1_application.html#afdb5a5219877750e5104232099a8f23a" title="The current Application.">Application::current</a>().<a class="code" href="structotto_1_1services_1_1_application.html#afe9a81f13c963ffa7b744469bdb686da">clock_manager</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// Member funcs //</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// Accessors //</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#af770107eaeb0f9bdb7289097cd3d2c4b">bpm</a>() const noexcept;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a5e6fc12b55af157f636b035e06b1c2ab">samples_pr_beat</a>() const noexcept;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#aec0febe3290183a6bf45995bc8a5ed3d">running</a>() const noexcept;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// Modifiers //</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a0c37cd6984e700ea760e574c52c92f2c">set_bpm</a>(<span class="keywordtype">float</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#af770107eaeb0f9bdb7289097cd3d2c4b">bpm</a>) noexcept;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a6993b56c4e9e612580fb761e1529dbaa">start</a>() noexcept;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a27ee651fda26876bea8a8cef2ba58755">stop</a>(<span class="keywordtype">bool</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a58cb8c92a7b3b529378570c5371c5bd8">reset</a> = true) noexcept;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a58cb8c92a7b3b529378570c5371c5bd8">reset</a>() noexcept;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="structotto_1_1services_1_1_clock_manager.html#a205a691dbd9822feec085b006a3ce71b">ClockRange</a> <a class="code" href="structotto_1_1services_1_1_clock_manager.html#af07da65f536e461f6a9467e3c132c8ab">step_frames</a>(<span class="keywordtype">int</span> nframes);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  private:</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">bool</span> running_ = false;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">float</span> bpm_ = 0;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">int</span> samples_pr_beat_ = 0;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="structotto_1_1services_1_1_clock_manager.html#acfce8ef877a7b076cede1846e9f24161">ClockCounter</a> counter_;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  };</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;} <span class="comment">// namespace otto::services</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;} <span class="comment">// namespace otto::services</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
 <!-- start footer part -->
