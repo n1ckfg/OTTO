@@ -243,6 +243,7 @@
 <li>set_color()
 : <a class="el" href="structotto_1_1board_1_1_emulator.html#a337641c483d48dba43d70bf9f98625d5">otto::board::Emulator</a>
 , <a class="el" href="structotto_1_1services_1_1_controller.html#a69ee091ec9a5361e5c7d0e1f6883bdbc">otto::services::Controller</a>
+, <a class="el" href="structotto_1_1services_1_1_mcu_fifo_controller.html#ae5a54a2194e3b8de9785768c7190dee2">otto::services::McuFifoController</a>
 , <a class="el" href="structotto_1_1services_1_1_pr_o_t_t_o1_serial_controller.html#ab1de90579d7b0a696a0349f1f719b912">otto::services::PrOTTO1SerialController</a>
 , <a class="el" href="structotto_1_1services_1_1test_1_1_dummy_controller.html#acd26ad4d85d01c1ff68726ca2e940db1">otto::services::test::DummyController</a>
 </li>
@@ -348,10 +349,12 @@
 </li>
 <li>Signal()
 : <a class="el" href="structotto_1_1util_1_1_signal.html#af2298dfdcb86405ba50a2485817cae30">otto::util::Signal&lt; Args &gt;</a>
-, <a class="el" href="structotto_1_1util_1_1_slot_ref.html#af340c3c147cf95e3e686e26b95f85c8d">otto::util::SlotRef&lt; Args &gt;</a>
 </li>
 <li>signal
 : <a class="el" href="structotto_1_1util_1_1_slot_ref.html#a1b186c6cd388fc2c7a563b4976a47efd">otto::util::SlotRef&lt; Args &gt;</a>
+</li>
+<li>Signal
+: <a class="el" href="structotto_1_1util_1_1_slot_ref.html#af340c3c147cf95e3e686e26b95f85c8d">otto::util::SlotRef&lt; Args &gt;</a>
 </li>
 <li>signals
 : <a class="el" href="structotto_1_1services_1_1_controller.html#aad1ff56e842fc0b3166f03c827f877fb">otto::services::Controller</a>
@@ -417,7 +420,7 @@
 : <a class="el" href="structotto_1_1util_1_1_signal_1_1_connection.html#af2df9c725cb09e89ac17671a26955174">otto::util::Signal&lt; Args &gt;::Connection</a>
 </li>
 <li>Slot()
-: <a class="el" href="structotto_1_1util_1_1_slot.html#a148d8372f139fb610e14a20e3c3aca29">otto::util::Slot</a>
+: <a class="el" href="structotto_1_1util_1_1_slot.html#a71a7b0d45da1dbde6cba7bea7afe85e5">otto::util::Slot</a>
 </li>
 <li>SlotRef
 : <a class="el" href="structotto_1_1util_1_1_signal.html#ab11f42b56ba850a6f2c40746b61848ad">otto::util::Signal&lt; Args &gt;</a>
@@ -466,7 +469,7 @@
 : <a class="el" href="structotto_1_1services_1_1_application.html#a6cabe4d04710e183836428b76379cc12">otto::services::Application</a>
 </li>
 <li>status()
-: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#a358356fb455b41f125bf4ea77bb14c45">otto::filesystem::directory_entry</a>
+: <a class="el" href="classotto_1_1filesystem_1_1directory__entry.html#ae280ad8ec57f71c0b8a809f7ba4ed107">otto::filesystem::directory_entry</a>
 </li>
 <li>stem()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#a1e26a39d3eb5c943d9bdcfba3b8d9ff5">otto::filesystem::path</a>
@@ -539,7 +542,7 @@
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#aca9c8f8cca393da29692262ab57bdbf2">otto::filesystem::path</a>
 </li>
 <li>stroke()
-: <a class="el" href="structotto_1_1nvg_1_1_canvas.html#a5243d52de40e837ec9b16d17daea7ba8">otto::nvg::Canvas</a>
+: <a class="el" href="structotto_1_1nvg_1_1_canvas.html#a637468c2532ff34e2a326586fb6cdf44">otto::nvg::Canvas</a>
 </li>
 <li>strokeRect()
 : <a class="el" href="structotto_1_1nvg_1_1_canvas.html#a808627c42a7bfcfb6875ae487ea44d44">otto::nvg::Canvas</a>
@@ -576,7 +579,7 @@
 : <a class="el" href="classotto_1_1board_1_1ui_1_1_e_g_l_connection.html#aee419c7831f49f0083b48829b1eeadd2">otto::board::ui::EGLConnection::EGLState</a>
 </li>
 <li>sustain()
-: <a class="el" href="class_a_d_s_r__lite.html#abe02824b141be4081bc550e32979f433">ADSR_lite&lt; Tv, Tp, Td &gt;</a>
+: <a class="el" href="class_a_d_s_r__lite.html#a461c4b53c93db21667ce738fa8e167bf">ADSR_lite&lt; Tv, Tp, Td &gt;</a>
 , <a class="el" href="structotto_1_1core_1_1voices_1_1details_1_1_envelope_props.html#af51163e3437dba522ab851011b912dca">otto::core::voices::details::EnvelopeProps</a>
 </li>
 <li>sustainDisable()
@@ -586,7 +589,7 @@
 : <a class="el" href="class_env__lite.html#a612eb7b695db511b4d44c0eae46e67e1">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
 </li>
 <li>sustainPoint()
-: <a class="el" href="class_env__lite.html#a83b7c292047640d5949511e4e0a94783">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
+: <a class="el" href="class_env__lite.html#aa130d95c593c9ce08a451714a790b741">Env_lite&lt; N, Tv, Tp, Td &gt;</a>
 </li>
 <li>swap()
 : <a class="el" href="classotto_1_1filesystem_1_1path.html#ada80d229a4e936955c5e4c4c4eebeb62">otto::filesystem::path</a>

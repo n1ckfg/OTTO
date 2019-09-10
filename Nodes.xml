@@ -8,32 +8,32 @@
        <Node>
         <Name>The hardware</Name>
         <Path>index.html</Path>
-        <Anchor>autotoc_md7</Anchor>
+        <Anchor>autotoc_md13</Anchor>
        </Node>
        <Node>
         <Name>Planned Features for v1.0</Name>
         <Path>index.html</Path>
-        <Anchor>autotoc_md8</Anchor>
+        <Anchor>autotoc_md14</Anchor>
        </Node>
        <Node>
         <Name>Screenshots:</Name>
         <Path>index.html</Path>
-        <Anchor>autotoc_md9</Anchor>
+        <Anchor>autotoc_md15</Anchor>
        </Node>
        <Node>
         <Name>The software</Name>
         <Path>index.html</Path>
-        <Anchor>autotoc_md10</Anchor>
+        <Anchor>autotoc_md16</Anchor>
        </Node>
        <Node>
         <Name>Getting Involved</Name>
         <Path>index.html</Path>
-        <Anchor>autotoc_md11</Anchor>
+        <Anchor>autotoc_md17</Anchor>
        </Node>
        <Node>
         <Name>Credits</Name>
         <Path>index.html</Path>
-        <Anchor>autotoc_md12</Anchor>
+        <Anchor>autotoc_md18</Anchor>
        </Node>
        <Node>
         <Name>Modules</Name>
@@ -9565,6 +9565,32 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>McuFifoController</Name>
+                <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>McuFifoController</Name>
+                  <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                  <Anchor>a0c43f73c7757782fcfcd0af03444367e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>set_color</Name>
+                  <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                  <Anchor>ae5a54a2194e3b8de9785768c7190dee2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>flush_leds</Name>
+                  <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                  <Anchor>a8fdc91dadb2b7da4d54d0bc95edd3409</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear_leds</Name>
+                  <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                  <Anchor>ab6c719f948895443b28649515a11d272</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>PresetManager</Name>
                 <Path>structotto_1_1services_1_1_preset_manager.html</Path>
                 <Subnodes>
@@ -11685,6 +11711,84 @@
                   <Name>message</Name>
                   <Path>structotto_1_1util_1_1exception.html</Path>
                   <Anchor>a756b5607be380b2e2a896116f874e0a6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>FIFO</Name>
+                <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>exception</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>a1377a0e2b545810853e2e6efb23ee935</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ErrorCode</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>ab83733dbfc12ebfd019b7d9cf0737875</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>empty_buffer</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>ab83733dbfc12ebfd019b7d9cf0737875a07df8e3ab6108b2fc6aebe4fe023400a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>error</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>ab83733dbfc12ebfd019b7d9cf0737875acb5e100e5a9a3e7f6d1fd97512215282</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>FIFO</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>af497bd50e2cca740fe25a3a1a32bb009</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~FIFO</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>ab2fdd6fa7b0d09b0051b5245be899da5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>write</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>abb728ed5c7c297e8b2a3ec7a15e2f915</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>ab7b4a15d355df51cef572aafb6d637a4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>a543ab3898b7d9ec14ec44d38397b46a2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>af5a84490a03cbd02e190aa675487f40c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read_single</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>a68bfa9cd9a9257f95eb5a2f8ebfd0c25</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>read_line</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>a050205dd94260d15fc3fa3c184c5ca5d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>path</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>a91eef62614f77b7ae9954e2145d8eb4a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>file_descriptor</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Anchor>ac390dfc17db00fc5cb4970accf0ee8a4</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -16890,6 +16994,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>otto::util::FIFO</Name>
+            <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+           </Node>
+           <Node>
             <Name>otto::filesystem::file_status</Name>
             <Path>classotto_1_1filesystem_1_1file__status.html</Path>
            </Node>
@@ -17575,20 +17683,16 @@
             <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4_1_1_props.html</Path>
            </Node>
            <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
-            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
-            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
-           </Node>
-           <Node>
             <Name>otto::engines::GossSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_goss_synth_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Wormhole::Props</Name>
             <Path>structotto_1_1engines_1_1_wormhole_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::effect &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::Master::Props</Name>
@@ -17621,6 +17725,10 @@
            <Node>
             <Name>otto::engines::PotionSynth::Props</Name>
             <Path>structotto_1_1engines_1_1_potion_synth_1_1_props.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::engine::NullEngine&lt; EngineType::synth &gt;::Props</Name>
+            <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4_1_1_props.html</Path>
            </Node>
            <Node>
             <Name>otto::engines::RhodesSynth::Props</Name>
@@ -17804,6 +17912,10 @@
                <Node>
                 <Name>otto::board::Emulator</Name>
                 <Path>structotto_1_1board_1_1_emulator.html</Path>
+               </Node>
+               <Node>
+                <Name>otto::services::McuFifoController</Name>
+                <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
                </Node>
                <Node>
                 <Name>otto::services::PrOTTO1SerialController</Name>
@@ -18173,12 +18285,12 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
-            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
-           </Node>
-           <Node>
             <Name>otto::core::props::mixin::hook&lt; void &gt;::type&lt; HookTag, Val, HO &gt;</Name>
             <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_3_01void_01_4_1_1type.html</Path>
+           </Node>
+           <Node>
+            <Name>otto::core::props::mixin::hook&lt; Argument &gt;::type&lt; HookTag, Val, HO &gt;</Name>
+            <Path>structotto_1_1core_1_1props_1_1mixin_1_1hook_1_1type.html</Path>
            </Node>
            <Node>
             <Name>otto::reflect::type_list&lt; Args &gt;</Name>
@@ -21138,7 +21250,57 @@
                          <Node>
                           <Name>BytesView</Name>
                           <Path>boards_2parts_2controller_2protto1-serial_2include_2board_2controller_8hpp.html</Path>
-                          <Anchor>a523b4d8e10953628215fa1c0f3a45ce5</Anchor>
+                          <Anchor>af5e82738d1eb60fe3fe050e4d0f23938</Anchor>
+                         </Node>
+                        </Subnodes>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>toot-mcu-fifo</Name>
+                  <Path>dir_2589727b1d19c2943fb98f0805fb7404.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>include</Name>
+                    <Path>dir_a16c32e292c67f169af160ea49d403d0.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>board</Name>
+                      <Path>dir_fa4a2b45d4096fbda4608cf2bf6d6f52.html</Path>
+                      <Subnodes>
+                       <Node>
+                        <Name>controller.hpp</Name>
+                        <Path>boards_2parts_2controller_2toot-mcu-fifo_2include_2board_2controller_8hpp.html</Path>
+                        <Subnodes>
+                         <Node>
+                          <Name>McuFifoController</Name>
+                          <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                          <Subnodes>
+                           <Node>
+                            <Name>McuFifoController</Name>
+                            <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                            <Anchor>a0c43f73c7757782fcfcd0af03444367e</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>set_color</Name>
+                            <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                            <Anchor>ae5a54a2194e3b8de9785768c7190dee2</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>flush_leds</Name>
+                            <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                            <Anchor>a8fdc91dadb2b7da4d54d0bc95edd3409</Anchor>
+                           </Node>
+                           <Node>
+                            <Name>clear_leds</Name>
+                            <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+                            <Anchor>ab6c719f948895443b28649515a11d272</Anchor>
+                           </Node>
+                          </Subnodes>
                          </Node>
                         </Subnodes>
                        </Node>
@@ -36200,6 +36362,100 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>fifo.hpp</Name>
+                <Path>fifo_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>FIFO</Name>
+                  <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>exception</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>a1377a0e2b545810853e2e6efb23ee935</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ErrorCode</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>ab83733dbfc12ebfd019b7d9cf0737875</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>empty_buffer</Name>
+                      <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                      <Anchor>ab83733dbfc12ebfd019b7d9cf0737875a07df8e3ab6108b2fc6aebe4fe023400a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>error</Name>
+                      <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                      <Anchor>ab83733dbfc12ebfd019b7d9cf0737875acb5e100e5a9a3e7f6d1fd97512215282</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>FIFO</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>af497bd50e2cca740fe25a3a1a32bb009</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~FIFO</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>ab2fdd6fa7b0d09b0051b5245be899da5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>write</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>abb728ed5c7c297e8b2a3ec7a15e2f915</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>ab7b4a15d355df51cef572aafb6d637a4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>a543ab3898b7d9ec14ec44d38397b46a2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>af5a84490a03cbd02e190aa675487f40c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read_single</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>a68bfa9cd9a9257f95eb5a2f8ebfd0c25</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>read_line</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>a050205dd94260d15fc3fa3c184c5ca5d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>path</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>a91eef62614f77b7ae9954e2145d8eb4a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>file_descriptor</Name>
+                    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+                    <Anchor>ac390dfc17db00fc5cb4970accf0ee8a4</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ConstBytesView</Name>
+                  <Path>fifo_8hpp.html</Path>
+                  <Anchor>af68909d14e83b8b6f9eefde3ac954a32</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>BytesView</Name>
+                  <Path>fifo_8hpp.html</Path>
+                  <Anchor>ad7b88945d9c1a1e68fc06f0068eb1f33</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>filesystem.hpp</Name>
                 <Path>filesystem_8hpp.html</Path>
                 <Subnodes>
@@ -41873,16 +42129,6 @@
                     <Anchor>af102033fceea6a0ec9f842e2a8847fac</Anchor>
                    </Node>
                   </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>ConstBytesView</Name>
-                  <Path>serial_8hpp.html</Path>
-                  <Anchor>afbe9b531e97eb461c056b19d20ddb8e0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>BytesView</Name>
-                  <Path>serial_8hpp.html</Path>
-                  <Anchor>aaa47bed3ea97a5e1333f19bcf1da7ca5</Anchor>
                  </Node>
                 </Subnodes>
                </Node>

@@ -1779,7 +1779,7 @@
       <Scope>otto::services</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1services.html</Path>
-    <Anchor>a523b4d8e10953628215fa1c0f3a45ce5</Anchor>
+    <Anchor>af5e82738d1eb60fe3fe050e4d0f23938</Anchor>
     <DeclaredIn>controller.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -3324,6 +3324,28 @@
     <Path>namespaceotto_1_1util.html</Path>
     <Anchor>a2392324f287ba6e38ba7d63dea6ee84d</Anchor>
     <DeclaredIn>exception.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ConstBytesView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1util.html</Path>
+    <Anchor>af68909d14e83b8b6f9eefde3ac954a32</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BytesView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util</Scope>
+    </TokenIdentifier>
+    <Path>namespaceotto_1_1util.html</Path>
+    <Anchor>ad7b88945d9c1a1e68fc06f0068eb1f33</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6564,28 +6586,6 @@
     <Path>group__reflection.html</Path>
     <Anchor>ga99aeace6914ae37b35df9ff7ce884af3</Anchor>
     <DeclaredIn>reflection.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ConstBytesView</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>afbe9b531e97eb461c056b19d20ddb8e0</Anchor>
-    <DeclaredIn>serial.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>BytesView</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::util</Scope>
-    </TokenIdentifier>
-    <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>aaa47bed3ea97a5e1333f19bcf1da7ca5</Anchor>
-    <DeclaredIn>serial.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42435,7 +42435,7 @@
       <Scope>otto::services</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1services.html</Path>
-    <Anchor>a523b4d8e10953628215fa1c0f3a45ce5</Anchor>
+    <Anchor>af5e82738d1eb60fe3fe050e4d0f23938</Anchor>
     <DeclaredIn>controller.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -44857,6 +44857,283 @@
     <Path>structotto_1_1core_1_1_service.html</Path>
     <Anchor>a488428329c96c3584e971b2ef9a1db3e</Anchor>
     <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::services::McuFifoController</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::services::McuFifoController</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>McuFifoController</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::McuFifoController</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+    <Anchor>a0c43f73c7757782fcfcd0af03444367e</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>set_color</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::McuFifoController</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+    <Anchor>ae5a54a2194e3b8de9785768c7190dee2</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>flush_leds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::McuFifoController</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+    <Anchor>a8fdc91dadb2b7da4d54d0bc95edd3409</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clear_leds</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::McuFifoController</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+    <Anchor>ab6c719f948895443b28649515a11d272</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Controller</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a79396d48978a34d72feade315d9fc8bd</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>is_pressed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>af932795ef00566ed2d47573572750c2e</Anchor>
+    <Abstract>Check if a key is currently pressed.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>register_key_handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a23761f456c9fb49876e8d89089de1180</Anchor>
+    <Abstract>Register a key handler.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>ae5c0f4d23d16f0ef33f57f506af9b5f4</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>acfd3a623101302483a3a5d2935c28f9d</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>af94912d23f484d7244c875400c96f21f</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Service</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>a90aacddc2a6f4c485307dc258ff11580</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>a7e99feabf0e6270be4b5b8a08971e305</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::core::Service</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1core_1_1_service.html</Path>
+    <Anchor>a488428329c96c3584e971b2ef9a1db3e</Anchor>
+    <DeclaredIn>service.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_or_dummy</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::McuFifoController</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_mcu_fifo_controller.html</Path>
+    <Anchor>a7a75bc86c28109d914600749fde0d8e7</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_dummy</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a5af3848e546f901a7abb79fe5ab45e6a</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>current</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a906fe938e4215a3c9ffc334c9a3f3959</Anchor>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KeyHandler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>aabae71a1371f1943e2755c1a294472ef</Anchor>
+    <Abstract>Function type for key handlers.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Event</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a79f3767875ac2ef94f5a2054c39f7c78</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EventBag</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>af257b77f1845ce105d134c6a2d76b3c5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>signals</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>aad1ff56e842fc0b3166f03c827f877fb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>keypress</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a7d46bf36f29913fe08c001b99c041aa7</Anchor>
+    <Abstract>Dispatches to the event handler for the current screen, and handles global keys.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>keyrelease</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a2c8b29c086b297ed1be3ef6ebe3a0a6a</Anchor>
+    <Abstract>Dispatches to the event handler for the current screen, and handles global keys.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>encoder</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>a3bf3eaa794d173b81e9bbc9393004a3d</Anchor>
+    <Abstract>Send encoder event.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>void ::otto::board::ui::handle_keyevent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::services::Controller</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1services_1_1_controller.html</Path>
+    <Anchor>ae71e3af96d8cb24d726e57a7dbd7e068</Anchor>
+    <Abstract>Temporary solution.</Abstract>
+    <DeclaredIn>controller.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -47782,8 +48059,8 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>afbe9b531e97eb461c056b19d20ddb8e0</Anchor>
-    <DeclaredIn>serial.hpp</DeclaredIn>
+    <Anchor>af68909d14e83b8b6f9eefde3ac954a32</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -47793,8 +48070,8 @@
       <Scope>otto::util</Scope>
     </TokenIdentifier>
     <Path>namespaceotto_1_1util.html</Path>
-    <Anchor>aaa47bed3ea97a5e1333f19bcf1da7ca5</Anchor>
-    <DeclaredIn>serial.hpp</DeclaredIn>
+    <Anchor>ad7b88945d9c1a1e68fc06f0068eb1f33</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -51206,6 +51483,157 @@
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1exception.html</Path>
     <Anchor>a756b5607be380b2e2a896116f874e0a6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>otto::util::FIFO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Abstract>FIFO port communication.</Abstract>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exception</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>a1377a0e2b545810853e2e6efb23ee935</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FIFO</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>af497bd50e2cca740fe25a3a1a32bb009</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~FIFO</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>ab2fdd6fa7b0d09b0051b5245be899da5</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>write</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>abb728ed5c7c297e8b2a3ec7a15e2f915</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>read</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>ab7b4a15d355df51cef572aafb6d637a4</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>read</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>a543ab3898b7d9ec14ec44d38397b46a2</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>read</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>af5a84490a03cbd02e190aa675487f40c</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>read_single</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>a68bfa9cd9a9257f95eb5a2f8ebfd0c25</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>read_line</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>a050205dd94260d15fc3fa3c184c5ca5d</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>path</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>a91eef62614f77b7ae9954e2145d8eb4a</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>file_descriptor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>ac390dfc17db00fc5cb4970accf0ee8a4</Anchor>
+    <DeclaredIn>fifo.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>empty_buffer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>ab83733dbfc12ebfd019b7d9cf0737875a07df8e3ab6108b2fc6aebe4fe023400a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>error</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>otto::util::FIFO</Scope>
+    </TokenIdentifier>
+    <Path>structotto_1_1util_1_1_f_i_f_o.html</Path>
+    <Anchor>ab83733dbfc12ebfd019b7d9cf0737875acb5e100e5a9a3e7f6d1fd97512215282</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
     <meta name="generator" content="Doxygen 1.8.17" />
     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-    <title>OTTO: /home/travis/build/topisani/OTTO/src/util/serial.hpp File Reference</title>
+    <title>OTTO: /home/travis/build/topisani/OTTO/src/util/fifo.hpp File Reference</title>
     <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
     <script type="text/javascript" src="jquery.powertip.min.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -70,9 +70,10 @@
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
-<div class="title">serial.hpp File Reference</div>  </div>
+<div class="title">fifo.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;gsl/span&gt;</code><br />
@@ -80,12 +81,12 @@
 <code>#include &lt;tl/expected.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="exception_8hpp_source.html">util/exception.hpp</a>&quot;</code><br />
 </div>
-<p><a href="serial_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="fifo_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_serial.html">otto::util::Serial</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structotto_1_1util_1_1_serial.html" title="Serial port communication.">Serial</a> port communication.  <a href="structotto_1_1util_1_1_serial.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structotto_1_1util_1_1_f_i_f_o.html">otto::util::FIFO</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structotto_1_1util_1_1_f_i_f_o.html" title="FIFO port communication.">FIFO</a> port communication.  <a href="structotto_1_1util_1_1_f_i_f_o.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -95,6 +96,13 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceotto_1_1util"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html">otto::util</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af68909d14e83b8b6f9eefde3ac954a32"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#af68909d14e83b8b6f9eefde3ac954a32">otto::util::ConstBytesView</a> = gsl::span&lt; const <a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/integer">std::uint8_t</a> &gt;</td></tr>
+<tr class="separator:af68909d14e83b8b6f9eefde3ac954a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b88945d9c1a1e68fc06f0068eb1f33"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceotto_1_1util.html#ad7b88945d9c1a1e68fc06f0068eb1f33">otto::util::BytesView</a> = gsl::span&lt; <a class="elRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/integer">std::uint8_t</a> &gt;</td></tr>
+<tr class="separator:ad7b88945d9c1a1e68fc06f0068eb1f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- HTML footer for doxygen 1.8.8-->
