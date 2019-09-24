@@ -14,6 +14,7 @@
 #include "engines/synths/OTTOFM/ottofm.hpp"
 #include "engines/synths/potion/potion.hpp"
 #include "engines/synths/rhodes/rhodes.hpp"
+#include "engines/synths/nuclear/nuclear.hpp"
 
 #include "services/application.hpp"
 #include "services/clock_manager.hpp"
@@ -45,7 +46,8 @@ namespace otto::services {
       engines::GossSynth,
       engines::RhodesSynth,
       engines::PotionSynth,
-      engines::OTTOFMSynth>;
+      engines::OTTOFMSynth,
+      engines::NuclearSynth>;
 
     SynthDispatcher synth{false};
     ArpDispatcher arpeggiator{true};
