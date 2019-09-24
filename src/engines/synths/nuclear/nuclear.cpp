@@ -29,7 +29,13 @@ namespace otto::engines {
   float NuclearSynth::Voice::operator()() noexcept
   {
     osc.freq(frequency());
+    //Get oscillator sample
     auto pls = osc.pulse();
+    //Get amp envelope
+    auto env = envelope();
+    // Set amp frequency
+    filter.set(props.filt_freq + env * props.env_amount);
+    // Filter oscillators
     return filter(pls);
     //else return osc.sawtri_quick();
   }
@@ -97,7 +103,7 @@ namespace otto::engines {
     case Encoder::blue:  engine.props.morph.step(e.steps); break;
     case Encoder::green:  engine.props.pw.step(e.steps); break;
     case Encoder::yellow: engine.props.filt_freq.step(e.steps); break;
-    case Encoder::red: break;
+    case Encoder::red: engine.props.env_amount.step(e.steps); break;
     }
   }
 
@@ -139,6 +145,16 @@ namespace otto::engines {
     ctx.fillStyle(Colours::Yellow);
     ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
     ctx.fillText(fmt::format("{:1.3}", engine.props.filt_freq), {width - x_pad, y_pad + 2 * space});
+
+    ctx.beginPath();
+    ctx.fillStyle(Colours::Red);
+    ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
+    ctx.fillText("Filt. Env.", {x_pad, y_pad + 3 * space});
+
+    ctx.beginPath();
+    ctx.fillStyle(Colours::Red);
+    ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
+    ctx.fillText(fmt::format("{:1.3}", engine.props.env_amount), {width - x_pad, y_pad + 3 * space});
 
   }
 } // namespace otto::engines

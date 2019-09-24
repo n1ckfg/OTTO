@@ -60,8 +60,8 @@ auto DoubleFilter<Tv,Tp,Td>::get_filter_params(float fr) {
     lpf = {20000.f, hi_res};
     hpf = {value_to_freq(val), hi_res};
   }
-  DLOGI("lpf: ({},{})", lpf.first, lpf.second);
-  DLOGI("hpf: ({},{})", hpf.first, hpf.second);
+  //DLOGI("lpf: ({},{})", lpf.first, lpf.second);
+  //DLOGI("hpf: ({},{})", hpf.first, hpf.second);
   return std::make_pair(lpf, hpf);
 }
 
@@ -92,5 +92,5 @@ auto DoubleFilter<Tv,Tp,Td>::get_mixing_params(float fr) {
     mL_ = 0;
   }
   mH_ = 1 - mL_;
-  DLOGI("mL: {}", mL_);
+  //DLOGI("mL: {}", mL_);
 }

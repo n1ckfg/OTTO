@@ -26,6 +26,8 @@ namespace otto::engines {
       Property<float> pw = {M_PI_2, limits(0.01, M_PI_2), step_size(0.01)};
       
       Property<float> filt_freq = {1, limits(0, 3.99), step_size(0.01)};
+      Property<float> env_amount = {0, limits(-1, 1), step_size(0.01)};
+
       DECL_REFLECTION(Props, filter);
     } props;
 
