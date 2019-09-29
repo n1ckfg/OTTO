@@ -3,7 +3,7 @@
 #include "core/engine/engine.hpp"
 
 #include "core/voices/voice_manager.hpp"
-
+#include "util/algorithm.hpp"
 #include "util/dsp/DoubleFilter.hpp"
 #include <Gamma/Oscillator.h>
 #include "util/dsp/oscillators.hpp"
@@ -16,19 +16,39 @@ namespace otto::engines {
   using namespace core::engine;
   using namespace props;
 
+  class WaveParams{
+  using param_point = std::array<float, 3>;
+  public:
+    WaveParams();
+    void set_center(float val);
+    auto get_params(float lfo_value);
+
+  private:
+    int lower_ = 0;
+    int upper_ = 0;
+    float frac_ = 0;
+    param_point cur_center_;
+    std::vector<param_point> center;
+    std::vector<param_point> deviation;
+  };
+
+
   struct NuclearSynth final : SynthEngine<NuclearSynth> {
     static constexpr util::string_ref name = "Nuclear";
 
     struct Props {
       Property<float> filter = {1, limits(0, 1), step_size(0.01)};
-      Property<bool> osc_type = {false};
+
+      Property<float, wrap> wave = {0, limits(0, 1), step_size(0.002)};
+
       Property<float> morph = {1, limits(-1, 1), step_size(0.01)};
-      Property<float> pw = {M_PI_2, limits(0.01, M_PI_2), step_size(0.01)};
+      Property<float> pw = {0.99, limits(0.01, 0.99), step_size(0.01)};
+      Property<float> mix = {0, limits(0, 1), step_size(0.01)};
       
       Property<float> filt_freq = {1, limits(0, 3.99), step_size(0.01)};
       Property<float> env_amount = {0, limits(-1, 1), step_size(0.01)};
 
-      DECL_REFLECTION(Props, filter);
+      DECL_REFLECTION(Props, wave, filter, env_amount);
     } props;
 
     NuclearSynth();
@@ -44,7 +64,10 @@ namespace otto::engines {
 
   private:
     struct Pre : voices::PreBase<Pre, Props> {
-      //gam::AccumPhase<> lfo;
+      gam::LFO<> lfo;
+      float lfo_value;
+
+      WaveParams wave_params;
 
       Pre(Props&) noexcept;
 

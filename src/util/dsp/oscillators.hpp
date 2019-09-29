@@ -29,11 +29,11 @@ public:
 	
 	Tv maxHarmonics() const;	///< Get number of harmonics below Nyquist based on current settings
 
-    Tv morph() const;           /// Get morph value
-    void morph(Tv val);         /// Set morph value
+	Tv morph() const;           /// Get morph value
+	void morph(Tv val);         /// Set morph value
 
-    Tv pulsewidth() const;      /// Gets pulsewidth
-    void pulsewidth(Tv val);    /// Sets pulsewidth
+	Tv pulsewidth() const;      /// Gets pulsewidth
+	void pulsewidth(Tv val);    /// Sets pulsewidth (]0-1], gets multiplied by pi/2)
 
 	void onDomainChange(double r);
 
@@ -178,7 +178,7 @@ template<class Tv, class Td> inline Tv DoubleBuzz<Tv, Td>::operator()(){
 	          2N  \   sin(0.5x)      /
 	*/
 	Tv theta = this->nextPhase();
-    Tv theta2 = gam::scl::wrapPhaseOnce(theta + w_);
+    Tv theta2 = gam::scl::wrapPhaseOnce(theta + w_ * M_PI_2);
 
 	Tv result;
 
