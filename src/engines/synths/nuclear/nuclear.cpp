@@ -11,6 +11,7 @@ namespace otto::engines {
    * Declarations
    */
   // Wave parameter logic
+  //Morph, PW, Mix
   WaveParams::WaveParams(){
     center = {
       {1, 0.01, 0},
@@ -26,18 +27,18 @@ namespace otto::engines {
     };
     //Max LFO amounts
     deviation = {
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1},
-      {0.1, 0.1, 0.1}
+      {0, 0, 0.25},
+      {0, 0.3, 0.5},
+      {0.66, 0.24, 0},
+      {0, 0.3, 0.03},
+      {0.1, 0, 0},
+      {0, 0.5, 0.03},
+      {0.1, 0.1, 0.15},
+      {0.4, 0.32, 0},
+      {0.17, 0.3, 0},
+      {0.4, 0.1, 0}
     };
-    
+    OTTO_ASSERT(center.size() == deviation.size());
   }
   void WaveParams::set_center(float val){
     //Todo: Find a less hacky way of making val=1 work
@@ -53,7 +54,7 @@ namespace otto::engines {
     util::transform(center[lower_], center[upper_].begin(), cur_center_.begin(), linear_interp);
   }
 
-  auto WaveParams::get_params(float lfo_value){
+  auto WaveParams::get_params(float lfo_value, float morph_scale, float pw_scale, float mix_scale){
      ///Get deviation
      //Transformation function
     auto linear_interp = [this](float a, float b){return a * (1 - frac_) + b * frac_; };
@@ -64,6 +65,11 @@ namespace otto::engines {
     util::transform(cur_center_, deviation_results.begin(), deviation_results.begin(), 
           [lfo_value](float a, float b){ return a + lfo_value * b;}
     );
+    /*
+    deviation_results[0] = cur_center_[0] + lfo_value * morph_scale;
+    deviation_results[1] = cur_center_[1] + lfo_value * pw_scale;
+    deviation_results[2] = cur_center_[2] + lfo_value * mix_scale;
+    */
     return deviation_results;
   }
 
@@ -98,8 +104,8 @@ namespace otto::engines {
     // Set amp frequency
     filter.set(props.filt_freq + env * props.env_amount);
     // Filter oscillators
-    //return filter(pls);
-    return tri * props.mix + pls * (1 - props.mix);
+    return filter( tri * props.mix + pls * (1 - props.mix) );
+    //return tri * props.mix + pls * (1 - props.mix);
     //else return osc.sawtri_quick();
   }
 
@@ -127,6 +133,16 @@ namespace otto::engines {
 
   NuclearSynth::Pre::Pre(Props& props) noexcept : PreBase(props)
   {
+    props.modulation.on_change().connect(
+      [this](float mod){
+        lfo.freq(mod * mod * 20);
+        //Set modulation amplitude
+        if (mod < 0.5)
+          mod_amp = 2 * mod;
+        else
+          mod_amp = 2 * (1 - mod);
+      }
+    );
     lfo.freq(1);
     props.wave.on_change().connect(
       [this](float w){
@@ -137,8 +153,8 @@ namespace otto::engines {
 
   void NuclearSynth::Pre::operator()() noexcept 
   {
-    lfo_value = lfo.tri();
-    auto new_params = wave_params.get_params(lfo_value);
+    lfo_value = lfo.tri() * mod_amp;
+    auto new_params = wave_params.get_params(lfo_value, props.morph_scale, props.pw_scale, props.mix_scale);
     this->props.morph.set(new_params[0]);
     this->props.pw.set(new_params[1]);
     this->props.mix.set(new_params[2]);
@@ -177,9 +193,13 @@ namespace otto::engines {
   {
     switch (e.encoder) {
     case Encoder::blue:  engine.props.wave.step(e.steps); break;
-    case Encoder::green:  engine.props.pw.step(e.steps); break;
-    case Encoder::yellow: engine.props.mix.step(e.steps); break;
-    //case Encoder::yellow: engine.props.filt_freq.step(e.steps); break;
+    /*
+    case Encoder::green:  engine.props.morph_scale.step(e.steps); break;
+    case Encoder::yellow: engine.props.pw_scale.step(e.steps); break;
+    case Encoder::red: engine.props.mix_scale.step(e.steps); break;
+    */
+    case Encoder::green: engine.props.modulation.step(e.steps); break;
+    case Encoder::yellow: engine.props.filt_freq.step(e.steps); break;
     case Encoder::red: engine.props.env_amount.step(e.steps); break;
     }
   }
@@ -196,37 +216,37 @@ namespace otto::engines {
     ctx.beginPath();
     ctx.fillStyle(Colours::Blue);
     ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Morph", {x_pad, y_pad});
+    ctx.fillText("Wave", {x_pad, y_pad});
 
     ctx.beginPath();
     ctx.fillStyle(Colours::Blue);
     ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.morph), {width - x_pad, y_pad});
+    ctx.fillText(fmt::format("{:1.3}", engine.props.wave), {width - x_pad, y_pad});
 
     ctx.beginPath();
     ctx.fillStyle(Colours::Green);
     ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("PW", {x_pad, y_pad + space});
+    ctx.fillText("Modulation", {x_pad, y_pad + space});
 
     ctx.beginPath();
     ctx.fillStyle(Colours::Green);
     ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.2}", engine.props.pw), {width - x_pad, y_pad + space});
+    ctx.fillText(fmt::format("{:1.2}", engine.props.modulation), {width - x_pad, y_pad + space});
 
     ctx.beginPath();
     ctx.fillStyle(Colours::Yellow);
     ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Mix", {x_pad, y_pad + 2 * space});
+    ctx.fillText("Filter", {x_pad, y_pad + 2 * space});
 
     ctx.beginPath();
     ctx.fillStyle(Colours::Yellow);
     ctx.textAlign(HorizontalAlign::Right, VerticalAlign::Middle);
-    ctx.fillText(fmt::format("{:1.3}", engine.props.mix), {width - x_pad, y_pad + 2 * space});
+    ctx.fillText(fmt::format("{:1.3}", engine.props.filt_freq), {width - x_pad, y_pad + 2 * space});
 
     ctx.beginPath();
     ctx.fillStyle(Colours::Red);
     ctx.textAlign(HorizontalAlign::Left, VerticalAlign::Middle);
-    ctx.fillText("Filt. Env.", {x_pad, y_pad + 3 * space});
+    ctx.fillText("Filt.Env.", {x_pad, y_pad + 3 * space});
 
     ctx.beginPath();
     ctx.fillStyle(Colours::Red);

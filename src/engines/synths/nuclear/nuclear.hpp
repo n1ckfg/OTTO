@@ -21,7 +21,7 @@ namespace otto::engines {
   public:
     WaveParams();
     void set_center(float val);
-    auto get_params(float lfo_value);
+    auto get_params(float lfo_value, float morph_scale, float pw_scale, float mix_scale);
 
   private:
     int lower_ = 0;
@@ -44,11 +44,17 @@ namespace otto::engines {
       Property<float> morph = {1, limits(-1, 1), step_size(0.01)};
       Property<float> pw = {0.99, limits(0.01, 0.99), step_size(0.01)};
       Property<float> mix = {0, limits(0, 1), step_size(0.01)};
+
+      Property<float> morph_scale = {0.1, limits(0,1), step_size(0.01)};
+      Property<float> pw_scale = {0.1, limits(0,1), step_size(0.01)};
+      Property<float> mix_scale = {0.1, limits(0,1), step_size(0.01)};
       
+      Property<float> modulation = {0, limits(0, 1), step_size(0.01)};
+
       Property<float> filt_freq = {1, limits(0, 3.99), step_size(0.01)};
       Property<float> env_amount = {0, limits(-1, 1), step_size(0.01)};
 
-      DECL_REFLECTION(Props, wave, filter, env_amount);
+      DECL_REFLECTION(Props, wave, modulation, filt_freq, env_amount);
     } props;
 
     NuclearSynth();
@@ -65,7 +71,8 @@ namespace otto::engines {
   private:
     struct Pre : voices::PreBase<Pre, Props> {
       gam::LFO<> lfo;
-      float lfo_value;
+      float lfo_value = 0;
+      float mod_amp = 0;
 
       WaveParams wave_params;
 
