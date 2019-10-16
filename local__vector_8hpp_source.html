@@ -187,10 +187,10 @@
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="comment">// reinterpret_cast legal in this case</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#if __cpp_lib_launder &gt;= 201606</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <span class="comment">// have std::launder for sure</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordflow">return</span> std::launder(reinterpret_cast&lt;value_type*&gt;(&amp;_data));</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordflow">return</span> std::launder(<span class="keyword">reinterpret_cast&lt;</span><a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/integer">value_type</a>*<span class="keyword">&gt;</span>(&amp;_data));</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="comment">// not sure, could&#39;ve std::launder either way</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordflow">return</span> reinterpret_cast&lt;value_type*&gt;(&amp;_data);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">reinterpret_cast&lt;</span><a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/integer">value_type</a>*<span class="keyword">&gt;</span>(&amp;_data);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    }</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
@@ -200,10 +200,10 @@
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="comment">// reinterpret_cast legal in this case</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">#if __cpp_lib_launder &gt;= 201606</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      <span class="comment">// have std::launder for sure</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      <span class="keywordflow">return</span> std::launder(reinterpret_cast&lt;const value_type*&gt;(&amp;_data));</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      <span class="keywordflow">return</span> std::launder(<span class="keyword">reinterpret_cast&lt;</span><span class="keyword">const </span><a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/integer">value_type</a>*<span class="keyword">&gt;</span>(&amp;_data));</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="comment">// not sure, could&#39;ve std::launder either way</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      <span class="keywordflow">return</span> reinterpret_cast&lt;const value_type*&gt;(&amp;_data);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">reinterpret_cast&lt;</span><span class="keyword">const </span><a class="codeRef" href="http://en.cppreference.com/w/namespacestd.html#cpp/types/integer">value_type</a>*<span class="keyword">&gt;</span>(&amp;_data);</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>

@@ -443,7 +443,7 @@
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    }</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160; </div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    settings_props.play_mode.on_change()</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;      .connect([<span class="keyword">this</span>](<a class="code" href="structotto_1_1core_1_1voices_1_1_i_voice_manager.html#acb966100766dd03324aee087a2a47b43">PlayMode</a> mode) {</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;      .connect([<span class="keyword">this</span>](<a class="code" href="structotto_1_1core_1_1voices_1_1_voice_manager.html#adaa8e04fe0eefd73d24c4e29851a57d3">PlayMode</a> mode) {</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="keywordflow">switch</span> (mode) {</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;          <span class="keywordflow">case</span> PlayMode::poly: voice_allocator = std::make_unique&lt;PolyAllocator&gt;(*<span class="keyword">this</span>); <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;          <span class="keywordflow">case</span> PlayMode::mono: voice_allocator = std::make_unique&lt;MonoAllocator&gt;(*<span class="keyword">this</span>); <span class="keywordflow">break</span>;</div>

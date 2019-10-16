@@ -243,12 +243,12 @@
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      Derived&amp; derived()</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">return</span> static_cast&lt;Derived&amp;&gt;(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>Derived&amp;<span class="keyword">&gt;</span>(*this);</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      }</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      <span class="keyword">const</span> Derived&amp; derived()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="keyword">      </span>{</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">return</span> static_cast&lt;const Derived&amp;&gt;(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Derived&amp;<span class="keyword">&gt;</span>(*this);</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      }</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    };</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
@@ -306,12 +306,12 @@
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      Derived&amp; derived()</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      {</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">return</span> static_cast&lt;Derived&amp;&gt;(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>Derived&amp;<span class="keyword">&gt;</span>(*this);</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      }</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      <span class="keyword">const</span> Derived&amp; derived()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="keyword">      </span>{</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">return</span> static_cast&lt;const Derived&amp;&gt;(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Derived&amp;<span class="keyword">&gt;</span>(*this);</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      }</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    };</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
@@ -403,12 +403,12 @@
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      Derived&amp; derived()</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;      {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="keywordflow">return</span> static_cast&lt;Derived&amp;&gt;(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>Derived&amp;<span class="keyword">&gt;</span>(*this);</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      }</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160; </div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;      <span class="keyword">const</span> Derived&amp; derived()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="keyword">      </span>{</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordflow">return</span> static_cast&lt;const Derived&amp;&gt;(*<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keyword">const </span>Derived&amp;<span class="keyword">&gt;</span>(*this);</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      }</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160; </div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    }; <span class="comment">// iterator_facade</span></div>

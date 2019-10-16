@@ -14674,42 +14674,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>what</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/what.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~exception</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/~exception.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator=</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/operator=.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>exception</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>instm</Type>
-      <Scope>std::exception</Scope>
-    </TokenIdentifier>
-    <Path>cpp/error/exception/exception.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>type_</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -16570,7 +16534,7 @@
       <Scope>otto::services::Controller</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_controller.html</Path>
-    <Anchor>aad1ff56e842fc0b3166f03c827f877fb</Anchor>
+    <Anchor>a032440c64977db5525e46d776d6f1922</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21986,7 +21950,7 @@
       <Scope>otto::board::ui::EGLConnection</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
-    <Anchor>a7fda030ecab11e8747dcbafa18737e74</Anchor>
+    <Anchor>a64b61cd89c4bca8bf7d9ef548b28ba8e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21996,7 +21960,7 @@
       <Scope>otto::board::ui::EGLConnection</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
-    <Anchor>ae586678c3ec2d4f17099f46e003655c2</Anchor>
+    <Anchor>a0ac83995cfd059eda727cf633cad7210</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -22006,7 +21970,7 @@
       <Scope>otto::board::ui::EGLConnection</Scope>
     </TokenIdentifier>
     <Path>classotto_1_1board_1_1ui_1_1_e_g_l_connection.html</Path>
-    <Anchor>a0143e368ce150625434a8027b6090aa1</Anchor>
+    <Anchor>a7ad7980dd8f805abfeab9f3df2b7ca46</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25358,7 +25322,7 @@
       <Scope>otto::core::engine::NullEngine&lt; EngineType::arpeggiator &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1arpeggiator_01_4.html</Path>
-    <Anchor>a93bbe79083248b48626e4f6b20bfac57</Anchor>
+    <Anchor>ad4f1674fda059fd9de910884f87b951e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25431,7 +25395,7 @@
       <Scope>otto::core::engine::NullEngine&lt; EngineType::effect &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1effect_01_4.html</Path>
-    <Anchor>a1bc16a33c57cd4eb6b21f5d6cb8f030d</Anchor>
+    <Anchor>a82a9baef972403e45c4c72aa1f59629c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -25515,7 +25479,7 @@
       <Scope>otto::core::engine::NullEngine&lt; EngineType::synth &gt;</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1engine_1_1_null_engine_3_01_engine_type_1_1synth_01_4.html</Path>
-    <Anchor>a1ee966a697c3421ab44e7426333d6fee</Anchor>
+    <Anchor>af3fec2330008edbe90ddccb7c7b9f931</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -30207,36 +30171,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>PlayMode</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::core::voices::IVoiceManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
-    <Anchor>acb966100766dd03324aee087a2a47b43</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>EnvelopeProps</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::core::voices::IVoiceManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
-    <Anchor>a9674587cf9346e786400d6250d516bbe</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SettingsProps</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>otto::core::voices::IVoiceManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
-    <Anchor>ab2d3d477d27e90cdf1ad054885a4a572</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>voice_count</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -30347,17 +30281,6 @@
     </TokenIdentifier>
     <Path>structotto_1_1core_1_1voices_1_1_voice_manager.html</Path>
     <Anchor>a312ae9b40508367b8a1c04cc8e5bf1ac</Anchor>
-    <DeclaredIn>voice_manager.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~IVoiceManager</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>otto::core::voices::IVoiceManager</Scope>
-    </TokenIdentifier>
-    <Path>structotto_1_1core_1_1voices_1_1_i_voice_manager.html</Path>
-    <Anchor>a4e4c87f4ea561a7259a88c168a563a45</Anchor>
     <DeclaredIn>voice_manager.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -30795,7 +30718,7 @@
       <Scope>otto::engines::Arp</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_arp.html</Path>
-    <Anchor>a267fb1b772bde8d1736af9c06fb29585</Anchor>
+    <Anchor>a30197f40c0f547883d607a2cee3f1bc4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -30928,7 +30851,7 @@
       <Scope>otto::engines::Chorus</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_chorus.html</Path>
-    <Anchor>ad42c9fb58234972ade1a1c33efcf83a2</Anchor>
+    <Anchor>ad49ff87331c1e84ac77310a7f9e25011</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31062,7 +30985,7 @@
       <Scope>otto::engines::Euclid</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_euclid.html</Path>
-    <Anchor>a69d1efd4ad3d0f40339172af21d5c2da</Anchor>
+    <Anchor>a33f1e18830313631910f0d58b543ff5e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31309,7 +31232,7 @@
       <Scope>otto::engines::GossSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_goss_synth.html</Path>
-    <Anchor>a59cca8e966cd5024630ceba5ea4fca6a</Anchor>
+    <Anchor>a12025627715d347242f12c32cc99fcb1</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31432,7 +31355,7 @@
       <Scope>otto::engines::Master</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_master.html</Path>
-    <Anchor>a51c57b45eeef1e956c898d09a072c32e</Anchor>
+    <Anchor>ad0df38ed557b21e619487b9253b422d9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31537,7 +31460,7 @@
       <Scope>otto::engines::OTTOFMSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_o_t_t_o_f_m_synth.html</Path>
-    <Anchor>a1637d79f1e8b54b5d1e39441a4b358ea</Anchor>
+    <Anchor>af0ea350ed3a25f078644dd525e2bb24f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -31943,7 +31866,7 @@
       <Scope>otto::engines::PotionSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_potion_synth.html</Path>
-    <Anchor>a1c5d3e08fb35af304ed3df271852a91a</Anchor>
+    <Anchor>a0b5a0e23ce2d5f271953646905b7a6df</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32314,7 +32237,7 @@
       <Scope>otto::engines::RhodesSynth</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_rhodes_synth.html</Path>
-    <Anchor>a372d8e7a5ad49caf25a2e9275f3ec43d</Anchor>
+    <Anchor>aa222c9ef9240b367174584227643b3f3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32482,7 +32405,7 @@
       <Scope>otto::engines::Sampler</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sampler.html</Path>
-    <Anchor>a684567d2d783ac3fb03a42c4e1dae75c</Anchor>
+    <Anchor>a3ffc1aff77152ab99ad809ae8ecd1e3c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32786,7 +32709,7 @@
       <Scope>otto::engines::Sends</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sends.html</Path>
-    <Anchor>a42d34c97ed34c67a5954294085241d87</Anchor>
+    <Anchor>ad84e48deabd1ae8b447d3d95c139ee8b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32921,7 +32844,7 @@
       <Scope>otto::engines::Sequencer</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_sequencer.html</Path>
-    <Anchor>aca2992ed3218aacfb677c69259211f26</Anchor>
+    <Anchor>a92a88638a870e35eb67d9acdcf604a75</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -33325,7 +33248,7 @@
       <Scope>otto::engines::Wormhole</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1engines_1_1_wormhole.html</Path>
-    <Anchor>a44b7c2416c687b1c18ff83f375cf0811</Anchor>
+    <Anchor>af6479a5116bacaf53f2080ee5dc96ad8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -41002,7 +40925,7 @@
       <Scope>otto::nvg::Paint</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1nvg_1_1_paint.html</Path>
-    <Anchor>a054026215defb09baff355b75cc0c017</Anchor>
+    <Anchor>a5c46f0e22d350ea83c4774c2e9760744</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -42785,7 +42708,7 @@
       <Scope>otto::services::Application</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_application.html</Path>
-    <Anchor>ac1176edd7080f0463691fced65d45d99</Anchor>
+    <Anchor>ae19967467dfddfa8f89da1f74cc2f532</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -43195,7 +43118,7 @@
       <Scope>otto::services::AudioManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-    <Anchor>a4dbefbea318a69ae811a3db2822ed79d</Anchor>
+    <Anchor>acc9e96b46b235582b08a6cbbd36ed95b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -43680,7 +43603,7 @@
       <Scope>otto::services::Controller</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_controller.html</Path>
-    <Anchor>aad1ff56e842fc0b3166f03c827f877fb</Anchor>
+    <Anchor>a032440c64977db5525e46d776d6f1922</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44000,7 +43923,7 @@
       <Scope>otto::services::UIManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a3fa2f0664330e71917aa9d3bd42d61a9</Anchor>
+    <Anchor>ad2b8108a8716141405cb52b61851aff5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -44377,7 +44300,7 @@
       <Scope>otto::services::UIManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a3fa2f0664330e71917aa9d3bd42d61a9</Anchor>
+    <Anchor>ad2b8108a8716141405cb52b61851aff5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45085,7 +45008,7 @@
       <Scope>otto::services::Controller</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_controller.html</Path>
-    <Anchor>aad1ff56e842fc0b3166f03c827f877fb</Anchor>
+    <Anchor>a032440c64977db5525e46d776d6f1922</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45562,7 +45485,7 @@
       <Scope>otto::services::Controller</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_controller.html</Path>
-    <Anchor>aad1ff56e842fc0b3166f03c827f877fb</Anchor>
+    <Anchor>a032440c64977db5525e46d776d6f1922</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -46015,7 +45938,7 @@
       <Scope>otto::services::AudioManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-    <Anchor>a4dbefbea318a69ae811a3db2822ed79d</Anchor>
+    <Anchor>acc9e96b46b235582b08a6cbbd36ed95b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -46549,7 +46472,7 @@
       <Scope>otto::services::UIManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a3fa2f0664330e71917aa9d3bd42d61a9</Anchor>
+    <Anchor>ad2b8108a8716141405cb52b61851aff5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -46938,7 +46861,7 @@
       <Scope>otto::services::AudioManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_audio_manager.html</Path>
-    <Anchor>a4dbefbea318a69ae811a3db2822ed79d</Anchor>
+    <Anchor>acc9e96b46b235582b08a6cbbd36ed95b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -47195,7 +47118,7 @@
       <Scope>otto::services::Controller</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_controller.html</Path>
-    <Anchor>aad1ff56e842fc0b3166f03c827f877fb</Anchor>
+    <Anchor>a032440c64977db5525e46d776d6f1922</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -47932,7 +47855,7 @@
       <Scope>otto::services::UIManager</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1services_1_1_u_i_manager.html</Path>
-    <Anchor>a3fa2f0664330e71917aa9d3bd42d61a9</Anchor>
+    <Anchor>ad2b8108a8716141405cb52b61851aff5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -52905,7 +52828,7 @@
       <Scope>otto::util::ref_vec</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1ref__vec.html</Path>
-    <Anchor>ab046e10356a181cd49dd6bbccb1321f0</Anchor>
+    <Anchor>a45b29d106bcd140c0dd1f8bfd16f1db7</Anchor>
     <DeclaredIn>ptr_vec.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52916,7 +52839,7 @@
       <Scope>otto::util::ref_vec</Scope>
     </TokenIdentifier>
     <Path>structotto_1_1util_1_1ref__vec.html</Path>
-    <Anchor>af4854c561049a42c111d54bebfb792b3</Anchor>
+    <Anchor>ac50b995b8e07828dc104ea788848101e</Anchor>
     <DeclaredIn>ptr_vec.hpp</DeclaredIn>
   </Token>
   <Token>
